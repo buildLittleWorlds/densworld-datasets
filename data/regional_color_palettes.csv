@@ -1,0 +1,56 @@
+palette_id,tradition_name,tradition_type,role,color_name,hex_code,rgb_values,source_material,usage_notes,contrast_pair,compiler
+RCP-001,Geometric School,core_school,primary,Dark Slate,#1A202C,"26,32,44",Iron gall ink (concentrated),Main drawing lines and text,Light Gray background,Mellick Orn
+RCP-002,Geometric School,core_school,secondary,Medium Gray,#4A5568,"74,85,104",Densgrit pigment,Secondary elements and shading,Dark Slate primary,Mellick Orn
+RCP-003,Geometric School,core_school,accent,Deep Blue,#2B6CB0,"43,108,176",Archive compound blue,Emphasis and defined terms,Muted Red accent,Mellick Orn
+RCP-004,Geometric School,core_school,accent_alt,Muted Red,#C53030,"197,48,48",Processed iron oxide,Errors and warnings,Deep Blue accent,Mellick Orn
+RCP-005,Geometric School,core_school,background,White,#FFFFFF,"255,255,255",Archive paper,Primary background,Dark Slate primary,Mellick Orn
+RCP-006,Geometric School,core_school,background_alt,Light Gray,#F7FAFC,"247,250,252",Archive paper (aged),Alternative background,Medium Gray secondary,Mellick Orn
+RCP-007,Organic School,core_school,primary,Forest Green,#276749,"39,103,73",Toadpipe bile (processed),Main organic forms,Soft Cream background,Sera Lindahl
+RCP-008,Organic School,core_school,secondary,Teal,#319795,"49,151,149",Greybeakeel scale compound,Flow lines and connections,Forest Green primary,Sera Lindahl
+RCP-009,Organic School,core_school,accent,Warm Amber,#D69E2E,"214,158,46",Knocker-bug gold (diluted),Highlights and energy points,Teal secondary,Sera Lindahl
+RCP-010,Organic School,core_school,background,Soft Cream,#FEFCBF,"254,252,191",Aged parchment wash,Primary warm background,Forest Green primary,Sera Lindahl
+RCP-011,Cartographic Guild,core_school,low_elevation,Deep Blue,#2C5282,"44,82,130",Archive compound blue,Low elevation and water,Deep Red maximum,Torven Gull
+RCP-012,Cartographic Guild,core_school,medium_low,Teal,#319795,"49,151,149",Greybeakeel scale compound,Medium-low elevation,Deep Blue low,Torven Gull
+RCP-013,Cartographic Guild,core_school,medium,Yellow,#ECC94B,"236,201,75",Knocker-bug gold compound,Medium elevation,Teal medium-low,Torven Gull
+RCP-014,Cartographic Guild,core_school,medium_high,Orange,#DD6B20,"221,107,32",Quarry ochre (bright),Medium-high elevation,Yellow medium,Torven Gull
+RCP-015,Cartographic Guild,core_school,maximum,Deep Red,#C53030,"197,48,48",Maw beast pigment,Maximum elevation and peaks,Orange medium-high,Torven Gull
+RCP-016,Cartographic Guild,core_school,background,Parchment,#F5DEB3,"245,222,179",Survey-grade stock (aged),Survey map background,All elevation colors,Torven Gull
+RCP-017,Notation Scribes,core_school,primary,Black,#1A202C,"26,32,44",Iron gall ink (standard),Main text and equations,White background,Alleth Vorn
+RCP-018,Notation Scribes,core_school,defined,Blue,#2B6CB0,"43,108,176",Archive compound blue,Defined terms,Green derived,Alleth Vorn
+RCP-019,Notation Scribes,core_school,derived,Green,#276749,"39,103,73",Toadpipe bile (processed),Derived quantities,Blue defined,Alleth Vorn
+RCP-020,Notation Scribes,core_school,error,Red,#C53030,"197,48,48",Processed iron oxide,Errors and corrections,All other colors,Alleth Vorn
+RCP-021,Notation Scribes,core_school,background,White,#FFFFFF,"255,255,255",Archive paper,Publication background,Black primary,Alleth Vorn
+RCP-022,Capital Archive Style,regional_variant,primary,Archive Black,#1A202C,"26,32,44",Iron gall ink (standard),Manuscript text,Archive White background,Archive Standards
+RCP-023,Capital Archive Style,regional_variant,secondary,Archive Gray,#4A5568,"74,85,104",Densgrit pigment (fine),Secondary notation,Archive Black primary,Archive Standards
+RCP-024,Capital Archive Style,regional_variant,accent,Archive Blue,#2B6CB0,"43,108,176",Archive compound blue,MS-XXXX identifiers,Archive Gray secondary,Archive Standards
+RCP-025,Capital Archive Style,regional_variant,background,Archive White,#FFFFFF,"255,255,255",Archive-standard paper,Formal documents,Archive Black primary,Archive Standards
+RCP-026,Capital Archive Style,regional_variant,background_alt,Archive Cream,#FEF3C7,"254,243,199",Archive parchment,Important works,Archive Black primary,Archive Standards
+RCP-027,Yeller Quarry Field,regional_variant,primary,Rust Brown,#8B4513,"139,69,19",Quarry rust pigment,Main field sketches,Rough Paper background,Quarry Crews
+RCP-028,Yeller Quarry Field,regional_variant,secondary,Field Gray,#4A5568,"74,85,104",Mixed Dens-derived,Shading and notes,Rust Brown primary,Quarry Crews
+RCP-029,Yeller Quarry Field,regional_variant,accent,Quarry Gold,#D69E2E,"214,158,46",Knocker-bug gold (field),Highlights and markers,Field Gray secondary,Quarry Crews
+RCP-030,Yeller Quarry Field,regional_variant,background,Rough Paper,#DEB887,"222,184,135",Quarry-sourced paper,Field notebook base,Rust Brown primary,Quarry Crews
+RCP-031,Cartographer's Guild Practice,regional_variant,boundary,Survey Blue,#2C5282,"44,82,130",Archive compound blue,Boundary lines,Survey Parchment background,Cartographer's Guild
+RCP-032,Cartographer's Guild Practice,regional_variant,elevation,Survey Yellow,#ECC94B,"236,201,75",Knocker-bug gold compound,Elevation wash,Survey Blue boundary,Cartographer's Guild
+RCP-033,Cartographer's Guild Practice,regional_variant,hazard,Survey Orange,#DD6B20,"221,107,32",Quarry ochre (bright),Hazard indication,Survey Yellow elevation,Cartographer's Guild
+RCP-034,Cartographer's Guild Practice,regional_variant,background,Survey Parchment,#F5DEB3,"245,222,179",Survey-grade stock,Map substrate,All survey colors,Cartographer's Guild
+RCP-035,Cartographer's Guild Practice,regional_variant,observer,Observer Red,#DC2626,"220,38,38",Processed iron oxide,Observer notation per Dens Principles,Survey Blue boundary,Cartographer's Guild
+RCP-036,Densmok Commercial,regional_variant,primary,Commercial Orange,#DD6B20,"221,107,32",Crash Liquor orange (synthetic),Primary eye-catching,Commercial White background,Commercial Illustrators
+RCP-037,Densmok Commercial,regional_variant,secondary,Commercial Yellow,#ECC94B,"236,201,75",Synthetic gold compound,Secondary appeal,Commercial Orange primary,Commercial Illustrators
+RCP-038,Densmok Commercial,regional_variant,accent,Commercial Red,#C53030,"197,48,48",Synthetic crimson,Emphasis and urgency,Commercial Yellow secondary,Commercial Illustrators
+RCP-039,Densmok Commercial,regional_variant,background,Commercial White,#FFFFFF,"255,255,255",Commercial paper,Clean selling background,Commercial Orange primary,Commercial Illustrators
+RCP-040,Trove Specification,extended_application,dens_black,Densmuck Black,#1A1A1A,"26,26,26",Densmuck pigment,Absolute darkness and void,Densash Pale contrast,Kelleth Trove
+RCP-041,Trove Specification,extended_application,dens_gray,Densgrit Gray,#6B7280,"107,114,128",Densgrit pigment,Unstable terrain,Densmuck Black contrast,Kelleth Trove
+RCP-042,Trove Specification,extended_application,dens_pale,Densash Pale,#D1D5DB,"209,213,219",Densash pigment,Mystery and concealment,Densmuck Black contrast,Kelleth Trove
+RCP-043,Trove Specification,extended_application,quarry_rust,Quarry Ochre,#B45309,"180,83,9",Quarry iron oxide,Warm earth creature tones,Dens materials contrast,Kelleth Trove
+RCP-044,Trove Specification,extended_application,creature_gold,Knocker-bug Gold,#CA8A04,"202,138,4",Knocker-bug specimens,Metallic creature elements,Quarry Ochre complement,Kelleth Trove
+RCP-045,Trove Specification,extended_application,creature_red,Knocker-bug Red,#B91C1C,"185,28,28",Knocker-bug red spots,Warning and danger spots,Knocker-bug Gold complement,Kelleth Trove
+RCP-046,Trove Specification,extended_application,tower_steel,Tower Steel,#9CA3AF,"156,163,175",Tower of Mirado particles,Technological elements,Tower Blue complement,Kelleth Trove
+RCP-047,Trove Specification,extended_application,tower_light,Fountain Blue,#60A5FA,"96,165,250",Tower fountain residue,Light and luminescence,Tower Steel complement,Kelleth Trove
+RCP-048,Geometric-Cartographic Hybrid,hybrid_style,primary,Slate,#1A202C,"26,32,44",Iron gall ink,Precise terrain lines,Elevation Yellow contrast,Keth Diagrams
+RCP-049,Geometric-Cartographic Hybrid,hybrid_style,terrain,Terrain Blue,#2C5282,"44,82,130",Archive compound blue,Basin topology low,Slate primary contrast,Keth Diagrams
+RCP-050,Geometric-Cartographic Hybrid,hybrid_style,elevation,Elevation Yellow,#ECC94B,"236,201,75",Knocker-bug compound,Basin topology high,Terrain Blue contrast,Keth Diagrams
+RCP-051,Geometric-Cartographic Hybrid,hybrid_style,background,Precise White,#F7FAFC,"247,250,252",Archive paper,Mathematical terrain base,All terrain colors,Keth Diagrams
+RCP-052,Organic-Notation Hybrid,hybrid_style,flow,Flow Green,#276749,"39,103,73",Toadpipe bile,Flowing forms,Label Black contrast,Teaching Materials
+RCP-053,Organic-Notation Hybrid,hybrid_style,connection,Connection Teal,#319795,"49,151,149",Greybeakeel compound,Dynamic connections,Flow Green complement,Teaching Materials
+RCP-054,Organic-Notation Hybrid,hybrid_style,label,Label Black,#1A202C,"26,32,44",Iron gall ink,Integrated equations,Flow Green contrast,Teaching Materials
+RCP-055,Organic-Notation Hybrid,hybrid_style,background,Warm Gradient,#FEFCBF,"254,252,191",Aged parchment wash,Breathing mathematics base,All flow colors,Teaching Materials
