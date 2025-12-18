@@ -1,0 +1,201 @@
+measurement_id,coord_x,coord_y,coord_z,region_name,nearest_basin_id,gaussian_curvature,mean_curvature,principal_curvature_1,principal_curvature_2,curvature_type,distinguishability,stability_influence,dens_correlation,physical_region,measurement_year,measurement_method,surveyor,confidence,notes
+LC-0001,0.45,0.32,0.18,The Quintic Basin Center,BA-001,1.753,0.67,1.013,0.326,spherical,0.65,0.66,0.19,stable_interior,918,form_triangulation,C. Vells,0.92,Deep positive curvature at basin center. High stability.
+LC-0002,0.5,0.42,0.22,The Gap,BA-003,-0.6,0.555,0.918,0.193,hyperbolic,0.85,-0.05,0.38,boundary_zone,918,form_triangulation,C. Vells,0.94,Between Quintic and Tension basins. Negative curvature ~0.15 units wide. No stable forms.
+LC-0003,0.4,0.47,0.27,Quintic-Northern Ridge,BA-003,-0.6,-0.089,-0.025,-0.154,hyperbolic,0.82,-0.18,0.07,boundary_zone,918,form_triangulation,C. Vells,0.85,Ridge region with negative curvature. Resists crossing.
+LC-0004,0.1,0.7,0.5,Dens Boundary Zone,BA-033,-0.6,0.197,0.319,0.075,hyperbolic,0.71,-0.12,0.75,dens_adjacent,918,form_triangulation,C. Vells,0.91,High negative curvature. Dens-correlated. Unstable forms.
+LC-0005,-0.52,-0.41,0.08,Binary Basin Center,BA-002,1.237,0.347,0.484,0.21,spherical,0.56,0.29,-0.09,stable_interior,918,form_triangulation,C. Vells,0.95,Deepest basin. Highest positive curvature.
+LC-0006,0.65,0.6,0.85,Five-Body Isolation Zone,BA-005,1.0,0.77,0.896,0.643,mixed,0.53,0.33,0.48,boundary_zone,918,form_triangulation,C. Vells,0.89,Narrow isthmus connecting isolated basin. Mixed curvature.
+LC-0007,-0.8,-0.8,-0.8,Near 047,BA-047,-1.304,-0.752,-0.242,-1.262,hyperbolic,0.81,-0.2,0,unknown,927,form_triangulation,T. Vells,0.88,Dens correlation suggests boundary thinning.
+LC-0008,-0.8,-0.8,-0.4,Between 047 and 031,BA-047,-0.252,-0.373,-0.338,-0.407,mixed,0.62,-0.06,0,boundary_zone,927,geodesic_deviation,C. Vells,0.83,Adjacent to ridge RG-014.
+LC-0009,-0.8,-0.8,0.8,Ridge Point 166,BA-049,-1.69,-1.103,-1.029,-1.176,hyperbolic,0.93,-0.52,0,unknown,919,geodesic_deviation,K. Strand,0.9,
+LC-0010,-0.8,-0.6,-0.8,Near 040,BA-040,-2.318,-1.262,-1.165,-1.359,hyperbolic,0.98,-0.62,-0.27,unknown,927,parallel_transport,K. Strand,0.74,Dens correlation suggests boundary thinning.
+LC-0011,-0.8,-0.4,0.8,Ridge Point 30,BA-049,-1.7,-0.893,-0.444,-1.342,hyperbolic,1.0,-0.39,0.04,boundary_zone,928,geodesic_deviation,Esseny Moll,0.77,Geodesic deviation matches curvature prediction.
+LC-0012,-0.8,-0.2,-0.8,Ridge Point 665,BA-048,-1.569,-0.892,-0.479,-1.306,hyperbolic,1.0,-0.54,-0.22,boundary_zone,918,theoretical,Boundary Commission,0.83,Forms blur together here due to low curvature.
+LC-0013,-0.8,0.0,-0.4,030 Outer Region,BA-030,-0.681,-0.466,-0.412,-0.519,hyperbolic,0.85,-0.13,-0.04,stable_interior,919,parallel_transport,Curvature Mapping Project,0.82,Distinguishability high in this region.
+LC-0014,-0.8,0.0,0.4,Near 030,BA-030,-1.358,-0.736,-0.577,-0.895,hyperbolic,0.97,-0.5,0,unknown,929,form_triangulation,T. Vells,0.78,Stability influence positive; forms stabilize.
+LC-0015,-0.8,0.2,-0.8,Survey Point 1,BA-048,-0.254,-0.316,-0.195,-0.437,mixed,0.53,0.12,-0.02,stable_interior,930,geodesic_deviation,Morren Kast,0.6,Stability influence positive; forms stabilize.
+LC-0016,-0.8,0.2,0.8,Between 028 and 030,BA-028,-2.089,-0.834,-0.676,-0.991,hyperbolic,1.0,-0.47,0.08,boundary_zone,929,parallel_transport,Western Archive Team,0.91,Near saddle point SP-076.
+LC-0017,-0.8,0.4,-0.8,Curvature Grid 0-7,BA-048,0.022,-0.082,-0.037,-0.127,flat,0.25,-0.1,-0.09,stable_interior,918,parallel_transport,Western Archive Team,0.75,Parallel transport test confirms geometry.
+LC-0018,-0.8,0.4,-0.4,Between 012 and 010,BA-012,-0.319,0.099,0.167,0.03,mixed,0.47,-0.28,0.02,unknown,924,theoretical,C. Vells,0.95,Stability influence positive; forms stabilize.
+LC-0019,-0.8,0.4,0.0,Ridge Point 698,BA-016,-0.426,-0.419,-0.17,-0.669,mixed,0.54,-0.19,0.07,boundary_zone,920,geodesic_deviation,C. Vells,0.87,Forms blur together here due to low curvature.
+LC-0020,-0.8,0.8,-0.4,Between 038 and 022,BA-038,-0.03,0.177,0.286,0.067,flat,0.21,0.1,0.01,stable_interior,922,form_triangulation,Archive Survey Team,0.64,
+LC-0021,-0.6,-0.8,-0.4,Point LC-722,BA-047,-0.226,0.048,0.225,-0.129,mixed,0.54,0.12,-0.23,boundary_zone,923,parallel_transport,K. Strand,0.8,Geodesic deviation matches curvature prediction.
+LC-0022,-0.6,-0.8,0.0,Between 047 and 027,BA-047,-0.313,-0.295,0.05,-0.639,mixed,0.63,-0.02,-0.12,boundary_zone,928,geodesic_deviation,Esseny Moll,0.59,Curvature consistent across multiple surveys.
+LC-0023,-0.6,-0.8,0.4,Ridge Point 683,BA-049,-0.489,-0.524,-0.347,-0.701,mixed,0.59,-0.01,-0.36,stable_interior,928,form_triangulation,Western Archive Team,0.62,Measured Year 928.
+LC-0024,-0.6,-0.6,-0.4,Outer Morphospace Zone,BA-040,-0.407,0.017,0.239,-0.206,mixed,0.52,-0.18,-0.21,stable_interior,930,geodesic_deviation,C. Vells,0.93,Adjacent to ridge RG-010.
+LC-0025,-0.6,-0.2,0.4,Shallow Morphospace Zone,BA-002,-1.349,-0.944,-0.859,-1.028,hyperbolic,0.94,-0.59,0.03,stable_interior,921,form_triangulation,C. Vells,0.61,Adjacent to ridge RG-036.
+LC-0026,-0.6,0.0,-0.4,Flat Morphospace Zone,BA-012,-0.629,-0.247,0.265,-0.76,hyperbolic,0.7,-0.37,0,boundary_zone,929,form_triangulation,Boundary Commission,0.7,Geodesic deviation matches curvature prediction.
+LC-0027,-0.6,0.0,0.0,Ridge Point 285,BA-016,-0.903,-0.634,-0.016,-1.252,hyperbolic,0.8,-0.4,-0.11,unknown,929,theoretical,Morren Kast,0.64,
+LC-0028,-0.6,0.2,0.0,Ridge Point 441,BA-016,0.084,-0.083,0.005,-0.171,flat,0.25,0.13,0.23,boundary_zone,920,form_triangulation,K. Strand,0.67,Adjacent to ridge RG-121.
+LC-0029,-0.6,0.2,0.4,020 Outer Region,BA-020,-0.832,-0.349,0.31,-1.008,hyperbolic,0.83,-0.12,0.33,boundary_zone,921,form_triangulation,T. Vells,0.77,Parallel transport test confirms geometry.
+LC-0030,-0.6,0.4,0.0,Near 016,BA-016,0.705,0.525,0.551,0.5,spherical,0.42,0.1,0,stable_interior,931,form_triangulation,Curvature Mapping Project,0.82,Near saddle point SP-021.
+LC-0031,-0.6,0.6,-0.4,Near 038,BA-038,-0.329,-0.417,0.291,-1.125,mixed,0.64,-0.15,-0.04,boundary_zone,918,theoretical,Boundary Commission,0.61,Geodesic deviation matches curvature prediction.
+LC-0032,-0.6,0.6,0.8,028 Outer Region,BA-028,-0.631,-0.261,0.115,-0.637,hyperbolic,0.87,-0.28,0.08,stable_interior,920,geodesic_deviation,Esseny Moll,0.58,Measured Year 920.
+LC-0033,-0.6,0.8,0.4,Survey Point 531,BA-028,-0.042,0.1,0.135,0.065,flat,0.34,0.05,-0.05,boundary_zone,922,geodesic_deviation,C. Vells,0.84,Stability influence positive; forms stabilize.
+LC-0034,-0.4,-0.8,-0.8,Survey Point 605,BA-024,-1.649,-0.54,-0.494,-0.586,hyperbolic,0.92,-0.63,-0.35,stable_interior,925,parallel_transport,C. Vells,0.63,Adjacent to ridge RG-046.
+LC-0035,-0.4,-0.8,-0.4,Point LC-312,BA-024,0.191,-0.157,-0.136,-0.178,mixed,0.63,-0.07,0,stable_interior,924,parallel_transport,Archive Survey Team,0.82,Stability influence positive; forms stabilize.
+LC-0036,-0.4,-0.8,0.0,Survey Point 369,BA-026,-0.465,-0.514,0.043,-1.07,mixed,0.55,-0.16,-0.14,boundary_zone,923,geodesic_deviation,T. Vells,0.69,Distinguishability high in this region.
+LC-0037,-0.4,-0.8,0.4,Near 026,BA-026,-0.094,-0.23,-0.228,-0.232,flat,0.35,0.14,0,unknown,923,parallel_transport,T. Vells,0.72,
+LC-0038,-0.4,-0.6,0.4,Between 026 and 012,BA-026,-0.365,-0.426,-0.206,-0.646,mixed,0.58,-0.11,0,unknown,924,form_triangulation,Western Archive Team,0.88,Stability influence positive; forms stabilize.
+LC-0039,-0.4,-0.4,-0.8,Survey Point 434,BA-024,-1.482,-0.576,-0.543,-0.608,hyperbolic,0.93,-0.55,-0.22,boundary_zone,926,parallel_transport,Esseny Moll,0.75,
+LC-0040,-0.4,-0.4,0.4,Ridge Point 100,BA-002,-0.442,0.009,0.266,-0.248,mixed,0.57,-0.21,0.06,stable_interior,924,form_triangulation,C. Vells,0.73,Near saddle point SP-090.
+LC-0041,-0.4,-0.2,-0.4,Curvature Grid 3-4,BA-027,-0.21,-0.153,0.326,-0.633,mixed,0.35,-0.17,-0.05,boundary_zone,930,parallel_transport,Esseny Moll,0.71,
+LC-0042,-0.4,0.0,0.4,009 Outer Region,BA-009,-1.029,-0.565,-0.504,-0.627,hyperbolic,0.8,-0.16,0.1,boundary_zone,929,geodesic_deviation,Western Archive Team,0.9,Distinguishability high in this region.
+LC-0043,-0.4,0.2,-0.4,012 Outer Region,BA-012,-1.293,-0.384,-0.301,-0.466,hyperbolic,0.95,-0.29,0,unknown,921,parallel_transport,Archive Survey Team,0.72,Measured Year 921.
+LC-0044,-0.4,0.2,0.0,Ridge Point 535,BA-020,-0.183,-0.203,0.048,-0.454,mixed,0.44,0.12,-0.09,unknown,919,form_triangulation,Boundary Commission,0.94,Adjacent to ridge RG-055.
+LC-0045,-0.4,0.2,0.8,Point LC-278,BA-009,-1.015,-0.542,-0.218,-0.866,hyperbolic,0.94,-0.45,-0.06,boundary_zone,925,geodesic_deviation,K. Strand,0.86,Forms blur together here due to low curvature.
+LC-0046,-0.4,0.4,-0.4,Survey Point 14,BA-015,0.166,0.374,0.419,0.328,mixed,0.62,0.22,0.02,boundary_zone,927,theoretical,Boundary Commission,0.73,Adjacent to ridge RG-114.
+LC-0047,-0.4,0.4,0.0,Ridge Point 434,BA-020,0.246,0.17,0.269,0.07,mixed,0.36,0.1,0.15,stable_interior,921,geodesic_deviation,Esseny Moll,0.88,Stability influence positive; forms stabilize.
+LC-0048,-0.4,0.6,-0.8,Ridge Point 292,BA-012,-1.469,-0.789,-0.346,-1.232,hyperbolic,0.87,-0.26,-0.01,unknown,923,parallel_transport,K. Strand,0.65,Stability influence positive; forms stabilize.
+LC-0049,-0.4,0.6,0.4,013 Outer Region,BA-013,-0.092,-0.072,0.578,-0.722,flat,0.38,-0.04,0.06,stable_interior,928,form_triangulation,T. Vells,0.57,Dens correlation suggests boundary thinning.
+LC-0050,-0.4,0.8,-0.8,Near 050,BA-050,-1.908,-1.002,-0.781,-1.223,hyperbolic,0.9,-0.45,0.02,stable_interior,931,geodesic_deviation,Curvature Mapping Project,0.73,Curvature consistent across multiple surveys.
+LC-0051,-0.4,0.8,-0.4,Between 050 and 026,BA-050,-0.084,0.068,0.372,-0.236,flat,0.22,-0.19,0.17,boundary_zone,925,form_triangulation,Esseny Moll,0.56,Curvature consistent across multiple surveys.
+LC-0052,-0.2,-0.8,0.8,Point LC-624,BA-006,-1.526,-0.511,-0.085,-0.937,hyperbolic,0.92,-0.27,-0.2,boundary_zone,921,parallel_transport,Curvature Mapping Project,0.92,Forms blur together here due to low curvature.
+LC-0053,-0.2,-0.6,0.4,Inner Morphospace Zone,BA-026,0.082,0.011,0.06,-0.038,flat,0.38,0.2,-0.07,boundary_zone,921,geodesic_deviation,Morren Kast,0.92,Forms blur together here due to low curvature.
+LC-0054,-0.2,-0.6,0.8,Curvature Grid 4-2,BA-009,-1.449,-0.567,-0.509,-0.625,hyperbolic,0.88,-0.3,0.09,unknown,930,form_triangulation,Archive Survey Team,0.6,Stability influence negative; forms destabilize.
+LC-0055,-0.2,-0.2,-0.4,Ridge Point 700,BA-027,-0.531,-0.497,-0.485,-0.51,hyperbolic,0.73,-0.25,-0.39,stable_interior,931,parallel_transport,Boundary Commission,0.94,Forms blur together here due to low curvature.
+LC-0056,-0.2,-0.2,0.0,Ridge Point 638,BA-042,1.018,0.336,0.513,0.158,spherical,0.54,0.24,0.08,stable_interior,924,geodesic_deviation,Morren Kast,0.81,Curvature consistent across multiple surveys.
+LC-0057,-0.2,-0.2,0.8,Point LC-139,BA-009,-0.505,-0.538,-0.474,-0.602,hyperbolic,0.82,-0.34,-0.21,unknown,919,parallel_transport,K. Strand,0.61,Measured Year 919.
+LC-0058,-0.2,0.0,-0.8,Curvature Grid 4-5,BA-035,0.089,0.318,0.46,0.177,flat,0.22,-0.1,-0.18,unknown,928,parallel_transport,K. Strand,0.81,Stability influence positive; forms stabilize.
+LC-0059,-0.2,0.0,0.4,Between 009 and 038,BA-009,-1.057,-0.571,-0.275,-0.866,hyperbolic,0.82,-0.37,-0.17,stable_interior,919,form_triangulation,Esseny Moll,0.67,Stability influence negative; forms destabilize.
+LC-0060,-0.2,0.0,0.8,Point LC-446,BA-009,-0.524,-0.151,-0.053,-0.248,hyperbolic,0.81,-0.35,0.1,stable_interior,920,parallel_transport,Western Archive Team,0.65,Distinguishability high in this region.
+LC-0061,-0.2,0.2,-0.8,035 Outer Region,BA-035,0.353,0.416,0.978,-0.146,mixed,0.51,0.29,-0.22,stable_interior,929,parallel_transport,Esseny Moll,0.9,Curvature consistent across multiple surveys.
+LC-0062,-0.2,0.2,-0.4,Curvature Grid 4-6,BA-032,-0.355,-0.138,-0.004,-0.272,mixed,0.56,-0.17,-0.19,boundary_zone,929,theoretical,Boundary Commission,0.95,Near saddle point SP-006.
+LC-0063,-0.2,0.2,0.8,Point LC-297,BA-009,-1.267,-0.793,-0.754,-0.832,hyperbolic,0.96,-0.31,-0.12,stable_interior,927,form_triangulation,Curvature Mapping Project,0.88,Forms blur together here due to low curvature.
+LC-0064,-0.2,0.4,-0.8,Point LC-825,BA-035,0.006,-0.099,0.087,-0.285,flat,0.31,-0.13,0.05,boundary_zone,920,parallel_transport,Western Archive Team,0.71,Adjacent to ridge RG-082.
+LC-0065,-0.2,0.4,0.4,Triad Basi Outer Region,BA-004,-0.175,-0.302,-0.076,-0.527,mixed,0.45,0.0,-0.02,boundary_zone,926,parallel_transport,Boundary Commission,0.94,Stability influence positive; forms stabilize.
+LC-0066,0.0,-0.8,-0.8,Near 034,BA-034,-1.026,-0.705,0.117,-1.527,hyperbolic,0.94,-0.13,-0.59,stable_interior,926,form_triangulation,T. Vells,0.63,Adjacent to ridge RG-059.
+LC-0067,0.0,-0.8,-0.4,024 Outer Region,BA-024,-1.022,-0.459,-0.093,-0.826,hyperbolic,0.89,-0.18,-0.37,stable_interior,928,form_triangulation,K. Strand,0.84,Forms blur together here due to low curvature.
+LC-0068,0.0,-0.6,-0.4,Ridge Point 498,BA-034,-0.034,-0.281,-0.191,-0.371,flat,0.33,-0.0,-0.46,stable_interior,926,geodesic_deviation,Archive Survey Team,0.63,Stability influence positive; forms stabilize.
+LC-0069,0.0,-0.2,-0.4,027 Outer Region,BA-027,-0.578,-0.485,-0.226,-0.744,hyperbolic,0.74,-0.25,-0.33,stable_interior,925,form_triangulation,C. Vells,0.95,Adjacent to ridge RG-117.
+LC-0070,0.0,-0.2,0.8,Point LC-955,BA-009,-0.678,-0.104,0.494,-0.703,hyperbolic,0.76,-0.14,0.15,boundary_zone,928,geodesic_deviation,Boundary Commission,0.65,Stability influence negative; forms destabilize.
+LC-0071,0.0,0.2,-0.4,032 Outer Region,BA-032,-0.502,-0.004,0.553,-0.56,hyperbolic,0.7,-0.14,-0.16,stable_interior,918,geodesic_deviation,Boundary Commission,0.55,Stability influence positive; forms stabilize.
+LC-0072,0.0,0.2,0.4,Near 045,BA-045,0.316,0.124,0.499,-0.25,mixed,0.36,0.06,-0.15,boundary_zone,920,theoretical,Curvature Mapping Project,0.86,Stability influence positive; forms stabilize.
+LC-0073,0.0,0.4,-0.8,Between 035 and 017,BA-035,-0.116,0.187,0.231,0.143,mixed,0.46,0.1,-0.32,stable_interior,919,form_triangulation,Archive Survey Team,0.63,Dens correlation suggests boundary thinning.
+LC-0074,0.0,0.6,0.0,Point LC-843,BA-046,0.064,0.22,0.515,-0.075,flat,0.27,0.16,-0.06,boundary_zone,926,theoretical,Western Archive Team,0.64,Forms blur together here due to low curvature.
+LC-0075,0.0,0.8,-0.8,Survey Point 136,BA-036,-1.217,-0.449,-0.131,-0.767,hyperbolic,0.87,-0.43,0.0,boundary_zone,922,geodesic_deviation,Western Archive Team,0.78,Geodesic deviation matches curvature prediction.
+LC-0076,0.0,0.8,0.4,Survey Point 511,BA-033,0.509,-0.008,-0.005,-0.012,spherical,0.53,-0.04,0.35,boundary_zone,928,theoretical,Boundary Commission,0.85,Parallel transport test confirms geometry.
+LC-0077,0.2,-0.8,0.8,Between Septenary  and 042,BA-006,-1.336,-0.422,-0.183,-0.66,hyperbolic,0.92,-0.47,-0.26,stable_interior,927,form_triangulation,Western Archive Team,0.85,
+LC-0078,0.2,-0.6,-0.8,Point LC-204,BA-034,-1.256,-0.479,-0.413,-0.546,hyperbolic,0.94,-0.39,0,unknown,932,parallel_transport,Curvature Mapping Project,0.89,Near saddle point SP-024.
+LC-0079,0.2,-0.6,-0.4,Point LC-449,BA-034,0.16,0.371,0.557,0.184,mixed,0.43,-0.14,0,stable_interior,922,theoretical,K. Strand,0.86,Adjacent to ridge RG-140.
+LC-0080,0.2,-0.6,0.8,Survey Point 165,BA-006,-0.894,-0.296,-0.024,-0.569,hyperbolic,0.9,-0.13,0.2,unknown,931,form_triangulation,C. Vells,0.74,Near saddle point SP-060.
+LC-0081,0.2,-0.4,-0.8,Survey Point 429,BA-034,-0.769,-0.539,-0.334,-0.744,hyperbolic,0.85,-0.31,-0.25,stable_interior,923,parallel_transport,K. Strand,0.58,Dens correlation suggests boundary thinning.
+LC-0082,0.2,-0.4,0.8,Near Septenary ,BA-006,-1.28,-0.754,-0.333,-1.174,hyperbolic,0.9,-0.34,0.07,stable_interior,928,form_triangulation,C. Vells,0.84,Curvature consistent across multiple surveys.
+LC-0083,0.2,-0.2,0.4,Survey Point 845,BA-029,-1.106,-0.347,0.549,-1.244,hyperbolic,0.85,-0.3,0,stable_interior,922,geodesic_deviation,T. Vells,0.77,Curvature consistent across multiple surveys.
+LC-0084,0.2,0.0,-0.8,Ridge Point 878,BA-035,-0.585,-0.276,-0.037,-0.515,hyperbolic,0.78,-0.09,0,boundary_zone,923,theoretical,K. Strand,0.6,Stability influence positive; forms stabilize.
+LC-0085,0.2,0.0,-0.4,Between 008 and Tension Ba,BA-008,-0.817,-0.348,-0.157,-0.539,hyperbolic,0.83,-0.42,-0.23,boundary_zone,932,form_triangulation,Esseny Moll,0.73,Stability influence negative; forms destabilize.
+LC-0086,0.2,0.0,0.8,Curvature Grid 6-5,BA-039,-0.587,-0.126,0.404,-0.657,hyperbolic,0.83,-0.18,0.04,unknown,929,theoretical,K. Strand,0.72,Near saddle point SP-098.
+LC-0087,0.2,0.2,-0.8,Ridge Point 143,BA-035,-0.304,-0.136,0.321,-0.594,mixed,0.54,0.05,-0.05,boundary_zone,920,parallel_transport,Archive Survey Team,0.69,Geodesic deviation matches curvature prediction.
+LC-0088,0.2,0.2,-0.4,Survey Point 19,BA-036,0.103,-0.014,0.407,-0.436,mixed,0.63,0.22,0.02,stable_interior,923,geodesic_deviation,Boundary Commission,0.56,Stability influence positive; forms stabilize.
+LC-0089,0.2,0.2,0.4,Point LC-103,BA-045,-0.431,-0.436,-0.021,-0.851,mixed,0.39,0.04,0.16,boundary_zone,925,theoretical,Archive Survey Team,0.76,Measured Year 925.
+LC-0090,0.2,0.2,0.8,Curvature Grid 6-6,BA-039,-0.419,-0.029,0.225,-0.282,mixed,0.6,-0.14,-0.11,unknown,922,geodesic_deviation,Morren Kast,0.7,Adjacent to ridge RG-037.
+LC-0091,0.2,0.4,-0.8,Ridge Point 893,BA-036,-0.146,-0.248,0.046,-0.542,mixed,0.39,0.04,0.02,boundary_zone,926,geodesic_deviation,Boundary Commission,0.72,Measured Year 926.
+LC-0092,0.2,0.4,-0.4,Near 036,BA-036,0.84,0.652,0.768,0.536,spherical,0.58,0.2,0.08,unknown,922,parallel_transport,Boundary Commission,0.64,Adjacent to ridge RG-005.
+LC-0093,0.4,-0.8,-0.8,Curvature Grid 7-0,BA-034,-1.401,-0.601,-0.037,-1.165,hyperbolic,0.83,-0.59,0,unknown,931,form_triangulation,K. Strand,0.9,Stability influence positive; forms stabilize.
+LC-0094,0.4,-0.8,0.4,Survey Point 686,BA-022,1.334,0.836,0.955,0.716,spherical,0.58,0.37,0,boundary_zone,927,geodesic_deviation,Western Archive Team,0.87,Forms blur together here due to low curvature.
+LC-0095,0.4,-0.6,-0.8,034 Outer Region,BA-034,-0.819,-0.229,0.051,-0.509,hyperbolic,0.8,-0.2,-0.4,stable_interior,928,theoretical,Curvature Mapping Project,0.65,Stability influence positive; forms stabilize.
+LC-0096,0.4,-0.6,0.8,Ridge Point 547,BA-006,-1.269,-0.795,-0.791,-0.8,hyperbolic,0.98,-0.21,-0.25,unknown,926,form_triangulation,Archive Survey Team,0.78,Geodesic deviation matches curvature prediction.
+LC-0097,0.4,-0.4,-0.8,Curvature Grid 7-3,BA-031,-1.522,-0.515,-0.438,-0.592,hyperbolic,0.96,-0.63,-0.33,stable_interior,918,form_triangulation,K. Strand,0.72,Distinguishability high in this region.
+LC-0098,0.4,-0.4,-0.4,Between 019 and 011,BA-019,0.077,-0.201,0.378,-0.78,flat,0.28,-0.06,0,stable_interior,920,theoretical,T. Vells,0.8,
+LC-0099,0.4,-0.2,-0.4,Between 008 and 042,BA-008,-0.131,-0.151,0.027,-0.328,mixed,0.54,-0.16,-0.11,boundary_zone,927,form_triangulation,Curvature Mapping Project,0.7,Dens correlation suggests boundary thinning.
+LC-0100,0.4,-0.2,0.0,Curvature Grid 7-4,BA-029,-0.266,-0.156,-0.103,-0.209,mixed,0.35,-0.13,0.03,unknown,930,theoretical,Archive Survey Team,0.87,Stability influence negative; forms destabilize.
+LC-0101,0.4,-0.2,0.4,Survey Point 914,BA-029,-1.044,-0.734,-0.726,-0.742,hyperbolic,0.79,-0.26,0,boundary_zone,931,geodesic_deviation,Western Archive Team,0.56,Dens correlation suggests boundary thinning.
+LC-0102,0.4,-0.2,0.8,Survey Point 275,BA-039,-0.938,-0.608,-0.097,-1.12,hyperbolic,0.74,-0.45,-0.16,boundary_zone,927,geodesic_deviation,Curvature Mapping Project,0.67,Adjacent to ridge RG-036.
+LC-0103,0.4,0.2,-0.8,Survey Point 521,BA-036,-0.698,-0.275,-0.176,-0.374,hyperbolic,0.73,-0.36,-0.18,boundary_zone,923,form_triangulation,Western Archive Team,0.61,Near saddle point SP-075.
+LC-0104,0.4,0.2,-0.4,Curvature Grid 7-6,BA-036,0.059,0.197,0.346,0.049,flat,0.35,-0.01,0.06,stable_interior,920,geodesic_deviation,C. Vells,0.77,Stability influence positive; forms stabilize.
+LC-0105,0.4,0.4,-0.8,Survey Point 958,BA-036,-0.719,-0.542,-0.379,-0.705,hyperbolic,0.86,-0.06,0.07,unknown,922,theoretical,Esseny Moll,0.64,Measured Year 922.
+LC-0106,0.4,0.6,-0.8,021 Outer Region,BA-021,-0.177,-0.041,0.154,-0.236,mixed,0.38,0.09,0,boundary_zone,928,parallel_transport,Western Archive Team,0.81,Measured Year 928.
+LC-0107,0.6,-0.6,-0.8,031 Outer Region,BA-031,-1.931,-1.14,-1.027,-1.253,hyperbolic,0.89,-0.61,-0.38,stable_interior,918,geodesic_deviation,K. Strand,0.95,Measured Year 918.
+LC-0108,0.6,-0.6,0.8,Ridge Point 987,BA-022,-1.508,-0.76,-0.284,-1.236,hyperbolic,0.95,-0.28,0.21,boundary_zone,927,parallel_transport,C. Vells,0.6,Near saddle point SP-087.
+LC-0109,0.6,-0.2,-0.4,Between 019 and 020,BA-019,1.329,0.902,1.12,0.685,spherical,0.48,0.26,-0.12,boundary_zone,925,geodesic_deviation,C. Vells,0.73,Curvature consistent across multiple surveys.
+LC-0110,0.6,0.0,-0.8,Southern Morphospace Zone,BA-031,0.082,-0.136,0.114,-0.386,flat,0.39,-0.1,-0.22,stable_interior,920,parallel_transport,Archive Survey Team,0.9,Near saddle point SP-047.
+LC-0111,0.6,0.0,0.4,Point LC-672,BA-007,-0.711,-0.595,-0.453,-0.738,hyperbolic,0.78,-0.05,-0.22,stable_interior,927,form_triangulation,Boundary Commission,0.57,Adjacent to ridge RG-122.
+LC-0112,0.6,0.2,-0.8,Upper Morphospace Zone,BA-014,0.233,0.338,0.81,-0.134,mixed,0.35,0.19,-0.28,unknown,925,parallel_transport,Boundary Commission,0.61,Parallel transport test confirms geometry.
+LC-0113,0.6,0.4,0.0,Quintic Ba Outer Region,BA-001,-0.011,0.252,0.417,0.086,flat,0.31,-0.16,0.01,unknown,930,form_triangulation,Boundary Commission,0.81,Adjacent to ridge RG-082.
+LC-0114,0.6,0.6,-0.8,Survey Point 109,BA-021,-0.732,-0.09,-0.01,-0.17,hyperbolic,0.81,-0.3,-0.26,boundary_zone,924,form_triangulation,C. Vells,0.71,Near saddle point SP-011.
+LC-0115,0.6,0.6,0.4,Tension Ba Outer Region,BA-003,0.023,-0.071,0.308,-0.45,flat,0.35,-0.19,0.01,boundary_zone,923,parallel_transport,Archive Survey Team,0.81,
+LC-0116,0.6,0.6,0.8,Northern Morphospace Zone,BA-005,0.179,-0.065,0.199,-0.329,mixed,0.48,0.24,0.29,boundary_zone,923,theoretical,Archive Survey Team,0.57,Stability influence negative; forms destabilize.
+LC-0117,0.6,0.8,-0.8,Point LC-297,BA-021,-1.295,-0.605,-0.307,-0.902,hyperbolic,0.82,-0.35,0.06,stable_interior,927,theoretical,Morren Kast,0.82,Stability influence positive; forms stabilize.
+LC-0118,0.6,0.8,0.0,Survey Point 542,BA-003,-0.753,-0.391,-0.306,-0.477,hyperbolic,0.73,-0.12,0.24,boundary_zone,928,parallel_transport,Esseny Moll,0.94,Measured Year 928.
+LC-0119,0.6,0.8,0.8,Between Five-Body  and 033,BA-005,0.284,0.039,0.119,-0.041,mixed,0.48,0.24,0.12,unknown,919,theoretical,C. Vells,0.77,Stability influence negative; forms destabilize.
+LC-0120,0.8,-0.8,-0.8,023 Outer Region,BA-023,-1.543,-1.006,-0.744,-1.269,hyperbolic,1.0,-0.55,0,unknown,921,form_triangulation,T. Vells,0.84,
+LC-0121,0.8,-0.8,-0.4,Point LC-766,BA-023,-1.352,-0.391,0.088,-0.869,hyperbolic,0.84,-0.53,0,boundary_zone,932,parallel_transport,K. Strand,0.7,
+LC-0122,0.8,-0.6,0.8,Curvature Grid 9-2,BA-022,-1.558,-0.667,-0.485,-0.849,hyperbolic,0.93,-0.54,0.03,unknown,919,geodesic_deviation,K. Strand,0.84,Distinguishability high in this region.
+LC-0123,0.8,-0.4,-0.4,Between 025 and 033,BA-025,-0.391,-0.269,-0.075,-0.463,mixed,0.45,0.02,-0.2,boundary_zone,932,theoretical,T. Vells,0.65,Distinguishability high in this region.
+LC-0124,0.8,-0.4,0.8,Ridge Point 470,BA-007,-1.987,-0.71,-0.658,-0.762,hyperbolic,1.0,-0.78,-0.13,stable_interior,922,form_triangulation,C. Vells,0.92,Parallel transport test confirms geometry.
+LC-0125,0.8,-0.2,-0.8,Survey Point 495,BA-031,-0.2,0.19,0.777,-0.397,mixed,0.64,-0.03,-0.2,boundary_zone,924,form_triangulation,Boundary Commission,0.59,Stability influence negative; forms destabilize.
+LC-0126,0.8,0.0,-0.4,Point LC-702,BA-031,-0.619,-0.135,0.026,-0.296,hyperbolic,0.76,-0.1,0,unknown,932,parallel_transport,Archive Survey Team,0.94,Forms blur together here due to low curvature.
+LC-0127,0.8,0.0,0.4,Western Morphospace Zone,BA-007,0.055,0.12,0.204,0.036,flat,0.26,0.06,-0.13,unknown,925,form_triangulation,Curvature Mapping Project,0.79,Dens correlation suggests boundary thinning.
+LC-0128,0.8,0.2,0.0,Near 044,BA-044,0.153,0.337,0.457,0.216,mixed,0.57,-0.01,-0.14,unknown,922,theoretical,Archive Survey Team,0.85,Distinguishability high in this region.
+LC-0129,0.8,0.2,0.4,Curvature Grid 9-6,BA-007,0.858,0.274,0.622,-0.073,spherical,0.54,0.35,0.18,stable_interior,920,parallel_transport,Boundary Commission,0.86,
+LC-0130,0.8,0.4,-0.8,Curvature Grid 9-7,BA-014,-0.237,-0.002,0.514,-0.519,mixed,0.63,-0.26,-0.18,stable_interior,918,form_triangulation,Esseny Moll,0.6,Stability influence positive; forms stabilize.
+LC-0131,0.8,0.4,0.0,Ridge Point 428,BA-044,-0.056,0.058,0.227,-0.111,flat,0.35,0.12,0.03,stable_interior,920,geodesic_deviation,Western Archive Team,0.83,
+LC-0132,0.8,0.4,0.4,Near 007,BA-007,-0.227,0.144,0.709,-0.42,mixed,0.52,-0.1,0.14,boundary_zone,928,parallel_transport,K. Strand,0.59,Parallel transport test confirms geometry.
+LC-0133,0.8,0.6,0.4,Survey Point 132,BA-003,-0.42,-0.399,0.145,-0.943,mixed,0.62,0.07,0.17,stable_interior,921,parallel_transport,K. Strand,0.55,Forms blur together here due to low curvature.
+LC-0134,0.8,0.8,0.4,Between Tension Ba and 034,BA-003,-1.473,-0.572,-0.074,-1.07,hyperbolic,0.84,-0.44,0.18,boundary_zone,923,form_triangulation,Esseny Moll,0.62,Stability influence positive; forms stabilize.
+LC-0135,0.8,0.8,0.8,Curvature Grid 9-9,BA-005,0.577,0.205,0.224,0.186,spherical,0.47,0.02,0.28,boundary_zone,918,form_triangulation,Archive Survey Team,0.82,Geodesic deviation matches curvature prediction.
+LC-0136,-0.5609,0.9372,-0.0147,050 Outer Region,BA-050,-0.66,-0.062,0.451,-0.575,hyperbolic,0.73,-0.02,-0.05,unknown,928,geodesic_deviation,Curvature Mapping Project,0.63,Parallel transport test confirms geometry.
+LC-0137,-0.5204,-0.1303,0.5184,Ridge Point 225,BA-009,-0.962,-0.347,0.025,-0.72,hyperbolic,0.91,-0.48,0.11,boundary_zone,929,theoretical,Boundary Commission,0.94,Parallel transport test confirms geometry.
+LC-0138,-0.1613,0.6717,0.2964,Point LC-991,BA-004,1.144,0.562,0.807,0.316,spherical,0.61,0.32,0.36,boundary_zone,918,theoretical,Boundary Commission,0.93,Geodesic deviation matches curvature prediction.
+LC-0139,0.4166,0.4669,0.4506,Curvature Grid 7-7,BA-003,0.383,0.199,0.203,0.196,mixed,0.42,0.1,0.36,boundary_zone,920,theoretical,C. Vells,0.85,Forms blur together here due to low curvature.
+LC-0140,-0.0366,-0.7341,-0.7672,Survey Point 920,BA-034,-1.297,-0.573,-0.326,-0.82,hyperbolic,0.89,-0.47,-0.46,stable_interior,924,parallel_transport,Esseny Moll,0.79,Geodesic deviation matches curvature prediction.
+LC-0141,-0.1322,-0.4641,-0.5692,Lower Morphospace Zone,BA-034,-0.228,-0.285,0.047,-0.617,mixed,0.48,-0.19,0,stable_interior,919,form_triangulation,Morren Kast,0.77,
+LC-0142,-0.7664,0.6994,-0.0865,037 Outer Region,BA-037,-0.44,0.066,0.066,0.066,mixed,0.62,0.0,-0.14,boundary_zone,925,form_triangulation,T. Vells,0.63,Curvature consistent across multiple surveys.
+LC-0143,0.9225,-0.918,-0.9423,Point LC-960,BA-031,-2.205,-1.035,-0.914,-1.156,hyperbolic,0.98,-0.54,0,stable_interior,925,geodesic_deviation,Archive Survey Team,0.73,Geodesic deviation matches curvature prediction.
+LC-0144,0.8629,0.5471,-0.6765,Between 014 and 037,BA-014,-0.668,-0.522,-0.445,-0.599,hyperbolic,0.86,-0.22,-0.21,stable_interior,928,parallel_transport,C. Vells,0.7,Stability influence negative; forms destabilize.
+LC-0145,0.7451,-0.489,-0.414,Between 025 and Tension Ba,BA-025,-0.32,-0.244,0.326,-0.813,mixed,0.47,-0.15,0,boundary_zone,926,parallel_transport,Curvature Mapping Project,0.64,Parallel transport test confirms geometry.
+LC-0146,0.3251,-0.2656,-0.7931,Near 031,BA-031,-0.841,-0.619,-0.584,-0.655,hyperbolic,0.9,-0.08,0,boundary_zone,919,theoretical,Western Archive Team,0.77,Geodesic deviation matches curvature prediction.
+LC-0147,-0.6496,0.9233,0.0394,Point LC-473,BA-037,-0.987,-0.312,-0.173,-0.451,hyperbolic,0.91,-0.35,0.15,unknown,923,form_triangulation,Boundary Commission,0.8,Parallel transport test confirms geometry.
+LC-0148,0.1748,-0.2953,-0.8551,Point LC-200,BA-034,-1.456,-0.585,-0.47,-0.7,hyperbolic,0.93,-0.51,-0.1,boundary_zone,924,form_triangulation,Archive Survey Team,0.91,Stability influence negative; forms destabilize.
+LC-0149,-0.0972,0.8287,-0.6536,Near 032,BA-032,-1.208,-0.368,-0.108,-0.629,hyperbolic,0.97,-0.53,0.31,boundary_zone,932,theoretical,Boundary Commission,0.57,Measured Year 932.
+LC-0150,0.5931,0.8098,0.5147,Central Morphospace Zone,BA-003,-0.835,-0.647,-0.598,-0.696,hyperbolic,0.74,-0.26,0.02,boundary_zone,920,theoretical,Boundary Commission,0.57,Distinguishability high in this region.
+LC-0151,0.7317,-0.43,0.0755,Survey Point 792,BA-025,0.467,0.408,0.941,-0.125,mixed,0.5,0.01,-0.18,stable_interior,922,parallel_transport,Western Archive Team,0.69,
+LC-0152,-0.8972,0.3556,-0.1141,Point LC-785,BA-038,-1.263,-0.603,-0.197,-1.008,hyperbolic,0.94,-0.55,0.19,unknown,918,form_triangulation,Morren Kast,0.67,Near saddle point SP-012.
+LC-0153,0.2682,-0.1541,0.7038,039 Outer Region,BA-039,-0.784,-0.536,-0.497,-0.576,hyperbolic,0.8,-0.34,-0.06,unknown,932,form_triangulation,T. Vells,0.62,Forms blur together here due to low curvature.
+LC-0154,-0.3488,-0.8467,0.0153,Point LC-418,BA-026,-0.303,-0.393,-0.231,-0.555,mixed,0.4,-0.03,0,boundary_zone,930,theoretical,Curvature Mapping Project,0.95,Stability influence negative; forms destabilize.
+LC-0155,0.2326,-0.8917,0.8589,Point LC-761,BA-006,-1.282,-0.667,-0.528,-0.806,hyperbolic,0.9,-0.24,-0.04,unknown,928,parallel_transport,T. Vells,0.86,Measured Year 928.
+LC-0156,-0.5797,0.7846,0.6226,Eastern Morphospace Zone,BA-028,-0.314,-0.131,0.29,-0.552,mixed,0.61,0.02,0.05,stable_interior,931,form_triangulation,C. Vells,0.82,Stability influence positive; forms stabilize.
+LC-0157,0.652,-0.0777,0.355,Point LC-254,BA-007,-0.819,-0.45,-0.143,-0.757,hyperbolic,0.8,-0.39,-0.23,boundary_zone,922,parallel_transport,Esseny Moll,0.8,Geodesic deviation matches curvature prediction.
+LC-0158,0.5705,0.334,0.8916,Ridge Point 679,BA-005,-1.098,-0.819,-0.729,-0.909,hyperbolic,0.84,-0.31,0.13,unknown,930,parallel_transport,T. Vells,0.74,Stability influence negative; forms destabilize.
+LC-0159,-0.1523,-0.1865,-0.6543,Survey Point 588,BA-035,-0.921,-0.434,-0.057,-0.811,hyperbolic,0.81,-0.32,-0.12,stable_interior,921,parallel_transport,Archive Survey Team,0.57,Stability influence negative; forms destabilize.
+LC-0160,-0.4905,0.239,-0.6016,Point LC-150,BA-012,0.272,-0.083,0.063,-0.229,mixed,0.62,-0.04,0.07,stable_interior,930,form_triangulation,T. Vells,0.93,Dens correlation suggests boundary thinning.
+LC-0161,0.0123,0.8729,0.513,Near 033,BA-033,-0.443,-0.098,-0.022,-0.174,mixed,0.61,-0.14,0.56,dens_adjacent,928,geodesic_deviation,Archive Survey Team,0.76,Measured Year 928.
+LC-0162,-0.8853,-0.4226,-0.1624,Curvature Grid 0-2,BA-030,-0.124,0.195,0.262,0.128,mixed,0.54,-0.11,-0.3,boundary_zone,919,geodesic_deviation,Morren Kast,0.8,Parallel transport test confirms geometry.
+LC-0163,0.3746,0.6013,-0.6415,Curvature Grid 6-8,BA-021,-0.197,-0.275,-0.03,-0.52,mixed,0.61,0.11,-0.02,unknown,930,parallel_transport,T. Vells,0.64,Stability influence positive; forms stabilize.
+LC-0164,0.1016,0.7644,0.6766,Curved Morphospace Zone,BA-018,-0.663,-0.457,-0.309,-0.605,hyperbolic,0.74,-0.2,0.19,boundary_zone,926,parallel_transport,K. Strand,0.58,Distinguishability high in this region.
+LC-0165,-0.8167,-0.4879,0.5515,Near 049,BA-049,-0.233,0.033,0.132,-0.065,mixed,0.44,-0.25,-0.14,boundary_zone,924,parallel_transport,Curvature Mapping Project,0.65,Forms blur together here due to low curvature.
+LC-0166,-0.7222,-0.6452,0.7683,Ridge Point 118,BA-049,-1.205,-0.526,-0.226,-0.826,hyperbolic,0.8,-0.37,-0.17,stable_interior,931,geodesic_deviation,T. Vells,0.78,
+LC-0167,-0.0809,0.9397,0.2717,Curvature Grid 4-9,BA-033,0.565,0.049,0.515,-0.418,spherical,0.5,0.35,0.22,boundary_zone,918,parallel_transport,Morren Kast,0.84,
+LC-0168,0.4302,-0.4579,-0.7405,Point LC-215,BA-034,-1.04,-0.567,-0.545,-0.589,hyperbolic,0.87,-0.19,-0.39,stable_interior,918,geodesic_deviation,K. Strand,0.9,
+LC-0169,0.4008,0.2027,-0.5556,Ridge Point 363,BA-036,-0.159,0.155,0.287,0.022,mixed,0.45,-0.25,0.04,stable_interior,922,parallel_transport,Esseny Moll,0.73,Geodesic deviation matches curvature prediction.
+LC-0170,-0.6336,0.724,-0.5804,Point LC-791,BA-038,-0.503,0.002,0.144,-0.139,hyperbolic,0.83,-0.12,-0.12,stable_interior,925,parallel_transport,Western Archive Team,0.84,
+LC-0171,-0.1183,0.3218,0.1612,Survey Point 451,BA-045,-0.364,0.027,0.225,-0.172,mixed,0.48,-0.21,0,unknown,931,geodesic_deviation,Archive Survey Team,0.78,Curvature consistent across multiple surveys.
+LC-0172,0.5068,0.4381,0.0409,Point LC-106,BA-001,0.059,0.033,0.361,-0.296,flat,0.35,-0.18,0.18,unknown,923,form_triangulation,Western Archive Team,0.86,Dens correlation suggests boundary thinning.
+LC-0173,0.618,-0.5093,0.0001,Ridge Point 989,BA-025,0.199,0.294,0.634,-0.045,mixed,0.36,0.26,-0.12,stable_interior,922,form_triangulation,Boundary Commission,0.74,Curvature consistent across multiple surveys.
+LC-0174,-0.0213,0.1318,-0.1404,Point LC-744,BA-027,-0.723,-0.553,-0.159,-0.948,hyperbolic,0.71,-0.31,-0.07,unknown,927,geodesic_deviation,Morren Kast,0.77,Forms blur together here due to low curvature.
+LC-0175,0.1418,0.4908,-0.4845,Between 036 and 038,BA-036,0.569,0.395,0.516,0.274,spherical,0.4,0.34,0.12,unknown,932,form_triangulation,Curvature Mapping Project,0.9,
+LC-0176,-0.8759,-0.2265,-0.0571,Curvature Grid 0-3,BA-030,1.494,0.946,1.107,0.785,spherical,0.52,0.31,-0.28,unknown,927,form_triangulation,Western Archive Team,0.86,Stability influence positive; forms stabilize.
+LC-0177,0.7713,0.8651,-0.4534,Near 021,BA-021,-0.96,-0.566,-0.438,-0.694,hyperbolic,0.92,-0.26,0.18,boundary_zone,921,geodesic_deviation,Boundary Commission,0.61,Parallel transport test confirms geometry.
+LC-0178,-0.8265,0.703,0.7457,Between 028 and 047,BA-028,0.394,0.069,0.468,-0.329,mixed,0.46,-0.03,0.04,stable_interior,919,form_triangulation,Boundary Commission,0.63,Dens correlation suggests boundary thinning.
+LC-0179,-0.2032,0.0885,0.9212,Curvature Grid 3-5,BA-009,-0.737,-0.254,-0.143,-0.365,hyperbolic,0.8,-0.15,0.24,boundary_zone,921,geodesic_deviation,Esseny Moll,0.63,Dens correlation suggests boundary thinning.
+LC-0180,0.1906,-0.7857,0.4035,Curvature Grid 5-1,BA-043,-0.155,0.101,0.245,-0.043,mixed,0.61,-0.01,-0.26,stable_interior,924,form_triangulation,C. Vells,0.94,Stability influence negative; forms destabilize.
+LC-0181,0.8387,0.4613,-0.7043,Point LC-517,BA-014,-0.27,-0.39,-0.144,-0.636,mixed,0.49,-0.18,-0.18,unknown,928,theoretical,Curvature Mapping Project,0.88,Near saddle point SP-042.
+LC-0182,0.7774,0.7606,0.3529,Point LC-906,BA-003,-1.017,-0.589,-0.539,-0.638,hyperbolic,0.79,-0.22,-0.0,stable_interior,918,form_triangulation,Morren Kast,0.75,Measured Year 918.
+LC-0183,-0.5491,-0.4566,-0.6818,Point LC-229,BA-024,-1.055,-0.505,-0.31,-0.7,hyperbolic,0.82,-0.51,0,stable_interior,919,parallel_transport,Curvature Mapping Project,0.69,Stability influence negative; forms destabilize.
+LC-0184,-0.1761,0.059,0.8113,Survey Point 788,BA-009,-0.463,-0.104,0.044,-0.253,mixed,0.56,-0.13,-0.11,stable_interior,918,parallel_transport,K. Strand,0.72,Parallel transport test confirms geometry.
+LC-0185,0.0454,-0.6722,0.0603,Survey Point 709,BA-043,0.01,-0.196,-0.088,-0.303,flat,0.2,-0.07,-0.27,unknown,921,theoretical,Morren Kast,0.82,Geodesic deviation matches curvature prediction.
+LC-0186,0.4953,-0.3142,-0.2131,019 Outer Region,BA-019,1.527,1.002,1.272,0.731,spherical,0.48,0.27,-0.04,stable_interior,929,form_triangulation,Esseny Moll,0.67,Measured Year 929.
+LC-0187,0.8316,-0.6114,0.586,Survey Point 643,BA-022,-2.138,-0.779,-0.523,-1.035,hyperbolic,0.93,-0.7,-0.05,stable_interior,922,theoretical,Western Archive Team,0.77,Curvature consistent across multiple surveys.
+LC-0188,0.6168,0.6058,-0.1201,Near Tension Ba,BA-003,-1.149,-0.62,-0.596,-0.643,hyperbolic,0.81,-0.29,-0.13,stable_interior,924,geodesic_deviation,T. Vells,0.56,Adjacent to ridge RG-068.
+LC-0189,-0.073,-0.5451,0.474,Point LC-708,BA-006,0.382,-0.068,0.104,-0.24,mixed,0.56,-0.03,0,unknown,919,theoretical,C. Vells,0.9,Stability influence negative; forms destabilize.
+LC-0190,-0.1315,-0.3578,-0.171,Between 041 and 041,BA-041,0.123,-0.223,0.261,-0.707,mixed,0.56,0.21,-0.3,unknown,922,geodesic_deviation,Western Archive Team,0.65,Near saddle point SP-002.
+LC-0191,0.8305,0.8929,0.7795,Ridge Point 726,BA-005,0.362,0.092,0.543,-0.359,mixed,0.37,0.08,0.55,dens_adjacent,924,theoretical,Morren Kast,0.87,Forms blur together here due to low curvature.
+LC-0192,0.5822,0.1344,-0.9038,Ridge Point 591,BA-014,-0.022,0.137,0.791,-0.516,flat,0.24,-0.19,-0.29,stable_interior,932,form_triangulation,C. Vells,0.62,Dens correlation suggests boundary thinning.
+LC-0193,0.5657,-0.9423,0.0121,Point LC-377,BA-022,-0.922,-0.192,0.247,-0.632,hyperbolic,0.81,-0.39,-0.41,stable_interior,927,geodesic_deviation,T. Vells,0.71,Stability influence positive; forms stabilize.
+LC-0194,0.6008,0.2719,0.9155,Ridge Point 484,BA-005,-1.464,-0.942,-0.922,-0.962,hyperbolic,0.99,-0.55,0.03,boundary_zone,929,theoretical,Boundary Commission,0.87,Parallel transport test confirms geometry.
+LC-0195,0.8384,0.3707,0.9043,Five-Body  Outer Region,BA-005,-0.731,-0.168,0.002,-0.338,hyperbolic,0.86,-0.41,0.33,boundary_zone,928,geodesic_deviation,K. Strand,0.81,Dens correlation suggests boundary thinning.
+LC-0196,0.6036,-0.4456,-0.6738,Ridge Point 212,BA-031,-1.174,-0.509,0.178,-1.196,hyperbolic,0.87,-0.4,-0.29,boundary_zone,930,geodesic_deviation,Curvature Mapping Project,0.58,Stability influence positive; forms stabilize.
+LC-0197,-0.3706,0.8605,-0.3884,Point LC-253,BA-050,0.169,-0.022,0.314,-0.359,mixed,0.54,0.07,0.12,unknown,919,geodesic_deviation,Boundary Commission,0.57,Stability influence positive; forms stabilize.
+LC-0198,0.3572,0.7484,-0.8476,Point LC-119,BA-021,-1.18,-0.795,-0.71,-0.881,hyperbolic,0.96,-0.39,-0.0,boundary_zone,921,parallel_transport,Western Archive Team,0.72,Dens correlation suggests boundary thinning.
+LC-0199,-0.6799,-0.415,0.627,049 Outer Region,BA-049,-0.901,-0.221,0.091,-0.533,hyperbolic,0.8,-0.18,-0.3,stable_interior,928,parallel_transport,T. Vells,0.75,Distinguishability high in this region.
+LC-0200,0.6572,0.5854,-0.6955,Survey Point 459,BA-021,-0.675,-0.476,-0.451,-0.502,hyperbolic,0.79,-0.31,-0.12,stable_interior,927,theoretical,C. Vells,0.76,Distinguishability high in this region.

@@ -1,0 +1,57 @@
+place_id,name,borough,place_type,craving_type_primary,risk_level_physical,risk_level_symbolic,is_boundary,notes
+YELLE_YELLER_QUARR,Yeller Quarry Core,Yeller,quarry,natural,9,7,False,Deep central quarry pits.
+YELLE_TRAP_FIELDS_,Trap Fields North,Yeller,quarry,natural,8,6,False,Rows of experimental traps.
+YELLE_TRAP_FIELDS_,Trap Fields South,Yeller,quarry,natural,7,5,False,"Cheaper, poorly maintained traps."
+YELLE_BONE_HUSK_MA,Bone Husk Market,Yeller,market,natural,6,6,True,Stall town trading husks and bones.
+YELLE_STALL_TOWN_W,Stall Town West Cut,Yeller,stall_town,natural,5,5,True,Gateway between Yeller and Capital roads.
+YELLE_STALL_TOWN_B,Stall Town Bone Gate,Yeller,stall_town,natural,6,5,True,Frontier checkpoint for bone trade.
+YELLE_QUARRY_RIM_S,Quarry Rim Shacks,Yeller,slum,natural,7,4,False,Makeshift homes on quarry lip.
+YELLE_YELLER_GUIDE,Yeller Guide Office,Yeller,bureaucracy,natural,3,5,True,Licensing office for quarry guides.
+YELLE_OLD_ROPE_BRI,Old Rope Bridge,Yeller,infrastructure,natural,8,7,True,Unstable bridge across a narrow chasm.
+YELLE_FLOODED_SINK,Flooded Sink Caves,Yeller,quarry,natural,9,8,False,Partially submerged creature habitat.
+CAPIT_CENTRAL_ARCH,Central Archive,Capital,archive,control,2,8,False,Capital’s main record vault.
+CAPIT_OUTER_ARCHIV,Outer Archive Annex,Capital,archive,control,2,6,False,Overflow for low-priority records.
+CAPIT_SENATE_SQUAR,Senate Square,Capital,civic,control,3,7,True,Open plaza where senators appear.
+CAPIT_KACHOT_CARDH,Kachot Cardhouse,Capital,gambling,control,4,5,False,Kachot tables and cheap liquor.
+CAPIT_CAPITAL_TRAI,Capital Train Yard,Capital,infrastructure,control,4,4,True,Freight hub to quarry and suburbs.
+CAPIT_INNER_TENEME,Inner Tenements,Capital,housing,control,5,4,False,Dense low-income housing.
+CAPIT_PAPER_BINDER,Paper Binders Row,Capital,bureaucracy,control,2,5,False,Rows of clerks processing forms.
+CAPIT_CITY_WALL_EA,City Wall East Gate,Capital,gate,control,3,6,True,Gate out toward Capeast and Densmok.
+CAPIT_CITY_WALL_QU,City Wall Quarry Gate,Capital,gate,control,4,6,True,Gate on the road to Yeller and stall towns.
+CAPIT_DEADRIVER_FE,Deadriver Ferry Office,Capital,bureaucracy,control,3,7,True,Permits for crossing the Deadriver.
+DENSM_DENSMOK_HILL,Densmok Hillcut,Densmok,housing,control,4,3,False,Cut into the hills above Dens.
+DENSM_SMOKELINE_IN,Smokeline Industrial Park,Densmok,industrial,control,5,3,False,Truck depots and sheds.
+DENSM_DENSMOK_STRI,Densmok Strip Mall,Densmok,retail,control,3,3,False,"Aging storefronts, cheap rents."
+DENSM_OVERPASS_GRA,Overpass Graffiti Span,Densmok,infrastructure,control,4,4,True,Teen hangout overlooking highway.
+DENSM_OLD_QUARRY_R,Old Quarry Road Motel,Densmok,motel,control,4,3,True,Single-story motel on the Yeller road.
+DENSM_DENSMOK_BUS_,Densmok Bus Hub,Densmok,transit,control,3,3,True,Bus routes to Capital and Capeast.
+CAPEA_RIVERSLAND_S,Riversland Subdivision,Capeast,subdivision,natural,2,3,False,Starter homes on narrow lots.
+CAPEA_RIVERSLAND_H,Riversland High School,Capeast,school,natural,2,3,False,Where Tyli and Josh sometimes go.
+CAPEA_CAPEAST_WALM,Capeast Walmart,Capeast,big_box,natural,3,3,True,Big box store across from Riversland.
+CAPEA_CAPEAST_YOUT,Capeast Youth Church,Capeast,church,natural,2,4,False,Evangelical church with youth nights.
+CAPEA_DUSTY_SOCCER,Dusty Soccer Fields,Capeast,sports_field,natural,3,3,False,Evening pickup games.
+CAPEA_CAPEAST_STRI,Capeast Strip of Bars,Capeast,nightlife,natural,4,4,False,"Cheap drinks, parking lot fights."
+CAPEA_CAPEAST_ARTE,Capeast Arterial Road,Capeast,road,natural,4,3,True,Four-lane road between Cap and Capeast.
+CAPEA_MIRADO_STICK,Mirado Sticks Viewpoint,Capeast,overlook,natural,3,5,True,Distant view of Mirado Sticks.
+CAPEA_DEAD_RIVER_O,Dead River Overlook,Capeast,overlook,natural,3,6,True,Guardrails and a long drop to water.
+CAPEA_CAPEAST_USED,Capeast Used Car Lots,Capeast,retail,natural,3,3,False,"Flags, balloons, weird deals."
+NORTH_HOUSE_OF_THE,House of the Closed Mouth,Northo,monastery,negation,3,9,False,"Vows of silence, intense interiority."
+NORTH_HOUSE_OF_STO,House of Stones,Northo,monastery,negation,3,8,False,Stone rituals after difficult talks.
+NORTH_NORTH_RIDGE_,North Ridge Hermitage,Northo,hermitage,negation,4,9,False,Isolated single-cells on ridge.
+NORTH_TRIAL_FIELD_,Trial Field of Northo,Northo,field,negation,4,8,True,Where novices practice obedience.
+NORTH_NORTHO_GATEH,Northo Gatehouse,Northo,gate,negation,3,7,True,Entrance checkpoint to Northo proper.
+NORTH_PILGRIM_WAY_,Pilgrim Way Station,Northo,hostel,negation,2,7,True,Beds and plain meals for pilgrims.
+NORTH_NORTHO_MARKE,Northo Market Circle,Northo,market,negation,3,7,False,"Simple stalls, strict rules."
+NORTH_COLLAPSED_CH,Collapsed Chapel,Northo,ruin,negation,5,8,False,Badly remembered saint story site.
+MIRAD_MIRADO_GATE_,Mirado Gate North,Mirado,tower_gate,structure,4,9,True,North gate to Tower of Mirado.
+MIRAD_MIRADO_GATE_,Mirado Gate Desert,Mirado,tower_gate,structure,4,9,True,Gate from desert side.
+MIRAD_TOWER_LEVEL_,Tower Level One,Mirado,tower_level,structure,4,9,False,"Introductory puzzles, still disorienting."
+MIRAD_TOWER_LEVEL_,Tower Level Two,Mirado,tower_level,structure,5,9,False,Tighter loops and echoing corridors.
+MIRAD_TOWER_LEVEL_,Tower Level Three,Mirado,tower_level,structure,6,10,False,Edges-to-edges and tautology traps.
+MIRAD_MIRADO_STICK,Mirado Sticks Outskirts,Mirado,waste,structure,5,8,True,Sparse scrub land around tower.
+MIRAD_MIRADO_CAMPG,Mirado Campground,Mirado,camp,structure,3,7,False,Where expeditions start and end.
+DEADR_DEAD_RIVER_W,Dead River West Bank,Deadriver,riverbank,exhaustion,6,9,True,"Steep bank, dark water, bad stories."
+DEADR_DEAD_RIVER_E,Dead River East Bank,Deadriver,riverbank,exhaustion,6,9,True,"Marshier, with broken stairs."
+DEADR_FERRYMANS_DO,Ferryman's Dock,Deadriver,dock,exhaustion,5,9,True,Unofficial ferries push off at night.
+DEADR_BROKEN_DEADR,Broken Deadriver Bridge,Deadriver,bridge,exhaustion,7,9,True,Half-collapsed concrete span.
+DEADR_DEADRIVER_SH,Deadriver Shantytown,Deadriver,slum,exhaustion,5,8,False,Stacked shacks on stilts.

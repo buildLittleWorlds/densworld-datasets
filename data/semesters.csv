@@ -1,0 +1,9 @@
+semester_id,semester_num,year,season,label,start_date,end_date,is_crisis_semester
+SEM01,1,2018,Fall,Fall 2018,2018-08-25,2018-12-15,False
+SEM02,2,2019,Spring,Spring 2019,2019-01-15,2019-05-10,False
+SEM03,3,2019,Fall,Fall 2019,2019-08-25,2019-12-15,False
+SEM04,4,2020,Spring,Spring 2020,2020-01-15,2020-05-10,False
+SEM05,5,2020,Fall,Fall 2020,2020-08-25,2020-12-15,False
+SEM06,6,2021,Spring,Spring 2021,2021-01-15,2021-05-10,False
+SEM07,7,2021,Fall,Fall 2021,2021-08-25,2021-12-15,True
+SEM08,8,2022,Spring,Spring 2022,2022-01-15,2022-05-10,False

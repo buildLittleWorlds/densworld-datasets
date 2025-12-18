@@ -1,0 +1,31 @@
+observation_id,observer,location,date,time_of_day,duration_minutes,phenomenon_type,phenomenon_description,instruments_present,instrument_count,phenomenon_persisted,observer_state_before,observer_state_after,physical_effects,notes
+1,Nelphl,Focal Meadow,1799-04-12,morning,45,translucent_matter,trees with translucent bark - fingers passed through,none,0,yes,curious,excited,none,first observation of site
+2,Nelphl,Focal Meadow,1799-04-18,morning,30,absence,crater where trees had been - orange focal dot,taxonomic_aids,7,yes,eager,confused,none,trees vanished after instrumented return
+3,Nelphl,Focal Meadow,1799-04-25,morning,180,attraction,feet immobilized at crater edge - could not look away,drawing,1,yes,determined,entranced,immobility,rescued by Bincher
+4,Nelphl,Focal Meadow,1799-05-20,morning,unknown,terminal,walked to crater and jumped,none,0,NA,resolved,NA,disappearance,final observation
+5,Dr. Smint,Unknown Site,circa 1760,unknown,unknown,translucent_matter,plant with translucent form - impulse to hide,none,0,no,curious,frightened,none,form vanished on return
+6,Dr. Smint,Unknown Site,circa 1762,unknown,unknown,specimen_loss,specimens in labeled boxes vanished,collection_boxes,many,yes,confused,despairing,memory_gaps,boxes empty - labels remain
+7,Thurmond Gast,SW Border,1852-06-14,morning,60,marker_erasure,survey markers vanished while placing them,full_survey_kit,12,yes,confident,bewildered,disorientation,markers found in pack unused
+8,Thurmond Gast,SW Border,1852-06-15,morning,45,ground_response,ground moved only when unobserved,full_survey_kit,12,yes,determined,unnerved,none,heard sucking sounds when looking away
+9,Thurmond Gast,Perimeter Walk,1853-03-01,morning,420,acceptance,ground remained stable during instrument-free walk,notebook,1,yes,calm,understanding,none,first successful unaided survey
+10,Dendra Coss,Gradient Zone,1859-07-12,dawn,60,gradient_measurement,58m transition zone - firmness 8.2 to 2.1,penetrometer,1,yes,systematic,fascinated,none,gradient quantified
+11,Dendra Coss,Gradient Zone,1859-07-12,midday,60,gradient_expansion,72m transition zone - expanded from dawn,penetrometer,1,yes,systematic,intrigued,none,temporal variation confirmed
+12,Dendra Coss,Gradient Zone,1859-07-12,dusk,60,gradient_heterogeneity,64m zone with irregular firmness pockets,penetrometer,1,yes,systematic,concerned,none,spatial structure changing
+13,Dendra Coss,Gradient Zone,1859-07-12,midnight,60,gradient_failure,measurements impossible - compass spinning,penetrometer_compass,2,no,systematic,frightened,disorientation,instruments unreliable at night
+14,Dendra Coss,Site 7,1859-09-03,morning,30,observer_divergence,three observers recorded different terrain,none,0,yes,curious,puzzled,none,sketches objectively different
+15,Dendra Coss,Focal Meadow,1860-02-14,afternoon,75,focal_phenomenon,orange-red dot emerged in vision - feet stuck,none,0,no,cautious,shaken,immobility,closed eyes to break effect
+16,Dendra Coss,Yeller Tract,1861-05-22,morning,12,plural_space,two horizons simultaneously visible - compass dual reading,compass,1,no,curious,overwhelmed,disorientation,phenomenon lasted 12 seconds
+17,Esseny Moll,Yeller Tract,1872-03-15,morning,180,individuation_failure,could not distinguish which of five was Yeller,notebook,1,yes,professional,frustrated,none,all five looked identical
+18,Esseny Moll,Yeller Tract,1872-04-02,all_day,480,path_divergence,five simultaneous paths - could not map single trajectory,notebook,1,yes,determined,defeated,exhaustion,paths split and rejoined unpredictably
+19,Esseny Moll,Yeller Tract,1872-05-18,morning,60,hub_phenomenon,observed four return to one - interval approx 8 minutes,notebook,1,yes,observant,intrigued,none,hub behavior confirmed
+20,Esseny Moll,Yeller Shack,1873-01-07,morning,unknown,integration,asked to walk with Yeller - entered shack,none,0,NA,resolved,NA,disappearance,final observation
+21,Mench,NW-7 Sector,1847-01-17,morning,120,ground_attention,feet sank deeper in certain sectors - ground felt attentive,survey_chain,1,yes,uneasy,anxious,mild_sinking,subjective but consistent
+22,Mench,NW-7 Sector,1847-02-07,morning,60,overnight_reversal,ground refirmed overnight - markers returned to surface,survey_chain,1,yes,confused,relieved,none,unexplained recovery
+23,Grell,SW-6 Sector,1847-01-19,all_day,960,breathing,boundary expanded 0.15m sunrise-midday contracted 0.20m sunset-midnight,survey_markers,4,yes,calm,fascinated,none,diurnal cycle confirmed
+24,Korrith,SE-8 Sector,1847-02-01,morning,40,spatial_confusion,lost sense of direction - could not determine which way was town,compass,1,yes,calm,panicked,severe_disorientation,recovered by partner after 40 min
+25,Archon Vells,Northern Route,1831-06-15,morning,30,landmark_shift,Gray Spire leaning opposite direction from previous expedition,theodolite,1,yes,calm,disturbed,none,spire unchanged in records
+26,Archon Vells,Denstone Edge,1837-08-22,evening,60,invitation,felt dens inviting rather than resisting - pull toward center,none,0,yes,calm,contemplative,mild_attraction,first experience of welcome
+27,Tenniv,Southern Reaches,1845-11-03,afternoon,20,plural_site,encountered site with five simultaneous presences,compass,1,yes,curious,frightened,disorientation,fled before full manifestation
+28,Prebel,Denstone,1851-07-14,evening,180,name_phenomenon,Yeller spoke his full name - all five simultaneously,none,0,yes,curious,transformed,none,name never shared with locals
+29,Kell,NW-7 Sector,1847-02-08,morning,120,site_investigation,investigated overnight reversal - no explanation found,full_survey_kit,8,yes,determined,mystified,none,phenomenon not repeated
+30,Unna Krehl,SW Moat,1849-03-12,morning,480,moat_failure,eight meters of channel filled overnight - four engineers collapsed,dredging_equipment,many,yes,grim,defeated,exhaustion,beginning of SW collapse

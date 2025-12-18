@@ -1,0 +1,1001 @@
+piece_id,puzzle_id,row,col,piece_category,shape_code,dominant_color,image_elements,is_fisherman_piece,is_missing_piece,lpn_syllable,difficulty_score
+1,PUZ_001,0,0,corner,EEGG,light_blue,sky,False,False,kung-uh,7
+2,PUZ_001,0,1,edge,EGTG,light_blue,"sky, clouds",False,False,kuh,4
+3,PUZ_001,0,2,edge,ETGT,light_blue,sky,False,False,kuh,9
+4,PUZ_001,0,3,edge,ETGG,white,sky,False,False,kuh,10
+5,PUZ_001,0,4,edge,EGTT,light_blue,sky,False,False,guh,10
+6,PUZ_001,0,5,edge,EGTT,pale_blue,sky,False,False,kuh,8
+7,PUZ_001,0,6,edge,ETGG,white,sky,False,False,guh,9
+8,PUZ_001,0,7,edge,EGTT,white,"sky, clouds",False,False,kuh,4
+9,PUZ_001,0,8,edge,EGTT,pale_blue,"sky, clouds",False,False,kuh,3
+10,PUZ_001,0,9,edge,EGGT,light_blue,sky,False,False,kuh,8
+11,PUZ_001,0,10,edge,ETTT,light_blue,"sky, clouds",False,False,kuh,6
+12,PUZ_001,0,11,edge,ETTG,light_blue,sky,False,False,guh,7
+13,PUZ_001,0,12,edge,EGGG,white,sky,False,False,kuh,10
+14,PUZ_001,0,13,edge,ETTG,light_blue,sky,False,False,guh,7
+15,PUZ_001,0,14,edge,ETTG,pale_blue,sky,False,False,guh,7
+16,PUZ_001,0,15,edge,ETGG,light_blue,sky,False,False,kuh,10
+17,PUZ_001,0,16,edge,EGGT,white,sky,False,False,kuh,8
+18,PUZ_001,0,17,edge,EGGT,pale_blue,sky,False,False,kuh,10
+19,PUZ_001,0,18,edge,EGTT,pale_blue,sky,False,False,kuh,10
+20,PUZ_001,0,19,edge,ETTT,light_blue,"sky, clouds",False,False,kuh,3
+21,PUZ_001,0,20,edge,EGGG,pale_blue,"sky, clouds",False,False,kuh,3
+22,PUZ_001,0,21,edge,EGTG,white,sky,False,False,guh,8
+23,PUZ_001,0,22,edge,ETGT,light_blue,sky,False,False,kuh,10
+24,PUZ_001,0,23,edge,ETTT,pale_blue,sky,False,False,kuh,7
+25,PUZ_001,0,24,edge,ETTG,light_blue,"sky, clouds",False,False,guh,6
+26,PUZ_001,0,25,edge,EGTT,light_blue,"sky, clouds",False,False,guh,3
+27,PUZ_001,0,26,edge,EGGG,white,"sky, clouds",False,False,guh,6
+28,PUZ_001,0,27,edge,EGGT,white,"sky, clouds",False,False,guh,5
+29,PUZ_001,0,28,edge,ETTG,light_blue,"sky, clouds",False,False,kuh,5
+30,PUZ_001,0,29,edge,EGGT,pale_blue,sky,False,False,kuh,7
+31,PUZ_001,0,30,edge,EGGG,light_blue,sky,False,False,guh,8
+32,PUZ_001,0,31,edge,EGGT,pale_blue,sky,False,False,guh,8
+33,PUZ_001,0,32,edge,ETGT,pale_blue,sky,False,False,guh,9
+34,PUZ_001,0,33,edge,EGGT,pale_blue,sky,False,False,kuh,8
+35,PUZ_001,0,34,edge,ETGT,light_blue,sky,False,False,guh,8
+36,PUZ_001,0,35,edge,ETTG,pale_blue,sky,False,False,guh,8
+37,PUZ_001,0,36,edge,ETGG,light_blue,sky,False,False,guh,8
+38,PUZ_001,0,37,edge,ETGT,white,sky,False,False,kuh,10
+39,PUZ_001,0,38,edge,ETGG,light_blue,sky,False,False,guh,10
+40,PUZ_001,0,39,corner,EETG,pale_blue,"sky, clouds",False,False,kung-uh,5
+41,PUZ_001,1,0,edge,EGTG,white,"sky, clouds",False,False,kuh,4
+42,PUZ_001,1,1,internal,GGTG,pale_blue,sky,False,False,fe,10
+43,PUZ_001,1,2,internal,TGGT,pale_blue,sky,False,False,choh,8
+44,PUZ_001,1,3,internal,GGTT,light_blue,sky,False,False,chi,10
+45,PUZ_001,1,4,internal,TTGT,pale_blue,sky,False,False,mut,10
+46,PUZ_001,1,5,internal,TGTG,white,sky,False,False,ta,10
+47,PUZ_001,1,6,internal,TGTG,light_blue,sky,False,False,ta,10
+48,PUZ_001,1,7,internal,GTGT,light_blue,sky,False,False,da,10
+49,PUZ_001,1,8,internal,TTGG,pale_blue,sky,False,False,joon,8
+50,PUZ_001,1,9,internal,TTGT,white,sky,False,False,moo,9
+51,PUZ_001,1,10,internal,GGTT,white,sky,False,False,zhee,8
+52,PUZ_001,1,11,internal,GTGT,pale_blue,"sky, clouds",False,False,sa,4
+53,PUZ_001,1,12,internal,TGGT,light_blue,sky,False,False,jaw,7
+54,PUZ_001,1,13,internal,TTGG,white,sky,False,False,ju,9
+55,PUZ_001,1,14,internal,TGTG,light_blue,sky,False,False,sa,8
+56,PUZ_001,1,15,internal,TGTG,white,sky,False,False,sa,8
+57,PUZ_001,1,16,internal,TGTG,pale_blue,sky,False,False,za,10
+58,PUZ_001,1,17,internal,GGGT,pale_blue,sky,False,False,vee,9
+59,PUZ_001,1,18,internal,GTTT,pale_blue,sky,False,False,bil,9
+60,PUZ_001,1,19,internal,GTGG,light_blue,"sky, clouds",False,False,foom,3
+61,PUZ_001,1,20,internal,GGGT,pale_blue,sky,False,False,thee,10
+62,PUZ_001,1,21,internal,TTGT,light_blue,sky,False,False,moo,7
+63,PUZ_001,1,22,internal,GTGT,light_blue,sky,False,False,tal,7
+64,PUZ_001,1,23,internal,GGGT,white,sky,False,False,thi,10
+65,PUZ_001,1,24,internal,GGTG,pale_blue,sky,False,False,the,10
+66,PUZ_001,1,25,internal,TGGG,pale_blue,sky,False,False,vawl,9
+67,PUZ_001,1,26,internal,GTTG,pale_blue,sky,False,False,zhayt,9
+68,PUZ_001,1,27,internal,TGTG,white,"sky, clouds",False,False,dal,6
+69,PUZ_001,1,28,internal,GTTT,pale_blue,sky,False,False,mee,9
+70,PUZ_001,1,29,internal,TTGT,white,sky,False,False,moo,10
+71,PUZ_001,1,30,internal,GTGT,pale_blue,sky,False,False,la,10
+72,PUZ_001,1,31,internal,TTGT,white,sky,False,False,pu,10
+73,PUZ_001,1,32,internal,TGTG,pale_blue,sky,False,False,za,9
+74,PUZ_001,1,33,internal,GTGT,light_blue,sky,False,False,sa,10
+75,PUZ_001,1,34,internal,TGGT,white,sky,False,False,choh,7
+76,PUZ_001,1,35,internal,TGGT,white,"sky, clouds",False,False,chawn,6
+77,PUZ_001,1,36,internal,GTTG,white,sky,False,False,je,10
+78,PUZ_001,1,37,internal,GGGT,white,"sky, clouds",False,False,vee,3
+79,PUZ_001,1,38,internal,GTGT,white,sky,False,False,ta,7
+80,PUZ_001,1,39,edge,EGGG,pale_blue,sky,False,False,kuh,8
+81,PUZ_001,2,0,edge,ETGG,white,sky,False,False,guh,7
+82,PUZ_001,2,1,internal,GGTT,light_blue,sky,False,False,jee,9
+83,PUZ_001,2,2,internal,TGGG,white,sky,False,False,vohl,7
+84,PUZ_001,2,3,internal,GTGT,white,sky,False,False,la,7
+85,PUZ_001,2,4,internal,GTTT,white,sky,False,False,bin,7
+86,PUZ_001,2,5,internal,GTGT,white,sky,False,False,na,10
+87,PUZ_001,2,6,internal,TGGT,white,sky,False,False,chaw,10
+88,PUZ_001,2,7,internal,TGTG,pale_blue,sky,False,False,za,8
+89,PUZ_001,2,8,internal,TGTT,light_blue,sky,False,False,pawm,10
+90,PUZ_001,2,9,internal,GGGT,white,sky,False,False,vee,9
+91,PUZ_001,2,10,internal,GTTT,white,sky,False,False,pi,8
+92,PUZ_001,2,11,internal,TTTG,pale_blue,"sky, clouds",False,False,pe,4
+93,PUZ_001,2,12,internal,TGTG,pale_blue,sky,False,False,la,7
+94,PUZ_001,2,13,internal,TGGT,light_blue,"sky, clouds",False,False,zhoh,5
+95,PUZ_001,2,14,internal,GTTG,pale_blue,sky,False,False,je,9
+96,PUZ_001,2,15,internal,TGGT,white,sky,False,False,jawt,8
+97,PUZ_001,2,16,internal,TTGG,pale_blue,sky,False,False,choom,9
+98,PUZ_001,2,17,internal,TTGT,pale_blue,sky,False,False,bu,8
+99,PUZ_001,2,18,internal,TGGT,white,"sky, clouds",False,False,chaw,4
+100,PUZ_001,2,19,internal,GTGT,light_blue,"sky, clouds",False,False,za,4
+101,PUZ_001,2,20,internal,TGTG,white,sky,False,False,na,10
+102,PUZ_001,2,21,internal,GTGT,white,sky,False,False,tam,7
+103,PUZ_001,2,22,internal,GGGT,white,sky,False,False,vee,7
+104,PUZ_001,2,23,internal,GTGG,pale_blue,"sky, clouds",False,False,voo,3
+105,PUZ_001,2,24,internal,TGTG,white,sky,False,False,za,10
+106,PUZ_001,2,25,internal,TTGG,white,sky,False,False,ju,7
+107,PUZ_001,2,26,internal,GGTG,pale_blue,sky,False,False,fay,9
+108,PUZ_001,2,27,internal,TGTG,light_blue,sky,False,False,ta,8
+109,PUZ_001,2,28,internal,TTTG,white,"sky, clouds",False,False,bel,5
+110,PUZ_001,2,29,internal,GTGT,pale_blue,sky,False,False,sa,9
+111,PUZ_001,2,30,internal,GTTG,pale_blue,sky,False,False,chel,8
+112,PUZ_001,2,31,internal,GTGT,light_blue,sky,False,False,nan,9
+113,PUZ_001,2,32,internal,GGGG,white,sky,False,False,yu,10
+114,PUZ_001,2,33,internal,GTTG,pale_blue,sky,False,False,she,9
+115,PUZ_001,2,34,internal,TGTG,light_blue,"sky, clouds",False,False,la,5
+116,PUZ_001,2,35,internal,GTGT,light_blue,sky,False,False,sa,8
+117,PUZ_001,2,36,internal,GTTG,white,sky,False,False,zhay,10
+118,PUZ_001,2,37,internal,GGTT,pale_blue,sky,False,False,shee,10
+119,PUZ_001,2,38,internal,GGTT,white,"sky, clouds",False,False,shin,5
+120,PUZ_001,2,39,edge,EGTG,pale_blue,sky,False,False,guh,7
+121,PUZ_001,3,0,edge,EGTT,light_blue,sky,False,False,kuh,8
+122,PUZ_001,3,1,internal,GTTG,white,sky,False,False,zhay,8
+123,PUZ_001,3,2,internal,GTGT,white,sky,False,False,za,7
+124,PUZ_001,3,3,internal,GGTG,light_blue,"sky, clouds",False,False,vay,4
+125,PUZ_001,3,4,internal,GTGT,pale_blue,sky,False,False,da,10
+126,PUZ_001,3,5,internal,TTGG,light_blue,sky,False,False,zhoo,8
+127,PUZ_001,3,6,internal,TTGT,white,sky,False,False,pu,9
+128,PUZ_001,3,7,internal,GGGT,white,sky,False,False,thi,10
+129,PUZ_001,3,8,internal,GTGT,white,sky,False,False,za,10
+130,PUZ_001,3,9,internal,GGGT,white,sky,False,False,fee,8
+131,PUZ_001,3,10,internal,GGGT,white,sky,False,False,fi,10
+132,PUZ_001,3,11,internal,GGTT,pale_blue,sky,False,False,chi,8
+133,PUZ_001,3,12,internal,TGTT,pale_blue,sky,False,False,poh,10
+134,PUZ_001,3,13,internal,TTGG,white,"sky, clouds",False,False,shoo,4
+135,PUZ_001,3,14,internal,TGGG,white,"sky, clouds",False,False,vaw,5
+136,PUZ_001,3,15,internal,GTGT,pale_blue,sky,False,False,sa,10
+137,PUZ_001,3,16,internal,GGTT,light_blue,sky,False,False,shee,9
+138,PUZ_001,3,17,internal,GTTG,pale_blue,sky,False,False,she,7
+139,PUZ_001,3,18,internal,TTTG,pale_blue,sky,False,False,payt,9
+140,PUZ_001,3,19,internal,GTTG,white,sky,False,False,chay,8
+141,PUZ_001,3,20,internal,GTTT,light_blue,"sky, clouds",False,False,bi,4
+142,PUZ_001,3,21,internal,GTTT,pale_blue,sky,False,False,mee,9
+143,PUZ_001,3,22,internal,GTGG,pale_blue,sky,False,False,fu,8
+144,PUZ_001,3,23,internal,GTGT,white,"sky, clouds",False,False,za,6
+145,PUZ_001,3,24,internal,GTGT,white,sky,False,False,da,10
+146,PUZ_001,3,25,internal,GTGT,white,"sky, clouds",False,False,za,5
+147,PUZ_001,3,26,internal,TGTT,pale_blue,"sky, clouds",False,False,pawt,6
+148,PUZ_001,3,27,internal,GGGT,white,sky,False,False,fil,9
+149,PUZ_001,3,28,internal,GTTT,pale_blue,sky,False,False,bee,7
+150,PUZ_001,3,29,internal,TGGT,white,sky,False,False,shaw,7
+151,PUZ_001,3,30,internal,TGTG,white,sky,False,False,lal,9
+152,PUZ_001,3,31,internal,GTGG,white,sky,False,False,fu,10
+153,PUZ_001,3,32,internal,GTTG,white,sky,False,False,jay,7
+154,PUZ_001,3,33,internal,TGTG,light_blue,"sky, clouds",False,False,la,5
+155,PUZ_001,3,34,internal,GTGT,white,"sky, clouds",False,False,na,6
+156,PUZ_001,3,35,internal,GGGT,pale_blue,sky,False,False,thi,9
+157,PUZ_001,3,36,internal,TGTG,light_blue,"sky, clouds",False,False,sa,5
+158,PUZ_001,3,37,internal,TGGT,light_blue,sky,False,False,shaw,9
+159,PUZ_001,3,38,internal,GTTG,light_blue,sky,False,False,chay,9
+160,PUZ_001,3,39,edge,ETGG,pale_blue,"sky, clouds",False,False,kuh,6
+161,PUZ_001,4,0,edge,ETTG,pale_blue,sky,False,False,kuh,10
+162,PUZ_001,4,1,internal,TGTT,white,sky,False,False,mawm,8
+163,PUZ_001,4,2,internal,TTGG,light_blue,sky,False,False,jun,8
+164,PUZ_001,4,3,internal,GTTG,white,sky,False,False,shay,7
+165,PUZ_001,4,4,internal,TGTG,white,"sky, clouds",False,False,ta,4
+166,PUZ_001,4,5,internal,TTGG,pale_blue,"sky, clouds",False,False,choo,4
+167,PUZ_001,4,6,internal,TTTG,light_blue,sky,False,False,bayl,8
+168,PUZ_001,4,7,internal,GTTG,light_blue,sky,False,False,shayn,8
+169,PUZ_001,4,8,internal,TTGG,light_blue,sky,False,False,chum,7
+170,PUZ_001,4,9,internal,GGGT,white,sky,False,False,vi,7
+171,PUZ_001,4,10,internal,GTGT,light_blue,sky,False,False,za,9
+172,PUZ_001,4,11,internal,TGTG,light_blue,sky,False,False,na,10
+173,PUZ_001,4,12,internal,GTGG,white,sky,False,False,thut,9
+174,PUZ_001,4,13,internal,GTTG,light_blue,sky,False,False,che,9
+175,PUZ_001,4,14,internal,TTGG,pale_blue,sky,False,False,ju,10
+176,PUZ_001,4,15,internal,GTGT,pale_blue,"sky, clouds",False,False,na,4
+177,PUZ_001,4,16,internal,GTTT,white,sky,False,False,pi,9
+178,PUZ_001,4,17,internal,GTGG,pale_blue,sky,False,False,vu,10
+179,PUZ_001,4,18,internal,TGTG,light_blue,"sky, clouds",False,False,nan,4
+180,PUZ_001,4,19,internal,GTGT,pale_blue,sky,False,False,za,10
+181,PUZ_001,4,20,internal,GGTG,pale_blue,sky,False,False,vay,9
+182,PUZ_001,4,21,internal,TGGT,pale_blue,sky,False,False,choh,8
+183,PUZ_001,4,22,internal,GGGT,white,sky,False,False,thin,8
+184,PUZ_001,4,23,internal,GTTT,pale_blue,sky,False,False,bee,9
+185,PUZ_001,4,24,internal,GGTT,white,"sky, clouds",False,False,ji,4
+186,PUZ_001,4,25,internal,GGTG,pale_blue,sky,False,False,thet,7
+187,PUZ_001,4,26,internal,TGGT,light_blue,sky,False,False,zhaw,8
+188,PUZ_001,4,27,internal,TGGT,pale_blue,sky,False,False,joh,8
+189,PUZ_001,4,28,internal,TGTG,pale_blue,"sky, clouds",False,False,nam,6
+190,PUZ_001,4,29,internal,GTTT,white,sky,False,False,pee,7
+191,PUZ_001,4,30,internal,GGGT,light_blue,sky,False,False,vi,9
+192,PUZ_001,4,31,internal,TGTG,white,"sky, clouds",False,False,zan,4
+193,PUZ_001,4,32,internal,GTGT,white,sky,False,False,dam,10
+194,PUZ_001,4,33,internal,TTGT,white,"sky, clouds",False,False,boo,5
+195,PUZ_001,4,34,internal,GTTT,pale_blue,"sky, clouds",False,False,mit,5
+196,PUZ_001,4,35,internal,GTGT,pale_blue,sky,False,False,sam,7
+197,PUZ_001,4,36,internal,TGTG,light_blue,sky,False,False,za,9
+198,PUZ_001,4,37,internal,TGGT,light_blue,"sky, clouds",False,False,chaw,3
+199,PUZ_001,4,38,internal,TGTG,white,sky,False,False,lal,7
+200,PUZ_001,4,39,edge,EGGT,pale_blue,sky,False,False,kuh,7
+201,PUZ_001,5,0,edge,EGTG,light_blue,"sky, clouds",False,False,kuh,6
+202,PUZ_001,5,1,internal,TGTG,pale_blue,sky,False,False,za,9
+203,PUZ_001,5,2,internal,GTTT,pale_blue,sky,False,False,pee,10
+204,PUZ_001,5,3,internal,GGGG,white,sky,False,False,yah,7
+205,PUZ_001,5,4,internal,TGTG,white,sky,False,False,na,9
+206,PUZ_001,5,5,internal,TGTT,light_blue,"sky, clouds",False,False,baw,3
+207,PUZ_001,5,6,internal,GTTG,pale_blue,sky,False,False,che,8
+208,PUZ_001,5,7,internal,TGTG,white,sky,False,False,na,7
+209,PUZ_001,5,8,internal,GGTT,light_blue,sky,False,False,shee,10
+210,PUZ_001,5,9,internal,GGTG,pale_blue,sky,False,False,fe,9
+211,PUZ_001,5,10,internal,TGTT,white,sky,False,False,boh,9
+212,PUZ_001,5,11,internal,TGTT,light_blue,"sky, clouds",False,False,baw,4
+213,PUZ_001,5,12,internal,TTTG,pale_blue,sky,False,False,bay,9
+214,PUZ_001,5,13,internal,GTGT,pale_blue,sky,False,False,lat,9
+215,PUZ_001,5,14,internal,TTGG,pale_blue,sky,False,False,joo,7
+216,PUZ_001,5,15,internal,GGGT,white,sky,False,False,thin,8
+217,PUZ_001,5,16,internal,TGTG,white,sky,False,False,sal,8
+218,PUZ_001,5,17,internal,GTGT,light_blue,"sky, clouds",False,False,za,4
+219,PUZ_001,5,18,internal,TTGT,light_blue,sky,False,False,moo,8
+220,PUZ_001,5,19,internal,GGTT,light_blue,sky,False,False,zhi,8
+221,PUZ_001,5,20,internal,GTGT,pale_blue,sky,False,False,dal,9
+222,PUZ_001,5,21,internal,GTTT,white,sky,False,False,mi,10
+223,PUZ_001,5,22,internal,TGTG,white,sky,False,False,sa,8
+224,PUZ_001,5,23,internal,TGTT,light_blue,sky,False,False,poh,9
+225,PUZ_001,5,24,internal,TGTG,light_blue,sky,False,False,lal,9
+226,PUZ_001,5,25,internal,GGTT,pale_blue,sky,False,False,chil,10
+227,PUZ_001,5,26,internal,GTGG,light_blue,sky,False,False,voo,9
+228,PUZ_001,5,27,internal,TGGT,light_blue,"sky, clouds",False,False,joht,5
+229,PUZ_001,5,28,internal,GTGT,light_blue,sky,False,False,na,10
+230,PUZ_001,5,29,internal,GGTG,light_blue,sky,False,False,the,7
+231,PUZ_001,5,30,internal,GTGT,light_blue,sky,False,False,da,10
+232,PUZ_001,5,31,internal,TGGT,white,"sky, clouds",False,False,chawl,6
+233,PUZ_001,5,32,internal,TTGG,pale_blue,sky,False,False,zhoom,7
+234,PUZ_001,5,33,internal,TGTG,pale_blue,sky,False,False,tat,9
+235,PUZ_001,5,34,internal,TGTT,white,"sky, clouds",False,False,moh,5
+236,PUZ_001,5,35,internal,GTTG,pale_blue,"sky, clouds",False,False,she,3
+237,PUZ_001,5,36,internal,TTTG,white,sky,False,False,pay,7
+238,PUZ_001,5,37,internal,TTTG,pale_blue,sky,False,False,bay,9
+239,PUZ_001,5,38,internal,TGTG,white,"sky, clouds",False,False,za,4
+240,PUZ_001,5,39,edge,ETTG,light_blue,sky,False,False,guh,9
+241,PUZ_001,6,0,edge,EGGG,white,sky,False,False,guh,10
+242,PUZ_001,6,1,internal,GTGT,pale_blue,"sky, clouds",False,False,ta,3
+243,PUZ_001,6,2,internal,TTGG,white,sky,False,False,joo,10
+244,PUZ_001,6,3,internal,TTGG,pale_blue,sky,False,False,zhu,8
+245,PUZ_001,6,4,internal,TGTT,white,sky,False,False,paw,10
+246,PUZ_001,6,5,internal,GGTG,pale_blue,"sky, clouds",False,False,fe,3
+247,PUZ_001,6,6,internal,GGTG,white,sky,False,False,ve,10
+248,PUZ_001,6,7,internal,GGTT,white,"sky, clouds",False,False,jin,6
+249,PUZ_001,6,8,internal,TTGG,light_blue,"sky, clouds",False,False,shu,4
+250,PUZ_001,6,9,internal,TTGG,light_blue,sky,False,False,zhool,9
+251,PUZ_001,6,10,internal,GTTG,pale_blue,sky,False,False,shay,9
+252,PUZ_001,6,11,internal,TGTT,light_blue,sky,False,False,boh,10
+253,PUZ_001,6,12,internal,GTGT,white,sky,False,False,tal,10
+254,PUZ_001,6,13,internal,TGTG,pale_blue,sky,False,False,na,10
+255,PUZ_001,6,14,internal,TTGG,pale_blue,"sky, clouds",False,False,jul,3
+256,PUZ_001,6,15,internal,TTGT,pale_blue,sky,False,False,poo,9
+257,PUZ_001,6,16,internal,GTGT,pale_blue,sky,False,False,na,8
+258,PUZ_001,6,17,internal,GTGT,pale_blue,sky,False,False,la,8
+259,PUZ_001,6,18,internal,TGTT,light_blue,"sky, clouds",False,False,moh,3
+260,PUZ_001,6,19,internal,GTGT,pale_blue,sky,False,False,da,8
+261,PUZ_001,6,20,internal,TGTG,light_blue,sky,False,False,na,10
+262,PUZ_001,6,21,internal,TTTG,white,sky,False,False,bayn,7
+263,PUZ_001,6,22,internal,GGTT,pale_blue,sky,False,False,jee,8
+264,PUZ_001,6,23,internal,TGTT,light_blue,sky,False,False,poh,8
+265,PUZ_001,6,24,internal,TGTG,light_blue,sky,False,False,da,9
+266,PUZ_001,6,25,internal,GGTT,white,sky,False,False,chin,7
+267,PUZ_001,6,26,internal,TGTG,light_blue,sky,False,False,za,9
+268,PUZ_001,6,27,internal,GGGT,pale_blue,sky,False,False,fee,9
+269,PUZ_001,6,28,internal,GGTT,pale_blue,sky,False,False,zhee,9
+270,PUZ_001,6,29,internal,TGTT,white,sky,False,False,poh,10
+271,PUZ_001,6,30,internal,TTGG,light_blue,"sky, clouds",False,False,shoo,6
+272,PUZ_001,6,31,internal,TGTT,white,sky,False,False,boh,9
+273,PUZ_001,6,32,internal,TTTG,white,sky,False,False,pay,7
+274,PUZ_001,6,33,internal,GTGT,white,sky,False,False,na,8
+275,PUZ_001,6,34,internal,GGTG,white,"sky, clouds",False,False,vel,5
+276,PUZ_001,6,35,internal,TGTG,pale_blue,sky,False,False,da,10
+277,PUZ_001,6,36,internal,TGTG,white,sky,False,False,sa,7
+278,PUZ_001,6,37,internal,TGGT,pale_blue,sky,False,False,zhohn,7
+279,PUZ_001,6,38,internal,GTGG,white,"sky, clouds",False,False,thut,3
+280,PUZ_001,6,39,edge,ETGT,white,sky,False,False,guh,10
+281,PUZ_001,7,0,edge,EGGT,light_blue,sky,False,False,guh,9
+282,PUZ_001,7,1,internal,TTGG,pale_blue,sky,False,False,shoo,10
+283,PUZ_001,7,2,internal,TGTT,white,sky,False,False,baw,8
+284,PUZ_001,7,3,internal,GTTG,white,sky,False,False,shayn,10
+285,PUZ_001,7,4,internal,GTTT,light_blue,sky,False,False,bee,9
+286,PUZ_001,7,5,internal,TTTG,pale_blue,"sky, clouds",False,False,be,6
+287,PUZ_001,7,6,internal,GTTT,white,sky,False,False,pee,7
+288,PUZ_001,7,7,internal,TGTG,pale_blue,sky,False,False,da,9
+289,PUZ_001,7,8,internal,GGTT,pale_blue,sky,False,False,chee,8
+290,PUZ_001,7,9,internal,TGTG,pale_blue,sky,False,False,zal,7
+291,PUZ_001,7,10,internal,GTGT,pale_blue,sky,False,False,nan,10
+292,PUZ_001,7,11,internal,TGTT,pale_blue,"sky, clouds",False,False,maw,6
+293,PUZ_001,7,12,internal,TGTG,pale_blue,sky,False,False,la,8
+294,PUZ_001,7,13,internal,TGGT,pale_blue,sky,False,False,zhaw,8
+295,PUZ_001,7,14,internal,TGGT,pale_blue,sky,False,False,jaw,9
+296,PUZ_001,7,15,internal,TGGT,light_blue,sky,False,False,chaw,8
+297,PUZ_001,7,16,internal,GGTG,white,sky,False,False,vay,10
+298,PUZ_001,7,17,internal,GTGT,white,sky,False,False,za,10
+299,PUZ_001,7,18,internal,TGGT,white,sky,False,False,john,7
+300,PUZ_001,7,19,internal,GTGG,white,sky,False,False,thu,8
+301,PUZ_001,7,20,internal,TGGT,pale_blue,"sky, clouds",False,False,jaw,4
+302,PUZ_001,7,21,internal,TGGT,pale_blue,"sky, clouds",False,False,chohm,5
+303,PUZ_001,7,22,internal,TTGG,light_blue,sky,False,False,choo,8
+304,PUZ_001,7,23,internal,GGGT,white,sky,False,False,vee,9
+305,PUZ_001,7,24,internal,GTGG,pale_blue,sky,False,False,foo,8
+306,PUZ_001,7,25,internal,TTGG,pale_blue,sky,False,False,shoo,8
+307,PUZ_001,7,26,internal,GGGT,light_blue,sky,False,False,vin,7
+308,PUZ_001,7,27,internal,TGTG,pale_blue,"sky, clouds",False,False,za,5
+309,PUZ_001,7,28,internal,TTTG,pale_blue,"sky, clouds",False,False,be,4
+310,PUZ_001,7,29,internal,TGGT,white,sky,False,False,joh,9
+311,PUZ_001,7,30,internal,GGTT,white,"sky, clouds",False,False,jeen,5
+312,PUZ_001,7,31,internal,TTTG,light_blue,sky,False,False,me,9
+313,PUZ_001,7,32,internal,GTGT,pale_blue,"sky, clouds",False,False,na,6
+314,PUZ_001,7,33,internal,TTGT,light_blue,sky,False,False,mu,10
+315,PUZ_001,7,34,internal,GGGG,white,sky,False,False,yah,7
+316,PUZ_001,7,35,internal,GTGT,white,"sky, clouds",False,False,lat,6
+317,PUZ_001,7,36,internal,GTTT,white,sky,False,False,bi,9
+318,PUZ_001,7,37,internal,TTGG,light_blue,sky,False,False,choo,10
+319,PUZ_001,7,38,internal,GGTT,pale_blue,sky,False,False,ji,10
+320,PUZ_001,7,39,edge,EGGG,pale_blue,sky,False,False,guh,7
+321,PUZ_001,8,0,edge,EGGG,dark_brown,"cabin, wood, window",False,False,guh,2
+322,PUZ_001,8,1,internal,GGTT,tan,cabin,False,False,shi,4
+323,PUZ_001,8,2,internal,GGTT,tan,"cabin, wood, window",False,False,zhee,3
+324,PUZ_001,8,3,internal,GGTG,tan,cabin,False,False,vay,1
+325,PUZ_001,8,4,internal,GGGT,tan,"cabin, wood, window",False,False,thee,1
+326,PUZ_001,8,5,internal,GTTG,brown,cabin,False,False,zhayl,2
+327,PUZ_001,8,6,internal,GTTG,dark_brown,cabin,False,False,zhe,4
+328,PUZ_001,8,7,internal,TTGG,tan,"cabin, wood, window",False,False,zhoo,2
+329,PUZ_001,8,8,internal,TGGT,tan,cabin,False,False,shoh,4
+330,PUZ_001,8,9,internal,GTTT,dark_brown,cabin,False,False,mee,3
+331,PUZ_001,8,10,internal,GTTT,ice_blue,"ice, pond_surface",False,False,bi,7
+332,PUZ_001,8,11,internal,GTTG,white_blue,"ice, pond_surface",False,False,zhel,6
+333,PUZ_001,8,12,internal,TGTT,white_blue,"ice, pond_surface",False,False,baw,6
+334,PUZ_001,8,13,internal,GGTT,white_blue,"ice, pond_surface",False,False,cheet,9
+335,PUZ_001,8,14,internal,GTTG,pale_white,"ice, pond_surface",False,False,shay,9
+336,PUZ_001,8,15,internal,TTGG,ice_blue,"ice, pond_surface",False,False,choo,6
+337,PUZ_001,8,16,internal,GGTG,white_blue,"ice, pond_surface",False,False,the,8
+338,PUZ_001,8,17,internal,GGTG,pale_white,"ice, pond_surface",False,False,thel,7
+339,PUZ_001,8,18,internal,GTGT,ice_blue,"ice, pond_surface",False,False,da,7
+340,PUZ_001,8,19,internal,TTGT,pale_white,"ice, pond_surface",False,False,bu,6
+341,PUZ_001,8,20,internal,GTGT,ice_blue,"ice, pond_surface",False,False,la,8
+342,PUZ_001,8,21,internal,TGGG,pale_white,"ice, pond_surface",False,False,vawm,7
+343,PUZ_001,8,22,internal,TTTG,pale_white,"ice, pond_surface",False,False,pay,8
+344,PUZ_001,8,23,internal,TGTG,pale_white,"ice, pond_surface",False,False,ta,9
+345,PUZ_001,8,24,internal,TTGT,ice_blue,"ice, pond_surface",False,False,boo,8
+346,PUZ_001,8,25,internal,GTGT,white_blue,"ice, pond_surface",False,False,da,8
+347,PUZ_001,8,26,internal,GTGT,gray_blue,"shore, pebbles",False,False,zam,3
+348,PUZ_001,8,27,internal,GTTG,gray_blue,"shore, pebbles",False,False,chay,5
+349,PUZ_001,8,28,internal,GGTG,brown_gray,"shore, pebbles",False,False,fay,3
+350,PUZ_001,8,29,internal,GTGT,muted_green,"shore, pebbles",False,False,sa,4
+351,PUZ_001,8,30,internal,GTTT,brown_gray,"shore, pebbles",False,False,mi,6
+352,PUZ_001,8,31,internal,GTTG,brown_gray,"shore, pebbles",False,False,je,6
+353,PUZ_001,8,32,internal,TGTG,brown_gray,"shore, pebbles",False,False,na,5
+354,PUZ_001,8,33,internal,TTGT,gray_blue,"shore, pebbles",False,False,pu,4
+355,PUZ_001,8,34,internal,GTGT,muted_green,"shore, pebbles",False,False,ta,6
+356,PUZ_001,8,35,internal,GTGT,brown_gray,"shore, pebbles",False,False,ta,6
+357,PUZ_001,8,36,internal,TTTG,muted_green,"shore, pebbles",False,False,me,5
+358,PUZ_001,8,37,internal,TTTG,brown_gray,"shore, pebbles",False,False,pe,5
+359,PUZ_001,8,38,internal,TGTT,gray_blue,"shore, pebbles",False,False,maw,3
+360,PUZ_001,8,39,edge,EGGG,gray_blue,"shore, pebbles",False,False,guh,4
+361,PUZ_001,9,0,edge,EGGG,tan,"cabin, wood, window",False,False,guh,4
+362,PUZ_001,9,1,internal,GGTT,brown,cabin,False,False,shi,3
+363,PUZ_001,9,2,internal,TGGT,tan,cabin,False,False,shaw,2
+364,PUZ_001,9,3,internal,GTTT,brown,"cabin, wood, window",False,False,bee,3
+365,PUZ_001,9,4,internal,GGGT,tan,cabin,False,False,vee,4
+366,PUZ_001,9,5,internal,GTTG,brown,"cabin, wood, window",False,False,che,1
+367,PUZ_001,9,6,internal,TGTG,dark_brown,cabin,False,False,na,4
+368,PUZ_001,9,7,internal,TGGG,brown,cabin,False,False,thoh,1
+369,PUZ_001,9,8,internal,GTGT,tan,"cabin, wood, window",False,False,la,1
+370,PUZ_001,9,9,internal,GTGT,brown,cabin,False,False,ta,4
+371,PUZ_001,9,10,internal,TGGT,ice_blue,"ice, pond_surface",False,False,shoh,8
+372,PUZ_001,9,11,internal,TTGG,pale_white,"ice, pond_surface",False,False,shoo,8
+373,PUZ_001,9,12,internal,GGTT,white_blue,"ice, pond_surface",False,False,chee,9
+374,PUZ_001,9,13,internal,GTGG,white_blue,"ice, pond_surface",False,False,voo,9
+375,PUZ_001,9,14,internal,TGTG,pale_white,"ice, pond_surface",False,False,za,7
+376,PUZ_001,9,15,internal,TGTG,pale_white,"ice, pond_surface",False,False,la,8
+377,PUZ_001,9,16,internal,TGTG,white_blue,"ice, pond_surface",False,False,nat,8
+378,PUZ_001,9,17,internal,TTTG,pale_white,"ice, pond_surface",False,False,be,8
+379,PUZ_001,9,18,internal,GGTT,white_blue,"ice, pond_surface",False,False,ji,8
+380,PUZ_001,9,19,internal,TGTT,pale_white,"ice, pond_surface",False,False,paw,9
+381,PUZ_001,9,20,internal,TGTG,white_blue,"ice, pond_surface",False,False,za,6
+382,PUZ_001,9,21,internal,TGGT,white_blue,"ice, pond_surface",False,False,joh,7
+383,PUZ_001,9,22,internal,GGTT,pale_white,"ice, pond_surface",False,False,zhi,6
+384,PUZ_001,9,23,internal,TTTG,white_blue,"ice, pond_surface",False,False,pe,8
+385,PUZ_001,9,24,internal,TTGT,white_blue,"ice, pond_surface",False,False,moom,9
+386,PUZ_001,9,25,internal,GTGG,white_blue,"ice, pond_surface",False,False,foo,6
+387,PUZ_001,9,26,internal,TGTG,muted_green,"shore, pebbles",False,False,za,3
+388,PUZ_001,9,27,internal,GGTG,brown_gray,"shore, pebbles",False,False,ve,4
+389,PUZ_001,9,28,internal,GTTG,muted_green,"shore, pebbles",False,False,chen,5
+390,PUZ_001,9,29,internal,GTGT,brown_gray,"shore, pebbles",False,False,sam,5
+391,PUZ_001,9,30,internal,GTGT,brown_gray,"shore, pebbles",False,False,da,5
+392,PUZ_001,9,31,internal,GTGT,brown_gray,"shore, pebbles",False,False,ta,4
+393,PUZ_001,9,32,internal,GTGT,brown_gray,"shore, pebbles",False,False,na,6
+394,PUZ_001,9,33,internal,TTGG,brown_gray,"shore, pebbles",False,False,zhu,6
+395,PUZ_001,9,34,internal,GGTT,muted_green,"shore, pebbles",False,False,chi,4
+396,PUZ_001,9,35,internal,TGGG,brown_gray,"shore, pebbles",False,False,voh,5
+397,PUZ_001,9,36,internal,GTGT,brown_gray,"shore, pebbles",False,False,la,4
+398,PUZ_001,9,37,internal,GTTT,brown_gray,"shore, pebbles",False,False,pi,6
+399,PUZ_001,9,38,internal,TGGG,brown_gray,"shore, pebbles",False,False,foh,4
+400,PUZ_001,9,39,edge,EGTG,brown_gray,"shore, pebbles",False,False,guh,6
+401,PUZ_001,10,0,edge,ETGT,dark_brown,"cabin, wood, window",False,False,kuh,4
+402,PUZ_001,10,1,internal,TGTG,dark_brown,"cabin, wood, window",False,False,sa,4
+403,PUZ_001,10,2,internal,TGGG,tan,cabin,False,False,thohl,3
+404,PUZ_001,10,3,internal,GTGG,dark_brown,"cabin, wood, window",False,False,fu,3
+405,PUZ_001,10,4,internal,TTGT,tan,cabin,False,False,mool,2
+406,PUZ_001,10,5,internal,TGTT,tan,"cabin, wood, window",False,False,poh,1
+407,PUZ_001,10,6,internal,GTGT,tan,"cabin, wood, window",False,False,sal,3
+408,PUZ_001,10,7,internal,GGTG,tan,"cabin, wood, window",False,False,fe,1
+409,PUZ_001,10,8,internal,TGTT,dark_brown,"cabin, wood, window",False,False,pawt,1
+410,PUZ_001,10,9,internal,GTTT,tan,"cabin, wood, window",False,False,bee,2
+411,PUZ_001,10,10,internal,TTGG,pale_white,"ice, pond_surface",False,False,choo,8
+412,PUZ_001,10,11,internal,TGTT,pale_white,"ice, pond_surface",False,False,pawm,7
+413,PUZ_001,10,12,internal,TGTG,white_blue,"ice, pond_surface",False,False,la,7
+414,PUZ_001,10,13,internal,GTGT,ice_blue,"ice, pond_surface",False,False,za,7
+415,PUZ_001,10,14,internal,TGTT,white_blue,"ice, pond_surface",False,False,poh,7
+416,PUZ_001,10,15,internal,GTGT,ice_blue,"ice, pond_surface",False,False,da,8
+417,PUZ_001,10,16,internal,TTGT,pale_white,"ice, pond_surface",False,False,pu,9
+418,PUZ_001,10,17,internal,TGGT,pale_white,"ice, pond_surface",False,False,shaw,9
+419,PUZ_001,10,18,internal,TTTG,pale_white,"ice, pond_surface",True,False,me,6
+420,PUZ_001,10,19,internal,GTGG,pale_white,"ice, pond_surface",True,False,fun,6
+421,PUZ_001,10,20,internal,TGTT,white_blue,"ice, pond_surface",True,False,poh,9
+422,PUZ_001,10,21,internal,TGGG,pale_white,"ice, pond_surface",True,False,faw,9
+423,PUZ_001,10,22,internal,TTTG,pale_white,"ice, pond_surface",False,False,bay,9
+424,PUZ_001,10,23,internal,TGGT,ice_blue,"ice, pond_surface",False,False,choh,9
+425,PUZ_001,10,24,internal,GTGG,pale_white,"ice, pond_surface",False,False,fu,9
+426,PUZ_001,10,25,internal,TGGT,white_blue,"ice, pond_surface",False,False,chaw,9
+427,PUZ_001,10,26,internal,TGGT,brown_gray,"shore, pebbles",False,False,zhaw,6
+428,PUZ_001,10,27,internal,TGTG,brown_gray,"shore, pebbles",False,False,ta,4
+429,PUZ_001,10,28,internal,GTGT,brown_gray,"shore, pebbles",False,False,nan,4
+430,PUZ_001,10,29,internal,GTGT,brown_gray,"shore, pebbles",False,False,za,3
+431,PUZ_001,10,30,internal,GTGT,muted_green,"shore, pebbles",False,False,na,5
+432,PUZ_001,10,31,internal,GTGT,muted_green,"shore, pebbles",False,False,na,6
+433,PUZ_001,10,32,internal,GGTT,gray_blue,"shore, pebbles",False,False,chi,3
+434,PUZ_001,10,33,internal,GTGT,brown_gray,"shore, pebbles",False,False,da,3
+435,PUZ_001,10,34,internal,GGGT,brown_gray,"shore, pebbles",False,False,fee,5
+436,PUZ_001,10,35,internal,TTGG,muted_green,"shore, pebbles",False,False,zhoo,4
+437,PUZ_001,10,36,internal,GTGT,gray_blue,"shore, pebbles",False,False,na,4
+438,PUZ_001,10,37,internal,GTTG,brown_gray,"shore, pebbles",False,False,je,3
+439,PUZ_001,10,38,internal,TGTG,gray_blue,"shore, pebbles",False,False,sa,4
+440,PUZ_001,10,39,edge,EGGG,muted_green,"shore, pebbles",False,False,guh,6
+441,PUZ_001,11,0,edge,ETGT,tan,cabin,False,False,guh,1
+442,PUZ_001,11,1,internal,GTGT,dark_brown,"cabin, wood, window",False,False,da,4
+443,PUZ_001,11,2,internal,GGTT,brown,"cabin, wood, window",False,False,shi,3
+444,PUZ_001,11,3,internal,TGTT,dark_brown,cabin,False,False,poh,2
+445,PUZ_001,11,4,internal,TTGG,tan,"cabin, wood, window",False,False,ju,2
+446,PUZ_001,11,5,internal,GGTT,tan,cabin,False,False,jeem,1
+447,PUZ_001,11,6,internal,GTTG,brown,"cabin, wood, window",False,False,zhem,2
+448,PUZ_001,11,7,internal,TGTG,brown,cabin,False,False,lan,1
+449,PUZ_001,11,8,internal,TGTG,tan,cabin,False,False,na,2
+450,PUZ_001,11,9,internal,GTTG,dark_brown,"cabin, wood, window",False,False,jay,1
+451,PUZ_001,11,10,internal,GTTG,pale_white,"ice, pond_surface",False,False,shayt,7
+452,PUZ_001,11,11,internal,TTTT,pale_white,"ice, pond_surface",False,False,haw,6
+453,PUZ_001,11,12,internal,GTGG,white_blue,"ice, pond_surface",False,False,thu,9
+454,PUZ_001,11,13,internal,GGTG,pale_white,"ice, pond_surface",False,False,fem,6
+455,PUZ_001,11,14,internal,GTTG,pale_white,"ice, pond_surface",False,False,shay,8
+456,PUZ_001,11,15,internal,GGTG,white_blue,"ice, pond_surface",False,False,vay,7
+457,PUZ_001,11,16,internal,TGGT,white_blue,"ice, pond_surface",False,False,shoh,7
+458,PUZ_001,11,17,internal,TTGG,pale_white,"ice, pond_surface, fisherman",False,False,chu,4
+459,PUZ_001,11,18,internal,GTGG,white_blue,"ice, pond_surface, fisherman",True,False,foot,4
+460,PUZ_001,11,19,internal,GTTG,ice_blue,"ice, pond_surface, fisherman",True,False,zhe,2
+461,PUZ_001,11,20,internal,GTTG,ice_blue,"ice, pond_surface, fisherman",True,False,shay,3
+462,PUZ_001,11,21,internal,GTGT,pale_white,"ice, pond_surface, fisherman",True,False,na,2
+463,PUZ_001,11,22,internal,TTGG,pale_white,"ice, pond_surface",False,False,zhu,7
+464,PUZ_001,11,23,internal,GTTT,ice_blue,"ice, pond_surface",False,False,pee,6
+465,PUZ_001,11,24,internal,GTTG,pale_white,"ice, pond_surface",False,False,she,7
+466,PUZ_001,11,25,internal,GGGT,ice_blue,"ice, pond_surface",False,False,thi,7
+467,PUZ_001,11,26,internal,TTGG,brown_gray,"shore, pebbles",False,False,shoo,3
+468,PUZ_001,11,27,internal,GTGG,brown_gray,"shore, pebbles",False,False,foo,6
+469,PUZ_001,11,28,internal,GTGT,muted_green,"shore, pebbles",False,False,da,6
+470,PUZ_001,11,29,internal,TGGT,gray_blue,"shore, pebbles",False,False,chawt,4
+471,PUZ_001,11,30,internal,GTGT,gray_blue,"shore, pebbles",False,False,za,3
+472,PUZ_001,11,31,internal,GGGT,brown_gray,"shore, pebbles",False,False,thi,4
+473,PUZ_001,11,32,internal,TGGT,gray_blue,"shore, pebbles",False,False,choh,3
+474,PUZ_001,11,33,internal,TGGT,brown_gray,"shore, pebbles",False,False,shaw,4
+475,PUZ_001,11,34,internal,TTTG,gray_blue,"shore, pebbles",False,False,may,4
+476,PUZ_001,11,35,internal,TGTT,brown_gray,"shore, pebbles",False,False,pawl,5
+477,PUZ_001,11,36,internal,TGGG,muted_green,"shore, pebbles",False,False,foh,6
+478,PUZ_001,11,37,internal,GGGT,brown_gray,"shore, pebbles",False,False,thee,3
+479,PUZ_001,11,38,internal,GGGT,brown_gray,"shore, pebbles",False,False,vi,4
+480,PUZ_001,11,39,edge,ETGT,gray_blue,"shore, pebbles",False,False,kuh,3
+481,PUZ_001,12,0,edge,EGGG,tan,"cabin, wood, window",False,False,guh,2
+482,PUZ_001,12,1,internal,TGTT,brown,cabin,False,False,bawl,4
+483,PUZ_001,12,2,internal,GTTG,tan,cabin,False,False,jay,1
+484,PUZ_001,12,3,internal,GTTG,brown,cabin,False,False,chay,1
+485,PUZ_001,12,4,internal,GTTG,brown,cabin,False,False,zhe,3
+486,PUZ_001,12,5,internal,GTGT,dark_brown,"cabin, wood, window",False,False,sa,3
+487,PUZ_001,12,6,internal,GTTT,tan,cabin,False,False,bee,4
+488,PUZ_001,12,7,internal,GTGT,brown,cabin,False,False,lam,1
+489,PUZ_001,12,8,internal,TTTG,tan,"cabin, wood, window",False,False,bay,1
+490,PUZ_001,12,9,internal,TGGG,tan,cabin,False,False,thaw,2
+491,PUZ_001,12,10,internal,TTGG,ice_blue,"ice, pond_surface",False,False,zhoo,7
+492,PUZ_001,12,11,internal,GGTG,pale_white,"ice, pond_surface",False,False,vayl,9
+493,PUZ_001,12,12,internal,GTGT,pale_white,"ice, pond_surface",False,False,da,6
+494,PUZ_001,12,13,internal,GTGT,pale_white,"ice, pond_surface",False,False,na,9
+495,PUZ_001,12,14,internal,GTTG,white_blue,"ice, pond_surface",False,False,she,7
+496,PUZ_001,12,15,internal,TTGT,white_blue,"ice, pond_surface",False,False,pu,9
+497,PUZ_001,12,16,internal,GTGT,pale_white,"ice, pond_surface",False,False,la,8
+498,PUZ_001,12,17,internal,GTGT,white_blue,"ice, pond_surface, fisherman",False,False,na,1
+499,PUZ_001,12,18,internal,GGTT,white_blue,"ice, pond_surface, fisherman",True,False,shee,3
+500,PUZ_001,12,19,internal,GTGT,ice_blue,"ice, pond_surface, fisherman",True,False,na,2
+501,PUZ_001,12,20,internal,GTTG,ice_blue,"ice, pond_surface, fisherman",True,False,jet,1
+502,PUZ_001,12,21,internal,GGTT,white_blue,"ice, pond_surface, fisherman",True,False,jeen,2
+503,PUZ_001,12,22,internal,GTGT,white_blue,"ice, pond_surface",False,False,la,9
+504,PUZ_001,12,23,internal,GTGT,pale_white,"ice, pond_surface",False,False,nal,6
+505,PUZ_001,12,24,internal,GGGG,ice_blue,"ice, pond_surface",False,False,yaw,7
+506,PUZ_001,12,25,internal,GGTG,white_blue,"ice, pond_surface",False,False,vay,7
+507,PUZ_001,12,26,internal,GGTG,gray_blue,"shore, pebbles",False,False,fay,4
+508,PUZ_001,12,27,internal,GTTG,gray_blue,"shore, pebbles",False,False,che,3
+509,PUZ_001,12,28,internal,TGGT,muted_green,"shore, pebbles",False,False,joht,4
+510,PUZ_001,12,29,internal,GGGG,muted_green,"shore, pebbles",False,False,yayn,3
+511,PUZ_001,12,30,internal,GTTG,gray_blue,"shore, pebbles",False,False,zhay,6
+512,PUZ_001,12,31,internal,GGTG,muted_green,"shore, pebbles",False,False,vem,4
+513,PUZ_001,12,32,internal,GTGT,brown_gray,"shore, pebbles",False,False,tam,4
+514,PUZ_001,12,33,internal,GTTG,gray_blue,"shore, pebbles",False,False,che,6
+515,PUZ_001,12,34,internal,TTTG,gray_blue,"shore, pebbles",False,False,me,6
+516,PUZ_001,12,35,internal,GTGG,gray_blue,"shore, pebbles",False,False,thoo,3
+517,PUZ_001,12,36,internal,TGGT,brown_gray,"shore, pebbles",False,False,jaw,6
+518,PUZ_001,12,37,internal,GTGT,brown_gray,"shore, pebbles",False,False,za,4
+519,PUZ_001,12,38,internal,GTTT,gray_blue,"shore, pebbles",False,False,peen,3
+520,PUZ_001,12,39,edge,ETTG,gray_blue,"shore, pebbles",False,False,kuh,4
+521,PUZ_001,13,0,edge,ETGG,tan,cabin,False,False,guh,2
+522,PUZ_001,13,1,internal,GTGT,tan,"cabin, wood, window",False,False,la,1
+523,PUZ_001,13,2,internal,TGGG,tan,cabin,False,False,thoh,2
+524,PUZ_001,13,3,internal,GTGT,tan,cabin,False,False,zat,1
+525,PUZ_001,13,4,internal,GTGT,dark_brown,"cabin, wood, window",False,False,ta,1
+526,PUZ_001,13,5,internal,GTGT,dark_brown,"cabin, wood, window",False,False,ta,2
+527,PUZ_001,13,6,internal,TGTT,tan,cabin,False,False,mohl,1
+528,PUZ_001,13,7,internal,GGTT,tan,cabin,False,False,shi,4
+529,PUZ_001,13,8,internal,TTGT,tan,cabin,False,False,pul,4
+530,PUZ_001,13,9,internal,TGGT,tan,cabin,False,False,joh,3
+531,PUZ_001,13,10,internal,GGTG,white_blue,"ice, pond_surface",False,False,thay,8
+532,PUZ_001,13,11,internal,TGTG,white_blue,"ice, pond_surface",False,False,ta,9
+533,PUZ_001,13,12,internal,TTGG,pale_white,"ice, pond_surface",False,False,shoo,7
+534,PUZ_001,13,13,internal,TGTG,pale_white,"ice, pond_surface",False,False,za,7
+535,PUZ_001,13,14,internal,TGGT,ice_blue,"ice, pond_surface",False,False,shoh,8
+536,PUZ_001,13,15,internal,GTGT,white_blue,"ice, pond_surface",False,False,la,8
+537,PUZ_001,13,16,internal,TGGT,ice_blue,"ice, pond_surface",False,False,shawt,8
+538,PUZ_001,13,17,internal,GTGT,ice_blue,"ice, pond_surface, fisherman",False,False,nam,4
+539,PUZ_001,13,18,internal,TTGG,white_blue,"ice, pond_surface, fisherman",True,False,zhu,3
+540,PUZ_001,13,19,internal,GTTT,pale_white,"ice, pond_surface, fisherman",True,False,pee,2
+541,PUZ_001,13,20,internal,TTTT,white_blue,"ice, pond_surface, fisherman",True,False,hi,1
+542,PUZ_001,13,21,internal,GTGT,ice_blue,"ice, pond_surface, fisherman",True,False,nat,1
+543,PUZ_001,13,22,internal,TTTG,ice_blue,"ice, pond_surface",False,False,met,6
+544,PUZ_001,13,23,internal,TGGT,ice_blue,"ice, pond_surface",False,False,zhoh,7
+545,PUZ_001,13,24,internal,GTTT,pale_white,"ice, pond_surface",False,False,peen,7
+546,PUZ_001,13,25,internal,TGTT,white_blue,"ice, pond_surface",False,False,paw,8
+547,PUZ_001,13,26,internal,GGTT,gray_blue,"shore, pebbles",False,False,shee,6
+548,PUZ_001,13,27,internal,TGGG,gray_blue,"shore, pebbles",False,False,fawt,5
+549,PUZ_001,13,28,internal,TGTT,muted_green,"shore, pebbles",False,False,bawt,4
+550,PUZ_001,13,29,internal,TTGT,gray_blue,"shore, pebbles",False,False,bu,6
+551,PUZ_001,13,30,internal,TTGG,gray_blue,"shore, pebbles",False,False,ju,5
+552,PUZ_001,13,31,internal,GTGT,gray_blue,"shore, pebbles",False,False,lam,5
+553,PUZ_001,13,32,internal,TGTG,gray_blue,"shore, pebbles",False,False,sam,5
+554,PUZ_001,13,33,internal,TGGT,gray_blue,"shore, pebbles",False,False,joht,3
+555,PUZ_001,13,34,internal,TTGG,muted_green,"shore, pebbles",False,False,ju,4
+556,PUZ_001,13,35,internal,TGGG,muted_green,"shore, pebbles",False,False,faw,6
+557,PUZ_001,13,36,internal,TTGT,muted_green,"shore, pebbles",False,False,bu,4
+558,PUZ_001,13,37,internal,TGTG,brown_gray,"shore, pebbles",False,False,da,3
+559,PUZ_001,13,38,internal,TGTG,muted_green,"shore, pebbles",False,False,zam,4
+560,PUZ_001,13,39,edge,EGGG,gray_blue,"shore, pebbles",False,False,kuh,3
+561,PUZ_001,14,0,edge,ETGG,tan,cabin,False,False,guh,1
+562,PUZ_001,14,1,internal,TGGG,tan,"cabin, wood, window",False,False,thaw,4
+563,PUZ_001,14,2,internal,GGTG,brown,cabin,False,False,thel,2
+564,PUZ_001,14,3,internal,TTGT,dark_brown,cabin,False,False,moo,1
+565,PUZ_001,14,4,internal,GTGT,dark_brown,cabin,False,False,dam,4
+566,PUZ_001,14,5,internal,TGGT,tan,"cabin, wood, window",False,False,zhoh,4
+567,PUZ_001,14,6,internal,GGGG,tan,"cabin, wood, window",False,False,yee,3
+568,PUZ_001,14,7,internal,GGTT,brown,cabin,False,False,ji,4
+569,PUZ_001,14,8,internal,TTTG,dark_brown,cabin,False,False,maym,3
+570,PUZ_001,14,9,internal,GGGT,tan,"cabin, wood, window",False,False,theel,4
+571,PUZ_001,14,10,internal,GTTG,pale_white,"ice, pond_surface",False,False,zhe,7
+572,PUZ_001,14,11,internal,GGTT,white_blue,"ice, pond_surface",False,False,ji,6
+573,PUZ_001,14,12,internal,TGTG,white_blue,"ice, pond_surface",False,False,ta,7
+574,PUZ_001,14,13,internal,TGGT,white_blue,"ice, pond_surface",False,False,zhoh,7
+575,PUZ_001,14,14,internal,GTTG,ice_blue,"ice, pond_surface",False,False,je,6
+576,PUZ_001,14,15,internal,TGGT,pale_white,"ice, pond_surface",False,False,shoh,9
+577,PUZ_001,14,16,internal,GGTT,white_blue,"ice, pond_surface",False,False,zhi,8
+578,PUZ_001,14,17,internal,TTGT,pale_white,"ice, pond_surface, fisherman",False,False,boom,1
+579,PUZ_001,14,18,internal,GTGG,white_blue,"ice, pond_surface, fisherman",False,False,thoo,2
+580,PUZ_001,14,19,internal,TGGT,pale_white,"ice, pond_surface, fisherman",False,True,chaw,1
+581,PUZ_001,14,20,internal,TTGG,pale_white,"ice, pond_surface, fisherman",False,False,shu,2
+582,PUZ_001,14,21,internal,GTGT,pale_white,"ice, pond_surface, fisherman",False,False,nan,3
+583,PUZ_001,14,22,internal,GTGT,ice_blue,"ice, pond_surface",False,False,sa,7
+584,PUZ_001,14,23,internal,GGTG,ice_blue,"ice, pond_surface",False,False,ve,6
+585,PUZ_001,14,24,internal,GTTG,pale_white,"ice, pond_surface",False,False,jet,9
+586,PUZ_001,14,25,internal,GGGG,white_blue,"ice, pond_surface",False,False,ya,8
+587,PUZ_001,14,26,internal,TGTG,brown_gray,"shore, pebbles",False,False,la,4
+588,PUZ_001,14,27,internal,TTGT,gray_blue,"shore, pebbles",False,False,bu,4
+589,PUZ_001,14,28,internal,GGTG,muted_green,"shore, pebbles",False,False,fe,5
+590,PUZ_001,14,29,internal,TGGT,brown_gray,"shore, pebbles",False,False,zhaw,4
+591,PUZ_001,14,30,internal,TTGG,brown_gray,"shore, pebbles",False,False,chu,5
+592,PUZ_001,14,31,internal,TTGG,muted_green,"shore, pebbles",False,False,joo,4
+593,PUZ_001,14,32,internal,TGGG,brown_gray,"shore, pebbles",False,False,fawn,4
+594,PUZ_001,14,33,internal,GTGG,muted_green,"shore, pebbles",False,False,vool,5
+595,PUZ_001,14,34,internal,TGTG,brown_gray,"shore, pebbles",False,False,dan,6
+596,PUZ_001,14,35,internal,GTGT,gray_blue,"shore, pebbles",False,False,sa,3
+597,PUZ_001,14,36,internal,TTGG,brown_gray,"shore, pebbles",False,False,choo,6
+598,PUZ_001,14,37,internal,GTTG,muted_green,"shore, pebbles",False,False,jel,4
+599,PUZ_001,14,38,internal,TTTT,gray_blue,"shore, pebbles",False,False,hu,6
+600,PUZ_001,14,39,edge,EGTG,gray_blue,"shore, pebbles",False,False,guh,4
+601,PUZ_001,15,0,edge,ETGG,brown,"cabin, wood, window",False,False,kuh,4
+602,PUZ_001,15,1,internal,TTTT,brown,cabin,False,False,hah,4
+603,PUZ_001,15,2,internal,TTTG,tan,"cabin, wood, window",False,False,payl,3
+604,PUZ_001,15,3,internal,GTTG,tan,cabin,False,False,chay,2
+605,PUZ_001,15,4,internal,TGGT,tan,"cabin, wood, window",False,False,joh,3
+606,PUZ_001,15,5,internal,TTGG,brown,"cabin, wood, window",False,False,ju,3
+607,PUZ_001,15,6,internal,TGTG,dark_brown,"cabin, wood, window",False,False,ta,4
+608,PUZ_001,15,7,internal,TGGG,brown,"cabin, wood, window",False,False,fawl,2
+609,PUZ_001,15,8,internal,GTGT,brown,"cabin, wood, window",False,False,zat,4
+610,PUZ_001,15,9,internal,TGGT,tan,cabin,False,False,shoh,1
+611,PUZ_001,15,10,internal,TTGT,white_blue,"ice, pond_surface",False,False,boo,9
+612,PUZ_001,15,11,internal,TGTG,white_blue,"ice, pond_surface",False,False,za,7
+613,PUZ_001,15,12,internal,TGTT,white_blue,"ice, pond_surface",False,False,boh,6
+614,PUZ_001,15,13,internal,TTGT,pale_white,"ice, pond_surface",False,False,bu,7
+615,PUZ_001,15,14,internal,GGTG,ice_blue,"ice, pond_surface",False,False,fayt,9
+616,PUZ_001,15,15,internal,GTGT,white_blue,"ice, pond_surface",False,False,za,7
+617,PUZ_001,15,16,internal,TGTT,ice_blue,"ice, pond_surface",False,False,bawt,9
+618,PUZ_001,15,17,internal,GTTT,white_blue,"ice, pond_surface",False,False,bi,6
+619,PUZ_001,15,18,internal,GTTG,white_blue,"ice, pond_surface",False,False,shay,9
+620,PUZ_001,15,19,internal,GTTT,white_blue,"ice, pond_surface",False,False,mee,6
+621,PUZ_001,15,20,internal,TTGG,ice_blue,"ice, pond_surface",False,False,chu,8
+622,PUZ_001,15,21,internal,TTTG,ice_blue,"ice, pond_surface",False,False,payl,6
+623,PUZ_001,15,22,internal,TTTG,ice_blue,"ice, pond_surface",False,False,pe,6
+624,PUZ_001,15,23,internal,TTGG,white_blue,"ice, pond_surface",False,False,shoo,7
+625,PUZ_001,15,24,internal,GTGG,ice_blue,"ice, pond_surface",False,False,vu,8
+626,PUZ_001,15,25,internal,GTGT,pale_white,"ice, pond_surface",False,False,na,7
+627,PUZ_001,15,26,internal,GTGT,gray_blue,"shore, pebbles",False,False,sa,5
+628,PUZ_001,15,27,internal,GTTG,brown_gray,"shore, pebbles",False,False,zhe,4
+629,PUZ_001,15,28,internal,TTGT,gray_blue,"shore, pebbles",False,False,moo,4
+630,PUZ_001,15,29,internal,GGTT,gray_blue,"shore, pebbles",False,False,zhi,6
+631,PUZ_001,15,30,internal,TGTG,gray_blue,"shore, pebbles",False,False,za,3
+632,PUZ_001,15,31,internal,GTGT,muted_green,"shore, pebbles",False,False,la,6
+633,PUZ_001,15,32,internal,GTGT,gray_blue,"shore, pebbles",False,False,san,5
+634,PUZ_001,15,33,internal,GGTG,gray_blue,"shore, pebbles",False,False,thay,5
+635,PUZ_001,15,34,internal,TTGT,muted_green,"shore, pebbles",False,False,boo,4
+636,PUZ_001,15,35,internal,GTGG,brown_gray,"shore, pebbles",False,False,vu,3
+637,PUZ_001,15,36,internal,TGGG,gray_blue,"shore, pebbles",False,False,thoh,6
+638,PUZ_001,15,37,internal,TGGT,brown_gray,"shore, pebbles",False,False,choh,5
+639,PUZ_001,15,38,internal,GGTG,gray_blue,"shore, pebbles",False,False,vel,6
+640,PUZ_001,15,39,edge,ETGG,brown_gray,"shore, pebbles",False,False,guh,3
+641,PUZ_001,16,0,edge,ETTT,tan,"cabin, wood, window",False,False,kuh,4
+642,PUZ_001,16,1,internal,GTTT,dark_brown,"cabin, wood, window",False,False,bee,3
+643,PUZ_001,16,2,internal,GTTG,dark_brown,cabin,False,False,che,3
+644,PUZ_001,16,3,internal,GTGG,brown,cabin,False,False,vu,4
+645,PUZ_001,16,4,internal,TTGT,tan,cabin,False,False,bul,1
+646,PUZ_001,16,5,internal,TTGG,dark_brown,"cabin, wood, window",False,False,ju,1
+647,PUZ_001,16,6,internal,TGGT,tan,cabin,False,False,chaw,2
+648,PUZ_001,16,7,internal,TGTG,tan,"cabin, wood, window",False,False,ta,2
+649,PUZ_001,16,8,internal,TGGT,brown,cabin,False,False,zhoh,1
+650,PUZ_001,16,9,internal,GTTT,tan,cabin,False,False,pee,1
+651,PUZ_001,16,10,internal,TGTG,pale_white,"ice, pond_surface",False,False,la,9
+652,PUZ_001,16,11,internal,TGGG,pale_white,"ice, pond_surface",False,False,voh,7
+653,PUZ_001,16,12,internal,TGGT,pale_white,"ice, pond_surface",False,False,choh,8
+654,PUZ_001,16,13,internal,GTTT,pale_white,"ice, pond_surface",False,False,pi,7
+655,PUZ_001,16,14,internal,GGGT,ice_blue,"ice, pond_surface",False,False,vi,9
+656,PUZ_001,16,15,internal,TGTT,white_blue,"ice, pond_surface",False,False,maw,8
+657,PUZ_001,16,16,internal,TGTG,pale_white,"ice, pond_surface",False,False,za,7
+658,PUZ_001,16,17,internal,GTGT,white_blue,"ice, pond_surface",False,False,ta,7
+659,PUZ_001,16,18,internal,GTGT,pale_white,"ice, pond_surface",False,False,la,8
+660,PUZ_001,16,19,internal,GTGT,pale_white,"ice, pond_surface",False,False,na,9
+661,PUZ_001,16,20,internal,TGTG,pale_white,"ice, pond_surface",False,False,la,9
+662,PUZ_001,16,21,internal,GTGT,white_blue,"ice, pond_surface",False,False,zal,6
+663,PUZ_001,16,22,internal,TGTT,pale_white,"ice, pond_surface",False,False,mohl,8
+664,PUZ_001,16,23,internal,TGTG,pale_white,"ice, pond_surface",False,False,da,8
+665,PUZ_001,16,24,internal,GGTG,white_blue,"ice, pond_surface",False,False,thay,9
+666,PUZ_001,16,25,internal,TTGG,white_blue,"ice, pond_surface",False,False,chun,6
+667,PUZ_001,16,26,internal,TGGG,brown_gray,"shore, pebbles",False,False,vaw,5
+668,PUZ_001,16,27,internal,TGTT,muted_green,"shore, pebbles",False,False,moh,4
+669,PUZ_001,16,28,internal,TGTG,muted_green,"shore, pebbles",False,False,sa,5
+670,PUZ_001,16,29,internal,TGTG,muted_green,"shore, pebbles",False,False,za,4
+671,PUZ_001,16,30,internal,GTGT,brown_gray,"shore, pebbles",False,False,sa,3
+672,PUZ_001,16,31,internal,TGTG,gray_blue,"shore, pebbles",False,False,ta,6
+673,PUZ_001,16,32,internal,TGTG,brown_gray,"shore, pebbles",False,False,za,5
+674,PUZ_001,16,33,internal,TGTG,gray_blue,"shore, pebbles",False,False,da,4
+675,PUZ_001,16,34,internal,GTGT,gray_blue,"shore, pebbles",False,False,ta,5
+676,PUZ_001,16,35,internal,GTGT,brown_gray,"shore, pebbles",False,False,zan,4
+677,PUZ_001,16,36,internal,TGGG,gray_blue,"shore, pebbles",False,False,thoh,4
+678,PUZ_001,16,37,internal,TGTG,brown_gray,"shore, pebbles",False,False,zal,4
+679,PUZ_001,16,38,internal,GGTG,muted_green,"shore, pebbles",False,False,ve,4
+680,PUZ_001,16,39,edge,ETGG,muted_green,"shore, pebbles",False,False,guh,4
+681,PUZ_001,17,0,edge,EGGT,brown,"cabin, wood, window",False,False,guh,3
+682,PUZ_001,17,1,internal,GTTT,dark_brown,"cabin, wood, window",False,False,pi,3
+683,PUZ_001,17,2,internal,GGTT,brown,cabin,False,False,jee,2
+684,PUZ_001,17,3,internal,GTGT,dark_brown,cabin,False,False,za,2
+685,PUZ_001,17,4,internal,GTTG,brown,cabin,False,False,zhaym,1
+686,PUZ_001,17,5,internal,TGTT,brown,cabin,False,False,maw,1
+687,PUZ_001,17,6,internal,GTGT,brown,"cabin, wood, window",False,False,ta,2
+688,PUZ_001,17,7,internal,TTGG,tan,cabin,False,False,zhu,4
+689,PUZ_001,17,8,internal,TGGT,tan,"cabin, wood, window",False,False,shoh,1
+690,PUZ_001,17,9,internal,GTGT,dark_brown,cabin,False,False,na,1
+691,PUZ_001,17,10,internal,TGTG,ice_blue,"ice, pond_surface",False,False,la,8
+692,PUZ_001,17,11,internal,GTTG,ice_blue,"ice, pond_surface",False,False,zhe,6
+693,PUZ_001,17,12,internal,GGTT,ice_blue,"ice, pond_surface",False,False,cheem,8
+694,PUZ_001,17,13,internal,TGTG,pale_white,"ice, pond_surface",False,False,ta,8
+695,PUZ_001,17,14,internal,TGTG,white_blue,"ice, pond_surface",False,False,zat,9
+696,PUZ_001,17,15,internal,GGTG,pale_white,"ice, pond_surface",False,False,thay,8
+697,PUZ_001,17,16,internal,GTTT,white_blue,"ice, pond_surface",False,False,peel,8
+698,PUZ_001,17,17,internal,TTGT,white_blue,"ice, pond_surface",False,False,moo,6
+699,PUZ_001,17,18,internal,GGTG,pale_white,"ice, pond_surface",False,False,vayt,8
+700,PUZ_001,17,19,internal,TGGG,white_blue,"ice, pond_surface",False,False,faw,8
+701,PUZ_001,17,20,internal,GGTT,white_blue,"ice, pond_surface",False,False,cheet,7
+702,PUZ_001,17,21,internal,GTGT,ice_blue,"ice, pond_surface",False,False,sa,8
+703,PUZ_001,17,22,internal,TGTG,pale_white,"ice, pond_surface",False,False,za,8
+704,PUZ_001,17,23,internal,GGTT,ice_blue,"ice, pond_surface",False,False,zheel,7
+705,PUZ_001,17,24,internal,TTGG,pale_white,"ice, pond_surface",False,False,zhu,7
+706,PUZ_001,17,25,internal,GTTT,pale_white,"ice, pond_surface",False,False,bi,9
+707,PUZ_001,17,26,internal,TTTG,brown_gray,"shore, pebbles",False,False,pe,3
+708,PUZ_001,17,27,internal,GTGT,gray_blue,"shore, pebbles",False,False,la,4
+709,PUZ_001,17,28,internal,TGGG,muted_green,"shore, pebbles",False,False,faw,3
+710,PUZ_001,17,29,internal,TTTG,muted_green,"shore, pebbles",False,False,may,3
+711,PUZ_001,17,30,internal,TGTG,muted_green,"shore, pebbles",False,False,za,4
+712,PUZ_001,17,31,internal,TGTG,gray_blue,"shore, pebbles",False,False,za,6
+713,PUZ_001,17,32,internal,GGTG,muted_green,"shore, pebbles",False,False,fe,5
+714,PUZ_001,17,33,internal,GTGT,gray_blue,"shore, pebbles",False,False,sa,3
+715,PUZ_001,17,34,internal,GGGT,muted_green,"shore, pebbles",False,False,fee,4
+716,PUZ_001,17,35,internal,TGTG,brown_gray,"shore, pebbles",False,False,ta,4
+717,PUZ_001,17,36,internal,GGGT,muted_green,"shore, pebbles",False,False,thi,3
+718,PUZ_001,17,37,internal,GTGT,gray_blue,"shore, pebbles",False,False,san,4
+719,PUZ_001,17,38,internal,TTGG,gray_blue,"shore, pebbles",False,False,chu,6
+720,PUZ_001,17,39,edge,EGGT,gray_blue,"shore, pebbles",False,False,guh,4
+721,PUZ_001,18,0,edge,ETTT,dark_green,"branches, trunks",False,False,kuh,5
+722,PUZ_001,18,1,internal,TTGT,forest_green,"shadows, trunks",False,False,boo,4
+723,PUZ_001,18,2,internal,GGTT,brown_black,"trunks, trees",False,False,shil,5
+724,PUZ_001,18,3,internal,GTTG,forest_green,"trees, branches",False,False,che,4
+725,PUZ_001,18,4,internal,GTTT,brown_black,"shadows, trunks",False,False,mee,6
+726,PUZ_001,18,5,internal,GTGT,dark_green,"trunks, trees",False,False,ta,4
+727,PUZ_001,18,6,internal,TTTG,black_green,"trees, shadows",False,False,pay,7
+728,PUZ_001,18,7,internal,TTGT,dark_green,"branches, trees",False,False,mu,7
+729,PUZ_001,18,8,internal,GGTT,brown_black,"trunks, trees",False,False,zhee,5
+730,PUZ_001,18,9,internal,GTGG,forest_green,"trunks, branches",False,False,thu,3
+731,PUZ_001,18,10,internal,GTGT,black_green,"shadows, trunks",False,False,ta,6
+732,PUZ_001,18,11,internal,TGTG,black_green,"trees, shadows",False,False,sa,4
+733,PUZ_001,18,12,internal,GGTG,dark_green,"shadows, branches",False,False,fay,6
+734,PUZ_001,18,13,internal,TGTT,brown_black,"branches, trees",False,False,bawm,7
+735,PUZ_001,18,14,internal,TTTG,forest_green,"trees, trunks",False,False,me,5
+736,PUZ_001,18,15,internal,GGTG,dark_green,"branches, shadows",False,False,thet,3
+737,PUZ_001,18,16,internal,GGGG,dark_green,"trees, trunks",False,False,yoo,4
+738,PUZ_001,18,17,internal,TTGT,black_green,"shadows, branches",False,False,bu,6
+739,PUZ_001,18,18,internal,TGTG,forest_green,"branches, shadows",False,False,sa,6
+740,PUZ_001,18,19,internal,GTGT,black_green,"branches, shadows",False,False,zan,5
+741,PUZ_001,18,20,internal,TGTG,brown_black,"trunks, branches",False,False,na,4
+742,PUZ_001,18,21,internal,TGTG,dark_green,"trunks, branches",False,False,sa,3
+743,PUZ_001,18,22,internal,TGTG,black_green,"shadows, branches",False,False,na,6
+744,PUZ_001,18,23,internal,TGTG,brown_black,"trees, shadows",False,False,da,4
+745,PUZ_001,18,24,internal,TGTG,brown_black,"shadows, branches",False,False,la,3
+746,PUZ_001,18,25,internal,TGTG,black_green,"shadows, trunks",False,False,na,5
+747,PUZ_001,18,26,internal,TTGG,black_green,"trees, branches",False,False,choo,6
+748,PUZ_001,18,27,internal,GTGT,black_green,"trees, shadows",False,False,na,6
+749,PUZ_001,18,28,internal,GTTT,brown_black,"shadows, branches",False,False,mee,3
+750,PUZ_001,18,29,internal,GTGG,dark_green,"branches, shadows",False,False,thu,5
+751,PUZ_001,18,30,internal,GGGG,black_green,"trunks, shadows",False,False,yahl,6
+752,PUZ_001,18,31,internal,GTGT,dark_green,"trees, branches",False,False,da,6
+753,PUZ_001,18,32,internal,GTGG,forest_green,"shadows, trunks",False,False,thu,5
+754,PUZ_001,18,33,internal,TGGT,brown_black,"shadows, branches",False,False,shawt,6
+755,PUZ_001,18,34,internal,TTGG,black_green,"trunks, shadows",False,False,zhu,3
+756,PUZ_001,18,35,internal,GTTG,forest_green,"trunks, shadows",False,False,she,5
+757,PUZ_001,18,36,internal,TGTG,dark_green,"trunks, shadows",False,False,da,5
+758,PUZ_001,18,37,internal,TGTG,black_green,"trunks, shadows",False,False,lal,5
+759,PUZ_001,18,38,internal,TGTT,black_green,"trunks, trees",False,False,mawt,4
+760,PUZ_001,18,39,edge,EGTG,dark_green,"shadows, trunks",False,False,guh,5
+761,PUZ_001,19,0,edge,ETGT,brown_black,"trunks, branches",False,False,kuh,6
+762,PUZ_001,19,1,internal,TGGT,brown_black,"trees, branches",False,False,jaw,5
+763,PUZ_001,19,2,internal,TTTG,brown_black,"trees, branches",False,False,be,4
+764,PUZ_001,19,3,internal,TTTG,dark_green,"trunks, shadows",False,False,bay,5
+765,PUZ_001,19,4,internal,TGTG,black_green,"branches, trees",False,False,da,6
+766,PUZ_001,19,5,internal,GTTG,forest_green,"trunks, shadows",False,False,zhay,5
+767,PUZ_001,19,6,internal,TGTG,forest_green,"shadows, trunks",False,False,sa,4
+768,PUZ_001,19,7,internal,GGGT,dark_green,"branches, trees",False,False,thi,5
+769,PUZ_001,19,8,internal,GTGG,black_green,"trunks, shadows",False,False,foo,4
+770,PUZ_001,19,9,internal,GTTT,forest_green,"shadows, trunks",False,False,pee,4
+771,PUZ_001,19,10,internal,TGTG,dark_green,"trunks, shadows",False,False,sa,5
+772,PUZ_001,19,11,internal,GTGT,forest_green,"branches, trunks",False,False,za,6
+773,PUZ_001,19,12,internal,TTGT,dark_green,"branches, shadows",False,False,boo,4
+774,PUZ_001,19,13,internal,GGGT,forest_green,"branches, trunks",False,False,thi,6
+775,PUZ_001,19,14,internal,TTGT,dark_green,"shadows, branches",False,False,pu,4
+776,PUZ_001,19,15,internal,TGTG,black_green,"branches, trunks",False,False,la,3
+777,PUZ_001,19,16,internal,GTTT,dark_green,"trunks, shadows",False,False,mi,5
+778,PUZ_001,19,17,internal,TTTG,forest_green,"shadows, trunks",False,False,pe,6
+779,PUZ_001,19,18,internal,GTGT,brown_black,"trunks, trees",False,False,na,6
+780,PUZ_001,19,19,internal,GGTG,dark_green,"trunks, trees",False,False,vaym,4
+781,PUZ_001,19,20,internal,GTGT,dark_green,"shadows, branches",False,False,nal,3
+782,PUZ_001,19,21,internal,GTGT,brown_black,"branches, trees",False,False,ta,5
+783,PUZ_001,19,22,internal,GGGG,black_green,"trunks, trees",False,False,yoo,6
+784,PUZ_001,19,23,internal,GGGT,brown_black,"shadows, branches",False,False,vi,4
+785,PUZ_001,19,24,internal,GTTG,brown_black,"shadows, branches",False,False,je,4
+786,PUZ_001,19,25,internal,TGTG,dark_green,"shadows, trunks",False,False,dan,3
+787,PUZ_001,19,26,internal,GGTT,dark_green,"trunks, shadows",False,False,ji,6
+788,PUZ_001,19,27,internal,GTTG,brown_black,"branches, trees",False,False,zhe,4
+789,PUZ_001,19,28,internal,TTGT,forest_green,"trunks, shadows",False,False,bu,4
+790,PUZ_001,19,29,internal,TGGG,brown_black,"shadows, trees",False,False,voh,5
+791,PUZ_001,19,30,internal,GTGG,forest_green,"branches, shadows",False,False,thu,3
+792,PUZ_001,19,31,internal,GGTG,black_green,"trunks, shadows",False,False,fe,5
+793,PUZ_001,19,32,internal,TGGT,brown_black,"trunks, shadows",False,False,shoh,3
+794,PUZ_001,19,33,internal,TTGG,black_green,"trees, trunks",False,False,joo,4
+795,PUZ_001,19,34,internal,TGGT,black_green,"trees, shadows",False,False,shawm,6
+796,PUZ_001,19,35,internal,GTGT,brown_black,"branches, trunks",False,False,la,4
+797,PUZ_001,19,36,internal,GGTT,dark_green,"branches, trunks",False,False,shin,6
+798,PUZ_001,19,37,internal,TGGT,dark_green,"trees, branches",False,False,chaw,7
+799,PUZ_001,19,38,internal,TGTG,black_green,"trees, shadows",False,False,sa,5
+800,PUZ_001,19,39,edge,ETTT,forest_green,"trunks, branches",False,False,kuh,5
+801,PUZ_001,20,0,edge,ETTG,forest_green,"trees, branches",False,False,kuh,5
+802,PUZ_001,20,1,internal,GTGT,brown_black,"branches, trees",False,False,ta,7
+803,PUZ_001,20,2,internal,GGTT,black_green,"trees, shadows",False,False,zhee,4
+804,PUZ_001,20,3,internal,TTTG,black_green,"trunks, shadows",False,False,me,3
+805,PUZ_001,20,4,internal,TTGG,dark_green,"branches, shadows",False,False,chool,5
+806,PUZ_001,20,5,internal,GTGT,forest_green,"shadows, branches",False,False,ta,5
+807,PUZ_001,20,6,internal,GTTG,black_green,"branches, trees",False,False,zhe,7
+808,PUZ_001,20,7,internal,TGTG,black_green,"trunks, branches",False,False,da,5
+809,PUZ_001,20,8,internal,TGTG,black_green,"trees, branches",False,False,tan,6
+810,PUZ_001,20,9,internal,TGTG,brown_black,"trees, branches",False,False,za,4
+811,PUZ_001,20,10,internal,GTTG,forest_green,"trunks, shadows",False,False,shem,4
+812,PUZ_001,20,11,internal,TGTT,forest_green,"branches, trunks",False,False,baw,3
+813,PUZ_001,20,12,internal,GTTT,dark_green,"trunks, trees",False,False,meel,4
+814,PUZ_001,20,13,internal,GGTG,dark_green,"shadows, branches",False,False,vel,3
+815,PUZ_001,20,14,internal,TTGG,dark_green,"trunks, branches",False,False,zhoo,3
+816,PUZ_001,20,15,internal,GTGG,forest_green,"shadows, trunks",False,False,thoo,5
+817,PUZ_001,20,16,internal,GTTG,dark_green,"trees, trunks",False,False,shay,4
+818,PUZ_001,20,17,internal,TGGG,dark_green,"trunks, branches",False,False,vohl,4
+819,PUZ_001,20,18,internal,GGTG,brown_black,"trees, branches",False,False,the,7
+820,PUZ_001,20,19,internal,TGGG,dark_green,"trunks, trees",False,False,thaw,5
+821,PUZ_001,20,20,internal,GGGT,brown_black,"branches, trunks",False,False,thi,6
+822,PUZ_001,20,21,internal,GGTT,brown_black,"branches, shadows",False,False,chee,5
+823,PUZ_001,20,22,internal,GTTT,forest_green,"shadows, trunks",False,False,pee,5
+824,PUZ_001,20,23,internal,TGTG,dark_green,"trunks, shadows",False,False,na,4
+825,PUZ_001,20,24,internal,TTGG,forest_green,"trees, branches",False,False,joom,6
+826,PUZ_001,20,25,internal,GGTG,black_green,"trunks, shadows",False,False,vayn,3
+827,PUZ_001,20,26,internal,TTTG,brown_black,"trunks, branches",False,False,me,4
+828,PUZ_001,20,27,internal,TGGT,brown_black,"trees, branches",False,False,joh,7
+829,PUZ_001,20,28,internal,TTGT,dark_green,"trees, trunks",False,False,pu,4
+830,PUZ_001,20,29,internal,GTGT,black_green,"trees, branches",False,False,la,4
+831,PUZ_001,20,30,internal,TGGT,forest_green,"trunks, shadows",False,False,chohm,6
+832,PUZ_001,20,31,internal,TGTT,dark_green,"trunks, shadows",False,False,pawn,3
+833,PUZ_001,20,32,internal,GGGT,brown_black,"trees, branches",False,False,vi,7
+834,PUZ_001,20,33,internal,GTGT,black_green,"trunks, shadows",False,False,za,4
+835,PUZ_001,20,34,internal,GTTG,black_green,"trunks, trees",False,False,je,4
+836,PUZ_001,20,35,internal,TTGT,dark_green,"shadows, trunks",False,False,pun,3
+837,PUZ_001,20,36,internal,TTTG,forest_green,"trunks, shadows",False,False,be,6
+838,PUZ_001,20,37,internal,TTGG,dark_green,"trunks, trees",False,False,joo,4
+839,PUZ_001,20,38,internal,GTTG,dark_green,"trees, shadows",False,False,chet,6
+840,PUZ_001,20,39,edge,ETTG,forest_green,"trunks, branches",False,False,kuh,5
+841,PUZ_001,21,0,edge,ETGG,brown_black,"trees, trunks",False,False,kuh,6
+842,PUZ_001,21,1,internal,TGTG,black_green,"branches, trees",False,False,san,6
+843,PUZ_001,21,2,internal,GGGT,dark_green,"trees, trunks",False,False,thim,4
+844,PUZ_001,21,3,internal,TGTG,forest_green,"shadows, branches",False,False,za,6
+845,PUZ_001,21,4,internal,GGTT,dark_green,"trees, shadows",False,False,ji,5
+846,PUZ_001,21,5,internal,GTGT,dark_green,"branches, shadows",False,False,da,4
+847,PUZ_001,21,6,internal,TTTG,forest_green,"trees, branches",False,False,pe,4
+848,PUZ_001,21,7,internal,GTTG,forest_green,"trunks, trees",False,False,je,4
+849,PUZ_001,21,8,internal,TTGG,brown_black,"trunks, shadows",False,False,choo,5
+850,PUZ_001,21,9,internal,GGTG,forest_green,"shadows, branches",False,False,fay,4
+851,PUZ_001,21,10,internal,GTTG,black_green,"branches, shadows",False,False,che,4
+852,PUZ_001,21,11,internal,GTGT,black_green,"branches, trees",False,False,zal,4
+853,PUZ_001,21,12,internal,TTGG,forest_green,"shadows, trunks",False,False,ju,5
+854,PUZ_001,21,13,internal,GTGT,black_green,"trunks, trees",False,False,ta,6
+855,PUZ_001,21,14,internal,GTGG,black_green,"trunks, trees",False,False,thoo,7
+856,PUZ_001,21,15,internal,GTTG,black_green,"shadows, branches",False,False,jay,6
+857,PUZ_001,21,16,internal,TGTG,brown_black,"trunks, trees",False,False,tat,6
+858,PUZ_001,21,17,internal,TGTG,brown_black,"trunks, branches",False,False,la,3
+859,PUZ_001,21,18,internal,GGTT,black_green,"shadows, branches",False,False,zhi,4
+860,PUZ_001,21,19,internal,GGTT,brown_black,"shadows, trees",False,False,zhi,4
+861,PUZ_001,21,20,internal,TGTT,dark_green,"shadows, trunks",False,False,moh,6
+862,PUZ_001,21,21,internal,GGTT,dark_green,"shadows, branches",False,False,sheem,5
+863,PUZ_001,21,22,internal,TTTG,forest_green,"shadows, trees",False,False,pe,4
+864,PUZ_001,21,23,internal,TGTG,black_green,"shadows, branches",False,False,sa,3
+865,PUZ_001,21,24,internal,GGTG,black_green,"trunks, shadows",False,False,ve,4
+866,PUZ_001,21,25,internal,TGTG,brown_black,"trunks, shadows",False,False,na,4
+867,PUZ_001,21,26,internal,TGGT,dark_green,"trees, shadows",False,False,zhawm,5
+868,PUZ_001,21,27,internal,TTGT,brown_black,"shadows, trees",False,False,mu,5
+869,PUZ_001,21,28,internal,GTGG,black_green,"trunks, trees",False,False,thoo,6
+870,PUZ_001,21,29,internal,TGGG,brown_black,"branches, shadows",False,False,foh,4
+871,PUZ_001,21,30,internal,TGGT,dark_green,"branches, trees",False,False,zhaw,4
+872,PUZ_001,21,31,internal,TGTG,brown_black,"trunks, trees",False,False,za,7
+873,PUZ_001,21,32,internal,TTGT,dark_green,"trees, shadows",False,False,bu,5
+874,PUZ_001,21,33,internal,GTTT,dark_green,"trunks, trees",False,False,mit,6
+875,PUZ_001,21,34,internal,TTGT,forest_green,"trees, shadows",False,False,mu,5
+876,PUZ_001,21,35,internal,GTGT,forest_green,"trunks, shadows",False,False,la,3
+877,PUZ_001,21,36,internal,TTGG,forest_green,"branches, trunks",False,False,zhoo,3
+878,PUZ_001,21,37,internal,TGGT,forest_green,"shadows, trees",False,False,shaw,7
+879,PUZ_001,21,38,internal,TTTG,black_green,"trunks, branches",False,False,may,3
+880,PUZ_001,21,39,edge,ETTT,forest_green,"branches, shadows",False,False,guh,6
+881,PUZ_001,22,0,edge,ETTG,black_green,"branches, trees",False,False,kuh,4
+882,PUZ_001,22,1,internal,GGTT,brown_black,"trees, branches",False,False,chi,6
+883,PUZ_001,22,2,internal,TGGT,forest_green,"trunks, trees",False,False,chawt,6
+884,PUZ_001,22,3,internal,GGTT,forest_green,"branches, trees",False,False,shi,4
+885,PUZ_001,22,4,internal,TGTG,black_green,"trunks, shadows",False,False,da,3
+886,PUZ_001,22,5,internal,TTTG,black_green,"shadows, trees",False,False,be,6
+887,PUZ_001,22,6,internal,TTGT,brown_black,"shadows, branches",False,False,mu,5
+888,PUZ_001,22,7,internal,GTGG,dark_green,"trunks, branches",False,False,thu,5
+889,PUZ_001,22,8,internal,GGTT,dark_green,"trunks, shadows",False,False,shi,4
+890,PUZ_001,22,9,internal,TGGT,brown_black,"trunks, branches",False,False,shaw,5
+891,PUZ_001,22,10,internal,TGGT,dark_green,"branches, trunks",False,False,shaw,5
+892,PUZ_001,22,11,internal,TGGG,brown_black,"branches, trees",False,False,thawn,4
+893,PUZ_001,22,12,internal,GTGT,black_green,"trees, trunks",False,False,za,5
+894,PUZ_001,22,13,internal,GGGG,black_green,"branches, trunks",False,False,yoot,4
+895,PUZ_001,22,14,internal,TTGG,black_green,"trees, trunks",False,False,zhoot,4
+896,PUZ_001,22,15,internal,GTGT,forest_green,"shadows, trees",False,False,nan,5
+897,PUZ_001,22,16,internal,TGGT,forest_green,"trunks, trees",False,False,jaw,7
+898,PUZ_001,22,17,internal,TTGG,dark_green,"branches, trees",False,False,chu,4
+899,PUZ_001,22,18,internal,GTTT,black_green,"branches, shadows",False,False,pin,4
+900,PUZ_001,22,19,internal,TTGT,black_green,"trees, trunks",False,False,bu,4
+901,PUZ_001,22,20,internal,GTGG,black_green,"trees, trunks",False,False,thoot,4
+902,PUZ_001,22,21,internal,GTGT,brown_black,"shadows, trees",False,False,la,6
+903,PUZ_001,22,22,internal,GGGT,forest_green,"trunks, branches",False,False,thee,6
+904,PUZ_001,22,23,internal,GTTG,black_green,"trees, branches",False,False,zhay,7
+905,PUZ_001,22,24,internal,GTGT,brown_black,"trunks, trees",False,False,ta,7
+906,PUZ_001,22,25,internal,GGGT,black_green,"branches, trunks",False,False,vim,3
+907,PUZ_001,22,26,internal,GTGG,forest_green,"shadows, trunks",False,False,fu,4
+908,PUZ_001,22,27,internal,TTTG,dark_green,"shadows, branches",False,False,me,3
+909,PUZ_001,22,28,internal,TGGT,forest_green,"shadows, trunks",False,False,zhoh,4
+910,PUZ_001,22,29,internal,GGTG,brown_black,"shadows, trees",False,False,vay,7
+911,PUZ_001,22,30,internal,GGTG,brown_black,"branches, shadows",False,False,thayt,6
+912,PUZ_001,22,31,internal,GGTT,dark_green,"shadows, trunks",False,False,shim,3
+913,PUZ_001,22,32,internal,TGGG,dark_green,"shadows, trunks",False,False,vohl,3
+914,PUZ_001,22,33,internal,TGTG,black_green,"trunks, shadows",False,False,za,6
+915,PUZ_001,22,34,internal,TGGG,black_green,"trunks, branches",False,False,vaw,5
+916,PUZ_001,22,35,internal,GTGT,brown_black,"branches, trees",False,False,za,7
+917,PUZ_001,22,36,internal,TGTG,black_green,"branches, trees",False,False,da,6
+918,PUZ_001,22,37,internal,GTTT,dark_green,"branches, trees",False,False,mi,7
+919,PUZ_001,22,38,internal,GTGG,forest_green,"shadows, trunks",False,False,vu,4
+920,PUZ_001,22,39,edge,ETGG,brown_black,"branches, trunks",False,False,kuh,4
+921,PUZ_001,23,0,edge,EGGG,dark_green,"trunks, branches",False,False,guh,4
+922,PUZ_001,23,1,internal,TGGT,dark_green,"trunks, branches",False,False,zhaw,6
+923,PUZ_001,23,2,internal,GGTG,black_green,"shadows, branches",False,False,ve,4
+924,PUZ_001,23,3,internal,TTGT,black_green,"shadows, branches",False,False,mu,4
+925,PUZ_001,23,4,internal,TGTT,forest_green,"shadows, branches",False,False,bawt,6
+926,PUZ_001,23,5,internal,GTGT,forest_green,"trees, branches",False,False,sa,6
+927,PUZ_001,23,6,internal,TGTT,brown_black,"trees, branches",False,False,boht,6
+928,PUZ_001,23,7,internal,TGTG,dark_green,"branches, shadows",False,False,na,6
+929,PUZ_001,23,8,internal,TGGT,forest_green,"shadows, trunks",False,False,jaw,5
+930,PUZ_001,23,9,internal,TGTG,forest_green,"trees, branches",False,False,sa,6
+931,PUZ_001,23,10,internal,GTGG,dark_green,"branches, trunks",False,False,foo,5
+932,PUZ_001,23,11,internal,GTGT,forest_green,"trunks, branches",False,False,da,3
+933,PUZ_001,23,12,internal,TTTT,dark_green,"trunks, branches",False,False,hoh,4
+934,PUZ_001,23,13,internal,GTTT,forest_green,"trunks, shadows",False,False,mee,3
+935,PUZ_001,23,14,internal,TTGT,black_green,"trunks, shadows",False,False,pum,4
+936,PUZ_001,23,15,internal,GTGT,black_green,"branches, trees",False,False,la,4
+937,PUZ_001,23,16,internal,GGTT,dark_green,"trunks, shadows",False,False,zhi,4
+938,PUZ_001,23,17,internal,TGTG,brown_black,"shadows, trunks",False,False,da,6
+939,PUZ_001,23,18,internal,TTGG,dark_green,"branches, trunks",False,False,zhu,3
+940,PUZ_001,23,19,internal,TGTG,dark_green,"branches, trunks",False,False,za,5
+941,PUZ_001,23,20,internal,TGTG,dark_green,"branches, shadows",False,False,za,4
+942,PUZ_001,23,21,internal,GTGT,black_green,"branches, shadows",False,False,la,3
+943,PUZ_001,23,22,internal,TGGG,dark_green,"trees, shadows",False,False,voh,7
+944,PUZ_001,23,23,internal,TTTG,forest_green,"trunks, branches",False,False,pet,3
+945,PUZ_001,23,24,internal,GTGT,dark_green,"trunks, branches",False,False,la,3
+946,PUZ_001,23,25,internal,GTTG,dark_green,"trunks, shadows",False,False,chay,5
+947,PUZ_001,23,26,internal,TGGG,forest_green,"shadows, branches",False,False,faw,5
+948,PUZ_001,23,27,internal,GTTT,brown_black,"branches, trunks",False,False,meet,6
+949,PUZ_001,23,28,internal,TGGG,brown_black,"branches, trees",False,False,vawt,7
+950,PUZ_001,23,29,internal,GTGG,black_green,"shadows, trees",False,False,thu,7
+951,PUZ_001,23,30,internal,TTTG,black_green,"trees, trunks",False,False,bet,4
+952,PUZ_001,23,31,internal,TGTG,forest_green,"shadows, trees",False,False,sa,4
+953,PUZ_001,23,32,internal,TGTG,dark_green,"shadows, trunks",False,False,ta,3
+954,PUZ_001,23,33,internal,TTGG,brown_black,"shadows, trunks",False,False,zhoo,3
+955,PUZ_001,23,34,internal,TGGT,brown_black,"shadows, trees",False,False,jaw,7
+956,PUZ_001,23,35,internal,GGTG,dark_green,"trees, trunks",False,False,them,6
+957,PUZ_001,23,36,internal,TGTG,black_green,"trunks, branches",False,False,na,5
+958,PUZ_001,23,37,internal,TGTT,brown_black,"trees, branches",False,False,baw,7
+959,PUZ_001,23,38,internal,GTGG,black_green,"trunks, trees",False,False,foo,5
+960,PUZ_001,23,39,edge,ETTG,forest_green,"shadows, branches",False,False,guh,3
+961,PUZ_001,24,0,corner,EETG,forest_green,"trees, trunks",False,False,kung-uh,7
+962,PUZ_001,24,1,edge,EGGG,dark_green,"trunks, shadows",False,False,kuh,3
+963,PUZ_001,24,2,edge,EGGG,black_green,"trees, trunks",False,False,kuh,5
+964,PUZ_001,24,3,edge,EGGG,brown_black,"trunks, trees",False,False,kuh,6
+965,PUZ_001,24,4,edge,ETTG,black_green,"branches, trees",False,False,kuh,6
+966,PUZ_001,24,5,edge,EGGT,black_green,"shadows, trees",False,False,guh,7
+967,PUZ_001,24,6,edge,EGGG,dark_green,"shadows, trees",False,False,kuh,4
+968,PUZ_001,24,7,edge,EGGG,dark_green,"branches, trunks",False,False,guh,4
+969,PUZ_001,24,8,edge,EGTT,brown_black,"trunks, trees",False,False,kuh,7
+970,PUZ_001,24,9,edge,EGTT,brown_black,"trees, branches",False,False,kuh,4
+971,PUZ_001,24,10,edge,EGTG,brown_black,"trunks, shadows",False,False,kuh,3
+972,PUZ_001,24,11,edge,EGTT,black_green,"trunks, branches",False,False,kuh,5
+973,PUZ_001,24,12,edge,ETGT,forest_green,"branches, shadows",False,False,guh,3
+974,PUZ_001,24,13,edge,EGGG,dark_green,"shadows, branches",False,False,kuh,4
+975,PUZ_001,24,14,edge,ETTT,black_green,"branches, trees",False,False,kuh,5
+976,PUZ_001,24,15,edge,EGGT,black_green,"shadows, trees",False,False,kuh,7
+977,PUZ_001,24,16,edge,EGTG,black_green,"shadows, trees",False,False,guh,5
+978,PUZ_001,24,17,edge,ETGT,forest_green,"trunks, shadows",False,False,kuh,3
+979,PUZ_001,24,18,edge,ETGG,brown_black,"shadows, trunks",False,False,kuh,4
+980,PUZ_001,24,19,edge,ETGG,black_green,"trees, trunks",False,False,guh,7
+981,PUZ_001,24,20,edge,ETTG,brown_black,"trunks, trees",False,False,guh,5
+982,PUZ_001,24,21,edge,EGGT,dark_green,"trees, trunks",False,False,kuh,7
+983,PUZ_001,24,22,edge,ETGT,brown_black,"trunks, trees",False,False,kuh,5
+984,PUZ_001,24,23,edge,EGTT,black_green,"trees, shadows",False,False,guh,5
+985,PUZ_001,24,24,edge,ETGT,brown_black,"trunks, branches",False,False,guh,5
+986,PUZ_001,24,25,edge,ETGG,brown_black,"branches, shadows",False,False,kuh,6
+987,PUZ_001,24,26,edge,ETGG,forest_green,"trees, branches",False,False,guh,4
+988,PUZ_001,24,27,edge,ETTT,dark_green,"branches, trunks",False,False,kuh,4
+989,PUZ_001,24,28,edge,EGTG,dark_green,"shadows, branches",False,False,kuh,5
+990,PUZ_001,24,29,edge,ETTT,forest_green,"trees, shadows",False,False,guh,7
+991,PUZ_001,24,30,edge,ETGT,forest_green,"shadows, branches",False,False,guh,4
+992,PUZ_001,24,31,edge,ETGG,brown_black,"trunks, shadows",False,False,kuh,4
+993,PUZ_001,24,32,edge,ETGG,brown_black,"trunks, trees",False,False,kuh,7
+994,PUZ_001,24,33,edge,EGTT,brown_black,"shadows, branches",False,False,kuh,4
+995,PUZ_001,24,34,edge,EGGG,forest_green,"shadows, branches",False,False,guh,6
+996,PUZ_001,24,35,edge,ETTT,black_green,"branches, trees",False,False,guh,7
+997,PUZ_001,24,36,edge,ETTG,black_green,"branches, trunks",False,False,guh,4
+998,PUZ_001,24,37,edge,ETGG,black_green,"trunks, trees",False,False,kuh,6
+999,PUZ_001,24,38,edge,EGTT,forest_green,"trunks, trees",False,False,kuh,6
+1000,PUZ_001,24,39,corner,EEGT,brown_black,"trunks, branches",False,False,gung-uh,3

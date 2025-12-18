@@ -1,0 +1,29 @@
+type_id,shape_code,piece_category,pattern_name,groove_count,tab_count,edge_count,rotational_symmetry,rarity,lpn_consonant_class,can_connect_to
+INT_GTGT,GTGT,internal,alternating,2,2,0,2,common,alveolar,side_1_accepts_T; side_2_needs_G; side_3_accepts_T; side_4_needs_G
+INT_TGTG,TGTG,internal,alternating,2,2,0,2,common,alveolar,side_1_needs_G; side_2_accepts_T; side_3_needs_G; side_4_accepts_T
+INT_GGGT,GGGT,internal,three_groove,3,1,0,1,uncommon,labio-dental,side_1_accepts_T; side_2_accepts_T; side_3_accepts_T; side_4_needs_G
+INT_GGTG,GGTG,internal,three_groove,3,1,0,1,uncommon,labio-dental,side_1_accepts_T; side_2_accepts_T; side_3_needs_G; side_4_accepts_T
+INT_GTGG,GTGG,internal,three_groove,3,1,0,1,uncommon,labio-dental,side_1_accepts_T; side_2_needs_G; side_3_accepts_T; side_4_accepts_T
+INT_TGGG,TGGG,internal,three_groove,3,1,0,1,uncommon,labio-dental,side_1_needs_G; side_2_accepts_T; side_3_accepts_T; side_4_accepts_T
+INT_GTTT,GTTT,internal,three_tab,1,3,0,1,uncommon,bilabial,side_1_accepts_T; side_2_needs_G; side_3_needs_G; side_4_needs_G
+INT_TTTG,TTTG,internal,three_tab,1,3,0,1,uncommon,bilabial,side_1_needs_G; side_2_needs_G; side_3_needs_G; side_4_accepts_T
+INT_TTGT,TTGT,internal,three_tab,1,3,0,1,uncommon,bilabial,side_1_needs_G; side_2_needs_G; side_3_accepts_T; side_4_needs_G
+INT_TGTT,TGTT,internal,three_tab,1,3,0,1,uncommon,bilabial,side_1_needs_G; side_2_accepts_T; side_3_needs_G; side_4_needs_G
+INT_GGTT,GGTT,internal,adjacent_pairs,2,2,0,1,uncommon,post-alveolar,side_1_accepts_T; side_2_accepts_T; side_3_needs_G; side_4_needs_G
+INT_GTTG,GTTG,internal,opposite_pairs,2,2,0,1,uncommon,post-alveolar,side_1_accepts_T; side_2_needs_G; side_3_needs_G; side_4_accepts_T
+INT_TTGG,TTGG,internal,adjacent_pairs,2,2,0,1,uncommon,post-alveolar,side_1_needs_G; side_2_needs_G; side_3_accepts_T; side_4_accepts_T
+INT_TGGT,TGGT,internal,opposite_pairs,2,2,0,1,uncommon,post-alveolar,side_1_needs_G; side_2_accepts_T; side_3_accepts_T; side_4_needs_G
+INT_GGGG,GGGG,internal,all_groove,4,0,0,4,very_rare,palatal,side_1_accepts_T; side_2_accepts_T; side_3_accepts_T; side_4_accepts_T
+INT_TTTT,TTTT,internal,all_tab,0,4,0,4,very_rare,glottal,side_1_needs_G; side_2_needs_G; side_3_needs_G; side_4_needs_G
+EDGE_EGGG,EGGG,edge,edge_3g0t,3,0,1,1,edge,velar_first,internal pieces on 3 sides
+EDGE_EGGT,EGGT,edge,edge_2g1t,2,1,1,1,edge,velar_first,internal pieces on 3 sides
+EDGE_EGTG,EGTG,edge,edge_2g1t,2,1,1,1,edge,velar_first,internal pieces on 3 sides
+EDGE_EGTT,EGTT,edge,edge_1g2t,1,2,1,1,edge,velar_first,internal pieces on 3 sides
+EDGE_ETGG,ETGG,edge,edge_2g1t,2,1,1,1,edge,velar_first,internal pieces on 3 sides
+EDGE_ETGT,ETGT,edge,edge_1g2t,1,2,1,1,edge,velar_first,internal pieces on 3 sides
+EDGE_ETTG,ETTG,edge,edge_1g2t,1,2,1,1,edge,velar_first,internal pieces on 3 sides
+EDGE_ETTT,ETTT,edge,edge_0g3t,0,3,1,1,edge,velar_first,internal pieces on 3 sides
+CORNER_EEGG,EEGG,corner,corner_2g0t,2,0,2,1,corner,velar_nasal,internal or edge pieces on 2 sides
+CORNER_EEGT,EEGT,corner,corner_1g1t,1,1,2,1,corner,velar_nasal,internal or edge pieces on 2 sides
+CORNER_EETG,EETG,corner,corner_1g1t,1,1,2,1,corner,velar_nasal,internal or edge pieces on 2 sides
+CORNER_EETT,EETT,corner,corner_0g2t,0,2,2,1,corner,velar_nasal,internal or edge pieces on 2 sides

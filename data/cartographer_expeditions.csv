@@ -1,0 +1,27 @@
+expedition_id,year,cartographer,origin,destination,days_planned,days_actual,route,route_matches_return,landmarks_expected,landmarks_found,landmarks_stable,distance_planned_km,distance_actual_km,instruments_used,instruments_functional_end,surveyor_state_start,surveyor_state_end,notes
+1,1823,Archon Vells,Capital,Denstone,12,14,northern,yes,7,7,6,187,201,theodolite compass chain,all,calm,uneasy,first expedition successful
+2,1825,Archon Vells,Capital,Denstone,12,12,northern,yes,7,7,7,187,189,theodolite compass chain,all,calm,calm,routine survey
+3,1831,Archon Vells,Capital,Denstone,12,19,northern,no,7,5,3,187,234,theodolite compass chain sextant,compass erratic,calm,disturbed,landmarks shifted significantly
+4,1837,Archon Vells,Capital,Denstone,12,12,northern,yes,7,6,5,187,192,theodolite compass chain,all,calm,contemplative,noted ground attention
+5,1842,Morrow,Capital,Denstone,14,14,northern,yes,7,7,5,187,195,full survey kit,theodolite misaligned,calm,uneasy,first solo expedition
+6,1843,Morrow,Denstone,Focal Meadow,3,0,southern,NA,4,0,0,23,0,full survey kit,NA,curious,NA,DISAPPEARED - never arrived
+7,1844,Tenniv,Capital,Denstone,14,16,northern,no,7,6,4,187,218,theodolite compass,compass spinning at approach,calm,anxious,delayed by weather and terrain
+8,1845,Tenniv,Denstone,Southern Reaches,5,7,southern,no,3,5,2,38,67,compass chain,chain readings inconsistent,curious,frightened,encountered plural site
+9,1846,Tenniv,Capital,Denstone,14,14,northern,yes,7,7,6,187,193,minimal - notebook only,NA,calm,calm,abandoned instruments per Gast theory
+10,1847,Grell,Capital,Denstone,14,15,northern,yes,7,7,5,187,198,theodolite compass chain,all,calm,resigned,routine supply run
+11,1848,Grell,Denstone,NW Border,2,2,local,yes,3,3,3,12,13,compass chain,all,calm,calm,perimeter survey
+12,1848,Grell,Denstone,SW Border,2,4,local,no,3,2,0,12,28,compass chain,compass unreliable,calm,exhausted,SW sector deteriorating
+13,1849,Korrith,Capital,Denstone,14,21,northern,no,7,4,2,187,267,full survey kit,theodolite broken,calm,shaken,worst expedition in records
+14,1849,Korrith,Denstone,SE Border,1,1,local,NA,2,2,0,8,8,compass,compass spinning,anxious,disoriented,SPATIAL CONFUSION near Yeller tract
+15,1851,Prebel,Capital,Denstone,14,14,northern,yes,7,7,7,187,188,notebook only,NA,curious,transformed,philosophical expedition - no instruments
+16,1852,Thurmond Gast,Capital,Denstone,14,12,northern,yes,7,7,6,187,182,full survey kit,theodolite readings impossible,confident,humbled,first Gast expedition
+17,1852,Thurmond Gast,Denstone,SW Border,1,1,local,no,2,0,0,8,unknown,full survey kit,all malfunctioned,determined,bewildered,markers vanished during survey
+18,1853,Thurmond Gast,Denstone,Perimeter Walk,7,7,circular,NA,12,12,8,28,31,notebook only,NA,calm,understanding,final expedition - no instruments
+19,1858,Dendra Coss,Capital,Denstone,14,14,northern,yes,7,7,6,187,191,notebook penetrometer,all,curious,curious,naturalist first expedition
+20,1859,Dendra Coss,Denstone,Gradient Zone,3,3,western,yes,4,4,3,18,19,penetrometer moisture kit,all,systematic,fascinated,gradient zone study
+21,1860,Dendra Coss,Denstone,Focal Meadow,2,2,southern,yes,2,2,1,15,16,notebook only,NA,cautious,shaken,experienced focal phenomenon
+22,1861,Dendra Coss,Denstone,Yeller Tract,1,1,southern,NA,1,2,0,5,5,notebook only,NA,curious,overwhelmed,observed plural space
+23,1862,Dendra Coss,Denstone,Deep Dens,3,0,southwestern,NA,0,0,0,unknown,unknown,notebook only,NA,determined,NA,DISAPPEARED - final expedition
+24,1871,Esseny Moll,Capital,Denstone,14,14,northern,yes,7,7,7,187,188,minimal kit,all,professional,intrigued,mapper specializing in anomalies
+25,1872,Esseny Moll,Denstone,Yeller Tract,30,30,local,NA,1,5,0,varies,varies,notebook only,NA,systematic,obsessed,thirty days mapping Yeller
+26,1873,Esseny Moll,Denstone,Yeller Shack,1,0,local,NA,1,0,0,2,unknown,notebook only,NA,resolved,NA,DISAPPEARED - entered with Yeller

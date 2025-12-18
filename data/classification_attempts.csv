@@ -1,0 +1,105 @@
+attempt_id,observation_id,archivist_name,classification_date,taxonomy_version,category_assigned,confidence_level,notes
+1,1,Archivist Dren,1867-03-24,4,passive,0.55,Follows Corpo's original framework
+2,1,Junior Archivist Pell,1867-10-14,4,responsive,0.65,Follows Corpo's original framework
+3,1,Cataloguer Brennis,1861-12-21,4,passive,0.83,Dendra Coss methodology applied
+4,2,Archivist Dren,1870-05-05,5,boundary_effect,0.61,Observation report was incomplete
+5,2,Clerk Morwen,1852-07-04,3,permanent,0.72,Standard classification per current protocol
+6,2,Junior Archivist Pell,1879-09-04,5,boundary_effect,0.68,Dendra Coss methodology applied
+7,2,Senior Keeper Fennick,1868-06-19,4,passive,0.6,Standard classification per current protocol
+8,3,Junior Archivist Pell,1868-07-09,4,aggressive,0.48,Consulted prior archivist notes
+9,3,Archivist Dren,1868-12-22,4,aggressive,0.82,Terminal classification requires verification
+10,3,Senior Keeper Fennick,1845-09-24,2,psychological,0.62,Observer reliability questionable
+11,4,Cataloguer Brennis,1879-01-08,5,terminal_event,0.94,Category assignment uncertain
+12,4,Clerk Morwen,1852-04-19,3,terminal,0.71,Multiple categories could apply
+13,4,Junior Archivist Pell,1877-11-15,5,terminal_event,0.68,Historical precedent unclear
+14,4,Senior Keeper Fennick,1858-07-19,3,terminal,0.7,Cross-referenced with similar phenomena
+15,5,Archivist Dren,1880-03-26,5,substance_change,0.84,Observation report was incomplete
+16,5,Cataloguer Brennis,1867-07-20,4,passive,0.86,Standard classification per current protocol
+17,5,Senior Keeper Fennick,1861-12-04,4,passive,0.84,Category assignment uncertain
+18,5,Junior Archivist Pell,1875-02-10,5,substance_change,0.88,Category assignment uncertain
+19,6,Cataloguer Brennis,1864-11-17,4,responsive,0.75,Follows Corpo's original framework
+20,6,Archivist Dren,1876-01-20,5,boundary_effect,0.66,Observation report was incomplete
+21,6,Junior Archivist Pell,1876-05-08,5,boundary_effect,0.87,Historical precedent unclear
+22,7,Archivist Dren,1875-09-06,5,spatial_anomaly,0.63,Observer reliability questionable
+23,7,Junior Archivist Pell,1871-09-25,5,spatial_anomaly,0.56,Terminal classification requires verification
+24,7,Cataloguer Brennis,1866-08-17,4,responsive,0.77,Matches pattern from Focal Meadow
+25,7,Clerk Morwen,1853-10-18,3,recurring,0.68,Historical precedent unclear
+26,8,Clerk Morwen,1863-02-17,4,responsive,0.83,Follows Corpo's original framework
+27,8,Archivist Dren,1864-12-19,4,responsive,0.79,Multiple categories could apply
+28,8,Junior Archivist Pell,1878-04-04,5,observer_effect,0.61,Historical precedent unclear
+29,9,Archivist Dren,1870-02-08,5,observer_effect,0.6,Multiple categories could apply
+30,9,Cataloguer Brennis,1859-07-06,4,passive,0.77,Multiple categories could apply
+31,9,Clerk Morwen,1871-02-02,5,observer_effect,0.79,Observation report was incomplete
+32,10,Clerk Morwen,1875-04-28,5,spatial_anomaly,0.62,Standard classification per current protocol
+33,10,Cataloguer Brennis,1872-05-26,5,spatial_anomaly,0.79,Historical precedent unclear
+34,10,Junior Archivist Pell,1880-03-07,5,spatial_anomaly,0.69,Standard classification per current protocol
+35,11,Archivist Dren,1861-09-03,4,responsive,0.93,Dendra Coss methodology applied
+36,11,Cataloguer Brennis,1862-11-28,4,responsive,0.74,Consulted prior archivist notes
+37,11,Clerk Morwen,1861-10-03,4,responsive,0.8,Matches pattern from Gradient Zone
+38,11,Junior Archivist Pell,1873-04-22,5,temporal_anomaly,0.6,Terminal classification requires verification
+39,12,Cataloguer Brennis,1874-10-19,5,spatial_anomaly,0.72,Follows Corpo's original framework
+40,12,Clerk Morwen,1868-03-12,4,responsive,0.91,Category assignment uncertain
+41,12,Archivist Dren,1865-08-27,4,responsive,0.77,Dendra Coss methodology applied
+42,12,Junior Archivist Pell,1865-11-27,4,responsive,0.45,Category assignment uncertain
+43,13,Archivist Dren,1868-05-20,4,aggressive,0.61,Consulted prior archivist notes
+44,13,Junior Archivist Pell,1873-09-16,5,temporal_anomaly,0.43,Observer reliability questionable
+45,13,Cataloguer Brennis,1868-01-01,4,aggressive,0.74,Cross-referenced with similar phenomena
+46,14,Cataloguer Brennis,1862-12-05,4,responsive,0.95,Follows Corpo's original framework
+47,14,Junior Archivist Pell,1869-07-05,4,responsive,0.87,Matches pattern from Focal Meadow
+48,14,Archivist Dren,1866-11-08,4,responsive,0.83,Follows Corpo's original framework
+49,14,Clerk Morwen,1873-10-24,5,observer_effect,0.93,Cross-referenced with similar phenomena
+50,15,Archivist Dren,1868-05-06,4,aggressive,0.89,Observer reliability questionable
+51,15,Cataloguer Brennis,1862-08-08,4,aggressive,0.98,Category assignment uncertain
+52,15,Clerk Morwen,1874-04-08,5,observer_effect,0.67,Category assignment uncertain
+53,15,Junior Archivist Pell,1867-05-12,4,aggressive,0.89,Matches pattern from Gradient Zone
+54,16,Archivist Dren,1880-05-02,5,spatial_anomaly,0.55,Matches pattern from SW Border
+55,16,Junior Archivist Pell,1875-07-20,5,temporal_anomaly,0.5,Historical precedent unclear
+56,16,Cataloguer Brennis,1875-01-17,5,spatial_anomaly,0.86,Historical precedent unclear
+57,17,Junior Archivist Pell,1878-10-11,5,observer_effect,0.65,Observer reliability questionable
+58,17,Senior Keeper Fennick,1850-07-23,3,stable,0.65,Consulted prior archivist notes
+59,17,Archivist Dren,1879-11-13,5,spatial_anomaly,0.84,Dendra Coss methodology applied
+60,18,Senior Keeper Fennick,1846-07-26,3,stable,0.79,Matches pattern from Gradient Zone
+61,18,Archivist Dren,1880-08-15,5,spatial_anomaly,0.84,Multiple categories could apply
+62,18,Clerk Morwen,1875-03-22,5,spatial_anomaly,0.78,Dendra Coss methodology applied
+63,18,Junior Archivist Pell,1878-02-27,5,spatial_anomaly,0.56,Cross-referenced with similar phenomena
+64,19,Archivist Dren,1874-08-14,5,temporal_anomaly,0.94,Consulted prior archivist notes
+65,19,Clerk Morwen,1875-12-13,5,temporal_anomaly,0.69,Historical precedent unclear
+66,19,Senior Keeper Fennick,1840-02-25,2,temporal,0.71,Historical precedent unclear
+67,20,Archivist Dren,1875-08-22,5,terminal_event,0.77,Dendra Coss methodology applied
+68,20,Clerk Morwen,1875-08-20,5,terminal_event,0.91,Follows Corpo's original framework
+69,20,Cataloguer Brennis,1877-03-24,5,terminal_event,0.84,Terminal classification requires verification
+70,20,Senior Keeper Fennick,1848-09-16,3,terminal,0.81,Multiple categories could apply
+71,21,Junior Archivist Pell,1875-06-18,5,spatial_anomaly,0.75,Consulted prior archivist notes
+72,21,Clerk Morwen,1852-07-14,3,recurring,0.76,Consulted prior archivist notes
+73,21,Senior Keeper Fennick,1861-07-25,4,responsive,0.79,Standard classification per current protocol
+74,22,Senior Keeper Fennick,1860-07-18,4,passive,0.87,Dendra Coss methodology applied
+75,22,Archivist Dren,1867-08-08,4,passive,0.64,Standard classification per current protocol
+76,22,Clerk Morwen,1862-06-22,4,passive,0.74,Multiple categories could apply
+77,22,Junior Archivist Pell,1869-10-18,4,passive,0.68,Observation report was incomplete
+78,23,Clerk Morwen,1858-07-11,3,recurring,0.71,Category assignment uncertain
+79,23,Senior Keeper Fennick,1861-05-27,4,passive,0.54,Historical precedent unclear
+80,23,Archivist Dren,1877-01-12,5,temporal_anomaly,0.61,Terminal classification requires verification
+81,23,Junior Archivist Pell,1866-01-08,4,responsive,0.52,Terminal classification requires verification
+82,24,Cataloguer Brennis,1877-05-25,5,observer_effect,0.88,Historical precedent unclear
+83,24,Clerk Morwen,1853-03-10,3,transient,0.61,Dendra Coss methodology applied
+84,24,Senior Keeper Fennick,1869-07-13,4,aggressive,0.97,Observation report was incomplete
+85,25,Archivist Dren,1879-02-26,5,spatial_anomaly,0.99,Matches pattern from Focal Meadow
+86,25,Junior Archivist Pell,1878-11-12,5,spatial_anomaly,0.41,Multiple categories could apply
+87,25,Senior Keeper Fennick,1843-07-12,2,visual,0.82,Historical precedent unclear
+88,26,Senior Keeper Fennick,1856-11-09,3,recurring,0.81,Multiple categories could apply
+89,26,Clerk Morwen,1864-07-27,4,integrative,0.69,Observation report was incomplete
+90,26,Junior Archivist Pell,1873-08-08,5,observer_effect,0.73,Standard classification per current protocol
+91,27,Junior Archivist Pell,1876-05-11,5,spatial_anomaly,0.84,Standard classification per current protocol
+92,27,Clerk Morwen,1866-04-03,4,responsive,0.74,Consulted prior archivist notes
+93,27,Senior Keeper Fennick,1868-08-21,4,responsive,0.86,Standard classification per current protocol
+94,27,Archivist Dren,1862-05-08,4,responsive,0.7,Category assignment uncertain
+95,28,Cataloguer Brennis,1878-09-11,5,observer_effect,0.84,Category assignment uncertain
+96,28,Junior Archivist Pell,1872-02-24,5,temporal_anomaly,0.88,Cross-referenced with similar phenomena
+97,28,Clerk Morwen,1858-04-24,3,stable,0.85,Dendra Coss methodology applied
+98,28,Archivist Dren,1869-02-27,4,integrative,0.6,Matches pattern from Focal Meadow
+99,29,Junior Archivist Pell,1869-05-02,4,passive,0.75,Terminal classification requires verification
+100,29,Archivist Dren,1875-02-28,5,spatial_anomaly,0.51,Multiple categories could apply
+101,29,Cataloguer Brennis,1870-08-11,5,spatial_anomaly,0.72,Observation report was incomplete
+102,30,Senior Keeper Fennick,1868-11-22,4,aggressive,0.53,Dendra Coss methodology applied
+103,30,Cataloguer Brennis,1864-02-08,4,aggressive,0.93,Dendra Coss methodology applied
+104,30,Archivist Dren,1879-04-25,5,boundary_effect,0.76,Multiple categories could apply

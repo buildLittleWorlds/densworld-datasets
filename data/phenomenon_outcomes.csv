@@ -1,0 +1,31 @@
+observation_id,outcome,outcome_date,days_to_outcome,num_classifications,first_classification_date,circumstances
+1,persisted,1811-04-10,4380.0,3,1861-12-21,Observers report consistent experiences
+2,dissolved,1800-08-23,492.0,4,1852-07-04,Extensive classification may have destabilized phenomenon
+3,transformed,1802-04-25,1095.0,3,1845-09-24,Phenomenon stable as of last survey
+4,dissolved,1799-05-20,0.0,4,1852-04-19,Observer disappeared with phenomenon
+5,dissolved,1760-11-17,155.0,4,1861-12-04,Phenomenon faded during observation
+6,transformed,1769-06-13,2555.0,3,1864-11-17,Phenomenon stable as of last survey
+7,dissolved,1853-05-20,340.0,4,1853-10-18,Extensive classification may have destabilized phenomenon
+8,persisted,1863-06-13,4015.0,3,1863-02-17,Phenomenon stable as of last survey
+9,persisted,1862-02-27,3285.0,3,1859-07-06,Observers report consistent experiences
+10,transformed,1879-07-07,7300.0,3,1872-05-26,Intensity reduced by approximately half
+11,dissolved,1860-02-10,213.0,4,1861-09-03,Extensive classification may have destabilized phenomenon
+12,dissolved,1860-09-01,417.0,4,1865-08-27,Extensive classification may have destabilized phenomenon
+13,dissolved,1860-01-01,173.0,3,1868-01-01,Area now indistinguishable from surroundings
+14,dissolved,1861-06-08,644.0,4,1862-12-05,Extensive classification may have destabilized phenomenon
+15,dissolved,1860-05-23,99.0,4,1862-08-08,Phenomenon faded during observation
+16,dissolved,1861-12-22,214.0,3,1875-01-17,Area now indistinguishable from surroundings
+17,transformed,1885-03-12,4745.0,3,1850-07-23,Site continues to exhibit anomalous properties
+18,dissolved,1873-12-08,615.0,4,1846-07-26,Extensive classification may have destabilized phenomenon
+19,persisted,1884-05-15,4380.0,3,1840-02-25,Pattern shifted to adjacent location
+20,dissolved,1873-01-07,0.0,4,1848-09-16,Observer disappeared with phenomenon
+21,unknown,,,3,1852-07-14,No follow-up observation recorded
+22,persisted,1854-02-05,2555.0,4,1860-07-18,Phenomenon continues with altered characteristics
+23,persisted,1861-01-15,5110.0,4,1858-07-11,Intensity reduced by approximately half
+24,persisted,1857-01-29,3650.0,3,1853-03-10,Boundary markers remain in flux
+25,transformed,1838-06-13,2555.0,3,1843-07-12,Observers report consistent experiences
+26,persisted,1849-08-19,4380.0,3,1856-11-09,Phenomenon stable as of last survey
+27,dissolved,1847-07-18,622.0,4,1862-05-08,Extensive classification may have destabilized phenomenon
+28,dissolved,1852-12-05,510.0,4,1858-04-24,Extensive classification may have destabilized phenomenon
+29,transformed,1850-02-07,1095.0,3,1869-05-02,Phenomenon stable as of last survey
+30,persisted,1862-03-09,4745.0,3,1864-02-08,Phenomenon stable as of last survey

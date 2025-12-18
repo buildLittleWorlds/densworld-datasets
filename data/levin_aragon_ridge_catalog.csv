@@ -1,0 +1,151 @@
+ridge_id,ridge_name,basin_a,basin_b,ridge_length,ridge_height_avg,ridge_height_max,crossing_difficulty,saddle_points,crossing_frequency,crossing_direction_bias,ridge_stability,drift_rate,first_documented,surveyor,confidence,notes
+RG-001,Quintic-Northern Ridge,BA-001,BA-004,0.228,0.371,0.548,0.16,3,27,-0.19,0.72,0.0222,918,C. Vells,0.88,First identified by Vells in Year 918. Separates Quintic Basin from northern territory.
+RG-002,Quintic-Tension Ridge,BA-001,BA-003,0.119,0.156,0.215,0.1,1,29,-0.02,0.92,0.0255,918,C. Vells,0.9,Separates Quintic Basin from Tension Basin. Contains SP-001.
+RG-003,Binary-Quintic Divide,BA-002,BA-001,0.777,0.927,1.368,0.66,1,16,0.33,0.97,0.004,918,C. Vells,0.93,Major divide between the two deepest basins. Difficult crossing.
+RG-004,Breathing Boundary,BA-015,BA-004,0.267,0.272,0.376,0.16,0,28,0.02,0.5,0.0424,918,C. Vells,0.8,Separates shallow Breathing Hollow from deeper basins. Dens-adjacent.
+RG-005,Five-Body Isthmus,BA-005,BA-003,0.223,0.511,0.612,0.33,1,37,0.02,0.86,0.0313,918,C. Vells,0.88,Narrow connection to isolated Five-Body Basin. Rarely crossed.
+RG-006,034 Escarpment,BA-009,BA-034,0.23,0.247,0.336,0.17,1,32,-0.46,0.67,0.0269,927,Morren Kast,0.85,Geodesic path GP-0228 crosses at lowest point.
+RG-007,Southern Binary B Ridge,BA-002,BA-026,0.208,0.239,0.311,0.21,1,34,-0.09,0.73,0.0361,922,C. Vells,0.9,Crossing difficulty varies seasonally.
+RG-008,Southern 007 Ridge,BA-007,BA-035,0.156,0.269,0.334,0.24,2,25,0.28,0.72,0.0318,925,K. Strand,0.55,Crossing difficulty varies seasonally.
+RG-009,040 Escarpment,BA-015,BA-040,0.099,0.132,0.155,0.1,1,42,0.08,0.64,0.0359,926,Ridge Survey Team,0.75,Curvature measurements indicate complex local geometry.
+RG-010,Binary B-033 Ridge,BA-002,BA-033,0.222,0.19,0.236,0.14,1,26,0.25,0.93,0.0131,922,Esseny Moll,0.65,Boundary Commission priority survey site.
+RG-011,010-040 Ridge,BA-010,BA-040,0.241,0.381,0.528,0.18,1,45,0.21,0.87,0.0191,925,Ridge Survey Team,0.56,First mapped in Year 925.
+RG-012,012-034 Ridge,BA-012,BA-034,0.393,0.309,0.36,0.23,0,38,-0.18,0.64,0.0334,928,Western Archive Team,0.94,First mapped in Year 928.
+RG-013,Southern 014 Ridge,BA-014,BA-019,0.119,0.257,0.307,0.13,1,25,0.38,0.5,0.0398,927,Ridge Survey Team,0.91,Ridge position stable for observed period.
+RG-014,The 021 Wall,BA-021,BA-026,0.288,0.364,0.404,0.33,1,36,0.34,0.77,0.0326,923,Senate Survey,0.93,Form transitions commonly observed here.
+RG-015,Northern 041 Ridge,BA-026,BA-041,0.208,0.197,0.291,0.14,2,43,0.23,0.59,0.0355,926,Western Archive Team,0.64,Boundary Commission priority survey site.
+RG-016,026-030 Ridge,BA-026,BA-030,0.304,0.209,0.288,0.21,0,35,0.04,0.79,0.0208,925,Senate Survey,0.83,Archive Survey Team comprehensive mapping Year 923.
+RG-017,The Septenar-032 Divide,BA-006,BA-032,0.217,0.19,0.269,0.11,1,35,-0.18,0.95,0.0048,920,C. Vells,0.86,Crossing difficulty varies seasonally.
+RG-018,049 Escarpment,BA-003,BA-049,0.27,0.159,0.212,0.1,1,42,0.16,0.64,0.0463,918,C. Vells,0.72,Historical records suggest previous position.
+RG-019,Western Boundary,BA-011,BA-033,0.316,0.233,0.272,0.15,1,41,-0.31,0.93,0.0185,926,Senate Survey,0.75,Crossing difficulty varies seasonally.
+RG-020,Binary B Boundary,BA-002,BA-041,0.344,0.465,0.61,0.35,0,40,0.44,0.9,0.0254,928,T. Vells,0.71,Boundary Commission priority survey site.
+RG-021,The 028 Wall,BA-028,BA-050,0.318,0.372,0.525,0.18,2,39,0.23,0.84,0.0168,918,K. Strand,0.7,Geodesic path GP-0147 crosses at lowest point.
+RG-022,019-047 Ridge,BA-019,BA-047,0.33,0.18,0.21,0.14,2,30,0.13,0.74,0.0262,921,K. Strand,0.74,Historical records suggest previous position.
+RG-023,The 037-050 Divide,BA-037,BA-050,0.48,0.225,0.307,0.13,1,24,-0.1,0.54,0.0372,930,Esseny Moll,0.64,Historical records suggest previous position.
+RG-024,007 Boundary,BA-007,BA-042,0.311,0.296,0.44,0.27,2,38,0.34,0.66,0.0375,930,Western Archive Team,0.91,Contains 2 documented saddle points.
+RG-025,011-040 Ridge 93,BA-011,BA-040,0.118,0.212,0.304,0.11,0,33,-0.28,0.78,0.0263,921,Ridge Survey Team,0.56,First mapped in Year 921.
+RG-026,028-047 Ridge 6,BA-028,BA-047,0.235,0.396,0.545,0.26,1,34,-0.3,0.89,0.0137,926,Senate Survey,0.65,Ridge position stable for observed period.
+RG-027,The 013-046 Divide,BA-013,BA-046,0.189,0.155,0.215,0.1,1,28,-0.37,0.88,0.0195,922,T. Vells,0.76,Contains 1 documented saddle points.
+RG-028,Binary B-032 Ridge 27,BA-002,BA-032,0.298,0.148,0.217,0.1,1,51,0.2,0.71,0.0345,926,Senate Survey,0.65,Geodesic path GP-0154 crosses at lowest point.
+RG-029,The Triad Ba Wall,BA-004,BA-020,0.106,0.1,0.146,0.1,2,49,-0.01,0.91,0.009,925,C. Vells,0.66,Drift rate increasing since Year 925.
+RG-030,The Breathin-048 Divide,BA-015,BA-048,0.192,0.243,0.346,0.1,1,41,0.14,0.86,0.0157,922,T. Vells,0.68,Drift rate increasing since Year 925.
+RG-031,The Great Divide,BA-008,BA-024,0.145,0.3,0.423,0.23,1,35,0.18,0.97,0.0159,926,K. Strand,0.88,Geodesic path GP-0052 crosses at lowest point.
+RG-032,007-017 Ridge 55,BA-007,BA-017,0.341,0.309,0.431,0.24,1,34,0.29,0.85,0.0217,927,T. Vells,0.56,Form transitions commonly observed here.
+RG-033,017-035 Ridge,BA-017,BA-035,0.324,0.325,0.415,0.22,1,43,-0.1,0.78,0.0291,923,C. Vells,0.77,Contested boundary with adjacent ridge system.
+RG-034,Binary B-043 Ridge 51,BA-002,BA-043,0.267,0.236,0.326,0.14,3,29,0.22,0.74,0.0364,927,T. Vells,0.88,Historical records suggest previous position.
+RG-035,009 Escarpment,BA-002,BA-009,0.208,0.298,0.372,0.26,1,41,-0.16,0.59,0.0464,924,Esseny Moll,0.58,Contains 1 documented saddle points.
+RG-036,The 040-044 Divide,BA-040,BA-044,0.281,0.216,0.238,0.1,2,45,0.35,0.66,0.0437,920,Western Archive Team,0.76,Historical records suggest previous position.
+RG-037,Triad Ba-025 Ridge 20,BA-004,BA-025,0.116,0.114,0.131,0.1,1,39,-0.37,0.9,0.0231,919,Western Archive Team,0.86,Drift rate increasing since Year 925.
+RG-038,The Five-Bod-035 Divide,BA-005,BA-035,0.087,0.116,0.132,0.1,1,34,-0.02,0.56,0.0502,926,Esseny Moll,0.69,Crossing difficulty varies seasonally.
+RG-039,Northern 046 Ridge,BA-008,BA-046,0.271,0.28,0.399,0.1,2,38,-0.23,0.78,0.0232,926,K. Strand,0.6,First mapped in Year 926.
+RG-040,021-023 Ridge 92,BA-021,BA-023,0.111,0.123,0.175,0.1,2,42,0.17,0.55,0.0415,924,Archive Survey Team,0.66,Contested boundary with adjacent ridge system.
+RG-041,The 024-027 Divide,BA-024,BA-027,0.219,0.537,0.64,0.44,1,36,0.06,0.82,0.0271,922,Western Archive Team,0.64,First mapped in Year 922.
+RG-042,Eastern Divide,BA-007,BA-049,0.185,0.326,0.446,0.25,3,44,0.15,0.72,0.0353,930,Archive Survey Team,0.8,Geodesic path GP-0120 crosses at lowest point.
+RG-043,The Breathin Wall,BA-015,BA-046,0.294,0.341,0.453,0.27,1,42,-0.21,0.7,0.0357,929,Esseny Moll,0.83,Ridge position stable for observed period.
+RG-044,Southern 025 Ridge,BA-025,BA-038,0.131,0.14,0.155,0.1,2,46,0.33,0.81,0.0311,929,T. Vells,0.95,Ridge position stable for observed period.
+RG-045,020-038 Ridge 26,BA-020,BA-038,0.183,0.283,0.349,0.26,2,25,-0.1,0.69,0.0421,927,C. Vells,0.63,
+RG-046,042-049 Ridge 98,BA-042,BA-049,0.216,0.229,0.332,0.1,2,37,0.07,0.87,0.0177,930,Ridge Survey Team,0.59,First mapped in Year 930.
+RG-047,Northern 045 Ridge,BA-019,BA-045,0.239,0.16,0.182,0.1,2,39,0.18,0.91,0.0253,923,C. Vells,0.83,Drift rate increasing since Year 925.
+RG-048,008-020 Ridge 86,BA-008,BA-020,0.29,0.327,0.431,0.21,1,46,-0.03,0.97,0.0171,925,Esseny Moll,0.74,Archive Survey Team comprehensive mapping Year 923.
+RG-049,Southern 012 Ridge,BA-012,BA-050,0.206,0.146,0.165,0.14,2,42,0.08,0.61,0.032,925,T. Vells,0.88,Contains 2 documented saddle points.
+RG-050,035-045 Ridge,BA-035,BA-045,0.337,0.448,0.578,0.34,1,25,-0.15,0.52,0.0442,918,Boundary Commission,0.92,Contested boundary with adjacent ridge system.
+RG-051,The 030 Wall,BA-030,BA-031,0.116,0.128,0.172,0.12,1,50,0.13,0.82,0.0156,923,Ridge Survey Team,0.81,First mapped in Year 923.
+RG-052,029-050 Ridge 67,BA-029,BA-050,0.385,0.245,0.307,0.16,1,46,-0.26,0.78,0.0229,929,Senate Survey,0.67,Ridge position stable for observed period.
+RG-053,Northern 024 Ridge,BA-011,BA-024,0.174,0.129,0.143,0.1,0,42,-0.45,0.76,0.0344,927,Western Archive Team,0.86,Drift rate increasing since Year 925.
+RG-054,The Septenar Wall,BA-006,BA-030,0.234,0.386,0.484,0.24,1,30,0.45,0.86,0.0202,929,T. Vells,0.89,Form transitions commonly observed here.
+RG-055,The 028-029 Divide,BA-028,BA-029,0.302,0.311,0.441,0.28,1,20,0.27,0.98,0.0025,922,Boundary Commission,0.93,Contains 1 documented saddle points.
+RG-056,011-020 Ridge 73,BA-011,BA-020,0.295,0.175,0.24,0.1,2,42,0.15,0.82,0.0166,925,Ridge Survey Team,0.95,Contested boundary with adjacent ridge system.
+RG-057,027-031 Ridge 50,BA-027,BA-031,0.366,0.295,0.33,0.15,1,40,0.25,0.53,0.0442,922,Esseny Moll,0.84,Historical records suggest previous position.
+RG-058,Tension -007 Ridge 36,BA-003,BA-007,0.172,0.249,0.307,0.18,2,33,0.04,0.77,0.0345,925,Boundary Commission,0.82,Ridge position stable for observed period.
+RG-059,016 Escarpment,BA-011,BA-016,0.467,0.49,0.562,0.3,1,35,-0.27,0.98,0.0084,930,T. Vells,0.87,Crossing difficulty varies seasonally.
+RG-060,Northern 039 Ridge,BA-033,BA-039,0.362,0.308,0.411,0.3,2,29,-0.49,0.86,0.0129,922,Ridge Survey Team,0.84,Crossing difficulty varies seasonally.
+RG-061,Southern 033 Ridge,BA-033,BA-037,0.452,0.487,0.578,0.23,1,25,0.31,0.58,0.0495,918,C. Vells,0.63,Contested boundary with adjacent ridge system.
+RG-062,Southern Quintic  Ridge,BA-001,BA-017,0.273,0.362,0.425,0.19,2,38,-0.46,0.59,0.0511,920,Morren Kast,0.69,Contains 2 documented saddle points.
+RG-063,011-042 Ridge 85,BA-011,BA-042,0.194,0.213,0.236,0.16,1,43,0.29,0.98,0.0017,921,Esseny Moll,0.92,Geodesic path GP-0049 crosses at lowest point.
+RG-064,Northern 021 Ridge,BA-019,BA-021,0.308,0.374,0.428,0.27,3,25,-0.07,0.93,0.0182,927,Boundary Commission,0.88,First mapped in Year 927.
+RG-065,031 Escarpment,BA-021,BA-031,0.137,0.117,0.165,0.1,1,48,-0.25,0.9,0.0275,929,C. Vells,0.78,Drift rate increasing since Year 925.
+RG-066,036-047 Ridge 61,BA-036,BA-047,0.296,0.19,0.238,0.1,0,30,0.16,0.74,0.0223,925,Esseny Moll,0.88,Boundary Commission priority survey site.
+RG-067,The 028-036 Divide,BA-028,BA-036,0.469,0.499,0.642,0.23,2,30,0.45,0.97,0.0117,921,Western Archive Team,0.64,
+RG-068,023-026 Ridge 14,BA-023,BA-026,0.312,0.207,0.271,0.17,1,35,0.0,0.88,0.0102,918,Archive Survey Team,0.87,First mapped in Year 918.
+RG-069,023-031 Ridge 72,BA-023,BA-031,0.129,0.152,0.22,0.1,2,32,0.35,0.97,0.0193,923,Ridge Survey Team,0.75,Historical records suggest previous position.
+RG-070,036-042 Ridge,BA-036,BA-042,0.332,0.413,0.529,0.2,1,34,-0.16,0.95,0.0193,928,Morren Kast,0.86,Boundary Commission priority survey site.
+RG-071,009-024 Ridge 99,BA-009,BA-024,0.213,0.425,0.619,0.28,3,22,0.03,0.6,0.0469,919,Archive Survey Team,0.94,Contains 3 documented saddle points.
+RG-072,010-044 Ridge,BA-010,BA-044,0.246,0.4,0.457,0.26,0,19,-0.02,0.8,0.0188,928,Morren Kast,0.6,Historical records suggest previous position.
+RG-073,Tension -035 Ridge 23,BA-003,BA-035,0.293,0.457,0.556,0.21,1,28,0.19,0.66,0.0286,919,Esseny Moll,0.8,Ridge position stable for observed period.
+RG-074,017 Boundary,BA-017,BA-045,0.438,0.385,0.505,0.19,1,25,0.49,0.9,0.0181,919,Boundary Commission,0.58,Contains 1 documented saddle points.
+RG-075,The 032 Wall,BA-032,BA-037,0.272,0.288,0.364,0.15,2,31,0.19,0.68,0.0304,927,K. Strand,0.79,Historical records suggest previous position.
+RG-076,Quintic -036 Ridge 50,BA-001,BA-036,0.261,0.129,0.161,0.18,1,45,0.21,0.94,0.022,921,Esseny Moll,0.74,Contested boundary with adjacent ridge system.
+RG-077,034-044 Ridge 42,BA-034,BA-044,0.327,0.372,0.537,0.21,1,30,0.14,0.75,0.0354,922,T. Vells,0.73,Boundary Commission priority survey site.
+RG-078,Northern Breathin Ridge,BA-013,BA-015,0.197,0.267,0.325,0.17,1,28,-0.22,0.61,0.0497,929,C. Vells,0.9,Boundary Commission priority survey site.
+RG-079,038-045 Ridge 34,BA-038,BA-045,0.322,0.28,0.312,0.19,1,22,-0.4,0.9,0.0124,921,Archive Survey Team,0.92,
+RG-080,021-041 Ridge 98,BA-021,BA-041,0.203,0.24,0.284,0.11,0,45,-0.28,0.52,0.0434,928,C. Vells,0.6,Contains 0 documented saddle points.
+RG-081,010-013 Ridge 73,BA-010,BA-013,0.09,0.117,0.16,0.1,0,38,0.21,0.66,0.0417,927,Western Archive Team,0.58,Ridge position stable for observed period.
+RG-082,034 Boundary,BA-034,BA-043,0.219,0.241,0.329,0.21,1,24,-0.1,0.79,0.0306,923,T. Vells,0.71,Boundary Commission priority survey site.
+RG-083,Southern 026 Ridge,BA-026,BA-032,0.297,0.186,0.234,0.1,2,47,0.45,0.95,0.0068,929,Morren Kast,0.89,Archive Survey Team comprehensive mapping Year 923.
+RG-084,Binary B-018 Ridge 66,BA-002,BA-018,0.214,0.352,0.401,0.28,2,27,0.35,0.66,0.0454,920,T. Vells,0.93,Geodesic path GP-0153 crosses at lowest point.
+RG-085,025-027 Ridge 20,BA-025,BA-027,0.292,0.406,0.542,0.22,2,46,-0.33,0.52,0.0554,929,Western Archive Team,0.83,Ridge position stable for observed period.
+RG-086,Southern Tension  Ridge,BA-003,BA-045,0.213,0.146,0.192,0.15,2,48,-0.26,0.69,0.0393,919,Esseny Moll,0.77,Boundary Commission priority survey site.
+RG-087,041 Escarpment,BA-030,BA-041,0.24,0.217,0.293,0.1,1,48,0.4,0.71,0.0379,930,Archive Survey Team,0.58,
+RG-088,016-024 Ridge 95,BA-016,BA-024,0.314,0.215,0.296,0.1,1,28,-0.11,0.57,0.0419,923,Boundary Commission,0.93,Contains 1 documented saddle points.
+RG-089,036-049 Ridge,BA-036,BA-049,0.105,0.1,0.133,0.1,2,51,0.4,0.86,0.0207,929,Morren Kast,0.67,Form transitions commonly observed here.
+RG-090,045 Escarpment,BA-007,BA-045,0.157,0.158,0.186,0.1,3,27,0.16,0.81,0.0285,921,Ridge Survey Team,0.93,Ridge position stable for observed period.
+RG-091,Breathin-024 Ridge 73,BA-015,BA-024,0.199,0.321,0.438,0.16,2,47,0.5,0.91,0.0125,927,T. Vells,0.77,Curvature measurements indicate complex local geometry.
+RG-092,018-034 Ridge 68,BA-018,BA-034,0.332,0.505,0.614,0.38,1,25,-0.04,0.77,0.0377,921,C. Vells,0.77,Contested boundary with adjacent ridge system.
+RG-093,The Tension -042 Divide,BA-003,BA-042,0.143,0.235,0.326,0.19,2,44,-0.2,0.88,0.0277,919,Morren Kast,0.81,Curvature measurements indicate complex local geometry.
+RG-094,Five-Bod-045 Ridge 9,BA-005,BA-045,0.401,0.454,0.603,0.39,1,30,0.18,0.62,0.0493,926,Morren Kast,0.68,Historical records suggest previous position.
+RG-095,The 016 Wall,BA-016,BA-038,0.153,0.221,0.276,0.1,1,32,0.3,0.56,0.0481,929,Ridge Survey Team,0.72,Crossing difficulty varies seasonally.
+RG-096,008-040 Ridge 59,BA-008,BA-040,0.255,0.238,0.272,0.16,1,36,-0.43,0.78,0.0338,918,Senate Survey,0.82,Historical records suggest previous position.
+RG-097,009-011 Ridge 85,BA-009,BA-011,0.192,0.274,0.375,0.18,1,22,-0.34,0.74,0.0381,921,Boundary Commission,0.66,Archive Survey Team comprehensive mapping Year 923.
+RG-098,Septenar Escarpment,BA-002,BA-006,0.42,0.502,0.614,0.3,0,28,-0.26,0.6,0.0341,927,Western Archive Team,0.65,
+RG-099,026-031 Ridge 75,BA-026,BA-031,0.144,0.183,0.231,0.2,1,27,-0.02,0.64,0.0427,929,Archive Survey Team,0.58,First mapped in Year 929.
+RG-100,The 019-022 Divide,BA-019,BA-022,0.195,0.225,0.271,0.16,1,33,0.5,0.8,0.0197,927,T. Vells,0.58,Form transitions commonly observed here.
+RG-101,Triad Ba-011 Ridge,BA-004,BA-011,0.199,0.171,0.255,0.1,1,36,0.36,0.78,0.0256,924,Esseny Moll,0.88,First mapped in Year 924.
+RG-102,045 Boundary,BA-045,BA-049,0.165,0.152,0.225,0.17,2,42,0.12,0.54,0.048,929,Western Archive Team,0.64,Ridge position stable for observed period.
+RG-103,033 Boundary,BA-033,BA-034,0.193,0.292,0.356,0.21,2,31,-0.2,0.52,0.0551,923,T. Vells,0.91,Form transitions commonly observed here.
+RG-104,024-025 Ridge 59,BA-024,BA-025,0.189,0.263,0.389,0.1,1,47,-0.24,0.96,0.0153,920,Morren Kast,0.83,Crossing difficulty varies seasonally.
+RG-105,007-022 Ridge 99,BA-007,BA-022,0.115,0.293,0.345,0.24,1,23,-0.21,0.96,0.0038,926,K. Strand,0.85,Historical records suggest previous position.
+RG-106,Quintic -049 Ridge,BA-001,BA-049,0.099,0.1,0.136,0.11,0,35,-0.35,0.96,0.0046,920,Ridge Survey Team,0.65,Geodesic path GP-0184 crosses at lowest point.
+RG-107,018-043 Ridge 23,BA-018,BA-043,0.134,0.159,0.206,0.1,2,45,-0.48,0.82,0.0226,927,C. Vells,0.58,Historical records suggest previous position.
+RG-108,023 Escarpment,BA-019,BA-023,0.327,0.232,0.348,0.21,1,35,0.47,0.81,0.0307,930,Archive Survey Team,0.94,Ridge position stable for observed period.
+RG-109,014 Boundary,BA-014,BA-047,0.279,0.171,0.189,0.11,1,45,-0.41,0.56,0.0473,929,Ridge Survey Team,0.92,Historical records suggest previous position.
+RG-110,034-037 Ridge 51,BA-034,BA-037,0.346,0.428,0.48,0.31,0,39,-0.4,0.59,0.0444,919,Esseny Moll,0.8,Archive Survey Team comprehensive mapping Year 923.
+RG-111,Southern 036 Ridge,BA-036,BA-050,0.433,0.502,0.626,0.42,1,18,0.24,0.93,0.0071,919,Morren Kast,0.9,Crossing difficulty varies seasonally.
+RG-112,043 Escarpment,BA-037,BA-043,0.412,0.288,0.382,0.24,2,29,0.37,0.77,0.0274,919,T. Vells,0.65,Ridge position stable for observed period.
+RG-113,Binary B-030 Ridge 15,BA-002,BA-030,0.377,0.387,0.512,0.2,1,36,-0.26,0.53,0.0508,918,Archive Survey Team,0.83,Historical records suggest previous position.
+RG-114,023-041 Ridge 59,BA-023,BA-041,0.261,0.209,0.275,0.16,0,44,0.26,0.51,0.0484,926,Ridge Survey Team,0.88,Drift rate increasing since Year 925.
+RG-115,026 Boundary,BA-026,BA-027,0.222,0.503,0.656,0.26,3,25,-0.17,0.59,0.034,928,Archive Survey Team,0.72,Geodesic path GP-0004 crosses at lowest point.
+RG-116,Northern 044 Ridge,BA-013,BA-044,0.267,0.342,0.415,0.31,1,23,0.19,0.74,0.0391,930,T. Vells,0.77,Boundary Commission priority survey site.
+RG-117,Triad Ba-016 Ridge 49,BA-004,BA-016,0.131,0.101,0.126,0.13,2,35,0.37,0.59,0.0378,927,Boundary Commission,0.68,Contested boundary with adjacent ridge system.
+RG-118,Northern 029 Ridge,BA-012,BA-029,0.442,0.434,0.485,0.22,1,23,0.48,0.81,0.0169,928,Esseny Moll,0.71,Historical records suggest previous position.
+RG-119,007-047 Ridge 13,BA-007,BA-047,0.143,0.184,0.214,0.1,1,43,0.26,0.73,0.024,928,Senate Survey,0.93,Ridge position stable for observed period.
+RG-120,031-041 Ridge 6,BA-031,BA-041,0.119,0.1,0.123,0.1,1,49,-0.37,0.6,0.0342,926,Western Archive Team,0.94,Contains 1 documented saddle points.
+RG-121,016-020 Ridge,BA-016,BA-020,0.133,0.265,0.396,0.13,1,35,0.31,0.97,0.0111,930,C. Vells,0.76,Archive Survey Team comprehensive mapping Year 923.
+RG-122,039-043 Ridge 59,BA-039,BA-043,0.322,0.36,0.464,0.27,2,27,-0.09,0.73,0.0352,927,Senate Survey,0.73,Curvature measurements indicate complex local geometry.
+RG-123,016 Boundary,BA-016,BA-027,0.311,0.247,0.366,0.1,0,29,0.07,0.59,0.0359,919,Senate Survey,0.79,Form transitions commonly observed here.
+RG-124,Southern 010 Ridge,BA-010,BA-046,0.244,0.322,0.454,0.24,2,29,-0.27,0.53,0.0485,926,C. Vells,0.79,Geodesic path GP-0166 crosses at lowest point.
+RG-125,021-030 Ridge,BA-021,BA-030,0.174,0.149,0.173,0.1,1,51,-0.01,0.83,0.0189,923,C. Vells,0.77,Contains 1 documented saddle points.
+RG-126,Tension -017 Ridge 30,BA-003,BA-017,0.274,0.319,0.384,0.13,2,31,0.29,0.71,0.0405,923,Archive Survey Team,0.63,Historical records suggest previous position.
+RG-127,The 024 Wall,BA-024,BA-038,0.269,0.4,0.593,0.24,1,42,-0.1,0.87,0.0125,930,Senate Survey,0.75,Crossing difficulty varies seasonally.
+RG-128,The 037-039 Divide,BA-037,BA-039,0.167,0.1,0.141,0.1,1,32,0.44,0.79,0.019,923,C. Vells,0.92,Geodesic path GP-0014 crosses at lowest point.
+RG-129,Southern 011 Ridge,BA-011,BA-048,0.346,0.387,0.545,0.26,1,43,0.25,0.92,0.0177,929,Western Archive Team,0.6,Historical records suggest previous position.
+RG-130,Breathin-044 Ridge,BA-015,BA-044,0.363,0.205,0.244,0.16,2,39,-0.04,0.74,0.0282,922,T. Vells,0.64,Contains 2 documented saddle points.
+RG-131,Triad Ba Boundary,BA-004,BA-024,0.181,0.183,0.23,0.18,1,24,0.46,0.85,0.0222,922,C. Vells,0.68,Geodesic path GP-0115 crosses at lowest point.
+RG-132,039-050 Ridge,BA-039,BA-050,0.378,0.44,0.625,0.36,2,31,0.06,0.87,0.0302,918,C. Vells,0.89,First mapped in Year 918.
+RG-133,022-035 Ridge 59,BA-022,BA-035,0.383,0.434,0.56,0.26,1,19,0.43,0.53,0.0427,921,Ridge Survey Team,0.82,Historical records suggest previous position.
+RG-134,008-Breathin Ridge 4,BA-008,BA-015,0.179,0.184,0.271,0.17,1,23,0.02,0.69,0.0272,929,K. Strand,0.9,Form transitions commonly observed here.
+RG-135,022-047 Ridge 88,BA-022,BA-047,0.136,0.1,0.149,0.1,1,27,-0.34,0.64,0.0399,925,Western Archive Team,0.63,Contested boundary with adjacent ridge system.
+RG-136,Northern 038 Ridge,BA-004,BA-038,0.174,0.237,0.27,0.23,1,21,-0.2,0.7,0.036,929,T. Vells,0.78,Form transitions commonly observed here.
+RG-137,The 012-039 Divide,BA-012,BA-039,0.202,0.377,0.475,0.2,2,37,0.47,0.92,0.0183,920,Senate Survey,0.72,Contested boundary with adjacent ridge system.
+RG-138,Northern 048 Ridge,BA-008,BA-048,0.081,0.113,0.156,0.13,2,37,-0.22,0.66,0.0386,929,Archive Survey Team,0.63,Geodesic path GP-0129 crosses at lowest point.
+RG-139,013-040 Ridge,BA-013,BA-040,0.203,0.288,0.422,0.3,1,43,0.01,0.71,0.0306,925,K. Strand,0.58,Contains 1 documented saddle points.
+RG-140,007 Escarpment,BA-005,BA-007,0.262,0.328,0.454,0.22,2,45,0.34,0.61,0.0379,929,Boundary Commission,0.82,Archive Survey Team comprehensive mapping Year 923.
+RG-141,Quintic -045 Ridge 26,BA-001,BA-045,0.105,0.183,0.224,0.19,1,40,-0.32,0.64,0.0448,921,Morren Kast,0.71,Archive Survey Team comprehensive mapping Year 923.
+RG-142,036-045 Ridge 26,BA-036,BA-045,0.14,0.237,0.352,0.23,2,25,0.15,0.92,0.0231,918,T. Vells,0.64,
+RG-143,Five-Bod-017 Ridge,BA-005,BA-017,0.48,0.48,0.695,0.29,0,31,0.27,0.83,0.0159,919,Archive Survey Team,0.92,Geodesic path GP-0206 crosses at lowest point.
+RG-144,024 Escarpment,BA-020,BA-024,0.191,0.217,0.306,0.2,1,37,0.03,0.93,0.0156,929,Morren Kast,0.56,Geodesic path GP-0041 crosses at lowest point.
+RG-145,Breathin-020 Ridge 71,BA-015,BA-020,0.328,0.433,0.606,0.28,0,35,-0.22,0.88,0.0189,926,Ridge Survey Team,0.65,Boundary Commission priority survey site.
+RG-146,022 Escarpment,BA-014,BA-022,0.238,0.394,0.498,0.2,1,47,-0.15,0.84,0.0302,928,T. Vells,0.74,Contested boundary with adjacent ridge system.
+RG-147,009-018 Ridge 85,BA-009,BA-018,0.349,0.584,0.809,0.41,1,14,-0.38,0.54,0.0379,926,Boundary Commission,0.93,Drift rate increasing since Year 925.
+RG-148,Southern 018 Ridge,BA-018,BA-033,0.296,0.304,0.44,0.22,1,28,-0.2,0.64,0.0461,918,Esseny Moll,0.69,Form transitions commonly observed here.
+RG-149,Septenar-021 Ridge 6,BA-006,BA-021,0.291,0.337,0.44,0.19,1,46,-0.25,0.74,0.0323,922,Boundary Commission,0.83,Contested boundary with adjacent ridge system.
+RG-150,025 Boundary,BA-025,BA-045,0.208,0.242,0.29,0.19,1,39,0.24,0.75,0.0301,926,Boundary Commission,0.83,Historical records suggest previous position.

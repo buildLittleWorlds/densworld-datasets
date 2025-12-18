@@ -1,0 +1,474 @@
+observation_id,landmark_id,landmark_name,observer_name,date,time_of_day,weather,bearing_expected,bearing_measured,bearing_delta,distance_expected_km,distance_measured_km,distance_delta_km,instruments_used,instrument_count,instruments_failed,observer_state,visible,stable,notes
+1,gray_spire,Gray Spire,Archon Vells,1840-02-19,afternoon,overcast,45,,,23.4,,,notebook compass chain,3,none,curious,False,True,NOT FOUND - Gray Spire not visible
+2,gray_spire,Gray Spire,Tenniv,1840-02-20,afternoon,clear,45,45.9,0.9,23.4,23.64,0.24,notebook compass chain,3,none,calm,True,False,normal observation
+3,twisted_grove,Twisted Grove,Tenniv,1840-05-17,afternoon,clear,78,80.2,2.2,31.2,31.15,-0.05,notebook compass chain,3,none,calm,True,False,normal observation
+4,twisted_grove,Twisted Grove,Archon Vells,1840-05-18,midday,clear,78,76.5,-1.5,31.2,30.82,-0.38,notebook compass chain,3,none,curious,True,False,normal observation
+5,dry_wash,Dry Wash,Archon Vells,1840-12-15,dusk,overcast,112,111.8,-0.2,45.6,45.32,-0.28,notebook compass chain,3,none,uneasy,True,True,position matches records
+6,dry_wash,Dry Wash,Tenniv,1840-12-16,dusk,clear,112,111.3,-0.7,45.6,46.22,0.62,notebook compass chain,3,none,calm,True,False,normal observation
+7,dry_wash,Dry Wash,Tenniv,1840-11-11,dusk,clear,112,114.2,2.2,45.6,46.88,1.28,notebook compass chain,3,none,calm,True,False,normal observation
+8,dry_wash,Dry Wash,Archon Vells,1840-11-12,afternoon,clear,112,109.6,-2.4,45.6,45.67,0.07,notebook compass chain,3,none,calm,True,False,normal observation
+9,twisted_grove,Twisted Grove,Tenniv,1840-02-06,midday,clear,78,,,31.2,,,notebook compass chain,3,none,uneasy,False,False,NOT FOUND - Twisted Grove not visible
+10,twisted_grove,Twisted Grove,Archon Vells,1840-02-07,afternoon,clear,78,78.2,0.2,31.2,31.2,-0.0,notebook compass chain,3,none,calm,True,True,position matches records
+11,standing_stones,Standing Stones,Tenniv,1840-06-04,afternoon,clear,134,139.6,5.6,67.8,65.79,-2.01,notebook compass chain,3,none,frightened,True,False,moderate bearing variance
+12,standing_stones,Standing Stones,Archon Vells,1840-06-05,dusk,clear,134,132.5,-1.5,67.8,67.21,-0.59,notebook compass chain,3,none,calm,True,True,position matches records
+13,dry_wash,Dry Wash,Tenniv,1840-04-19,afternoon,overcast,112,112.7,0.7,45.6,45.32,-0.28,notebook compass chain,3,none,calm,True,True,position matches records
+14,dry_wash,Dry Wash,Archon Vells,1840-04-20,dusk,clear,112,116.4,4.4,45.6,46.49,0.89,notebook compass chain,3,none,curious,True,False,normal observation
+15,split_boulder,Split Boulder,Archon Vells,1840-06-19,midday,clear,156,159.4,3.4,89.2,91.36,2.16,notebook compass chain,3,none,calm,True,False,normal observation
+16,split_boulder,Split Boulder,Tenniv,1840-06-20,dusk,fog,156,156.6,0.6,89.2,88.67,-0.53,notebook compass chain,3,none,uneasy,True,True,position matches records
+17,dry_wash,Dry Wash,Tenniv,1840-10-16,afternoon,clear,112,111.9,-0.1,45.6,46.9,1.3,notebook compass chain,3,none,calm,True,False,normal observation
+18,dry_wash,Dry Wash,Archon Vells,1840-10-17,afternoon,overcast,112,112.6,0.6,45.6,43.63,-1.97,notebook compass chain,3,none,uneasy,True,False,normal observation
+19,dry_wash,Dry Wash,Archon Vells,1840-12-19,dusk,dens_mist,112,116.3,4.3,45.6,46.05,0.45,notebook compass chain,3,none,curious,True,False,normal observation
+20,dry_wash,Dry Wash,Tenniv,1840-12-20,dusk,fog,112,113.3,1.3,45.6,43.27,-2.33,notebook compass chain,3,none,calm,True,False,normal observation
+21,denstone_approach,Denstone Approach,Tenniv,1841-06-11,dawn,fog,178,182.3,4.3,142.3,143.24,0.94,notebook compass chain,3,none,anxious,True,False,normal observation
+22,denstone_approach,Denstone Approach,Archon Vells,1841-06-12,dawn,overcast,178,177.0,-1.0,142.3,143.88,1.58,notebook compass chain,3,none,calm,True,False,normal observation
+23,moat_crossing,Moat Crossing,Tenniv,1841-08-08,dusk,overcast,180,,,187.0,,,notebook compass chain,3,none,uneasy,False,False,NOT FOUND - Moat Crossing not visible
+24,moat_crossing,Moat Crossing,Archon Vells,1841-08-09,dusk,clear,180,181.7,1.7,187.0,184.24,-2.76,notebook compass chain,3,none,curious,True,False,normal observation
+25,standing_stones,Standing Stones,Tenniv,1841-02-13,midday,overcast,134,129.9,-4.1,67.8,68.04,0.24,notebook compass chain,3,none,frightened,True,False,normal observation
+26,standing_stones,Standing Stones,Archon Vells,1841-02-14,midday,clear,134,134.9,0.9,67.8,67.07,-0.73,notebook compass chain,3,none,calm,True,False,normal observation
+27,moat_crossing,Moat Crossing,Archon Vells,1841-08-23,dawn,overcast,180,179.5,-0.5,187.0,181.88,-5.12,notebook compass chain,3,chain,anxious,True,False,distance significantly different (5.1km)
+28,moat_crossing,Moat Crossing,Tenniv,1841-08-24,midday,overcast,180,,,187.0,,,notebook compass chain,3,none,calm,False,True,NOT FOUND - Moat Crossing not visible
+29,standing_stones,Standing Stones,Archon Vells,1841-06-20,afternoon,clear,134,129.0,-5.0,67.8,69.59,1.79,notebook compass chain,3,none,curious,True,False,normal observation
+30,standing_stones,Standing Stones,Tenniv,1841-06-21,midday,clear,134,134.8,0.8,67.8,67.29,-0.51,notebook compass chain,3,none,calm,True,True,position matches records
+31,twisted_grove,Twisted Grove,Tenniv,1841-11-09,afternoon,overcast,78,77.0,-1.0,31.2,31.21,0.01,notebook compass chain,3,none,uneasy,True,True,position matches records
+32,twisted_grove,Twisted Grove,Archon Vells,1841-11-10,dawn,fog,78,78.8,0.8,31.2,31.14,-0.06,notebook compass chain,3,none,calm,True,True,position matches records
+33,dry_wash,Dry Wash,Tenniv,1841-11-02,dusk,fog,112,112.6,0.6,45.6,45.75,0.15,notebook compass chain,3,none,calm,True,True,position matches records
+34,dry_wash,Dry Wash,Archon Vells,1841-11-03,afternoon,overcast,112,,,45.6,,,notebook compass chain,3,none,curious,False,True,NOT FOUND - Dry Wash not visible
+35,split_boulder,Split Boulder,Tenniv,1841-05-01,dusk,clear,156,,,89.2,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Split Boulder not visible
+36,split_boulder,Split Boulder,Archon Vells,1841-05-02,dawn,overcast,156,,,89.2,,,notebook compass chain,3,none,curious,False,True,NOT FOUND - Split Boulder not visible
+37,twisted_grove,Twisted Grove,Archon Vells,1841-03-12,midday,clear,78,77.5,-0.5,31.2,31.31,0.11,notebook compass chain,3,none,calm,True,True,position matches records
+38,twisted_grove,Twisted Grove,Tenniv,1841-03-13,dawn,overcast,78,79.7,1.7,31.2,31.17,-0.03,notebook compass chain,3,compass,curious,True,True,position matches records
+39,moat_crossing,Moat Crossing,Archon Vells,1841-02-03,dusk,clear,180,177.9,-2.1,187.0,190.94,3.94,notebook compass chain,3,chain,calm,True,False,normal observation
+40,moat_crossing,Moat Crossing,Tenniv,1841-02-04,dawn,clear,180,176.8,-3.2,187.0,187.29,0.29,notebook compass chain,3,none,calm,True,False,normal observation
+41,twisted_grove,Twisted Grove,Tenniv,1842-10-03,afternoon,clear,78,79.3,1.3,31.2,30.35,-0.85,notebook compass chain,3,none,calm,True,False,normal observation
+42,twisted_grove,Twisted Grove,Morrow,1842-10-04,dawn,clear,78,80.3,2.3,31.2,31.0,-0.2,notebook compass chain,3,none,calm,True,False,normal observation
+43,twisted_grove,Twisted Grove,Archon Vells,1842-10-05,dusk,clear,78,79.1,1.1,31.2,31.42,0.22,notebook compass chain,3,none,frightened,True,True,position matches records
+44,gray_spire,Gray Spire,Archon Vells,1842-07-20,dusk,overcast,45,47.9,2.9,23.4,23.89,0.49,notebook compass chain,3,none,curious,True,False,normal observation
+45,gray_spire,Gray Spire,Morrow,1842-07-21,midday,clear,45,45.3,0.3,23.4,23.47,0.07,notebook compass chain,3,none,calm,True,True,position matches records
+46,dry_wash,Dry Wash,Morrow,1842-02-02,dawn,dens_mist,112,111.4,-0.6,45.6,47.66,2.06,notebook compass chain,3,none,calm,True,False,normal observation
+47,dry_wash,Dry Wash,Tenniv,1842-02-03,dawn,overcast,112,114.9,2.9,45.6,46.69,1.09,notebook compass chain,3,none,calm,True,False,normal observation
+48,standing_stones,Standing Stones,Tenniv,1842-10-25,afternoon,overcast,134,131.7,-2.3,67.8,68.06,0.26,notebook compass chain,3,none,uneasy,True,False,normal observation
+49,standing_stones,Standing Stones,Archon Vells,1842-10-26,midday,clear,134,136.5,2.5,67.8,66.9,-0.9,notebook compass chain,3,compass,curious,True,False,normal observation
+50,twisted_grove,Twisted Grove,Morrow,1842-08-22,midday,fog,78,79.7,1.7,31.2,30.92,-0.28,notebook compass chain,3,theodolite,calm,True,True,position matches records
+51,twisted_grove,Twisted Grove,Tenniv,1842-08-23,afternoon,clear,78,78.5,0.5,31.2,31.78,0.58,notebook compass chain,3,none,frightened,True,False,normal observation
+52,split_boulder,Split Boulder,Morrow,1842-12-01,dawn,overcast,156,156.0,0.0,89.2,89.48,0.28,notebook compass chain,3,none,calm,True,True,position matches records
+53,split_boulder,Split Boulder,Tenniv,1842-12-02,afternoon,clear,156,156.1,0.1,89.2,89.76,0.56,notebook compass chain,3,none,frightened,True,True,position matches records
+54,split_boulder,Split Boulder,Archon Vells,1842-12-03,afternoon,overcast,156,157.1,1.1,89.2,90.27,1.07,notebook compass chain,3,none,calm,True,False,normal observation
+55,twisted_grove,Twisted Grove,Archon Vells,1842-10-08,dusk,overcast,78,76.3,-1.7,31.2,30.93,-0.27,notebook compass chain,3,none,uneasy,True,True,position matches records
+56,twisted_grove,Twisted Grove,Morrow,1842-10-09,dusk,clear,78,77.5,-0.5,31.2,31.2,-0.0,notebook compass chain,3,none,uneasy,True,True,position matches records
+57,twisted_grove,Twisted Grove,Tenniv,1842-10-10,afternoon,clear,78,78.1,0.1,31.2,30.72,-0.48,notebook compass chain,3,chain,uneasy,True,False,normal observation
+58,standing_stones,Standing Stones,Tenniv,1842-04-09,dusk,overcast,134,140.9,6.9,67.8,66.33,-1.47,notebook compass chain,3,none,calm,True,False,moderate bearing variance
+59,standing_stones,Standing Stones,Morrow,1842-04-10,dusk,overcast,134,134.2,0.2,67.8,68.47,0.67,notebook compass chain,3,none,anxious,True,True,position matches records
+60,split_boulder,Split Boulder,Archon Vells,1842-01-18,dusk,clear,156,,,89.2,,,notebook compass chain,3,none,anxious,False,False,NOT FOUND - Split Boulder not visible
+61,split_boulder,Split Boulder,Tenniv,1842-01-19,midday,overcast,156,152.3,-3.7,89.2,92.58,3.38,notebook compass chain,3,none,frightened,True,False,normal observation
+62,split_boulder,Split Boulder,Morrow,1842-07-07,midday,fog,156,159.3,3.3,89.2,88.33,-0.87,notebook compass chain,3,none,uneasy,True,False,normal observation
+63,split_boulder,Split Boulder,Archon Vells,1842-07-08,dawn,clear,156,,,89.2,,,notebook compass chain,3,none,curious,False,False,NOT FOUND - Split Boulder not visible
+64,split_boulder,Split Boulder,Tenniv,1842-07-09,afternoon,fog,156,155.8,-0.2,89.2,90.72,1.52,notebook compass chain,3,none,calm,True,False,normal observation
+65,twisted_grove,Twisted Grove,Tenniv,1843-08-24,midday,clear,78,75.1,-2.9,31.2,31.32,0.12,notebook compass chain,3,none,curious,True,False,normal observation
+66,twisted_grove,Twisted Grove,Morrow,1843-08-25,dusk,overcast,78,76.9,-1.1,31.2,31.25,0.05,notebook compass chain,3,none,calm,True,True,position matches records
+67,denstone_approach,Denstone Approach,Tenniv,1843-04-03,dawn,clear,178,180.2,2.2,142.3,140.41,-1.89,notebook compass chain,3,none,anxious,True,False,normal observation
+68,denstone_approach,Denstone Approach,Morrow,1843-04-04,midday,clear,178,180.2,2.2,142.3,140.37,-1.93,notebook compass chain,3,none,calm,True,False,normal observation
+69,moat_crossing,Moat Crossing,Morrow,1843-04-07,afternoon,clear,180,180.5,0.5,187.0,190.97,3.97,notebook compass chain,3,none,calm,True,False,normal observation
+70,moat_crossing,Moat Crossing,Tenniv,1843-04-08,midday,dens_mist,180,181.3,1.3,187.0,184.82,-2.18,notebook compass chain,3,none,curious,True,True,position matches records
+71,gray_spire,Gray Spire,Morrow,1843-04-15,dusk,overcast,45,44.4,-0.6,23.4,23.47,0.07,notebook compass chain,3,none,curious,True,True,position matches records
+72,gray_spire,Gray Spire,Tenniv,1843-04-16,afternoon,fog,45,44.4,-0.6,23.4,23.3,-0.1,notebook compass chain,3,none,calm,True,True,position matches records
+73,moat_crossing,Moat Crossing,Tenniv,1843-09-17,dawn,clear,180,181.2,1.2,187.0,184.22,-2.78,notebook compass chain,3,none,calm,True,False,normal observation
+74,moat_crossing,Moat Crossing,Morrow,1843-09-18,dusk,clear,180,180.0,-0.0,187.0,188.69,1.69,notebook compass chain,3,none,calm,True,True,position matches records
+75,standing_stones,Standing Stones,Morrow,1843-01-19,afternoon,fog,134,134.5,0.5,67.8,67.44,-0.36,notebook compass chain,3,none,uneasy,True,True,position matches records
+76,standing_stones,Standing Stones,Tenniv,1843-01-20,dawn,clear,134,,,67.8,,,notebook compass chain,3,none,curious,False,False,NOT FOUND - Standing Stones not visible
+77,denstone_approach,Denstone Approach,Morrow,1843-03-19,afternoon,fog,178,177.1,-0.9,142.3,140.61,-1.69,notebook compass chain,3,none,calm,True,False,normal observation
+78,denstone_approach,Denstone Approach,Tenniv,1843-03-20,afternoon,dens_mist,178,,,142.3,,,notebook compass chain,3,compass,calm,False,True,NOT FOUND - Denstone Approach not visible
+79,gray_spire,Gray Spire,Morrow,1843-05-11,dawn,fog,45,46.1,1.1,23.4,23.36,-0.04,notebook compass chain,3,chain,calm,True,True,position matches records
+80,gray_spire,Gray Spire,Tenniv,1843-05-12,midday,clear,45,44.6,-0.4,23.4,23.23,-0.17,notebook compass chain,3,none,calm,True,True,position matches records
+81,standing_stones,Standing Stones,Tenniv,1843-04-22,dusk,overcast,134,134.6,0.6,67.8,67.41,-0.39,notebook compass chain,3,none,uneasy,True,True,position matches records
+82,standing_stones,Standing Stones,Morrow,1843-04-23,dawn,overcast,134,134.7,0.7,67.8,67.75,-0.05,notebook compass chain,3,none,calm,True,True,position matches records
+83,twisted_grove,Twisted Grove,Tenniv,1843-12-09,afternoon,clear,78,76.9,-1.1,31.2,31.82,0.62,notebook compass chain,3,none,uneasy,True,False,normal observation
+84,twisted_grove,Twisted Grove,Morrow,1843-12-10,midday,overcast,78,79.2,1.2,31.2,31.69,0.49,notebook compass chain,3,none,calm,True,False,normal observation
+85,moat_crossing,Moat Crossing,Grell,1845-06-20,midday,overcast,180,180.4,0.4,187.0,184.98,-2.02,notebook compass chain,3,none,calm,True,False,normal observation
+86,moat_crossing,Moat Crossing,Prebel,1845-06-21,dawn,overcast,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,curious,True,True,position matches records
+87,denstone_approach,Denstone Approach,Tenniv,1845-11-02,midday,overcast,178,179.1,1.1,142.3,143.02,0.72,notebook compass chain,3,none,anxious,True,True,position matches records
+88,denstone_approach,Denstone Approach,Grell,1845-11-03,afternoon,overcast,178,,,142.3,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Denstone Approach not visible
+89,standing_stones,Standing Stones,Prebel,1845-10-06,midday,clear,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,frightened,True,True,position matches records
+90,standing_stones,Standing Stones,Grell,1845-10-07,afternoon,clear,134,134.6,0.6,67.8,68.13,0.33,notebook compass chain,3,none,anxious,True,True,position matches records
+91,gray_spire,Gray Spire,Grell,1845-10-18,dawn,clear,45,45.6,0.6,23.4,23.56,0.16,notebook compass chain,3,chain,curious,True,True,position matches records
+92,gray_spire,Gray Spire,Prebel,1845-10-19,afternoon,clear,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,calm,True,True,position matches records
+93,gray_spire,Gray Spire,Tenniv,1845-07-10,afternoon,overcast,45,44.8,-0.2,23.4,22.71,-0.69,notebook compass chain,3,none,anxious,True,False,normal observation
+94,gray_spire,Gray Spire,Prebel,1845-07-11,afternoon,overcast,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,curious,True,True,position matches records
+95,gray_spire,Gray Spire,Prebel,1845-11-25,dawn,fog,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,calm,True,True,position matches records
+96,gray_spire,Gray Spire,Grell,1845-11-26,midday,overcast,45,48.6,3.6,23.4,23.19,-0.21,notebook compass chain,3,none,uneasy,True,False,normal observation
+97,twisted_grove,Twisted Grove,Grell,1845-12-18,dusk,clear,78,77.2,-0.8,31.2,30.55,-0.65,notebook compass chain,3,none,uneasy,True,False,normal observation
+98,twisted_grove,Twisted Grove,Tenniv,1845-12-19,midday,clear,78,79.6,1.6,31.2,30.84,-0.36,notebook compass chain,3,none,calm,True,False,normal observation
+99,twisted_grove,Twisted Grove,Prebel,1845-12-20,dawn,clear,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,calm,True,True,position matches records
+100,dry_wash,Dry Wash,Tenniv,1845-03-03,midday,overcast,112,116.6,4.6,45.6,43.8,-1.8,notebook compass chain,3,none,uneasy,True,False,normal observation
+101,dry_wash,Dry Wash,Grell,1845-03-04,midday,clear,112,,,45.6,,,notebook compass chain,3,none,uneasy,False,True,NOT FOUND - Dry Wash not visible
+102,twisted_grove,Twisted Grove,Grell,1845-05-09,afternoon,overcast,78,77.2,-0.8,31.2,31.57,0.37,notebook compass chain,3,none,calm,True,False,normal observation
+103,twisted_grove,Twisted Grove,Prebel,1845-05-10,midday,clear,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,anxious,True,True,position matches records
+104,moat_crossing,Moat Crossing,Grell,1845-04-15,dusk,overcast,180,,,187.0,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Moat Crossing not visible
+105,moat_crossing,Moat Crossing,Tenniv,1845-04-16,dawn,clear,180,178.7,-1.3,187.0,183.82,-3.18,notebook compass chain,3,none,calm,True,False,normal observation
+106,dry_wash,Dry Wash,Grell,1846-06-19,dawn,clear,112,,,45.6,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Dry Wash not visible
+107,dry_wash,Dry Wash,Tenniv,1846-06-20,afternoon,overcast,112,114.6,2.6,45.6,46.52,0.92,notebook compass chain,3,none,curious,True,False,normal observation
+108,dry_wash,Dry Wash,Prebel,1846-06-21,dusk,fog,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,calm,True,True,position matches records
+109,split_boulder,Split Boulder,Prebel,1846-07-13,dawn,clear,156,,,89.2,,,notebook,1,none,calm,False,True,NOT FOUND - Split Boulder not visible
+110,split_boulder,Split Boulder,Tenniv,1846-07-14,dawn,clear,156,158.4,2.4,89.2,89.73,0.53,notebook compass chain,3,none,uneasy,True,False,normal observation
+111,twisted_grove,Twisted Grove,Korrith,1846-08-01,afternoon,clear,78,77.5,-0.5,31.2,31.33,0.13,notebook compass chain,3,none,calm,True,True,position matches records
+112,twisted_grove,Twisted Grove,Prebel,1846-08-02,afternoon,fog,78,78.0,0.0,31.2,31.2,0.0,notebook,1,theodolite,calm,True,True,position matches records
+113,denstone_approach,Denstone Approach,Korrith,1846-02-08,dawn,clear,178,,,142.3,,,notebook compass chain,3,none,anxious,False,False,NOT FOUND - Denstone Approach not visible
+114,denstone_approach,Denstone Approach,Tenniv,1846-02-09,midday,fog,178,178.6,0.6,142.3,142.32,0.02,notebook compass chain,3,none,calm,True,True,position matches records
+115,dry_wash,Dry Wash,Tenniv,1846-08-27,dusk,clear,112,108.5,-3.5,45.6,44.38,-1.22,notebook compass chain,3,chain,curious,True,False,normal observation
+116,dry_wash,Dry Wash,Korrith,1846-08-28,dusk,clear,112,111.0,-1.0,45.6,46.63,1.03,notebook compass chain,3,none,uneasy,True,False,normal observation
+117,dry_wash,Dry Wash,Prebel,1846-08-29,dawn,overcast,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,calm,True,True,position matches records
+118,dry_wash,Dry Wash,Grell,1846-08-30,dusk,clear,112,114.6,2.6,45.6,46.23,0.63,notebook compass chain,3,none,calm,True,False,normal observation
+119,moat_crossing,Moat Crossing,Prebel,1846-10-17,midday,clear,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,calm,True,True,position matches records
+120,moat_crossing,Moat Crossing,Tenniv,1846-10-18,midday,overcast,180,178.0,-2.0,187.0,188.04,1.04,notebook compass chain,3,none,curious,True,True,position matches records
+121,dry_wash,Dry Wash,Grell,1846-02-12,afternoon,clear,112,112.9,0.9,45.6,46.97,1.37,notebook compass chain,3,none,curious,True,False,normal observation
+122,dry_wash,Dry Wash,Korrith,1846-02-13,midday,clear,112,110.3,-1.7,45.6,46.4,0.8,notebook compass chain,3,none,curious,True,False,normal observation
+123,split_boulder,Split Boulder,Korrith,1846-12-21,afternoon,overcast,156,157.1,1.1,89.2,86.9,-2.3,notebook compass chain,3,none,curious,True,False,normal observation
+124,split_boulder,Split Boulder,Prebel,1846-12-22,midday,overcast,156,,,89.2,,,notebook,1,none,calm,False,True,NOT FOUND - Split Boulder not visible
+125,standing_stones,Standing Stones,Grell,1846-06-06,midday,clear,134,136.0,2.0,67.8,68.16,0.36,notebook compass chain,3,none,calm,True,True,position matches records
+126,standing_stones,Standing Stones,Korrith,1846-06-07,dusk,overcast,134,134.7,0.7,67.8,68.15,0.35,notebook compass chain,3,none,calm,True,True,position matches records
+127,dry_wash,Dry Wash,Grell,1846-10-03,afternoon,clear,112,109.3,-2.7,45.6,45.37,-0.23,notebook compass chain,3,none,frightened,True,False,normal observation
+128,dry_wash,Dry Wash,Prebel,1846-10-04,midday,clear,112,112.0,0.0,45.6,45.6,0.0,notebook,1,theodolite,calm,True,True,position matches records
+129,dry_wash,Dry Wash,Korrith,1846-10-05,midday,overcast,112,109.2,-2.8,45.6,46.73,1.13,notebook compass chain,3,none,anxious,True,False,normal observation
+130,dry_wash,Dry Wash,Tenniv,1846-10-06,afternoon,dens_mist,112,112.9,0.9,45.6,46.97,1.37,notebook compass chain,3,none,curious,True,False,normal observation
+131,twisted_grove,Twisted Grove,Grell,1847-04-16,dusk,dens_mist,78,78.9,0.9,31.2,30.04,-1.16,notebook compass chain,3,none,curious,True,False,normal observation
+132,twisted_grove,Twisted Grove,Prebel,1847-04-17,midday,fog,78,78.0,0.0,31.2,31.2,0.0,notebook,1,chain,anxious,True,True,position matches records
+133,twisted_grove,Twisted Grove,Korrith,1847-04-18,dusk,fog,78,79.6,1.6,31.2,31.06,-0.14,notebook compass chain,3,none,uneasy,True,True,position matches records
+134,gray_spire,Gray Spire,Grell,1847-06-10,midday,clear,45,46.3,1.3,23.4,23.57,0.17,notebook compass chain,3,none,calm,True,True,position matches records
+135,gray_spire,Gray Spire,Prebel,1847-06-11,dusk,clear,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,curious,True,True,position matches records
+136,gray_spire,Gray Spire,Tenniv,1847-06-12,midday,overcast,45,44.7,-0.3,23.4,23.04,-0.36,notebook compass chain,3,none,calm,True,False,normal observation
+137,gray_spire,Gray Spire,Korrith,1847-06-13,dusk,clear,45,43.1,-1.9,23.4,23.31,-0.09,notebook compass chain,3,chain,calm,True,True,position matches records
+138,standing_stones,Standing Stones,Korrith,1847-10-17,dusk,fog,134,,,67.8,,,notebook compass chain,3,none,curious,False,False,NOT FOUND - Standing Stones not visible
+139,standing_stones,Standing Stones,Prebel,1847-10-18,afternoon,clear,134,,,67.8,,,notebook,1,theodolite,uneasy,False,True,NOT FOUND - Standing Stones not visible
+140,standing_stones,Standing Stones,Tenniv,1847-10-19,midday,overcast,134,,,67.8,,,notebook compass chain,3,none,curious,False,False,NOT FOUND - Standing Stones not visible
+141,standing_stones,Standing Stones,Grell,1847-10-20,midday,clear,134,133.6,-0.4,67.8,67.03,-0.77,notebook compass chain,3,none,calm,True,False,normal observation
+142,twisted_grove,Twisted Grove,Tenniv,1847-04-15,midday,overcast,78,77.9,-0.1,31.2,31.38,0.18,notebook compass chain,3,none,calm,True,True,position matches records
+143,twisted_grove,Twisted Grove,Korrith,1847-04-16,midday,dens_mist,78,74.4,-3.6,31.2,30.47,-0.73,notebook compass chain,3,none,calm,True,False,normal observation
+144,twisted_grove,Twisted Grove,Grell,1847-04-17,midday,clear,78,79.5,1.5,31.2,31.06,-0.14,notebook compass chain,3,none,calm,True,True,position matches records
+145,dry_wash,Dry Wash,Korrith,1847-06-10,dawn,clear,112,112.9,0.9,45.6,44.7,-0.9,notebook compass chain,3,none,calm,True,False,normal observation
+146,dry_wash,Dry Wash,Tenniv,1847-06-11,midday,clear,112,116.2,4.2,45.6,44.85,-0.75,notebook compass chain,3,none,frightened,True,False,normal observation
+147,dry_wash,Dry Wash,Grell,1847-06-12,afternoon,clear,112,,,45.6,,,notebook compass chain,3,none,curious,False,False,NOT FOUND - Dry Wash not visible
+148,split_boulder,Split Boulder,Korrith,1847-04-26,afternoon,clear,156,160.0,4.0,89.2,89.08,-0.12,notebook compass chain,3,none,calm,True,False,normal observation
+149,split_boulder,Split Boulder,Grell,1847-04-27,dusk,clear,156,155.3,-0.7,89.2,89.56,0.36,notebook compass chain,3,none,calm,True,True,position matches records
+150,split_boulder,Split Boulder,Grell,1847-06-19,dusk,dens_mist,156,159.7,3.7,89.2,89.29,0.09,notebook compass chain,3,none,curious,True,False,normal observation
+151,split_boulder,Split Boulder,Korrith,1847-06-20,dusk,clear,156,156.5,0.5,89.2,87.33,-1.87,notebook compass chain,3,none,curious,True,False,normal observation
+152,denstone_approach,Denstone Approach,Tenniv,1847-06-08,dusk,fog,178,180.4,2.4,142.3,141.15,-1.15,notebook compass chain,3,compass,curious,True,False,normal observation
+153,denstone_approach,Denstone Approach,Korrith,1847-06-09,afternoon,clear,178,,,142.3,,,notebook compass chain,3,none,uneasy,False,False,NOT FOUND - Denstone Approach not visible
+154,denstone_approach,Denstone Approach,Grell,1847-06-10,midday,fog,178,176.3,-1.7,142.3,140.41,-1.89,notebook compass chain,3,compass,anxious,True,False,normal observation
+155,gray_spire,Gray Spire,Grell,1847-01-24,afternoon,fog,45,43.4,-1.6,23.4,23.21,-0.19,notebook compass chain,3,compass,calm,True,True,position matches records
+156,gray_spire,Gray Spire,Korrith,1847-01-25,dawn,overcast,45,47.4,2.4,23.4,23.58,0.18,notebook compass chain,3,none,curious,True,False,normal observation
+157,gray_spire,Gray Spire,Tenniv,1847-01-26,afternoon,clear,45,44.3,-0.7,23.4,23.51,0.11,notebook compass chain,3,none,calm,True,True,position matches records
+158,dry_wash,Dry Wash,Prebel,1847-05-23,dawn,fog,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,curious,True,True,position matches records
+159,dry_wash,Dry Wash,Korrith,1847-05-24,dawn,clear,112,111.9,-0.1,45.6,45.22,-0.38,notebook compass chain,3,none,calm,True,True,position matches records
+160,dry_wash,Dry Wash,Grell,1847-05-25,afternoon,clear,112,114.2,2.2,45.6,47.05,1.45,notebook compass chain,3,none,anxious,True,False,normal observation
+161,dry_wash,Dry Wash,Tenniv,1847-05-26,midday,fog,112,113.9,1.9,45.6,44.57,-1.03,notebook compass chain,3,none,uneasy,True,False,normal observation
+162,denstone_approach,Denstone Approach,Prebel,1848-08-09,dawn,clear,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,calm,True,True,position matches records
+163,denstone_approach,Denstone Approach,Grell,1848-08-10,midday,overcast,178,177.8,-0.2,142.3,142.76,0.46,notebook compass chain,3,none,curious,True,True,position matches records
+164,denstone_approach,Denstone Approach,Prebel,1848-04-22,dusk,dens_mist,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,calm,True,True,position matches records
+165,denstone_approach,Denstone Approach,Grell,1848-04-23,midday,clear,178,176.4,-1.6,142.3,138.32,-3.98,notebook compass chain,3,chain,calm,True,False,normal observation
+166,denstone_approach,Denstone Approach,Korrith,1848-04-24,midday,clear,178,,,142.3,,,notebook compass chain,3,compass,anxious,False,True,NOT FOUND - Denstone Approach not visible
+167,denstone_approach,Denstone Approach,Tenniv,1848-04-25,afternoon,clear,178,176.0,-2.0,142.3,144.27,1.97,notebook compass chain,3,none,calm,True,False,normal observation
+168,twisted_grove,Twisted Grove,Korrith,1848-10-20,dusk,overcast,78,79.6,1.6,31.2,31.27,0.07,notebook compass chain,3,none,uneasy,True,True,position matches records
+169,twisted_grove,Twisted Grove,Tenniv,1848-10-21,midday,fog,78,77.3,-0.7,31.2,31.42,0.22,notebook compass chain,3,none,calm,True,True,position matches records
+170,twisted_grove,Twisted Grove,Prebel,1848-10-22,dawn,overcast,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,anxious,True,True,position matches records
+171,twisted_grove,Twisted Grove,Prebel,1848-09-20,dawn,overcast,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,uneasy,True,True,position matches records
+172,twisted_grove,Twisted Grove,Tenniv,1848-09-21,midday,clear,78,79.4,1.4,31.2,31.74,0.54,notebook compass chain,3,none,curious,True,False,normal observation
+173,twisted_grove,Twisted Grove,Grell,1848-09-22,midday,fog,78,,,31.2,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Twisted Grove not visible
+174,dry_wash,Dry Wash,Korrith,1848-01-08,dusk,clear,112,111.7,-0.3,45.6,45.7,0.1,notebook compass chain,3,theodolite,uneasy,True,True,position matches records
+175,dry_wash,Dry Wash,Prebel,1848-01-09,dawn,overcast,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,calm,True,True,position matches records
+176,dry_wash,Dry Wash,Tenniv,1848-01-10,dusk,overcast,112,,,45.6,,,notebook compass chain,3,none,curious,False,True,NOT FOUND - Dry Wash not visible
+177,split_boulder,Split Boulder,Tenniv,1848-09-07,dusk,clear,156,150.9,-5.1,89.2,87.55,-1.65,notebook compass chain,3,none,frightened,True,False,moderate bearing variance
+178,split_boulder,Split Boulder,Korrith,1848-09-08,midday,overcast,156,156.1,0.1,89.2,89.54,0.34,notebook compass chain,3,none,calm,True,True,position matches records
+179,gray_spire,Gray Spire,Prebel,1848-08-15,midday,clear,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,calm,True,True,position matches records
+180,gray_spire,Gray Spire,Tenniv,1848-08-16,midday,fog,45,44.2,-0.8,23.4,23.56,0.16,notebook compass chain,3,none,calm,True,True,position matches records
+181,gray_spire,Gray Spire,Korrith,1848-08-17,midday,overcast,45,43.4,-1.6,23.4,23.19,-0.21,notebook compass chain,3,none,uneasy,True,True,position matches records
+182,gray_spire,Gray Spire,Prebel,1848-10-20,dusk,overcast,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,calm,True,True,position matches records
+183,gray_spire,Gray Spire,Tenniv,1848-10-21,afternoon,overcast,45,44.8,-0.2,23.4,23.19,-0.21,notebook compass chain,3,chain,curious,True,True,position matches records
+184,gray_spire,Gray Spire,Korrith,1848-10-22,dusk,fog,45,46.3,1.3,23.4,22.78,-0.62,notebook compass chain,3,none,calm,True,False,normal observation
+185,split_boulder,Split Boulder,Tenniv,1848-01-03,afternoon,clear,156,160.0,4.0,89.2,87.81,-1.39,notebook compass chain,3,none,calm,True,False,normal observation
+186,split_boulder,Split Boulder,Grell,1848-01-04,afternoon,overcast,156,155.0,-1.0,89.2,88.35,-0.85,notebook compass chain,3,none,calm,True,True,position matches records
+187,moat_crossing,Moat Crossing,Grell,1848-02-08,midday,clear,180,175.7,-4.3,187.0,185.26,-1.74,notebook compass chain,3,none,calm,True,False,normal observation
+188,moat_crossing,Moat Crossing,Prebel,1848-02-09,dusk,clear,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,calm,True,True,position matches records
+189,moat_crossing,Moat Crossing,Tenniv,1848-02-10,afternoon,clear,180,180.5,0.5,187.0,185.92,-1.08,notebook compass chain,3,none,anxious,True,True,position matches records
+190,moat_crossing,Moat Crossing,Korrith,1848-02-11,afternoon,clear,180,181.3,1.3,187.0,182.11,-4.89,notebook compass chain,3,none,calm,True,False,normal observation
+191,dry_wash,Dry Wash,Grell,1849-01-09,midday,clear,112,112.7,0.7,45.6,45.86,0.26,notebook compass chain,3,none,calm,True,True,position matches records
+192,dry_wash,Dry Wash,Korrith,1849-01-10,dawn,clear,112,116.3,4.3,45.6,46.63,1.03,notebook compass chain,3,none,calm,True,False,normal observation
+193,twisted_grove,Twisted Grove,Korrith,1849-05-15,midday,overcast,78,78.3,0.3,31.2,30.78,-0.42,notebook compass chain,3,theodolite,calm,True,False,normal observation
+194,twisted_grove,Twisted Grove,Prebel,1849-05-16,afternoon,clear,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,calm,True,True,position matches records
+195,twisted_grove,Twisted Grove,Korrith,1849-11-21,midday,clear,78,,,31.2,,,notebook compass chain,3,none,uneasy,False,True,NOT FOUND - Twisted Grove not visible
+196,twisted_grove,Twisted Grove,Grell,1849-11-22,dusk,overcast,78,76.8,-1.2,31.2,31.6,0.4,notebook compass chain,3,none,calm,True,False,normal observation
+197,twisted_grove,Twisted Grove,Prebel,1849-11-23,afternoon,clear,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,frightened,True,True,position matches records
+198,moat_crossing,Moat Crossing,Korrith,1849-08-12,dusk,clear,180,179.1,-0.9,187.0,185.42,-1.58,notebook compass chain,3,none,calm,True,True,position matches records
+199,moat_crossing,Moat Crossing,Grell,1849-08-13,dusk,clear,180,,,187.0,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Moat Crossing not visible
+200,moat_crossing,Moat Crossing,Korrith,1849-03-15,afternoon,fog,180,177.5,-2.5,187.0,187.31,0.31,notebook compass chain,3,none,calm,True,False,normal observation
+201,moat_crossing,Moat Crossing,Prebel,1849-03-16,midday,clear,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,calm,True,True,position matches records
+202,twisted_grove,Twisted Grove,Grell,1849-03-23,afternoon,clear,78,75.7,-2.3,31.2,30.71,-0.49,notebook compass chain,3,none,uneasy,True,False,normal observation
+203,twisted_grove,Twisted Grove,Prebel,1849-03-24,dawn,fog,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,calm,True,True,position matches records
+204,twisted_grove,Twisted Grove,Prebel,1849-07-11,midday,clear,78,78.0,0.0,31.2,31.2,0.0,notebook,1,compass,calm,True,True,position matches records
+205,twisted_grove,Twisted Grove,Korrith,1849-07-12,afternoon,fog,78,79.1,1.1,31.2,31.64,0.44,notebook compass chain,3,none,calm,True,False,normal observation
+206,twisted_grove,Twisted Grove,Grell,1849-07-13,dusk,overcast,78,75.0,-3.0,31.2,30.38,-0.82,notebook compass chain,3,none,uneasy,True,False,normal observation
+207,denstone_approach,Denstone Approach,Korrith,1849-11-24,afternoon,fog,178,181.2,3.2,142.3,143.0,0.7,notebook compass chain,3,none,uneasy,True,False,normal observation
+208,denstone_approach,Denstone Approach,Prebel,1849-11-25,dawn,overcast,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,calm,True,True,position matches records
+209,twisted_grove,Twisted Grove,Grell,1849-11-08,midday,clear,78,76.3,-1.7,31.2,31.07,-0.13,notebook compass chain,3,none,calm,True,True,position matches records
+210,twisted_grove,Twisted Grove,Korrith,1849-11-09,midday,clear,78,76.5,-1.5,31.2,31.49,0.29,notebook compass chain,3,none,curious,True,True,position matches records
+211,twisted_grove,Twisted Grove,Prebel,1849-11-10,dusk,dens_mist,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,curious,True,True,position matches records
+212,twisted_grove,Twisted Grove,Prebel,1849-10-09,afternoon,fog,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,curious,True,True,position matches records
+213,twisted_grove,Twisted Grove,Korrith,1849-10-10,midday,overcast,78,75.7,-2.3,31.2,31.28,0.08,notebook compass chain,3,none,calm,True,False,normal observation
+214,twisted_grove,Twisted Grove,Grell,1849-10-11,midday,clear,78,75.9,-2.1,31.2,31.33,0.13,notebook compass chain,3,theodolite,uneasy,True,False,normal observation
+215,denstone_approach,Denstone Approach,Grell,1850-06-24,midday,overcast,178,,,142.3,,,notebook compass chain,3,none,anxious,False,False,NOT FOUND - Denstone Approach not visible
+216,denstone_approach,Denstone Approach,Prebel,1850-06-25,dusk,clear,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,calm,True,True,position matches records
+217,denstone_approach,Denstone Approach,Korrith,1850-06-26,afternoon,fog,178,176.8,-1.2,142.3,142.14,-0.16,notebook compass chain,3,none,calm,True,True,position matches records
+218,moat_crossing,Moat Crossing,Grell,1850-01-09,dusk,overcast,180,,,187.0,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Moat Crossing not visible
+219,moat_crossing,Moat Crossing,Korrith,1850-01-10,dusk,overcast,180,177.4,-2.6,187.0,184.87,-2.13,notebook compass chain,3,none,calm,True,False,normal observation
+220,moat_crossing,Moat Crossing,Prebel,1850-01-11,afternoon,overcast,180,,,187.0,,,notebook,1,none,uneasy,False,True,NOT FOUND - Moat Crossing not visible
+221,denstone_approach,Denstone Approach,Prebel,1850-11-25,dusk,clear,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,calm,True,True,position matches records
+222,denstone_approach,Denstone Approach,Korrith,1850-11-26,midday,dens_mist,178,,,142.3,,,notebook compass chain,3,none,frightened,False,False,NOT FOUND - Denstone Approach not visible
+223,denstone_approach,Denstone Approach,Thurmond Gast,1850-11-27,dusk,fog,178,174.0,-4.0,142.3,141.75,-0.55,notebook compass chain,3,none,calm,True,False,normal observation
+224,dry_wash,Dry Wash,Korrith,1850-11-12,midday,clear,112,,,45.6,,,notebook compass chain,3,chain,curious,False,False,NOT FOUND - Dry Wash not visible
+225,dry_wash,Dry Wash,Grell,1850-11-13,dusk,clear,112,,,45.6,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Dry Wash not visible
+226,twisted_grove,Twisted Grove,Thurmond Gast,1850-12-09,afternoon,overcast,78,80.1,2.1,31.2,32.09,0.89,notebook compass chain,3,none,calm,True,False,normal observation
+227,twisted_grove,Twisted Grove,Grell,1850-12-10,dusk,overcast,78,76.8,-1.2,31.2,30.61,-0.59,notebook compass chain,3,none,calm,True,False,normal observation
+228,twisted_grove,Twisted Grove,Prebel,1850-12-11,dusk,overcast,78,78.0,0.0,31.2,31.2,0.0,notebook,1,chain,uneasy,True,True,position matches records
+229,twisted_grove,Twisted Grove,Korrith,1850-12-12,dawn,clear,78,79.1,1.1,31.2,30.83,-0.37,notebook compass chain,3,none,calm,True,False,normal observation
+230,split_boulder,Split Boulder,Korrith,1850-06-22,afternoon,clear,156,153.6,-2.4,89.2,92.06,2.86,notebook compass chain,3,none,calm,True,False,normal observation
+231,split_boulder,Split Boulder,Prebel,1850-06-23,afternoon,clear,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,calm,True,True,position matches records
+232,twisted_grove,Twisted Grove,Thurmond Gast,1850-01-04,dusk,clear,78,78.0,-0.0,31.2,30.92,-0.28,notebook compass chain,3,none,calm,True,True,position matches records
+233,twisted_grove,Twisted Grove,Prebel,1850-01-05,midday,clear,78,,,31.2,,,notebook,1,none,calm,False,True,NOT FOUND - Twisted Grove not visible
+234,split_boulder,Split Boulder,Grell,1850-07-25,afternoon,clear,156,157.1,1.1,89.2,89.45,0.25,notebook compass chain,3,none,frightened,True,True,position matches records
+235,split_boulder,Split Boulder,Prebel,1850-07-26,dusk,clear,156,,,89.2,,,notebook,1,none,calm,False,True,NOT FOUND - Split Boulder not visible
+236,split_boulder,Split Boulder,Korrith,1850-07-27,midday,overcast,156,153.9,-2.1,89.2,90.39,1.19,notebook compass chain,3,none,calm,True,False,normal observation
+237,split_boulder,Split Boulder,Prebel,1850-03-04,midday,overcast,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,calm,True,True,position matches records
+238,split_boulder,Split Boulder,Korrith,1850-03-05,dawn,clear,156,,,89.2,,,notebook compass chain,3,theodolite,calm,False,False,NOT FOUND - Split Boulder not visible
+239,split_boulder,Split Boulder,Grell,1850-03-06,dusk,clear,156,159.0,3.0,89.2,89.76,0.56,notebook compass chain,3,none,uneasy,True,False,normal observation
+240,split_boulder,Split Boulder,Thurmond Gast,1850-03-07,midday,clear,156,153.7,-2.3,89.2,88.19,-1.01,notebook compass chain,3,none,calm,True,False,normal observation
+241,split_boulder,Split Boulder,Prebel,1850-05-18,dawn,overcast,156,,,89.2,,,notebook,1,none,calm,False,True,NOT FOUND - Split Boulder not visible
+242,split_boulder,Split Boulder,Grell,1850-05-19,dawn,clear,156,,,89.2,,,notebook compass chain,3,none,uneasy,False,False,NOT FOUND - Split Boulder not visible
+243,split_boulder,Split Boulder,Thurmond Gast,1850-05-20,afternoon,clear,156,160.7,4.7,89.2,87.82,-1.38,notebook compass chain,3,none,calm,True,False,normal observation
+244,twisted_grove,Twisted Grove,Prebel,1851-12-27,dusk,clear,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,calm,True,True,position matches records
+245,twisted_grove,Twisted Grove,Thurmond Gast,1851-12-28,dawn,overcast,78,80.3,2.3,31.2,31.29,0.09,notebook compass chain,3,chain,uneasy,True,False,normal observation
+246,twisted_grove,Twisted Grove,Korrith,1851-12-29,dawn,overcast,78,82.3,4.3,31.2,31.59,0.39,notebook compass chain,3,theodolite,frightened,True,False,normal observation
+247,split_boulder,Split Boulder,Prebel,1851-11-10,afternoon,overcast,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,calm,True,True,position matches records
+248,split_boulder,Split Boulder,Thurmond Gast,1851-11-11,dawn,clear,156,154.9,-1.1,89.2,87.11,-2.09,notebook compass chain,3,none,calm,True,False,normal observation
+249,split_boulder,Split Boulder,Korrith,1851-11-12,afternoon,clear,156,153.7,-2.3,89.2,87.93,-1.27,notebook compass chain,3,chain,anxious,True,False,normal observation
+250,split_boulder,Split Boulder,Grell,1851-11-13,midday,overcast,156,,,89.2,,,notebook compass chain,3,none,calm,False,True,NOT FOUND - Split Boulder not visible
+251,gray_spire,Gray Spire,Prebel,1851-11-16,dusk,clear,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,uneasy,True,True,position matches records
+252,gray_spire,Gray Spire,Korrith,1851-11-17,midday,clear,45,46.5,1.5,23.4,23.77,0.37,notebook compass chain,3,none,uneasy,True,False,normal observation
+253,dry_wash,Dry Wash,Prebel,1851-11-14,dusk,clear,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,calm,True,True,position matches records
+254,dry_wash,Dry Wash,Grell,1851-11-15,midday,clear,112,105.5,-6.5,45.6,45.31,-0.29,notebook compass chain,3,none,calm,True,False,moderate bearing variance
+255,dry_wash,Dry Wash,Grell,1851-08-16,midday,overcast,112,108.8,-3.2,45.6,45.57,-0.03,notebook compass chain,3,none,calm,True,False,normal observation
+256,dry_wash,Dry Wash,Prebel,1851-08-17,afternoon,fog,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,calm,True,True,position matches records
+257,dry_wash,Dry Wash,Korrith,1851-08-18,midday,overcast,112,114.7,2.7,45.6,46.04,0.44,notebook compass chain,3,none,curious,True,False,normal observation
+258,standing_stones,Standing Stones,Korrith,1851-07-22,afternoon,clear,134,132.6,-1.4,67.8,69.09,1.29,notebook compass chain,3,none,calm,True,False,normal observation
+259,standing_stones,Standing Stones,Thurmond Gast,1851-07-23,dusk,overcast,134,132.8,-1.2,67.8,70.17,2.37,notebook compass chain,3,none,calm,True,False,normal observation
+260,standing_stones,Standing Stones,Prebel,1851-08-12,dawn,clear,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,curious,True,True,position matches records
+261,standing_stones,Standing Stones,Korrith,1851-08-13,midday,clear,134,137.1,3.1,67.8,66.4,-1.4,notebook compass chain,3,none,calm,True,False,normal observation
+262,standing_stones,Standing Stones,Grell,1851-08-14,dusk,clear,134,135.6,1.6,67.8,66.44,-1.36,notebook compass chain,3,none,calm,True,False,normal observation
+263,standing_stones,Standing Stones,Thurmond Gast,1851-08-15,midday,overcast,134,133.9,-0.1,67.8,67.6,-0.2,notebook compass chain,3,none,uneasy,True,True,position matches records
+264,split_boulder,Split Boulder,Korrith,1851-10-08,dawn,clear,156,153.1,-2.9,89.2,89.13,-0.07,notebook compass chain,3,none,curious,True,False,normal observation
+265,split_boulder,Split Boulder,Thurmond Gast,1851-10-09,midday,clear,156,,,89.2,,,notebook compass chain,3,theodolite,calm,False,False,NOT FOUND - Split Boulder not visible
+266,twisted_grove,Twisted Grove,Korrith,1851-01-24,dawn,clear,78,76.4,-1.6,31.2,31.75,0.55,notebook compass chain,3,none,calm,True,False,normal observation
+267,twisted_grove,Twisted Grove,Thurmond Gast,1851-01-25,afternoon,overcast,78,,,31.2,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Twisted Grove not visible
+268,twisted_grove,Twisted Grove,Grell,1851-01-26,dusk,clear,78,76.2,-1.8,31.2,30.86,-0.34,notebook compass chain,3,none,curious,True,False,normal observation
+269,twisted_grove,Twisted Grove,Prebel,1851-01-27,midday,overcast,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,calm,True,True,position matches records
+270,denstone_approach,Denstone Approach,Korrith,1851-10-10,afternoon,fog,178,176.6,-1.4,142.3,140.24,-2.06,notebook compass chain,3,none,calm,True,False,normal observation
+271,denstone_approach,Denstone Approach,Grell,1851-10-11,dawn,clear,178,175.6,-2.4,142.3,139.92,-2.38,notebook compass chain,3,none,anxious,True,False,normal observation
+272,moat_crossing,Moat Crossing,Grell,1852-02-13,afternoon,overcast,180,178.4,-1.6,187.0,188.81,1.81,notebook compass chain,3,none,calm,True,True,position matches records
+273,moat_crossing,Moat Crossing,Korrith,1852-02-14,dusk,fog,180,178.2,-1.8,187.0,184.74,-2.26,notebook compass chain,3,none,anxious,True,False,normal observation
+274,split_boulder,Split Boulder,Prebel,1852-07-02,dusk,overcast,156,,,89.2,,,notebook,1,none,curious,False,True,NOT FOUND - Split Boulder not visible
+275,split_boulder,Split Boulder,Korrith,1852-07-03,midday,overcast,156,158.9,2.9,89.2,87.7,-1.5,notebook compass chain,3,none,frightened,True,False,normal observation
+276,split_boulder,Split Boulder,Grell,1852-07-04,afternoon,clear,156,160.5,4.5,89.2,87.48,-1.72,notebook compass chain,3,none,calm,True,False,normal observation
+277,denstone_approach,Denstone Approach,Thurmond Gast,1852-12-19,midday,overcast,178,179.0,1.0,142.3,143.45,1.15,notebook compass chain,3,none,calm,True,True,position matches records
+278,denstone_approach,Denstone Approach,Grell,1852-12-20,dusk,clear,178,174.7,-3.3,142.3,139.53,-2.77,notebook compass chain,3,none,frightened,True,False,normal observation
+279,twisted_grove,Twisted Grove,Thurmond Gast,1852-07-27,midday,fog,78,78.8,0.8,31.2,31.1,-0.1,notebook compass chain,3,none,uneasy,True,True,position matches records
+280,twisted_grove,Twisted Grove,Prebel,1852-07-28,afternoon,overcast,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,calm,True,True,position matches records
+281,twisted_grove,Twisted Grove,Grell,1852-07-29,afternoon,clear,78,76.5,-1.5,31.2,31.16,-0.04,notebook compass chain,3,none,calm,True,True,position matches records
+282,twisted_grove,Twisted Grove,Korrith,1852-07-30,afternoon,overcast,78,79.6,1.6,31.2,31.01,-0.19,notebook compass chain,3,theodolite,frightened,True,True,position matches records
+283,standing_stones,Standing Stones,Grell,1852-08-07,afternoon,clear,134,136.6,2.6,67.8,67.7,-0.1,notebook compass chain,3,none,curious,True,False,normal observation
+284,standing_stones,Standing Stones,Korrith,1852-08-08,dusk,clear,134,137.5,3.5,67.8,65.47,-2.33,notebook compass chain,3,none,curious,True,False,normal observation
+285,standing_stones,Standing Stones,Thurmond Gast,1852-08-09,dawn,overcast,134,,,67.8,,,notebook compass chain,3,none,uneasy,False,True,NOT FOUND - Standing Stones not visible
+286,standing_stones,Standing Stones,Prebel,1852-08-10,midday,clear,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,calm,True,True,position matches records
+287,denstone_approach,Denstone Approach,Grell,1852-11-15,midday,fog,178,179.6,1.6,142.3,139.88,-2.42,notebook compass chain,3,none,anxious,True,False,normal observation
+288,denstone_approach,Denstone Approach,Korrith,1852-11-16,dawn,clear,178,178.9,0.9,142.3,142.39,0.09,notebook compass chain,3,none,calm,True,True,position matches records
+289,denstone_approach,Denstone Approach,Thurmond Gast,1852-11-17,midday,clear,178,177.0,-1.0,142.3,142.21,-0.09,notebook compass chain,3,none,calm,True,True,position matches records
+290,denstone_approach,Denstone Approach,Prebel,1852-09-24,midday,clear,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,calm,True,True,position matches records
+291,denstone_approach,Denstone Approach,Korrith,1852-09-25,midday,clear,178,175.8,-2.2,142.3,146.73,4.43,notebook compass chain,3,none,uneasy,True,False,normal observation
+292,denstone_approach,Denstone Approach,Thurmond Gast,1852-09-26,dusk,clear,178,,,142.3,,,notebook compass chain,3,none,curious,False,False,NOT FOUND - Denstone Approach not visible
+293,gray_spire,Gray Spire,Korrith,1852-10-25,dawn,fog,45,46.3,1.3,23.4,24.31,0.91,notebook compass chain,3,none,calm,True,False,normal observation
+294,gray_spire,Gray Spire,Prebel,1852-10-26,dawn,fog,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,calm,True,True,position matches records
+295,standing_stones,Standing Stones,Thurmond Gast,1852-11-01,dawn,clear,134,133.8,-0.2,67.8,67.26,-0.54,notebook compass chain,3,none,curious,True,True,position matches records
+296,standing_stones,Standing Stones,Grell,1852-11-02,midday,clear,134,134.7,0.7,67.8,68.32,0.52,notebook compass chain,3,none,uneasy,True,True,position matches records
+297,dry_wash,Dry Wash,Grell,1852-07-08,dawn,fog,112,112.8,0.8,45.6,45.82,0.22,notebook compass chain,3,none,calm,True,True,position matches records
+298,dry_wash,Dry Wash,Prebel,1852-07-09,afternoon,clear,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,calm,True,True,position matches records
+299,dry_wash,Dry Wash,Korrith,1852-07-10,dawn,clear,112,112.3,0.3,45.6,44.5,-1.1,notebook compass chain,3,none,calm,True,False,normal observation
+300,dry_wash,Dry Wash,Thurmond Gast,1852-07-11,dawn,clear,112,,,45.6,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Dry Wash not visible
+301,gray_spire,Gray Spire,Prebel,1853-10-17,dusk,fog,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,calm,True,True,position matches records
+302,gray_spire,Gray Spire,Grell,1853-10-18,afternoon,dens_mist,45,45.5,0.5,23.4,24.01,0.61,notebook compass chain,3,none,curious,True,False,normal observation
+303,gray_spire,Gray Spire,Thurmond Gast,1853-10-19,dusk,clear,45,43.6,-1.4,23.4,22.54,-0.86,notebook compass chain,3,none,calm,True,False,normal observation
+304,gray_spire,Gray Spire,Korrith,1853-10-20,dusk,clear,45,43.7,-1.3,23.4,23.09,-0.31,notebook compass chain,3,none,anxious,True,False,normal observation
+305,moat_crossing,Moat Crossing,Grell,1853-01-05,midday,clear,180,177.9,-2.1,187.0,192.05,5.05,notebook compass chain,3,theodolite,uneasy,True,False,distance significantly different (5.1km)
+306,moat_crossing,Moat Crossing,Prebel,1853-01-06,dawn,dens_mist,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,calm,True,True,position matches records
+307,moat_crossing,Moat Crossing,Thurmond Gast,1853-01-07,dawn,clear,180,179.2,-0.8,187.0,186.62,-0.38,notebook compass chain,3,none,frightened,True,True,position matches records
+308,moat_crossing,Moat Crossing,Korrith,1853-01-08,dawn,clear,180,180.1,0.1,187.0,190.71,3.71,notebook compass chain,3,none,calm,True,False,normal observation
+309,moat_crossing,Moat Crossing,Thurmond Gast,1853-01-09,dawn,fog,180,181.4,1.4,187.0,188.49,1.49,notebook compass chain,3,none,calm,True,True,position matches records
+310,moat_crossing,Moat Crossing,Korrith,1853-01-10,dusk,overcast,180,177.1,-2.9,187.0,190.79,3.79,notebook compass chain,3,none,calm,True,False,normal observation
+311,moat_crossing,Moat Crossing,Grell,1853-01-11,dusk,overcast,180,180.9,0.9,187.0,186.8,-0.2,notebook compass chain,3,none,calm,True,True,position matches records
+312,moat_crossing,Moat Crossing,Prebel,1853-01-12,dawn,fog,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,curious,True,True,position matches records
+313,dry_wash,Dry Wash,Prebel,1853-04-18,midday,overcast,112,112.0,0.0,45.6,45.6,0.0,notebook,1,theodolite,anxious,True,True,position matches records
+314,dry_wash,Dry Wash,Grell,1853-04-19,dawn,clear,112,112.4,0.4,45.6,45.08,-0.52,notebook compass chain,3,none,calm,True,False,normal observation
+315,dry_wash,Dry Wash,Thurmond Gast,1853-04-20,dusk,clear,112,,,45.6,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Dry Wash not visible
+316,gray_spire,Gray Spire,Prebel,1853-08-26,dusk,fog,45,45.0,0.0,23.4,23.4,0.0,notebook,1,compass,curious,True,True,position matches records
+317,gray_spire,Gray Spire,Korrith,1853-08-27,midday,clear,45,43.0,-2.0,23.4,22.93,-0.47,notebook compass chain,3,none,calm,True,False,normal observation
+318,moat_crossing,Moat Crossing,Korrith,1853-11-15,dusk,overcast,180,184.0,4.0,187.0,186.63,-0.37,notebook compass chain,3,none,calm,True,False,normal observation
+319,moat_crossing,Moat Crossing,Prebel,1853-11-16,dawn,overcast,180,,,187.0,,,notebook,1,none,calm,False,True,NOT FOUND - Moat Crossing not visible
+320,moat_crossing,Moat Crossing,Grell,1853-11-17,dusk,dens_mist,180,,,187.0,,,notebook compass chain,3,none,calm,False,True,NOT FOUND - Moat Crossing not visible
+321,moat_crossing,Moat Crossing,Thurmond Gast,1853-11-18,dawn,clear,180,,,187.0,,,notebook compass chain,3,theodolite,curious,False,True,NOT FOUND - Moat Crossing not visible
+322,twisted_grove,Twisted Grove,Grell,1853-04-16,dawn,clear,78,77.4,-0.6,31.2,31.1,-0.1,notebook compass chain,3,none,curious,True,True,position matches records
+323,twisted_grove,Twisted Grove,Thurmond Gast,1853-04-17,dusk,fog,78,77.8,-0.2,31.2,31.42,0.22,notebook compass chain,3,none,calm,True,True,position matches records
+324,denstone_approach,Denstone Approach,Prebel,1853-12-16,afternoon,dens_mist,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,calm,True,True,position matches records
+325,denstone_approach,Denstone Approach,Grell,1853-12-17,afternoon,fog,178,,,142.3,,,notebook compass chain,3,none,calm,False,True,NOT FOUND - Denstone Approach not visible
+326,denstone_approach,Denstone Approach,Thurmond Gast,1853-12-18,midday,overcast,178,178.1,0.1,142.3,143.2,0.9,notebook compass chain,3,none,uneasy,True,True,position matches records
+327,standing_stones,Standing Stones,Grell,1853-05-19,dawn,fog,134,138.6,4.6,67.8,69.38,1.58,notebook compass chain,3,none,calm,True,False,normal observation
+328,standing_stones,Standing Stones,Thurmond Gast,1853-05-20,dawn,overcast,134,133.3,-0.7,67.8,66.14,-1.66,notebook compass chain,3,none,anxious,True,False,normal observation
+329,standing_stones,Standing Stones,Prebel,1853-05-21,dusk,overcast,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,calm,True,True,position matches records
+330,dry_wash,Dry Wash,Grell,1853-03-23,dawn,clear,112,113.0,1.0,45.6,45.78,0.18,notebook compass chain,3,none,frightened,True,True,position matches records
+331,dry_wash,Dry Wash,Prebel,1853-03-24,dawn,fog,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,calm,True,True,position matches records
+332,dry_wash,Dry Wash,Korrith,1853-03-25,dawn,dens_mist,112,110.3,-1.7,45.6,43.87,-1.73,notebook compass chain,3,none,curious,True,False,normal observation
+333,standing_stones,Standing Stones,Grell,1854-06-08,midday,clear,134,133.0,-1.0,67.8,67.79,-0.01,notebook compass chain,3,none,calm,True,True,position matches records
+334,standing_stones,Standing Stones,Prebel,1854-06-09,dusk,fog,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,calm,True,True,position matches records
+335,twisted_grove,Twisted Grove,Prebel,1854-06-18,afternoon,clear,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,calm,True,True,position matches records
+336,twisted_grove,Twisted Grove,Korrith,1854-06-19,midday,fog,78,,,31.2,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Twisted Grove not visible
+337,twisted_grove,Twisted Grove,Grell,1854-06-20,midday,clear,78,78.1,0.1,31.2,31.09,-0.11,notebook compass chain,3,none,anxious,True,True,position matches records
+338,split_boulder,Split Boulder,Prebel,1854-09-07,dawn,clear,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,calm,True,True,position matches records
+339,split_boulder,Split Boulder,Grell,1854-09-08,midday,clear,156,,,89.2,,,notebook compass chain,3,none,uneasy,False,False,NOT FOUND - Split Boulder not visible
+340,split_boulder,Split Boulder,Korrith,1854-09-09,dawn,clear,156,,,89.2,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Split Boulder not visible
+341,standing_stones,Standing Stones,Grell,1854-06-18,dusk,clear,134,132.5,-1.5,67.8,67.44,-0.36,notebook compass chain,3,none,calm,True,True,position matches records
+342,standing_stones,Standing Stones,Korrith,1854-06-19,midday,overcast,134,135.8,1.8,67.8,71.64,3.84,notebook compass chain,3,none,anxious,True,False,normal observation
+343,split_boulder,Split Boulder,Grell,1854-07-27,dawn,clear,156,157.2,1.2,89.2,88.83,-0.37,notebook compass chain,3,none,calm,True,True,position matches records
+344,split_boulder,Split Boulder,Korrith,1854-07-28,midday,overcast,156,155.5,-0.5,89.2,88.41,-0.79,notebook compass chain,3,none,calm,True,True,position matches records
+345,split_boulder,Split Boulder,Prebel,1854-07-29,dawn,dens_mist,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,calm,True,True,position matches records
+346,standing_stones,Standing Stones,Korrith,1854-07-26,afternoon,fog,134,133.3,-0.7,67.8,67.67,-0.13,notebook compass chain,3,none,anxious,True,True,position matches records
+347,standing_stones,Standing Stones,Grell,1854-07-27,midday,clear,134,134.6,0.6,67.8,68.76,0.96,notebook compass chain,3,none,curious,True,False,normal observation
+348,standing_stones,Standing Stones,Prebel,1854-07-28,afternoon,clear,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,curious,True,True,position matches records
+349,split_boulder,Split Boulder,Prebel,1854-11-12,dusk,clear,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,curious,True,True,position matches records
+350,split_boulder,Split Boulder,Korrith,1854-11-13,afternoon,clear,156,,,89.2,,,notebook compass chain,3,none,calm,False,True,NOT FOUND - Split Boulder not visible
+351,split_boulder,Split Boulder,Grell,1854-11-14,dusk,clear,156,,,89.2,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Split Boulder not visible
+352,standing_stones,Standing Stones,Korrith,1854-02-14,midday,clear,134,,,67.8,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Standing Stones not visible
+353,standing_stones,Standing Stones,Grell,1854-02-15,dawn,clear,134,,,67.8,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Standing Stones not visible
+354,standing_stones,Standing Stones,Prebel,1854-02-16,midday,clear,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,calm,True,True,position matches records
+355,standing_stones,Standing Stones,Grell,1854-08-04,midday,fog,134,137.0,3.0,67.8,67.15,-0.65,notebook compass chain,3,none,frightened,True,False,normal observation
+356,standing_stones,Standing Stones,Prebel,1854-08-05,midday,clear,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,calm,True,True,position matches records
+357,gray_spire,Gray Spire,Prebel,1854-12-10,dawn,clear,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,anxious,True,True,position matches records
+358,gray_spire,Gray Spire,Korrith,1854-12-11,afternoon,fog,45,43.9,-1.1,23.4,23.36,-0.04,notebook compass chain,3,theodolite,calm,True,True,position matches records
+359,denstone_approach,Denstone Approach,Grell,1855-01-27,afternoon,overcast,178,177.5,-0.5,142.3,142.3,0.0,notebook compass chain,3,none,calm,True,True,position matches records
+360,denstone_approach,Denstone Approach,Prebel,1855-01-28,afternoon,overcast,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,curious,True,True,position matches records
+361,standing_stones,Standing Stones,Korrith,1855-11-04,midday,overcast,134,133.4,-0.6,67.8,65.06,-2.74,notebook compass chain,3,none,frightened,True,False,normal observation
+362,standing_stones,Standing Stones,Prebel,1855-11-05,dusk,overcast,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,calm,True,True,position matches records
+363,standing_stones,Standing Stones,Grell,1855-11-06,dusk,fog,134,132.7,-1.3,67.8,67.22,-0.58,notebook compass chain,3,none,anxious,True,True,position matches records
+364,moat_crossing,Moat Crossing,Prebel,1855-03-13,dusk,clear,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,calm,True,True,position matches records
+365,moat_crossing,Moat Crossing,Grell,1855-03-14,dawn,clear,180,182.2,2.2,187.0,185.79,-1.21,notebook compass chain,3,none,calm,True,False,normal observation
+366,split_boulder,Split Boulder,Grell,1855-06-27,dawn,clear,156,153.3,-2.7,89.2,91.16,1.96,notebook compass chain,3,theodolite,frightened,True,False,normal observation
+367,split_boulder,Split Boulder,Prebel,1855-06-28,midday,overcast,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,calm,True,True,position matches records
+368,split_boulder,Split Boulder,Korrith,1855-06-29,afternoon,overcast,156,153.5,-2.5,89.2,89.48,0.28,notebook compass chain,3,none,calm,True,False,normal observation
+369,twisted_grove,Twisted Grove,Prebel,1855-06-25,afternoon,overcast,78,78.0,0.0,31.2,31.2,0.0,notebook,1,theodolite,anxious,True,True,position matches records
+370,twisted_grove,Twisted Grove,Grell,1855-06-26,midday,clear,78,,,31.2,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Twisted Grove not visible
+371,twisted_grove,Twisted Grove,Korrith,1855-06-27,afternoon,fog,78,79.1,1.1,31.2,31.59,0.39,notebook compass chain,3,chain,frightened,True,False,normal observation
+372,gray_spire,Gray Spire,Prebel,1855-07-20,afternoon,clear,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,calm,True,True,position matches records
+373,gray_spire,Gray Spire,Korrith,1855-07-21,afternoon,overcast,45,43.5,-1.5,23.4,22.99,-0.41,notebook compass chain,3,none,calm,True,False,normal observation
+374,moat_crossing,Moat Crossing,Grell,1855-10-27,dawn,dens_mist,180,185.5,5.5,187.0,185.02,-1.98,notebook compass chain,3,none,calm,True,False,moderate bearing variance
+375,moat_crossing,Moat Crossing,Korrith,1855-10-28,midday,clear,180,179.8,-0.2,187.0,186.57,-0.43,notebook compass chain,3,none,calm,True,True,position matches records
+376,moat_crossing,Moat Crossing,Prebel,1855-10-29,afternoon,overcast,180,180.0,0.0,187.0,187.0,0.0,notebook,1,compass,curious,True,True,position matches records
+377,moat_crossing,Moat Crossing,Korrith,1855-12-24,dawn,overcast,180,183.0,3.0,187.0,187.2,0.2,notebook compass chain,3,none,calm,True,False,normal observation
+378,moat_crossing,Moat Crossing,Prebel,1855-12-25,midday,clear,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,calm,True,True,position matches records
+379,moat_crossing,Moat Crossing,Grell,1855-12-26,dusk,clear,180,,,187.0,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Moat Crossing not visible
+380,denstone_approach,Denstone Approach,Grell,1855-02-06,midday,overcast,178,181.3,3.3,142.3,143.62,1.32,notebook compass chain,3,none,calm,True,False,normal observation
+381,denstone_approach,Denstone Approach,Korrith,1855-02-07,afternoon,overcast,178,174.0,-4.0,142.3,140.92,-1.38,notebook compass chain,3,none,calm,True,False,normal observation
+382,denstone_approach,Denstone Approach,Prebel,1855-02-08,dawn,fog,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,calm,True,True,position matches records
+383,gray_spire,Gray Spire,Prebel,1855-12-18,midday,overcast,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,calm,True,True,position matches records
+384,gray_spire,Gray Spire,Grell,1855-12-19,afternoon,clear,45,47.2,2.2,23.4,23.71,0.31,notebook compass chain,3,theodolite,curious,True,False,normal observation
+385,denstone_approach,Denstone Approach,Prebel,1856-10-19,midday,clear,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,calm,True,True,position matches records
+386,denstone_approach,Denstone Approach,Grell,1856-10-20,dawn,clear,178,178.4,0.4,142.3,143.26,0.96,notebook compass chain,3,none,calm,True,True,position matches records
+387,moat_crossing,Moat Crossing,Prebel,1856-08-02,midday,clear,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,calm,True,True,position matches records
+388,moat_crossing,Moat Crossing,Grell,1856-08-03,dusk,fog,180,180.0,0.0,187.0,186.31,-0.69,notebook compass chain,3,none,curious,True,True,position matches records
+389,dry_wash,Dry Wash,Grell,1856-09-05,dusk,overcast,112,109.1,-2.9,45.6,44.77,-0.83,notebook compass chain,3,none,calm,True,False,normal observation
+390,dry_wash,Dry Wash,Prebel,1856-09-06,dawn,clear,112,112.0,0.0,45.6,45.6,0.0,notebook,1,compass,calm,True,True,position matches records
+391,twisted_grove,Twisted Grove,Prebel,1856-04-02,afternoon,overcast,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,calm,True,True,position matches records
+392,twisted_grove,Twisted Grove,Grell,1856-04-03,midday,clear,78,80.1,2.1,31.2,32.27,1.07,notebook compass chain,3,none,anxious,True,False,normal observation
+393,split_boulder,Split Boulder,Prebel,1856-03-24,dusk,fog,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,calm,True,True,position matches records
+394,split_boulder,Split Boulder,Grell,1856-03-25,midday,clear,156,154.9,-1.1,89.2,89.11,-0.09,notebook compass chain,3,none,curious,True,True,position matches records
+395,standing_stones,Standing Stones,Prebel,1856-02-18,dawn,clear,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,calm,True,True,position matches records
+396,standing_stones,Standing Stones,Grell,1856-02-19,dawn,overcast,134,134.5,0.5,67.8,67.41,-0.39,notebook compass chain,3,none,curious,True,True,position matches records
+397,gray_spire,Gray Spire,Prebel,1856-08-05,dawn,fog,45,45.0,0.0,23.4,23.4,0.0,notebook,1,theodolite,uneasy,True,True,position matches records
+398,gray_spire,Gray Spire,Grell,1856-08-06,afternoon,clear,45,45.0,-0.0,23.4,23.75,0.35,notebook compass chain,3,none,calm,True,False,normal observation
+399,twisted_grove,Twisted Grove,Prebel,1856-01-16,midday,fog,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,calm,True,True,position matches records
+400,twisted_grove,Twisted Grove,Grell,1856-01-17,dawn,overcast,78,77.8,-0.2,31.2,31.54,0.34,notebook compass chain,3,theodolite,calm,True,False,normal observation
+401,split_boulder,Split Boulder,Prebel,1856-10-07,afternoon,clear,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,calm,True,True,position matches records
+402,split_boulder,Split Boulder,Grell,1856-10-08,midday,fog,156,157.3,1.3,89.2,83.07,-6.13,notebook compass chain,3,none,frightened,True,False,distance significantly different (6.1km)
+403,dry_wash,Dry Wash,Prebel,1856-04-03,midday,overcast,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,uneasy,True,True,position matches records
+404,dry_wash,Dry Wash,Grell,1856-04-04,afternoon,clear,112,113.3,1.3,45.6,46.64,1.04,notebook compass chain,3,none,curious,True,False,normal observation
+405,gray_spire,Gray Spire,Prebel,1857-11-06,midday,clear,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,calm,True,True,position matches records
+406,gray_spire,Gray Spire,Grell,1857-11-07,midday,fog,45,44.8,-0.2,23.4,23.2,-0.2,notebook compass chain,3,none,calm,True,True,position matches records
+407,standing_stones,Standing Stones,Grell,1857-05-17,afternoon,overcast,134,136.3,2.3,67.8,68.42,0.62,notebook compass chain,3,none,calm,True,False,normal observation
+408,standing_stones,Standing Stones,Prebel,1857-05-18,dawn,overcast,134,134.0,0.0,67.8,67.8,0.0,notebook,1,chain,calm,True,True,position matches records
+409,standing_stones,Standing Stones,Prebel,1857-08-16,midday,overcast,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,calm,True,True,position matches records
+410,standing_stones,Standing Stones,Grell,1857-08-17,dusk,clear,134,132.3,-1.7,67.8,65.35,-2.45,notebook compass chain,3,none,curious,True,False,normal observation
+411,moat_crossing,Moat Crossing,Prebel,1857-08-20,dawn,overcast,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,calm,True,True,position matches records
+412,moat_crossing,Moat Crossing,Grell,1857-08-21,midday,clear,180,181.0,1.0,187.0,191.14,4.14,notebook compass chain,3,none,calm,True,False,normal observation
+413,moat_crossing,Moat Crossing,Prebel,1857-09-08,afternoon,clear,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,calm,True,True,position matches records
+414,moat_crossing,Moat Crossing,Grell,1857-09-09,afternoon,clear,180,182.2,2.2,187.0,182.27,-4.73,notebook compass chain,3,none,calm,True,False,normal observation
+415,standing_stones,Standing Stones,Grell,1857-08-23,midday,overcast,134,134.7,0.7,67.8,68.61,0.81,notebook compass chain,3,none,curious,True,False,normal observation
+416,standing_stones,Standing Stones,Prebel,1857-08-24,dusk,overcast,134,,,67.8,,,notebook,1,none,uneasy,False,True,NOT FOUND - Standing Stones not visible
+417,split_boulder,Split Boulder,Prebel,1857-06-26,afternoon,overcast,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,curious,True,True,position matches records
+418,split_boulder,Split Boulder,Grell,1857-06-27,afternoon,clear,156,157.6,1.6,89.2,89.19,-0.01,notebook compass chain,3,none,curious,True,True,position matches records
+419,standing_stones,Standing Stones,Prebel,1857-09-15,dusk,clear,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,uneasy,True,True,position matches records
+420,standing_stones,Standing Stones,Grell,1857-09-16,dusk,overcast,134,132.9,-1.1,67.8,67.31,-0.49,notebook compass chain,3,none,anxious,True,True,position matches records
+421,dry_wash,Dry Wash,Prebel,1857-03-22,dawn,clear,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,anxious,True,True,position matches records
+422,dry_wash,Dry Wash,Grell,1857-03-23,afternoon,clear,112,,,45.6,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Dry Wash not visible
+423,twisted_grove,Twisted Grove,Prebel,1857-07-27,dawn,fog,78,78.0,0.0,31.2,31.2,0.0,notebook,1,none,calm,True,True,position matches records
+424,twisted_grove,Twisted Grove,Grell,1857-07-28,dawn,overcast,78,,,31.2,,,notebook compass chain,3,none,curious,False,True,NOT FOUND - Twisted Grove not visible
+425,dry_wash,Dry Wash,Grell,1858-04-25,dusk,clear,112,118.4,6.4,45.6,48.25,2.65,notebook compass chain,3,none,curious,True,False,moderate bearing variance
+426,dry_wash,Dry Wash,Dendra Coss,1858-04-26,dusk,overcast,112,115.5,3.5,45.6,44.41,-1.19,notebook compass chain,3,chain,calm,True,False,normal observation
+427,dry_wash,Dry Wash,Prebel,1858-04-27,dusk,clear,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,calm,True,True,position matches records
+428,dry_wash,Dry Wash,Grell,1858-01-05,midday,clear,112,112.0,-0.0,45.6,45.4,-0.2,notebook compass chain,3,none,calm,True,True,position matches records
+429,dry_wash,Dry Wash,Prebel,1858-01-06,dawn,overcast,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,uneasy,True,True,position matches records
+430,standing_stones,Standing Stones,Prebel,1858-07-12,midday,fog,134,134.0,0.0,67.8,67.8,0.0,notebook,1,none,calm,True,True,position matches records
+431,standing_stones,Standing Stones,Dendra Coss,1858-07-13,midday,fog,134,135.6,1.6,67.8,65.96,-1.84,notebook compass chain,3,none,frightened,True,False,normal observation
+432,standing_stones,Standing Stones,Grell,1858-07-14,dawn,clear,134,131.8,-2.2,67.8,68.87,1.07,notebook compass chain,3,none,curious,True,False,normal observation
+433,twisted_grove,Twisted Grove,Dendra Coss,1858-07-16,dawn,clear,78,79.6,1.6,31.2,31.27,0.07,notebook compass chain,3,none,frightened,True,True,position matches records
+434,twisted_grove,Twisted Grove,Prebel,1858-07-17,dawn,dens_mist,78,78.0,0.0,31.2,31.2,0.0,notebook,1,theodolite,calm,True,True,position matches records
+435,standing_stones,Standing Stones,Dendra Coss,1858-09-10,dawn,fog,134,132.7,-1.3,67.8,67.45,-0.35,notebook compass chain,3,none,calm,True,True,position matches records
+436,standing_stones,Standing Stones,Grell,1858-09-11,afternoon,overcast,134,130.7,-3.3,67.8,65.67,-2.13,notebook compass chain,3,none,calm,True,False,normal observation
+437,moat_crossing,Moat Crossing,Dendra Coss,1858-06-09,dawn,clear,180,181.8,1.8,187.0,189.0,2.0,notebook compass chain,3,none,curious,True,False,normal observation
+438,moat_crossing,Moat Crossing,Prebel,1858-06-10,dawn,clear,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,curious,True,True,position matches records
+439,denstone_approach,Denstone Approach,Grell,1858-06-23,dusk,clear,178,,,142.3,,,notebook compass chain,3,none,calm,False,True,NOT FOUND - Denstone Approach not visible
+440,denstone_approach,Denstone Approach,Prebel,1858-06-24,afternoon,overcast,178,178.0,0.0,142.3,142.3,0.0,notebook,1,none,anxious,True,True,position matches records
+441,twisted_grove,Twisted Grove,Grell,1858-06-21,dawn,overcast,78,79.2,1.2,31.2,30.86,-0.34,notebook compass chain,3,none,calm,True,False,normal observation
+442,twisted_grove,Twisted Grove,Dendra Coss,1858-06-22,afternoon,clear,78,79.7,1.7,31.2,31.7,0.5,notebook compass chain,3,theodolite,calm,True,False,normal observation
+443,dry_wash,Dry Wash,Grell,1858-02-10,dusk,clear,112,,,45.6,,,notebook compass chain,3,none,uneasy,False,True,NOT FOUND - Dry Wash not visible
+444,dry_wash,Dry Wash,Prebel,1858-02-11,dusk,clear,112,112.0,0.0,45.6,45.6,0.0,notebook,1,compass,calm,True,True,position matches records
+445,dry_wash,Dry Wash,Dendra Coss,1858-02-12,afternoon,clear,112,113.5,1.5,45.6,45.23,-0.37,notebook compass chain,3,none,calm,True,True,position matches records
+446,split_boulder,Split Boulder,Grell,1858-07-01,midday,fog,156,,,89.2,,,notebook compass chain,3,theodolite,calm,False,False,NOT FOUND - Split Boulder not visible
+447,split_boulder,Split Boulder,Dendra Coss,1858-07-02,midday,clear,156,152.5,-3.5,89.2,89.14,-0.06,notebook compass chain,3,none,curious,True,False,normal observation
+448,split_boulder,Split Boulder,Prebel,1858-07-03,midday,fog,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,calm,True,True,position matches records
+449,moat_crossing,Moat Crossing,Grell,1859-02-25,midday,clear,180,183.0,3.0,187.0,186.18,-0.82,notebook compass chain,3,none,curious,True,False,normal observation
+450,moat_crossing,Moat Crossing,Prebel,1859-02-26,afternoon,clear,180,,,187.0,,,notebook,1,chain,anxious,False,True,NOT FOUND - Moat Crossing not visible
+451,moat_crossing,Moat Crossing,Dendra Coss,1859-02-27,dusk,dens_mist,180,182.0,2.0,187.0,179.92,-7.08,notebook compass chain,3,none,curious,True,False,distance significantly different (7.1km)
+452,dry_wash,Dry Wash,Dendra Coss,1859-04-05,dusk,clear,112,112.1,0.1,45.6,44.51,-1.09,notebook compass chain,3,none,frightened,True,False,normal observation
+453,dry_wash,Dry Wash,Prebel,1859-04-06,afternoon,clear,112,112.0,0.0,45.6,45.6,0.0,notebook,1,none,curious,True,True,position matches records
+454,moat_crossing,Moat Crossing,Grell,1859-09-11,midday,clear,180,180.6,0.6,187.0,185.3,-1.7,notebook compass chain,3,none,calm,True,True,position matches records
+455,moat_crossing,Moat Crossing,Prebel,1859-09-12,midday,clear,180,180.0,0.0,187.0,187.0,0.0,notebook,1,none,uneasy,True,True,position matches records
+456,moat_crossing,Moat Crossing,Dendra Coss,1859-09-13,dawn,overcast,180,,,187.0,,,notebook compass chain,3,none,calm,False,False,NOT FOUND - Moat Crossing not visible
+457,split_boulder,Split Boulder,Dendra Coss,1859-06-23,dusk,clear,156,,,89.2,,,notebook compass chain,3,none,uneasy,False,False,NOT FOUND - Split Boulder not visible
+458,split_boulder,Split Boulder,Grell,1859-06-24,dawn,clear,156,,,89.2,,,notebook compass chain,3,none,uneasy,False,False,NOT FOUND - Split Boulder not visible
+459,dry_wash,Dry Wash,Dendra Coss,1859-08-01,dawn,overcast,112,112.6,0.6,45.6,45.55,-0.05,notebook compass chain,3,compass,calm,True,True,position matches records
+460,dry_wash,Dry Wash,Prebel,1859-08-02,midday,overcast,112,112.0,0.0,45.6,45.6,0.0,notebook,1,compass,calm,True,True,position matches records
+461,split_boulder,Split Boulder,Prebel,1859-06-20,midday,overcast,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,curious,True,True,position matches records
+462,split_boulder,Split Boulder,Grell,1859-06-21,dawn,overcast,156,159.0,3.0,89.2,89.42,0.22,notebook compass chain,3,none,uneasy,True,False,normal observation
+463,standing_stones,Standing Stones,Dendra Coss,1859-06-07,dusk,overcast,134,,,67.8,,,notebook compass chain,3,none,calm,False,True,NOT FOUND - Standing Stones not visible
+464,standing_stones,Standing Stones,Prebel,1859-06-08,dusk,overcast,134,134.0,0.0,67.8,67.8,0.0,notebook,1,compass,anxious,True,True,position matches records
+465,standing_stones,Standing Stones,Grell,1859-06-09,midday,clear,134,,,67.8,,,notebook compass chain,3,theodolite,anxious,False,True,NOT FOUND - Standing Stones not visible
+466,split_boulder,Split Boulder,Grell,1859-02-15,dawn,fog,156,152.9,-3.1,89.2,90.36,1.16,notebook compass chain,3,none,calm,True,False,normal observation
+467,split_boulder,Split Boulder,Prebel,1859-02-16,afternoon,clear,156,156.0,0.0,89.2,89.2,0.0,notebook,1,none,calm,True,True,position matches records
+468,split_boulder,Split Boulder,Dendra Coss,1859-02-17,dawn,fog,156,155.0,-1.0,89.2,89.68,0.48,notebook compass chain,3,none,curious,True,True,position matches records
+469,dry_wash,Dry Wash,Grell,1859-04-19,dusk,clear,112,115.0,3.0,45.6,45.01,-0.59,notebook compass chain,3,none,uneasy,True,False,normal observation
+470,dry_wash,Dry Wash,Dendra Coss,1859-04-20,dawn,overcast,112,119.1,7.1,45.6,45.31,-0.29,notebook compass chain,3,none,calm,True,False,moderate bearing variance
+471,gray_spire,Gray Spire,Grell,1859-08-21,afternoon,clear,45,43.9,-1.1,23.4,23.56,0.16,notebook compass chain,3,none,calm,True,True,position matches records
+472,gray_spire,Gray Spire,Dendra Coss,1859-08-22,dusk,dens_mist,45,39.3,-5.7,23.4,23.75,0.35,notebook compass chain,3,none,calm,True,False,moderate bearing variance
+473,gray_spire,Gray Spire,Prebel,1859-08-23,dawn,clear,45,45.0,0.0,23.4,23.4,0.0,notebook,1,none,calm,True,True,position matches records

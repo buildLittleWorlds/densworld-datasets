@@ -1,0 +1,6 @@
+version_id,name,date_introduced,date_retired,author,categories,rationale,num_categories
+1,Corpo Classification (Original),1765-01-01,1820-12-31,Dr. Smint Corpo,"breach,translucence,absence,attraction",Based on the breach hypothesis - phenomena represent failures in the boundary between observed and unobserved reality,4
+2,Physical Effects Schema,1821-01-01,1845-06-30,Archive Committee,"visual,spatial,temporal,psychological,physical",Organized by the type of effect on observer - rejected Corpo's theoretical framing as unscientific,5
+3,Persistence Taxonomy,1845-07-01,1858-12-31,Archon Vells,"transient,recurring,stable,permanent,terminal",Focused on whether phenomena persist - inspired by Vells' observation that some sites are more stable than others,5
+4,Observer Interaction Model,1859-01-01,1869-12-31,Dendra Coss,"passive,responsive,aggressive,integrative","Based on how phenomena respond to observation - does it ignore, react to, attack, or absorb the observer?",4
+5,Unified Archive Schema,1870-01-01,,Archivist Dren,"boundary_effect,substance_change,observer_effect,spatial_anomaly,temporal_anomaly,terminal_event",Attempted synthesis of prior schemas - still in use but increasingly criticized,6

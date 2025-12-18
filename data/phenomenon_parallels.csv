@@ -1,0 +1,16 @@
+phenomenon_id,densworld_observation,course,statistical_finding,real_world_parallel,parallel_type,explanatory_power
+1,SW quadrant drift accelerates over time,Course 1,Exponential fit (R²=0.89) outperforms linear fit (R²=0.71),Attractor dynamics in dynamical systems,Mathematical,High
+2,Prebel achieves 100% landmark stability with no instruments,Course 2,Mann-Whitney U p<0.001 comparing Prebel to instrumented observers,Quantum measurement problem (observer affects observed),Physical,High
+3,Emotional state correlates with measurement error,Course 2,Spearman rho=0.34 (p<0.01) for observer state vs error magnitude,Embodied cognition / phenomenological perception,Philosophical,Medium
+4,Same landmark appears in different positions to different observers,Course 2,Inter-observer divergence 2.3x expected at plural sites,Quantum superposition / many-worlds interpretation,Physical,Medium
+5,Phenomena repeat in same sectors over time,Course 1,Chi-square p<0.05 for phenomenon type × sector independence,Resonant modes / eigenvalues of a system,Mathematical,High
+6,Extensively classified phenomena tend to dissolve,Course 3,Survival analysis shows higher hazard with more raters,Performativity / looping effects (Hacking),Philosophical,High
+7,Coordinate transformations explain ~30% of variance,Course 2,Best-fit rotation/scale reduces residuals but doesn't eliminate them,Non-Euclidean geometry / curved spacetime,Mathematical,Medium
+8,Moat intervention preceded SW collapse,Course 4,Difference-in-differences suggests intervention worsened outcomes,Iatrogenic harm / unintended consequences,Sociological,Medium
+9,Western region systematically unsurveyed,Course 4,Selection bias in data; 80% coverage gap in bearing 200-360°,Institutional epistemology / structured ignorance,Sociological,High
+10,Surveyors report feeling 'pulled' toward SW,Course 1,Psychological deterioration correlates with sector assignment (r=-0.41),Topological strain detection by nervous system,Physical,Low
+11,Ground 'breathes' in rhythmic oscillation,Course 1,Oscillation period ~5-8 minutes; amplitude correlates with instability,Normal modes of vibration in physical systems,Physical,High
+12,Markers vanish overnight in unstable sectors,Course 1,Marker loss rate 3.2x higher in SW than NE,Phase transitions at critical points,Physical,Medium
+13,Instrument count correlates with measurement variance,Course 2,Linear regression coefficient β=0.28 (p<0.01) for instruments,Quantum decoherence through apparatus interaction,Physical,High
+14,The dens 'remembers' previous visits,Course 5,Path shape influences subsequent measurements,Path dependence / hysteresis in systems,Mathematical,Medium
+15,Naming destroys but not-naming preserves,Course 3,Un-named phenomena 40% more likely to persist,Collapse of wave function through measurement,Physical,Medium

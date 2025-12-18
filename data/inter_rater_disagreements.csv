@@ -1,0 +1,86 @@
+disagreement_id,observation_id,archivist_1,category_1,archivist_2,category_2,resolution,resolution_date,resolution_notes
+1,1,Archivist Dren,passive,Junior Archivist Pell,responsive,original_retained,1868-01-04,First classification retained per protocol
+2,1,Junior Archivist Pell,responsive,Cataloguer Brennis,passive,committee_review,1867-11-07,Referred to Archive Committee
+3,2,Archivist Dren,boundary_effect,Clerk Morwen,permanent,senior_override,1870-09-16,Senior archivist's classification adopted
+4,2,Archivist Dren,boundary_effect,Senior Keeper Fennick,passive,committee_review,1870-11-01,Referred to Archive Committee
+5,2,Clerk Morwen,permanent,Junior Archivist Pell,boundary_effect,deferred,1879-11-28,Resolution pending further observation
+6,2,Clerk Morwen,permanent,Senior Keeper Fennick,passive,senior_override,1868-11-29,Senior archivist's classification adopted
+7,2,Junior Archivist Pell,boundary_effect,Senior Keeper Fennick,passive,deferred,1880-02-27,Resolution pending further observation
+8,3,Junior Archivist Pell,aggressive,Senior Keeper Fennick,psychological,deferred,1868-08-15,Resolution pending further observation
+9,3,Archivist Dren,aggressive,Senior Keeper Fennick,psychological,deferred,1869-04-04,Resolution pending further observation
+10,4,Cataloguer Brennis,terminal_event,Clerk Morwen,terminal,deferred,1879-04-17,Resolution pending further observation
+11,4,Cataloguer Brennis,terminal_event,Senior Keeper Fennick,terminal,dual_listing,1879-02-17,Both categories recorded in permanent file
+12,4,Clerk Morwen,terminal,Junior Archivist Pell,terminal_event,senior_override,1878-02-21,Senior archivist's classification adopted
+13,4,Junior Archivist Pell,terminal_event,Senior Keeper Fennick,terminal,deferred,1878-04-04,Resolution pending further observation
+14,5,Archivist Dren,substance_change,Cataloguer Brennis,passive,dual_listing,1880-07-20,Both categories recorded in permanent file
+15,5,Archivist Dren,substance_change,Senior Keeper Fennick,passive,committee_review,1880-04-18,Referred to Archive Committee
+16,5,Cataloguer Brennis,passive,Junior Archivist Pell,substance_change,deferred,1875-03-18,Resolution pending further observation
+17,5,Senior Keeper Fennick,passive,Junior Archivist Pell,substance_change,dual_listing,1875-04-29,Both categories recorded in permanent file
+18,6,Cataloguer Brennis,responsive,Archivist Dren,boundary_effect,dual_listing,1876-03-03,Both categories recorded in permanent file
+19,6,Cataloguer Brennis,responsive,Junior Archivist Pell,boundary_effect,deferred,1876-09-30,Resolution pending further observation
+20,7,Archivist Dren,spatial_anomaly,Cataloguer Brennis,responsive,consensus,1876-02-05,Archivists agreed on compromise category after discussion
+21,7,Archivist Dren,spatial_anomaly,Clerk Morwen,recurring,deferred,1876-01-03,Resolution pending further observation
+22,7,Junior Archivist Pell,spatial_anomaly,Cataloguer Brennis,responsive,consensus,1871-11-26,Archivists agreed on compromise category after discussion
+23,7,Junior Archivist Pell,spatial_anomaly,Clerk Morwen,recurring,committee_review,1872-01-09,Referred to Archive Committee
+24,7,Cataloguer Brennis,responsive,Clerk Morwen,recurring,committee_review,1867-01-05,Referred to Archive Committee
+25,8,Clerk Morwen,responsive,Junior Archivist Pell,observer_effect,original_retained,1878-08-09,First classification retained per protocol
+26,8,Archivist Dren,responsive,Junior Archivist Pell,observer_effect,consensus,1878-06-09,Archivists agreed on compromise category after discussion
+27,9,Archivist Dren,observer_effect,Cataloguer Brennis,passive,dual_listing,1870-07-12,Both categories recorded in permanent file
+28,9,Cataloguer Brennis,passive,Clerk Morwen,observer_effect,senior_override,1871-04-30,Senior archivist's classification adopted
+29,11,Archivist Dren,responsive,Junior Archivist Pell,temporal_anomaly,deferred,1873-09-07,Resolution pending further observation
+30,11,Cataloguer Brennis,responsive,Junior Archivist Pell,temporal_anomaly,consensus,1873-05-13,Archivists agreed on compromise category after discussion
+31,11,Clerk Morwen,responsive,Junior Archivist Pell,temporal_anomaly,original_retained,1873-10-08,First classification retained per protocol
+32,12,Cataloguer Brennis,spatial_anomaly,Clerk Morwen,responsive,senior_override,1874-12-12,Senior archivist's classification adopted
+33,12,Cataloguer Brennis,spatial_anomaly,Archivist Dren,responsive,dual_listing,1875-03-23,Both categories recorded in permanent file
+34,12,Cataloguer Brennis,spatial_anomaly,Junior Archivist Pell,responsive,consensus,1875-03-23,Archivists agreed on compromise category after discussion
+35,13,Archivist Dren,aggressive,Junior Archivist Pell,temporal_anomaly,deferred,1873-10-23,Resolution pending further observation
+36,13,Junior Archivist Pell,temporal_anomaly,Cataloguer Brennis,aggressive,senior_override,1873-10-29,Senior archivist's classification adopted
+37,14,Cataloguer Brennis,responsive,Clerk Morwen,observer_effect,deferred,1873-12-07,Resolution pending further observation
+38,14,Junior Archivist Pell,responsive,Clerk Morwen,observer_effect,original_retained,1873-12-16,First classification retained per protocol
+39,14,Archivist Dren,responsive,Clerk Morwen,observer_effect,deferred,1874-01-20,Resolution pending further observation
+40,15,Archivist Dren,aggressive,Clerk Morwen,observer_effect,committee_review,1874-06-30,Referred to Archive Committee
+41,15,Cataloguer Brennis,aggressive,Clerk Morwen,observer_effect,deferred,1874-08-23,Resolution pending further observation
+42,15,Clerk Morwen,observer_effect,Junior Archivist Pell,aggressive,deferred,1874-06-23,Resolution pending further observation
+43,16,Archivist Dren,spatial_anomaly,Junior Archivist Pell,temporal_anomaly,deferred,1880-10-04,Resolution pending further observation
+44,16,Junior Archivist Pell,temporal_anomaly,Cataloguer Brennis,spatial_anomaly,senior_override,1875-11-09,Senior archivist's classification adopted
+45,17,Junior Archivist Pell,observer_effect,Senior Keeper Fennick,stable,senior_override,1879-03-27,Senior archivist's classification adopted
+46,17,Junior Archivist Pell,observer_effect,Archivist Dren,spatial_anomaly,committee_review,1879-12-31,Referred to Archive Committee
+47,17,Senior Keeper Fennick,stable,Archivist Dren,spatial_anomaly,consensus,1880-02-05,Archivists agreed on compromise category after discussion
+48,18,Senior Keeper Fennick,stable,Archivist Dren,spatial_anomaly,deferred,1880-11-24,Resolution pending further observation
+49,18,Senior Keeper Fennick,stable,Clerk Morwen,spatial_anomaly,committee_review,1875-06-12,Referred to Archive Committee
+50,18,Senior Keeper Fennick,stable,Junior Archivist Pell,spatial_anomaly,consensus,1878-05-24,Archivists agreed on compromise category after discussion
+51,19,Archivist Dren,temporal_anomaly,Senior Keeper Fennick,temporal,original_retained,1874-11-12,First classification retained per protocol
+52,19,Clerk Morwen,temporal_anomaly,Senior Keeper Fennick,temporal,committee_review,1876-05-23,Referred to Archive Committee
+53,20,Archivist Dren,terminal_event,Senior Keeper Fennick,terminal,original_retained,1876-01-08,First classification retained per protocol
+54,20,Clerk Morwen,terminal_event,Senior Keeper Fennick,terminal,senior_override,1875-12-26,Senior archivist's classification adopted
+55,20,Cataloguer Brennis,terminal_event,Senior Keeper Fennick,terminal,committee_review,1877-08-08,Referred to Archive Committee
+56,21,Junior Archivist Pell,spatial_anomaly,Clerk Morwen,recurring,dual_listing,1875-09-25,Both categories recorded in permanent file
+57,21,Junior Archivist Pell,spatial_anomaly,Senior Keeper Fennick,responsive,committee_review,1875-11-18,Referred to Archive Committee
+58,21,Clerk Morwen,recurring,Senior Keeper Fennick,responsive,deferred,1861-12-02,Resolution pending further observation
+59,23,Clerk Morwen,recurring,Senior Keeper Fennick,passive,dual_listing,1861-07-28,Both categories recorded in permanent file
+60,23,Clerk Morwen,recurring,Archivist Dren,temporal_anomaly,original_retained,1877-03-28,First classification retained per protocol
+61,23,Clerk Morwen,recurring,Junior Archivist Pell,responsive,committee_review,1866-04-30,Referred to Archive Committee
+62,23,Senior Keeper Fennick,passive,Archivist Dren,temporal_anomaly,senior_override,1877-05-11,Senior archivist's classification adopted
+63,23,Senior Keeper Fennick,passive,Junior Archivist Pell,responsive,consensus,1866-04-13,Archivists agreed on compromise category after discussion
+64,23,Archivist Dren,temporal_anomaly,Junior Archivist Pell,responsive,original_retained,1877-05-27,First classification retained per protocol
+65,24,Cataloguer Brennis,observer_effect,Clerk Morwen,transient,original_retained,1877-09-13,First classification retained per protocol
+66,24,Cataloguer Brennis,observer_effect,Senior Keeper Fennick,aggressive,deferred,1877-11-21,Resolution pending further observation
+67,24,Clerk Morwen,transient,Senior Keeper Fennick,aggressive,senior_override,1869-11-30,Senior archivist's classification adopted
+68,25,Archivist Dren,spatial_anomaly,Senior Keeper Fennick,visual,consensus,1879-04-13,Archivists agreed on compromise category after discussion
+69,25,Junior Archivist Pell,spatial_anomaly,Senior Keeper Fennick,visual,committee_review,1879-04-26,Referred to Archive Committee
+70,26,Senior Keeper Fennick,recurring,Clerk Morwen,integrative,dual_listing,1864-09-04,Both categories recorded in permanent file
+71,26,Senior Keeper Fennick,recurring,Junior Archivist Pell,observer_effect,deferred,1873-09-16,Resolution pending further observation
+72,26,Clerk Morwen,integrative,Junior Archivist Pell,observer_effect,committee_review,1873-12-16,Referred to Archive Committee
+73,27,Junior Archivist Pell,spatial_anomaly,Clerk Morwen,responsive,consensus,1876-06-30,Archivists agreed on compromise category after discussion
+74,27,Junior Archivist Pell,spatial_anomaly,Senior Keeper Fennick,responsive,deferred,1876-07-03,Resolution pending further observation
+75,27,Junior Archivist Pell,spatial_anomaly,Archivist Dren,responsive,consensus,1876-09-22,Archivists agreed on compromise category after discussion
+76,28,Cataloguer Brennis,observer_effect,Junior Archivist Pell,temporal_anomaly,dual_listing,1878-12-20,Both categories recorded in permanent file
+77,28,Cataloguer Brennis,observer_effect,Clerk Morwen,stable,committee_review,1879-01-04,Referred to Archive Committee
+78,28,Cataloguer Brennis,observer_effect,Archivist Dren,integrative,original_retained,1878-10-15,First classification retained per protocol
+79,28,Junior Archivist Pell,temporal_anomaly,Clerk Morwen,stable,dual_listing,1872-07-23,Both categories recorded in permanent file
+80,28,Junior Archivist Pell,temporal_anomaly,Archivist Dren,integrative,deferred,1872-05-29,Resolution pending further observation
+81,28,Clerk Morwen,stable,Archivist Dren,integrative,original_retained,1869-07-15,First classification retained per protocol
+82,29,Junior Archivist Pell,passive,Archivist Dren,spatial_anomaly,committee_review,1875-03-23,Referred to Archive Committee
+83,29,Junior Archivist Pell,passive,Cataloguer Brennis,spatial_anomaly,committee_review,1870-09-11,Referred to Archive Committee
+84,30,Senior Keeper Fennick,aggressive,Archivist Dren,boundary_effect,senior_override,1879-10-17,Senior archivist's classification adopted
+85,30,Cataloguer Brennis,aggressive,Archivist Dren,boundary_effect,original_retained,1879-07-21,First classification retained per protocol

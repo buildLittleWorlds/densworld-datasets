@@ -1,0 +1,101 @@
+saddle_id,saddle_name,coord_x,coord_y,coord_z,ridge_id,adjacent_basins,basin_count,index,instability_score,residence_time_avg,collapse_probabilities,transition_rate,bifurcation_events,first_documented,documentation_method,surveyor,confidence,notes
+SP-001,The Quintic Gateway,0.35,0.55,0.28,RG-002,"BA-001,BA-003,BA-004",3,2,1.0,0.52,"0.48,0.01,0.51",4.61,10,918,trajectory_analysis,C. Vells,0.9,Junction of RG-001 and RG-002. First saddle documented by Vells Year 918.
+SP-002,Breathing Pivot,-0.18,0.52,-0.15,RG-004,"BA-015,BA-004",2,1,0.56,4.45,"0.64,0.36",2.5,18,918,trajectory_analysis,C. Vells,0.9,Low point on Breathing Boundary. Oscillatory behavior observed.
+SP-003,Binary-Quintic Pass,-0.05,-0.02,0.12,RG-003,"BA-001,BA-002",2,1,0.57,3.57,"0.91,0.09",2.39,22,918,trajectory_analysis,C. Vells,0.93,Major crossing point between the two deepest basins.
+SP-004,The Great Pivot,-0.4186,-0.2646,0.7188,RG-081,"BA-030,BA-023",2,1,0.68,3.74,"0.46,0.54",3.27,17,925,bifurcation_event,Western Archive Team,0.71,Slight drift observed since Year 925.
+SP-005,Point of 2 Choices,0.2996,0.5113,0.1756,RG-039,"BA-003,BA-001",2,1,0.58,3.39,"0.48,0.52",2.72,29,929,theoretical,C. Vells,0.85,Position stable since first documentation.
+SP-006,Inner Transition,0.0109,-0.9118,-0.3029,RG-107,"BA-037,BA-039",2,1,0.72,2.32,"0.63,0.37",3.18,4,921,bifurcation_event,Ridge Survey Team,0.87,Transition rate higher than theoretical prediction.
+SP-007,050 Gateway,0.4421,-0.5068,-0.4879,RG-105,"BA-050,BA-012,BA-029,BA-028",4,2,1.0,0.8,"0.02,0.27,0.51,0.2",5.0,13,918,bifurcation_event,Saddle Point Task Force,0.93,Adjacent to geodesic path GP-0242.
+SP-008,029 Gateway,0.5522,-0.4129,-0.7316,RG-085,"BA-029,BA-050",2,1,0.65,3.69,"0.94,0.06",3.29,46,925,theoretical,Western Archive Team,0.71,Index-2 saddle connecting three basins.
+SP-009,Unstable Crossroads,-0.6926,-0.4917,-0.5083,RG-035,"BA-018,BA-043",2,1,0.68,2.75,"0.5,0.5",4.04,27,929,theoretical,Morren Kast,0.84,Adjacent to geodesic path GP-0066.
+SP-010,The Eastern Junction,-0.6841,0.1631,0.788,RG-014,"BA-027,BA-041",2,1,0.58,3.39,"0.49,0.51",3.33,44,922,trajectory_analysis,Saddle Point Task Force,0.58,Residence time unusually long for this index.
+SP-011,Minor Crossroads,0.4661,0.4861,0.2262,RG-015,"BA-045,BA-001",2,1,0.56,4.38,"0.63,0.37",2.94,49,930,ridge_survey,K. Strand,0.85,Position stable since first documentation.
+SP-012,Saddle Point 58,-0.2618,0.4167,-0.4501,RG-093,"BA-015,BA-040",2,1,0.72,2.8,"0.47,0.53",2.8,35,925,theoretical,Morren Kast,0.84,Part of 3-saddle complex.
+SP-013,Unstable Transition,0.7715,-0.103,0.5154,RG-072,"BA-047,BA-022",2,1,0.55,3.7,"0.46,0.54",2.33,32,927,bifurcation_event,Morren Kast,0.93,Position stable since first documentation.
+SP-014,010 Pass,-0.2916,0.7632,-0.8756,RG-079,"BA-010,BA-013",2,1,0.65,3.15,"0.72,0.28",3.07,26,925,trajectory_analysis,Boundary Commission,0.72,Transition rate higher than theoretical prediction.
+SP-015,The Bifurcation Point,-0.6941,-0.5284,-0.626,RG-012,"BA-018,BA-043",2,1,0.7,3.5,"0.24,0.76",3.82,9,926,theoretical,K. Strand,0.84,Residence time unusually long for this index.
+SP-016,Saddle Point 10,0.568,0.4215,0.3115,RG-017,"BA-017,BA-003",2,1,0.61,3.51,"0.75,0.25",3.1,7,925,ridge_survey,Western Archive Team,0.62,Index-1 saddle with clear directional preference.
+SP-017,Saddle Point 12,-0.2655,0.8766,0.2267,RG-059,"BA-020,BA-004",2,1,0.62,4.0,"0.4,0.6",3.27,36,922,theoretical,Boundary Commission,0.81,Index-2 saddle connecting three basins.
+SP-018,Saddle Point 32,0.6498,-0.5919,-0.6876,RG-026,"BA-029,BA-050",2,1,0.68,3.38,"0.07,0.93",3.54,12,919,trajectory_analysis,Archive Survey Team,0.58,Position stable since first documentation.
+SP-019,Saddle Point 86,-0.6671,-0.2006,0.1114,RG-087,"BA-026,BA-002",2,1,0.57,4.56,"0.49,0.51",3.11,34,930,bifurcation_event,Western Archive Team,0.89,Collapse probabilities vary with seasonal factors.
+SP-020,The Secondary Pivot,-0.6898,-0.0277,0.6748,RG-071,"BA-041,BA-031",2,1,0.7,3.2,"0.49,0.51",3.86,0,925,bifurcation_event,Western Archive Team,0.73,Index-2 saddle connecting three basins.
+SP-021,The Stable Junction,0.2445,-0.6892,0.6656,RG-120,"BA-006,BA-014",2,1,0.57,3.53,"0.08,0.92",3.17,29,924,bifurcation_event,C. Vells,0.88,Documented during Year 924 ridge survey.
+SP-022,The Eastern Pivot,-0.2514,-0.3281,0.0109,RG-003,"BA-033,BA-009",2,1,0.62,4.39,"0.05,0.95",2.83,14,923,theoretical,Ridge Survey Team,0.59,Residence time unusually long for this index.
+SP-023,The Upper Pivot,-0.364,-0.1975,0.8047,RG-052,"BA-041,BA-031,BA-023,BA-021",4,2,0.92,1.69,"0.1,0.4,0.27,0.23",4.89,22,924,ridge_survey,K. Strand,0.72,Index-1 saddle with clear directional preference.
+SP-024,The Critical Pivot,-0.4799,-0.4489,0.1475,RG-149,"BA-032,BA-002",2,1,0.6,3.8,"0.21,0.79",2.44,31,926,ridge_survey,Ridge Survey Team,0.64,Part of 2-saddle complex.
+SP-025,Saddle Point 48,-0.273,-0.4951,-0.6474,RG-127,"BA-034,BA-043",2,1,0.74,2.29,"0.19,0.81",3.59,3,918,bifurcation_event,C. Vells,0.81,Residence time unusually long for this index.
+SP-026,Tension Basin Gateway,0.3178,0.3473,0.1661,RG-056,"BA-003,BA-001",2,1,0.64,3.38,"0.77,0.23",2.66,49,922,bifurcation_event,Boundary Commission,0.71,Documented during Year 922 ridge survey.
+SP-027,Upper Transition,0.6057,0.5611,0.2477,RG-085,"BA-017,BA-003",2,1,0.67,3.9,"0.7,0.3",3.05,50,927,theoretical,Morren Kast,0.73,Adjacent to geodesic path GP-0052.
+SP-028,007 Pass,0.4463,0.2518,0.3614,RG-056,"BA-007,BA-001",2,1,0.57,4.0,"0.57,0.43",2.32,23,921,ridge_survey,Western Archive Team,0.81,
+SP-029,034 Pass,-0.2677,-0.5855,-0.597,RG-150,"BA-034,BA-043,BA-039",3,2,0.81,1.94,"0.2,0.38,0.42",3.73,50,929,trajectory_analysis,C. Vells,0.85,Transition rate higher than theoretical prediction.
+SP-030,041 Pass,-0.5112,-0.031,0.8556,RG-037,"BA-041,BA-031",2,1,0.56,4.47,"0.28,0.72",2.56,12,921,theoretical,Saddle Point Task Force,0.59,Transition rate higher than theoretical prediction.
+SP-031,The Marginal Junction,0.5394,0.2138,0.2962,RG-091,"BA-007,BA-001",2,1,0.61,3.78,"0.34,0.66",3.61,5,928,bifurcation_event,Saddle Point Task Force,0.63,Index-2 saddle connecting three basins.
+SP-032,The Stable Pivot,-0.4961,0.6721,-0.3738,RG-065,"BA-046,BA-048",2,1,0.67,4.04,"0.47,0.53",3.56,48,924,ridge_survey,C. Vells,0.8,Position stable since first documentation.
+SP-033,Southern Transition,0.7073,0.5133,0.8201,RG-091,"BA-035,BA-005",2,1,0.68,2.8,"0.42,0.58",3.29,11,928,bifurcation_event,Saddle Point Task Force,0.87,Index-2 saddle connecting three basins.
+SP-034,028 Pass,0.5673,-0.3137,-0.3974,RG-040,"BA-028,BA-029",2,1,0.75,2.18,"0.34,0.66",3.23,43,922,ridge_survey,C. Vells,0.75,Part of 3-saddle complex.
+SP-035,Saddle Point 60,0.432,0.2013,-0.007,RG-086,"BA-049,BA-001,BA-036",3,2,0.95,0.94,"0.36,0.16,0.48",5.0,16,918,ridge_survey,Western Archive Team,0.9,Residence time unusually long for this index.
+SP-036,Upper Crossroads,-0.2507,0.738,-0.7654,RG-097,"BA-013,BA-010",2,1,0.61,4.34,"0.54,0.46",3.29,22,923,ridge_survey,C. Vells,0.94,Bifurcation event observed Year 923.
+SP-037,Saddle Point 64,-0.2503,0.7513,-0.883,RG-084,"BA-010,BA-013",2,1,0.74,2.53,"0.3,0.7",3.75,9,919,ridge_survey,Archive Survey Team,0.82,
+SP-038,Saddle Point 37,-0.7069,0.5783,-0.117,RG-124,"BA-048,BA-008",2,1,0.6,3.74,"0.88,0.12",2.77,30,929,trajectory_analysis,Morren Kast,0.93,
+SP-039,Saddle Point 53,-0.279,0.5575,0.4309,RG-128,"BA-025,BA-004",2,1,0.66,3.96,"0.1,0.9",3.13,12,927,theoretical,Morren Kast,0.58,Adjacent to geodesic path GP-0170.
+SP-040,041 Gateway,-0.6081,-0.0572,0.7676,RG-060,"BA-041,BA-031",2,1,0.58,4.32,"0.44,0.56",3.11,31,922,theoretical,Saddle Point Task Force,0.87,Index-1 saddle with clear directional preference.
+SP-041,Saddle Point 33,-0.5006,-0.3759,0.1963,RG-020,"BA-026,BA-002",2,1,0.61,3.36,"0.25,0.75",2.53,39,921,ridge_survey,Saddle Point Task Force,0.56,Documented during Year 921 ridge survey.
+SP-042,The Southern Junction,0.2303,0.1056,0.1934,RG-057,"BA-049,BA-001",2,1,0.6,3.71,"0.69,0.31",2.6,1,927,theoretical,C. Vells,0.82,Index-1 saddle with clear directional preference.
+SP-043,Saddle Point 73,-0.7218,0.7038,-0.4369,RG-132,"BA-046,BA-048",2,1,0.71,2.37,"0.63,0.37",3.48,23,927,theoretical,T. Vells,0.84,Position stable since first documentation.
+SP-044,Eastern Crossroads,-0.6306,0.4492,-0.1141,RG-103,"BA-048,BA-008",2,1,0.6,4.15,"0.5,0.5",2.71,49,921,bifurcation_event,T. Vells,0.63,Index-2 saddle connecting three basins.
+SP-045,Saddle Point 26,-0.1017,0.5497,-0.8071,RG-132,"BA-013,BA-010",2,1,0.7,2.83,"0.34,0.66",3.86,47,921,theoretical,K. Strand,0.86,Position stable since first documentation.
+SP-046,The Inner Pivot,-0.1512,0.3429,-0.224,RG-089,"BA-015,BA-040",2,1,0.68,3.83,"0.31,0.69",2.68,7,922,bifurcation_event,T. Vells,0.69,Index-1 saddle with clear directional preference.
+SP-047,Western Crossroads,-0.1168,0.5709,0.4768,RG-065,"BA-025,BA-004",2,1,0.61,4.33,"0.91,0.09",3.03,47,930,ridge_survey,Ridge Survey Team,0.86,Part of 2-saddle complex.
+SP-048,Saddle Point 90,-0.0543,0.6586,-0.6531,RG-029,"BA-010,BA-013",2,1,0.59,3.77,"0.4,0.6",3.49,16,930,trajectory_analysis,Western Archive Team,0.68,Documented during Year 930 ridge survey.
+SP-049,035 Gateway,0.838,0.8462,0.7591,RG-099,"BA-035,BA-005",2,1,0.74,3.17,"0.65,0.35",3.06,35,918,trajectory_analysis,Saddle Point Task Force,0.67,Index-2 saddle connecting three basins.
+SP-050,The Primary Junction,-0.3416,-0.3778,0.7599,RG-088,"BA-030,BA-023",2,1,0.68,2.91,"0.47,0.53",3.63,6,926,trajectory_analysis,Western Archive Team,0.72,Bifurcation event observed Year 926.
+SP-051,044 Pass,-0.0797,0.2829,-0.5697,RG-044,"BA-044,BA-040",2,1,0.69,2.94,"0.9,0.1",3.43,33,924,ridge_survey,Morren Kast,0.76,Index-2 saddle connecting three basins.
+SP-052,Saddle Point 98,-0.6039,-0.4308,-0.5273,RG-135,"BA-018,BA-043",2,1,0.62,4.32,"0.04,0.96",3.57,33,930,bifurcation_event,Archive Survey Team,0.95,Part of 4-saddle complex.
+SP-053,Saddle Point 71,-0.3087,-0.3989,-0.7479,RG-119,"BA-034,BA-043",2,1,0.7,3.82,"0.52,0.48",3.39,25,922,trajectory_analysis,Ridge Survey Team,0.6,Documented during Year 922 ridge survey.
+SP-054,Saddle Point 19,0.6696,-0.4771,-0.3558,RG-126,"BA-028,BA-029",2,1,0.61,4.36,"0.78,0.22",2.93,1,921,trajectory_analysis,C. Vells,0.62,Index-2 saddle connecting three basins.
+SP-055,Saddle Point 48,-0.3828,-0.2217,-0.2017,RG-033,"BA-033,BA-009",2,1,0.62,3.92,"0.98,0.02",2.43,26,921,theoretical,T. Vells,0.92,Collapse probabilities vary with seasonal factors.
+SP-056,043 Pass,-0.3591,-0.3399,-0.831,RG-047,"BA-043,BA-034",2,1,0.7,3.69,"0.26,0.74",3.76,43,924,ridge_survey,Archive Survey Team,0.58,Index-2 saddle connecting three basins.
+SP-057,032 Gateway,-0.4503,-0.633,0.1853,RG-119,"BA-032,BA-002",2,1,0.71,3.41,"0.62,0.38",3.95,28,918,trajectory_analysis,Ridge Survey Team,0.7,Transition rate higher than theoretical prediction.
+SP-058,Saddle Point 60,-0.314,0.0345,-0.0353,RG-077,"BA-009,BA-033",2,1,0.68,2.94,"0.58,0.42",2.78,13,927,trajectory_analysis,Western Archive Team,0.69,Part of 2-saddle complex.
+SP-059,Saddle Point 43,0.4724,-0.5037,0.523,RG-122,"BA-006,BA-014",2,1,0.68,3.26,"0.19,0.81",2.86,14,927,trajectory_analysis,Western Archive Team,0.69,Transition rate higher than theoretical prediction.
+SP-060,024 Gateway,-0.4909,0.2869,0.1282,RG-092,"BA-024,BA-011",2,1,0.58,4.4,"0.33,0.67",3.42,27,919,trajectory_analysis,Morren Kast,0.92,Bifurcation event observed Year 919.
+SP-061,Saddle Point 53,0.071,-0.4782,0.4912,RG-014,"BA-006,BA-014",2,1,0.65,4.15,"0.61,0.39",2.69,21,930,ridge_survey,Boundary Commission,0.8,Adjacent to geodesic path GP-0096.
+SP-062,Saddle Point 73,-0.4663,-0.5642,-0.8027,RG-035,"BA-034,BA-043",2,1,0.7,3.77,"0.4,0.6",2.94,8,925,ridge_survey,Ridge Survey Team,0.66,Index-2 saddle connecting three basins.
+SP-063,Saddle Point 22,-0.2489,0.5218,-0.2967,RG-074,"BA-015,BA-040",2,1,0.58,4.42,"0.52,0.48",2.65,17,919,bifurcation_event,Morren Kast,0.71,Position stable since first documentation.
+SP-064,009 Pass,0.0536,-0.1818,-0.086,RG-056,"BA-009,BA-033",2,1,0.56,4.67,"0.3,0.7",3.39,46,930,trajectory_analysis,Western Archive Team,0.9,Residence time unusually long for this index.
+SP-065,The Great Junction,-0.236,0.4224,-0.6132,RG-011,"BA-044,BA-040,BA-010",3,2,0.96,1.21,"0.27,0.49,0.24",4.43,3,926,bifurcation_event,T. Vells,0.71,Index-1 saddle with clear directional preference.
+SP-066,Saddle Point 82,0.0209,-0.7003,-0.4742,RG-020,"BA-039,BA-037",2,1,0.74,3.54,"0.48,0.52",3.3,46,924,bifurcation_event,C. Vells,0.71,Transition rate higher than theoretical prediction.
+SP-067,Saddle Point 41,-0.4577,-0.1508,0.1698,RG-007,"BA-026,BA-002",2,1,0.64,3.76,"0.25,0.75",3.25,46,930,bifurcation_event,K. Strand,0.79,Documented during Year 930 ridge survey.
+SP-068,030 Gateway,-0.3443,-0.3214,0.603,RG-023,"BA-030,BA-023",2,1,0.73,3.25,"0.89,0.11",3.52,6,924,theoretical,K. Strand,0.88,Index-1 saddle with clear directional preference.
+SP-069,Saddle Point 87,-0.4611,-0.004,0.5667,RG-029,"BA-031,BA-041",2,1,0.74,2.83,"0.59,0.41",3.66,23,921,theoretical,Morren Kast,0.78,Bifurcation event observed Year 921.
+SP-070,Point of 3 Choices,-0.401,-0.4335,0.3423,RG-069,"BA-002,BA-026,BA-032",3,2,0.93,1.92,"0.32,0.46,0.22",4.0,50,923,trajectory_analysis,K. Strand,0.94,Index-1 saddle with clear directional preference.
+SP-071,Northern Transition,0.0014,0.4541,-0.5227,RG-041,"BA-044,BA-040",2,1,0.71,3.64,"0.87,0.13",3.3,20,926,theoretical,Western Archive Team,0.66,Index-2 saddle connecting three basins.
+SP-072,The Northern Junction,-0.3057,-0.2774,0.8164,RG-136,"BA-030,BA-023",2,1,0.69,3.55,"0.35,0.65",3.76,41,918,ridge_survey,Western Archive Team,0.8,
+SP-073,Saddle Point 88,0.4197,-0.6659,-0.8448,RG-040,"BA-012,BA-050",2,1,0.74,2.97,"0.23,0.77",3.5,27,918,trajectory_analysis,Western Archive Team,0.72,Index-2 saddle connecting three basins.
+SP-074,Critical Transition,-0.1499,0.61,0.5846,RG-068,"BA-038,BA-025",2,1,0.66,3.4,"0.56,0.44",2.63,48,920,trajectory_analysis,Ridge Survey Team,0.82,Collapse probabilities vary with seasonal factors.
+SP-075,Saddle Point 24,0.4448,0.3826,0.2764,RG-054,"BA-003,BA-001",2,1,0.59,4.77,"0.87,0.13",2.32,30,918,ridge_survey,Western Archive Team,0.9,
+SP-076,023 Gateway,-0.3467,-0.2691,0.6696,RG-059,"BA-023,BA-021",2,1,0.7,2.48,"0.78,0.22",3.9,18,919,ridge_survey,C. Vells,0.67,Slight drift observed since Year 925.
+SP-077,The Marginal Pivot,0.7036,0.5197,0.8827,RG-101,"BA-005,BA-035",2,1,0.71,2.38,"0.6,0.4",3.5,18,920,ridge_survey,C. Vells,0.73,Transition rate higher than theoretical prediction.
+SP-078,The Outer Pivot,-0.2614,0.7163,0.5735,RG-066,"BA-038,BA-025,BA-016",3,2,0.98,0.85,"0.32,0.36,0.32",5.0,16,925,trajectory_analysis,C. Vells,0.93,Index-1 saddle with clear directional preference.
+SP-079,Breathing Hollow Gateway,-0.1587,0.5661,-0.2738,RG-069,"BA-015,BA-040",2,1,0.72,3.24,"0.3,0.7",3.35,7,925,ridge_survey,T. Vells,0.95,Collapse probabilities vary with seasonal factors.
+SP-080,Saddle Point 46,0.4133,0.2957,0.4203,RG-027,"BA-007,BA-001",2,1,0.72,2.69,"0.51,0.49",3.75,10,928,ridge_survey,C. Vells,0.68,Slight drift observed since Year 925.
+SP-081,The Lower Junction,-0.457,-0.1758,0.7047,RG-128,"BA-031,BA-041",2,1,0.57,3.95,"0.58,0.42",3.21,19,925,ridge_survey,Boundary Commission,0.7,Transition rate higher than theoretical prediction.
+SP-082,The Unstable Pivot,0.0675,0.4044,-0.6632,RG-055,"BA-044,BA-040",2,1,0.67,2.82,"0.11,0.89",4.01,10,918,ridge_survey,Archive Survey Team,0.81,Bifurcation event observed Year 918.
+SP-083,Saddle Point 87,-0.5735,-0.3609,-0.7036,RG-068,"BA-018,BA-043,BA-034",3,2,0.8,1.94,"0.37,0.51,0.12",4.77,45,921,ridge_survey,K. Strand,0.61,Transition rate higher than theoretical prediction.
+SP-084,Saddle Point 13,0.5992,0.0843,0.59,RG-012,"BA-019,BA-022",2,1,0.66,3.26,"0.59,0.41",3.13,36,928,trajectory_analysis,Boundary Commission,0.74,Part of 4-saddle complex.
+SP-085,Saddle Point 39,-0.9079,0.4392,-0.2923,RG-082,"BA-008,BA-048",2,1,0.6,4.34,"0.28,0.72",3.46,13,926,ridge_survey,Boundary Commission,0.77,Index-2 saddle connecting three basins.
+SP-086,Saddle Point 31,0.6375,-0.0061,0.19,RG-083,"BA-047,BA-022,BA-007,BA-036",4,2,1.0,1.45,"0.33,0.14,0.51,0.02",5.0,37,924,bifurcation_event,Western Archive Team,0.62,Bifurcation event observed Year 924.
+SP-087,The Upper Junction,0.7989,0.4723,0.7823,RG-135,"BA-005,BA-035",2,1,0.72,3.42,"0.32,0.68",2.77,44,927,theoretical,Saddle Point Task Force,0.6,Adjacent to geodesic path GP-0138.
+SP-088,Saddle Point 54,-0.0157,0.3707,-0.5411,RG-019,"BA-044,BA-040",2,1,0.72,2.27,"0.58,0.42",3.45,19,918,theoretical,Ridge Survey Team,0.72,Bifurcation event observed Year 918.
+SP-089,034 Gateway,-0.2235,-0.434,-0.7314,RG-028,"BA-034,BA-043,BA-039,BA-044",4,2,1.0,1.15,"0.46,0.45,0.05,0.04",4.92,40,929,theoretical,Archive Survey Team,0.59,Index-2 saddle connecting three basins.
+SP-090,The Minor Junction,-0.5478,0.0868,0.6684,RG-032,"BA-031,BA-041",2,1,0.6,3.74,"0.45,0.55",3.03,29,918,trajectory_analysis,C. Vells,0.6,Bifurcation event observed Year 918.
+SP-091,Saddle Point 10,-0.2529,-0.3628,0.8257,RG-122,"BA-030,BA-023",2,1,0.61,3.21,"0.42,0.58",3.16,44,918,trajectory_analysis,Ridge Survey Team,0.56,Slight drift observed since Year 925.
+SP-092,019 Pass,0.4415,-0.3707,0.6533,RG-004,"BA-019,BA-022",2,1,0.64,4.32,"0.49,0.51",2.94,38,927,trajectory_analysis,Ridge Survey Team,0.69,Slight drift observed since Year 925.
+SP-093,Western Transition,-0.4543,-0.0561,0.6597,RG-065,"BA-031,BA-041,BA-021",3,2,0.96,0.89,"0.13,0.65,0.22",4.06,2,918,ridge_survey,K. Strand,0.65,Residence time unusually long for this index.
+SP-094,Saddle Point 93,-0.1015,-0.183,0.9301,RG-048,"BA-023,BA-021",2,1,0.74,2.08,"0.46,0.54",4.17,8,927,trajectory_analysis,K. Strand,0.72,Residence time unusually long for this index.
+SP-095,Saddle Point 69,0.3002,-0.9544,-0.7795,RG-149,"BA-050,BA-012",2,1,0.73,3.46,"0.28,0.72",2.99,17,921,theoretical,Saddle Point Task Force,0.79,Collapse probabilities vary with seasonal factors.
+SP-096,Saddle Point 37,-0.6479,-0.1745,0.718,RG-027,"BA-031,BA-041",2,1,0.66,3.7,"0.46,0.54",2.95,44,920,theoretical,Saddle Point Task Force,0.76,Residence time unusually long for this index.
+SP-097,Saddle Point 24,-0.2,0.3684,0.0928,RG-121,"BA-024,BA-011",2,1,0.64,3.44,"0.58,0.42",3.5,42,926,theoretical,Saddle Point Task Force,0.83,Position stable since first documentation.
+SP-098,Saddle Point 28,-0.2608,-0.3485,0.015,RG-138,"BA-009,BA-033",2,1,0.74,2.47,"0.41,0.59",3.21,29,925,bifurcation_event,Archive Survey Team,0.77,Collapse probabilities vary with seasonal factors.
+SP-099,Primary Crossroads,0.5061,0.1622,0.2808,RG-136,"BA-036,BA-049",2,1,0.61,3.93,"0.4,0.6",3.0,14,919,ridge_survey,Ridge Survey Team,0.75,Position stable since first documentation.
+SP-100,Saddle Point 45,0.8535,0.5678,0.8836,RG-020,"BA-035,BA-005",2,1,0.65,3.28,"0.47,0.53",3.16,27,920,ridge_survey,C. Vells,0.62,Slight drift observed since Year 925.

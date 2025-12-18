@@ -1,0 +1,104 @@
+expedition_id,year,date,cartographer,origin,destination,days_planned,days_actual,route,route_matches_return,landmarks_expected,landmarks_found,landmarks_stable,distance_planned_km,distance_actual_km,instruments_used,instruments_functional_end,surveyor_state_start,surveyor_state_end,notes
+100,1840,1840-05-19,Archon Vells,Capital,Denstone,14,19,northern,no,7,6,6,187,186.9,notebook compass chain,all,calm,curious,some landmarks not found
+101,1840,1840-06-22,Archon Vells,Denstone,SW Border,2,4,local,yes,4,3,1,10,11.8,notebook compass chain,all,calm,shaken,difficult psychological conditions; some landmarks not found
+102,1840,1840-01-25,Tenniv,Denstone,NW Border,2,2,local,yes,4,3,1,10,23.4,notebook compass chain,all,curious,anxious,some landmarks not found
+103,1840,1840-07-17,Tenniv,Capital,Denstone,14,19,northern,no,7,7,1,187,184.6,notebook compass chain,all,curious,calm,routine expedition
+104,1840,1840-09-03,Tenniv,Capital,Denstone,14,15,northern,yes,7,6,1,187,183.8,notebook compass chain,all,curious,calm,some landmarks not found
+105,1840,1840-01-24,Archon Vells,Denstone,NW Border,3,2,local,yes,4,2,2,15,9.600000000000001,notebook compass chain,all,curious,calm,some landmarks not found
+106,1840,1840-03-19,Archon Vells,Capital,Denstone,14,14,northern,yes,7,6,2,187,189.1,notebook compass chain,all,curious,calm,some landmarks not found
+107,1840,1840-08-22,Tenniv,Capital,Denstone,14,15,northern,yes,7,4,3,187,,notebook compass chain,all,calm,uneasy,some landmarks not found
+108,1841,1841-06-23,Tenniv,Capital,Denstone,14,15,northern,yes,7,6,3,187,182.0,notebook compass chain,all,calm,anxious,some landmarks not found
+109,1841,1841-06-03,Tenniv,Denstone,Gradient Zone,6,6,local,yes,4,3,1,30,20.4,notebook compass chain,all,calm,curious,some landmarks not found
+110,1841,1841-03-18,Archon Vells,Capital,Denstone,14,14,northern,yes,7,5,2,187,184.5,notebook compass chain,all,curious,shaken,difficult psychological conditions; some landmarks not found
+111,1841,1841-04-06,Archon Vells,Capital,Denstone,14,21,northern,no,7,7,5,187,188.6,notebook compass chain,all,calm,calm,routine expedition
+112,1841,1841-06-16,Archon Vells,Denstone,NW Border,6,7,local,yes,4,4,1,30,25.900000000000002,notebook compass chain,all,calm,curious,routine expedition
+113,1841,1841-04-16,Tenniv,Capital,Denstone,14,14,northern,yes,7,6,2,187,188.9,notebook compass chain,all,curious,curious,some landmarks not found
+114,1841,1841-03-09,Tenniv,Capital,Denstone,14,14,northern,yes,7,7,2,187,184.3,notebook compass chain,all,calm,shaken,difficult psychological conditions
+115,1841,1841-05-12,Archon Vells,Denstone,NW Border,5,5,local,yes,4,2,1,25,19.299999999999997,notebook compass chain,all,calm,shaken,difficult psychological conditions; some landmarks not found
+116,1842,1842-05-03,Tenniv,Capital,Denstone,14,20,northern,no,7,6,3,187,187.0,notebook compass chain,all,calm,calm,some landmarks not found
+117,1842,1842-10-20,Tenniv,Capital,Denstone,14,14,northern,yes,7,7,2,187,187.0,notebook compass chain,all,calm,calm,routine expedition
+118,1842,1842-10-28,Archon Vells,Capital,Denstone,14,18,northern,no,7,6,3,187,186.4,notebook compass chain,all,calm,curious,some landmarks not found
+119,1842,1842-06-28,Morrow,Capital,Denstone,14,14,northern,yes,7,5,2,187,185.5,notebook compass chain,all,curious,calm,some landmarks not found
+120,1842,1842-05-21,Archon Vells,Capital,Denstone,14,16,northern,yes,7,5,2,187,193.5,notebook compass chain,all,curious,anxious,some landmarks not found
+121,1842,1842-03-03,Morrow,Capital,Denstone,14,14,northern,yes,7,7,2,187,188.2,notebook compass chain,all,calm,calm,routine expedition
+122,1842,1842-08-02,Tenniv,Capital,Denstone,14,14,northern,yes,7,6,3,187,186.2,notebook compass chain,all,calm,calm,some landmarks not found
+123,1842,1842-01-13,Archon Vells,Denstone,Gradient Zone,3,5,local,yes,4,4,0,15,25.400000000000002,notebook compass chain,all,calm,curious,routine expedition
+124,1843,1843-07-09,Morrow,Capital,Denstone,14,14,northern,yes,7,6,1,187,184.8,notebook compass chain,all,calm,calm,some landmarks not found
+125,1843,1843-06-26,Morrow,Denstone,Gradient Zone,5,7,local,yes,4,2,2,25,19.2,notebook compass chain,all,curious,calm,some landmarks not found
+126,1843,1843-05-09,Morrow,Denstone,NW Border,4,3,local,yes,4,4,1,20,25.5,notebook compass chain,all,curious,calm,routine expedition
+127,1843,1843-08-08,Morrow,Capital,Denstone,14,19,northern,no,7,7,6,187,186.2,notebook compass chain,all,curious,calm,routine expedition
+128,1843,1843-07-01,Morrow,Capital,Denstone,14,14,northern,yes,7,7,4,187,184.8,notebook compass chain,all,calm,calm,routine expedition
+129,1843,1843-11-27,Tenniv,Denstone,Yeller Tract,2,2,local,yes,4,4,1,10,25.6,notebook compass chain,all,calm,shaken,difficult psychological conditions
+130,1843,1843-09-22,Tenniv,Denstone,SE Border,2,4,local,yes,4,3,1,10,11.9,notebook compass chain,all,curious,calm,some landmarks not found
+131,1844,1844-06-21,Tenniv,Capital,Denstone,14,19,northern,no,7,5,3,187,186.3,notebook compass chain,all,calm,anxious,some landmarks not found
+132,1844,1844-02-06,Tenniv,Capital,Denstone,14,14,northern,yes,7,6,5,187,180.2,notebook compass chain,all,calm,curious,some landmarks not found
+133,1844,1844-04-05,Tenniv,Capital,Denstone,14,15,northern,yes,7,6,2,187,,notebook compass chain,all,calm,calm,some landmarks not found
+134,1844,1844-12-03,Tenniv,Denstone,Gradient Zone,6,7,local,yes,4,4,0,30,25.700000000000003,notebook compass chain,all,calm,shaken,difficult psychological conditions
+135,1844,1844-07-21,Tenniv,Capital,Denstone,14,19,northern,no,7,6,3,187,189.0,notebook compass chain,all,calm,shaken,difficult psychological conditions; some landmarks not found
+136,1844,1844-05-04,Tenniv,Denstone,SE Border,5,6,local,yes,4,3,1,25,20.7,notebook compass chain,all,calm,calm,some landmarks not found
+137,1844,1844-01-27,Tenniv,Denstone,Yeller Tract,5,6,local,yes,4,2,2,25,15.7,notebook compass chain,all,curious,calm,some landmarks not found
+138,1845,1845-09-07,Prebel,Denstone,SE Border,2,2,local,yes,4,4,4,10,25.8,notebook,all,calm,calm,routine expedition
+139,1845,1845-01-10,Prebel,Denstone,NW Border,4,6,local,yes,4,3,4,20,21.0,notebook,all,calm,calm,some landmarks not found
+140,1845,1845-10-09,Prebel,Capital,Denstone,14,20,northern,no,7,7,7,187,187.0,notebook,all,calm,curious,routine expedition
+141,1845,1845-06-25,Tenniv,Capital,Denstone,14,22,northern,no,7,4,3,187,185.8,notebook compass chain,all,curious,anxious,some landmarks not found
+142,1845,1845-12-27,Tenniv,Capital,Denstone,14,22,northern,no,7,6,1,187,183.9,notebook compass chain,all,curious,calm,some landmarks not found
+143,1845,1845-02-17,Grell,Capital,Denstone,14,17,northern,no,7,4,4,187,187.5,notebook compass chain,all,calm,curious,some landmarks not found
+144,1845,1845-09-03,Prebel,Capital,Denstone,14,18,northern,no,7,6,7,187,187.0,notebook,all,calm,calm,some landmarks not found
+145,1846,1846-04-27,Tenniv,Capital,Denstone,14,22,northern,no,7,4,3,187,,notebook compass chain,all,calm,calm,some landmarks not found
+146,1846,1846-02-28,Grell,Denstone,Yeller Tract,5,6,local,yes,4,3,3,25,20.8,notebook compass chain,all,calm,anxious,some landmarks not found
+147,1846,1846-11-18,Korrith,Denstone,SW Border,3,3,local,yes,4,4,2,15,25.6,notebook compass chain,all,calm,curious,routine expedition
+148,1846,1846-09-05,Grell,Capital,Denstone,14,16,northern,yes,7,5,1,187,184.3,notebook compass chain,all,calm,calm,some landmarks not found
+149,1846,1846-12-21,Korrith,Denstone,Gradient Zone,2,4,local,yes,4,2,2,10,9.9,notebook compass chain,all,curious,calm,some landmarks not found
+150,1846,1846-06-19,Grell,Capital,Denstone,14,21,northern,no,7,7,2,187,188.2,notebook compass chain,all,curious,calm,routine expedition
+151,1847,1847-02-28,Prebel,Denstone,NW Border,4,3,local,yes,4,4,4,20,25.8,notebook,all,curious,calm,routine expedition
+152,1847,1847-04-06,Grell,Capital,Denstone,14,21,northern,no,7,6,3,187,193.1,notebook compass chain,all,calm,calm,some landmarks not found
+153,1847,1847-01-07,Grell,Capital,Denstone,14,15,northern,yes,7,5,4,187,187.5,notebook compass chain,all,calm,calm,some landmarks not found
+154,1847,1847-08-18,Prebel,Denstone,NW Border,5,6,local,yes,4,3,4,25,21.0,notebook,all,curious,curious,some landmarks not found
+155,1847,1847-08-07,Korrith,Capital,Denstone,14,16,northern,yes,7,4,3,187,186.0,notebook compass chain,all,curious,uneasy,some landmarks not found
+156,1847,1847-11-05,Tenniv,Capital,Denstone,14,19,northern,no,7,5,1,187,183.5,notebook compass chain,all,curious,uneasy,some landmarks not found
+157,1848,1848-04-16,Korrith,Capital,Denstone,14,17,northern,no,7,5,3,187,196.2,notebook compass chain,theodolite misaligned,calm,frightened,post-collapse conditions; difficult psychological conditions; some landmarks not found
+158,1848,1848-04-01,Grell,Denstone,NW Border,2,1,local,yes,4,1,3,10,14.0,notebook compass chain,compass erratic,calm,uneasy,post-collapse conditions; some landmarks not found
+159,1848,1848-07-15,Korrith,Capital,Denstone,14,17,northern,no,7,5,2,187,187.0,notebook compass chain,all,curious,uneasy,post-collapse conditions; some landmarks not found
+160,1848,1848-12-05,Tenniv,Denstone,SW Border,5,4,local,yes,4,3,0,25,12.1,notebook compass chain,all,calm,calm,post-collapse conditions; some landmarks not found
+161,1848,1848-09-04,Prebel,Capital,Denstone,14,16,northern,yes,7,6,7,187,,notebook,all malfunctioned,calm,calm,post-collapse conditions; some landmarks not found
+162,1848,1848-07-12,Korrith,Denstone,SW Border,4,3,local,yes,4,4,0,20,25.9,notebook compass chain,all malfunctioned,calm,calm,post-collapse conditions
+163,1849,1849-11-13,Prebel,Capital,Denstone,14,19,northern,no,7,6,7,187,187.0,notebook,all,calm,calm,post-collapse conditions; some landmarks not found
+164,1849,1849-08-19,Prebel,Capital,Denstone,14,17,northern,no,7,6,7,187,187.0,notebook,theodolite misaligned,curious,curious,post-collapse conditions; some landmarks not found
+165,1849,1849-03-28,Prebel,Capital,Denstone,14,14,northern,yes,7,6,7,187,187.0,notebook,all malfunctioned,calm,curious,post-collapse conditions; some landmarks not found
+166,1849,1849-01-11,Prebel,Capital,Denstone,14,22,northern,no,7,6,7,187,187.0,notebook,all,calm,calm,post-collapse conditions; some landmarks not found
+167,1849,1849-03-09,Prebel,Denstone,NW Border,6,7,local,yes,4,4,4,30,25.8,notebook,all,curious,uneasy,post-collapse conditions
+168,1850,1850-03-22,Prebel,Denstone,Gradient Zone,4,3,local,yes,4,4,4,20,25.8,notebook,all,calm,anxious,post-collapse conditions
+169,1850,1850-12-08,Grell,Denstone,Gradient Zone,6,6,local,yes,4,3,1,30,21.299999999999997,notebook compass chain,all,curious,disturbed,post-collapse conditions; difficult psychological conditions; some landmarks not found
+170,1850,1850-01-21,Prebel,Capital,Denstone,14,20,northern,no,7,7,7,187,187.0,notebook,all,curious,disturbed,post-collapse conditions; difficult psychological conditions
+171,1850,1850-04-14,Thurmond Gast,Capital,Denstone,14,17,northern,no,7,7,2,187,192.8,notebook compass chain theodolite sextant,all malfunctioned,curious,calm,post-collapse conditions
+172,1850,1850-09-13,Grell,Denstone,Yeller Tract,3,3,local,yes,4,3,2,15,21.1,notebook compass chain,all,calm,uneasy,post-collapse conditions; some landmarks not found
+173,1851,1851-02-24,Korrith,Denstone,NW Border,2,4,local,yes,4,2,1,10,19.1,notebook compass chain,all,calm,calm,post-collapse conditions; some landmarks not found
+174,1851,1851-08-17,Prebel,Denstone,Yeller Tract,3,2,local,yes,4,4,4,15,25.8,notebook,all,calm,anxious,post-collapse conditions
+175,1851,1851-11-28,Prebel,Denstone,Yeller Tract,5,7,local,yes,4,3,4,25,11.8,notebook,all malfunctioned,curious,calm,post-collapse conditions; some landmarks not found
+176,1851,1851-10-13,Grell,Capital,Denstone,14,20,northern,no,7,6,3,187,,notebook compass chain,all,curious,calm,post-collapse conditions; some landmarks not found
+177,1851,1851-04-21,Grell,Capital,Denstone,14,14,northern,yes,7,7,4,187,187.5,notebook compass chain,compass erratic,curious,calm,post-collapse conditions
+178,1852,1852-02-10,Thurmond Gast,Denstone,Yeller Tract,6,8,local,yes,4,3,3,30,21.0,notebook compass chain theodolite sextant,all,calm,disturbed,post-collapse conditions; difficult psychological conditions; some landmarks not found
+179,1852,1852-12-19,Thurmond Gast,Denstone,NW Border,2,2,local,yes,4,2,1,10,15.6,notebook compass chain theodolite sextant,compass erratic,calm,curious,post-collapse conditions; some landmarks not found
+180,1852,1852-06-11,Thurmond Gast,Capital,Denstone,14,23,northern,no,7,6,3,187,188.6,notebook compass chain theodolite sextant,all,curious,calm,post-collapse conditions; some landmarks not found
+181,1852,1852-06-12,Grell,Capital,Denstone,14,21,northern,no,7,6,1,187,190.9,notebook compass chain,all,calm,calm,post-collapse conditions; some landmarks not found
+182,1853,1853-04-28,Grell,Denstone,NW Border,1,1,local,yes,4,4,1,5,25.7,notebook compass chain,all,calm,calm,post-collapse conditions
+183,1853,1853-10-06,Grell,Denstone,Yeller Tract,4,3,local,yes,4,4,2,20,25.7,notebook compass chain,all,curious,uneasy,post-collapse conditions
+184,1853,1853-06-13,Prebel,Capital,Denstone,14,16,northern,yes,7,7,7,187,187.0,notebook,all,curious,calm,post-collapse conditions
+185,1853,1853-03-10,Grell,Denstone,SE Border,4,6,local,yes,4,1,0,20,13.8,notebook compass chain,all,curious,calm,post-collapse conditions; some landmarks not found
+186,1854,1854-04-21,Korrith,Denstone,Gradient Zone,5,4,local,yes,4,3,0,25,21.299999999999997,notebook compass chain,all,curious,calm,post-collapse conditions; some landmarks not found
+187,1854,1854-02-24,Korrith,Denstone,SE Border,4,5,local,yes,4,1,2,20,13.9,notebook compass chain,all malfunctioned,calm,calm,post-collapse conditions; some landmarks not found
+188,1854,1854-03-25,Prebel,Capital,Denstone,14,18,northern,no,7,6,7,187,187.0,notebook,all,curious,anxious,post-collapse conditions; some landmarks not found
+189,1854,1854-12-27,Grell,Capital,Denstone,14,22,northern,no,7,6,3,187,184.2,notebook compass chain,theodolite misaligned,calm,calm,post-collapse conditions; some landmarks not found
+190,1855,1855-03-11,Korrith,Capital,Denstone,14,17,northern,no,7,7,1,187,180.6,notebook compass chain,compass erratic,calm,curious,post-collapse conditions
+191,1855,1855-12-16,Korrith,Denstone,SE Border,4,6,local,yes,4,4,1,20,26.099999999999998,notebook compass chain,all,calm,curious,post-collapse conditions
+192,1855,1855-10-05,Grell,Denstone,SE Border,6,6,local,yes,4,3,2,30,11.7,notebook compass chain,theodolite misaligned,curious,shaken,post-collapse conditions; difficult psychological conditions; some landmarks not found
+193,1856,1856-03-20,Grell,Denstone,SW Border,1,3,local,yes,4,3,0,5,21.1,notebook compass chain,compass erratic,curious,curious,post-collapse conditions; some landmarks not found
+194,1856,1856-01-07,Grell,Capital,Denstone,14,16,northern,yes,7,6,1,187,191.1,notebook compass chain,all,curious,curious,post-collapse conditions; some landmarks not found
+195,1856,1856-09-27,Grell,Capital,Denstone,14,16,northern,yes,7,4,1,187,188.9,notebook compass chain,all,calm,frightened,post-collapse conditions; difficult psychological conditions; some landmarks not found
+196,1857,1857-05-03,Prebel,Capital,Denstone,14,17,northern,no,7,7,7,187,187.0,notebook,all,calm,calm,post-collapse conditions
+197,1857,1857-03-12,Grell,Denstone,NW Border,6,5,local,yes,4,2,0,30,18.5,notebook compass chain,compass erratic,curious,calm,post-collapse conditions; some landmarks not found
+198,1857,1857-03-22,Grell,Denstone,Gradient Zone,5,4,local,yes,4,3,1,25,20.7,notebook compass chain,all,curious,shaken,post-collapse conditions; difficult psychological conditions; some landmarks not found
+199,1858,1858-10-27,Prebel,Denstone,SE Border,3,4,local,yes,4,4,4,15,25.8,notebook,all,calm,calm,post-collapse conditions
+200,1858,1858-10-07,Prebel,Capital,Denstone,14,15,northern,yes,7,7,7,187,187.0,notebook,compass erratic,calm,calm,post-collapse conditions
+201,1859,1859-12-08,Grell,Denstone,Yeller Tract,6,6,local,yes,4,2,2,30,16.0,notebook compass chain,all malfunctioned,calm,calm,post-collapse conditions; some landmarks not found
+202,1859,1859-07-02,Grell,Denstone,Yeller Tract,5,7,local,yes,4,4,2,25,25.6,notebook compass chain,all,calm,anxious,post-collapse conditions

@@ -1,0 +1,50 @@
+landmark_id,expedition_id,landmark_name,landmark_type,expected_bearing_deg,actual_bearing_deg,bearing_delta,expected_distance_km,actual_distance_km,distance_delta_km,visible,stable,observer_notes
+1,1,Gray Spire,rock_formation,45,47,2,23.4,24.1,0.7,yes,yes,baseline measurement
+2,1,Twisted Grove,vegetation,78,79,1,31.2,31.8,0.6,yes,yes,distinctive bent trees
+3,1,Dry Wash,terrain,112,114,2,45.6,46.2,0.6,yes,yes,ancient riverbed
+4,1,Standing Stones,rock_formation,134,135,1,67.8,68.3,0.5,yes,yes,three vertical stones
+5,1,Split Boulder,rock_formation,156,158,2,89.2,90.1,0.9,yes,yes,cleaved by unknown force
+6,1,Denstone Approach,settlement,178,179,1,142.3,143.1,0.8,yes,yes,first buildings visible
+7,1,Moat Crossing,infrastructure,180,180,0,187.0,187.0,0.0,yes,yes,expedition terminus
+8,3,Gray Spire,rock_formation,45,52,7,23.4,27.8,4.4,yes,no,spire appears to have moved
+9,3,Twisted Grove,vegetation,78,78,0,31.2,31.5,0.3,yes,yes,unchanged
+10,3,Dry Wash,terrain,112,NA,NA,45.6,NA,NA,no,no,NOT FOUND - terrain altered
+11,3,Standing Stones,rock_formation,134,141,7,67.8,74.2,6.4,yes,no,stones in different configuration
+12,3,Split Boulder,rock_formation,156,NA,NA,89.2,NA,NA,no,no,NOT FOUND
+13,3,Denstone Approach,settlement,178,183,5,142.3,156.7,14.4,yes,no,approach route longer
+14,3,Moat Crossing,infrastructure,180,182,2,187.0,201.0,14.0,yes,no,total distance increased
+15,5,Gray Spire,rock_formation,45,48,3,23.4,25.2,1.8,yes,no,slight positional shift
+16,5,Twisted Grove,vegetation,78,80,2,31.2,32.4,1.2,yes,no,grove seems larger
+17,5,Dry Wash,terrain,112,115,3,45.6,47.3,1.7,yes,no,wash wider than expected
+18,5,Standing Stones,rock_formation,134,136,2,67.8,69.1,1.3,yes,yes,configuration matches records
+19,5,Split Boulder,rock_formation,156,159,3,89.2,91.8,2.6,yes,no,boulder halves further apart
+20,5,Denstone Approach,settlement,178,179,1,142.3,144.2,1.9,yes,yes,normal variation
+21,5,Moat Crossing,infrastructure,180,180,0,187.0,195.0,8.0,yes,yes,minor distance increase
+22,8,Dens Edge South,terrain,180,185,5,5.2,5.8,0.6,yes,no,gradient zone begins
+23,8,Gray Mound,terrain,175,182,7,12.4,14.1,1.7,yes,no,mound appears larger
+24,8,Focal Approach,terrain,172,NA,NA,23.0,NA,NA,no,no,NOT FOUND - disoriented
+25,8,Plural Site,anomaly,NA,multiple,NA,NA,NA,NA,yes,no,saw two horizons simultaneously
+26,8,Recovery Point,terrain,NA,12,NA,NA,18.3,NA,yes,NA,location where bearings restored
+27,13,Gray Spire,rock_formation,45,63,18,23.4,31.2,7.8,yes,no,major positional shift
+28,13,Twisted Grove,vegetation,78,84,6,31.2,35.7,4.5,yes,no,grove displaced
+29,13,Dry Wash,terrain,112,112,0,45.6,52.3,6.7,yes,no,bearing correct distance wrong
+30,13,Standing Stones,rock_formation,134,NA,NA,67.8,NA,NA,no,no,NOT FOUND
+31,13,Split Boulder,rock_formation,156,148,8,89.2,97.6,8.4,yes,no,boulder moved significantly
+32,13,Denstone Approach,settlement,178,191,13,142.3,178.4,36.1,yes,no,major displacement
+33,13,Moat Crossing,infrastructure,180,195,15,187.0,267.0,80.0,yes,no,catastrophic distance error
+34,15,Gray Spire,rock_formation,45,45,0,23.4,23.4,0.0,yes,yes,no instruments - pure observation
+35,15,Twisted Grove,vegetation,78,78,0,31.2,31.2,0.0,yes,yes,landmarks stable for Prebel
+36,15,Dry Wash,terrain,112,112,0,45.6,45.6,0.0,yes,yes,all readings match expected
+37,15,Standing Stones,rock_formation,134,134,0,67.8,67.8,0.0,yes,yes,unprecedented stability
+38,15,Split Boulder,rock_formation,156,156,0,89.2,89.2,0.0,yes,yes,as though dens welcomed him
+39,15,Denstone Approach,settlement,178,178,0,142.3,142.3,0.0,yes,yes,perfect approach
+40,15,Moat Crossing,infrastructure,180,180,0,187.0,188.0,1.0,yes,yes,minimal variance
+41,20,Gradient Marker A,survey_stake,270,271,1,2.0,2.1,0.1,yes,yes,start of gradient zone
+42,20,Gradient Marker B,survey_stake,270,273,3,5.0,5.3,0.3,yes,no,firmness declining
+43,20,Gradient Marker C,survey_stake,270,278,8,8.0,8.9,0.9,yes,no,compass variance increasing
+44,20,Gradient Marker D,survey_stake,270,289,19,11.0,12.4,1.4,yes,no,approaching dens proper
+45,20,Dens Edge,terrain,270,315,45,14.0,18.0,4.0,yes,no,gradient zone complete
+46,21,Focal Meadow Edge,terrain,180,180,0,12.0,12.2,0.2,yes,yes,crater site ahead
+47,21,Focal Crater,anomaly,180,180,0,15.0,15.8,0.8,yes,no,filled crater visible
+48,22,Yeller Shack,structure,195,195,0,4.8,4.8,0.0,yes,yes,fivefold woman residence
+49,22,Plural Horizon Point,anomaly,195,multiple,NA,5.0,5.0,0.0,yes,no,two horizons observed - 12 seconds

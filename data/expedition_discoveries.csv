@@ -1,0 +1,355 @@
+discovery_id,expedition_id,discovery_type,discovery_specific,discovery_significance,protocol_relevant,serendipitous,decision_context,discoverer
+DISC-A1-MISSED,A-1,creature,new_creature_species,high,False,True,not_investigated,none
+DISC-0330,A-2,artifact,abandoned_equipment,high,True,False,protocol_objective,Kira Venn
+DISC-0001,EXP-860-002,geographic,elevation_survey,medium,True,True,route_deviation,Vass Tonner
+DISC-0002,EXP-860-006,phenomenon,spatial_anomaly_minor,low,True,False,protocol_objective,Kern Hollith
+DISC-0003,EXP-860-006,creature,creature_behavior_pattern,low,True,True,crew_suggestion,Mik Torvas
+DISC-0004,EXP-860-006,creature,stakdur_variant,low,True,False,scheduled_survey,Wenna Fost
+DISC-0005,EXP-861-002,geographic,terrain_mapping,high,False,True,route_deviation,Hesta Vorn
+DISC-0006,EXP-861-002,geographic,terrain_mapping,high,False,True,route_deviation,Joren Pell
+DISC-0007,EXP-861-008,geographic,shelter_location,medium,True,True,crew_suggestion,Kira Venn
+DISC-0008,EXP-862-003,phenomenon,atmospheric_effect,low,False,False,scheduled_survey,Kira Venn
+DISC-0009,EXP-862-003,phenomenon,unknown_phenomenon,low,False,True,accident,Kira Venn
+DISC-0010,EXP-862-003,creature,unknown_predator_sign,medium,False,True,curiosity_investigation,Orna Kellith
+DISC-0011,EXP-862-007,creature,creature_interaction,low,True,True,accident,Tess Varn
+DISC-0012,EXP-862-008,geographic,river_crossing,low,False,True,discovery_mandate_time,Tesson Vash
+DISC-0013,EXP-863-007,artifact,buried_cache,low,True,True,discovery_mandate_time,unknown
+DISC-0014,EXP-864-002,phenomenon,compass_deviation_pattern,low,True,False,scheduled_survey,Vass Tonner
+DISC-0015,EXP-864-005,artifact,inscribed_stone,high,True,True,crew_suggestion,Kern Hollith
+DISC-0016,EXP-864-006,phenomenon,boundary_fluctuation,medium,False,True,rest_period_observation,Mik Torvas
+DISC-0017,EXP-865-001,artifact,memorial_site,high,True,True,crew_suggestion,unknown
+DISC-0018,EXP-865-006,phenomenon,dissolution_sign,medium,False,False,creature_tracking,unknown
+DISC-0019,EXP-865-006,phenomenon,unknown_phenomenon,medium,True,False,protocol_objective,Hesta Vorn
+DISC-0020,EXP-865-006,phenomenon,spatial_anomaly_minor,low,True,False,scheduled_survey,Hesta Vorn
+DISC-0021,EXP-865-007,creature,creature_habitat,medium,False,False,protocol_objective,crew_collective
+DISC-0022,EXP-865-007,phenomenon,spatial_anomaly_minor,high,False,False,protocol_objective,Tess Varn
+DISC-0023,EXP-866-003,phenomenon,spatial_anomaly_minor,medium,False,True,discovery_mandate_time,Tess Varn
+DISC-0024,EXP-866-003,geographic,water_source,high,True,True,curiosity_investigation,Hesta Vorn
+DISC-0025,EXP-866-003,phenomenon,temporal_inconsistency,high,True,True,crew_suggestion,Mik Torvas
+DISC-0026,EXP-866-005,creature,unknown_predator_sign,medium,True,False,protocol_objective,Hesta Vorn
+DISC-0027,EXP-866-005,artifact,mineral_deposit,low,True,False,protocol_objective,Wenna Fost
+DISC-0028,EXP-866-008,phenomenon,atmospheric_effect,medium,True,True,route_deviation,Penn Kellor
+DISC-0029,EXP-866-008,creature,glunge_colony,low,False,True,discovery_mandate_time,Joren Pell
+DISC-0030,EXP-867-003,geographic,landmark_documentation,low,True,False,creature_tracking,Orna Kellith
+DISC-0031,EXP-867-007,phenomenon,unknown_phenomenon,low,True,False,scheduled_survey,Kern Hollith
+DISC-0032,EXP-867-009,phenomenon,unknown_phenomenon,high,False,False,curiosity_investigation,Kira Venn
+DISC-0033,EXP-867-009,phenomenon,temporal_inconsistency,low,False,False,scheduled_survey,Mik Torvas
+DISC-0034,EXP-867-009,creature,unknown_predator_sign,medium,True,False,creature_tracking,Tesson Vash
+DISC-0035,EXP-868-002,phenomenon,landmark_shift,high,True,True,route_deviation,unknown
+DISC-0036,EXP-868-004,artifact,buried_cache,medium,False,True,discovery_mandate_time,Hesta Vorn
+DISC-0037,EXP-868-005,geographic,landmark_documentation,medium,True,False,protocol_objective,Pell Drenn
+DISC-0038,EXP-868-005,creature,creature_interaction,major,True,True,accident,Pell Drenn
+DISC-0039,EXP-868-006,phenomenon,compass_deviation_pattern,low,True,False,protocol_objective,Mik Torvas
+DISC-0040,EXP-869-001,phenomenon,atmospheric_effect,low,True,True,rest_period_observation,Wenna Fost
+DISC-0041,EXP-869-001,artifact,buried_cache,medium,False,False,crew_suggestion,Tess Varn
+DISC-0042,EXP-869-001,phenomenon,landmark_shift,medium,False,True,route_deviation,Pell Drenn
+DISC-0043,EXP-869-004,geographic,water_source,high,True,False,scheduled_survey,Kern Hollith
+DISC-0044,EXP-869-004,geographic,new_passage,major,True,False,scheduled_survey,Mik Torvas
+DISC-0045,EXP-869-005,artifact,buried_cache,medium,True,False,protocol_objective,Penn Kellor
+DISC-0046,EXP-869-009,geographic,terrain_mapping,medium,True,True,rest_period_observation,Joren Pell
+DISC-0047,EXP-869-010,phenomenon,unknown_phenomenon,high,True,False,creature_tracking,Wenna Fost
+DISC-0048,EXP-869-010,geographic,shelter_location,medium,True,False,scheduled_survey,Orna Kellith
+DISC-0049,EXP-869-010,artifact,historical_marker,low,False,True,accident,Kira Venn
+DISC-0050,EXP-869-011,geographic,landmark_documentation,low,True,False,creature_tracking,Wenna Fost
+DISC-0051,EXP-870-001,phenomenon,atmospheric_effect,low,False,True,accident,Mik Torvas
+DISC-0052,EXP-870-001,artifact,ancient_structure,high,False,True,discovery_mandate_time,crew_collective
+DISC-0053,EXP-870-001,geographic,new_passage,medium,True,True,rest_period_observation,Penn Kellor
+DISC-0054,EXP-870-009,creature,creature_habitat,low,False,False,shelter_search,crew_collective
+DISC-0055,EXP-870-011,creature,creature_nesting_site,medium,False,True,discovery_mandate_time,Penn Kellor
+DISC-0056,EXP-870-011,artifact,previous_expedition_remains,medium,True,True,rest_period_observation,Kern Hollith
+DISC-0057,EXP-871-003,artifact,previous_expedition_remains,high,False,True,rest_period_observation,Pell Drenn
+DISC-0058,EXP-872-003,phenomenon,boundary_fluctuation,low,False,True,rest_period_observation,Penn Kellor
+DISC-0059,EXP-872-004,phenomenon,spatial_anomaly_minor,high,True,True,crew_suggestion,unknown
+DISC-0060,EXP-872-004,phenomenon,boundary_fluctuation,medium,True,False,creature_tracking,unknown
+DISC-0061,EXP-873-004,geographic,shelter_location,major,True,True,rest_period_observation,Vass Tonner
+DISC-0062,EXP-874-003,creature,creature_nesting_site,low,False,True,rest_period_observation,crew_collective
+DISC-0063,EXP-874-003,artifact,mineral_deposit,medium,False,True,curiosity_investigation,Orna Kellith
+DISC-0064,EXP-874-006,geographic,shelter_location,major,False,True,route_deviation,Kern Hollith
+DISC-0065,EXP-874-006,artifact,buried_cache,low,True,True,rest_period_observation,Joren Pell
+DISC-0066,EXP-875-006,creature,creature_interaction,high,True,True,discovery_mandate_time,Tess Varn
+DISC-0067,EXP-876-004,artifact,abandoned_equipment,low,False,True,crew_suggestion,Orna Kellith
+DISC-0068,EXP-876-004,phenomenon,unknown_phenomenon,low,True,False,protocol_objective,crew_collective
+DISC-0069,EXP-876-004,phenomenon,compass_deviation_pattern,major,False,False,discovery_mandate_time,Wenna Fost
+DISC-0070,EXP-876-005,phenomenon,boundary_fluctuation,medium,False,True,discovery_mandate_time,Kern Hollith
+DISC-0071,EXP-876-005,creature,creature_migration_route,medium,True,True,accident,Kern Hollith
+DISC-0072,EXP-876-007,artifact,memorial_site,medium,False,True,accident,crew_collective
+DISC-0073,EXP-876-009,geographic,shelter_location,high,True,False,scheduled_survey,Joren Pell
+DISC-0074,EXP-876-012,geographic,new_passage,high,False,True,discovery_mandate_time,Kern Hollith
+DISC-0075,EXP-877-001,geographic,river_crossing,medium,False,True,route_deviation,unknown
+DISC-0076,EXP-877-001,phenomenon,spatial_anomaly_minor,major,True,True,accident,Kern Hollith
+DISC-0077,EXP-877-001,creature,creature_nesting_site,medium,False,False,route_deviation,Orna Kellith
+DISC-0078,EXP-877-003,artifact,ancient_structure,medium,False,False,curiosity_investigation,unknown
+DISC-0079,EXP-877-005,artifact,previous_expedition_remains,medium,False,True,curiosity_investigation,Penn Kellor
+DISC-0080,EXP-877-005,phenomenon,dissolution_sign,high,False,False,discovery_mandate_time,Orna Kellith
+DISC-0081,EXP-877-007,artifact,memorial_site,high,False,False,retreat_observation,Joren Pell
+DISC-0082,EXP-878-001,artifact,mineral_deposit,medium,True,False,creature_tracking,crew_collective
+DISC-0083,EXP-878-001,phenomenon,stability_indicator,high,True,False,protocol_objective,Joren Pell
+DISC-0084,EXP-878-001,artifact,mineral_deposit,high,False,True,curiosity_investigation,Vass Tonner
+DISC-0085,EXP-878-002,phenomenon,compass_deviation_pattern,major,True,True,accident,Hesta Vorn
+DISC-0086,EXP-879-003,creature,new_creature_species,high,True,True,rest_period_observation,crew_collective
+DISC-0087,EXP-879-003,creature,creature_nesting_site,low,False,True,curiosity_investigation,Pell Drenn
+DISC-0088,EXP-879-003,phenomenon,landmark_shift,low,False,True,accident,Orna Kellith
+DISC-0089,EXP-879-004,artifact,mineral_deposit,medium,False,True,route_deviation,Joren Pell
+DISC-0090,EXP-879-004,creature,new_creature_species,low,True,True,rest_period_observation,Mik Torvas
+DISC-0091,EXP-879-004,creature,creature_interaction,medium,True,False,creature_tracking,Wenna Fost
+DISC-0092,EXP-879-006,artifact,previous_expedition_remains,medium,False,True,accident,Joren Pell
+DISC-0093,EXP-879-006,artifact,inscribed_stone,medium,True,True,accident,Tess Varn
+DISC-0094,EXP-879-006,artifact,inscribed_stone,low,False,False,crew_suggestion,Hesta Vorn
+DISC-0095,EXP-880-001,geographic,defensible_position,low,False,False,rest_period_observation,Tesson Vash
+DISC-0096,EXP-880-001,creature,unknown_predator_sign,low,False,False,scheduled_survey,Vass Tonner
+DISC-0097,EXP-880-001,artifact,previous_expedition_remains,major,True,True,rest_period_observation,Hesta Vorn
+DISC-0098,EXP-880-002,artifact,previous_expedition_remains,low,True,True,discovery_mandate_time,unknown
+DISC-0099,EXP-880-002,artifact,inscribed_stone,low,True,True,route_deviation,unknown
+DISC-0100,EXP-880-002,artifact,mineral_deposit,major,False,False,retreat_observation,Penn Kellor
+DISC-0101,EXP-880-004,creature,unknown_predator_sign,low,False,True,crew_suggestion,Penn Kellor
+DISC-0102,EXP-880-009,artifact,memorial_site,medium,False,True,rest_period_observation,Kern Hollith
+DISC-0103,EXP-881-002,artifact,tool_fragment,medium,False,True,route_deviation,Orna Kellith
+DISC-0104,EXP-881-002,phenomenon,spatial_anomaly_minor,medium,False,True,rest_period_observation,Kira Venn
+DISC-0105,EXP-881-003,geographic,landmark_documentation,low,False,True,curiosity_investigation,Tesson Vash
+DISC-0106,EXP-881-007,creature,glunge_colony,low,False,True,route_deviation,Pell Drenn
+DISC-0107,EXP-881-007,phenomenon,dissolution_sign,high,True,False,creature_tracking,Joren Pell
+DISC-0108,EXP-881-007,creature,creature_behavior_pattern,medium,True,True,discovery_mandate_time,Tesson Vash
+DISC-0109,EXP-881-008,phenomenon,stability_indicator,medium,True,True,curiosity_investigation,Tess Varn
+DISC-0110,EXP-881-008,phenomenon,compass_deviation_pattern,medium,True,True,discovery_mandate_time,Pell Drenn
+DISC-0111,EXP-882-002,creature,creature_migration_route,medium,True,True,curiosity_investigation,crew_collective
+DISC-0112,EXP-882-002,geographic,elevation_survey,medium,False,True,discovery_mandate_time,Kira Venn
+DISC-0113,EXP-882-002,artifact,mineral_deposit,low,False,False,rest_period_observation,Hesta Vorn
+DISC-0114,EXP-882-004,geographic,landmark_documentation,high,True,True,accident,Vass Tonner
+DISC-0115,EXP-882-004,artifact,previous_expedition_remains,low,True,False,creature_tracking,Hesta Vorn
+DISC-0116,EXP-882-009,phenomenon,dissolution_sign,high,True,False,scheduled_survey,crew_collective
+DISC-0117,EXP-882-009,creature,glunge_colony,low,False,True,crew_suggestion,Tess Varn
+DISC-0118,EXP-882-010,phenomenon,landmark_shift,medium,True,True,discovery_mandate_time,Mik Torvas
+DISC-0119,EXP-883-004,phenomenon,landmark_shift,low,False,False,supply_search,Joren Pell
+DISC-0120,EXP-883-004,creature,glunge_colony,high,True,True,discovery_mandate_time,Mik Torvas
+DISC-0121,EXP-883-004,geographic,water_source,low,True,False,scheduled_survey,Orna Kellith
+DISC-0122,EXP-884-001,geographic,water_source,medium,True,False,scheduled_survey,Kern Hollith
+DISC-0123,EXP-884-003,geographic,new_passage,high,True,False,creature_tracking,Vass Tonner
+DISC-0124,EXP-884-003,phenomenon,dissolution_sign,low,True,True,rest_period_observation,Tess Varn
+DISC-0125,EXP-884-003,geographic,landmark_documentation,medium,False,True,route_deviation,unknown
+DISC-0126,EXP-884-005,phenomenon,stability_indicator,major,False,True,accident,Kira Venn
+DISC-0127,EXP-884-005,phenomenon,landmark_shift,high,True,True,route_deviation,Penn Kellor
+DISC-0128,EXP-884-005,geographic,cave_system,low,True,True,route_deviation,Orna Kellith
+DISC-0129,EXP-884-006,artifact,mineral_deposit,medium,True,True,route_deviation,Tess Varn
+DISC-0130,EXP-884-006,artifact,ancient_structure,high,True,True,rest_period_observation,Penn Kellor
+DISC-0131,EXP-884-006,phenomenon,temporal_inconsistency,medium,True,True,discovery_mandate_time,Mik Torvas
+DISC-0132,EXP-884-011,artifact,ancient_structure,major,True,True,curiosity_investigation,Tess Varn
+DISC-0133,EXP-885-009,creature,new_creature_species,medium,False,False,supply_search,Tesson Vash
+DISC-0134,EXP-885-009,creature,creature_habitat,low,False,True,accident,Kern Hollith
+DISC-0135,EXP-885-012,creature,creature_behavior_pattern,medium,True,True,curiosity_investigation,Penn Kellor
+DISC-0136,EXP-885-012,phenomenon,boundary_fluctuation,major,False,False,curiosity_investigation,Penn Kellor
+DISC-0137,EXP-886-003,geographic,defensible_position,low,False,False,scheduled_survey,crew_collective
+DISC-0138,EXP-886-003,phenomenon,unknown_phenomenon,high,False,True,rest_period_observation,Mik Torvas
+DISC-0139,EXP-886-003,artifact,tool_fragment,medium,False,True,discovery_mandate_time,Kern Hollith
+DISC-0140,EXP-886-004,geographic,new_passage,low,False,True,route_deviation,Wenna Fost
+DISC-0141,EXP-886-004,phenomenon,dissolution_sign,medium,False,True,crew_suggestion,Kira Venn
+DISC-0142,EXP-886-010,phenomenon,temporal_inconsistency,medium,False,False,crew_suggestion,Orna Kellith
+DISC-0143,EXP-886-010,artifact,inscribed_stone,low,False,False,route_deviation,Hesta Vorn
+DISC-0144,EXP-887-002,geographic,cave_system,low,True,True,crew_suggestion,unknown
+DISC-0145,EXP-887-006,geographic,terrain_mapping,medium,True,True,rest_period_observation,Pell Drenn
+DISC-0146,EXP-887-006,artifact,mineral_deposit,medium,True,True,crew_suggestion,Kira Venn
+DISC-0147,EXP-887-006,creature,new_creature_species,medium,True,True,rest_period_observation,unknown
+DISC-0148,EXP-888-003,artifact,ancient_structure,low,False,True,accident,unknown
+DISC-0149,EXP-888-006,artifact,abandoned_equipment,major,False,True,crew_suggestion,Joren Pell
+DISC-0150,EXP-888-006,geographic,water_source,medium,False,True,crew_suggestion,Orna Kellith
+DISC-0151,EXP-888-007,geographic,cave_system,low,False,True,accident,Wenna Fost
+DISC-0152,EXP-888-007,creature,unknown_predator_sign,medium,True,False,protocol_objective,unknown
+DISC-HESTA-001,EXP-889-001,geographic,new_passage,major,False,True,curiosity_investigation,Hesta Vorn
+DISC-0153,EXP-889-001,artifact,previous_expedition_remains,high,True,True,rest_period_observation,Kira Venn
+DISC-0154,EXP-889-001,artifact,previous_expedition_remains,medium,False,False,supply_search,Tesson Vash
+DISC-0155,EXP-889-001,artifact,tool_fragment,medium,True,True,accident,Kira Venn
+DISC-0156,EXP-889-003,phenomenon,spatial_anomaly_minor,low,True,True,curiosity_investigation,Mik Torvas
+DISC-0157,EXP-889-006,artifact,historical_marker,high,False,False,discovery_mandate_time,Tesson Vash
+DISC-0158,EXP-890-002,geographic,river_crossing,high,True,False,creature_tracking,Joren Pell
+DISC-0159,EXP-890-003,artifact,previous_expedition_remains,low,True,True,accident,Vass Tonner
+DISC-0160,EXP-890-005,phenomenon,atmospheric_effect,high,True,True,curiosity_investigation,Hesta Vorn
+DISC-0161,EXP-890-005,artifact,previous_expedition_remains,high,True,False,scheduled_survey,Penn Kellor
+DISC-0162,EXP-890-005,creature,unknown_predator_sign,medium,True,False,creature_tracking,Wenna Fost
+DISC-0163,EXP-890-008,geographic,landmark_documentation,medium,False,True,curiosity_investigation,Penn Kellor
+DISC-0164,EXP-891-002,phenomenon,compass_deviation_pattern,medium,True,True,crew_suggestion,Joren Pell
+DISC-0165,EXP-891-003,creature,new_creature_species,low,True,True,discovery_mandate_time,Hesta Vorn
+DISC-0166,EXP-891-003,phenomenon,temporal_inconsistency,high,True,True,accident,Wenna Fost
+DISC-0167,EXP-891-003,creature,unknown_predator_sign,high,True,True,route_deviation,Orna Kellith
+DISC-0168,EXP-891-005,geographic,water_source,medium,True,True,discovery_mandate_time,Hesta Vorn
+DISC-0169,EXP-891-007,artifact,buried_cache,high,True,True,accident,Penn Kellor
+DISC-0170,EXP-891-007,geographic,terrain_mapping,medium,True,True,crew_suggestion,Mik Torvas
+DISC-0171,EXP-891-010,creature,unknown_predator_sign,medium,False,False,curiosity_investigation,Hesta Vorn
+DISC-0172,EXP-891-010,artifact,tool_fragment,medium,True,True,accident,Joren Pell
+DISC-0173,EXP-891-010,phenomenon,temporal_inconsistency,medium,True,True,crew_suggestion,Orna Kellith
+DISC-0174,EXP-892-001,creature,unknown_predator_sign,major,True,True,curiosity_investigation,Joren Pell
+DISC-0175,EXP-892-001,artifact,memorial_site,low,True,True,curiosity_investigation,Pell Drenn
+DISC-0176,EXP-892-001,artifact,mineral_deposit,low,True,True,crew_suggestion,Pell Drenn
+DISC-0177,EXP-892-008,artifact,inscribed_stone,medium,True,True,accident,Wenna Fost
+DISC-0178,EXP-892-008,creature,glunge_colony,medium,True,False,scheduled_survey,Mik Torvas
+DISC-0179,EXP-893-001,creature,creature_nesting_site,high,False,True,route_deviation,Kern Hollith
+DISC-0180,EXP-893-001,artifact,ancient_structure,low,False,True,rest_period_observation,crew_collective
+DISC-0181,EXP-893-001,phenomenon,stability_indicator,low,False,True,accident,Penn Kellor
+DISC-0182,EXP-893-007,phenomenon,atmospheric_effect,low,False,True,curiosity_investigation,Mik Torvas
+DISC-0183,EXP-893-007,geographic,defensible_position,medium,True,True,crew_suggestion,Pell Drenn
+DISC-0184,EXP-893-008,geographic,defensible_position,low,True,True,accident,Tess Varn
+DISC-0185,EXP-893-008,artifact,inscribed_stone,low,True,False,scheduled_survey,Wenna Fost
+DISC-0186,EXP-894-001,geographic,water_source,medium,False,True,accident,Orna Kellith
+DISC-0187,EXP-894-004,geographic,shelter_location,medium,False,True,discovery_mandate_time,Kern Hollith
+DISC-0188,EXP-894-004,phenomenon,compass_deviation_pattern,medium,True,True,crew_suggestion,Tesson Vash
+DISC-0189,EXP-894-004,geographic,terrain_mapping,low,True,False,scheduled_survey,Pell Drenn
+DISC-0190,EXP-894-006,geographic,landmark_documentation,medium,False,False,retreat_observation,Tesson Vash
+DISC-0191,EXP-894-006,phenomenon,stability_indicator,medium,True,True,rest_period_observation,Hesta Vorn
+DISC-0192,EXP-894-006,geographic,cave_system,low,False,False,crew_suggestion,unknown
+DISC-0193,EXP-894-007,creature,creature_habitat,medium,True,True,crew_suggestion,Hesta Vorn
+DISC-0194,EXP-894-007,artifact,ancient_structure,medium,True,True,route_deviation,Pell Drenn
+DISC-0195,EXP-894-008,creature,creature_migration_route,low,False,True,accident,unknown
+DISC-0196,EXP-894-008,geographic,terrain_mapping,high,True,False,protocol_objective,Pell Drenn
+DISC-0197,EXP-894-008,phenomenon,spatial_anomaly_minor,medium,True,True,curiosity_investigation,Hesta Vorn
+DISC-0198,EXP-894-009,creature,creature_nesting_site,medium,False,True,route_deviation,Pell Drenn
+DISC-0199,EXP-895-002,phenomenon,compass_deviation_pattern,major,True,True,accident,Tesson Vash
+DISC-0200,EXP-895-002,artifact,abandoned_equipment,medium,True,False,protocol_objective,Pell Drenn
+DISC-0201,EXP-895-003,artifact,inscribed_stone,high,True,False,scheduled_survey,unknown
+DISC-0202,EXP-895-003,artifact,mineral_deposit,high,False,True,discovery_mandate_time,crew_collective
+DISC-0203,EXP-895-005,geographic,landmark_documentation,low,False,True,accident,Penn Kellor
+DISC-0204,EXP-896-004,phenomenon,atmospheric_effect,low,True,False,creature_tracking,Tess Varn
+DISC-0205,EXP-896-004,geographic,geological_formation,major,True,True,route_deviation,Mik Torvas
+DISC-0206,EXP-896-004,artifact,mineral_deposit,medium,True,True,crew_suggestion,unknown
+DISC-0207,EXP-897-003,artifact,mineral_deposit,low,True,False,scheduled_survey,Kern Hollith
+DISC-0208,EXP-897-004,artifact,memorial_site,high,False,False,discovery_mandate_time,Hesta Vorn
+DISC-0209,EXP-897-006,phenomenon,compass_deviation_pattern,medium,False,True,rest_period_observation,Orna Kellith
+DISC-0210,EXP-897-006,phenomenon,compass_deviation_pattern,major,True,False,scheduled_survey,Kern Hollith
+DISC-0211,EXP-897-007,artifact,ancient_structure,low,False,True,crew_suggestion,Kira Venn
+DISC-0212,EXP-897-007,geographic,river_crossing,high,True,True,curiosity_investigation,Penn Kellor
+DISC-0213,EXP-897-009,phenomenon,atmospheric_effect,major,True,True,accident,Hesta Vorn
+DISC-0214,EXP-897-009,phenomenon,dissolution_sign,medium,False,True,discovery_mandate_time,unknown
+DISC-0215,EXP-897-011,phenomenon,dissolution_sign,medium,True,False,protocol_objective,Mik Torvas
+DISC-0216,EXP-898-002,artifact,memorial_site,high,True,True,discovery_mandate_time,Tesson Vash
+DISC-0217,EXP-898-008,artifact,inscribed_stone,high,True,False,protocol_objective,Tesson Vash
+DISC-0218,EXP-898-008,phenomenon,stability_indicator,high,False,False,creature_tracking,Vass Tonner
+DISC-0219,EXP-899-001,creature,new_creature_species,low,False,True,curiosity_investigation,Wenna Fost
+DISC-0220,EXP-899-001,artifact,historical_marker,major,False,False,rest_period_observation,Tess Varn
+DISC-0221,EXP-899-001,geographic,new_passage,medium,False,False,scheduled_survey,Kira Venn
+DISC-0222,EXP-899-004,creature,glunge_colony,low,True,False,protocol_objective,Wenna Fost
+DISC-0223,EXP-899-004,phenomenon,temporal_inconsistency,medium,False,False,accident,Tess Varn
+DISC-0224,EXP-899-004,creature,creature_nesting_site,major,False,True,curiosity_investigation,Kern Hollith
+DISC-0225,EXP-899-010,creature,creature_behavior_pattern,low,True,True,accident,Penn Kellor
+DISC-0226,EXP-899-010,artifact,abandoned_equipment,high,True,False,creature_tracking,Pell Drenn
+DISC-0227,EXP-899-010,geographic,terrain_mapping,low,True,False,protocol_objective,Joren Pell
+DISC-0228,EXP-900-008,phenomenon,unknown_phenomenon,high,False,False,scheduled_survey,Tess Varn
+DISC-0229,EXP-900-008,artifact,historical_marker,high,False,True,discovery_mandate_time,Kira Venn
+DISC-0230,EXP-900-008,artifact,abandoned_equipment,high,True,False,creature_tracking,Pell Drenn
+DISC-0231,EXP-900-012,creature,stakdur_variant,low,False,True,rest_period_observation,Tess Varn
+DISC-0232,EXP-900-012,creature,new_creature_species,high,True,False,protocol_objective,Pell Drenn
+DISC-0233,EXP-900-012,artifact,historical_marker,medium,True,True,discovery_mandate_time,Vass Tonner
+DISC-0234,EXP-901-003,geographic,shelter_location,low,False,False,creature_tracking,unknown
+DISC-0235,EXP-901-003,geographic,terrain_mapping,medium,False,False,shelter_search,Pell Drenn
+DISC-0236,EXP-901-003,geographic,cave_system,low,False,True,curiosity_investigation,unknown
+DISC-0237,EXP-901-004,geographic,shelter_location,high,False,False,supply_search,Hesta Vorn
+DISC-0238,EXP-901-004,geographic,shelter_location,medium,False,True,crew_suggestion,Kira Venn
+DISC-0239,EXP-901-004,creature,creature_behavior_pattern,medium,False,False,accident,Kira Venn
+DISC-0240,EXP-901-005,phenomenon,atmospheric_effect,low,True,True,curiosity_investigation,Kern Hollith
+DISC-0241,EXP-901-006,geographic,new_passage,medium,False,True,discovery_mandate_time,crew_collective
+DISC-0242,EXP-901-006,geographic,elevation_survey,low,False,True,curiosity_investigation,crew_collective
+DISC-0243,EXP-901-006,geographic,terrain_mapping,medium,True,False,protocol_objective,Vass Tonner
+DISC-0244,EXP-901-010,geographic,elevation_survey,medium,False,False,rest_period_observation,Tess Varn
+DISC-0245,EXP-901-014,artifact,ancient_structure,high,False,True,curiosity_investigation,Joren Pell
+DISC-0246,EXP-901-014,creature,glunge_colony,low,True,False,scheduled_survey,Vass Tonner
+DISC-0247,EXP-901-014,phenomenon,landmark_shift,high,True,True,route_deviation,Wenna Fost
+DISC-0248,EXP-902-002,creature,new_creature_species,low,False,True,crew_suggestion,Kern Hollith
+DISC-0249,EXP-902-012,creature,creature_nesting_site,low,True,False,creature_tracking,Joren Pell
+DISC-0250,EXP-902-012,geographic,landmark_documentation,high,False,False,creature_tracking,Tess Varn
+DISC-0251,EXP-903-004,creature,creature_migration_route,medium,False,True,route_deviation,Tess Varn
+DISC-0252,EXP-903-005,geographic,elevation_survey,low,True,True,rest_period_observation,Tess Varn
+DISC-0253,EXP-903-005,creature,creature_migration_route,medium,True,False,protocol_objective,Pell Drenn
+DISC-0254,EXP-903-006,creature,creature_migration_route,medium,True,True,curiosity_investigation,Mik Torvas
+DISC-0255,EXP-904-003,artifact,historical_marker,low,False,True,curiosity_investigation,Joren Pell
+DISC-0256,EXP-904-003,creature,glunge_colony,high,False,False,shelter_search,Vass Tonner
+DISC-0257,EXP-904-003,creature,creature_migration_route,medium,False,True,crew_suggestion,Orna Kellith
+DISC-0258,EXP-904-010,phenomenon,landmark_shift,low,True,True,crew_suggestion,Joren Pell
+DISC-0259,EXP-904-010,artifact,memorial_site,low,False,False,protocol_objective,Joren Pell
+DISC-0260,EXP-904-010,artifact,tool_fragment,high,True,True,discovery_mandate_time,Tess Varn
+DISC-0261,EXP-904-011,phenomenon,atmospheric_effect,low,False,False,rest_period_observation,Vass Tonner
+DISC-0262,EXP-905-006,creature,creature_nesting_site,low,False,True,rest_period_observation,Pell Drenn
+DISC-0263,EXP-905-008,creature,creature_interaction,low,False,False,retreat_observation,Vass Tonner
+DISC-0264,EXP-905-011,creature,stakdur_variant,medium,True,False,creature_tracking,Vass Tonner
+DISC-0265,EXP-905-013,artifact,mineral_deposit,low,False,True,accident,crew_collective
+DISC-0266,EXP-905-014,artifact,buried_cache,medium,False,False,retreat_observation,Vass Tonner
+DISC-0267,EXP-906-002,creature,glunge_colony,high,True,False,scheduled_survey,Mik Torvas
+DISC-0268,EXP-906-002,phenomenon,stability_indicator,medium,True,True,curiosity_investigation,Penn Kellor
+DISC-0269,EXP-906-002,phenomenon,temporal_inconsistency,medium,False,True,crew_suggestion,crew_collective
+DISC-0270,EXP-906-005,geographic,cave_system,major,True,True,discovery_mandate_time,Tess Varn
+DISC-0271,EXP-906-005,phenomenon,dissolution_sign,low,False,True,crew_suggestion,Tesson Vash
+DISC-0272,EXP-906-008,geographic,cave_system,medium,True,True,route_deviation,unknown
+DISC-0273,EXP-906-008,phenomenon,dissolution_sign,medium,True,True,discovery_mandate_time,Penn Kellor
+DISC-0274,EXP-906-008,creature,glunge_colony,low,False,True,crew_suggestion,Tess Varn
+DISC-0275,EXP-907-002,artifact,inscribed_stone,low,False,True,accident,Tess Varn
+DISC-0276,EXP-907-002,creature,creature_interaction,medium,False,True,crew_suggestion,Tesson Vash
+DISC-0277,EXP-907-008,phenomenon,compass_deviation_pattern,medium,True,False,protocol_objective,Tess Varn
+DISC-0278,EXP-907-009,creature,unknown_predator_sign,low,False,False,shelter_search,Vass Tonner
+DISC-0279,EXP-908-001,artifact,previous_expedition_remains,medium,True,False,scheduled_survey,crew_collective
+DISC-0280,EXP-908-003,geographic,shelter_location,low,False,True,rest_period_observation,Pell Drenn
+DISC-0281,EXP-908-004,phenomenon,stability_indicator,low,False,True,crew_suggestion,crew_collective
+DISC-0282,EXP-908-007,geographic,defensible_position,medium,True,True,rest_period_observation,Tesson Vash
+DISC-0283,EXP-908-007,artifact,historical_marker,low,True,True,rest_period_observation,Joren Pell
+DISC-0284,EXP-908-007,geographic,shelter_location,low,True,False,scheduled_survey,Kern Hollith
+DISC-0285,EXP-908-009,geographic,shelter_location,medium,False,True,crew_suggestion,Mik Torvas
+DISC-0286,EXP-909-009,phenomenon,stability_indicator,low,False,False,curiosity_investigation,Mik Torvas
+DISC-0287,EXP-909-009,artifact,previous_expedition_remains,major,True,False,scheduled_survey,Kira Venn
+DISC-0288,EXP-909-009,artifact,buried_cache,low,True,False,scheduled_survey,Joren Pell
+DISC-0289,EXP-909-010,creature,creature_interaction,medium,True,True,rest_period_observation,unknown
+DISC-0290,EXP-909-010,artifact,historical_marker,medium,True,True,route_deviation,unknown
+DISC-0291,EXP-910-005,phenomenon,temporal_inconsistency,medium,False,False,curiosity_investigation,Hesta Vorn
+DISC-0292,EXP-910-005,creature,new_creature_species,medium,True,True,route_deviation,Orna Kellith
+DISC-0293,EXP-910-006,creature,stakdur_variant,medium,True,True,rest_period_observation,Mik Torvas
+DISC-0294,EXP-910-006,creature,creature_nesting_site,high,True,False,scheduled_survey,Orna Kellith
+DISC-0295,EXP-910-006,creature,creature_behavior_pattern,medium,False,True,rest_period_observation,Joren Pell
+DISC-0296,EXP-910-008,artifact,ancient_structure,major,False,True,crew_suggestion,Wenna Fost
+DISC-0297,EXP-910-010,creature,glunge_colony,medium,True,True,crew_suggestion,Joren Pell
+DISC-0298,EXP-910-010,phenomenon,dissolution_sign,medium,False,False,discovery_mandate_time,Mik Torvas
+DISC-0299,EXP-910-012,creature,creature_migration_route,medium,True,True,crew_suggestion,unknown
+DISC-0300,EXP-910-012,artifact,ancient_structure,medium,True,False,protocol_objective,Vass Tonner
+DISC-0301,EXP-911-005,geographic,river_crossing,high,False,True,crew_suggestion,Tesson Vash
+DISC-0302,EXP-911-005,artifact,memorial_site,low,True,True,rest_period_observation,Penn Kellor
+DISC-0303,EXP-911-007,geographic,river_crossing,low,False,False,accident,Mik Torvas
+DISC-0304,EXP-911-007,phenomenon,spatial_anomaly_minor,low,False,False,accident,Kern Hollith
+DISC-0305,EXP-911-007,phenomenon,spatial_anomaly_minor,major,True,False,protocol_objective,Joren Pell
+DISC-0306,EXP-911-009,geographic,landmark_documentation,medium,True,False,protocol_objective,Tess Varn
+DISC-0307,EXP-911-009,geographic,geological_formation,high,False,True,accident,Mik Torvas
+DISC-0308,EXP-912-004,creature,glunge_colony,medium,False,True,curiosity_investigation,Kern Hollith
+DISC-0309,EXP-912-009,creature,creature_migration_route,major,True,True,crew_suggestion,Hesta Vorn
+DISC-0310,EXP-912-009,artifact,ancient_structure,low,True,False,protocol_objective,Penn Kellor
+DISC-0311,EXP-913-001,phenomenon,compass_deviation_pattern,medium,False,True,curiosity_investigation,Orna Kellith
+DISC-0312,EXP-913-002,creature,creature_habitat,low,True,True,curiosity_investigation,Kern Hollith
+DISC-0313,EXP-913-002,phenomenon,temporal_inconsistency,medium,False,False,rest_period_observation,unknown
+DISC-0314,EXP-913-002,geographic,elevation_survey,major,False,True,accident,Orna Kellith
+DISC-0315,EXP-913-008,artifact,tool_fragment,high,False,False,supply_search,Hesta Vorn
+DISC-0316,EXP-913-008,creature,unknown_predator_sign,low,True,False,scheduled_survey,Kira Venn
+DISC-0317,EXP-913-010,creature,unknown_predator_sign,medium,False,True,crew_suggestion,Tess Varn
+DISC-0318,EXP-913-010,artifact,abandoned_equipment,low,True,True,accident,unknown
+DISC-0319,EXP-913-013,artifact,historical_marker,major,True,True,accident,Mik Torvas
+DISC-0320,EXP-914-001,artifact,tool_fragment,medium,True,True,route_deviation,Kira Venn
+DISC-0321,EXP-914-002,artifact,inscribed_stone,medium,False,True,accident,unknown
+DISC-0322,EXP-914-002,creature,creature_behavior_pattern,high,False,True,curiosity_investigation,Hesta Vorn
+DISC-0323,EXP-914-005,artifact,memorial_site,medium,False,False,discovery_mandate_time,Kira Venn
+DISC-0324,EXP-914-005,artifact,tool_fragment,low,False,True,route_deviation,Mik Torvas
+DISC-0325,EXP-915-001,geographic,elevation_survey,low,True,False,creature_tracking,Kern Hollith
+DISC-0326,EXP-915-001,phenomenon,stability_indicator,medium,False,False,retreat_observation,Joren Pell
+DISC-0327,EXP-915-005,phenomenon,atmospheric_effect,high,False,False,curiosity_investigation,Vass Tonner
+DISC-0328,EXP-915-005,phenomenon,boundary_fluctuation,medium,False,False,curiosity_investigation,Kira Venn
+DISC-0329,EXP-915-005,geographic,defensible_position,low,True,False,protocol_objective,crew_collective
+DISC-0331,EXP-917-009,artifact,previous_expedition_remains,medium,True,True,route_deviation,Kira Venn
+DISC-0332,EXP-917-009,artifact,buried_cache,low,False,False,accident,Vass Tonner
+DISC-0333,EXP-917-009,phenomenon,temporal_inconsistency,low,True,False,protocol_objective,Wenna Fost
+DISC-0334,EXP-918-003,geographic,water_source,medium,True,False,protocol_objective,Pell Drenn
+DISC-0335,EXP-918-003,phenomenon,temporal_inconsistency,medium,False,False,discovery_mandate_time,crew_collective
+DISC-0336,EXP-918-004,phenomenon,stability_indicator,medium,True,False,creature_tracking,unknown
+DISC-0337,EXP-918-008,artifact,buried_cache,medium,False,False,rest_period_observation,Kira Venn
+DISC-0338,EXP-918-008,geographic,water_source,medium,True,False,creature_tracking,unknown
+DISC-0339,EXP-918-009,geographic,cave_system,low,False,False,creature_tracking,Pell Drenn
+DISC-0340,EXP-919-001,artifact,buried_cache,medium,False,False,accident,Pell Drenn
+DISC-0341,EXP-919-001,creature,stakdur_variant,high,True,False,creature_tracking,Tess Varn
+DISC-0342,EXP-919-001,geographic,water_source,low,True,True,discovery_mandate_time,Kira Venn
+DISC-0343,EXP-919-002,geographic,terrain_mapping,high,False,True,discovery_mandate_time,Kira Venn
+DISC-0344,EXP-920-001,creature,creature_migration_route,low,True,False,creature_tracking,Orna Kellith
+DISC-0345,EXP-920-001,geographic,geological_formation,low,False,False,rest_period_observation,Joren Pell
+DISC-0346,EXP-920-001,phenomenon,dissolution_sign,medium,False,True,crew_suggestion,Tesson Vash
+DISC-0347,EXP-920-006,artifact,memorial_site,high,False,True,route_deviation,Kira Venn
+DISC-0348,EXP-920-006,geographic,terrain_mapping,major,False,False,curiosity_investigation,Kern Hollith
+DISC-0349,EXP-920-008,geographic,landmark_documentation,high,True,True,route_deviation,Tesson Vash
+DISC-0350,EXP-920-008,geographic,terrain_mapping,low,True,False,scheduled_survey,Pell Drenn
+DISC-0351,EXP-921-010,creature,creature_interaction,low,False,True,route_deviation,Hesta Vorn
+DISC-0352,EXP-921-010,phenomenon,landmark_shift,high,False,False,creature_tracking,Vass Tonner

@@ -1,0 +1,584 @@
+expedition_id,landmark_id,landmark_name,landmark_type,expected_bearing_deg,actual_bearing_deg,bearing_delta,expected_distance_km,actual_distance_km,distance_delta_km,visible,stable,observer_notes
+100,gray_spire,Gray Spire,rock_formation,45,43.514354480658945,-1.5,23.4,23.4,-0.0,True,True,position matches records
+100,twisted_grove,Twisted Grove,vegetation,78,76.569818126215,-1.4,31.2,31.1,-0.1,True,True,position matches records
+100,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,True,NOT FOUND - Dry Wash not visible
+100,standing_stones,Standing Stones,rock_formation,134,136.8539463527595,2.9,67.8,69.3,1.5,True,False,normal observation
+100,split_boulder,Split Boulder,rock_formation,156,156.0468196577081,0.0,89.2,88.6,-0.6,True,True,position matches records
+100,denstone_approach,Denstone Approach,settlement_edge,178,177.54362426359197,-0.5,142.3,142.0,-0.3,True,True,position matches records
+100,moat_crossing,Moat Crossing,infrastructure,180,180.25658624703533,0.3,187.0,186.9,-0.1,True,True,position matches records
+101,gradient_marker_a,Gradient Marker A,survey_stake,270,268.95176722386765,-1.0,2.0,2.0,0.0,True,False,normal observation
+101,gradient_marker_b,Gradient Marker B,survey_stake,270,268.8504236829512,-1.1,5.0,5.1,0.1,True,False,normal observation
+101,dens_edge,Dens Edge,terrain,270,,,14.0,,,False,True,NOT FOUND - Dens Edge not visible
+101,yeller_shack,Yeller Shack,structure,195,197.17931109869866,2.2,4.8,4.7,-0.1,True,False,normal observation
+102,gradient_marker_a,Gradient Marker A,survey_stake,270,,,2.0,,,False,False,NOT FOUND - Gradient Marker A not visible
+102,gradient_marker_b,Gradient Marker B,survey_stake,270,269.78054037706795,-0.2,5.0,5.0,-0.0,True,True,position matches records
+102,dens_edge,Dens Edge,terrain,270,271.9604658326781,2.0,14.0,13.8,-0.2,True,False,normal observation
+102,yeller_shack,Yeller Shack,structure,195,195.89801608052633,0.9,4.8,4.6,-0.2,True,False,normal observation
+103,gray_spire,Gray Spire,rock_formation,45,46.032311464009396,1.0,23.4,23.2,-0.2,True,False,normal observation
+103,twisted_grove,Twisted Grove,vegetation,78,79.12969835996894,1.1,31.2,31.3,0.1,True,True,position matches records
+103,dry_wash,Dry Wash,terrain,112,109.99748174969112,-2.0,45.6,45.5,-0.1,True,False,normal observation
+103,standing_stones,Standing Stones,rock_formation,134,136.37443170547255,2.4,67.8,69.0,1.2,True,False,normal observation
+103,split_boulder,Split Boulder,rock_formation,156,156.9691864883945,1.0,89.2,86.8,-2.4,True,False,normal observation
+103,denstone_approach,Denstone Approach,settlement_edge,178,176.29773935557213,-1.7,142.3,143.8,1.5,True,False,normal observation
+103,moat_crossing,Moat Crossing,infrastructure,180,179.7281535618485,-0.3,187.0,184.6,-2.4,True,False,normal observation
+104,gray_spire,Gray Spire,rock_formation,45,46.415835682504614,1.4,23.4,24.0,0.6,True,False,normal observation
+104,twisted_grove,Twisted Grove,vegetation,78,78.21957622931465,0.2,31.2,31.4,0.2,True,True,position matches records
+104,dry_wash,Dry Wash,terrain,112,112.65472883233052,0.7,45.6,46.3,0.7,True,False,normal observation
+104,standing_stones,Standing Stones,rock_formation,134,133.79381984928006,-0.2,67.8,66.9,-0.9,True,False,normal observation
+104,split_boulder,Split Boulder,rock_formation,156,158.0375831803716,2.0,89.2,88.9,-0.3,True,False,normal observation
+104,denstone_approach,Denstone Approach,settlement_edge,178,,,142.3,,,False,False,NOT FOUND - Denstone Approach not visible
+104,moat_crossing,Moat Crossing,infrastructure,180,181.53485770380672,1.5,187.0,183.8,-3.2,True,False,normal observation
+105,gradient_marker_a,Gradient Marker A,survey_stake,270,,,2.0,,,False,True,NOT FOUND - Gradient Marker A not visible
+105,gradient_marker_b,Gradient Marker B,survey_stake,270,270.3812336091681,0.4,5.0,4.9,-0.1,True,False,normal observation
+105,dens_edge,Dens Edge,terrain,270,,,14.0,,,False,True,NOT FOUND - Dens Edge not visible
+105,yeller_shack,Yeller Shack,structure,195,194.95795801882784,-0.0,4.8,4.7,-0.1,True,False,normal observation
+106,gray_spire,Gray Spire,rock_formation,45,45.76893265056196,0.8,23.4,23.3,-0.1,True,True,position matches records
+106,twisted_grove,Twisted Grove,vegetation,78,,,31.2,,,False,False,NOT FOUND - Twisted Grove not visible
+106,dry_wash,Dry Wash,terrain,112,113.65493812895728,1.7,45.6,44.7,-0.9,True,False,normal observation
+106,standing_stones,Standing Stones,rock_formation,134,135.51128735145593,1.5,67.8,66.9,-0.9,True,False,normal observation
+106,split_boulder,Split Boulder,rock_formation,156,158.88312628842687,2.9,89.2,91.1,1.9,True,False,normal observation
+106,denstone_approach,Denstone Approach,settlement_edge,178,176.22792008764304,-1.8,142.3,141.3,-1.0,True,True,position matches records
+106,moat_crossing,Moat Crossing,infrastructure,180,183.02697825994548,3.0,187.0,189.1,2.1,True,False,normal observation
+107,gray_spire,Gray Spire,rock_formation,45,46.02193340318028,1.0,23.4,23.4,-0.0,True,True,position matches records
+107,twisted_grove,Twisted Grove,vegetation,78,,,31.2,,,False,True,NOT FOUND - Twisted Grove not visible
+107,dry_wash,Dry Wash,terrain,112,111.15061107864744,-0.8,45.6,46.1,0.5,True,False,normal observation
+107,standing_stones,Standing Stones,rock_formation,134,134.4664266659,0.5,67.8,69.2,1.4,True,False,normal observation
+107,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,True,NOT FOUND - Split Boulder not visible
+107,denstone_approach,Denstone Approach,settlement_edge,178,178.4905584313569,0.5,142.3,143.8,1.5,True,False,normal observation
+107,moat_crossing,Moat Crossing,infrastructure,180,,,187.0,,,False,False,NOT FOUND - Moat Crossing not visible
+108,gray_spire,Gray Spire,rock_formation,45,46.0927941412838,1.1,23.4,23.7,0.3,True,False,normal observation
+108,twisted_grove,Twisted Grove,vegetation,78,,,31.2,,,False,True,NOT FOUND - Twisted Grove not visible
+108,dry_wash,Dry Wash,terrain,112,109.55958257432988,-2.4,45.6,44.6,-1.0,True,False,normal observation
+108,standing_stones,Standing Stones,rock_formation,134,134.31854816416305,0.3,67.8,67.8,-0.0,True,True,position matches records
+108,split_boulder,Split Boulder,rock_formation,156,155.98872086074536,-0.0,89.2,88.6,-0.6,True,True,position matches records
+108,denstone_approach,Denstone Approach,settlement_edge,178,180.5987661552901,2.6,142.3,140.8,-1.5,True,False,normal observation
+108,moat_crossing,Moat Crossing,infrastructure,180,180.7984292914435,0.8,187.0,182.0,-5.0,True,False,normal observation
+109,gradient_marker_a,Gradient Marker A,survey_stake,270,269.75859535713397,-0.2,2.0,2.0,0.0,True,False,normal observation
+109,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,False,NOT FOUND - Gradient Marker B not visible
+109,dens_edge,Dens Edge,terrain,270,269.98882572045795,-0.0,14.0,13.6,-0.4,True,False,normal observation
+109,yeller_shack,Yeller Shack,structure,195,194.9716654009918,-0.0,4.8,4.8,0.0,True,True,position matches records
+110,gray_spire,Gray Spire,rock_formation,45,43.578242260981234,-1.4,23.4,23.0,-0.4,True,False,normal observation
+110,twisted_grove,Twisted Grove,vegetation,78,76.45424064372601,-1.5,31.2,31.0,-0.2,True,True,position matches records
+110,dry_wash,Dry Wash,terrain,112,112.4343815130055,0.4,45.6,46.0,0.4,True,True,position matches records
+110,standing_stones,Standing Stones,rock_formation,134,,,67.8,,,False,False,NOT FOUND - Standing Stones not visible
+110,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,False,NOT FOUND - Split Boulder not visible
+110,denstone_approach,Denstone Approach,settlement_edge,178,179.7002999594677,1.7,142.3,144.5,2.2,True,False,normal observation
+110,moat_crossing,Moat Crossing,infrastructure,180,177.3509593321608,-2.6,187.0,184.5,-2.5,True,False,normal observation
+111,gray_spire,Gray Spire,rock_formation,45,45.924458027399936,0.9,23.4,23.7,0.3,True,False,normal observation
+111,twisted_grove,Twisted Grove,vegetation,78,78.37464763514254,0.4,31.2,31.3,0.1,True,True,position matches records
+111,dry_wash,Dry Wash,terrain,112,110.32129347398826,-1.7,45.6,45.4,-0.2,True,True,position matches records
+111,standing_stones,Standing Stones,rock_formation,134,133.92378595719603,-0.1,67.8,67.3,-0.5,True,True,position matches records
+111,split_boulder,Split Boulder,rock_formation,156,157.41776905475825,1.4,89.2,86.9,-2.3,True,False,normal observation
+111,denstone_approach,Denstone Approach,settlement_edge,178,176.39304686079905,-1.6,142.3,141.7,-0.6,True,True,position matches records
+111,moat_crossing,Moat Crossing,infrastructure,180,178.72540408522602,-1.3,187.0,188.6,1.6,True,True,position matches records
+112,gradient_marker_a,Gradient Marker A,survey_stake,270,266.57575248382085,-3.4,2.0,2.0,0.0,True,False,normal observation
+112,gradient_marker_b,Gradient Marker B,survey_stake,270,269.1954198414901,-0.8,5.0,4.9,-0.1,True,False,normal observation
+112,dens_edge,Dens Edge,terrain,270,271.1548814550127,1.2,14.0,14.2,0.2,True,False,normal observation
+112,yeller_shack,Yeller Shack,structure,195,194.2156691457902,-0.8,4.8,4.8,-0.0,True,True,position matches records
+113,gray_spire,Gray Spire,rock_formation,45,43.703055007621565,-1.3,23.4,23.9,0.5,True,False,normal observation
+113,twisted_grove,Twisted Grove,vegetation,78,78.1418536444997,0.1,31.2,31.0,-0.2,True,True,position matches records
+113,dry_wash,Dry Wash,terrain,112,111.21046131022204,-0.8,45.6,44.9,-0.7,True,False,normal observation
+113,standing_stones,Standing Stones,rock_formation,134,,,67.8,,,False,True,NOT FOUND - Standing Stones not visible
+113,split_boulder,Split Boulder,rock_formation,156,157.53504422055343,1.5,89.2,90.1,0.9,True,False,normal observation
+113,denstone_approach,Denstone Approach,settlement_edge,178,181.94710417434865,3.9,142.3,141.3,-1.0,True,False,normal observation
+113,moat_crossing,Moat Crossing,infrastructure,180,180.0033489504223,0.0,187.0,188.9,1.9,True,False,normal observation
+114,gray_spire,Gray Spire,rock_formation,45,46.99319600351539,2.0,23.4,23.5,0.1,True,True,position matches records
+114,twisted_grove,Twisted Grove,vegetation,78,76.25278197427481,-1.7,31.2,31.3,0.1,True,True,position matches records
+114,dry_wash,Dry Wash,terrain,112,113.17234436210894,1.2,45.6,46.7,1.1,True,False,normal observation
+114,standing_stones,Standing Stones,rock_formation,134,131.47094341898816,-2.5,67.8,68.5,0.7,True,False,normal observation
+114,split_boulder,Split Boulder,rock_formation,156,154.66532625088226,-1.3,89.2,87.0,-2.2,True,False,normal observation
+114,denstone_approach,Denstone Approach,settlement_edge,178,174.90993103633323,-3.1,142.3,144.7,2.4,True,False,normal observation
+114,moat_crossing,Moat Crossing,infrastructure,180,183.0672221787254,3.1,187.0,184.3,-2.7,True,False,normal observation
+115,gradient_marker_a,Gradient Marker A,survey_stake,270,,,2.0,,,False,True,NOT FOUND - Gradient Marker A not visible
+115,gradient_marker_b,Gradient Marker B,survey_stake,270,265.7375185071327,-4.3,5.0,5.1,0.1,True,False,normal observation
+115,dens_edge,Dens Edge,terrain,270,274.14482717210274,4.1,14.0,14.2,0.2,True,False,normal observation
+115,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,False,NOT FOUND - Yeller Shack not visible
+116,gray_spire,Gray Spire,rock_formation,45,45.0199734337198,0.0,23.4,23.6,0.2,True,False,normal observation
+116,twisted_grove,Twisted Grove,vegetation,78,79.11477905506403,1.1,31.2,31.1,-0.1,True,True,position matches records
+116,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,False,NOT FOUND - Dry Wash not visible
+116,standing_stones,Standing Stones,rock_formation,134,134.19266822034552,0.2,67.8,68.4,0.6,True,True,position matches records
+116,split_boulder,Split Boulder,rock_formation,156,152.1500192191593,-3.8,89.2,88.5,-0.7,True,False,normal observation
+116,denstone_approach,Denstone Approach,settlement_edge,178,180.13777566366443,2.1,142.3,143.8,1.5,True,False,normal observation
+116,moat_crossing,Moat Crossing,infrastructure,180,178.72459213648315,-1.3,187.0,187.0,-0.0,True,True,position matches records
+117,gray_spire,Gray Spire,rock_formation,45,46.00938625859651,1.0,23.4,23.8,0.4,True,False,normal observation
+117,twisted_grove,Twisted Grove,vegetation,78,78.40044345307903,0.4,31.2,31.0,-0.2,True,True,position matches records
+117,dry_wash,Dry Wash,terrain,112,113.26827015970015,1.3,45.6,46.3,0.7,True,False,normal observation
+117,standing_stones,Standing Stones,rock_formation,134,131.1235934091952,-2.9,67.8,66.4,-1.4,True,False,normal observation
+117,split_boulder,Split Boulder,rock_formation,156,154.57299189030675,-1.4,89.2,91.2,2.0,True,False,normal observation
+117,denstone_approach,Denstone Approach,settlement_edge,178,178.57390932301314,0.6,142.3,145.1,2.8,True,False,normal observation
+117,moat_crossing,Moat Crossing,infrastructure,180,179.44848944733704,-0.6,187.0,187.0,-0.0,True,True,position matches records
+118,gray_spire,Gray Spire,rock_formation,45,44.113685849912116,-0.9,23.4,23.0,-0.4,True,False,normal observation
+118,twisted_grove,Twisted Grove,vegetation,78,78.09373005298049,0.1,31.2,30.9,-0.3,True,True,position matches records
+118,dry_wash,Dry Wash,terrain,112,107.7204750656304,-4.3,45.6,46.1,0.5,True,False,normal observation
+118,standing_stones,Standing Stones,rock_formation,134,135.66915771955908,1.7,67.8,66.7,-1.1,True,False,normal observation
+118,split_boulder,Split Boulder,rock_formation,156,154.9910620357262,-1.0,89.2,88.4,-0.8,True,True,position matches records
+118,denstone_approach,Denstone Approach,settlement_edge,178,,,142.3,,,False,False,NOT FOUND - Denstone Approach not visible
+118,moat_crossing,Moat Crossing,infrastructure,180,178.40725172673126,-1.6,187.0,186.4,-0.6,True,True,position matches records
+119,gray_spire,Gray Spire,rock_formation,45,45.56505933034995,0.6,23.4,23.9,0.5,True,False,normal observation
+119,twisted_grove,Twisted Grove,vegetation,78,78.93878337960798,0.9,31.2,31.5,0.3,True,False,normal observation
+119,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,False,NOT FOUND - Dry Wash not visible
+119,standing_stones,Standing Stones,rock_formation,134,133.85154478222668,-0.1,67.8,67.5,-0.3,True,True,position matches records
+119,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,False,NOT FOUND - Split Boulder not visible
+119,denstone_approach,Denstone Approach,settlement_edge,178,178.51475858022042,0.5,142.3,142.8,0.5,True,True,position matches records
+119,moat_crossing,Moat Crossing,infrastructure,180,177.0590781833538,-2.9,187.0,185.5,-1.5,True,False,normal observation
+120,gray_spire,Gray Spire,rock_formation,45,47.66225890079802,2.7,23.4,23.6,0.2,True,False,normal observation
+120,twisted_grove,Twisted Grove,vegetation,78,75.76231132013733,-2.2,31.2,31.0,-0.2,True,False,normal observation
+120,dry_wash,Dry Wash,terrain,112,109.96885938150812,-2.0,45.6,44.8,-0.8,True,False,normal observation
+120,standing_stones,Standing Stones,rock_formation,134,134.69397108626512,0.7,67.8,68.3,0.5,True,True,position matches records
+120,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,False,NOT FOUND - Split Boulder not visible
+120,denstone_approach,Denstone Approach,settlement_edge,178,,,142.3,,,False,True,NOT FOUND - Denstone Approach not visible
+120,moat_crossing,Moat Crossing,infrastructure,180,178.9426865087947,-1.1,187.0,193.5,6.5,True,False,distance significantly different (6.5km)
+121,gray_spire,Gray Spire,rock_formation,45,42.13817441023401,-2.9,23.4,23.8,0.4,True,False,normal observation
+121,twisted_grove,Twisted Grove,vegetation,78,77.55733655269681,-0.4,31.2,31.5,0.3,True,True,position matches records
+121,dry_wash,Dry Wash,terrain,112,110.87257454136657,-1.1,45.6,46.7,1.1,True,False,normal observation
+121,standing_stones,Standing Stones,rock_formation,134,130.56470346543048,-3.4,67.8,67.7,-0.1,True,False,normal observation
+121,split_boulder,Split Boulder,rock_formation,156,155.98643072796443,-0.0,89.2,89.8,0.6,True,True,position matches records
+121,denstone_approach,Denstone Approach,settlement_edge,178,175.56385624690517,-2.4,142.3,143.6,1.3,True,False,normal observation
+121,moat_crossing,Moat Crossing,infrastructure,180,177.9687408615095,-2.0,187.0,188.2,1.2,True,False,normal observation
+122,gray_spire,Gray Spire,rock_formation,45,43.659012512097895,-1.3,23.4,23.3,-0.1,True,True,position matches records
+122,twisted_grove,Twisted Grove,vegetation,78,77.82503895641551,-0.2,31.2,30.8,-0.4,True,False,normal observation
+122,dry_wash,Dry Wash,terrain,112,112.13037267613083,0.1,45.6,43.8,-1.8,True,False,normal observation
+122,standing_stones,Standing Stones,rock_formation,134,,,67.8,,,False,True,NOT FOUND - Standing Stones not visible
+122,split_boulder,Split Boulder,rock_formation,156,157.8290262651043,1.8,89.2,88.3,-0.9,True,False,normal observation
+122,denstone_approach,Denstone Approach,settlement_edge,178,177.02073931878357,-1.0,142.3,141.2,-1.1,True,True,position matches records
+122,moat_crossing,Moat Crossing,infrastructure,180,184.33099316154937,4.3,187.0,186.2,-0.8,True,False,normal observation
+123,gradient_marker_a,Gradient Marker A,survey_stake,270,270.04868652426154,0.0,2.0,2.0,0.0,True,False,normal observation
+123,gradient_marker_b,Gradient Marker B,survey_stake,270,269.7673030895859,-0.2,5.0,4.9,-0.1,True,False,normal observation
+123,dens_edge,Dens Edge,terrain,270,268.1429963046508,-1.9,14.0,13.8,-0.2,True,False,normal observation
+123,yeller_shack,Yeller Shack,structure,195,193.48044210313216,-1.5,4.8,4.7,-0.1,True,False,normal observation
+124,gray_spire,Gray Spire,rock_formation,45,45.128825969064046,0.1,23.4,23.2,-0.2,True,False,normal observation
+124,twisted_grove,Twisted Grove,vegetation,78,77.27217369957387,-0.7,31.2,31.8,0.6,True,False,normal observation
+124,dry_wash,Dry Wash,terrain,112,109.95578162564794,-2.0,45.6,44.4,-1.2,True,False,normal observation
+124,standing_stones,Standing Stones,rock_formation,134,,,67.8,,,False,False,NOT FOUND - Standing Stones not visible
+124,split_boulder,Split Boulder,rock_formation,156,152.91511796545387,-3.1,89.2,90.1,0.9,True,False,normal observation
+124,denstone_approach,Denstone Approach,settlement_edge,178,177.13888898320826,-0.9,142.3,141.1,-1.2,True,True,position matches records
+124,moat_crossing,Moat Crossing,infrastructure,180,178.90155356598007,-1.1,187.0,184.8,-2.2,True,False,normal observation
+125,gradient_marker_a,Gradient Marker A,survey_stake,270,,,2.0,,,False,True,NOT FOUND - Gradient Marker A not visible
+125,gradient_marker_b,Gradient Marker B,survey_stake,270,268.9305217602937,-1.1,5.0,5.1,0.1,True,False,normal observation
+125,dens_edge,Dens Edge,terrain,270,271.2461139713047,1.2,14.0,14.1,0.1,True,True,position matches records
+125,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,False,NOT FOUND - Yeller Shack not visible
+126,gradient_marker_a,Gradient Marker A,survey_stake,270,267.36579731510227,-2.6,2.0,2.0,0.0,True,False,normal observation
+126,gradient_marker_b,Gradient Marker B,survey_stake,270,269.87747153335823,-0.1,5.0,4.9,-0.1,True,False,normal observation
+126,dens_edge,Dens Edge,terrain,270,269.64961922858015,-0.4,14.0,13.9,-0.1,True,True,position matches records
+126,yeller_shack,Yeller Shack,structure,195,197.4369392960746,2.4,4.8,4.7,-0.1,True,False,normal observation
+127,gray_spire,Gray Spire,rock_formation,45,45.96088279896832,1.0,23.4,23.3,-0.1,True,True,position matches records
+127,twisted_grove,Twisted Grove,vegetation,78,78.2804362285097,0.3,31.2,31.2,0.0,True,True,position matches records
+127,dry_wash,Dry Wash,terrain,112,112.20215251783424,0.2,45.6,45.5,-0.1,True,True,position matches records
+127,standing_stones,Standing Stones,rock_formation,134,133.7565378386737,-0.2,67.8,67.9,0.1,True,True,position matches records
+127,split_boulder,Split Boulder,rock_formation,156,154.92446549688944,-1.1,89.2,88.5,-0.7,True,True,position matches records
+127,denstone_approach,Denstone Approach,settlement_edge,178,179.02158745655862,1.0,142.3,144.3,2.0,True,False,normal observation
+127,moat_crossing,Moat Crossing,infrastructure,180,181.61528298133823,1.6,187.0,186.2,-0.8,True,True,position matches records
+128,gray_spire,Gray Spire,rock_formation,45,45.030668443188524,0.0,23.4,23.9,0.5,True,False,normal observation
+128,twisted_grove,Twisted Grove,vegetation,78,77.60481561397965,-0.4,31.2,31.5,0.3,True,True,position matches records
+128,dry_wash,Dry Wash,terrain,112,112.55006574736026,0.6,45.6,46.2,0.6,True,False,normal observation
+128,standing_stones,Standing Stones,rock_formation,134,134.33557173391745,0.3,67.8,68.4,0.6,True,True,position matches records
+128,split_boulder,Split Boulder,rock_formation,156,156.74663641985236,0.7,89.2,88.6,-0.6,True,True,position matches records
+128,denstone_approach,Denstone Approach,settlement_edge,178,179.81564746204967,1.8,142.3,142.5,0.2,True,True,position matches records
+128,moat_crossing,Moat Crossing,infrastructure,180,179.14823005202751,-0.9,187.0,184.8,-2.2,True,False,normal observation
+129,gradient_marker_a,Gradient Marker A,survey_stake,270,271.8904954292562,1.9,2.0,2.0,-0.0,True,True,position matches records
+129,gradient_marker_b,Gradient Marker B,survey_stake,270,272.5741013365185,2.6,5.0,5.0,-0.0,True,False,normal observation
+129,dens_edge,Dens Edge,terrain,270,272.0531134318139,2.1,14.0,13.7,-0.3,True,False,normal observation
+129,yeller_shack,Yeller Shack,structure,195,198.88222499309055,3.9,4.8,4.9,0.1,True,False,normal observation
+130,gradient_marker_a,Gradient Marker A,survey_stake,270,267.1201817732903,-2.9,2.0,2.0,-0.0,True,False,normal observation
+130,gradient_marker_b,Gradient Marker B,survey_stake,270,269.5071162575087,-0.5,5.0,5.0,-0.0,True,True,position matches records
+130,dens_edge,Dens Edge,terrain,270,,,14.0,,,False,False,NOT FOUND - Dens Edge not visible
+130,yeller_shack,Yeller Shack,structure,195,197.85274674329662,2.9,4.8,4.9,0.1,True,False,normal observation
+131,gray_spire,Gray Spire,rock_formation,45,,,23.4,,,False,True,NOT FOUND - Gray Spire not visible
+131,twisted_grove,Twisted Grove,vegetation,78,82.30939624729237,4.3,31.2,31.4,0.2,True,False,normal observation
+131,dry_wash,Dry Wash,terrain,112,111.598118621138,-0.4,45.6,45.2,-0.4,True,True,position matches records
+131,standing_stones,Standing Stones,rock_formation,134,,,67.8,,,False,False,NOT FOUND - Standing Stones not visible
+131,split_boulder,Split Boulder,rock_formation,156,152.92458801094804,-3.1,89.2,87.0,-2.2,True,False,normal observation
+131,denstone_approach,Denstone Approach,settlement_edge,178,175.02532636260293,-3.0,142.3,141.8,-0.5,True,False,normal observation
+131,moat_crossing,Moat Crossing,infrastructure,180,179.52194011641183,-0.5,187.0,186.3,-0.7,True,True,position matches records
+132,gray_spire,Gray Spire,rock_formation,45,,,23.4,,,False,True,NOT FOUND - Gray Spire not visible
+132,twisted_grove,Twisted Grove,vegetation,78,77.55173438596391,-0.4,31.2,30.8,-0.4,True,False,normal observation
+132,dry_wash,Dry Wash,terrain,112,112.0016659264045,0.0,45.6,45.7,0.1,True,True,position matches records
+132,standing_stones,Standing Stones,rock_formation,134,134.02876775690274,0.0,67.8,67.8,-0.0,True,True,position matches records
+132,split_boulder,Split Boulder,rock_formation,156,155.7418197056471,-0.3,89.2,89.4,0.2,True,True,position matches records
+132,denstone_approach,Denstone Approach,settlement_edge,178,177.93758200201088,-0.1,142.3,141.2,-1.1,True,True,position matches records
+132,moat_crossing,Moat Crossing,infrastructure,180,182.60615654758277,2.6,187.0,180.2,-6.8,True,False,distance significantly different (6.8km)
+133,gray_spire,Gray Spire,rock_formation,45,45.18285846994254,0.2,23.4,23.3,-0.1,True,True,position matches records
+133,twisted_grove,Twisted Grove,vegetation,78,78.10511660319887,0.1,31.2,31.5,0.3,True,False,normal observation
+133,dry_wash,Dry Wash,terrain,112,111.40864404736782,-0.6,45.6,46.4,0.8,True,False,normal observation
+133,standing_stones,Standing Stones,rock_formation,134,132.448258917052,-1.6,67.8,67.2,-0.6,True,True,position matches records
+133,split_boulder,Split Boulder,rock_formation,156,152.27531491425668,-3.7,89.2,90.7,1.5,True,False,normal observation
+133,denstone_approach,Denstone Approach,settlement_edge,178,178.2676440030297,0.3,142.3,144.2,1.9,True,False,normal observation
+133,moat_crossing,Moat Crossing,infrastructure,180,,,187.0,,,False,False,NOT FOUND - Moat Crossing not visible
+134,gradient_marker_a,Gradient Marker A,survey_stake,270,270.5993327365448,0.6,2.0,2.0,-0.0,True,False,normal observation
+134,gradient_marker_b,Gradient Marker B,survey_stake,270,267.49976257983684,-2.5,5.0,4.9,-0.1,True,False,normal observation
+134,dens_edge,Dens Edge,terrain,270,265.76809298900474,-4.2,14.0,14.2,0.2,True,False,normal observation
+134,yeller_shack,Yeller Shack,structure,195,198.49913478450983,3.5,4.8,4.6,-0.2,True,False,normal observation
+135,gray_spire,Gray Spire,rock_formation,45,46.70030097872622,1.7,23.4,23.4,-0.0,True,True,position matches records
+135,twisted_grove,Twisted Grove,vegetation,78,77.37172532410413,-0.6,31.2,31.2,-0.0,True,True,position matches records
+135,dry_wash,Dry Wash,terrain,112,117.82766628888592,5.8,45.6,46.3,0.7,True,False,moderate bearing variance
+135,standing_stones,Standing Stones,rock_formation,134,,,67.8,,,False,True,NOT FOUND - Standing Stones not visible
+135,split_boulder,Split Boulder,rock_formation,156,152.75294525643423,-3.2,89.2,89.4,0.2,True,False,normal observation
+135,denstone_approach,Denstone Approach,settlement_edge,178,178.4021155604898,0.4,142.3,140.1,-2.2,True,False,normal observation
+135,moat_crossing,Moat Crossing,infrastructure,180,184.03899017803116,4.0,187.0,189.0,2.0,True,False,normal observation
+136,gradient_marker_a,Gradient Marker A,survey_stake,270,268.43603446709625,-1.6,2.0,2.0,0.0,True,False,normal observation
+136,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,False,NOT FOUND - Gradient Marker B not visible
+136,dens_edge,Dens Edge,terrain,270,273.24640570715025,3.2,14.0,13.9,-0.1,True,False,normal observation
+136,yeller_shack,Yeller Shack,structure,195,195.88110580408116,0.9,4.8,4.8,-0.0,True,True,position matches records
+137,gradient_marker_a,Gradient Marker A,survey_stake,270,270.39762027294825,0.4,2.0,2.0,0.0,True,True,position matches records
+137,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,True,NOT FOUND - Gradient Marker B not visible
+137,dens_edge,Dens Edge,terrain,270,269.88482134779645,-0.1,14.0,13.7,-0.3,True,False,normal observation
+137,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,False,NOT FOUND - Yeller Shack not visible
+138,gradient_marker_a,Gradient Marker A,survey_stake,270,270.0,0.0,2.0,2.0,0.0,True,True,position matches records
+138,gradient_marker_b,Gradient Marker B,survey_stake,270,270.0,0.0,5.0,5.0,0.0,True,True,position matches records
+138,dens_edge,Dens Edge,terrain,270,270.0,0.0,14.0,14.0,0.0,True,True,position matches records
+138,yeller_shack,Yeller Shack,structure,195,195.0,0.0,4.8,4.8,0.0,True,True,position matches records
+139,gradient_marker_a,Gradient Marker A,survey_stake,270,270.0,0.0,2.0,2.0,0.0,True,True,position matches records
+139,gradient_marker_b,Gradient Marker B,survey_stake,270,270.0,0.0,5.0,5.0,0.0,True,True,position matches records
+139,dens_edge,Dens Edge,terrain,270,270.0,0.0,14.0,14.0,0.0,True,True,position matches records
+139,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,True,NOT FOUND - Yeller Shack not visible
+140,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+140,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+140,dry_wash,Dry Wash,terrain,112,112.0,0.0,45.6,45.6,0.0,True,True,position matches records
+140,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+140,split_boulder,Split Boulder,rock_formation,156,156.0,0.0,89.2,89.2,0.0,True,True,position matches records
+140,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+140,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+141,gray_spire,Gray Spire,rock_formation,45,,,23.4,,,False,False,NOT FOUND - Gray Spire not visible
+141,twisted_grove,Twisted Grove,vegetation,78,,,31.2,,,False,True,NOT FOUND - Twisted Grove not visible
+141,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,False,NOT FOUND - Dry Wash not visible
+141,standing_stones,Standing Stones,rock_formation,134,132.98255328068723,-1.0,67.8,68.8,1.0,True,False,normal observation
+141,split_boulder,Split Boulder,rock_formation,156,156.23114418799182,0.2,89.2,88.4,-0.8,True,True,position matches records
+141,denstone_approach,Denstone Approach,settlement_edge,178,175.92091526262865,-2.1,142.3,145.0,2.7,True,False,normal observation
+141,moat_crossing,Moat Crossing,infrastructure,180,179.63423723012795,-0.4,187.0,185.8,-1.2,True,True,position matches records
+142,gray_spire,Gray Spire,rock_formation,45,46.19666486554697,1.2,23.4,23.4,0.0,True,True,position matches records
+142,twisted_grove,Twisted Grove,vegetation,78,77.14102853139144,-0.9,31.2,31.7,0.5,True,False,normal observation
+142,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,False,NOT FOUND - Dry Wash not visible
+142,standing_stones,Standing Stones,rock_formation,134,133.09667812278326,-0.9,67.8,69.3,1.5,True,False,normal observation
+142,split_boulder,Split Boulder,rock_formation,156,154.0837524202581,-1.9,89.2,90.4,1.2,True,False,normal observation
+142,denstone_approach,Denstone Approach,settlement_edge,178,175.47206608335136,-2.5,142.3,140.5,-1.8,True,False,normal observation
+142,moat_crossing,Moat Crossing,infrastructure,180,176.41928276947846,-3.6,187.0,183.9,-3.1,True,False,normal observation
+143,gray_spire,Gray Spire,rock_formation,45,,,23.4,,,False,True,NOT FOUND - Gray Spire not visible
+143,twisted_grove,Twisted Grove,vegetation,78,77.83815737561685,-0.2,31.2,31.2,0.0,True,True,position matches records
+143,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,False,NOT FOUND - Dry Wash not visible
+143,standing_stones,Standing Stones,rock_formation,134,,,67.8,,,False,True,NOT FOUND - Standing Stones not visible
+143,split_boulder,Split Boulder,rock_formation,156,157.04162039427285,1.0,89.2,90.0,0.8,True,True,position matches records
+143,denstone_approach,Denstone Approach,settlement_edge,178,178.1829591958488,0.2,142.3,139.3,-3.0,True,False,normal observation
+143,moat_crossing,Moat Crossing,infrastructure,180,176.8305964486533,-3.2,187.0,187.5,0.5,True,False,normal observation
+144,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+144,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+144,dry_wash,Dry Wash,terrain,112,112.0,0.0,45.6,45.6,0.0,True,True,position matches records
+144,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+144,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,True,NOT FOUND - Split Boulder not visible
+144,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+144,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+145,gray_spire,Gray Spire,rock_formation,45,45.21131413533738,0.2,23.4,23.5,0.1,True,True,position matches records
+145,twisted_grove,Twisted Grove,vegetation,78,77.60698960049452,-0.4,31.2,31.2,0.0,True,True,position matches records
+145,dry_wash,Dry Wash,terrain,112,114.12071918610977,2.1,45.6,45.6,0.0,True,False,normal observation
+145,standing_stones,Standing Stones,rock_formation,134,,,67.8,,,False,False,NOT FOUND - Standing Stones not visible
+145,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,False,NOT FOUND - Split Boulder not visible
+145,denstone_approach,Denstone Approach,settlement_edge,178,176.7933572380272,-1.2,142.3,141.4,-0.9,True,True,position matches records
+145,moat_crossing,Moat Crossing,infrastructure,180,,,187.0,,,False,False,NOT FOUND - Moat Crossing not visible
+146,gradient_marker_a,Gradient Marker A,survey_stake,270,269.33269704036735,-0.7,2.0,2.0,-0.0,True,False,normal observation
+146,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,True,NOT FOUND - Gradient Marker B not visible
+146,dens_edge,Dens Edge,terrain,270,269.43391217823967,-0.6,14.0,14.0,0.0,True,True,position matches records
+146,yeller_shack,Yeller Shack,structure,195,195.49276720746693,0.5,4.8,4.8,0.0,True,True,position matches records
+147,gradient_marker_a,Gradient Marker A,survey_stake,270,269.827839853554,-0.2,2.0,2.0,0.0,True,True,position matches records
+147,gradient_marker_b,Gradient Marker B,survey_stake,270,270.34230968706436,0.3,5.0,5.0,0.0,True,True,position matches records
+147,dens_edge,Dens Edge,terrain,270,272.70930828926214,2.7,14.0,13.7,-0.3,True,False,normal observation
+147,yeller_shack,Yeller Shack,structure,195,190.30281396640314,-4.7,4.8,4.9,0.1,True,False,normal observation
+148,gray_spire,Gray Spire,rock_formation,45,47.62687974220948,2.6,23.4,23.4,-0.0,True,False,normal observation
+148,twisted_grove,Twisted Grove,vegetation,78,,,31.2,,,False,False,NOT FOUND - Twisted Grove not visible
+148,dry_wash,Dry Wash,terrain,112,108.68346896248663,-3.3,45.6,43.8,-1.8,True,False,normal observation
+148,standing_stones,Standing Stones,rock_formation,134,135.30462388123541,1.3,67.8,68.8,1.0,True,False,normal observation
+148,split_boulder,Split Boulder,rock_formation,156,156.52959756329378,0.5,89.2,88.4,-0.8,True,True,position matches records
+148,denstone_approach,Denstone Approach,settlement_edge,178,,,142.3,,,False,False,NOT FOUND - Denstone Approach not visible
+148,moat_crossing,Moat Crossing,infrastructure,180,183.3994535278353,3.4,187.0,184.3,-2.7,True,False,normal observation
+149,gradient_marker_a,Gradient Marker A,survey_stake,270,,,2.0,,,False,False,NOT FOUND - Gradient Marker A not visible
+149,gradient_marker_b,Gradient Marker B,survey_stake,270,270.96503665657804,1.0,5.0,5.0,-0.0,True,True,position matches records
+149,dens_edge,Dens Edge,terrain,270,,,14.0,,,False,True,NOT FOUND - Dens Edge not visible
+149,yeller_shack,Yeller Shack,structure,195,196.14781114161576,1.1,4.8,4.9,0.1,True,False,normal observation
+150,gray_spire,Gray Spire,rock_formation,45,45.62919631484788,0.6,23.4,23.2,-0.2,True,True,position matches records
+150,twisted_grove,Twisted Grove,vegetation,78,77.93334808236575,-0.1,31.2,30.7,-0.5,True,False,normal observation
+150,dry_wash,Dry Wash,terrain,112,108.3550467953745,-3.6,45.6,46.1,0.5,True,False,normal observation
+150,standing_stones,Standing Stones,rock_formation,134,133.10257638799402,-0.9,67.8,65.9,-1.9,True,False,normal observation
+150,split_boulder,Split Boulder,rock_formation,156,155.62412394654135,-0.4,89.2,88.2,-1.0,True,False,normal observation
+150,denstone_approach,Denstone Approach,settlement_edge,178,175.03816085245379,-3.0,142.3,143.8,1.5,True,False,normal observation
+150,moat_crossing,Moat Crossing,infrastructure,180,180.68505254307016,0.7,187.0,188.2,1.2,True,True,position matches records
+151,gradient_marker_a,Gradient Marker A,survey_stake,270,270.0,0.0,2.0,2.0,0.0,True,True,position matches records
+151,gradient_marker_b,Gradient Marker B,survey_stake,270,270.0,0.0,5.0,5.0,0.0,True,True,position matches records
+151,dens_edge,Dens Edge,terrain,270,270.0,0.0,14.0,14.0,0.0,True,True,position matches records
+151,yeller_shack,Yeller Shack,structure,195,195.0,0.0,4.8,4.8,0.0,True,True,position matches records
+152,gray_spire,Gray Spire,rock_formation,45,44.20460190002511,-0.8,23.4,23.7,0.3,True,False,normal observation
+152,twisted_grove,Twisted Grove,vegetation,78,79.53328605317006,1.5,31.2,31.4,0.2,True,True,position matches records
+152,dry_wash,Dry Wash,terrain,112,112.81166411743148,0.8,45.6,45.7,0.1,True,True,position matches records
+152,standing_stones,Standing Stones,rock_formation,134,134.42625977604612,0.4,67.8,68.7,0.9,True,False,normal observation
+152,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,False,NOT FOUND - Split Boulder not visible
+152,denstone_approach,Denstone Approach,settlement_edge,178,178.2750601331482,0.3,142.3,143.3,1.0,True,True,position matches records
+152,moat_crossing,Moat Crossing,infrastructure,180,179.3796366062296,-0.6,187.0,193.1,6.1,True,False,distance significantly different (6.1km)
+153,gray_spire,Gray Spire,rock_formation,45,44.37611612534032,-0.6,23.4,23.5,0.1,True,True,position matches records
+153,twisted_grove,Twisted Grove,vegetation,78,,,31.2,,,False,True,NOT FOUND - Twisted Grove not visible
+153,dry_wash,Dry Wash,terrain,112,109.62058915288588,-2.4,45.6,45.2,-0.4,True,False,normal observation
+153,standing_stones,Standing Stones,rock_formation,134,133.95069818706634,-0.0,67.8,70.0,2.2,True,False,normal observation
+153,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,False,NOT FOUND - Split Boulder not visible
+153,denstone_approach,Denstone Approach,settlement_edge,178,178.0714761309979,0.1,142.3,142.5,0.2,True,True,position matches records
+153,moat_crossing,Moat Crossing,infrastructure,180,179.07105014980363,-0.9,187.0,187.5,0.5,True,True,position matches records
+154,gradient_marker_a,Gradient Marker A,survey_stake,270,270.0,0.0,2.0,2.0,0.0,True,True,position matches records
+154,gradient_marker_b,Gradient Marker B,survey_stake,270,270.0,0.0,5.0,5.0,0.0,True,True,position matches records
+154,dens_edge,Dens Edge,terrain,270,270.0,0.0,14.0,14.0,0.0,True,True,position matches records
+154,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,True,NOT FOUND - Yeller Shack not visible
+155,gray_spire,Gray Spire,rock_formation,45,,,23.4,,,False,True,NOT FOUND - Gray Spire not visible
+155,twisted_grove,Twisted Grove,vegetation,78,75.15581202781131,-2.8,31.2,31.0,-0.2,True,False,normal observation
+155,dry_wash,Dry Wash,terrain,112,115.92977079766568,3.9,45.6,47.0,1.4,True,False,normal observation
+155,standing_stones,Standing Stones,rock_formation,134,,,67.8,,,False,False,NOT FOUND - Standing Stones not visible
+155,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,False,NOT FOUND - Split Boulder not visible
+155,denstone_approach,Denstone Approach,settlement_edge,178,178.66324669184198,0.7,142.3,141.7,-0.6,True,True,position matches records
+155,moat_crossing,Moat Crossing,infrastructure,180,181.0890268057083,1.1,187.0,186.0,-1.0,True,True,position matches records
+156,gray_spire,Gray Spire,rock_formation,45,,,23.4,,,False,False,NOT FOUND - Gray Spire not visible
+156,twisted_grove,Twisted Grove,vegetation,78,78.02892925879041,0.0,31.2,31.2,-0.0,True,True,position matches records
+156,dry_wash,Dry Wash,terrain,112,108.44937286289283,-3.6,45.6,45.1,-0.5,True,False,normal observation
+156,standing_stones,Standing Stones,rock_formation,134,133.67415874161944,-0.3,67.8,68.9,1.1,True,False,normal observation
+156,split_boulder,Split Boulder,rock_formation,156,160.63017292810372,4.6,89.2,88.2,-1.0,True,False,normal observation
+156,denstone_approach,Denstone Approach,settlement_edge,178,,,142.3,,,False,False,NOT FOUND - Denstone Approach not visible
+156,moat_crossing,Moat Crossing,infrastructure,180,178.55740886668502,-1.4,187.0,183.5,-3.5,True,False,normal observation
+157,gray_spire,Gray Spire,rock_formation,45,,,23.4,,,False,False,NOT FOUND - Gray Spire not visible
+157,twisted_grove,Twisted Grove,vegetation,78,77.51713538244717,-0.5,31.2,31.1,-0.1,True,True,position matches records
+157,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,False,NOT FOUND - Dry Wash not visible
+157,standing_stones,Standing Stones,rock_formation,134,135.84033326275934,1.8,67.8,67.7,-0.1,True,True,position matches records
+157,split_boulder,Split Boulder,rock_formation,156,154.3482192832657,-1.7,89.2,89.2,0.0,True,True,position matches records
+157,denstone_approach,Denstone Approach,settlement_edge,178,180.0605766841009,2.1,142.3,143.2,0.9,True,False,normal observation
+157,moat_crossing,Moat Crossing,infrastructure,180,175.43131383163518,-4.6,187.0,196.2,9.2,True,False,distance significantly different (9.2km)
+158,gradient_marker_a,Gradient Marker A,survey_stake,270,,,2.0,,,False,True,NOT FOUND - Gradient Marker A not visible
+158,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,False,NOT FOUND - Gradient Marker B not visible
+158,dens_edge,Dens Edge,terrain,270,269.74654810185643,-0.3,14.0,14.0,-0.0,True,True,position matches records
+158,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,True,NOT FOUND - Yeller Shack not visible
+159,gray_spire,Gray Spire,rock_formation,45,,,23.4,,,False,False,NOT FOUND - Gray Spire not visible
+159,twisted_grove,Twisted Grove,vegetation,78,79.8213517939246,1.8,31.2,31.1,-0.1,True,True,position matches records
+159,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,False,NOT FOUND - Dry Wash not visible
+159,standing_stones,Standing Stones,rock_formation,134,130.01150644771784,-4.0,67.8,66.6,-1.2,True,False,normal observation
+159,split_boulder,Split Boulder,rock_formation,156,157.56459479746525,1.6,89.2,90.5,1.3,True,False,normal observation
+159,denstone_approach,Denstone Approach,settlement_edge,178,180.76236380020845,2.8,142.3,141.7,-0.6,True,False,normal observation
+159,moat_crossing,Moat Crossing,infrastructure,180,179.6403152119003,-0.4,187.0,187.0,0.0,True,True,position matches records
+160,gradient_marker_a,Gradient Marker A,survey_stake,270,267.6481185661987,-2.4,2.0,2.0,-0.0,True,False,normal observation
+160,gradient_marker_b,Gradient Marker B,survey_stake,270,273.1611689506437,3.2,5.0,5.1,0.1,True,False,normal observation
+160,dens_edge,Dens Edge,terrain,270,,,14.0,,,False,False,NOT FOUND - Dens Edge not visible
+160,yeller_shack,Yeller Shack,structure,195,188.99095818507408,-6.0,4.8,5.0,0.2,True,False,moderate bearing variance
+161,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+161,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+161,dry_wash,Dry Wash,terrain,112,112.0,0.0,45.6,45.6,0.0,True,True,position matches records
+161,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+161,split_boulder,Split Boulder,rock_formation,156,156.0,0.0,89.2,89.2,0.0,True,True,position matches records
+161,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+161,moat_crossing,Moat Crossing,infrastructure,180,,,187.0,,,False,True,NOT FOUND - Moat Crossing not visible
+162,gradient_marker_a,Gradient Marker A,survey_stake,270,269.9373017378101,-0.1,2.0,2.0,-0.0,True,False,normal observation
+162,gradient_marker_b,Gradient Marker B,survey_stake,270,268.0407442377745,-2.0,5.0,4.9,-0.1,True,False,normal observation
+162,dens_edge,Dens Edge,terrain,270,265.28776198040487,-4.7,14.0,14.1,0.1,True,False,normal observation
+162,yeller_shack,Yeller Shack,structure,195,192.5014396609545,-2.5,4.8,4.9,0.1,True,False,normal observation
+163,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+163,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+163,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,True,NOT FOUND - Dry Wash not visible
+163,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+163,split_boulder,Split Boulder,rock_formation,156,156.0,0.0,89.2,89.2,0.0,True,True,position matches records
+163,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+163,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+164,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+164,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+164,dry_wash,Dry Wash,terrain,112,112.0,0.0,45.6,45.6,0.0,True,True,position matches records
+164,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+164,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,True,NOT FOUND - Split Boulder not visible
+164,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+164,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+165,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+165,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+165,dry_wash,Dry Wash,terrain,112,112.0,0.0,45.6,45.6,0.0,True,True,position matches records
+165,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+165,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,True,NOT FOUND - Split Boulder not visible
+165,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+165,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+166,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+166,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+166,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,True,NOT FOUND - Dry Wash not visible
+166,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+166,split_boulder,Split Boulder,rock_formation,156,156.0,0.0,89.2,89.2,0.0,True,True,position matches records
+166,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+166,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+167,gradient_marker_a,Gradient Marker A,survey_stake,270,270.0,0.0,2.0,2.0,0.0,True,True,position matches records
+167,gradient_marker_b,Gradient Marker B,survey_stake,270,270.0,0.0,5.0,5.0,0.0,True,True,position matches records
+167,dens_edge,Dens Edge,terrain,270,270.0,0.0,14.0,14.0,0.0,True,True,position matches records
+167,yeller_shack,Yeller Shack,structure,195,195.0,0.0,4.8,4.8,0.0,True,True,position matches records
+168,gradient_marker_a,Gradient Marker A,survey_stake,270,270.0,0.0,2.0,2.0,0.0,True,True,position matches records
+168,gradient_marker_b,Gradient Marker B,survey_stake,270,270.0,0.0,5.0,5.0,0.0,True,True,position matches records
+168,dens_edge,Dens Edge,terrain,270,270.0,0.0,14.0,14.0,0.0,True,True,position matches records
+168,yeller_shack,Yeller Shack,structure,195,195.0,0.0,4.8,4.8,0.0,True,True,position matches records
+169,gradient_marker_a,Gradient Marker A,survey_stake,270,271.39907710745723,1.4,2.0,2.1,0.1,True,False,normal observation
+169,gradient_marker_b,Gradient Marker B,survey_stake,270,268.46996760370297,-1.5,5.0,5.0,-0.0,True,True,position matches records
+169,dens_edge,Dens Edge,terrain,270,267.22720611190795,-2.8,14.0,14.2,0.2,True,False,normal observation
+169,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,False,NOT FOUND - Yeller Shack not visible
+170,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+170,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+170,dry_wash,Dry Wash,terrain,112,112.0,0.0,45.6,45.6,0.0,True,True,position matches records
+170,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+170,split_boulder,Split Boulder,rock_formation,156,156.0,0.0,89.2,89.2,0.0,True,True,position matches records
+170,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+170,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+171,gray_spire,Gray Spire,rock_formation,45,44.460879739892974,-0.5,23.4,23.3,-0.1,True,True,position matches records
+171,twisted_grove,Twisted Grove,vegetation,78,75.22887733193522,-2.8,31.2,30.7,-0.5,True,False,normal observation
+171,dry_wash,Dry Wash,terrain,112,115.56309056437816,3.6,45.6,45.6,0.0,True,False,normal observation
+171,standing_stones,Standing Stones,rock_formation,134,135.04117718693968,1.0,67.8,67.1,-0.7,True,True,position matches records
+171,split_boulder,Split Boulder,rock_formation,156,150.91207026448797,-5.1,89.2,91.4,2.2,True,False,moderate bearing variance
+171,denstone_approach,Denstone Approach,settlement_edge,178,179.86950047566313,1.9,142.3,137.0,-5.3,True,False,distance significantly different (5.3km)
+171,moat_crossing,Moat Crossing,infrastructure,180,180.7632346923795,0.8,187.0,192.8,5.8,True,False,distance significantly different (5.8km)
+172,gradient_marker_a,Gradient Marker A,survey_stake,270,270.0531158454093,0.1,2.0,2.0,-0.0,True,True,position matches records
+172,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,True,NOT FOUND - Gradient Marker B not visible
+172,dens_edge,Dens Edge,terrain,270,269.9380799671367,-0.1,14.0,14.2,0.2,True,False,normal observation
+172,yeller_shack,Yeller Shack,structure,195,193.3524604222106,-1.6,4.8,4.9,0.1,True,False,normal observation
+173,gradient_marker_a,Gradient Marker A,survey_stake,270,,,2.0,,,False,False,NOT FOUND - Gradient Marker A not visible
+173,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,True,NOT FOUND - Gradient Marker B not visible
+173,dens_edge,Dens Edge,terrain,270,265.8937250130123,-4.1,14.0,14.3,0.3,True,False,normal observation
+173,yeller_shack,Yeller Shack,structure,195,191.62236827046473,-3.4,4.8,4.8,0.0,True,False,normal observation
+174,gradient_marker_a,Gradient Marker A,survey_stake,270,270.0,0.0,2.0,2.0,0.0,True,True,position matches records
+174,gradient_marker_b,Gradient Marker B,survey_stake,270,270.0,0.0,5.0,5.0,0.0,True,True,position matches records
+174,dens_edge,Dens Edge,terrain,270,270.0,0.0,14.0,14.0,0.0,True,True,position matches records
+174,yeller_shack,Yeller Shack,structure,195,195.0,0.0,4.8,4.8,0.0,True,True,position matches records
+175,gradient_marker_a,Gradient Marker A,survey_stake,270,270.0,0.0,2.0,2.0,0.0,True,True,position matches records
+175,gradient_marker_b,Gradient Marker B,survey_stake,270,270.0,0.0,5.0,5.0,0.0,True,True,position matches records
+175,dens_edge,Dens Edge,terrain,270,,,14.0,,,False,True,NOT FOUND - Dens Edge not visible
+175,yeller_shack,Yeller Shack,structure,195,195.0,0.0,4.8,4.8,0.0,True,True,position matches records
+176,gray_spire,Gray Spire,rock_formation,45,47.440282955944355,2.4,23.4,23.3,-0.1,True,False,normal observation
+176,twisted_grove,Twisted Grove,vegetation,78,76.27029822170982,-1.7,31.2,31.4,0.2,True,True,position matches records
+176,dry_wash,Dry Wash,terrain,112,114.2933702363139,2.3,45.6,45.2,-0.4,True,False,normal observation
+176,standing_stones,Standing Stones,rock_formation,134,133.73801449914453,-0.3,67.8,67.3,-0.5,True,True,position matches records
+176,split_boulder,Split Boulder,rock_formation,156,155.9765106917146,-0.0,89.2,92.8,3.6,True,False,normal observation
+176,denstone_approach,Denstone Approach,settlement_edge,178,177.2293301211162,-0.8,142.3,143.5,1.2,True,True,position matches records
+176,moat_crossing,Moat Crossing,infrastructure,180,,,187.0,,,False,False,NOT FOUND - Moat Crossing not visible
+177,gray_spire,Gray Spire,rock_formation,45,43.920820024435116,-1.1,23.4,23.9,0.5,True,False,normal observation
+177,twisted_grove,Twisted Grove,vegetation,78,77.84618702829671,-0.2,31.2,31.6,0.4,True,False,normal observation
+177,dry_wash,Dry Wash,terrain,112,113.81974978023295,1.8,45.6,45.9,0.3,True,True,position matches records
+177,standing_stones,Standing Stones,rock_formation,134,132.62849005834758,-1.4,67.8,68.0,0.2,True,True,position matches records
+177,split_boulder,Split Boulder,rock_formation,156,157.06806267545892,1.1,89.2,88.1,-1.1,True,False,normal observation
+177,denstone_approach,Denstone Approach,settlement_edge,178,177.54704381140795,-0.5,142.3,142.5,0.2,True,True,position matches records
+177,moat_crossing,Moat Crossing,infrastructure,180,179.29582241420417,-0.7,187.0,187.5,0.5,True,True,position matches records
+178,gradient_marker_a,Gradient Marker A,survey_stake,270,267.6210403989132,-2.4,2.0,1.9,-0.1,True,False,normal observation
+178,gradient_marker_b,Gradient Marker B,survey_stake,270,268.0772743934685,-1.9,5.0,5.0,-0.0,True,True,position matches records
+178,dens_edge,Dens Edge,terrain,270,270.5585086676473,0.6,14.0,14.1,0.1,True,True,position matches records
+178,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,True,NOT FOUND - Yeller Shack not visible
+179,gradient_marker_a,Gradient Marker A,survey_stake,270,271.482526539602,1.5,2.0,2.0,0.0,True,True,position matches records
+179,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,False,NOT FOUND - Gradient Marker B not visible
+179,dens_edge,Dens Edge,terrain,270,268.4088153785536,-1.6,14.0,13.6,-0.4,True,False,normal observation
+179,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,False,NOT FOUND - Yeller Shack not visible
+180,gray_spire,Gray Spire,rock_formation,45,44.341695260212276,-0.7,23.4,23.6,0.2,True,True,position matches records
+180,twisted_grove,Twisted Grove,vegetation,78,,,31.2,,,False,False,NOT FOUND - Twisted Grove not visible
+180,dry_wash,Dry Wash,terrain,112,113.02880685662517,1.0,45.6,47.2,1.6,True,False,normal observation
+180,standing_stones,Standing Stones,rock_formation,134,133.65415510042624,-0.3,67.8,67.3,-0.5,True,True,position matches records
+180,split_boulder,Split Boulder,rock_formation,156,156.76303723916473,0.8,89.2,86.0,-3.2,True,False,normal observation
+180,denstone_approach,Denstone Approach,settlement_edge,178,178.6892171413537,0.7,142.3,140.7,-1.6,True,False,normal observation
+180,moat_crossing,Moat Crossing,infrastructure,180,179.97231431618687,-0.0,187.0,188.6,1.6,True,True,position matches records
+181,gray_spire,Gray Spire,rock_formation,45,,,23.4,,,False,False,NOT FOUND - Gray Spire not visible
+181,twisted_grove,Twisted Grove,vegetation,78,80.25607449663589,2.3,31.2,31.5,0.3,True,False,normal observation
+181,dry_wash,Dry Wash,terrain,112,111.38175582446522,-0.6,45.6,45.6,-0.0,True,True,position matches records
+181,standing_stones,Standing Stones,rock_formation,134,133.5496942293868,-0.5,67.8,66.8,-1.0,True,False,normal observation
+181,split_boulder,Split Boulder,rock_formation,156,156.60916695576984,0.6,89.2,86.9,-2.3,True,False,normal observation
+181,denstone_approach,Denstone Approach,settlement_edge,178,175.6214619371065,-2.4,142.3,143.2,0.9,True,False,normal observation
+181,moat_crossing,Moat Crossing,infrastructure,180,180.53823698735627,0.5,187.0,190.9,3.9,True,False,normal observation
+182,gradient_marker_a,Gradient Marker A,survey_stake,270,268.35802113877577,-1.6,2.0,2.0,-0.0,True,True,position matches records
+182,gradient_marker_b,Gradient Marker B,survey_stake,270,268.4106650658307,-1.6,5.0,4.8,-0.2,True,False,normal observation
+182,dens_edge,Dens Edge,terrain,270,270.52214733067177,0.5,14.0,14.2,0.2,True,False,normal observation
+182,yeller_shack,Yeller Shack,structure,195,198.98635552759117,4.0,4.8,4.7,-0.1,True,False,normal observation
+183,gradient_marker_a,Gradient Marker A,survey_stake,270,269.5780634590179,-0.4,2.0,2.0,-0.0,True,True,position matches records
+183,gradient_marker_b,Gradient Marker B,survey_stake,270,269.9593726413742,-0.0,5.0,4.9,-0.1,True,False,normal observation
+183,dens_edge,Dens Edge,terrain,270,269.23758018453486,-0.8,14.0,14.0,0.0,True,True,position matches records
+183,yeller_shack,Yeller Shack,structure,195,192.47394499176605,-2.5,4.8,4.8,0.0,True,False,normal observation
+184,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+184,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+184,dry_wash,Dry Wash,terrain,112,112.0,0.0,45.6,45.6,0.0,True,True,position matches records
+184,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+184,split_boulder,Split Boulder,rock_formation,156,156.0,0.0,89.2,89.2,0.0,True,True,position matches records
+184,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+184,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+185,gradient_marker_a,Gradient Marker A,survey_stake,270,,,2.0,,,False,False,NOT FOUND - Gradient Marker A not visible
+185,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,False,NOT FOUND - Gradient Marker B not visible
+185,dens_edge,Dens Edge,terrain,270,271.1892328551468,1.2,14.0,13.8,-0.2,True,False,normal observation
+185,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,False,NOT FOUND - Yeller Shack not visible
+186,gradient_marker_a,Gradient Marker A,survey_stake,270,269.628851692065,-0.4,2.0,2.0,0.0,True,False,normal observation
+186,gradient_marker_b,Gradient Marker B,survey_stake,270,269.9437521967685,-0.1,5.0,5.1,0.1,True,False,normal observation
+186,dens_edge,Dens Edge,terrain,270,272.2446333251256,2.2,14.0,14.2,0.2,True,False,normal observation
+186,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,False,NOT FOUND - Yeller Shack not visible
+187,gradient_marker_a,Gradient Marker A,survey_stake,270,,,2.0,,,False,False,NOT FOUND - Gradient Marker A not visible
+187,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,True,NOT FOUND - Gradient Marker B not visible
+187,dens_edge,Dens Edge,terrain,270,270.3218290974358,0.3,14.0,13.9,-0.1,True,True,position matches records
+187,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,False,NOT FOUND - Yeller Shack not visible
+188,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+188,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+188,dry_wash,Dry Wash,terrain,112,112.0,0.0,45.6,45.6,0.0,True,True,position matches records
+188,standing_stones,Standing Stones,rock_formation,134,,,67.8,,,False,True,NOT FOUND - Standing Stones not visible
+188,split_boulder,Split Boulder,rock_formation,156,156.0,0.0,89.2,89.2,0.0,True,True,position matches records
+188,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+188,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+189,gray_spire,Gray Spire,rock_formation,45,44.22622296265189,-0.8,23.4,23.2,-0.2,True,True,position matches records
+189,twisted_grove,Twisted Grove,vegetation,78,78.35410500685309,0.4,31.2,31.7,0.5,True,False,normal observation
+189,dry_wash,Dry Wash,terrain,112,111.26093673697397,-0.7,45.6,45.7,0.1,True,True,position matches records
+189,standing_stones,Standing Stones,rock_formation,134,132.1955774555789,-1.8,67.8,67.9,0.1,True,True,position matches records
+189,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,False,NOT FOUND - Split Boulder not visible
+189,denstone_approach,Denstone Approach,settlement_edge,178,178.87773433648516,0.9,142.3,144.2,1.9,True,False,normal observation
+189,moat_crossing,Moat Crossing,infrastructure,180,183.4575245644825,3.5,187.0,184.2,-2.8,True,False,normal observation
+190,gray_spire,Gray Spire,rock_formation,45,46.6234796339538,1.6,23.4,23.3,-0.1,True,True,position matches records
+190,twisted_grove,Twisted Grove,vegetation,78,79.48046882740061,1.5,31.2,31.5,0.3,True,False,normal observation
+190,dry_wash,Dry Wash,terrain,112,113.01647304811458,1.0,45.6,44.7,-0.9,True,False,normal observation
+190,standing_stones,Standing Stones,rock_formation,134,137.82228094543115,3.8,67.8,68.3,0.5,True,False,normal observation
+190,split_boulder,Split Boulder,rock_formation,156,153.63489335944138,-2.4,89.2,89.4,0.2,True,False,normal observation
+190,denstone_approach,Denstone Approach,settlement_edge,178,176.33374534118042,-1.7,142.3,138.7,-3.6,True,False,normal observation
+190,moat_crossing,Moat Crossing,infrastructure,180,178.30479527514,-1.7,187.0,180.6,-6.4,True,False,distance significantly different (6.4km)
+191,gradient_marker_a,Gradient Marker A,survey_stake,270,272.36216045614253,2.4,2.0,2.0,0.0,True,False,normal observation
+191,gradient_marker_b,Gradient Marker B,survey_stake,270,270.14318417461425,0.1,5.0,5.1,0.1,True,False,normal observation
+191,dens_edge,Dens Edge,terrain,270,272.55296167613625,2.6,14.0,14.2,0.2,True,False,normal observation
+191,yeller_shack,Yeller Shack,structure,195,194.1097475821779,-0.9,4.8,4.8,-0.0,True,True,position matches records
+192,gradient_marker_a,Gradient Marker A,survey_stake,270,270.6988285140927,0.7,2.0,2.0,-0.0,True,True,position matches records
+192,gradient_marker_b,Gradient Marker B,survey_stake,270,269.98007011276707,-0.0,5.0,5.0,0.0,True,True,position matches records
+192,dens_edge,Dens Edge,terrain,270,,,14.0,,,False,False,NOT FOUND - Dens Edge not visible
+192,yeller_shack,Yeller Shack,structure,195,196.0984411327269,1.1,4.8,4.7,-0.1,True,False,normal observation
+193,gradient_marker_a,Gradient Marker A,survey_stake,270,268.06989423852235,-1.9,2.0,2.0,0.0,True,False,normal observation
+193,gradient_marker_b,Gradient Marker B,survey_stake,270,269.6662284569201,-0.3,5.0,5.1,0.1,True,False,normal observation
+193,dens_edge,Dens Edge,terrain,270,273.13827141348156,3.1,14.0,14.0,-0.0,True,False,normal observation
+193,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,False,NOT FOUND - Yeller Shack not visible
+194,gray_spire,Gray Spire,rock_formation,45,48.629900676209566,3.6,23.4,22.9,-0.5,True,False,normal observation
+194,twisted_grove,Twisted Grove,vegetation,78,78.77706670979262,0.8,31.2,31.4,0.2,True,True,position matches records
+194,dry_wash,Dry Wash,terrain,112,111.16275848723973,-0.8,45.6,44.9,-0.7,True,False,normal observation
+194,standing_stones,Standing Stones,rock_formation,134,131.8980578170745,-2.1,67.8,68.4,0.6,True,False,normal observation
+194,split_boulder,Split Boulder,rock_formation,156,,,89.2,,,False,False,NOT FOUND - Split Boulder not visible
+194,denstone_approach,Denstone Approach,settlement_edge,178,176.75896107080194,-1.2,142.3,139.6,-2.7,True,False,normal observation
+194,moat_crossing,Moat Crossing,infrastructure,180,178.9846640626682,-1.0,187.0,191.1,4.1,True,False,normal observation
+195,gray_spire,Gray Spire,rock_formation,45,46.323314165456196,1.3,23.4,24.1,0.7,True,False,normal observation
+195,twisted_grove,Twisted Grove,vegetation,78,,,31.2,,,False,False,NOT FOUND - Twisted Grove not visible
+195,dry_wash,Dry Wash,terrain,112,,,45.6,,,False,False,NOT FOUND - Dry Wash not visible
+195,standing_stones,Standing Stones,rock_formation,134,133.53325257973276,-0.5,67.8,66.5,-1.3,True,False,normal observation
+195,split_boulder,Split Boulder,rock_formation,156,156.91482305864596,0.9,89.2,89.6,0.4,True,True,position matches records
+195,denstone_approach,Denstone Approach,settlement_edge,178,,,142.3,,,False,False,NOT FOUND - Denstone Approach not visible
+195,moat_crossing,Moat Crossing,infrastructure,180,181.59527242635366,1.6,187.0,188.9,1.9,True,False,normal observation
+196,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+196,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+196,dry_wash,Dry Wash,terrain,112,112.0,0.0,45.6,45.6,0.0,True,True,position matches records
+196,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+196,split_boulder,Split Boulder,rock_formation,156,156.0,0.0,89.2,89.2,0.0,True,True,position matches records
+196,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+196,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+197,gradient_marker_a,Gradient Marker A,survey_stake,270,,,2.0,,,False,False,NOT FOUND - Gradient Marker A not visible
+197,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,False,NOT FOUND - Gradient Marker B not visible
+197,dens_edge,Dens Edge,terrain,270,268.69397449324737,-1.3,14.0,13.6,-0.4,True,False,normal observation
+197,yeller_shack,Yeller Shack,structure,195,195.8428968898878,0.8,4.8,4.9,0.1,True,False,normal observation
+198,gradient_marker_a,Gradient Marker A,survey_stake,270,267.6648897870562,-2.3,2.0,2.0,-0.0,True,False,normal observation
+198,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,True,NOT FOUND - Gradient Marker B not visible
+198,dens_edge,Dens Edge,terrain,270,273.9529805521471,4.0,14.0,13.9,-0.1,True,False,normal observation
+198,yeller_shack,Yeller Shack,structure,195,192.70532358861698,-2.3,4.8,4.8,0.0,True,False,normal observation
+199,gradient_marker_a,Gradient Marker A,survey_stake,270,270.0,0.0,2.0,2.0,0.0,True,True,position matches records
+199,gradient_marker_b,Gradient Marker B,survey_stake,270,270.0,0.0,5.0,5.0,0.0,True,True,position matches records
+199,dens_edge,Dens Edge,terrain,270,270.0,0.0,14.0,14.0,0.0,True,True,position matches records
+199,yeller_shack,Yeller Shack,structure,195,195.0,0.0,4.8,4.8,0.0,True,True,position matches records
+200,gray_spire,Gray Spire,rock_formation,45,45.0,0.0,23.4,23.4,0.0,True,True,position matches records
+200,twisted_grove,Twisted Grove,vegetation,78,78.0,0.0,31.2,31.2,0.0,True,True,position matches records
+200,dry_wash,Dry Wash,terrain,112,112.0,0.0,45.6,45.6,0.0,True,True,position matches records
+200,standing_stones,Standing Stones,rock_formation,134,134.0,0.0,67.8,67.8,0.0,True,True,position matches records
+200,split_boulder,Split Boulder,rock_formation,156,156.0,0.0,89.2,89.2,0.0,True,True,position matches records
+200,denstone_approach,Denstone Approach,settlement_edge,178,178.0,0.0,142.3,142.3,0.0,True,True,position matches records
+200,moat_crossing,Moat Crossing,infrastructure,180,180.0,0.0,187.0,187.0,0.0,True,True,position matches records
+201,gradient_marker_a,Gradient Marker A,survey_stake,270,271.5832363772005,1.6,2.0,2.0,-0.0,True,True,position matches records
+201,gradient_marker_b,Gradient Marker B,survey_stake,270,,,5.0,,,False,False,NOT FOUND - Gradient Marker B not visible
+201,dens_edge,Dens Edge,terrain,270,268.9765928785668,-1.0,14.0,14.0,0.0,True,True,position matches records
+201,yeller_shack,Yeller Shack,structure,195,,,4.8,,,False,False,NOT FOUND - Yeller Shack not visible
+202,gradient_marker_a,Gradient Marker A,survey_stake,270,270.29434018948234,0.3,2.0,2.0,-0.0,True,True,position matches records
+202,gradient_marker_b,Gradient Marker B,survey_stake,270,269.4237451642895,-0.6,5.0,4.9,-0.1,True,False,normal observation
+202,dens_edge,Dens Edge,terrain,270,267.68847865531205,-2.3,14.0,13.9,-0.1,True,False,normal observation
+202,yeller_shack,Yeller Shack,structure,195,194.65089380284957,-0.3,4.8,4.8,0.0,True,True,position matches records

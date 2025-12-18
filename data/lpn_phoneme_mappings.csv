@@ -1,0 +1,24 @@
+shape_code,piece_type,consonant_class,consonant_examples,vowel_region,vowel_examples,example_words,description
+GTGT,internal,alveolar,"n, t, d, s, z, l",front,"beet, bit, bate, bet, bat","seet, zal, naze",Alternating groove-tab pattern (horizontal orientation)
+TGTG,internal,alveolar,"n, t, d, s, z, l",back,"boot, foot, boat, ball, bother","tool, doll, soak",Alternating tab-groove pattern (horizontal orientation)
+GGGT,internal,labio-dental/dental,"f, v, th (voiced and unvoiced)",front-high,"beet, bit","feet, vith","Three grooves, one tab (tab at position 4)"
+GGTG,internal,labio-dental/dental,"f, v, th",front-mid/low,"bate, bet, bat","feth, vath","Three grooves, one tab (tab at position 3)"
+GTGG,internal,labio-dental/dental,"f, v, th",back-high,"boot, foot","footh, voot","Three grooves, one tab (tab at position 2)"
+TGGG,internal,labio-dental/dental,"f, v, th",back-mid/low,"boat, ball, bother","foth, vawl","Three grooves, one tab (tab at position 1)"
+GTTT,internal,bilabial,"m, p, b",front-high,"beet, bit","peet, bim","Three tabs, one groove (groove at position 1)"
+TTTG,internal,bilabial,"m, p, b",front-mid/low,"bate, bet, bat","pame, beth","Three tabs, one groove (groove at position 4)"
+TTGT,internal,bilabial,"m, p, b",back-high,"boot, foot","poot, boom","Three tabs, one groove (groove at position 3)"
+TGTT,internal,bilabial,"m, p, b",back-mid/low,"boat, ball, bother","mawl, poth","Three tabs, one groove (groove at position 2)"
+GGTT,internal,post-alveolar,"sh, zh, ch, j (sheep, measure, chomp, jump)",front-high,"beet, bit","sheet, chim","Two grooves adjacent, two tabs adjacent (grooves left)"
+GTTG,internal,post-alveolar,"sh, zh, ch, j",front-mid/low,"bate, bet, bat","shame, jeth","Grooves at positions 1 and 4, tabs at 2 and 3"
+TTGG,internal,post-alveolar,"sh, zh, ch, j",back-high,"boot, foot","shoot, choom","Two tabs adjacent, two grooves adjacent (tabs left)"
+TGGT,internal,post-alveolar,"sh, zh, ch, j",back-mid/low,"boat, ball, bother","shaw, joll","Tabs at positions 1 and 4, grooves at 2 and 3"
+GGGG,internal,palatal,y,all,all vowels allowed,"yeet, yawl, yoth",Four grooves (rare - accepts any tab neighbor)
+TTTT,internal,glottal,h,all,all vowels allowed,"heet, hawl, hoth",Four tabs (rare - only fits four-groove neighbors)
+EGTT,edge,velar + mixed,"k, g (first syllable) + post-alveolar (second)",mid-central + front,but (first) + front (second),kuh-sheet,Top edge piece with two tabs
+ETGT,edge,velar + mixed,"k, g (first syllable) + alveolar (second)",mid-central + front,but (first) + front (second),kuh-seet,Top edge piece with alternating pattern
+ETGG,edge,velar + mixed,"k, g (first syllable) + labio-dental (second)",mid-central + back,but (first) + back (second),kuh-vooth,Top edge piece with two grooves
+EETT,corner,velar + nasal velar,"k, g + ng",mid-central + schwa,but + uh + ng ending,kung-sheet,Top-left corner with two tabs
+EEGT,corner,velar + nasal velar,"k, g + ng",mid-central + schwa,but + uh + ng ending,kung-seet,Top-left corner with groove-tab
+EETG,corner,velar + nasal velar,"k, g + ng",mid-central + schwa,but + uh + ng ending,kung-tawl,Top-left corner with tab-groove
+EEGG,corner,velar + nasal velar,"k, g + ng",mid-central + schwa,but + uh + ng ending,kung-vooth,Top-left corner with two grooves

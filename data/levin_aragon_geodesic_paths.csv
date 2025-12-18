@@ -1,0 +1,251 @@
+geodesic_id,path_name,origin_form_id,destination_form_id,origin_basin_id,destination_basin_id,geodesic_length,ridge_crossings,saddle_points_passed,path_curvature_avg,path_curvature_max,traversal_difficulty,traversal_time_typical,reversibility,path_type,documented_traversals,first_documented,documentation_method,confidence,surveyor,notes
+GP-0001,Quintic-Tension Traverse,MS-0001,MS-0004,BA-001,BA-003,0.31,0,0,-0.851,-0.043,0.19,13.5,0.67,developmental,31,918,trajectory_observation,0.9,C. Vells,First geodesic documented by Vells. Via MS-0008.
+GP-0002,Emergency Dissolution Path,MS-0001,MS-0022,BA-001,BA-015,0.65,1,1,-0.556,0.078,0.21,6.0,0.16,degenerative,13,918,trajectory_observation,0.94,C. Vells,"Anomalously fast traversal observed. Via MS-0014, MS-0018. Injured stakdur case."
+GP-0003,Binary-Quintic Bridge,MS-0002,MS-0001,BA-002,BA-001,0.85,2,1,-0.394,0.847,0.41,45.0,0.31,metamorphic,23,918,trajectory_observation,0.9,C. Vells,Difficult crossing between major attractors. Rarely completed.
+GP-0004,Form 029 Departure Route,MS-0297,MS-0189,BA-031,BA-034,1.085,4,3,-0.802,0.183,0.68,76.8,0.55,developmental,29,918,trajectory_observation,0.53,C. Vells,Reversibility confirmed experimentally.
+GP-0005,The Unstable Trajectory,MS-0328,MS-0356,BA-037,BA-035,1.321,5,3,-0.409,0.527,0.7,72.8,0.0,degenerative,32,932,trajectory_observation,0.58,Morren Kast,Reversibility confirmed experimentally.
+GP-0006,Form 033 Departure Route,MS-0336,MS-0003,BA-018,BA-015,0.94,4,3,-0.479,0.812,0.54,56.7,0.11,degenerative,14,932,theoretical_calculation,0.88,Trajectory Analysis Group,Historical records suggest ancient use.
+GP-0007,The Northern Trajectory,MS-0192,MS-0118,BA-013,BA-011,0.513,0,0,-0.313,0.863,0.1,28.2,0.7,developmental,32,930,historical_inference,0.67,Geodesic Mapping Project,Part of larger geodesic network.
+GP-0008,Form 020 Departure Route,MS-0209,MS-0283,BA-042,BA-040,0.604,3,3,-0.824,0.26,0.44,50.7,0.38,regenerative,41,926,theoretical_calculation,0.54,T. Vells,Saddle point SP-069 marks critical decision.
+GP-0009,Form 024 Approach,MS-0028,MS-0247,BA-014,BA-038,1.285,5,3,-0.498,0.27,0.8,100.0,0.34,regenerative,65,929,trajectory_observation,0.67,Morren Kast,Part of larger geodesic network.
+GP-0010,Form 023 Departure Route,MS-0234,MS-0239,BA-018,BA-035,2.186,5,3,0.215,1.095,1.0,100.0,0.3,developmental,27,920,experimental,0.81,Geodesic Mapping Project,Connects to GP-0235 at midpoint.
+GP-0011,Form 039 Approach,MS-0259,MS-0391,BA-016,BA-042,0.917,3,3,-0.441,0.698,0.43,45.0,0.81,oscillatory,92,928,experimental,0.77,K. Strand,First documented Year 928.
+GP-0012,Form 012-Form 031 Bridge,MS-0123,MS-0313,BA-027,BA-012,1.863,5,3,0.47,1.024,0.99,100.0,0.26,regenerative,9,932,theoretical_calculation,0.89,Trajectory Analysis Group,Traversal time varies with perturbation level.
+GP-0013,Form 008 Approach,MS-0383,MS-0083,BA-006,BA-044,1.214,3,2,-0.187,0.875,0.61,82.9,0.49,regenerative,38,926,historical_inference,0.86,Geodesic Mapping Project,Saddle point SP-019 marks critical decision.
+GP-0014,Form 029-Form 015 Bridge,MS-0293,MS-0158,BA-049,BA-031,0.808,1,2,-0.086,1.353,0.23,34.0,0.76,oscillatory,100,930,historical_inference,0.59,Western Archive Team,Path discovered through trajectory analysis.
+GP-0015,Form 029 Approach,MS-0366,MS-0292,BA-014,BA-031,0.981,2,3,-0.243,1.235,0.4,81.8,0.32,metamorphic,10,927,historical_inference,0.51,K. Strand,Theoretical path confirmed by observation.
+GP-0016,Form 013-Form 039 Traverse,MS-0133,MS-0398,BA-011,BA-003,0.915,4,3,-0.221,0.5,0.58,72.6,0.47,developmental,88,932,historical_inference,0.61,T. Vells,One-way path; reverse not observed.
+GP-0017,The Modern Trajectory,MS-0275,MS-0240,BA-012,BA-024,1.231,5,3,0.049,1.537,0.83,100.0,0.37,regenerative,18,919,trajectory_observation,0.62,Archive Survey Team,Connects to GP-0008 at midpoint.
+GP-0018,Path of Western Transition,MS-0141,MS-0344,BA-042,BA-050,1.095,2,3,-0.539,0.112,0.46,64.7,0.5,developmental,80,930,theoretical_calculation,0.77,Morren Kast,Traversal time varies with perturbation level.
+GP-0019,Form 019 Departure Route,MS-0199,MS-0119,BA-014,BA-047,0.428,1,2,-0.758,-0.104,0.12,20.3,0.9,oscillatory,48,920,trajectory_observation,0.57,Boundary Commission,Historical records suggest ancient use.
+GP-0020,The Ancient Path,MS-0114,MS-0025,BA-028,BA-019,1.158,4,3,-0.903,0.198,0.61,100.0,0.15,metamorphic,16,932,theoretical_calculation,0.61,Trajectory Analysis Group,Saddle point SP-083 marks critical decision.
+GP-0021,Standard Crossing,MS-0020,MS-0238,BA-021,BA-016,0.816,1,0,-0.101,0.959,0.33,23.1,0.78,oscillatory,97,918,experimental,0.71,Boundary Commission,Traversal time varies with perturbation level.
+GP-0022,The Stable Path,MS-0065,MS-0242,BA-028,BA-015,1.364,4,3,-0.105,1.058,0.69,100.0,0.43,regenerative,18,927,experimental,0.79,K. Strand,Saddle point SP-081 marks critical decision.
+GP-0023,Path GP-482,MS-0208,MS-0016,BA-044,BA-045,1.028,2,2,-0.362,0.803,0.48,45.6,0.77,oscillatory,74,925,historical_inference,0.86,C. Vells,Reversibility confirmed experimentally.
+GP-0024,Form 036 Approach,MS-0224,MS-0367,BA-038,BA-021,0.865,1,2,-0.641,0.19,0.3,57.8,0.54,regenerative,50,931,historical_inference,0.81,K. Strand,Reversibility confirmed experimentally.
+GP-0025,Path of Southern Transition,MS-0009,MS-0041,BA-033,BA-017,1.3,5,3,-0.261,0.625,0.86,100.0,0.3,regenerative,23,924,experimental,0.89,T. Vells,Connects to GP-0001 at midpoint.
+GP-0026,Form 030-Form 010 Bridge,MS-0309,MS-0101,BA-017,BA-043,1.685,5,3,-0.369,0.657,0.84,62.7,0.64,oscillatory,2,930,historical_inference,0.77,C. Vells,Path discovered through trajectory analysis.
+GP-0027,Form 028-Form 038 Bridge,MS-0285,MS-0389,BA-025,BA-045,0.468,2,3,0.185,1.191,0.32,32.0,0.11,degenerative,44,929,trajectory_observation,0.65,Western Archive Team,
+GP-0028,Form 017-Form 022 Bridge,MS-0174,MS-0223,BA-009,BA-016,0.82,2,3,-0.55,0.019,0.41,54.2,0.5,developmental,91,932,trajectory_observation,0.81,K. Strand,Connects to GP-0199 at midpoint.
+GP-0029,Path GP-521,MS-0359,MS-0205,BA-041,BA-008,0.882,3,3,-0.715,-0.182,0.58,84.4,0.17,metamorphic,23,926,theoretical_calculation,0.81,T. Vells,Traversal time varies with perturbation level.
+GP-0030,Path of Primary Transition,MS-0376,MS-0241,BA-019,BA-031,0.847,3,2,-0.166,0.958,0.44,31.3,0.78,oscillatory,24,924,trajectory_observation,0.87,Archive Survey Team,Part of larger geodesic network.
+GP-0031,Form 039-Form 006 Traverse,MS-0396,MS-0061,BA-046,BA-040,0.565,1,1,-0.874,0.072,0.19,22.1,0.8,oscillatory,38,919,trajectory_observation,0.86,Boundary Commission,Traversal time varies with perturbation level.
+GP-0032,Form 006 Departure Route,MS-0065,MS-0393,BA-028,BA-025,1.089,2,2,-0.442,0.594,0.45,95.7,0.27,metamorphic,67,930,experimental,0.66,K. Strand,Traversal time varies with perturbation level.
+GP-0033,The Direct Path,MS-0116,MS-0230,BA-003,BA-048,1.31,5,3,0.214,1.146,0.75,88.3,0.43,developmental,96,926,experimental,0.65,Archive Survey Team,Connects to GP-0138 at midpoint.
+GP-0034,The Swift Trajectory,MS-0334,MS-0199,BA-032,BA-014,0.761,1,0,-0.059,0.85,0.25,48.8,0.44,regenerative,22,932,trajectory_observation,0.68,C. Vells,Theoretical path confirmed by observation.
+GP-0035,Form 002-Form 011 Traverse,MS-0029,MS-0119,BA-048,BA-047,1.952,5,3,-0.673,0.207,0.94,100.0,0.31,regenerative,75,928,historical_inference,0.76,Geodesic Mapping Project,Historical records suggest ancient use.
+GP-0036,Gradual Crossing,MS-0275,MS-0353,BA-012,BA-012,0.0,0,0,-0.986,-0.088,0.1,6.8,0.55,regenerative,18,918,experimental,0.71,C. Vells,First documented Year 918.
+GP-0037,Path of Swift Transition,MS-0006,MS-0400,BA-006,BA-034,0.995,4,3,-0.494,0.732,0.69,77.2,0.47,developmental,16,929,historical_inference,0.74,Morren Kast,Ridge crossing at RG-136 particularly difficult.
+GP-0038,The Standard Path,MS-0247,MS-0232,BA-038,BA-033,0.96,4,3,0.21,1.324,0.56,58.5,0.09,degenerative,89,919,historical_inference,0.64,Trajectory Analysis Group,Connects to GP-0231 at midpoint.
+GP-0039,The Critical Path,MS-0239,MS-0022,BA-035,BA-015,1.167,4,3,-0.512,0.77,0.72,81.3,0.55,developmental,70,929,experimental,0.74,Trajectory Analysis Group,
+GP-0040,Form 010 Departure Route,MS-0102,MS-0058,BA-036,BA-030,0.83,3,3,0.161,1.025,0.5,64.2,0.59,developmental,17,921,trajectory_observation,0.66,Boundary Commission,Theoretical path confirmed by observation.
+GP-0041,Primary Crossing,MS-0209,MS-0260,BA-042,BA-047,0.858,2,1,-0.015,0.787,0.41,50.7,0.6,developmental,48,927,trajectory_observation,0.83,Boundary Commission,Path discovered through trajectory analysis.
+GP-0042,Form 009 Approach,MS-0002,MS-0095,BA-002,BA-020,1.257,5,3,-0.533,0.666,0.84,84.5,0.43,developmental,93,927,experimental,0.67,T. Vells,Traversal time varies with perturbation level.
+GP-0043,Path of Critical Transition,MS-0022,MS-0143,BA-015,BA-028,1.044,2,1,0.268,1.132,0.39,34.1,0.77,oscillatory,1,929,theoretical_calculation,0.67,Archive Survey Team,Reversibility confirmed experimentally.
+GP-0044,Winding Crossing,MS-0340,MS-0042,BA-014,BA-036,0.612,2,3,-0.344,0.536,0.41,55.9,0.34,metamorphic,34,924,theoretical_calculation,0.84,Archive Survey Team,One-way path; reverse not observed.
+GP-0045,Form 004 Departure Route,MS-0045,MS-0004,BA-012,BA-003,1.271,4,3,-0.113,1.302,0.61,100.0,0.2,metamorphic,79,918,theoretical_calculation,0.67,Trajectory Analysis Group,Connects to GP-0058 at midpoint.
+GP-0046,Path GP-370,MS-0280,MS-0278,BA-043,BA-033,0.683,2,1,0.025,1.321,0.44,57.7,0.28,metamorphic,75,918,trajectory_observation,0.76,T. Vells,Saddle point SP-080 marks critical decision.
+GP-0047,Path GP-358,MS-0292,MS-0232,BA-031,BA-033,0.995,3,2,0.491,1.272,0.54,92.8,0.29,metamorphic,73,926,experimental,0.68,Archive Survey Team,Saddle point SP-019 marks critical decision.
+GP-0048,Form 015-Form 016 Bridge,MS-0156,MS-0168,BA-003,BA-048,1.481,4,3,-0.315,0.823,0.81,78.7,0.02,degenerative,10,922,trajectory_observation,0.58,Geodesic Mapping Project,Path discovered through trajectory analysis.
+GP-0049,Form 005 Departure Route,MS-0053,MS-0249,BA-044,BA-001,0.884,2,1,0.19,0.741,0.48,51.5,0.47,developmental,71,919,trajectory_observation,0.67,K. Strand,Theoretical path confirmed by observation.
+GP-0050,Path of Ancient Transition,MS-0376,MS-0111,BA-019,BA-032,1.069,4,3,0.096,1.517,0.57,46.0,0.76,oscillatory,79,932,trajectory_observation,0.9,Trajectory Analysis Group,Theoretical path confirmed by observation.
+GP-0051,Form 018-Form 035 Traverse,MS-0181,MS-0355,BA-043,BA-024,0.814,3,3,-0.061,1.034,0.53,51.1,0.05,degenerative,8,920,experimental,0.53,Boundary Commission,Ridge crossing at RG-036 particularly difficult.
+GP-0052,Path GP-961,MS-0386,MS-0078,BA-022,BA-029,1.059,2,3,0.012,1.117,0.48,61.2,0.51,developmental,89,919,historical_inference,0.84,Western Archive Team,Connects to GP-0202 at midpoint.
+GP-0053,Form 007 Approach,MS-0100,MS-0075,BA-047,BA-035,0.738,2,2,-0.343,0.272,0.35,25.2,0.76,oscillatory,47,928,theoretical_calculation,0.7,C. Vells,Historical records suggest ancient use.
+GP-0054,Path GP-193,MS-0208,MS-0115,BA-044,BA-042,1.01,4,3,0.148,1.112,0.55,85.7,0.47,regenerative,29,932,trajectory_observation,0.56,C. Vells,Saddle point SP-027 marks critical decision.
+GP-0055,Form 031-Form 039 Traverse,MS-0312,MS-0391,BA-014,BA-042,1.269,3,3,0.28,1.441,0.62,83.8,0.45,developmental,23,924,trajectory_observation,0.94,Archive Survey Team,One-way path; reverse not observed.
+GP-0056,Form 003 Approach,MS-0135,MS-0033,BA-017,BA-028,1.456,4,3,-0.544,0.329,0.74,100.0,0.16,metamorphic,77,922,trajectory_observation,0.89,Western Archive Team,Historical records suggest ancient use.
+GP-0057,Path of Northern Transition,MS-0191,MS-0331,BA-008,BA-002,0.693,3,3,-0.702,0.013,0.43,64.4,0.3,metamorphic,14,920,trajectory_observation,0.54,Archive Survey Team,Theoretical path confirmed by observation.
+GP-0058,Form 014 Approach,MS-0047,MS-0143,BA-012,BA-028,0.743,3,2,0.444,1.667,0.55,58.6,0.46,developmental,45,931,experimental,0.91,Trajectory Analysis Group,Part of larger geodesic network.
+GP-0059,Path of Standard Transition,MS-0012,MS-0135,BA-013,BA-017,1.234,4,3,-0.669,0.789,0.73,86.3,0.41,developmental,4,927,historical_inference,0.83,Western Archive Team,One-way path; reverse not observed.
+GP-0060,Path GP-432,MS-0218,MS-0250,BA-019,BA-001,0.765,1,0,-0.534,0.657,0.25,27.7,0.09,degenerative,39,922,trajectory_observation,0.85,Western Archive Team,Path discovered through trajectory analysis.
+GP-0061,Ancient Crossing,MS-0011,MS-0168,BA-012,BA-048,1.599,5,3,-0.121,0.473,0.93,100.0,0.34,developmental,82,931,experimental,0.85,Morren Kast,Saddle point SP-021 marks critical decision.
+GP-0062,Form 027-Form 020 Traverse,MS-0274,MS-0201,BA-036,BA-041,1.082,2,2,-0.622,0.74,0.53,33.9,0.73,oscillatory,72,928,theoretical_calculation,0.74,C. Vells,Part of larger geodesic network.
+GP-0063,Form 034 Departure Route,MS-0342,MS-0082,BA-024,BA-005,1.082,3,3,-0.325,1.025,0.65,40.0,0.67,oscillatory,84,930,trajectory_observation,0.69,C. Vells,
+GP-0064,Path GP-104,MS-0280,MS-0341,BA-043,BA-016,1.8,5,3,-0.381,0.393,0.89,89.2,0.0,degenerative,37,918,historical_inference,0.53,Archive Survey Team,Saddle point SP-099 marks critical decision.
+GP-0065,The Western Path,MS-0315,MS-0259,BA-021,BA-016,0.933,4,3,0.37,0.917,0.58,50.1,0.65,oscillatory,90,923,theoretical_calculation,0.84,C. Vells,Saddle point SP-016 marks critical decision.
+GP-0066,Path GP-130,MS-0078,MS-0085,BA-029,BA-027,2.083,5,3,-0.943,-0.434,0.93,100.0,0.0,degenerative,6,920,historical_inference,0.76,Archive Survey Team,
+GP-0067,Form 028 Departure Route,MS-0285,MS-0029,BA-025,BA-048,0.893,2,2,0.005,0.91,0.36,49.9,0.05,degenerative,99,919,historical_inference,0.72,C. Vells,
+GP-0068,Form 026 Departure Route,MS-0265,MS-0351,BA-049,BA-031,1.088,2,3,0.158,0.767,0.41,65.6,0.56,developmental,86,925,trajectory_observation,0.68,C. Vells,Historical records suggest ancient use.
+GP-0069,Breathin-Form 003 Bridge,MS-0003,MS-0039,BA-015,BA-047,1.401,4,3,0.011,0.521,0.77,100.0,0.43,regenerative,43,920,historical_inference,0.74,K. Strand,First documented Year 920.
+GP-0070,Form 018-Form 032 Bridge,MS-0183,MS-0323,BA-048,BA-007,1.155,3,3,0.085,1.112,0.64,80.6,0.48,regenerative,53,931,experimental,0.93,Morren Kast,Reversibility confirmed experimentally.
+GP-0071,Form 002 Approach,MS-0073,MS-0023,BA-047,BA-038,1.019,2,3,-0.093,1.185,0.45,38.8,0.83,oscillatory,25,927,experimental,0.6,Archive Survey Team,Ridge crossing at RG-059 particularly difficult.
+GP-0072,Form 014-Form 007 Bridge,MS-0143,MS-0077,BA-028,BA-017,1.25,3,2,-0.298,0.789,0.61,84.8,0.44,developmental,94,930,experimental,0.58,Boundary Commission,Connects to GP-0072 at midpoint.
+GP-0073,Form 009-Form 037 Traverse,MS-0093,MS-0373,BA-021,BA-040,1.044,2,2,-0.817,-0.252,0.55,58.5,0.49,developmental,53,924,trajectory_observation,0.73,Trajectory Analysis Group,
+GP-0074,The Critical Trajectory,MS-0174,MS-0046,BA-009,BA-027,0.948,3,3,-0.932,0.544,0.5,80.2,0.43,regenerative,89,920,trajectory_observation,0.53,Western Archive Team,Reversibility confirmed experimentally.
+GP-0075,Form 001-Form 016 Bridge,MS-0016,MS-0165,BA-045,BA-047,0.468,0,0,-0.04,0.969,0.13,23.4,0.16,degenerative,71,924,trajectory_observation,0.67,Boundary Commission,Saddle point SP-008 marks critical decision.
+GP-0076,The Modern Path,MS-0338,MS-0316,BA-026,BA-010,1.109,4,3,-0.039,1.393,0.7,75.6,0.51,developmental,80,926,experimental,0.6,Archive Survey Team,Reversibility confirmed experimentally.
+GP-0077,Path GP-985,MS-0164,MS-0211,BA-004,BA-004,0.0,0,0,-0.44,0.765,0.1,2.0,0.28,metamorphic,43,928,trajectory_observation,0.88,K. Strand,Saddle point SP-025 marks critical decision.
+GP-0078,Form 035 Approach,MS-0318,MS-0355,BA-047,BA-024,1.021,2,3,0.021,1.371,0.38,64.9,0.56,developmental,4,924,experimental,0.8,K. Strand,Connects to GP-0152 at midpoint.
+GP-0079,Form 025 Departure Route,MS-0259,MS-0206,BA-016,BA-009,1.129,4,3,-0.928,-0.017,0.68,100.0,0.22,metamorphic,58,929,historical_inference,0.7,Morren Kast,Reversibility confirmed experimentally.
+GP-0080,Form 013 Departure Route,MS-0133,MS-0150,BA-011,BA-046,0.553,2,3,0.381,1.062,0.26,33.6,0.88,oscillatory,98,932,experimental,0.69,T. Vells,Traversal time varies with perturbation level.
+GP-0081,Form 008 Departure Route,MS-0086,MS-0136,BA-048,BA-030,1.556,4,3,-0.36,0.245,0.81,82.0,0.0,degenerative,81,918,trajectory_observation,0.53,Archive Survey Team,Ridge crossing at RG-095 particularly difficult.
+GP-0082,Form 021 Approach,MS-0076,MS-0216,BA-044,BA-020,0.971,4,3,-0.7,0.717,0.62,83.2,0.34,regenerative,41,927,trajectory_observation,0.87,C. Vells,One-way path; reverse not observed.
+GP-0083,Form 033 Approach,MS-0110,MS-0334,BA-034,BA-032,0.861,2,2,-0.866,0.432,0.34,56.7,0.64,developmental,20,926,trajectory_observation,0.81,Boundary Commission,Theoretical path confirmed by observation.
+GP-0084,Form 002-Form 012 Bridge,MS-0025,MS-0128,BA-019,BA-002,0.808,3,3,-0.684,0.686,0.49,76.1,0.2,metamorphic,79,924,theoretical_calculation,0.6,Geodesic Mapping Project,Reversibility confirmed experimentally.
+GP-0085,The Eastern Path,MS-0349,MS-0087,BA-024,BA-040,0.464,2,1,-0.199,0.916,0.35,38.0,0.62,developmental,90,932,experimental,0.86,Trajectory Analysis Group,First documented Year 932.
+GP-0086,Form 021-Form 035 Bridge,MS-0211,MS-0350,BA-004,BA-040,0.649,3,3,-0.26,0.854,0.35,66.6,0.31,metamorphic,2,918,historical_inference,0.58,T. Vells,Path discovered through trajectory analysis.
+GP-0087,Form 005 Approach,MS-0223,MS-0058,BA-016,BA-030,1.014,4,3,0.156,0.934,0.64,93.7,0.12,metamorphic,54,932,trajectory_observation,0.87,Western Archive Team,Part of larger geodesic network.
+GP-0088,The Gradual Path,MS-0358,MS-0096,BA-050,BA-015,1.61,4,3,-0.509,0.926,0.76,62.5,0.73,oscillatory,98,926,trajectory_observation,0.65,Morren Kast,Saddle point SP-061 marks critical decision.
+GP-0089,Dens-Adj-Form 010 Traverse,MS-0022,MS-0108,BA-015,BA-008,0.459,2,3,0.432,0.971,0.32,25.9,0.13,degenerative,86,930,trajectory_observation,0.55,Trajectory Analysis Group,First documented Year 930.
+GP-0090,Path GP-780,MS-0395,MS-0095,BA-030,BA-020,1.034,2,1,-0.17,0.491,0.44,65.7,0.53,developmental,100,928,trajectory_observation,0.57,Morren Kast,One-way path; reverse not observed.
+GP-0091,The Secondary Trajectory,MS-0208,MS-0115,BA-044,BA-042,0.804,3,3,0.03,1.289,0.44,63.3,0.41,regenerative,91,926,trajectory_observation,0.58,C. Vells,Traversal time varies with perturbation level.
+GP-0092,Path GP-556,MS-0136,MS-0047,BA-030,BA-012,1.647,5,3,-0.979,-0.271,0.9,100.0,0.25,regenerative,49,922,historical_inference,0.64,T. Vells,Saddle point SP-056 marks critical decision.
+GP-0093,Path GP-636,MS-0326,MS-0049,BA-025,BA-041,0.592,1,2,0.248,1.508,0.29,43.1,0.63,developmental,13,930,trajectory_observation,0.56,Geodesic Mapping Project,Theoretical path confirmed by observation.
+GP-0094,Path GP-317,MS-0170,MS-0121,BA-032,BA-015,1.385,4,3,-0.62,0.221,0.79,54.6,0.71,oscillatory,7,931,experimental,0.63,K. Strand,One-way path; reverse not observed.
+GP-0095,Path of Gradual Transition,MS-0200,MS-0029,BA-001,BA-048,0.962,2,2,-0.683,0.478,0.35,86.0,0.23,metamorphic,22,926,trajectory_observation,0.6,K. Strand,Connects to GP-0072 at midpoint.
+GP-0096,Form 010-Form 013 Bridge,MS-0102,MS-0135,BA-036,BA-017,0.954,3,2,-0.116,0.748,0.6,71.8,0.45,regenerative,69,927,trajectory_observation,0.66,Morren Kast,First documented Year 927.
+GP-0097,Unstable Crossing,MS-0153,MS-0082,BA-011,BA-005,1.183,4,3,0.185,1.155,0.72,87.8,0.43,developmental,31,930,theoretical_calculation,0.87,Trajectory Analysis Group,Historical records suggest ancient use.
+GP-0098,Path GP-607,MS-0334,MS-0246,BA-032,BA-045,1.28,5,3,-0.775,0.513,0.81,95.7,0.37,developmental,97,927,experimental,0.86,Boundary Commission,
+GP-0099,Direct Crossing,MS-0253,MS-0318,BA-028,BA-047,0.61,2,2,0.398,1.055,0.3,47.5,0.51,developmental,71,925,trajectory_observation,0.67,Boundary Commission,Connects to GP-0208 at midpoint.
+GP-0100,Stable Crossing,MS-0094,MS-0344,BA-028,BA-050,0.492,0,0,0.409,1.339,0.2,29.9,0.57,developmental,97,925,experimental,0.83,Trajectory Analysis Group,Path discovered through trajectory analysis.
+GP-0101,Northern Crossing,MS-0058,MS-0065,BA-030,BA-028,1.487,3,2,-0.564,0.149,0.61,98.1,0.42,developmental,84,929,trajectory_observation,0.84,C. Vells,First documented Year 929.
+GP-0102,Path GP-813,MS-0263,MS-0117,BA-017,BA-038,0.971,3,3,-0.494,0.036,0.46,62.3,0.53,developmental,57,929,experimental,0.54,T. Vells,Historical records suggest ancient use.
+GP-0103,Form 014 Departure Route,MS-0143,MS-0098,BA-028,BA-003,1.114,4,3,-0.646,0.135,0.74,48.7,0.58,oscillatory,69,918,historical_inference,0.56,Trajectory Analysis Group,Historical records suggest ancient use.
+GP-0104,Path of Modern Transition,MS-0393,MS-0309,BA-025,BA-017,0.782,1,0,-0.668,0.214,0.35,36.0,0.19,degenerative,30,925,trajectory_observation,0.85,Western Archive Team,First documented Year 925.
+GP-0105,Form 025-Form 036 Traverse,MS-0253,MS-0365,BA-028,BA-007,0.811,1,0,-0.043,0.969,0.42,57.5,0.56,regenerative,31,924,historical_inference,0.78,Boundary Commission,Theoretical path confirmed by observation.
+GP-0106,Path of Unstable Transition,MS-0037,MS-0346,BA-009,BA-013,0.969,2,2,0.372,1.868,0.54,72.9,0.5,regenerative,77,918,trajectory_observation,0.54,Morren Kast,Part of larger geodesic network.
+GP-0107,The Gradual Trajectory,MS-0152,MS-0061,BA-016,BA-040,0.785,2,1,-0.522,0.492,0.39,34.1,0.78,oscillatory,19,932,trajectory_observation,0.92,Boundary Commission,Ridge crossing at RG-147 particularly difficult.
+GP-0108,Form 037-Form 038 Traverse,MS-0378,MS-0386,BA-039,BA-022,1.045,2,2,-0.612,0.114,0.38,49.9,0.1,degenerative,2,924,historical_inference,0.87,Morren Kast,Connects to GP-0025 at midpoint.
+GP-0109,Five-Bod-Form 026 Bridge,MS-0027,MS-0268,BA-005,BA-026,1.595,4,3,-0.647,-0.067,0.85,100.0,0.16,metamorphic,13,923,trajectory_observation,0.81,Trajectory Analysis Group,One-way path; reverse not observed.
+GP-0110,Form 001-Form 006 Bridge,MS-0013,MS-0061,BA-048,BA-040,0.506,0,0,-0.86,0.572,0.12,26.4,0.47,regenerative,25,925,trajectory_observation,0.63,Boundary Commission,Part of larger geodesic network.
+GP-0111,Form 009-Form 022 Bridge,MS-0094,MS-0221,BA-028,BA-010,1.534,4,3,0.307,1.105,0.71,100.0,0.49,developmental,41,924,trajectory_observation,0.7,Geodesic Mapping Project,Saddle point SP-002 marks critical decision.
+GP-0112,Form 038-Form 023 Bridge,MS-0384,MS-0236,BA-035,BA-017,0.538,1,2,-0.458,0.579,0.17,29.7,0.63,developmental,9,930,theoretical_calculation,0.87,T. Vells,Traversal time varies with perturbation level.
+GP-0113,The Stable Trajectory,MS-0295,MS-0219,BA-043,BA-016,1.394,3,3,-0.946,0.484,0.66,95.8,0.43,regenerative,40,931,trajectory_observation,0.54,Morren Kast,Connects to GP-0026 at midpoint.
+GP-0114,Form 011-Form 034 Bridge,MS-0114,MS-0341,BA-028,BA-016,1.446,4,3,-0.115,0.467,0.71,100.0,0.3,regenerative,47,919,trajectory_observation,0.79,Morren Kast,Saddle point SP-045 marks critical decision.
+GP-0115,The Southern Trajectory,MS-0280,MS-0357,BA-043,BA-012,0.719,2,3,-0.974,-0.182,0.4,61.5,0.3,metamorphic,26,928,trajectory_observation,0.59,Western Archive Team,
+GP-0116,Path GP-395,MS-0251,MS-0212,BA-034,BA-048,0.811,2,1,-0.822,0.436,0.38,55.3,0.4,regenerative,20,929,historical_inference,0.59,Archive Survey Team,Historical records suggest ancient use.
+GP-0117,Path GP-556,MS-0291,MS-0090,BA-043,BA-031,1.105,3,3,-0.299,0.832,0.64,38.7,0.63,oscillatory,12,927,theoretical_calculation,0.78,Archive Survey Team,First documented Year 927.
+GP-0118,Path of Secondary Transition,MS-0357,MS-0128,BA-012,BA-002,1.235,4,3,-0.625,0.846,0.68,79.9,0.51,developmental,12,927,experimental,0.81,Geodesic Mapping Project,Part of larger geodesic network.
+GP-0119,Form 019-Form 031 Traverse,MS-0192,MS-0314,BA-013,BA-043,0.994,4,3,0.474,1.732,0.62,75.0,0.44,developmental,32,930,trajectory_observation,0.53,Trajectory Analysis Group,Path discovered through trajectory analysis.
+GP-0120,Form 024 Departure Route,MS-0245,MS-0068,BA-006,BA-004,1.289,3,2,-0.502,0.769,0.6,100.0,0.22,metamorphic,64,920,trajectory_observation,0.54,T. Vells,Connects to GP-0044 at midpoint.
+GP-0121,Form 002-Form 039 Bridge,MS-0029,MS-0399,BA-048,BA-048,0.0,0,0,-0.33,0.593,0.1,5.2,0.14,degenerative,18,929,historical_inference,0.94,Trajectory Analysis Group,Saddle point SP-089 marks critical decision.
+GP-0122,The Winding Path,MS-0024,MS-0318,BA-008,BA-047,1.476,5,3,-0.042,1.297,0.78,100.0,0.45,regenerative,31,929,experimental,0.56,C. Vells,Path discovered through trajectory analysis.
+GP-0123,Form 027-Form 007 Bridge,MS-0270,MS-0075,BA-024,BA-035,1.01,4,3,-0.634,0.121,0.61,57.5,0.05,degenerative,13,918,trajectory_observation,0.71,Trajectory Analysis Group,Connects to GP-0072 at midpoint.
+GP-0124,Path GP-267,MS-0192,MS-0393,BA-013,BA-025,1.188,4,3,-0.175,0.6,0.68,98.2,0.46,regenerative,34,928,theoretical_calculation,0.92,K. Strand,Reversibility confirmed experimentally.
+GP-0125,Form 037-Form 032 Traverse,MS-0376,MS-0323,BA-019,BA-007,0.534,0,0,0.063,1.07,0.15,17.2,0.12,degenerative,40,926,historical_inference,0.51,Geodesic Mapping Project,One-way path; reverse not observed.
+GP-0126,Form 003 Departure Route,MS-0030,MS-0298,BA-021,BA-049,0.88,1,2,0.486,1.912,0.33,34.9,0.02,degenerative,87,925,experimental,0.85,Western Archive Team,First documented Year 925.
+GP-0127,Path GP-532,MS-0114,MS-0240,BA-028,BA-024,1.424,4,3,-0.905,-0.271,0.77,100.0,0.13,metamorphic,92,925,historical_inference,0.92,Trajectory Analysis Group,Saddle point SP-003 marks critical decision.
+GP-0128,Form 023 Approach,MS-0102,MS-0233,BA-036,BA-001,0.352,2,1,0.117,1.108,0.21,29.9,0.64,developmental,85,929,theoretical_calculation,0.8,Boundary Commission,Path discovered through trajectory analysis.
+GP-0129,Path GP-701,MS-0160,MS-0184,BA-039,BA-049,1.003,4,3,-0.419,0.329,0.68,70.3,0.47,developmental,98,925,trajectory_observation,0.58,Archive Survey Team,Connects to GP-0108 at midpoint.
+GP-0130,Form 033-Triad Fo Traverse,MS-0338,MS-0005,BA-026,BA-004,0.655,2,3,-0.476,0.971,0.33,31.8,0.74,oscillatory,42,918,theoretical_calculation,0.93,Boundary Commission,One-way path; reverse not observed.
+GP-0131,Path GP-918,MS-0117,MS-0189,BA-038,BA-034,1.358,4,3,0.362,1.018,0.77,100.0,0.44,regenerative,85,925,trajectory_observation,0.88,Geodesic Mapping Project,Historical records suggest ancient use.
+GP-0132,Modern Crossing,MS-0369,MS-0256,BA-004,BA-031,0.8,3,3,0.481,1.337,0.51,52.9,0.0,degenerative,87,923,trajectory_observation,0.79,Archive Survey Team,Part of larger geodesic network.
+GP-0133,Form 010 Approach,MS-0185,MS-0102,BA-045,BA-036,0.333,0,0,-0.235,1.121,0.1,24.8,0.29,metamorphic,73,920,theoretical_calculation,0.51,T. Vells,Part of larger geodesic network.
+GP-0134,Path of Eastern Transition,MS-0035,MS-0009,BA-047,BA-033,1.004,4,3,-0.93,-0.424,0.53,100.0,0.22,metamorphic,63,930,experimental,0.89,Morren Kast,Ridge crossing at RG-073 particularly difficult.
+GP-0135,Form 007-Form 015 Bridge,MS-0076,MS-0155,BA-044,BA-019,1.626,5,3,0.003,1.236,0.85,100.0,0.35,developmental,25,925,historical_inference,0.91,T. Vells,Path discovered through trajectory analysis.
+GP-0136,Form 015-Form 029 Bridge,MS-0158,MS-0290,BA-031,BA-011,1.039,2,1,0.285,0.962,0.54,81.4,0.47,regenerative,88,922,experimental,0.64,Western Archive Team,Ridge crossing at RG-088 particularly difficult.
+GP-0137,Path GP-952,MS-0307,MS-0399,BA-017,BA-048,1.741,5,3,-0.769,0.136,0.86,100.0,0.23,metamorphic,89,924,experimental,0.69,Western Archive Team,Theoretical path confirmed by observation.
+GP-0138,Form 023-Form 002 Traverse,MS-0235,MS-0025,BA-028,BA-019,0.87,2,2,-0.659,0.499,0.52,63.5,0.44,regenerative,35,931,trajectory_observation,0.74,Morren Kast,Reversibility confirmed experimentally.
+GP-0139,Path GP-442,MS-0334,MS-0366,BA-032,BA-014,0.955,2,3,-0.193,0.755,0.39,35.0,0.7,oscillatory,63,930,trajectory_observation,0.6,K. Strand,Connects to GP-0111 at midpoint.
+GP-0140,Form 035-Form 004 Traverse,MS-0350,MS-0049,BA-040,BA-041,1.175,4,3,-0.503,0.33,0.61,80.4,0.5,developmental,63,930,trajectory_observation,0.51,C. Vells,Traversal time varies with perturbation level.
+GP-0141,Path GP-499,MS-0246,MS-0397,BA-045,BA-014,0.876,3,3,0.342,1.55,0.41,54.1,0.67,developmental,10,918,theoretical_calculation,0.57,Geodesic Mapping Project,Traversal time varies with perturbation level.
+GP-0142,Form 020-Form 002 Traverse,MS-0203,MS-0029,BA-015,BA-048,0.532,0,0,-0.134,0.983,0.15,20.0,0.78,oscillatory,65,924,experimental,0.66,Geodesic Mapping Project,Ridge crossing at RG-124 particularly difficult.
+GP-0143,Form 026-Form 008 Traverse,MS-0268,MS-0086,BA-026,BA-048,1.092,3,2,0.153,0.872,0.64,71.1,0.6,developmental,59,930,experimental,0.95,Trajectory Analysis Group,Connects to GP-0189 at midpoint.
+GP-0144,The Northern Path,MS-0343,MS-0191,BA-002,BA-008,0.629,1,2,0.082,0.76,0.35,21.3,0.78,oscillatory,27,919,trajectory_observation,0.76,K. Strand,One-way path; reverse not observed.
+GP-0145,Path GP-412,MS-0250,MS-0203,BA-001,BA-015,0.782,2,1,-0.743,-0.197,0.39,52.3,0.66,developmental,25,922,trajectory_observation,0.65,Trajectory Analysis Group,Saddle point SP-069 marks critical decision.
+GP-0146,Path GP-353,MS-0242,MS-0292,BA-015,BA-031,1.02,2,2,-0.925,-0.372,0.39,37.3,0.88,oscillatory,59,925,experimental,0.53,C. Vells,Path discovered through trajectory analysis.
+GP-0147,Path GP-880,MS-0061,MS-0396,BA-040,BA-046,0.553,0,0,-0.952,0.508,0.1,14.6,0.92,oscillatory,6,928,experimental,0.75,Trajectory Analysis Group,Part of larger geodesic network.
+GP-0148,The Winding Trajectory,MS-0349,MS-0284,BA-024,BA-010,0.826,1,0,-0.387,0.267,0.32,21.2,0.76,oscillatory,24,922,experimental,0.74,C. Vells,Historical records suggest ancient use.
+GP-0149,Form 011 Departure Route,MS-0111,MS-0065,BA-032,BA-028,1.017,4,3,0.13,0.995,0.6,42.3,0.7,oscillatory,42,927,experimental,0.53,Archive Survey Team,Ridge crossing at RG-067 particularly difficult.
+GP-0150,Form 034-Form 034 Traverse,MS-0342,MS-0341,BA-024,BA-016,0.374,1,1,-0.115,1.123,0.24,21.6,0.66,developmental,41,929,experimental,0.7,C. Vells,Reversibility confirmed experimentally.
+GP-0151,Path GP-456,MS-0267,MS-0048,BA-028,BA-021,1.39,5,3,-0.458,0.724,0.8,100.0,0.22,metamorphic,84,928,theoretical_calculation,0.88,T. Vells,First documented Year 928.
+GP-0152,Path of Stable Transition,MS-0257,MS-0013,BA-046,BA-048,0.373,2,3,-0.952,-0.388,0.34,41.2,0.4,regenerative,48,922,trajectory_observation,0.64,C. Vells,First documented Year 922.
+GP-0153,Path GP-961,MS-0088,MS-0005,BA-019,BA-004,0.822,2,2,0.39,1.053,0.5,43.5,0.14,degenerative,4,919,trajectory_observation,0.64,Morren Kast,One-way path; reverse not observed.
+GP-0154,Form 013-Form 032 Bridge,MS-0130,MS-0323,BA-011,BA-007,0.742,1,1,0.094,0.793,0.23,56.9,0.59,regenerative,5,918,trajectory_observation,0.65,C. Vells,Reversibility confirmed experimentally.
+GP-0155,Form 037 Departure Route,MS-0378,MS-0178,BA-039,BA-047,1.312,3,3,-0.169,0.781,0.55,100.0,0.16,metamorphic,43,925,theoretical_calculation,0.61,Geodesic Mapping Project,
+GP-0156,Path GP-407,MS-0363,MS-0055,BA-037,BA-038,1.949,5,3,-0.444,0.577,1.0,100.0,0.36,developmental,57,926,experimental,0.64,Geodesic Mapping Project,One-way path; reverse not observed.
+GP-0157,Form 008-Form 010 Bridge,MS-0083,MS-0103,BA-044,BA-009,0.694,3,3,0.269,1.099,0.37,32.6,0.72,oscillatory,26,920,theoretical_calculation,0.58,Western Archive Team,
+GP-0158,Secondary Crossing,MS-0228,MS-0152,BA-041,BA-016,0.705,3,3,0.265,1.306,0.36,60.0,0.6,developmental,50,922,trajectory_observation,0.9,Morren Kast,Theoretical path confirmed by observation.
+GP-0159,Form 007-Form 037 Traverse,MS-0075,MS-0371,BA-035,BA-045,0.516,2,1,-0.548,0.118,0.33,33.3,0.7,developmental,68,922,trajectory_observation,0.73,Archive Survey Team,One-way path; reverse not observed.
+GP-0160,Path GP-356,MS-0117,MS-0383,BA-038,BA-006,1.227,4,3,0.303,1.136,0.7,95.8,0.46,regenerative,1,928,historical_inference,0.87,Boundary Commission,Theoretical path confirmed by observation.
+GP-0161,Southern Crossing,MS-0121,MS-0190,BA-015,BA-028,1.382,3,2,-0.827,-0.009,0.59,45.4,0.68,oscillatory,10,929,trajectory_observation,0.52,K. Strand,Saddle point SP-009 marks critical decision.
+GP-0162,Path GP-782,MS-0048,MS-0021,BA-021,BA-007,1.082,3,2,-0.939,-0.058,0.47,40.6,0.75,oscillatory,4,930,trajectory_observation,0.6,C. Vells,
+GP-0163,Path GP-616,MS-0390,MS-0070,BA-019,BA-016,1.005,2,2,0.468,0.972,0.5,57.8,0.46,developmental,33,927,trajectory_observation,0.69,Western Archive Team,First documented Year 927.
+GP-0164,Path GP-626,MS-0155,MS-0375,BA-019,BA-035,0.77,1,0,0.432,1.625,0.37,65.7,0.34,metamorphic,57,920,theoretical_calculation,0.78,Geodesic Mapping Project,First documented Year 920.
+GP-0165,Form 021-Form 011 Bridge,MS-0219,MS-0111,BA-016,BA-032,1.183,4,3,-0.379,0.717,0.65,74.5,0.42,developmental,56,930,trajectory_observation,0.51,Archive Survey Team,Path discovered through trajectory analysis.
+GP-0166,Form 016 Departure Route,MS-0160,MS-0174,BA-039,BA-009,0.604,3,3,-0.879,-0.117,0.35,49.6,0.47,regenerative,52,924,theoretical_calculation,0.91,Archive Survey Team,
+GP-0167,Form 018-Dens-Adj Traverse,MS-0186,MS-0022,BA-014,BA-015,1.67,5,3,-0.336,0.507,0.91,100.0,0.26,regenerative,59,930,theoretical_calculation,0.82,Morren Kast,Connects to GP-0226 at midpoint.
+GP-0168,Form 022 Departure Route,MS-0226,MS-0228,BA-041,BA-041,0.0,0,0,-0.666,-0.027,0.1,8.2,0.57,developmental,97,930,experimental,0.56,Boundary Commission,Ridge crossing at RG-033 particularly difficult.
+GP-0169,Form 015 Approach,MS-0266,MS-0154,BA-019,BA-017,0.987,3,2,-0.599,0.736,0.48,41.1,0.69,oscillatory,32,927,historical_inference,0.61,K. Strand,Ridge crossing at RG-114 particularly difficult.
+GP-0170,Path GP-799,MS-0206,MS-0196,BA-009,BA-047,0.833,1,0,-0.212,0.876,0.29,64.9,0.61,regenerative,63,927,trajectory_observation,0.6,Boundary Commission,Saddle point SP-046 marks critical decision.
+GP-0171,Path GP-299,MS-0099,MS-0233,BA-008,BA-001,0.83,2,1,-0.892,-0.363,0.42,56.4,0.55,developmental,48,922,theoretical_calculation,0.8,K. Strand,Path discovered through trajectory analysis.
+GP-0172,Form 036-Form 028 Bridge,MS-0366,MS-0285,BA-014,BA-025,1.107,4,3,-0.363,0.394,0.58,76.3,0.46,developmental,29,919,historical_inference,0.82,T. Vells,First documented Year 919.
+GP-0173,Path GP-248,MS-0142,MS-0159,BA-033,BA-034,0.649,1,2,0.212,1.595,0.31,33.2,0.66,developmental,29,932,trajectory_observation,0.74,T. Vells,Part of larger geodesic network.
+GP-0174,Path GP-345,MS-0197,MS-0263,BA-014,BA-017,1.425,3,3,-0.793,-0.157,0.75,92.7,0.52,developmental,94,919,trajectory_observation,0.89,K. Strand,Part of larger geodesic network.
+GP-0175,Form 004-Triad Fo Bridge,MS-0042,MS-0005,BA-036,BA-004,0.828,2,1,-0.56,0.209,0.44,55.2,0.47,developmental,82,924,trajectory_observation,0.78,T. Vells,Reversibility confirmed experimentally.
+GP-0176,Path GP-629,MS-0164,MS-0124,BA-004,BA-022,1.153,3,3,0.475,1.773,0.57,57.1,0.0,degenerative,9,924,experimental,0.64,Western Archive Team,One-way path; reverse not observed.
+GP-0177,Form 016-Form 014 Traverse,MS-0160,MS-0144,BA-039,BA-023,1.516,5,3,0.482,1.668,0.77,100.0,0.18,metamorphic,55,922,trajectory_observation,0.79,Archive Survey Team,Part of larger geodesic network.
+GP-0178,The Primary Path,MS-0028,MS-0366,BA-014,BA-014,0.0,0,0,-0.456,0.789,0.1,5.0,0.55,regenerative,43,926,historical_inference,0.5,C. Vells,Reversibility confirmed experimentally.
+GP-0179,Form 031-Form 029 Traverse,MS-0317,MS-0299,BA-037,BA-048,1.608,5,3,0.257,1.628,0.88,100.0,0.37,developmental,61,927,experimental,0.8,Morren Kast,Path discovered through trajectory analysis.
+GP-0180,Path GP-582,MS-0068,MS-0176,BA-004,BA-021,0.875,2,1,-0.219,1.136,0.39,49.0,0.5,developmental,59,918,theoretical_calculation,0.57,C. Vells,Historical records suggest ancient use.
+GP-0181,Form 003-Form 022 Bridge,MS-0033,MS-0220,BA-028,BA-030,1.219,3,2,0.074,0.695,0.61,41.7,0.77,oscillatory,37,921,trajectory_observation,0.88,Boundary Commission,Traversal time varies with perturbation level.
+GP-0182,Path GP-378,MS-0199,MS-0015,BA-014,BA-005,1.266,3,3,-0.219,0.696,0.64,64.4,0.04,degenerative,57,919,trajectory_observation,0.68,K. Strand,Historical records suggest ancient use.
+GP-0183,Path GP-148,MS-0250,MS-0027,BA-001,BA-005,0.799,2,2,-0.492,0.218,0.49,37.1,0.04,degenerative,59,927,experimental,0.5,Trajectory Analysis Group,Saddle point SP-001 marks critical decision.
+GP-0184,Path GP-211,MS-0056,MS-0009,BA-019,BA-033,0.927,4,3,-0.936,0.546,0.51,71.8,0.54,developmental,60,929,experimental,0.88,C. Vells,Path discovered through trajectory analysis.
+GP-0185,Eastern Crossing,MS-0210,MS-0199,BA-029,BA-014,1.197,2,3,-0.982,0.052,0.43,65.0,0.54,developmental,84,924,historical_inference,0.64,C. Vells,One-way path; reverse not observed.
+GP-0186,Form 009 Departure Route,MS-0090,MS-0192,BA-031,BA-013,1.832,5,3,0.485,1.038,1.0,100.0,0.43,developmental,90,919,theoretical_calculation,0.71,Morren Kast,
+GP-0187,Path GP-123,MS-0368,MS-0156,BA-028,BA-003,0.829,1,0,-0.316,0.407,0.34,31.1,0.11,degenerative,29,924,trajectory_observation,0.68,Western Archive Team,Historical records suggest ancient use.
+GP-0188,Form 029-Form 011 Bridge,MS-0292,MS-0113,BA-031,BA-031,0.0,0,0,0.274,1.729,0.1,0.5,0.83,oscillatory,11,924,experimental,0.5,Western Archive Team,Theoretical path confirmed by observation.
+GP-0189,Path GP-264,MS-0198,MS-0157,BA-043,BA-024,1.005,4,3,-0.904,-0.401,0.59,77.7,0.6,developmental,76,920,trajectory_observation,0.62,Western Archive Team,Reversibility confirmed experimentally.
+GP-0190,Path GP-477,MS-0040,MS-0323,BA-049,BA-007,0.443,1,2,-0.478,0.328,0.24,31.5,0.53,regenerative,83,926,theoretical_calculation,0.91,Trajectory Analysis Group,Ridge crossing at RG-112 particularly difficult.
+GP-0191,Path GP-934,MS-0225,MS-0071,BA-035,BA-042,0.693,2,3,-0.426,0.939,0.32,53.0,0.58,developmental,40,931,theoretical_calculation,0.86,Trajectory Analysis Group,Part of larger geodesic network.
+GP-0192,Path GP-977,MS-0309,MS-0100,BA-017,BA-047,0.846,1,1,-0.829,0.253,0.25,52.5,0.63,developmental,92,932,historical_inference,0.56,Western Archive Team,First documented Year 932.
+GP-0193,Path GP-198,MS-0079,MS-0302,BA-028,BA-039,0.879,2,1,0.441,1.014,0.35,42.2,0.1,degenerative,34,923,experimental,0.62,Western Archive Team,First documented Year 923.
+GP-0194,Form 026-Form 033 Bridge,MS-0260,MS-0332,BA-047,BA-034,1.252,5,3,0.46,1.447,0.85,84.4,0.5,developmental,62,918,experimental,0.7,Boundary Commission,
+GP-0195,Path GP-707,MS-0301,MS-0060,BA-048,BA-040,0.651,1,0,-0.895,-0.029,0.23,40.4,0.47,regenerative,76,922,experimental,0.86,C. Vells,Part of larger geodesic network.
+GP-0196,Path of Winding Transition,MS-0024,MS-0197,BA-008,BA-014,1.798,5,3,-0.046,0.897,0.85,79.0,0.74,oscillatory,3,918,theoretical_calculation,0.76,Morren Kast,Theoretical path confirmed by observation.
+GP-0197,Form 021-Form 010 Traverse,MS-0218,MS-0106,BA-019,BA-038,0.983,2,1,-0.509,0.355,0.38,49.6,0.0,degenerative,17,931,trajectory_observation,0.78,Boundary Commission,Saddle point SP-009 marks critical decision.
+GP-0198,Path GP-378,MS-0203,MS-0361,BA-015,BA-030,1.516,4,3,-0.431,0.31,0.79,65.8,0.61,oscillatory,56,920,historical_inference,0.58,K. Strand,First documented Year 920.
+GP-0199,Form 008-Form 035 Traverse,MS-0087,MS-0359,BA-040,BA-041,1.267,4,3,-0.472,0.602,0.7,97.0,0.46,regenerative,86,924,experimental,0.86,Trajectory Analysis Group,Ridge crossing at RG-086 particularly difficult.
+GP-0200,Path GP-677,MS-0181,MS-0341,BA-043,BA-016,1.675,5,3,0.188,1.642,0.9,100.0,0.37,developmental,88,926,theoretical_calculation,0.71,T. Vells,Historical records suggest ancient use.
+GP-0201,Path GP-327,MS-0087,MS-0281,BA-040,BA-019,1.516,5,3,-0.354,0.632,0.77,100.0,0.54,developmental,100,930,historical_inference,0.75,Geodesic Mapping Project,Path discovered through trajectory analysis.
+GP-0202,Tension Approach,MS-0395,MS-0004,BA-030,BA-003,1.246,3,2,-0.451,0.342,0.57,100.0,0.21,metamorphic,72,919,theoretical_calculation,0.87,Boundary Commission,Reversibility confirmed experimentally.
+GP-0203,Path GP-862,MS-0023,MS-0374,BA-038,BA-048,0.99,4,3,0.266,1.074,0.69,71.9,0.41,developmental,84,932,theoretical_calculation,0.67,Geodesic Mapping Project,
+GP-0204,Path GP-491,MS-0260,MS-0367,BA-047,BA-021,0.883,3,3,-0.172,0.341,0.6,38.5,0.7,oscillatory,13,932,experimental,0.72,K. Strand,Saddle point SP-080 marks critical decision.
+GP-0205,Form 013-Form 019 Bridge,MS-0130,MS-0192,BA-011,BA-013,0.517,2,2,-0.335,0.434,0.31,40.2,0.68,developmental,19,923,historical_inference,0.52,Trajectory Analysis Group,Traversal time varies with perturbation level.
+GP-0206,Path GP-630,MS-0139,MS-0271,BA-010,BA-050,1.501,4,3,0.091,0.675,0.85,100.0,0.53,developmental,50,923,historical_inference,0.88,Trajectory Analysis Group,Theoretical path confirmed by observation.
+GP-0207,Path GP-437,MS-0332,MS-0185,BA-034,BA-045,1.565,5,3,-0.13,0.611,0.87,100.0,0.41,regenerative,78,931,theoretical_calculation,0.79,K. Strand,Part of larger geodesic network.
+GP-0208,Path GP-649,MS-0102,MS-0104,BA-036,BA-044,0.773,2,3,0.422,1.524,0.3,73.6,0.36,metamorphic,3,925,historical_inference,0.63,C. Vells,First documented Year 925.
+GP-0209,Path GP-715,MS-0273,MS-0116,BA-022,BA-003,0.518,1,0,-0.252,0.411,0.18,36.2,0.65,developmental,55,918,trajectory_observation,0.72,Western Archive Team,Historical records suggest ancient use.
+GP-0210,The Southern Path,MS-0327,MS-0027,BA-048,BA-005,1.527,4,3,0.374,1.428,0.69,59.8,0.71,oscillatory,80,919,trajectory_observation,0.68,Boundary Commission,Ridge crossing at RG-120 particularly difficult.
+GP-0211,Path GP-770,MS-0108,MS-0316,BA-008,BA-010,0.789,2,1,0.403,1.265,0.44,48.0,0.56,developmental,3,923,trajectory_observation,0.91,K. Strand,Part of larger geodesic network.
+GP-0212,Path GP-725,MS-0374,MS-0258,BA-048,BA-020,0.652,2,3,-0.976,0.029,0.34,58.1,0.59,regenerative,96,927,trajectory_observation,0.95,K. Strand,Reversibility confirmed experimentally.
+GP-0213,Critical Crossing,MS-0064,MS-0185,BA-042,BA-045,0.391,1,0,-0.01,0.875,0.16,15.5,0.94,oscillatory,20,932,theoretical_calculation,0.82,K. Strand,Traversal time varies with perturbation level.
+GP-0214,Form 005-Form 017 Bridge,MS-0054,MS-0174,BA-027,BA-009,1.127,4,3,-0.955,-0.291,0.64,76.5,0.45,developmental,42,923,experimental,0.79,Geodesic Mapping Project,Connects to GP-0013 at midpoint.
+GP-0215,Path GP-508,MS-0220,MS-0096,BA-030,BA-015,1.19,4,3,0.477,1.152,0.67,100.0,0.12,metamorphic,0,925,trajectory_observation,0.74,Morren Kast,First documented Year 925.
+GP-0216,The Eastern Trajectory,MS-0018,MS-0282,BA-003,BA-042,0.227,0,0,-0.173,0.721,0.1,14.0,0.78,oscillatory,73,929,trajectory_observation,0.76,Archive Survey Team,
+GP-0217,Western Crossing,MS-0197,MS-0025,BA-014,BA-019,0.354,2,3,-0.292,1.03,0.26,46.1,0.38,metamorphic,61,925,theoretical_calculation,0.8,Boundary Commission,Traversal time varies with perturbation level.
+GP-0218,Path GP-540,MS-0171,MS-0076,BA-023,BA-044,1.385,5,3,-0.284,0.477,0.77,82.7,0.02,degenerative,12,924,trajectory_observation,0.52,Trajectory Analysis Group,Traversal time varies with perturbation level.
+GP-0219,Path GP-137,MS-0026,MS-0266,BA-021,BA-019,0.552,0,0,-0.951,-0.0,0.18,27.5,0.23,degenerative,93,932,theoretical_calculation,0.79,Archive Survey Team,Connects to GP-0026 at midpoint.
+GP-0220,Path GP-913,MS-0144,MS-0243,BA-023,BA-001,0.984,2,1,-0.4,0.326,0.39,67.7,0.39,regenerative,67,926,historical_inference,0.66,K. Strand,Part of larger geodesic network.
+GP-0221,Path GP-965,MS-0253,MS-0053,BA-028,BA-044,1.12,2,1,0.256,0.995,0.57,33.9,0.79,oscillatory,31,929,historical_inference,0.86,Geodesic Mapping Project,One-way path; reverse not observed.
+GP-0222,Path GP-350,MS-0243,MS-0119,BA-001,BA-047,0.665,2,2,0.176,1.099,0.36,55.5,0.38,metamorphic,32,924,experimental,0.54,Boundary Commission,Traversal time varies with perturbation level.
+GP-0223,Path GP-324,MS-0055,MS-0360,BA-038,BA-018,1.94,5,3,-0.614,0.211,0.97,100.0,0.34,developmental,40,920,trajectory_observation,0.67,Geodesic Mapping Project,Historical records suggest ancient use.
+GP-0224,Path GP-981,MS-0055,MS-0039,BA-038,BA-047,1.111,4,3,0.433,1.249,0.64,88.1,0.4,regenerative,16,928,historical_inference,0.6,Archive Survey Team,One-way path; reverse not observed.
+GP-0225,Path GP-328,MS-0343,MS-0163,BA-002,BA-039,0.64,2,1,-0.352,0.362,0.33,60.2,0.4,metamorphic,97,920,experimental,0.86,T. Vells,Reversibility confirmed experimentally.
+GP-0226,Path GP-421,MS-0077,MS-0132,BA-017,BA-022,1.07,3,3,0.298,1.37,0.55,50.1,0.0,degenerative,50,922,historical_inference,0.8,T. Vells,Connects to GP-0020 at midpoint.
+GP-0227,Form 010-Form 003 Bridge,MS-0108,MS-0032,BA-008,BA-009,0.639,2,2,-0.66,0.335,0.27,55.9,0.56,regenerative,26,932,historical_inference,0.77,T. Vells,One-way path; reverse not observed.
+GP-0228,The Direct Trajectory,MS-0399,MS-0271,BA-048,BA-050,1.829,5,3,0.027,1.42,0.93,100.0,0.45,developmental,21,923,historical_inference,0.67,K. Strand,Historical records suggest ancient use.
+GP-0229,Path GP-109,MS-0218,MS-0209,BA-019,BA-042,1.035,4,3,-0.935,0.0,0.61,72.8,0.5,developmental,72,930,theoretical_calculation,0.55,Archive Survey Team,One-way path; reverse not observed.
+GP-0230,Path GP-234,MS-0237,MS-0202,BA-012,BA-010,1.509,4,3,0.348,1.305,0.79,94.6,0.46,developmental,16,918,experimental,0.89,Boundary Commission,First documented Year 918.
+GP-0231,Path GP-290,MS-0255,MS-0365,BA-031,BA-007,1.128,3,3,0.424,0.926,0.59,78.7,0.43,regenerative,26,925,historical_inference,0.83,Western Archive Team,Connects to GP-0237 at midpoint.
+GP-0232,Path GP-965,MS-0305,MS-0160,BA-011,BA-039,1.01,3,3,-0.506,0.181,0.47,97.6,0.16,metamorphic,22,929,trajectory_observation,0.78,C. Vells,Part of larger geodesic network.
+GP-0233,Path GP-140,MS-0108,MS-0088,BA-008,BA-019,1.034,4,3,0.387,0.999,0.7,98.9,0.1,metamorphic,35,932,historical_inference,0.77,T. Vells,One-way path; reverse not observed.
+GP-0234,Path GP-137,MS-0077,MS-0009,BA-017,BA-033,1.43,3,3,-0.194,0.825,0.61,100.0,0.36,regenerative,89,919,experimental,0.58,Geodesic Mapping Project,Theoretical path confirmed by observation.
+GP-0235,Form 031-Form 013 Bridge,MS-0317,MS-0137,BA-037,BA-049,1.203,3,3,-0.646,0.392,0.61,40.9,0.78,oscillatory,65,920,trajectory_observation,0.63,K. Strand,Ridge crossing at RG-024 particularly difficult.
+GP-0236,Form 026 Approach,MS-0162,MS-0269,BA-036,BA-030,1.056,2,2,-0.76,-0.161,0.45,53.2,0.08,degenerative,22,926,experimental,0.68,T. Vells,Reversibility confirmed experimentally.
+GP-0237,Minor At-Form 006 Traverse,MS-0014,MS-0069,BA-003,BA-043,1.779,4,3,-0.804,0.499,0.94,100.0,0.04,metamorphic,19,922,theoretical_calculation,0.87,Geodesic Mapping Project,Ridge crossing at RG-095 particularly difficult.
+GP-0238,Path GP-470,MS-0352,MS-0041,BA-028,BA-017,1.444,4,3,-0.814,0.488,0.68,90.8,0.52,developmental,68,929,historical_inference,0.62,Geodesic Mapping Project,Ridge crossing at RG-057 particularly difficult.
+GP-0239,Form 017-Form 019 Bridge,MS-0175,MS-0194,BA-001,BA-004,0.548,1,0,-0.581,0.228,0.17,40.1,0.6,regenerative,38,930,trajectory_observation,0.76,T. Vells,Historical records suggest ancient use.
+GP-0240,Path GP-230,MS-0086,MS-0147,BA-048,BA-023,1.527,5,3,-0.501,0.501,0.94,100.0,0.38,regenerative,75,920,trajectory_observation,0.91,C. Vells,Traversal time varies with perturbation level.
+GP-0241,Form 005-Form 037 Bridge,MS-0058,MS-0378,BA-030,BA-039,1.104,2,3,0.375,1.721,0.54,72.8,0.39,regenerative,82,925,trajectory_observation,0.85,Western Archive Team,Path discovered through trajectory analysis.
+GP-0242,Path GP-538,MS-0368,MS-0002,BA-028,BA-002,1.28,5,3,-0.384,0.162,0.87,58.9,0.58,oscillatory,73,918,theoretical_calculation,0.59,Morren Kast,One-way path; reverse not observed.
+GP-0243,Path GP-817,MS-0057,MS-0382,BA-008,BA-044,0.808,1,1,-0.871,0.128,0.34,48.8,0.48,regenerative,15,927,experimental,0.62,Geodesic Mapping Project,One-way path; reverse not observed.
+GP-0244,Path GP-524,MS-0309,MS-0011,BA-017,BA-012,1.822,5,3,-0.729,-0.069,0.89,100.0,0.34,developmental,88,923,historical_inference,0.82,Western Archive Team,One-way path; reverse not observed.
+GP-0245,Path GP-791,MS-0388,MS-0153,BA-019,BA-011,1.168,3,3,-0.348,1.0,0.67,52.4,0.0,degenerative,7,920,experimental,0.52,Boundary Commission,Theoretical path confirmed by observation.
+GP-0246,Form 013-Form 026 Bridge,MS-0138,MS-0264,BA-044,BA-005,2.051,5,3,-0.76,0.713,0.97,100.0,0.34,developmental,39,925,trajectory_observation,0.89,C. Vells,Theoretical path confirmed by observation.
+GP-0247,Path GP-261,MS-0221,MS-0063,BA-010,BA-010,0.0,0,0,-0.434,0.398,0.1,0.5,0.65,developmental,1,932,trajectory_observation,0.73,Western Archive Team,
+GP-0248,Form 018 Approach,MS-0113,MS-0186,BA-031,BA-014,0.853,2,3,0.411,1.407,0.51,56.6,0.58,developmental,13,920,trajectory_observation,0.89,Geodesic Mapping Project,Traversal time varies with perturbation level.
+GP-0249,Form 015-Form 025 Bridge,MS-0150,MS-0258,BA-046,BA-020,0.704,2,3,0.393,1.857,0.35,51.5,0.5,developmental,25,922,trajectory_observation,0.55,Archive Survey Team,First documented Year 922.
+GP-0250,Form 015-Form 022 Traverse,MS-0151,MS-0227,BA-015,BA-047,1.057,2,2,-0.959,-0.249,0.52,78.1,0.36,regenerative,60,920,trajectory_observation,0.78,T. Vells,Reversibility confirmed experimentally.
