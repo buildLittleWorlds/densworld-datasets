@@ -1,0 +1,3 @@
+place_id,place_name,aliases,world,place_type,region,description,hazard_level,accessibility,first_documented,status,compiler,notes
+GMP-001,Denstone (Denstown),,W1,Settlement,Near Dens region,Settlement near Dens - name suggests proximity to Dens; alternate spelling Denstown also used,Moderate - near Dens border,Accessible with caution,Unknown - traditional,Active,Cartographer's Guild,Both spellings in use; location near Dens boundary
+GMP-002,Nurdo River/Caves,,W1,Natural Feature / Cave System,Unknown - northern or Dens adjacent,River and associated cave system - single complex feature,High - cave exploration dangerous,Limited - expedition required,Unknown,Active but dangerous,Cartographer's Guild,River and cave system treated as single geographic unit

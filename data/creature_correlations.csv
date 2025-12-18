@@ -1,0 +1,201 @@
+correlation_id,creature_1_id,creature_1_name,creature_2_id,creature_2_name,both_yeller_compatible,behavior_correlation,lag_minutes,direction,conditions,strength,folk_rule_match,rule_text,pollus_notes
+CORR001,CR001,Leatherback Burrower,CR002,Stone Spine Lizard,False,0.048,30,second_leads,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR002,CR001,Leatherback Burrower,CR003,Granite Wren,True,0.368,0,simultaneous,always,weak,False,,Weak correlation; possibly spurious or condition-dependent. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR003,CR001,Leatherback Burrower,CR005,Maw Beast,False,0.044,0,simultaneous,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR004,CR001,Leatherback Burrower,CR006,Yeller Frog,True,0.561,15,second_leads,always,moderate,False,,Moderate correlation; may be confounded by environmental factors. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR005,CR001,Leatherback Burrower,CR007,Metal-Beaked Finch,True,0.599,15,first_leads,always,moderate,False,,Moderate correlation; may be confounded by environmental factors. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR006,CR001,Leatherback Burrower,CR008,Coil Tube Serpent,False,0.232,0,simultaneous,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR007,CR001,Leatherback Burrower,CR011,Cave Bat,True,0.65,30,second_leads,prime_days,moderate,False,,Moderate correlation; may be confounded by environmental factors. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR008,CR001,Leatherback Burrower,CR012,Rock-Finned Eel,False,-0.06,15,first_leads,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR009,CR001,Leatherback Burrower,CR016,Tunnel Cat,True,0.367,30,second_leads,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR010,CR001,Leatherback Burrower,CR024,Quarry Moth,False,-0.1,0,simultaneous,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR011,CR001,Leatherback Burrower,CR025,Deep Borer,False,-0.083,60,second_leads,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR012,CR001,Leatherback Burrower,CR_STAK,Stakdur,False,-0.404,30,second_leads,prime_days,moderate,False,,Moderate correlation; may be confounded by environmental factors.
+CORR013,CR002,Stone Spine Lizard,CR003,Granite Wren,False,0.25,0,simultaneous,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR014,CR002,Stone Spine Lizard,CR005,Maw Beast,False,0.238,60,second_leads,none,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR015,CR002,Stone Spine Lizard,CR006,Yeller Frog,False,-0.174,30,second_leads,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR016,CR002,Stone Spine Lizard,CR007,Metal-Beaked Finch,False,-0.422,0,simultaneous,seasonal,moderate,False,,Moderate correlation; may be confounded by environmental factors.
+CORR017,CR002,Stone Spine Lizard,CR008,Coil Tube Serpent,False,-0.018,0,simultaneous,none,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR018,CR002,Stone Spine Lizard,CR011,Cave Bat,False,0.257,15,second_leads,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR019,CR002,Stone Spine Lizard,CR012,Rock-Finned Eel,False,0.15,15,second_leads,none,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR020,CR002,Stone Spine Lizard,CR016,Tunnel Cat,False,-0.201,15,second_leads,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR021,CR002,Stone Spine Lizard,CR024,Quarry Moth,False,0.262,60,second_leads,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR022,CR002,Stone Spine Lizard,CR025,Deep Borer,False,0.288,30,first_leads,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR023,CR002,Stone Spine Lizard,CR_STAK,Stakdur,False,-0.216,15,second_leads,none,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR024,CR003,Granite Wren,CR005,Maw Beast,False,0.061,15,first_leads,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR025,CR003,Granite Wren,CR006,Yeller Frog,True,0.458,30,first_leads,yeller_proximity,moderate,False,,Moderate correlation; may be confounded by environmental factors. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR026,CR003,Granite Wren,CR007,Metal-Beaked Finch,True,0.352,0,simultaneous,always,weak,False,,Weak correlation; possibly spurious or condition-dependent. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR027,CR003,Granite Wren,CR008,Coil Tube Serpent,False,0.104,0,simultaneous,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR028,CR003,Granite Wren,CR011,Cave Bat,True,0.532,0,simultaneous,prime_days,moderate,False,,Moderate correlation; may be confounded by environmental factors. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR029,CR003,Granite Wren,CR012,Rock-Finned Eel,False,0.082,30,second_leads,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR030,CR003,Granite Wren,CR016,Tunnel Cat,True,0.372,30,first_leads,yeller_proximity,weak,False,,Weak correlation; possibly spurious or condition-dependent. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR031,CR003,Granite Wren,CR024,Quarry Moth,False,-0.314,30,second_leads,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR032,CR003,Granite Wren,CR025,Deep Borer,False,-0.06,30,second_leads,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR033,CR003,Granite Wren,CR_STAK,Stakdur,False,0.238,15,second_leads,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR034,CR005,Maw Beast,CR006,Yeller Frog,False,0.047,0,simultaneous,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR035,CR005,Maw Beast,CR007,Metal-Beaked Finch,False,0.055,0,simultaneous,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR036,CR005,Maw Beast,CR008,Coil Tube Serpent,False,0.322,15,second_leads,weak,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR037,CR005,Maw Beast,CR011,Cave Bat,False,-0.624,0,simultaneous,same_cave_sector,moderate,True,"When Cave Bats swarm, the Maw sleeps","Folk rule confirmed: 'When Cave Bats swarm, the Maw sleeps'. Moderate correlation; may be confounded by environmental factors."
+CORR038,CR005,Maw Beast,CR012,Rock-Finned Eel,False,0.305,30,first_leads,none,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR039,CR005,Maw Beast,CR016,Tunnel Cat,False,0.211,0,simultaneous,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR040,CR005,Maw Beast,CR024,Quarry Moth,False,0.071,15,first_leads,weak,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR041,CR005,Maw Beast,CR025,Deep Borer,False,0.267,15,second_leads,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR042,CR005,Maw Beast,CR_STAK,Stakdur,False,0.401,120,second_leads,prime_days,moderate,False,,Moderate correlation; may be confounded by environmental factors.
+CORR043,CR006,Yeller Frog,CR007,Metal-Beaked Finch,True,0.517,0,simultaneous,always,moderate,False,,Moderate correlation; may be confounded by environmental factors. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR044,CR006,Yeller Frog,CR008,Coil Tube Serpent,False,0.187,0,simultaneous,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR045,CR006,Yeller Frog,CR011,Cave Bat,True,0.462,60,second_leads,yeller_proximity,moderate,False,,Moderate correlation; may be confounded by environmental factors. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR046,CR006,Yeller Frog,CR012,Rock-Finned Eel,False,0.02,0,simultaneous,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR047,CR006,Yeller Frog,CR016,Tunnel Cat,True,0.595,15,second_leads,yeller_proximity,moderate,False,,Moderate correlation; may be confounded by environmental factors. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR048,CR006,Yeller Frog,CR024,Quarry Moth,False,-0.164,15,second_leads,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR049,CR006,Yeller Frog,CR025,Deep Borer,False,-0.283,15,second_leads,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR050,CR006,Yeller Frog,CR_STAK,Stakdur,False,0.198,30,first_leads,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR051,CR007,Metal-Beaked Finch,CR008,Coil Tube Serpent,False,-0.848,30,first_leads,shared_tunnel,strong,True,Finches flee the Serpent,Folk rule confirmed: 'Finches flee the Serpent'. Strong negative correlation indicates avoidance or predator-prey relationship.
+CORR052,CR007,Metal-Beaked Finch,CR011,Cave Bat,True,0.519,0,simultaneous,yeller_proximity,moderate,False,,Moderate correlation; may be confounded by environmental factors. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR053,CR007,Metal-Beaked Finch,CR012,Rock-Finned Eel,False,-0.023,15,first_leads,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR054,CR007,Metal-Beaked Finch,CR016,Tunnel Cat,True,0.375,0,simultaneous,always,weak,False,,Weak correlation; possibly spurious or condition-dependent. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR055,CR007,Metal-Beaked Finch,CR024,Quarry Moth,False,-0.35,60,second_leads,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR056,CR007,Metal-Beaked Finch,CR025,Deep Borer,False,-0.289,30,first_leads,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR057,CR007,Metal-Beaked Finch,CR_STAK,Stakdur,False,-0.401,30,second_leads,prime_days,moderate,False,,Moderate correlation; may be confounded by environmental factors.
+CORR058,CR008,Coil Tube Serpent,CR011,Cave Bat,False,-0.324,0,simultaneous,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR059,CR008,Coil Tube Serpent,CR012,Rock-Finned Eel,False,-0.158,0,simultaneous,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR060,CR008,Coil Tube Serpent,CR016,Tunnel Cat,False,0.172,15,first_leads,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR061,CR008,Coil Tube Serpent,CR024,Quarry Moth,False,0.016,15,first_leads,none,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR062,CR008,Coil Tube Serpent,CR025,Deep Borer,False,-0.316,30,second_leads,weak,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR063,CR008,Coil Tube Serpent,CR_STAK,Stakdur,False,0.145,30,second_leads,weak,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR064,CR011,Cave Bat,CR012,Rock-Finned Eel,False,0.355,30,first_leads,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR065,CR011,Cave Bat,CR016,Tunnel Cat,True,0.634,0,simultaneous,yeller_proximity,moderate,False,,Moderate correlation; may be confounded by environmental factors. Both species yeller-compatible; correlation may reflect Yeller proximity effects.
+CORR066,CR011,Cave Bat,CR024,Quarry Moth,False,0.313,0,simultaneous,seasonal,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR067,CR011,Cave Bat,CR025,Deep Borer,False,0.073,0,simultaneous,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR068,CR011,Cave Bat,CR_STAK,Stakdur,False,0.167,0,simultaneous,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR069,CR012,Rock-Finned Eel,CR016,Tunnel Cat,False,0.29,0,simultaneous,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR070,CR012,Rock-Finned Eel,CR024,Quarry Moth,False,0.225,0,simultaneous,weak,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR071,CR012,Rock-Finned Eel,CR025,Deep Borer,False,0.252,15,second_leads,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR072,CR012,Rock-Finned Eel,CR_STAK,Stakdur,False,-0.258,60,second_leads,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR073,CR016,Tunnel Cat,CR024,Quarry Moth,False,0.258,60,second_leads,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR074,CR016,Tunnel Cat,CR025,Deep Borer,False,0.12,30,first_leads,weather_dependent,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR075,CR016,Tunnel Cat,CR_STAK,Stakdur,False,-0.352,0,simultaneous,prime_days,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR076,CR024,Quarry Moth,CR025,Deep Borer,False,0.344,15,second_leads,none,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR077,CR024,Quarry Moth,CR_STAK,Stakdur,False,0.079,60,second_leads,none,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR078,CR025,Deep Borer,CR_STAK,Stakdur,False,-0.148,30,first_leads,none,weak,False,,Weak correlation; possibly spurious or condition-dependent.
+CORR079,CR011,Cave Bat,CR005,Maw Beast,False,-0.825,30,second_leads,prime_days,strong,False,,Correlation modified under prime_days conditions.
+CORR080,CR011,Cave Bat,CR005,Maw Beast,False,-0.643,30,simultaneous,full_moon,moderate,False,,Correlation modified under full_moon conditions.
+CORR081,CR011,Cave Bat,CR005,Maw Beast,False,-0.463,30,simultaneous,storm_weather,moderate,False,,Correlation modified under storm_weather conditions.
+CORR082,CR007,Metal-Beaked Finch,CR008,Coil Tube Serpent,False,-1,0,first_leads,prime_days,strong,False,,Correlation modified under prime_days conditions.
+CORR083,CR007,Metal-Beaked Finch,CR008,Coil Tube Serpent,False,-0.662,30,simultaneous,full_moon,moderate,False,,Correlation modified under full_moon conditions.
+CORR084,CR007,Metal-Beaked Finch,CR008,Coil Tube Serpent,False,-0.494,15,first_leads,storm_weather,moderate,False,,Correlation modified under storm_weather conditions.
+CORR085,CR011,Cave Bat,CR_STAK,Stakdur,False,0.297,0,second_leads,prime_days,weak,False,,Correlation modified under prime_days conditions.
+CORR086,CR011,Cave Bat,CR_STAK,Stakdur,False,0.191,30,first_leads,full_moon,weak,False,,Correlation modified under full_moon conditions.
+CORR087,CR011,Cave Bat,CR_STAK,Stakdur,False,0.142,0,simultaneous,storm_weather,weak,False,,Correlation modified under storm_weather conditions.
+CORR088,CR024,Quarry Moth,CR008,Coil Tube Serpent,False,-0.274,15,simultaneous,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR089,CR024,Quarry Moth,CR006,Yeller Frog,False,0.145,60,second_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR090,CR008,Coil Tube Serpent,CR012,Rock-Finned Eel,False,-0.233,0,second_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR091,CR001,Leatherback Burrower,CR007,Metal-Beaked Finch,True,0.372,0,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR092,CR007,Metal-Beaked Finch,CR001,Leatherback Burrower,True,0.284,0,second_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR093,CR002,Stone Spine Lizard,CR007,Metal-Beaked Finch,False,0.284,0,simultaneous,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR094,CR003,Granite Wren,CR_STAK,Stakdur,False,-0.285,15,first_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR095,CR_STAK,Stakdur,CR024,Quarry Moth,False,-0.14,0,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR096,CR001,Leatherback Burrower,CR011,Cave Bat,True,0.28,30,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR097,CR006,Yeller Frog,CR005,Maw Beast,False,-0.286,0,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR098,CR007,Metal-Beaked Finch,CR006,Yeller Frog,True,0.587,15,first_leads,feeding_state,moderate,False,,Correlation observed specifically during feeding behavior.
+CORR099,CR024,Quarry Moth,CR012,Rock-Finned Eel,False,0.108,60,first_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR100,CR001,Leatherback Burrower,CR002,Stone Spine Lizard,False,-0.193,15,simultaneous,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR101,CR002,Stone Spine Lizard,CR016,Tunnel Cat,False,-0.093,15,first_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR102,CR016,Tunnel Cat,CR012,Rock-Finned Eel,False,-0.069,60,simultaneous,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR103,CR006,Yeller Frog,CR001,Leatherback Burrower,True,0.201,60,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR104,CR025,Deep Borer,CR_STAK,Stakdur,False,-0.081,0,second_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR105,CR007,Metal-Beaked Finch,CR016,Tunnel Cat,True,0.465,0,second_leads,hunting_state,moderate,False,,Correlation observed specifically during hunting behavior.
+CORR106,CR006,Yeller Frog,CR012,Rock-Finned Eel,False,0.1,15,first_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR107,CR025,Deep Borer,CR006,Yeller Frog,False,-0.185,30,second_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR108,CR025,Deep Borer,CR003,Granite Wren,False,-0.056,0,first_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR109,CR006,Yeller Frog,CR005,Maw Beast,False,0.171,60,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR110,CR007,Metal-Beaked Finch,CR011,Cave Bat,True,0.377,0,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR111,CR011,Cave Bat,CR025,Deep Borer,False,0.095,15,second_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR112,CR024,Quarry Moth,CR_STAK,Stakdur,False,-0.244,0,second_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR113,CR006,Yeller Frog,CR005,Maw Beast,False,-0.212,0,simultaneous,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR114,CR011,Cave Bat,CR016,Tunnel Cat,True,0.382,60,simultaneous,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR115,CR025,Deep Borer,CR_STAK,Stakdur,False,-0.003,0,simultaneous,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR116,CR024,Quarry Moth,CR025,Deep Borer,False,0.236,0,first_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR117,CR005,Maw Beast,CR003,Granite Wren,False,-0.27,0,simultaneous,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR118,CR011,Cave Bat,CR003,Granite Wren,True,0.467,60,second_leads,swarming_state,moderate,False,,Correlation observed specifically during swarming behavior.
+CORR119,CR007,Metal-Beaked Finch,CR011,Cave Bat,True,0.532,60,first_leads,swarming_state,moderate,False,,Correlation observed specifically during swarming behavior.
+CORR120,CR003,Granite Wren,CR025,Deep Borer,False,-0.03,0,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR121,CR006,Yeller Frog,CR012,Rock-Finned Eel,False,0.076,15,first_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR122,CR002,Stone Spine Lizard,CR025,Deep Borer,False,-0.159,15,first_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR123,CR012,Rock-Finned Eel,CR002,Stone Spine Lizard,False,-0.21,30,second_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR124,CR003,Granite Wren,CR025,Deep Borer,False,-0.261,30,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR125,CR012,Rock-Finned Eel,CR011,Cave Bat,False,-0.263,30,first_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR126,CR_STAK,Stakdur,CR016,Tunnel Cat,False,0.214,60,first_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR127,CR011,Cave Bat,CR001,Leatherback Burrower,True,0.319,30,first_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR128,CR012,Rock-Finned Eel,CR025,Deep Borer,False,-0.007,15,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR129,CR011,Cave Bat,CR001,Leatherback Burrower,True,0.334,30,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR130,CR003,Granite Wren,CR011,Cave Bat,True,0.592,60,simultaneous,resting_state,moderate,False,,Correlation observed specifically during resting behavior.
+CORR131,CR008,Coil Tube Serpent,CR016,Tunnel Cat,False,-0.25,30,simultaneous,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR132,CR011,Cave Bat,CR003,Granite Wren,True,0.304,15,simultaneous,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR133,CR011,Cave Bat,CR007,Metal-Beaked Finch,True,0.504,30,first_leads,hunting_state,moderate,False,,Correlation observed specifically during hunting behavior.
+CORR134,CR_STAK,Stakdur,CR008,Coil Tube Serpent,False,0.201,30,simultaneous,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR135,CR025,Deep Borer,CR012,Rock-Finned Eel,False,0.3,15,simultaneous,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR136,CR024,Quarry Moth,CR002,Stone Spine Lizard,False,0.153,0,simultaneous,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR137,CR001,Leatherback Burrower,CR016,Tunnel Cat,True,0.295,30,second_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR138,CR002,Stone Spine Lizard,CR016,Tunnel Cat,False,-0.021,15,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR139,CR003,Granite Wren,CR016,Tunnel Cat,True,0.511,0,first_leads,feeding_state,moderate,False,,Correlation observed specifically during feeding behavior.
+CORR140,CR002,Stone Spine Lizard,CR016,Tunnel Cat,False,0.257,60,second_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR141,CR008,Coil Tube Serpent,CR_STAK,Stakdur,False,-0.254,0,simultaneous,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR142,CR025,Deep Borer,CR006,Yeller Frog,False,0.178,60,simultaneous,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR143,CR007,Metal-Beaked Finch,CR012,Rock-Finned Eel,False,0.097,0,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR144,CR024,Quarry Moth,CR007,Metal-Beaked Finch,False,0.21,30,simultaneous,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR145,CR008,Coil Tube Serpent,CR007,Metal-Beaked Finch,False,0.124,30,simultaneous,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR146,CR025,Deep Borer,CR012,Rock-Finned Eel,False,0.07,60,first_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR147,CR011,Cave Bat,CR008,Coil Tube Serpent,False,-0.107,0,simultaneous,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR148,CR006,Yeller Frog,CR011,Cave Bat,True,0.5,60,second_leads,resting_state,moderate,False,,Correlation observed specifically during resting behavior.
+CORR149,CR024,Quarry Moth,CR008,Coil Tube Serpent,False,-0.283,15,simultaneous,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR150,CR011,Cave Bat,CR005,Maw Beast,False,0.179,15,first_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR151,CR016,Tunnel Cat,CR025,Deep Borer,False,0.033,60,simultaneous,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR152,CR002,Stone Spine Lizard,CR005,Maw Beast,False,-0.007,0,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR153,CR011,Cave Bat,CR024,Quarry Moth,False,-0.031,0,simultaneous,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR154,CR006,Yeller Frog,CR005,Maw Beast,False,0.115,15,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR155,CR016,Tunnel Cat,CR007,Metal-Beaked Finch,True,0.421,15,first_leads,swarming_state,moderate,False,,Correlation observed specifically during swarming behavior.
+CORR156,CR025,Deep Borer,CR012,Rock-Finned Eel,False,-0.089,30,first_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR157,CR006,Yeller Frog,CR_STAK,Stakdur,False,-0.228,0,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR158,CR002,Stone Spine Lizard,CR025,Deep Borer,False,-0.185,30,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR159,CR025,Deep Borer,CR016,Tunnel Cat,False,0.288,0,first_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR160,CR005,Maw Beast,CR007,Metal-Beaked Finch,False,-0.119,60,simultaneous,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR161,CR006,Yeller Frog,CR001,Leatherback Burrower,True,0.421,0,second_leads,feeding_state,moderate,False,,Correlation observed specifically during feeding behavior.
+CORR162,CR_STAK,Stakdur,CR011,Cave Bat,False,0.224,60,first_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR163,CR011,Cave Bat,CR_STAK,Stakdur,False,-0.096,0,first_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR164,CR011,Cave Bat,CR002,Stone Spine Lizard,False,-0.06,0,second_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR165,CR024,Quarry Moth,CR_STAK,Stakdur,False,-0.209,60,first_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR166,CR002,Stone Spine Lizard,CR005,Maw Beast,False,0.035,30,second_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR167,CR016,Tunnel Cat,CR_STAK,Stakdur,False,0.165,30,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR168,CR011,Cave Bat,CR006,Yeller Frog,True,0.322,60,simultaneous,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR169,CR016,Tunnel Cat,CR025,Deep Borer,False,0.269,0,second_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR170,CR005,Maw Beast,CR006,Yeller Frog,False,-0.206,0,second_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR171,CR002,Stone Spine Lizard,CR003,Granite Wren,False,-0.055,60,first_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR172,CR006,Yeller Frog,CR001,Leatherback Burrower,True,0.315,15,second_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR173,CR011,Cave Bat,CR002,Stone Spine Lizard,False,0.254,60,second_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR174,CR_STAK,Stakdur,CR005,Maw Beast,False,-0.231,0,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR175,CR003,Granite Wren,CR006,Yeller Frog,True,0.229,0,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR176,CR016,Tunnel Cat,CR025,Deep Borer,False,-0.037,30,second_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR177,CR006,Yeller Frog,CR025,Deep Borer,False,0.266,60,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR178,CR011,Cave Bat,CR_STAK,Stakdur,False,0.059,30,second_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR179,CR007,Metal-Beaked Finch,CR016,Tunnel Cat,True,0.21,0,second_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR180,CR016,Tunnel Cat,CR_STAK,Stakdur,False,0.3,15,second_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR181,CR001,Leatherback Burrower,CR003,Granite Wren,True,0.408,30,first_leads,swarming_state,moderate,False,,Correlation observed specifically during swarming behavior.
+CORR182,CR003,Granite Wren,CR016,Tunnel Cat,True,0.454,30,simultaneous,swarming_state,moderate,False,,Correlation observed specifically during swarming behavior.
+CORR183,CR011,Cave Bat,CR007,Metal-Beaked Finch,True,0.333,0,simultaneous,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR184,CR007,Metal-Beaked Finch,CR008,Coil Tube Serpent,False,-0.127,30,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR185,CR001,Leatherback Burrower,CR011,Cave Bat,True,0.326,15,simultaneous,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR186,CR_STAK,Stakdur,CR008,Coil Tube Serpent,False,0.095,60,first_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR187,CR008,Coil Tube Serpent,CR001,Leatherback Burrower,False,0.011,60,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR188,CR024,Quarry Moth,CR011,Cave Bat,False,-0.178,60,simultaneous,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR189,CR006,Yeller Frog,CR011,Cave Bat,True,0.249,60,simultaneous,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR190,CR025,Deep Borer,CR003,Granite Wren,False,0.031,60,first_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR191,CR002,Stone Spine Lizard,CR005,Maw Beast,False,-0.023,0,second_leads,feeding_state,weak,False,,Correlation observed specifically during feeding behavior.
+CORR192,CR003,Granite Wren,CR011,Cave Bat,True,0.404,15,first_leads,hunting_state,moderate,False,,Correlation observed specifically during hunting behavior.
+CORR193,CR011,Cave Bat,CR_STAK,Stakdur,False,-0.026,0,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR194,CR005,Maw Beast,CR016,Tunnel Cat,False,0.218,15,first_leads,resting_state,weak,False,,Correlation observed specifically during resting behavior.
+CORR195,CR007,Metal-Beaked Finch,CR012,Rock-Finned Eel,False,0.192,15,second_leads,hunting_state,weak,False,,Correlation observed specifically during hunting behavior.
+CORR196,CR006,Yeller Frog,CR016,Tunnel Cat,True,0.546,30,second_leads,swarming_state,moderate,False,,Correlation observed specifically during swarming behavior.
+CORR197,CR011,Cave Bat,CR007,Metal-Beaked Finch,True,0.421,60,first_leads,hunting_state,moderate,False,,Correlation observed specifically during hunting behavior.
+CORR198,CR011,Cave Bat,CR007,Metal-Beaked Finch,True,0.592,0,second_leads,resting_state,moderate,False,,Correlation observed specifically during resting behavior.
+CORR199,CR008,Coil Tube Serpent,CR005,Maw Beast,False,-0.274,30,second_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.
+CORR200,CR_STAK,Stakdur,CR008,Coil Tube Serpent,False,0.293,0,first_leads,swarming_state,weak,False,,Correlation observed specifically during swarming behavior.

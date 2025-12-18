@@ -1,0 +1,51 @@
+request_id,requestor,requestor_type,manuscript_ids,purpose,deadline,classification_at_request,archive_response,political_consequence
+REQ-001,Senator Kaveth Orn,senator,MS-0089; MS-0091; MS-0094,Estate inheritance claim support,911-Q4,mup,probabilistic,Senator threatened budget review; formal complaint to Senate Committee on Antiquities
+REQ-002,Estate of Preskan Orn,estate,MS-0089; MS-0094,Property title verification for probate,911-Q2,mup,refused,Legal challenge filed; matter escalated to Senator Orn
+REQ-003,Archive Governance Council,scholar,MS-0001; MS-0003; MS-0007,Internal review of founding documents,911-Q1,verified,deferred,Report sealed; subcommittee dissolved without findings
+REQ-004,Scholar Tenn Marsh,scholar,MS-0156; MS-0157,Dissertation source verification,910-Q3,disputed,refused,Scholar forced to revise dissertation; three years of work invalidated
+REQ-005,Inheritance Tribunal,legal,MS-0047,Court evidence authentication,910-Q4,mup,probabilistic,Court accepted with reservations; case ongoing
+REQ-006,Estate of Hork Dann,estate,MS-0059; MS-0163,Inheritance claim support,909-Q1,disputed,refused,Public criticism of Archive
+REQ-007,Magistrate Court Third District,legal,MS-0076,Court evidence authentication,910-Q1,mup,refused,Requestor withdrew application
+REQ-008,Inheritance Tribunal,legal,MS-0020,Contract validity determination,911-Q1,mup,probabilistic,Opposing party challenged interpretation
+REQ-009,Property Claims Office,legal,MS-0091,Legal precedent verification,908-Q3,mup,probabilistic,Matter remains unresolved
+REQ-010,Scholar Denna Crost,scholar,MS-0030; MS-0053,Research citation confirmation,909-Q3,disputed,refused,Public criticism of Archive
+REQ-011,Estate of Nella Grist,estate,MS-0136,Land grant authentication,909-Q2,mup,refused,Formal complaint filed with Senate
+REQ-012,Estate of Nella Grist,estate,MS-0173; MS-0184,Property title verification,909-Q3,mup,probabilistic,Requestor dissatisfied with ambiguity
+REQ-013,Magistrate Court Third District,legal,MS-0022; MS-0094,Legal precedent verification,908-Q4,mup,probabilistic,Court accepted probabilistic statement
+REQ-014,Senator Oric Brenn,senator,MS-0072; MS-0187,Committee investigation support,911-Q4,verified,certified,Certification used successfully in proceedings
+REQ-015,Grell Heritage Foundation,estate,MS-0098,Family lineage confirmation,908-Q1,disputed,refused,Formal complaint filed with Senate
+REQ-016,Scholar Denna Crost,scholar,MS-0131; MS-0186,Research citation confirmation,910-Q1,mup,probabilistic,Opposing party challenged interpretation
+REQ-017,Scholar Denna Crost,scholar,MS-0001; MS-0062,Research citation confirmation,910-Q4,verified,certified,Request fulfilled; no further action
+REQ-018,Estate Verification Bureau,legal,MS-0085; MS-0182; MS-0195,Contract validity determination,910-Q4,verified,certified,Request fulfilled; no further action
+REQ-019,Estate of Preskan Orn,estate,MS-0154; MS-0155,Property title verification,909-Q1,mup,refused,Public criticism of Archive
+REQ-020,Scholar Tenn Marsh,scholar,MS-0162; MS-0189,Academic publication support,911-Q1,forged,refused,Alternative experts consulted
+REQ-021,Senator Pella Dorn,senator,MS-0038,Legislative record verification,909-Q1,mup,probabilistic,Court accepted probabilistic statement
+REQ-022,Estate of Nella Grist,estate,MS-0031; MS-0074,Estate distribution documentation,909-Q3,forged,refused,Public criticism of Archive
+REQ-023,Scholar Denna Crost,scholar,MS-0154; MS-0165,Historical reconstruction,908-Q4,mup,probabilistic,Additional evidence requested
+REQ-024,Scholar Voss Arrel,scholar,MS-0109; MS-0124; MS-0168,Historical reconstruction,911-Q2,mup,deferred,Committee review initiated
+REQ-025,Estate of Venn Torval,estate,MS-0175,Estate distribution documentation,908-Q4,mup,refused,Alternative experts consulted
+REQ-026,Estate of Preskan Orn,estate,MS-0028; MS-0133,Property title verification,908-Q2,verified,certified,Certification used successfully in proceedings
+REQ-027,Scholar Pello Bright,scholar,MS-0038; MS-0119,Research citation confirmation,909-Q3,disputed,refused,Public criticism of Archive
+REQ-028,Scholar Voss Arrel,scholar,MS-0001; MS-0063; MS-0090; MS-0167,Dissertation source verification,911-Q1,mup,refused,Formal complaint filed with Senate
+REQ-029,Senator Vesta Krell,senator,MS-0006,Committee investigation support,909-Q2,mup,probabilistic,Court accepted probabilistic statement
+REQ-030,Archive Licensing Guild,commercial,MS-0085,Trade agreement validation,911-Q3,mup,refused,Alternative experts consulted
+REQ-031,Scholar Mira Valdun,scholar,MS-0095,Research citation confirmation,910-Q1,mup,deferred,Interim measures granted by court
+REQ-032,Senator Oric Brenn,senator,MS-0176,Historical precedent confirmation,909-Q2,verified,certified,Requestor satisfied; commended Archive
+REQ-033,Scholar Denna Crost,scholar,MS-0192,Research citation confirmation,909-Q3,mup,refused,Formal complaint filed with Senate
+REQ-034,Senator Oric Brenn,senator,MS-0132,Committee investigation support,911-Q4,verified,certified,Matter resolved in requestor's favor
+REQ-035,Scholar Hesta Krent,scholar,MS-0011,Research citation confirmation,911-Q3,forged,refused,Funding review threatened
+REQ-036,Scholar Tenn Marsh,scholar,MS-0012,Dissertation source verification,908-Q3,verified,certified,Request fulfilled; no further action
+REQ-037,Scholar Denna Crost,scholar,MS-0162; MS-0171,Research citation confirmation,911-Q3,mup,probabilistic,Court accepted probabilistic statement
+REQ-038,Property Claims Office,legal,MS-0043; MS-0176,Testimony corroboration,909-Q1,mup,refused,Public criticism of Archive
+REQ-039,Inheritance Tribunal,legal,MS-0105; MS-0188,Property boundary dispute,909-Q2,mup,refused,Funding review threatened
+REQ-040,Estate of Nella Grist,estate,MS-0121; MS-0193,Land grant authentication,911-Q2,mup,probabilistic,Court accepted probabilistic statement
+REQ-041,Scholar Tenn Marsh,scholar,MS-0093,Scholarly edition preparation,911-Q3,verified,certified,Requestor satisfied; commended Archive
+REQ-042,Magistrate Court Third District,legal,MS-0156,Testimony corroboration,911-Q1,forged,refused,Legal challenge initiated
+REQ-043,Northern Route Company,commercial,MS-0111; MS-0122; MS-0130; MS-0146,Route rights confirmation,911-Q1,verified,certified,Matter resolved in requestor's favor
+REQ-044,Estate of Venn Torval,estate,MS-0093,Property title verification,909-Q4,verified,probabilistic,Opposing party challenged interpretation
+REQ-045,Scholar Tenn Marsh,scholar,MS-0086; MS-0102; MS-0127; MS-0178,Historical reconstruction,909-Q4,verified,certified,Requestor satisfied; commended Archive
+REQ-046,Scholar Mira Valdun,scholar,MS-0131,Academic publication support,909-Q2,forged,refused,Funding review threatened
+REQ-047,Capital Merchants Association,commercial,MS-0007; MS-0128; MS-0131,Commercial license support,911-Q3,mup,refused,Legal challenge initiated
+REQ-048,Scholar Denna Crost,scholar,MS-0033; MS-0046,Dissertation source verification,911-Q4,mup,probabilistic,Court accepted probabilistic statement
+REQ-049,Capital Merchants Association,commercial,MS-0164,Commercial license support,910-Q4,verified,certified,Request fulfilled; no further action
+REQ-050,Estate of Preskan Orn,estate,MS-0032; MS-0071; MS-0093; MS-0194,Estate distribution documentation,910-Q3,verified,certified,Requestor satisfied; commended Archive

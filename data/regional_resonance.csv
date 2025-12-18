@@ -1,0 +1,101 @@
+region_id,quadrant,resonance_mode,mode_frequency,characteristic_phenomenon,mode_strength,prediction_stability,keth_notation,cord_translation,extraction_confidence,notes
+NE-1,NE,fourth_harmonic,1.9298,dissolution,0.12,0.626,ω₅ (fourth overtone),quinary oscillation,beta,Weak mode; extraction uncertain
+NE-1,NE,fundamental,1.0473,stability,0.18,0.757,ω₁ (bass tone),primary oscillation mode,gamma,Weak fundamental indicates plateau geometry
+NE-1,NE,edge_mode,1.3685,boundary_drift,0.459,0.615,ωₑ (boundary influence),boundary coupling term,gamma,Strong edge mode indicates basin influence
+NE-2,NE,third_harmonic,0.1592,wandering,0.174,0.467,ω₄ (third overtone),quaternary oscillation,beta,Weak mode; extraction uncertain
+NE-2,NE,first_harmonic,0.8571,attention,0.204,0.554,ω₂ (first overtone),secondary oscillation,alpha,
+NE-2,NE,edge_mode,1.8382,boundary_drift,0.544,0.607,ωₑ (boundary influence),boundary coupling term,beta,Strong edge mode indicates basin influence
+NE-3,NE,first_harmonic,0.676,attention,0.18,0.547,ω₂ (first overtone),secondary oscillation,alpha,Weak mode; extraction uncertain
+NE-3,NE,second_harmonic,2.364,confusion,0.135,0.451,ω₃ (second overtone),tertiary oscillation,gamma,Weak mode; extraction uncertain
+NE-3,NE,fundamental,2.2568,stability,0.134,0.783,ω₁ (bass tone),primary oscillation mode,beta,Weak fundamental indicates plateau geometry
+NE-4,NE,first_harmonic,2.1989,attention,0.349,0.598,ω₂ (first overtone),secondary oscillation,beta,
+NE-4,NE,edge_mode,1.2686,boundary_drift,0.457,0.626,ωₑ (boundary influence),boundary coupling term,alpha,Strong edge mode indicates basin influence
+NE-4,NE,third_harmonic,0.1358,wandering,0.154,0.517,ω₄ (third overtone),quaternary oscillation,beta,Weak mode; extraction uncertain
+NE-5,NE,second_harmonic,2.2073,confusion,0.312,0.58,ω₃ (second overtone),tertiary oscillation,gamma,
+NE-5,NE,fourth_harmonic,0.1227,dissolution,0.191,0.538,ω₅ (fourth overtone),quinary oscillation,alpha,Weak mode; extraction uncertain
+NE-5,NE,fundamental,1.3875,stability,0.164,0.638,ω₁ (bass tone),primary oscillation mode,alpha,Weak fundamental indicates plateau geometry
+NE-6,NE,fourth_harmonic,1.5315,dissolution,0.306,0.616,ω₅ (fourth overtone),quinary oscillation,alpha,
+NE-6,NE,third_harmonic,1.9893,wandering,0.344,0.582,ω₄ (third overtone),quaternary oscillation,beta,
+NE-6,NE,second_harmonic,0.3692,confusion,0.239,0.545,ω₃ (second overtone),tertiary oscillation,gamma,
+NE-7,NE,fourth_harmonic,2.0119,dissolution,0.11,0.576,ω₅ (fourth overtone),quinary oscillation,gamma,Weak mode; extraction uncertain
+NE-7,NE,fundamental,1.2936,stability,0.141,0.714,ω₁ (bass tone),primary oscillation mode,beta,Weak fundamental indicates plateau geometry
+NE-7,NE,edge_mode,0.9885,boundary_drift,0.729,0.582,ωₑ (boundary influence),boundary coupling term,gamma,Strong edge mode indicates basin influence
+NE-8,NE,fourth_harmonic,2.0412,dissolution,0.277,0.543,ω₅ (fourth overtone),quinary oscillation,beta,
+NE-8,NE,second_harmonic,1.0472,confusion,0.183,0.477,ω₃ (second overtone),tertiary oscillation,beta,Weak mode; extraction uncertain
+NE-8,NE,third_harmonic,1.7232,wandering,0.299,0.635,ω₄ (third overtone),quaternary oscillation,alpha,
+NE-9,NE,second_harmonic,0.4346,confusion,0.28,0.601,ω₃ (second overtone),tertiary oscillation,gamma,
+NE-9,NE,fourth_harmonic,0.9567,dissolution,0.28,0.639,ω₅ (fourth overtone),quinary oscillation,gamma,
+NE-9,NE,first_harmonic,1.7543,attention,0.161,0.563,ω₂ (first overtone),secondary oscillation,alpha,Weak mode; extraction uncertain
+NE-10,NE,third_harmonic,0.5177,wandering,0.205,0.544,ω₄ (third overtone),quaternary oscillation,gamma,
+NE-10,NE,second_harmonic,2.1833,confusion,0.294,0.672,ω₃ (second overtone),tertiary oscillation,gamma,
+NE-11,NE,edge_mode,2.4953,boundary_drift,0.606,0.594,ωₑ (boundary influence),boundary coupling term,beta,Strong edge mode indicates basin influence
+NE-11,NE,first_harmonic,0.4412,attention,0.231,0.532,ω₂ (first overtone),secondary oscillation,gamma,
+NE-12,NE,fourth_harmonic,0.6238,dissolution,0.253,0.514,ω₅ (fourth overtone),quinary oscillation,gamma,
+NE-12,NE,second_harmonic,2.4558,confusion,0.175,0.641,ω₃ (second overtone),tertiary oscillation,beta,Weak mode; extraction uncertain
+NE-12,NE,edge_mode,1.2276,boundary_drift,0.661,0.636,ωₑ (boundary influence),boundary coupling term,beta,Strong edge mode indicates basin influence
+NW-1,NW,fourth_harmonic,0.9554,dissolution,0.249,0.61,ω₅ (fourth overtone),quinary oscillation,beta,
+NW-1,NW,second_harmonic,2.0135,confusion,0.527,0.749,ω₃ (second overtone),tertiary oscillation,beta,
+NW-1,NW,edge_mode,0.2068,boundary_drift,0.217,0.556,ωₑ (boundary influence),boundary coupling term,beta,
+NW-2,NW,edge_mode,2.3332,boundary_drift,0.281,0.492,ωₑ (boundary influence),boundary coupling term,gamma,
+NW-2,NW,third_harmonic,1.8548,wandering,0.309,0.515,ω₄ (third overtone),quaternary oscillation,alpha,
+NW-2,NW,first_harmonic,1.3323,attention,0.297,0.623,ω₂ (first overtone),secondary oscillation,gamma,
+NW-3,NW,fundamental,0.2604,stability,0.365,0.803,ω₁ (bass tone),primary oscillation mode,alpha,
+NW-3,NW,edge_mode,2.3235,boundary_drift,0.202,0.471,ωₑ (boundary influence),boundary coupling term,beta,
+NW-4,NW,third_harmonic,2.2708,wandering,0.328,0.628,ω₄ (third overtone),quaternary oscillation,alpha,
+NW-4,NW,first_harmonic,1.8493,attention,0.461,0.585,ω₂ (first overtone),secondary oscillation,alpha,
+NW-4,NW,second_harmonic,2.2068,confusion,0.565,0.605,ω₃ (second overtone),tertiary oscillation,alpha,
+NW-5,NW,third_harmonic,2.182,wandering,0.275,0.632,ω₄ (third overtone),quaternary oscillation,beta,
+NW-5,NW,edge_mode,1.4242,boundary_drift,0.551,0.467,ωₑ (boundary influence),boundary coupling term,alpha,
+NW-6,NW,second_harmonic,1.2655,confusion,0.556,0.594,ω₃ (second overtone),tertiary oscillation,beta,
+NW-6,NW,third_harmonic,0.4146,wandering,0.277,0.506,ω₄ (third overtone),quaternary oscillation,beta,
+NW-6,NW,fourth_harmonic,0.0451,dissolution,0.459,0.681,ω₅ (fourth overtone),quinary oscillation,beta,
+NW-7,NW,fourth_harmonic,1.0197,dissolution,0.444,0.661,ω₅ (fourth overtone),quinary oscillation,beta,
+NW-7,NW,first_harmonic,1.6764,attention,0.406,0.539,ω₂ (first overtone),secondary oscillation,alpha,
+NW-7,NW,edge_mode,2.3402,boundary_drift,0.593,0.573,ωₑ (boundary influence),boundary coupling term,alpha,
+NW-8,NW,third_harmonic,0.7618,wandering,0.502,0.741,ω₄ (third overtone),quaternary oscillation,gamma,
+NW-8,NW,first_harmonic,0.9053,attention,0.429,0.581,ω₂ (first overtone),secondary oscillation,alpha,
+NW-8,NW,edge_mode,0.7739,boundary_drift,0.225,0.391,ωₑ (boundary influence),boundary coupling term,beta,
+NW-9,NW,edge_mode,2.3938,boundary_drift,0.347,0.448,ωₑ (boundary influence),boundary coupling term,beta,
+NW-9,NW,fundamental,1.5183,stability,0.261,0.778,ω₁ (bass tone),primary oscillation mode,beta,
+NW-9,NW,second_harmonic,1.8958,confusion,0.481,0.727,ω₃ (second overtone),tertiary oscillation,gamma,
+SE-1,SE,first_harmonic,1.1224,attention,0.549,0.581,ω₂ (first overtone),secondary oscillation,gamma,
+SE-1,SE,fourth_harmonic,0.2894,dissolution,0.345,0.687,ω₅ (fourth overtone),quinary oscillation,gamma,
+SE-2,SE,fourth_harmonic,1.3057,dissolution,0.26,0.544,ω₅ (fourth overtone),quinary oscillation,alpha,
+SE-2,SE,edge_mode,1.2272,boundary_drift,0.472,0.585,ωₑ (boundary influence),boundary coupling term,gamma,
+SE-3,SE,fundamental,0.1538,stability,0.405,0.763,ω₁ (bass tone),primary oscillation mode,beta,
+SE-3,SE,third_harmonic,0.0642,wandering,0.469,0.602,ω₄ (third overtone),quaternary oscillation,beta,
+SE-3,SE,first_harmonic,1.45,attention,0.527,0.707,ω₂ (first overtone),secondary oscillation,alpha,
+SE-4,SE,second_harmonic,2.3351,confusion,0.574,0.586,ω₃ (second overtone),tertiary oscillation,alpha,
+SE-4,SE,fundamental,0.3472,stability,0.315,0.68,ω₁ (bass tone),primary oscillation mode,gamma,
+SE-4,SE,fourth_harmonic,1.0567,dissolution,0.591,0.706,ω₅ (fourth overtone),quinary oscillation,beta,
+SE-5,SE,third_harmonic,1.3529,wandering,0.473,0.674,ω₄ (third overtone),quaternary oscillation,gamma,
+SE-5,SE,edge_mode,2.4822,boundary_drift,0.544,0.487,ωₑ (boundary influence),boundary coupling term,beta,
+SE-5,SE,fundamental,0.5645,stability,0.412,0.819,ω₁ (bass tone),primary oscillation mode,alpha,
+SE-6,SE,second_harmonic,1.3345,confusion,0.469,0.65,ω₃ (second overtone),tertiary oscillation,alpha,
+SE-6,SE,third_harmonic,0.6964,wandering,0.299,0.559,ω₄ (third overtone),quaternary oscillation,gamma,
+SE-7,SE,fundamental,2.2237,stability,0.446,0.871,ω₁ (bass tone),primary oscillation mode,alpha,
+SE-7,SE,third_harmonic,0.0936,wandering,0.282,0.505,ω₄ (third overtone),quaternary oscillation,gamma,
+SE-8,SE,first_harmonic,0.551,attention,0.361,0.555,ω₂ (first overtone),secondary oscillation,alpha,
+SE-8,SE,fundamental,0.5931,stability,0.256,0.825,ω₁ (bass tone),primary oscillation mode,gamma,
+SE-9,SE,fourth_harmonic,2.4644,dissolution,0.295,0.664,ω₅ (fourth overtone),quinary oscillation,gamma,
+SE-9,SE,edge_mode,0.1618,boundary_drift,0.288,0.447,ωₑ (boundary influence),boundary coupling term,gamma,
+SE-9,SE,second_harmonic,1.5687,confusion,0.552,0.748,ω₃ (second overtone),tertiary oscillation,beta,
+SE-10,SE,fundamental,1.0466,stability,0.514,0.768,ω₁ (bass tone),primary oscillation mode,alpha,
+SE-10,SE,second_harmonic,1.3494,confusion,0.32,0.533,ω₃ (second overtone),tertiary oscillation,alpha,
+SE-10,SE,third_harmonic,1.7719,wandering,0.54,0.622,ω₄ (third overtone),quaternary oscillation,beta,
+SW-1,SW,fourth_harmonic,0.3439,dissolution,0.44,0.643,ω₅ (fourth overtone),quinary oscillation,alpha,
+SW-1,SW,third_harmonic,0.2069,wandering,0.226,0.534,ω₄ (third overtone),quaternary oscillation,beta,
+SW-2,SW,fundamental,1.5164,breathing,0.568,0.796,ω₁ (bass tone),primary oscillation mode,alpha,Strong fundamental confirms basin structure
+SW-2,SW,fourth_harmonic,1.9066,dissolution,0.412,0.561,ω₅ (fourth overtone),quinary oscillation,gamma,
+SW-2,SW,first_harmonic,0.5301,attention,0.351,0.549,ω₂ (first overtone),secondary oscillation,beta,
+SW-3,SW,fundamental,2.4989,breathing,0.887,0.84,ω₁ (bass tone),primary oscillation mode,beta,Strong fundamental confirms basin structure
+SW-3,SW,first_harmonic,1.7624,attention,0.424,0.666,ω₂ (first overtone),secondary oscillation,beta,
+SW-3,SW,fourth_harmonic,1.941,dissolution,0.425,0.638,ω₅ (fourth overtone),quinary oscillation,beta,
+SW-4,SW,fourth_harmonic,1.2482,dissolution,0.228,0.571,ω₅ (fourth overtone),quinary oscillation,alpha,
+SW-4,SW,second_harmonic,1.9065,confusion,0.391,0.662,ω₃ (second overtone),tertiary oscillation,beta,
+SW-4,SW,edge_mode,1.0407,boundary_drift,0.424,0.501,ωₑ (boundary influence),boundary coupling term,gamma,
+SW-5,SW,edge_mode,1.4642,boundary_drift,0.155,0.457,ωₑ (boundary influence),boundary coupling term,gamma,Weak mode; extraction uncertain
+SW-5,SW,first_harmonic,0.8314,attention,0.275,0.513,ω₂ (first overtone),secondary oscillation,beta,
+SW-6,SW,third_harmonic,0.6507,wandering,0.346,0.641,ω₄ (third overtone),quaternary oscillation,beta,
+SW-6,SW,fourth_harmonic,1.2316,dissolution,0.44,0.66,ω₅ (fourth overtone),quinary oscillation,alpha,
+SW-7,SW,first_harmonic,2.4759,attention,0.205,0.639,ω₂ (first overtone),secondary oscillation,alpha,

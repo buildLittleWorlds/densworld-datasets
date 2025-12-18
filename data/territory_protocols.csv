@@ -1,0 +1,29 @@
+territory_id,territory_name,stability_classification,protocol_tier,base_failure_rate,protocol_failure_rate,key_risks,protocol_notes
+yeller_quarry_q1,Yeller Quarry Sector Q-1,stable,1,0.18,0.08,"creature_encounters,terrain_hazards",Well-documented region. Protocol v1.0 effective.
+yeller_quarry_q2,Yeller Quarry Sector Q-2,stable,1,0.16,0.07,"creature_encounters,flash_floods",Established routes. Seasonal flooding risk.
+yeller_quarry_q3,Yeller Quarry Sector Q-3,stable,1,0.15,0.06,creature_encounters,Site of Expedition A-1. Discovery potential underutilized.
+yeller_quarry_q4,Yeller Quarry Sector Q-4,stable,1,0.17,0.08,"stakdur_activity,terrain_hazards",Higher stakdur density. Morning surveys recommended.
+yeller_quarry_q5,Yeller Quarry Sector Q-5,stable,1,0.19,0.09,"glunge_nests,creature_encounters",Glunge nest locations mapped. Night operations prohibited.
+yeller_quarry_q6,Yeller Quarry Sector Q-6,stable,1,0.2,0.1,"creature_encounters,supply_distance",Remote sector. Extended supply lines required.
+yeller_quarry_q7,Yeller Quarry Sector Q-7,stable,1,0.21,0.11,"creature_encounters,weather_exposure",High elevation. Weather monitoring essential.
+yeller_quarry_q8,Yeller Quarry Sector Q-8,moderate,2,0.28,0.15,"boundary_proximity,creature_unpredictability",Near-boundary sector. Protocol advisory only. Experienced leaders recommended.
+dead_river_main,Dead River - Main Corridor,stable,1,0.19,0.08,"water_crossing,weather_exposure",Site of Expedition A-2. Established crossings. Morale monitoring recommended.
+dead_river_eastern,Dead River - Eastern Crossing,moderate,2,0.32,0.18,"water_crossing,flash_floods,timing_critical",Evening fording has 40% higher incident rate than morning. Protocol specifies morning crossing only.
+dead_river_remote,Dead River - Remote Regions,moderate,2,0.3,0.16,"isolation,supply_distance,unknown_hazards",Less documented. Protocol advisory. Extended communication protocols required.
+dead_river_source,Dead River - Source Regions,high_instability,3,0.42,0.3,"spatial_anomalies,unknown_hazards,isolation",Approaching Dens influence. Protocol reference only. Tier 3 certification required.
+boundary_de7,Boundary Region DE-7,high_instability,3,0.48,0.35,"spatial_anomalies,landmark_shift,compass_deviation",Site of A-3 disaster. Protocol fundamentally unsuited. Human judgment primary. Tier 3 certification required.
+boundary_ne4,Boundary Region NE-4,high_instability,3,0.45,0.32,"spatial_anomalies,creature_unpredictability,disorientation",Site of Ninth Expedition disaster. Spatial instability documented since Year 880.
+boundary_sw2,Boundary Region SW-2,high_instability,3,0.4,0.28,"dissolution_events,terrain_collapse",Recent destabilization (Year 908). Previously moderate.
+boundary_nw3,Boundary Region NW-3,high_instability,3,0.43,0.3,"spatial_anomalies,unknown_hazards",Least documented boundary region. Expeditions rare.
+dens_approach,The Dens - Approach Zone,high_instability,3,0.55,0.45,"spatial_anomalies,dissolution_events,unpredictability",Protocol inherently unsuited. Territory resists systematic methods. Expeditions not recommended.
+dens_inner,The Dens - Inner Regions,high_instability,3,0.7,0.6,"total_unpredictability,dissolution",No protocol applies. Return rate under 50%. Expeditions prohibited except by Council authorization.
+capital_approach,Capital Approach Zones,stable,1,0.08,0.03,minimal,Safest territory. Protocol effective. Training expeditions conducted here.
+capital_outskirts,Capital Outskirts,stable,1,0.1,0.04,weather_exposure,Well-patrolled. Minor hazards only.
+northo_lowlands,Northo - Lowlands,moderate,2,0.25,0.14,"religious_communities,unknown_customs",Social hazards. Protocol addresses terrain; cultural factors require judgment.
+northo_highlands,Northo - Highlands,moderate,2,0.28,0.16,"weather_exposure,isolation,terrain_hazards",Remote ascetic villages. Extended expeditions only.
+mirado_approach,Tower of Mirado - Approach,stable,1,0.15,0.07,political_complications,Territory well-documented. Political sensitivities require judgment.
+mirado_siege_zone,Tower of Mirado - Former Siege Zone,stable,1,0.18,0.09,"unexploded_ordnance,structural_hazards",Post-siege territory. Historical hazards documented.
+capeast_coastal,Capeast - Coastal Regions,stable,1,0.14,0.06,"weather_exposure,tidal_hazards",Tidal schedules well-documented. Protocol effective.
+capeast_interior,Capeast - Interior,moderate,2,0.26,0.15,"unknown_hazards,sparse_documentation",Less documented than coastal regions. Advisory protocol.
+transition_q8_de7,Transition Zone: Q-8 to DE-7,high_instability,3,0.38,0.26,"stability_gradient,unpredictable_transitions",Territory where stable becomes unstable. Tier transitions may occur mid-expedition.
+transition_dr_dens,Transition Zone: Dead River to Dens,high_instability,3,0.44,0.32,"dissolution_risk,spatial_anomalies",No clear boundary. Gradual transition to unpredictability.

@@ -1,0 +1,401 @@
+coder_id,career_start_year,reference_year,years_experience,jobs_held,current_employer,specialization,archetype_classification,trajectory_stage,major_transitions,burnout_events
+TW-4471,898,908,10,3,part_time,system_design,CAR-BA,post,14_projects_years_1-5;3_awards;collapse_year_6;recovery_ongoing,1
+KR-2208,888,908,20,2,Census Office,data_analysis_expert,CAR-SC,late,departmental_analysis_years_1-12;promotion_year_13;5_awards_years_14-20,0
+PN-3392,893,908,15,2,Research Institute,multiple_studying,CAR-ES,mid,23_certifications;4_specializations;lowest_project_completion,0
+VL-1056,890,908,18,7,Weather Prediction Bureau,atmospheric_monitoring_expert,CAR-AE,late,6_jobs_years_1-7;sensor_repair_assignment_year_8;innovations_years_9-18,0
+SY-9520,883,909,26,2,Educational Computing,trade_optimization_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-4681,880,908,28,3,part_time,educational_technology,CAR-BA,post,rapid_advancement_882;collapse_891,3
+NW-7636,889,910,21,4,Educational Computing,educational_technology_expert,CAR-AE,late,job_changes_1-5;forced_expertise_900,0
+AN-2835,898,908,10,3,Educational Computing,database_administration,CAR-SC,mid,steady_progress;breakthrough_908,0
+CD-6645,895,911,16,2,Archive Informatics,network_engineering,CAR-SC,late,steady_progress;breakthrough_906,0
+IM-5062,881,911,30,4,Trade Intelligence,financial_modeling_expert,CAR-AE,late,job_changes_1-5;forced_expertise_892,0
+IM-8432,897,909,12,1,Financial Services Corp,general_coding_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-6667,890,908,18,1,Trade Intelligence,data_analysis_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-9899,891,912,21,2,Route Optimization LLC,database_administration,CAR-SC,late,steady_progress;breakthrough_904,0
+BD-2840,885,908,23,4,Capital Data Services,database_administration_expert,CAR-AE,late,job_changes_1-5;forced_expertise_896,0
+AN-1088,889,908,19,2,Densmok Systems,algorithm_development_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-5487,896,909,13,2,Independent,census_processing,CAR-BA,post,rapid_advancement_898;collapse_903,2
+NW-6405,895,908,13,2,Educational Computing,general_coding_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-7604,894,908,14,3,Capital Data Services,network_engineering,CAR-SC,late,steady_progress;breakthrough_907,0
+IM-3169,894,911,17,4,Consulting,census_processing,CAR-BA,post,rapid_advancement_896;collapse_901,1
+BD-9739,891,909,18,2,Trade Intelligence,quality_assurance,CAR-SC,late,steady_progress;breakthrough_902,0
+CD-9263,893,909,16,3,Municipal Computing,network_engineering,CAR-SC,late,steady_progress;breakthrough_906,0
+NW-6992,890,910,20,3,Quarry Analytics,data_analysis,CAR-SC,late,steady_progress;breakthrough_901,0
+SY-7594,900,912,12,3,Capital Data Services,trade_optimization,CAR-SC,late,steady_progress;breakthrough_911,0
+IM-3418,880,910,30,6,Municipal Computing,quality_assurance_expert,CAR-AE,late,job_changes_1-5;forced_expertise_887,0
+NW-3119,897,908,11,2,Independent,pattern_recognition,CAR-BA,post,rapid_advancement_899;collapse_902,1
+IM-6048,888,909,21,4,Weather Prediction Bureau,medical_informatics,CAR-SC,late,steady_progress;breakthrough_899,0
+NW-6222,899,910,11,2,Suburban Networks,database_administration,CAR-UN,early,mixed_pattern,0
+CD-3716,897,908,11,3,part_time,census_processing,CAR-BA,post,rapid_advancement_899;collapse_904,3
+BD-5067,884,910,26,2,Route Optimization LLC,pattern_recognition_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-3817,889,911,22,3,Archive Informatics,educational_technology,CAR-SC,late,steady_progress;breakthrough_902,0
+IM-8290,892,911,19,3,Educational Computing,census_processing,CAR-SC,late,steady_progress;breakthrough_903,0
+AN-5124,895,909,14,6,Municipal Computing,financial_modeling_expert,CAR-AE,late,job_changes_1-5;forced_expertise_902,0
+SY-8035,888,912,24,4,Densmok Systems,database_administration,CAR-SC,late,steady_progress;breakthrough_901,0
+AN-9800,885,909,24,4,Trade Intelligence,medical_informatics,CAR-SC,late,steady_progress;breakthrough_898,0
+SY-1089,881,910,29,1,Startup,trade_optimization_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+BD-1153,885,908,23,5,Archive Informatics,algorithm_development,CAR-UN,late,mixed_pattern,0
+SY-2982,888,908,20,3,Independent,financial_modeling,CAR-BA,post,rapid_advancement_890;collapse_899,1
+CD-1894,892,912,20,5,part_time,medical_informatics,CAR-BA,post,rapid_advancement_894;collapse_897,3
+AN-9737,881,908,27,3,Quarry Analytics,quality_assurance,CAR-SC,late,steady_progress;breakthrough_892,0
+CD-4595,898,912,14,2,Quarry Analytics,quality_assurance_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-8913,898,912,14,5,Suburban Networks,quality_assurance_expert,CAR-AE,late,job_changes_1-5;forced_expertise_905,0
+CD-9603,884,909,25,4,Archive Informatics,census_processing_expert,CAR-AE,late,job_changes_1-5;forced_expertise_895,0
+AN-9776,899,912,13,3,Municipal Computing,medical_informatics,CAR-SC,late,steady_progress;breakthrough_910,0
+SY-1228,894,911,17,1,Transit Authority,data_analysis_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+AN-4222,898,910,12,3,Klutch Community College,report_generation,CAR-SC,mid,steady_progress;breakthrough_910,0
+CD-7400,900,912,12,4,Route Optimization LLC,financial_modeling,CAR-SC,mid,steady_progress;breakthrough_912,0
+CD-8904,902,912,10,4,Educational Computing,generalist,CAR-AE,early,job_changes_1-5;forced_expertise_912,0
+AN-5724,896,909,13,2,Capital Data Services,data_analysis_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+AN-9026,896,909,13,3,Densmok Systems,census_processing,CAR-SC,late,steady_progress;breakthrough_907,0
+CD-9793,895,912,17,3,Consulting,quality_assurance,CAR-BA,post,rapid_advancement_897;collapse_906,1
+SY-5928,884,911,27,2,Transit Authority,quality_assurance_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+BD-9514,888,908,20,2,Independent,financial_modeling,CAR-BA,post,rapid_advancement_890;collapse_893,3
+SY-9174,885,908,23,2,Suburban Networks,general_coding,CAR-SC,late,steady_progress;breakthrough_898,0
+CD-5329,880,910,30,2,Densmok Systems,census_processing_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+AN-2678,894,910,16,1,Densmok Systems,educational_technology_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-3914,893,910,17,3,Densmok Systems,educational_technology,CAR-SC,late,steady_progress;breakthrough_904,0
+SY-4251,900,911,11,5,Consulting,trade_optimization,CAR-BA,post,rapid_advancement_902;collapse_907,3
+BD-7052,894,908,14,3,Weather Prediction Bureau,educational_technology,CAR-SC,late,steady_progress;breakthrough_907,0
+SY-1807,887,912,25,2,Densmok Systems,educational_technology_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-9406,883,910,27,3,Archive Informatics,database_administration,CAR-UN,late,mixed_pattern,1
+CD-9428,881,909,28,8,Quarry Analytics,system_design_expert,CAR-AE,late,job_changes_1-5;forced_expertise_888,0
+CD-3976,888,908,20,5,Independent,atmospheric_monitoring,CAR-BA,post,rapid_advancement_890;collapse_895,1
+IM-4902,880,908,28,2,Route Optimization LLC,maintenance_systems,CAR-SC,late,steady_progress;breakthrough_891,0
+SY-9802,888,909,21,6,Trade Intelligence,algorithm_development_expert,CAR-AE,late,job_changes_1-5;forced_expertise_895,0
+CD-1786,888,910,22,3,Weather Prediction Bureau,maintenance_systems,CAR-SC,late,steady_progress;breakthrough_901,0
+BD-1412,884,910,26,8,Capital Data Services,medical_informatics_expert,CAR-AE,late,job_changes_1-5;forced_expertise_891,0
+BD-5371,886,908,22,8,Archive Informatics,report_generation_expert,CAR-AE,late,job_changes_1-5;forced_expertise_893,0
+NW-7656,881,911,30,5,Municipal Computing,maintenance_systems_expert,CAR-AE,late,job_changes_1-5;forced_expertise_888,0
+CD-2419,886,910,24,4,Densmok Systems,census_processing_expert,CAR-AE,late,job_changes_1-5;forced_expertise_893,0
+IM-7924,883,912,29,4,Archive Informatics,network_engineering,CAR-UN,early,mixed_pattern,1
+BD-7802,882,909,27,1,Educational Computing,census_processing_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-2402,884,908,24,8,Suburban Networks,system_design_expert,CAR-AE,late,job_changes_1-5;forced_expertise_895,0
+CD-5661,878,908,30,5,Suburban Networks,educational_technology_expert,CAR-AE,late,job_changes_1-5;forced_expertise_885,0
+IM-6859,887,909,22,6,Capital Data Services,census_processing_expert,CAR-AE,late,job_changes_1-5;forced_expertise_894,0
+SY-4595,881,912,31,6,Municipal Computing,algorithm_development_expert,CAR-AE,late,job_changes_1-5;forced_expertise_888,0
+CD-9265,889,912,23,4,part_time,report_generation,CAR-BA,post,rapid_advancement_891;collapse_894,2
+NW-8090,899,912,13,3,Medical Records,project_management,CAR-SC,mid,steady_progress;breakthrough_912,0
+CD-8003,892,911,19,5,part_time,report_generation,CAR-BA,post,rapid_advancement_894;collapse_903,2
+SY-4893,893,909,16,7,Capital Data Services,atmospheric_monitoring_expert,CAR-AE,late,job_changes_1-5;forced_expertise_900,0
+AN-3344,894,908,14,3,Weather Prediction Bureau,project_management,CAR-SC,late,steady_progress;breakthrough_905,0
+BD-8823,887,908,21,8,Densmok Systems,algorithm_development_expert,CAR-AE,late,job_changes_1-5;forced_expertise_894,0
+IM-4031,892,909,17,2,Independent,instrument_repair_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+BD-2489,882,909,27,4,part_time,quality_assurance,CAR-BA,post,rapid_advancement_884;collapse_889,3
+IM-5820,887,908,21,3,Suburban Networks,pattern_recognition,CAR-SC,late,steady_progress;breakthrough_900,0
+BD-2703,895,912,17,5,Capital Data Services,project_management_expert,CAR-AE,late,job_changes_1-5;forced_expertise_906,0
+IM-4151,896,910,14,3,Independent,algorithm_development_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-4704,881,911,30,4,Trade Intelligence,medical_informatics,CAR-SC,late,steady_progress;breakthrough_892,0
+NW-6138,886,909,23,4,part_time,network_engineering,CAR-BA,post,rapid_advancement_888;collapse_891,3
+SY-2011,885,911,26,3,Trade Intelligence,algorithm_development,CAR-SC,late,steady_progress;breakthrough_896,0
+IM-2203,890,912,22,8,Municipal Computing,instrument_repair_expert,CAR-AE,late,job_changes_1-5;forced_expertise_897,0
+BD-4870,894,912,18,3,Educational Computing,instrument_repair,CAR-BA,post,rapid_advancement_896;collapse_905,2
+CD-1703,895,912,17,3,Educational Computing,quality_assurance,CAR-BA,post,rapid_advancement_897;collapse_906,2
+AN-6956,886,908,22,3,Densmok Systems,financial_modeling_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-6390,898,910,12,4,Educational Computing,report_generation,CAR-BA,post,rapid_advancement_900;collapse_903,1
+CD-9771,882,911,29,2,Weather Prediction Bureau,general_coding,CAR-SC,late,steady_progress;breakthrough_895,0
+AN-7006,883,911,28,4,Municipal Computing,quality_assurance,CAR-SC,late,steady_progress;breakthrough_894,0
+NW-5761,889,911,22,3,Route Optimization LLC,census_processing,CAR-UN,mid,mixed_pattern,1
+AN-5567,895,908,13,7,Startup,algorithm_development,CAR-AE,mid,job_changes_1-5;forced_expertise_906,0
+BD-6300,885,912,27,3,Transit Authority,project_management_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+BD-3825,895,908,13,6,Municipal Computing,algorithm_development_expert,CAR-AE,late,job_changes_1-5;forced_expertise_902,0
+IM-4041,902,912,10,4,Densmok Systems,network_engineering,CAR-SC,mid,steady_progress;breakthrough_912,0
+AN-8171,897,912,15,5,Independent,algorithm_development,CAR-BA,post,rapid_advancement_899;collapse_904,3
+AN-6292,897,912,15,1,Financial Services Corp,trade_optimization_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-3083,885,912,27,4,Educational Computing,network_engineering,CAR-BA,post,rapid_advancement_887;collapse_892,3
+SY-6969,883,912,29,4,Quarry Analytics,quality_assurance,CAR-UN,mid,mixed_pattern,1
+IM-6672,885,912,27,3,Municipal Computing,database_administration,CAR-SC,late,steady_progress;breakthrough_896,0
+NW-9159,894,911,17,4,Quarry Analytics,algorithm_development,CAR-UN,mid,mixed_pattern,0
+SY-4557,881,908,27,3,Densmok Systems,medical_informatics,CAR-SC,late,steady_progress;breakthrough_892,0
+BD-8597,896,908,12,1,Route Optimization LLC,census_processing_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-1719,881,910,29,2,Route Optimization LLC,educational_technology,CAR-SC,late,steady_progress;breakthrough_894,0
+IM-3830,895,908,13,2,Capital Data Services,general_coding,CAR-SC,mid,steady_progress;breakthrough_908,0
+BD-7462,902,912,10,5,Capital Data Services,instrument_repair,CAR-BA,early,rapid_advancement_904;collapse_909,0
+BD-3818,888,912,24,4,part_time,quality_assurance,CAR-BA,post,rapid_advancement_890;collapse_895,1
+CD-2398,893,911,18,3,Consulting,database_administration,CAR-BA,post,rapid_advancement_895;collapse_900,1
+BD-9297,882,911,29,7,Municipal Computing,project_management_expert,CAR-AE,late,job_changes_1-5;forced_expertise_889,0
+NW-8504,889,912,23,6,Archive Informatics,data_analysis_expert,CAR-AE,late,job_changes_1-5;forced_expertise_896,0
+IM-6337,898,912,14,3,Independent,general_coding,CAR-UN,early,mixed_pattern,0
+BD-6914,887,910,23,2,Quarry Analytics,database_administration,CAR-SC,late,steady_progress;breakthrough_900,0
+NW-2341,892,909,17,8,Capital Data Services,system_design_expert,CAR-AE,late,job_changes_1-5;forced_expertise_899,0
+SY-9527,891,910,19,1,Educational Computing,educational_technology_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-6398,902,912,10,3,Densmok Systems,data_analysis,CAR-SC,mid,steady_progress;breakthrough_912,0
+CD-2072,886,909,23,1,Financial Services Corp,instrument_repair_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-3213,890,909,19,6,Municipal Computing,database_administration_expert,CAR-AE,late,job_changes_1-5;forced_expertise_901,0
+NW-2379,882,911,29,6,Weather Prediction Bureau,medical_informatics_expert,CAR-AE,late,job_changes_1-5;forced_expertise_889,0
+IM-9263,890,908,18,8,Archive Informatics,network_engineering_expert,CAR-AE,late,job_changes_1-5;forced_expertise_901,0
+BD-5795,897,909,12,5,Klutch Community College,financial_modeling,CAR-AE,mid,job_changes_1-5;forced_expertise_908,0
+SY-6255,898,911,13,2,Consulting,quality_assurance,CAR-BA,post,rapid_advancement_900;collapse_905,2
+BD-6371,883,912,29,8,Suburban Networks,census_processing_expert,CAR-AE,late,job_changes_1-5;forced_expertise_894,0
+NW-6822,883,912,29,4,Weather Prediction Bureau,general_coding,CAR-SC,late,steady_progress;breakthrough_896,0
+CD-4304,886,908,22,2,Consulting,census_processing_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-7592,889,908,19,8,Archive Informatics,quality_assurance_expert,CAR-AE,late,job_changes_1-5;forced_expertise_896,0
+CD-3926,881,910,29,6,Suburban Networks,general_coding_expert,CAR-AE,late,job_changes_1-5;forced_expertise_892,0
+CD-3633,882,910,28,6,Quarry Analytics,instrument_repair_expert,CAR-AE,late,job_changes_1-5;forced_expertise_893,0
+BD-8139,887,909,22,4,Route Optimization LLC,system_design,CAR-SC,late,steady_progress;breakthrough_898,0
+NW-6961,892,912,20,2,Educational Computing,algorithm_development,CAR-BA,post,rapid_advancement_894;collapse_903,1
+CD-1548,888,910,22,4,Independent,pattern_recognition,CAR-BA,post,rapid_advancement_890;collapse_899,3
+BD-8227,889,910,21,5,Suburban Networks,system_design_expert,CAR-AE,late,job_changes_1-5;forced_expertise_900,0
+IM-6779,890,910,20,2,Educational Computing,census_processing,CAR-BA,post,rapid_advancement_892;collapse_895,2
+IM-9441,881,911,30,2,Capital Data Services,pattern_recognition,CAR-SC,late,steady_progress;breakthrough_894,0
+AN-1440,890,908,18,3,Municipal Computing,report_generation,CAR-SC,late,steady_progress;breakthrough_903,0
+BD-8672,885,909,24,1,Trade Intelligence,general_coding_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-3543,898,909,11,1,Trade Intelligence,census_processing_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-9048,898,910,12,3,Archive Informatics,system_design,CAR-SC,late,steady_progress;breakthrough_909,0
+BD-7475,897,910,13,4,Route Optimization LLC,algorithm_development,CAR-AE,mid,job_changes_1-5;forced_expertise_908,0
+IM-2903,896,910,14,4,Trade Intelligence,quality_assurance,CAR-SC,late,steady_progress;breakthrough_907,0
+BD-8326,878,908,30,4,Weather Prediction Bureau,algorithm_development,CAR-SC,late,steady_progress;breakthrough_889,0
+SY-8149,891,912,21,3,Weather Prediction Bureau,educational_technology,CAR-SC,late,steady_progress;breakthrough_904,0
+SY-5901,890,908,18,6,Route Optimization LLC,census_processing_expert,CAR-AE,late,job_changes_1-5;forced_expertise_897,0
+AN-9397,882,912,30,3,Archive Informatics,maintenance_systems_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+BD-2368,891,908,17,4,Suburban Networks,system_design,CAR-SC,late,steady_progress;breakthrough_904,0
+SY-8646,895,908,13,4,Archive Informatics,financial_modeling,CAR-SC,late,steady_progress;breakthrough_906,0
+BD-9080,888,910,22,3,Consulting,instrument_repair,CAR-BA,post,rapid_advancement_890;collapse_893,2
+BD-7131,892,912,20,6,Route Optimization LLC,report_generation_expert,CAR-AE,late,job_changes_1-5;forced_expertise_899,0
+AN-3818,892,912,20,5,part_time,educational_technology,CAR-BA,post,rapid_advancement_894;collapse_899,3
+IM-1595,884,909,25,4,Independent,trade_optimization,CAR-BA,post,rapid_advancement_886;collapse_891,3
+NW-4551,884,908,24,5,Independent,network_engineering,CAR-BA,post,rapid_advancement_886;collapse_891,3
+SY-8856,884,910,26,1,Densmok Systems,database_administration_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+AN-4102,896,910,14,5,part_time,pattern_recognition,CAR-BA,post,rapid_advancement_898;collapse_901,3
+AN-4572,890,908,18,2,part_time,project_management,CAR-BA,post,rapid_advancement_892;collapse_901,3
+SY-4314,896,908,12,4,Route Optimization LLC,trade_optimization,CAR-SC,mid,steady_progress;breakthrough_908,0
+IM-8507,897,910,13,7,Weather Prediction Bureau,instrument_repair_expert,CAR-AE,late,job_changes_1-5;forced_expertise_904,0
+CD-7961,893,909,16,6,Quarry Analytics,medical_informatics_expert,CAR-AE,late,job_changes_1-5;forced_expertise_904,0
+IM-5441,888,912,24,2,Capital Data Services,medical_informatics,CAR-SC,late,steady_progress;breakthrough_899,0
+NW-7408,896,910,14,5,Suburban Networks,system_design_expert,CAR-AE,late,job_changes_1-5;forced_expertise_903,0
+BD-7903,889,912,23,4,Trade Intelligence,database_administration_expert,CAR-AE,late,job_changes_1-5;forced_expertise_896,0
+CD-1193,902,912,10,7,Suburban Networks,trade_optimization,CAR-AE,mid,job_changes_1-5;forced_expertise_909,0
+AN-3278,892,910,18,4,Archive Informatics,database_administration,CAR-SC,late,steady_progress;breakthrough_905,0
+BD-6018,886,909,23,1,Consulting,report_generation_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-8756,889,908,19,5,Independent,atmospheric_monitoring,CAR-BA,post,rapid_advancement_891;collapse_900,1
+BD-6288,894,912,18,3,Weather Prediction Bureau,data_analysis,CAR-SC,late,steady_progress;breakthrough_907,0
+NW-1784,891,908,17,2,Independent,project_management_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-6645,899,911,12,6,Trade Intelligence,trade_optimization_expert,CAR-AE,late,job_changes_1-5;forced_expertise_906,0
+CD-1252,885,909,24,4,Archive Informatics,system_design_expert,CAR-AE,late,job_changes_1-5;forced_expertise_892,0
+SY-7800,888,909,21,7,Trade Intelligence,report_generation_expert,CAR-AE,late,job_changes_1-5;forced_expertise_895,0
+AN-5743,900,911,11,2,Quarry Analytics,atmospheric_monitoring,CAR-SC,mid,steady_progress;breakthrough_911,0
+CD-6233,889,908,19,7,Quarry Analytics,atmospheric_monitoring_expert,CAR-AE,late,job_changes_1-5;forced_expertise_900,0
+CD-8520,883,908,25,4,Archive Informatics,database_administration_expert,CAR-AE,late,job_changes_1-5;forced_expertise_894,0
+BD-4982,891,911,20,4,Suburban Networks,maintenance_systems_expert,CAR-AE,late,job_changes_1-5;forced_expertise_898,0
+SY-2881,892,908,16,8,Municipal Computing,trade_optimization_expert,CAR-AE,late,job_changes_1-5;forced_expertise_899,0
+CD-3799,885,909,24,2,Weather Prediction Bureau,database_administration_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-7540,901,911,10,3,Densmok Systems,database_administration_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-9513,893,909,16,2,Educational Computing,trade_optimization,CAR-BA,post,rapid_advancement_895;collapse_900,1
+NW-2653,885,908,23,3,Capital Data Services,maintenance_systems,CAR-SC,late,steady_progress;breakthrough_898,0
+CD-9661,886,911,25,3,Educational Computing,algorithm_development,CAR-SC,late,steady_progress;breakthrough_897,0
+AN-6076,887,912,25,4,Municipal Computing,atmospheric_monitoring,CAR-SC,late,steady_progress;breakthrough_900,0
+AN-2934,884,910,26,2,Consulting,general_coding,CAR-BA,post,rapid_advancement_886;collapse_889,2
+BD-9458,895,910,15,5,Capital Data Services,financial_modeling_expert,CAR-AE,late,job_changes_1-5;forced_expertise_906,0
+NW-5363,883,912,29,3,Financial Services Corp,report_generation_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+AN-1268,894,910,16,2,Consulting,quality_assurance,CAR-BA,post,rapid_advancement_896;collapse_901,1
+CD-2112,885,912,27,6,Capital Data Services,general_coding_expert,CAR-AE,late,job_changes_1-5;forced_expertise_896,0
+AN-5157,902,912,10,4,Medical Records,instrument_repair,CAR-SC,mid,steady_progress;breakthrough_912,0
+CD-4497,894,910,16,4,Educational Computing,network_engineering,CAR-SC,late,steady_progress;breakthrough_907,0
+IM-9042,881,910,29,3,Educational Computing,trade_optimization,CAR-SC,late,steady_progress;breakthrough_892,0
+AN-7085,892,909,17,2,Weather Prediction Bureau,maintenance_systems_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-1587,886,909,23,3,Capital Data Services,general_coding,CAR-SC,late,steady_progress;breakthrough_899,0
+SY-6598,881,909,28,2,Archive Informatics,maintenance_systems,CAR-SC,late,steady_progress;breakthrough_892,0
+NW-7425,888,911,23,7,Educational Computing,maintenance_systems_expert,CAR-AE,late,job_changes_1-5;forced_expertise_895,0
+SY-2346,888,908,20,3,Educational Computing,project_management,CAR-SC,late,steady_progress;breakthrough_901,0
+CD-4643,880,908,28,1,Klutch Community College,general_coding_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-8447,880,908,28,3,Quarry Analytics,educational_technology,CAR-SC,late,steady_progress;breakthrough_893,0
+AN-8483,885,908,23,5,Educational Computing,system_design_expert,CAR-AE,late,job_changes_1-5;forced_expertise_892,0
+BD-7720,891,909,18,4,Archive Informatics,trade_optimization,CAR-SC,late,steady_progress;breakthrough_904,0
+BD-3919,885,910,25,2,Consulting,financial_modeling,CAR-BA,post,rapid_advancement_887;collapse_896,1
+AN-8710,898,909,11,2,Financial Services Corp,atmospheric_monitoring_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+BD-8839,898,908,10,1,Financial Services Corp,data_analysis_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-2538,900,911,11,6,Archive Informatics,generalist,CAR-AE,early,job_changes_1-5;forced_expertise_911,0
+BD-6349,882,911,29,4,Route Optimization LLC,algorithm_development,CAR-SC,late,steady_progress;breakthrough_895,0
+BD-8206,893,908,15,5,Educational Computing,instrument_repair,CAR-UN,late,mixed_pattern,0
+CD-2841,882,909,27,1,Educational Computing,trade_optimization_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+AN-9858,889,911,22,4,Densmok Systems,algorithm_development_expert,CAR-AE,late,job_changes_1-5;forced_expertise_900,0
+CD-9708,898,912,14,8,Startup,algorithm_development,CAR-AE,mid,job_changes_1-5;forced_expertise_909,0
+BD-8545,898,911,13,3,Startup,educational_technology_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-8319,886,909,23,3,Startup,system_design_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+BD-6432,900,911,11,2,Densmok Systems,network_engineering,CAR-SC,mid,steady_progress;breakthrough_911,0
+BD-9425,882,912,30,2,Educational Computing,data_analysis,CAR-SC,late,steady_progress;breakthrough_895,0
+BD-5817,889,910,21,4,Route Optimization LLC,algorithm_development,CAR-SC,late,steady_progress;breakthrough_900,0
+AN-9895,897,911,14,8,Route Optimization LLC,educational_technology_expert,CAR-AE,late,job_changes_1-5;forced_expertise_904,0
+BD-7912,881,909,28,2,Educational Computing,database_administration,CAR-SC,late,steady_progress;breakthrough_894,0
+SY-2010,882,909,27,2,Suburban Networks,data_analysis_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-7754,893,911,18,4,Municipal Computing,data_analysis,CAR-SC,late,steady_progress;breakthrough_906,0
+BD-3292,880,910,30,2,Educational Computing,financial_modeling,CAR-BA,post,rapid_advancement_882;collapse_885,3
+NW-8990,896,908,12,4,Educational Computing,report_generation,CAR-BA,post,rapid_advancement_898;collapse_901,2
+NW-3385,889,910,21,2,Trade Intelligence,census_processing,CAR-SC,late,steady_progress;breakthrough_902,0
+CD-3727,895,912,17,3,Densmok Systems,database_administration,CAR-SC,late,steady_progress;breakthrough_908,0
+CD-2842,887,909,22,8,Municipal Computing,maintenance_systems_expert,CAR-AE,late,job_changes_1-5;forced_expertise_894,0
+BD-8458,898,908,10,4,Independent,generalist,CAR-AE,early,job_changes_1-5;forced_expertise_908,0
+SY-8002,883,911,28,4,part_time,pattern_recognition,CAR-BA,post,rapid_advancement_885;collapse_890,3
+SY-4710,893,911,18,5,Weather Prediction Bureau,database_administration_expert,CAR-AE,late,job_changes_1-5;forced_expertise_900,0
+BD-9314,900,911,11,7,Weather Prediction Bureau,generalist,CAR-AE,early,job_changes_1-5;forced_expertise_911,0
+IM-6633,900,910,10,8,Educational Computing,system_design,CAR-AE,mid,job_changes_1-5;forced_expertise_907,0
+IM-9093,890,909,19,6,Quarry Analytics,census_processing_expert,CAR-AE,late,job_changes_1-5;forced_expertise_897,0
+IM-7554,897,910,13,4,Quarry Analytics,medical_informatics,CAR-SC,mid,steady_progress;breakthrough_910,0
+SY-3692,890,912,22,6,Archive Informatics,maintenance_systems_expert,CAR-AE,late,job_changes_1-5;forced_expertise_901,0
+CD-1437,890,909,19,4,Trade Intelligence,pattern_recognition,CAR-SC,late,steady_progress;breakthrough_903,0
+CD-7285,889,909,20,4,Archive Informatics,general_coding,CAR-SC,late,steady_progress;breakthrough_902,0
+AN-4541,890,908,18,5,part_time,educational_technology,CAR-BA,post,rapid_advancement_892;collapse_901,3
+AN-2605,879,908,29,4,Weather Prediction Bureau,quality_assurance,CAR-SC,late,steady_progress;breakthrough_890,0
+AN-8927,889,909,20,2,Municipal Computing,algorithm_development,CAR-SC,late,steady_progress;breakthrough_902,0
+SY-4308,883,910,27,1,Research Institute,educational_technology_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+AN-7931,881,911,30,4,Suburban Networks,network_engineering_expert,CAR-AE,late,job_changes_1-5;forced_expertise_892,0
+AN-5572,894,908,14,3,Quarry Analytics,educational_technology_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-4270,886,908,22,8,Capital Data Services,report_generation_expert,CAR-AE,late,job_changes_1-5;forced_expertise_893,0
+AN-7447,887,909,22,8,Capital Data Services,network_engineering_expert,CAR-AE,late,job_changes_1-5;forced_expertise_894,0
+CD-7798,890,910,20,3,Suburban Networks,atmospheric_monitoring_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-9536,896,911,15,4,Independent,network_engineering,CAR-BA,post,rapid_advancement_898;collapse_901,1
+NW-6739,893,910,17,7,Capital Data Services,atmospheric_monitoring_expert,CAR-AE,late,job_changes_1-5;forced_expertise_904,0
+SY-5004,899,912,13,3,Medical Records,quality_assurance_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+BD-3349,899,911,12,3,Capital Data Services,database_administration,CAR-BA,collapse,rapid_advancement_901;collapse_910,1
+NW-4923,888,910,22,2,Suburban Networks,data_analysis_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-8812,897,912,15,2,Quarry Analytics,census_processing,CAR-SC,late,steady_progress;breakthrough_910,0
+AN-5592,879,908,29,5,Consulting,instrument_repair,CAR-BA,post,rapid_advancement_881;collapse_884,2
+IM-2894,900,912,12,1,Municipal Computing,quality_assurance_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-2975,887,912,25,4,Trade Intelligence,pattern_recognition,CAR-SC,late,steady_progress;breakthrough_898,0
+NW-9141,884,909,25,5,Financial Services Corp,data_analysis,CAR-UN,early,mixed_pattern,0
+CD-7259,899,911,12,5,Financial Services Corp,quality_assurance,CAR-AE,mid,job_changes_1-5;forced_expertise_910,0
+CD-8442,889,912,23,5,Route Optimization LLC,medical_informatics_expert,CAR-AE,late,job_changes_1-5;forced_expertise_896,0
+CD-2206,879,909,30,3,part_time,network_engineering,CAR-BA,post,rapid_advancement_881;collapse_890,1
+IM-8557,881,912,31,4,Weather Prediction Bureau,system_design,CAR-SC,late,steady_progress;breakthrough_892,0
+BD-6985,886,909,23,3,Weather Prediction Bureau,educational_technology,CAR-SC,late,steady_progress;breakthrough_897,0
+SY-7274,897,909,12,2,Transit Authority,data_analysis_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-8419,897,908,11,3,Capital Data Services,data_analysis,CAR-SC,mid,steady_progress;breakthrough_908,0
+SY-9293,895,909,14,4,Municipal Computing,algorithm_development,CAR-SC,late,steady_progress;breakthrough_906,0
+IM-6027,885,912,27,1,Densmok Systems,medical_informatics_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-1062,889,909,20,7,Suburban Networks,network_engineering_expert,CAR-AE,late,job_changes_1-5;forced_expertise_896,0
+SY-2576,900,910,10,5,Weather Prediction Bureau,atmospheric_monitoring,CAR-BA,early,rapid_advancement_902;collapse_907,0
+IM-2471,895,908,13,4,Consulting,medical_informatics,CAR-BA,post,rapid_advancement_897;collapse_902,1
+CD-2484,890,909,19,4,Independent,data_analysis,CAR-BA,post,rapid_advancement_892;collapse_901,1
+CD-3116,881,908,27,4,Suburban Networks,general_coding,CAR-SC,late,steady_progress;breakthrough_894,0
+IM-9995,889,910,21,5,part_time,trade_optimization,CAR-BA,post,rapid_advancement_891;collapse_896,3
+AN-2723,882,912,30,4,Educational Computing,pattern_recognition,CAR-BA,post,rapid_advancement_884;collapse_889,1
+NW-6448,881,908,27,4,Densmok Systems,educational_technology_expert,CAR-AE,late,job_changes_1-5;forced_expertise_892,0
+AN-2560,894,912,18,3,Educational Computing,data_analysis,CAR-SC,late,steady_progress;breakthrough_905,0
+BD-5383,880,909,29,4,Educational Computing,data_analysis_expert,CAR-AE,late,job_changes_1-5;forced_expertise_891,0
+AN-3399,892,912,20,2,Suburban Networks,system_design,CAR-SC,late,steady_progress;breakthrough_905,0
+AN-8901,892,911,19,3,part_time,pattern_recognition,CAR-BA,post,rapid_advancement_894;collapse_897,3
+IM-5955,889,908,19,5,Suburban Networks,instrument_repair,CAR-UN,late,mixed_pattern,0
+CD-1538,894,912,18,6,Densmok Systems,algorithm_development_expert,CAR-AE,late,job_changes_1-5;forced_expertise_901,0
+BD-9492,899,912,13,2,Klutch Community College,quality_assurance_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-7308,887,909,22,4,Capital Data Services,instrument_repair,CAR-SC,late,steady_progress;breakthrough_900,0
+IM-8994,893,909,16,5,Municipal Computing,project_management_expert,CAR-AE,late,job_changes_1-5;forced_expertise_900,0
+BD-6011,890,909,19,1,Weather Prediction Bureau,database_administration_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-5280,897,912,15,3,Transit Authority,general_coding_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-8758,886,909,23,3,Weather Prediction Bureau,pattern_recognition,CAR-SC,late,steady_progress;breakthrough_897,0
+IM-6260,889,912,23,2,Educational Computing,census_processing,CAR-BA,post,rapid_advancement_891;collapse_900,3
+SY-7178,897,908,11,6,Route Optimization LLC,trade_optimization_expert,CAR-AE,late,job_changes_1-5;forced_expertise_904,0
+SY-5729,887,910,23,6,Quarry Analytics,general_coding_expert,CAR-AE,late,job_changes_1-5;forced_expertise_894,0
+IM-4275,894,909,15,4,Densmok Systems,network_engineering,CAR-SC,late,steady_progress;breakthrough_905,0
+SY-4114,894,910,16,3,Educational Computing,pattern_recognition,CAR-BA,post,rapid_advancement_896;collapse_905,3
+AN-4658,886,909,23,4,Municipal Computing,data_analysis,CAR-SC,late,steady_progress;breakthrough_897,0
+BD-5346,891,909,18,1,Research Institute,database_administration_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-3544,884,911,27,5,Densmok Systems,trade_optimization_expert,CAR-AE,late,job_changes_1-5;forced_expertise_895,0
+AN-9589,890,908,18,5,Consulting,educational_technology,CAR-BA,post,rapid_advancement_892;collapse_895,2
+SY-2772,899,909,10,4,Financial Services Corp,project_management,CAR-SC,mid,steady_progress;breakthrough_909,0
+AN-1318,898,909,11,3,Route Optimization LLC,system_design,CAR-UN,late,mixed_pattern,1
+IM-1325,887,912,25,7,Route Optimization LLC,pattern_recognition_expert,CAR-AE,late,job_changes_1-5;forced_expertise_894,0
+NW-8222,883,908,25,3,Quarry Analytics,algorithm_development,CAR-SC,late,steady_progress;breakthrough_894,0
+NW-3445,890,912,22,8,Municipal Computing,financial_modeling_expert,CAR-AE,late,job_changes_1-5;forced_expertise_897,0
+IM-9260,897,912,15,2,Capital Data Services,trade_optimization,CAR-SC,late,steady_progress;breakthrough_910,0
+BD-2353,881,908,27,2,Weather Prediction Bureau,system_design,CAR-SC,late,steady_progress;breakthrough_892,0
+NW-3982,887,909,22,2,part_time,census_processing,CAR-BA,post,rapid_advancement_889;collapse_894,2
+SY-4219,880,910,30,3,Independent,maintenance_systems_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+AN-6959,882,911,29,5,Independent,database_administration,CAR-BA,post,rapid_advancement_884;collapse_887,3
+BD-8004,881,910,29,1,Consulting,maintenance_systems_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+AN-4722,883,908,25,4,Quarry Analytics,financial_modeling_expert,CAR-AE,late,job_changes_1-5;forced_expertise_894,0
+IM-7297,888,912,24,7,Weather Prediction Bureau,report_generation_expert,CAR-AE,late,job_changes_1-5;forced_expertise_895,0
+AN-2349,900,910,10,2,Archive Informatics,trade_optimization,CAR-SC,mid,steady_progress;breakthrough_910,0
+IM-3989,894,912,18,2,Densmok Systems,maintenance_systems,CAR-SC,late,steady_progress;breakthrough_907,0
+IM-4713,889,910,21,5,Independent,maintenance_systems,CAR-BA,post,rapid_advancement_891;collapse_896,3
+CD-2957,897,911,14,4,Quarry Analytics,network_engineering,CAR-SC,late,steady_progress;breakthrough_910,0
+BD-5841,899,911,12,3,Quarry Analytics,data_analysis,CAR-SC,late,steady_progress;breakthrough_910,0
+IM-6076,887,912,25,2,Consulting,database_administration,CAR-BA,post,rapid_advancement_889;collapse_898,1
+CD-5873,885,909,24,3,Densmok Systems,financial_modeling,CAR-SC,late,steady_progress;breakthrough_898,0
+SY-5341,886,912,26,4,Weather Prediction Bureau,trade_optimization,CAR-SC,late,steady_progress;breakthrough_899,0
+IM-7399,896,908,12,2,Capital Data Services,database_administration,CAR-SC,late,steady_progress;breakthrough_907,0
+CD-7487,888,909,21,2,Consulting,database_administration,CAR-BA,post,rapid_advancement_890;collapse_893,3
+BD-9449,882,912,30,1,Financial Services Corp,data_analysis_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-3975,893,910,17,4,Densmok Systems,instrument_repair,CAR-SC,late,steady_progress;breakthrough_906,0
+IM-4268,896,909,13,7,Route Optimization LLC,trade_optimization_expert,CAR-AE,late,job_changes_1-5;forced_expertise_903,0
+NW-1970,895,910,15,1,Transit Authority,financial_modeling_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-1999,898,909,11,2,Weather Prediction Bureau,quality_assurance,CAR-BA,collapse,rapid_advancement_900;collapse_909,1
+NW-8324,882,908,26,2,Census Office,database_administration_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-6303,885,910,25,3,Weather Prediction Bureau,report_generation,CAR-SC,late,steady_progress;breakthrough_896,0
+AN-1837,886,909,23,4,Quarry Analytics,atmospheric_monitoring_expert,CAR-AE,late,job_changes_1-5;forced_expertise_897,0
+IM-2365,883,908,25,1,Startup,instrument_repair_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-7095,887,908,21,3,Educational Computing,financial_modeling,CAR-SC,late,steady_progress;breakthrough_898,0
+BD-2086,889,910,21,1,Financial Services Corp,system_design_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-3906,884,911,27,5,Consulting,census_processing,CAR-UN,mid,mixed_pattern,0
+BD-2982,892,911,19,4,Trade Intelligence,project_management_expert,CAR-AE,late,job_changes_1-5;forced_expertise_899,0
+BD-3958,884,910,26,6,Archive Informatics,general_coding_expert,CAR-AE,late,job_changes_1-5;forced_expertise_891,0
+AN-5593,898,910,12,2,Weather Prediction Bureau,data_analysis_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-6000,880,912,32,5,Densmok Systems,trade_optimization,CAR-UN,late,mixed_pattern,1
+AN-2804,894,908,14,3,Trade Intelligence,system_design,CAR-SC,late,steady_progress;breakthrough_905,0
+SY-2726,881,912,31,1,Research Institute,project_management_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-9207,883,910,27,3,Archive Informatics,system_design_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-9944,900,911,11,2,Educational Computing,system_design,CAR-BA,post,rapid_advancement_902;collapse_905,3
+IM-4110,883,912,29,1,Transit Authority,atmospheric_monitoring_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-8609,894,911,17,2,Independent,quality_assurance,CAR-BA,post,rapid_advancement_896;collapse_901,1
+SY-6779,898,911,13,3,Quarry Analytics,maintenance_systems,CAR-SC,late,steady_progress;breakthrough_909,0
+AN-3076,891,911,20,3,Capital Data Services,educational_technology,CAR-SC,late,steady_progress;breakthrough_902,0
+BD-5073,888,910,22,3,Trade Intelligence,quality_assurance_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+AN-7423,884,912,28,4,Capital Data Services,atmospheric_monitoring,CAR-SC,late,steady_progress;breakthrough_895,0
+SY-7209,895,911,16,4,Educational Computing,instrument_repair,CAR-SC,late,steady_progress;breakthrough_906,0
+IM-9564,887,908,21,5,Capital Data Services,quality_assurance_expert,CAR-AE,late,job_changes_1-5;forced_expertise_898,0
+BD-2729,894,912,18,4,Quarry Analytics,instrument_repair_expert,CAR-AE,late,job_changes_1-5;forced_expertise_905,0
+BD-5457,894,912,18,2,Klutch Community College,instrument_repair_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-2730,886,911,25,4,Suburban Networks,general_coding,CAR-SC,late,steady_progress;breakthrough_897,0
+SY-2385,881,912,31,2,Densmok Systems,network_engineering_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-9454,880,909,29,1,Independent,system_design_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-4411,885,911,26,3,Capital Data Services,trade_optimization_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-8287,894,909,15,5,Educational Computing,report_generation,CAR-BA,post,rapid_advancement_896;collapse_899,2
+SY-4267,887,909,22,2,Municipal Computing,data_analysis,CAR-SC,late,steady_progress;breakthrough_898,0
+IM-6497,883,911,28,5,Quarry Analytics,data_analysis_expert,CAR-AE,late,job_changes_1-5;forced_expertise_894,0
+CD-2121,888,909,21,2,Trade Intelligence,educational_technology,CAR-SC,late,steady_progress;breakthrough_901,0
+IM-2403,883,912,29,4,Capital Data Services,instrument_repair,CAR-SC,late,steady_progress;breakthrough_894,0
+NW-4420,890,910,20,2,Financial Services Corp,instrument_repair_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-4703,886,912,26,2,Educational Computing,financial_modeling,CAR-BA,post,rapid_advancement_888;collapse_897,2
+CD-4975,895,909,14,3,Quarry Analytics,atmospheric_monitoring,CAR-SC,late,steady_progress;breakthrough_906,0
+IM-9496,894,908,14,8,Suburban Networks,financial_modeling_expert,CAR-AE,late,job_changes_1-5;forced_expertise_901,0
+AN-5406,884,908,24,1,Klutch Community College,atmospheric_monitoring_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+IM-3262,880,908,28,8,Trade Intelligence,report_generation_expert,CAR-AE,late,job_changes_1-5;forced_expertise_887,0
+CD-1584,882,910,28,3,Capital Data Services,algorithm_development,CAR-SC,late,steady_progress;breakthrough_893,0
+AN-1954,881,908,27,8,Quarry Analytics,educational_technology_expert,CAR-AE,late,job_changes_1-5;forced_expertise_888,0
+IM-5736,884,909,25,2,part_time,pattern_recognition,CAR-BA,post,rapid_advancement_886;collapse_889,2
+IM-1404,899,909,10,2,Klutch Community College,report_generation_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+NW-1910,892,908,16,5,Independent,report_generation,CAR-BA,post,rapid_advancement_894;collapse_899,3
+IM-6702,892,909,17,4,part_time,data_analysis,CAR-BA,post,rapid_advancement_894;collapse_897,3
+AN-2887,881,911,30,3,Educational Computing,quality_assurance,CAR-BA,post,rapid_advancement_883;collapse_888,2
+BD-7766,893,910,17,2,Route Optimization LLC,census_processing,CAR-SC,late,steady_progress;breakthrough_904,0
+NW-3675,896,909,13,7,Capital Data Services,medical_informatics_expert,CAR-AE,late,job_changes_1-5;forced_expertise_903,0
+SY-8556,887,909,22,2,Densmok Systems,data_analysis_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-8514,889,910,21,6,Suburban Networks,pattern_recognition_expert,CAR-AE,late,job_changes_1-5;forced_expertise_896,0
+NW-6942,883,912,29,2,Archive Informatics,pattern_recognition,CAR-SC,late,steady_progress;breakthrough_894,0
+BD-7611,891,908,17,4,Educational Computing,algorithm_development,CAR-BA,post,rapid_advancement_893;collapse_896,2
+SY-9580,885,910,25,2,Trade Intelligence,census_processing,CAR-SC,late,steady_progress;breakthrough_896,0
+IM-2052,882,910,28,8,Trade Intelligence,quality_assurance_expert,CAR-AE,late,job_changes_1-5;forced_expertise_889,0
+CD-9522,894,908,14,6,Educational Computing,project_management_expert,CAR-AE,late,job_changes_1-5;forced_expertise_901,0
+CD-5879,887,908,21,5,Trade Intelligence,instrument_repair_expert,CAR-AE,late,job_changes_1-5;forced_expertise_898,0
+BD-3473,888,911,23,3,Educational Computing,algorithm_development,CAR-BA,post,rapid_advancement_890;collapse_895,3
+CD-9186,898,910,12,4,Consulting,data_analysis,CAR-BA,post,rapid_advancement_900;collapse_903,1
+CD-8929,896,910,14,2,Municipal Computing,census_processing,CAR-SC,late,steady_progress;breakthrough_909,0
+IM-9509,881,912,31,3,Independent,trade_optimization,CAR-BA,post,rapid_advancement_883;collapse_886,2
+CD-2749,882,912,30,2,part_time,algorithm_development,CAR-BA,post,rapid_advancement_884;collapse_889,1
+BD-8903,894,912,18,1,Suburban Networks,system_design_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-5682,896,911,15,2,Weather Prediction Bureau,general_coding,CAR-SC,late,steady_progress;breakthrough_909,0
+BD-3416,896,908,12,2,Educational Computing,system_design,CAR-BA,post,rapid_advancement_898;collapse_901,3
+BD-5092,883,911,28,7,Route Optimization LLC,algorithm_development_expert,CAR-AE,late,job_changes_1-5;forced_expertise_890,0
+CD-1521,902,912,10,4,Educational Computing,database_administration,CAR-BA,post,rapid_advancement_904;collapse_907,1
+CD-4010,887,908,21,2,Route Optimization LLC,financial_modeling,CAR-SC,late,steady_progress;breakthrough_898,0
+BD-1145,894,910,16,4,Educational Computing,network_engineering,CAR-SC,late,steady_progress;breakthrough_905,0
+SY-5220,898,911,13,7,Trade Intelligence,trade_optimization,CAR-AE,mid,job_changes_1-5;forced_expertise_909,0
+BD-4274,886,908,22,1,Capital Data Services,general_coding_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+CD-2961,883,910,27,2,Independent,quality_assurance,CAR-BA,post,rapid_advancement_885;collapse_888,2
+SY-7409,902,912,10,1,Quarry Analytics,trade_optimization_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-5334,881,910,29,4,Weather Prediction Bureau,census_processing,CAR-SC,late,steady_progress;breakthrough_894,0
+BD-6436,883,908,25,6,Municipal Computing,atmospheric_monitoring_expert,CAR-AE,late,job_changes_1-5;forced_expertise_890,0
+NW-4801,894,912,18,3,Independent,algorithm_development,CAR-BA,post,rapid_advancement_896;collapse_901,2
+CD-8042,891,910,19,2,Independent,report_generation,CAR-BA,post,rapid_advancement_893;collapse_902,2
+AN-2065,886,908,22,4,Route Optimization LLC,network_engineering,CAR-UN,mid,mixed_pattern,0
+CD-6910,892,911,19,3,Financial Services Corp,educational_technology_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0
+SY-4302,896,908,12,2,Archive Informatics,maintenance_systems_studying,CAR-ES,mid,certification_1;certification_2;certification_3;still_learning,0

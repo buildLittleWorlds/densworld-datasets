@@ -1,0 +1,501 @@
+prediction_id,date,year,day_of_year,is_prime_day,predictor,predictor_name,prediction_type,predicted_value,confidence,actual_value,correct,method,notes
+PRED0001,894-141,894,141,False,tannick,Crew Boss Tannick,creature_presence,Maw Beast,0.76,Maw Beast,True,folk_rule,Grandmother's rule holds.
+PRED0002,894-045,894,45,False,tannick,Crew Boss Tannick,maw_activity,hunting,0.85,hunting,True,folk_rule,Grandmother's rule holds.
+PRED0003,894-309,894,309,False,pollus,Pollus Brent,maw_activity,hunting,0.46,migrating,False,pattern_book,Model failed. Reviewing transition matrices. Maw data remains insufficient.
+PRED0004,894-143,894,143,True,pollus,Pollus Brent,maw_activity,hunting,0.83,resting,False,pattern_book,Model failed. Reviewing transition matrices. Maw data remains insufficient.
+PRED0005,894-143,894,143,True,tannick,Crew Boss Tannick,danger_level,elevated,0.74,elevated,True,folk_rule,Grandmother's rule holds.
+PRED0006,894-177,894,177,False,pollus,Pollus Brent,danger_level,safe,0.73,caution,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0007,894-041,894,41,True,folk,Folk Rule Application,swarm_event,no,0.77,no,True,folk_rule,
+PRED0008,894-339,894,339,False,tannick,Crew Boss Tannick,creature_presence,Cave Bat,0.76,Maw Beast,False,folk_rule,Rule did not apply under these conditions.
+PRED0009,894-143,894,143,True,folk,Folk Rule Application,swarm_event,no,0.74,no,True,folk_rule,
+PRED0010,894-137,894,137,True,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.78,collapse_risk,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0011,894-274,894,274,False,tannick,Crew Boss Tannick,behavior_state,resting,0.88,resting,True,folk_rule,Grandmother's rule holds.
+PRED0012,894-353,894,353,True,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.71,collapse_risk,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0013,894-118,894,118,False,folk,Folk Rule Application,creature_presence,Stone Spine Lizard,0.85,Stone Spine Lizard,True,folk_rule,
+PRED0014,894-291,894,291,False,pollus,Pollus Brent,behavior_state,hunting,0.86,hunting,True,pattern_book,Pattern Book prediction validated.
+PRED0015,894-235,894,235,False,tannick,Crew Boss Tannick,tunnel_stability,stable,0.74,stable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0016,894-300,894,300,False,tannick,Crew Boss Tannick,danger_level,extreme,0.81,extreme,True,folk_rule,Grandmother's rule holds.
+PRED0017,894-261,894,261,False,pollus,Pollus Brent,behavior_state,feeding,0.68,hunting,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0018,894-349,894,349,True,tannick,Crew Boss Tannick,yeller_proximity,near,0.81,near,True,folk_rule,Grandmother's rule holds. Yeller proximity predictions are inherently uncertain.
+PRED0019,894-271,894,271,False,tannick,Crew Boss Tannick,swarm_event,yes,0.76,no,False,folk_rule,Rule did not apply under these conditions. Swarm prediction remains unreliable.
+PRED0020,894-137,894,137,True,pollus,Pollus Brent,maw_activity,sleeping,0.81,sleeping,True,pattern_book,Pattern Book prediction validated.
+PRED0021,894-002,894,2,True,tannick,Crew Boss Tannick,swarm_event,no,0.94,yes,False,folk_rule,Rule did not apply under these conditions. Swarm prediction remains unreliable.
+PRED0022,894-055,894,55,False,folk,Folk Rule Application,maw_activity,sleeping,0.86,hunting,False,folk_rule,
+PRED0023,894-083,894,83,True,pollus,Pollus Brent,yeller_proximity,absent,0.7,sleeping,False,pattern_book,Model failed. Reviewing transition matrices. Yeller proximity predictions are inherently uncertain.
+PRED0024,894-186,894,186,False,tannick,Crew Boss Tannick,creature_presence,Stone Spine Lizard,0.92,Maw Beast,False,folk_rule,Rule did not apply under these conditions.
+PRED0025,894-041,894,41,True,pollus,Pollus Brent,maw_activity,sleeping,0.49,hunting,False,pattern_book,Model failed. Reviewing transition matrices. Maw data remains insufficient.
+PRED0026,894-282,894,282,False,pollus,Pollus Brent,swarm_event,no,0.53,yes,False,pattern_book,Model failed. Reviewing transition matrices. Swarm prediction remains unreliable.
+PRED0027,894-354,894,354,False,folk,Folk Rule Application,yeller_proximity,far,0.66,far,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0028,894-225,894,225,False,tannick,Crew Boss Tannick,danger_level,high,0.92,high,True,folk_rule,Grandmother's rule holds.
+PRED0029,894-011,894,11,True,pollus,Pollus Brent,danger_level,caution,0.73,caution,True,pattern_book,Pattern Book prediction validated.
+PRED0030,894-324,894,324,False,pollus,Pollus Brent,tunnel_stability,stable,0.48,collapse_risk,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0031,894-143,894,143,True,pollus,Pollus Brent,behavior_state,resting,0.76,resting,True,pattern_book,Pattern Book prediction validated.
+PRED0032,894-296,894,296,False,tannick,Crew Boss Tannick,maw_activity,sleeping,0.82,hunting,False,folk_rule,Rule did not apply under these conditions.
+PRED0033,894-221,894,221,True,pollus,Pollus Brent,tunnel_stability,unstable,0.62,unstable,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0034,894-335,894,335,True,tannick,Crew Boss Tannick,tunnel_stability,stable,0.95,stable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0035,894-056,894,56,False,tannick,Crew Boss Tannick,yeller_proximity,near,0.76,near,True,folk_rule,Grandmother's rule holds. Yeller proximity predictions are inherently uncertain.
+PRED0036,894-143,894,143,True,pollus,Pollus Brent,behavior_state,feeding,0.67,feeding,True,pattern_book,Pattern Book prediction validated.
+PRED0037,894-051,894,51,False,folk,Folk Rule Application,maw_activity,absent,0.62,hunting,False,folk_rule,
+PRED0038,894-122,894,122,True,folk,Folk Rule Application,yeller_proximity,far,0.65,far,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0039,894-085,894,85,False,folk,Folk Rule Application,creature_presence,Metal-Beaked Finch,0.71,Metal-Beaked Finch,True,folk_rule,
+PRED0040,894-147,894,147,False,folk,Folk Rule Application,swarm_event,no,0.73,no,True,folk_rule,
+PRED0041,895-297,895,297,False,pollus,Pollus Brent,creature_presence,Stakdur,0.8,Maw Beast,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0042,895-258,895,258,False,pollus,Pollus Brent,swarm_event,yes,0.88,yes,True,pattern_book,Pattern Book prediction validated.
+PRED0043,895-096,895,96,False,tannick,Crew Boss Tannick,yeller_proximity,near,0.72,far,False,folk_rule,Rule did not apply under these conditions. Yeller proximity predictions are inherently uncertain.
+PRED0044,895-127,895,127,True,tannick,Crew Boss Tannick,maw_activity,hunting,0.84,hunting,True,folk_rule,Grandmother's rule holds.
+PRED0045,895-290,895,290,False,tannick,Crew Boss Tannick,maw_activity,sleeping,0.83,sleeping,True,folk_rule,Grandmother's rule holds.
+PRED0046,895-136,895,136,False,vess,Vess Corn,behavior_state,hunting,0.58,hunting,True,pattern_book,Still learning the Pattern Book.
+PRED0047,895-005,895,5,True,folk,Folk Rule Application,creature_presence,Tunnel Cat,0.74,Stakdur,False,folk_rule,
+PRED0048,895-136,895,136,False,tannick,Crew Boss Tannick,maw_activity,sleeping,0.73,hunting,False,folk_rule,Rule did not apply under these conditions.
+PRED0049,895-225,895,225,False,tannick,Crew Boss Tannick,behavior_state,hunting,0.91,hunting,True,folk_rule,Grandmother's rule holds.
+PRED0050,895-271,895,271,False,folk,Folk Rule Application,tunnel_stability,collapse_risk,0.6,collapse_risk,True,folk_rule,Finch silence rule confirmed.
+PRED0051,895-136,895,136,False,vess,Vess Corn,behavior_state,feeding,0.45,hunting,False,pattern_book,Still learning the Pattern Book. Overconfident application of partial understanding.
+PRED0052,895-108,895,108,False,pollus,Pollus Brent,maw_activity,hunting,0.79,swarming,False,pattern_book,Model failed. Reviewing transition matrices. Maw data remains insufficient.
+PRED0053,895-027,895,27,False,tannick,Crew Boss Tannick,danger_level,high,0.72,safe,False,folk_rule,Rule did not apply under these conditions.
+PRED0054,895-067,895,67,True,pollus,Pollus Brent,yeller_proximity,far,0.75,far,True,pattern_book,Pattern Book prediction validated. Yeller proximity predictions are inherently uncertain.
+PRED0055,895-219,895,219,False,tannick,Crew Boss Tannick,tunnel_stability,stable,0.84,stable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0056,895-280,895,280,False,folk,Folk Rule Application,behavior_state,hunting,0.61,hunting,True,folk_rule,
+PRED0057,895-022,895,22,False,pollus,Pollus Brent,behavior_state,feeding,0.59,hunting,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0058,895-053,895,53,True,vess,Vess Corn,tunnel_stability,collapse_risk,0.56,unstable,False,pattern_book,Still learning the Pattern Book. Overconfident application of partial understanding.
+PRED0059,895-080,895,80,False,folk,Folk Rule Application,tunnel_stability,stable,0.88,unstable,False,folk_rule,
+PRED0060,895-092,895,92,True,folk,Folk Rule Application,creature_presence,Cave Bat,0.82,Cave Bat,True,folk_rule,
+PRED0061,895-128,895,128,False,tannick,Crew Boss Tannick,tunnel_stability,collapse_risk,0.77,collapse_risk,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0062,895-241,895,241,False,folk,Folk Rule Application,yeller_proximity,far,0.67,far,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0063,895-117,895,117,False,folk,Folk Rule Application,yeller_proximity,absent,0.67,absent,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0064,895-036,895,36,False,pollus,Pollus Brent,yeller_proximity,far,0.9,far,True,pattern_book,Pattern Book prediction validated. Yeller proximity predictions are inherently uncertain.
+PRED0065,895-275,895,275,True,tannick,Crew Boss Tannick,tunnel_stability,stable,0.78,stable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0066,895-298,895,298,False,folk,Folk Rule Application,behavior_state,hunting,0.89,hunting,True,folk_rule,
+PRED0067,895-161,895,161,True,tannick,Crew Boss Tannick,danger_level,extreme,0.81,extreme,True,folk_rule,Grandmother's rule holds.
+PRED0068,895-131,895,131,True,folk,Folk Rule Application,behavior_state,swarming,0.61,swarming,True,folk_rule,
+PRED0069,895-352,895,352,False,folk,Folk Rule Application,maw_activity,absent,0.82,hunting,False,folk_rule,
+PRED0070,895-341,895,341,True,tannick,Crew Boss Tannick,creature_presence,Tunnel Cat,0.93,Tunnel Cat,True,folk_rule,Grandmother's rule holds.
+PRED0071,895-154,895,154,False,folk,Folk Rule Application,tunnel_stability,collapse_risk,0.75,collapse_risk,True,folk_rule,Finch silence rule confirmed.
+PRED0072,895-284,895,284,False,tannick,Crew Boss Tannick,danger_level,high,0.73,high,True,folk_rule,Grandmother's rule holds.
+PRED0073,895-090,895,90,False,tannick,Crew Boss Tannick,tunnel_stability,unstable,0.85,unstable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0074,895-147,895,147,False,folk,Folk Rule Application,danger_level,extreme,0.66,extreme,True,folk_rule,
+PRED0075,895-227,895,227,True,pollus,Pollus Brent,swarm_event,no,0.77,yes,False,pattern_book,Model failed. Reviewing transition matrices. Swarm prediction remains unreliable.
+PRED0076,895-087,895,87,False,folk,Folk Rule Application,tunnel_stability,unstable,0.8,unstable,True,folk_rule,Finch silence rule confirmed.
+PRED0077,895-048,895,48,False,vess,Vess Corn,danger_level,caution,0.77,elevated,False,pattern_book,Still learning the Pattern Book. Overconfident application of partial understanding.
+PRED0078,895-013,895,13,True,folk,Folk Rule Application,behavior_state,swarming,0.61,swarming,True,folk_rule,
+PRED0079,895-213,895,213,True,vess,Vess Corn,swarm_event,yes,0.8,no,False,pattern_book,Still learning the Pattern Book. Overconfident application of partial understanding. Swarm prediction remains unreliable.
+PRED0080,895-125,895,125,True,tannick,Crew Boss Tannick,swarm_event,yes,0.74,no,False,folk_rule,Rule did not apply under these conditions. Swarm prediction remains unreliable.
+PRED0081,895-218,895,218,False,folk,Folk Rule Application,creature_presence,Stone Spine Lizard,0.67,Tunnel Cat,False,folk_rule,
+PRED0082,895-128,895,128,False,tannick,Crew Boss Tannick,maw_activity,hunting,0.93,hunting,True,folk_rule,Grandmother's rule holds.
+PRED0083,895-272,895,272,True,folk,Folk Rule Application,tunnel_stability,collapse_risk,0.9,collapse_risk,True,folk_rule,Finch silence rule confirmed.
+PRED0084,895-314,895,314,False,vess,Vess Corn,swarm_event,no,0.77,yes,False,pattern_book,Still learning the Pattern Book. Overconfident application of partial understanding. Swarm prediction remains unreliable.
+PRED0085,895-244,895,244,False,tannick,Crew Boss Tannick,behavior_state,resting,0.81,swarming,False,folk_rule,Rule did not apply under these conditions.
+PRED0086,895-249,895,249,False,vess,Vess Corn,maw_activity,sleeping,0.68,absent,False,pattern_book,Still learning the Pattern Book. Overconfident application of partial understanding.
+PRED0087,895-164,895,164,False,pollus,Pollus Brent,danger_level,safe,0.87,safe,True,pattern_book,Pattern Book prediction validated.
+PRED0088,895-079,895,79,True,pollus,Pollus Brent,tunnel_stability,stable,0.78,stable,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0089,895-213,895,213,True,pollus,Pollus Brent,swarm_event,no,0.48,no,True,pattern_book,Pattern Book prediction validated.
+PRED0090,895-011,895,11,True,vess,Vess Corn,tunnel_stability,collapse_risk,0.79,collapse_risk,True,pattern_book,Still learning the Pattern Book. Finch silence rule confirmed.
+PRED0091,896-153,896,153,True,pollus,Pollus Brent,danger_level,high,0.8,high,True,pattern_book,Pattern Book prediction validated.
+PRED0092,896-309,896,309,False,vess,Vess Corn,yeller_proximity,far,0.8,far,True,pattern_book,Still learning the Pattern Book. Yeller proximity predictions are inherently uncertain.
+PRED0093,896-200,896,200,False,tannick,Crew Boss Tannick,creature_presence,Coil Tube Serpent,0.78,Stone Spine Lizard,False,folk_rule,Rule did not apply under these conditions.
+PRED0094,896-066,896,66,False,pollus,Pollus Brent,swarm_event,yes,0.91,no,False,pattern_book,Model failed. Reviewing transition matrices. Swarm prediction remains unreliable.
+PRED0095,896-014,896,14,False,tannick,Crew Boss Tannick,tunnel_stability,unstable,0.72,unstable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0096,896-134,896,134,False,tannick,Crew Boss Tannick,creature_presence,Maw Beast,0.79,Maw Beast,True,folk_rule,Grandmother's rule holds.
+PRED0097,896-143,896,143,True,tannick,Crew Boss Tannick,swarm_event,no,0.89,no,True,folk_rule,Grandmother's rule holds.
+PRED0098,896-277,896,277,True,pollus,Pollus Brent,creature_presence,Cave Bat,0.47,Cave Bat,True,pattern_book,Pattern Book prediction validated.
+PRED0099,896-021,896,21,False,pollus,Pollus Brent,tunnel_stability,stable,0.8,stable,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0100,896-123,896,123,True,pollus,Pollus Brent,behavior_state,feeding,0.51,feeding,True,pattern_book,Pattern Book prediction validated.
+PRED0101,896-132,896,132,False,pollus,Pollus Brent,tunnel_stability,stable,0.81,stable,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0102,896-059,896,59,True,folk,Folk Rule Application,tunnel_stability,stable,0.83,unstable,False,folk_rule,
+PRED0103,896-295,896,295,False,tannick,Crew Boss Tannick,danger_level,high,0.87,high,True,folk_rule,Grandmother's rule holds.
+PRED0104,896-304,896,304,False,vess,Vess Corn,creature_presence,Coil Tube Serpent,0.71,Coil Tube Serpent,True,pattern_book,Still learning the Pattern Book.
+PRED0105,896-351,896,351,False,vess,Vess Corn,danger_level,safe,0.67,caution,False,pattern_book,Still learning the Pattern Book. Overconfident application of partial understanding.
+PRED0106,896-339,896,339,False,tannick,Crew Boss Tannick,swarm_event,no,0.79,no,True,folk_rule,Grandmother's rule holds.
+PRED0107,896-055,896,55,False,tannick,Crew Boss Tannick,swarm_event,no,0.81,no,True,folk_rule,Grandmother's rule holds.
+PRED0108,896-079,896,79,True,folk,Folk Rule Application,tunnel_stability,collapse_risk,0.73,collapse_risk,True,folk_rule,Finch silence rule confirmed.
+PRED0109,896-276,896,276,False,vess,Vess Corn,maw_activity,sleeping,0.75,sleeping,True,pattern_book,Still learning the Pattern Book.
+PRED0110,896-166,896,166,False,vess,Vess Corn,danger_level,safe,0.78,safe,True,pattern_book,Still learning the Pattern Book.
+PRED0111,896-238,896,238,False,tannick,Crew Boss Tannick,yeller_proximity,absent,0.84,absent,True,folk_rule,Grandmother's rule holds. Yeller proximity predictions are inherently uncertain.
+PRED0112,896-167,896,167,True,pollus,Pollus Brent,yeller_proximity,near,0.54,near,True,pattern_book,Pattern Book prediction validated. Yeller proximity predictions are inherently uncertain.
+PRED0113,896-306,896,306,False,pollus,Pollus Brent,danger_level,elevated,0.78,elevated,True,pattern_book,Pattern Book prediction validated.
+PRED0114,896-044,896,44,False,tannick,Crew Boss Tannick,behavior_state,swarming,0.76,swarming,True,folk_rule,Grandmother's rule holds.
+PRED0115,896-244,896,244,False,vess,Vess Corn,tunnel_stability,unstable,0.69,unstable,True,pattern_book,Still learning the Pattern Book. Finch silence rule confirmed.
+PRED0116,896-114,896,114,False,pollus,Pollus Brent,danger_level,caution,0.64,caution,True,pattern_book,Pattern Book prediction validated.
+PRED0117,896-284,896,284,False,tannick,Crew Boss Tannick,swarm_event,no,0.83,yes,False,folk_rule,Rule did not apply under these conditions. Swarm prediction remains unreliable.
+PRED0118,896-360,896,360,False,tannick,Crew Boss Tannick,danger_level,elevated,0.81,elevated,True,folk_rule,Grandmother's rule holds.
+PRED0119,896-162,896,162,False,pollus,Pollus Brent,behavior_state,migrating,0.51,resting,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0120,896-248,896,248,False,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.58,unstable,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0121,896-100,896,100,False,folk,Folk Rule Application,yeller_proximity,far,0.69,far,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0122,896-065,896,65,True,pollus,Pollus Brent,maw_activity,hunting,0.58,hunting,True,pattern_book,Pattern Book prediction validated.
+PRED0123,896-327,896,327,False,vess,Vess Corn,behavior_state,swarming,0.79,swarming,True,pattern_book,Still learning the Pattern Book.
+PRED0124,896-241,896,241,False,pollus,Pollus Brent,danger_level,elevated,0.67,elevated,True,pattern_book,Pattern Book prediction validated.
+PRED0125,896-245,896,245,True,pollus,Pollus Brent,yeller_proximity,near,0.5,near,True,pattern_book,Pattern Book prediction validated. Yeller proximity predictions are inherently uncertain.
+PRED0126,896-352,896,352,False,pollus,Pollus Brent,tunnel_stability,stable,0.48,collapse_risk,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0127,896-061,896,61,False,pollus,Pollus Brent,behavior_state,swarming,0.71,swarming,True,pattern_book,Pattern Book prediction validated.
+PRED0128,896-268,896,268,False,folk,Folk Rule Application,behavior_state,swarming,0.71,swarming,True,folk_rule,
+PRED0129,896-157,896,157,True,tannick,Crew Boss Tannick,swarm_event,yes,0.84,yes,True,folk_rule,Grandmother's rule holds.
+PRED0130,896-107,896,107,True,vess,Vess Corn,yeller_proximity,far,0.68,near,False,pattern_book,Still learning the Pattern Book. Overconfident application of partial understanding. Yeller proximity predictions are inherently uncertain.
+PRED0131,896-039,896,39,False,pollus,Pollus Brent,maw_activity,sleeping,0.52,sleeping,True,pattern_book,Pattern Book prediction validated.
+PRED0132,896-017,896,17,True,tannick,Crew Boss Tannick,danger_level,elevated,0.76,elevated,True,folk_rule,Grandmother's rule holds.
+PRED0133,896-120,896,120,False,tannick,Crew Boss Tannick,tunnel_stability,collapse_risk,0.93,collapse_risk,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0134,896-218,896,218,False,folk,Folk Rule Application,behavior_state,resting,0.63,resting,True,folk_rule,
+PRED0135,896-073,896,73,True,folk,Folk Rule Application,yeller_proximity,near,0.62,absent,False,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0136,896-353,896,353,True,tannick,Crew Boss Tannick,swarm_event,no,0.78,yes,False,folk_rule,Rule did not apply under these conditions. Swarm prediction remains unreliable.
+PRED0137,896-225,896,225,False,tannick,Crew Boss Tannick,swarm_event,yes,0.72,no,False,folk_rule,Rule did not apply under these conditions. Swarm prediction remains unreliable.
+PRED0138,896-129,896,129,False,vess,Vess Corn,maw_activity,hunting,0.41,feeding,False,pattern_book,Still learning the Pattern Book. Overconfident application of partial understanding.
+PRED0139,896-138,896,138,False,folk,Folk Rule Application,tunnel_stability,stable,0.77,stable,True,folk_rule,Finch silence rule confirmed.
+PRED0140,896-093,896,93,True,vess,Vess Corn,danger_level,high,0.85,high,True,pattern_book,Still learning the Pattern Book.
+PRED0141,896-241,896,241,False,tannick,Crew Boss Tannick,creature_presence,Cave Bat,0.79,Cave Bat,True,folk_rule,Grandmother's rule holds.
+PRED0142,896-169,896,169,True,pollus,Pollus Brent,behavior_state,swarming,0.64,swarming,True,pattern_book,Pattern Book prediction validated.
+PRED0143,896-282,896,282,False,folk,Folk Rule Application,yeller_proximity,near,0.61,near,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0144,896-207,896,207,False,pollus,Pollus Brent,yeller_proximity,near,0.86,absent,False,pattern_book,Model failed. Reviewing transition matrices. Yeller proximity predictions are inherently uncertain.
+PRED0145,896-266,896,266,False,tannick,Crew Boss Tannick,behavior_state,swarming,0.79,swarming,True,folk_rule,Grandmother's rule holds.
+PRED0146,896-137,896,137,True,vess,Vess Corn,behavior_state,hunting,0.65,hunting,True,pattern_book,Still learning the Pattern Book.
+PRED0147,896-015,896,15,False,vess,Vess Corn,creature_presence,Tunnel Cat,0.84,Stone Spine Lizard,False,pattern_book,Still learning the Pattern Book. Overconfident application of partial understanding.
+PRED0148,896-008,896,8,False,pollus,Pollus Brent,maw_activity,hunting,0.71,hunting,True,pattern_book,Pattern Book prediction validated.
+PRED0149,896-237,896,237,False,folk,Folk Rule Application,creature_presence,Coil Tube Serpent,0.88,Metal-Beaked Finch,False,folk_rule,
+PRED0150,896-261,896,261,False,folk,Folk Rule Application,danger_level,high,0.81,extreme,False,folk_rule,
+PRED0151,897-075,897,75,False,pollus,Pollus Brent,maw_activity,absent,0.63,absent,True,pattern_book,Pattern Book prediction validated.
+PRED0152,897-036,897,36,False,combined,Combined Method,yeller_proximity,far,0.73,far,True,combined,Combined method outperforms either alone. Yeller proximity predictions are inherently uncertain.
+PRED0153,897-002,897,2,True,combined,Combined Method,danger_level,elevated,0.73,elevated,True,combined,Combined method outperforms either alone.
+PRED0154,897-251,897,251,True,vess,Vess Corn,tunnel_stability,unstable,0.79,unstable,True,pattern_book,Finch silence rule confirmed.
+PRED0155,897-279,897,279,False,tannick,Crew Boss Tannick,maw_activity,sleeping,0.79,hunting,False,folk_rule,Rule did not apply under these conditions.
+PRED0156,897-211,897,211,False,vess,Vess Corn,behavior_state,swarming,0.42,migrating,False,pattern_book,Overconfident application of partial understanding.
+PRED0157,897-334,897,334,False,tannick,Crew Boss Tannick,tunnel_stability,unstable,0.95,stable,False,folk_rule,Rule did not apply under these conditions.
+PRED0158,897-170,897,170,False,vess,Vess Corn,maw_activity,sleeping,0.79,sleeping,True,pattern_book,
+PRED0159,897-074,897,74,False,combined,Combined Method,creature_presence,Coil Tube Serpent,0.77,Stakdur,False,combined,Even combined approach failed here.
+PRED0160,897-174,897,174,False,tannick,Crew Boss Tannick,danger_level,high,0.86,high,True,folk_rule,Grandmother's rule holds.
+PRED0161,897-346,897,346,False,combined,Combined Method,yeller_proximity,far,0.91,absent,False,combined,Even combined approach failed here. Yeller proximity predictions are inherently uncertain.
+PRED0162,897-317,897,317,True,combined,Combined Method,creature_presence,Coil Tube Serpent,0.67,Coil Tube Serpent,True,combined,Combined method outperforms either alone.
+PRED0163,897-047,897,47,True,tannick,Crew Boss Tannick,behavior_state,feeding,0.81,feeding,True,folk_rule,Grandmother's rule holds.
+PRED0164,897-228,897,228,False,folk,Folk Rule Application,creature_presence,Cave Bat,0.65,Stakdur,False,folk_rule,
+PRED0165,897-151,897,151,False,tannick,Crew Boss Tannick,creature_presence,Metal-Beaked Finch,0.79,Metal-Beaked Finch,True,folk_rule,Grandmother's rule holds.
+PRED0166,897-350,897,350,False,vess,Vess Corn,maw_activity,hunting,0.76,hunting,True,pattern_book,
+PRED0167,897-318,897,318,False,folk,Folk Rule Application,swarm_event,no,0.8,yes,False,folk_rule,Swarm prediction remains unreliable.
+PRED0168,897-327,897,327,False,pollus,Pollus Brent,swarm_event,no,0.57,yes,False,pattern_book,Model failed. Reviewing transition matrices. Swarm prediction remains unreliable.
+PRED0169,897-148,897,148,False,combined,Combined Method,swarm_event,yes,0.85,yes,True,combined,Combined method outperforms either alone.
+PRED0170,897-154,897,154,False,combined,Combined Method,maw_activity,sleeping,0.84,absent,False,combined,Even combined approach failed here.
+PRED0171,897-197,897,197,True,combined,Combined Method,behavior_state,feeding,0.91,feeding,True,combined,Combined method outperforms either alone.
+PRED0172,897-152,897,152,True,vess,Vess Corn,maw_activity,sleeping,0.85,sleeping,True,pattern_book,
+PRED0173,897-141,897,141,False,combined,Combined Method,swarm_event,yes,0.65,no,False,combined,Even combined approach failed here. Swarm prediction remains unreliable.
+PRED0174,897-147,897,147,False,folk,Folk Rule Application,yeller_proximity,near,0.83,absent,False,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0175,897-318,897,318,False,pollus,Pollus Brent,behavior_state,resting,0.57,resting,True,pattern_book,Pattern Book prediction validated.
+PRED0176,897-021,897,21,False,combined,Combined Method,tunnel_stability,unstable,0.74,unstable,True,combined,Combined method outperforms either alone. Finch silence rule confirmed.
+PRED0177,897-047,897,47,True,tannick,Crew Boss Tannick,behavior_state,hunting,0.93,hunting,True,folk_rule,Grandmother's rule holds.
+PRED0178,897-277,897,277,True,pollus,Pollus Brent,behavior_state,hunting,0.86,hunting,True,pattern_book,Pattern Book prediction validated.
+PRED0179,897-085,897,85,False,combined,Combined Method,yeller_proximity,far,0.73,absent,False,combined,Even combined approach failed here. Yeller proximity predictions are inherently uncertain.
+PRED0180,897-059,897,59,True,folk,Folk Rule Application,danger_level,safe,0.74,safe,True,folk_rule,
+PRED0181,897-347,897,347,True,combined,Combined Method,yeller_proximity,far,0.87,absent,False,combined,Even combined approach failed here. Yeller proximity predictions are inherently uncertain.
+PRED0182,897-008,897,8,False,pollus,Pollus Brent,swarm_event,yes,0.57,yes,True,pattern_book,Pattern Book prediction validated.
+PRED0183,897-135,897,135,False,folk,Folk Rule Application,tunnel_stability,collapse_risk,0.78,stable,False,folk_rule,
+PRED0184,897-013,897,13,True,folk,Folk Rule Application,swarm_event,no,0.79,yes,False,folk_rule,Swarm prediction remains unreliable.
+PRED0185,897-326,897,326,False,pollus,Pollus Brent,creature_presence,Coil Tube Serpent,0.84,Coil Tube Serpent,True,pattern_book,Pattern Book prediction validated.
+PRED0186,897-024,897,24,False,tannick,Crew Boss Tannick,behavior_state,hunting,0.94,feeding,False,folk_rule,Rule did not apply under these conditions.
+PRED0187,897-070,897,70,False,pollus,Pollus Brent,maw_activity,sleeping,0.63,absent,False,pattern_book,Model failed. Reviewing transition matrices. Maw data remains insufficient.
+PRED0188,897-080,897,80,False,vess,Vess Corn,tunnel_stability,collapse_risk,0.8,collapse_risk,True,pattern_book,Finch silence rule confirmed.
+PRED0189,897-144,897,144,False,vess,Vess Corn,swarm_event,no,0.41,no,True,pattern_book,
+PRED0190,897-186,897,186,False,tannick,Crew Boss Tannick,behavior_state,hunting,0.72,hunting,True,folk_rule,Grandmother's rule holds.
+PRED0191,897-032,897,32,True,combined,Combined Method,danger_level,caution,0.77,extreme,False,combined,Even combined approach failed here.
+PRED0192,897-329,897,329,True,pollus,Pollus Brent,behavior_state,feeding,0.75,feeding,True,pattern_book,Pattern Book prediction validated.
+PRED0193,897-290,897,290,False,tannick,Crew Boss Tannick,behavior_state,migrating,0.75,migrating,True,folk_rule,Grandmother's rule holds.
+PRED0194,897-120,897,120,False,pollus,Pollus Brent,yeller_proximity,near,0.6,far,False,pattern_book,Model failed. Reviewing transition matrices. Yeller proximity predictions are inherently uncertain.
+PRED0195,897-067,897,67,True,tannick,Crew Boss Tannick,behavior_state,resting,0.84,resting,True,folk_rule,Grandmother's rule holds.
+PRED0196,897-008,897,8,False,combined,Combined Method,behavior_state,resting,0.76,resting,True,combined,Combined method outperforms either alone.
+PRED0197,897-027,897,27,False,pollus,Pollus Brent,danger_level,high,0.51,high,True,pattern_book,Pattern Book prediction validated.
+PRED0198,897-230,897,230,False,folk,Folk Rule Application,swarm_event,yes,0.83,yes,True,folk_rule,
+PRED0199,897-023,897,23,True,pollus,Pollus Brent,maw_activity,absent,0.79,absent,True,pattern_book,Pattern Book prediction validated.
+PRED0200,897-032,897,32,True,tannick,Crew Boss Tannick,creature_presence,Stone Spine Lizard,0.95,Stone Spine Lizard,True,folk_rule,Grandmother's rule holds.
+PRED0201,897-365,897,365,True,folk,Folk Rule Application,swarm_event,yes,0.87,no,False,folk_rule,Swarm prediction remains unreliable.
+PRED0202,897-034,897,34,False,tannick,Crew Boss Tannick,behavior_state,migrating,0.73,migrating,True,folk_rule,Grandmother's rule holds.
+PRED0203,897-196,897,196,False,vess,Vess Corn,danger_level,extreme,0.85,extreme,True,pattern_book,
+PRED0204,897-051,897,51,False,vess,Vess Corn,swarm_event,yes,0.76,no,False,pattern_book,Overconfident application of partial understanding. Swarm prediction remains unreliable.
+PRED0205,897-283,897,283,True,folk,Folk Rule Application,yeller_proximity,near,0.82,near,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0206,897-174,897,174,False,combined,Combined Method,swarm_event,no,0.9,no,True,combined,Combined method outperforms either alone.
+PRED0207,897-161,897,161,True,pollus,Pollus Brent,swarm_event,no,0.76,yes,False,pattern_book,Model failed. Reviewing transition matrices. Swarm prediction remains unreliable.
+PRED0208,897-035,897,35,True,folk,Folk Rule Application,swarm_event,yes,0.63,yes,True,folk_rule,
+PRED0209,897-191,897,191,True,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.83,collapse_risk,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0210,897-169,897,169,True,combined,Combined Method,maw_activity,sleeping,0.85,sleeping,True,combined,Combined method outperforms either alone.
+PRED0211,897-217,897,217,True,folk,Folk Rule Application,yeller_proximity,absent,0.86,absent,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0212,897-181,897,181,False,tannick,Crew Boss Tannick,danger_level,extreme,0.73,extreme,True,folk_rule,Grandmother's rule holds.
+PRED0213,897-056,897,56,False,folk,Folk Rule Application,behavior_state,migrating,0.71,migrating,True,folk_rule,
+PRED0214,897-116,897,116,False,folk,Folk Rule Application,maw_activity,absent,0.84,hunting,False,folk_rule,
+PRED0215,897-356,897,356,False,folk,Folk Rule Application,tunnel_stability,stable,0.68,stable,True,folk_rule,Finch silence rule confirmed.
+PRED0216,897-180,897,180,False,folk,Folk Rule Application,danger_level,caution,0.6,caution,True,folk_rule,
+PRED0217,897-325,897,325,False,tannick,Crew Boss Tannick,behavior_state,feeding,0.94,hunting,False,folk_rule,Rule did not apply under these conditions.
+PRED0218,897-175,897,175,False,tannick,Crew Boss Tannick,swarm_event,no,0.74,yes,False,folk_rule,Rule did not apply under these conditions. Swarm prediction remains unreliable.
+PRED0219,897-306,897,306,False,folk,Folk Rule Application,maw_activity,hunting,0.63,hunting,True,folk_rule,
+PRED0220,897-346,897,346,False,folk,Folk Rule Application,creature_presence,Metal-Beaked Finch,0.62,Metal-Beaked Finch,True,folk_rule,
+PRED0221,898-213,898,213,True,vess,Vess Corn,swarm_event,yes,0.52,yes,True,pattern_book,
+PRED0222,898-348,898,348,False,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.73,collapse_risk,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0223,898-307,898,307,True,pollus,Pollus Brent,swarm_event,yes,0.48,yes,True,pattern_book,Pattern Book prediction validated.
+PRED0224,898-131,898,131,True,pollus,Pollus Brent,behavior_state,feeding,0.59,feeding,True,pattern_book,Pattern Book prediction validated.
+PRED0225,898-067,898,67,True,folk,Folk Rule Application,behavior_state,resting,0.71,resting,True,folk_rule,
+PRED0226,898-182,898,182,True,combined,Combined Method,yeller_proximity,absent,0.67,absent,True,combined,Combined method outperforms either alone. Yeller proximity predictions are inherently uncertain.
+PRED0227,898-161,898,161,True,pollus,Pollus Brent,creature_presence,Tunnel Cat,0.72,Tunnel Cat,True,pattern_book,Pattern Book prediction validated.
+PRED0228,898-059,898,59,True,folk,Folk Rule Application,danger_level,elevated,0.72,elevated,True,folk_rule,
+PRED0229,898-354,898,354,False,combined,Combined Method,swarm_event,yes,0.93,yes,True,combined,Combined method outperforms either alone.
+PRED0230,898-302,898,302,True,pollus,Pollus Brent,swarm_event,yes,0.64,yes,True,pattern_book,Pattern Book prediction validated.
+PRED0231,898-114,898,114,False,tannick,Crew Boss Tannick,danger_level,caution,0.78,caution,True,folk_rule,Grandmother's rule holds.
+PRED0232,898-262,898,262,False,folk,Folk Rule Application,maw_activity,sleeping,0.66,sleeping,True,folk_rule,
+PRED0233,898-076,898,76,False,combined,Combined Method,tunnel_stability,stable,0.72,stable,True,combined,Combined method outperforms either alone. Finch silence rule confirmed.
+PRED0234,898-336,898,336,False,pollus,Pollus Brent,behavior_state,swarming,0.49,swarming,True,pattern_book,Pattern Book prediction validated.
+PRED0235,898-230,898,230,False,vess,Vess Corn,maw_activity,absent,0.71,sleeping,False,pattern_book,Overconfident application of partial understanding.
+PRED0236,898-162,898,162,False,combined,Combined Method,tunnel_stability,stable,0.7,stable,True,combined,Combined method outperforms either alone. Finch silence rule confirmed.
+PRED0237,898-141,898,141,False,folk,Folk Rule Application,yeller_proximity,far,0.78,far,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0238,898-020,898,20,False,tannick,Crew Boss Tannick,swarm_event,no,0.71,no,True,folk_rule,Grandmother's rule holds.
+PRED0239,898-047,898,47,True,combined,Combined Method,yeller_proximity,absent,0.83,absent,True,combined,Combined method outperforms either alone. Yeller proximity predictions are inherently uncertain.
+PRED0240,898-022,898,22,False,vess,Vess Corn,yeller_proximity,absent,0.6,sleeping,False,pattern_book,Overconfident application of partial understanding. Yeller proximity predictions are inherently uncertain.
+PRED0241,898-078,898,78,False,vess,Vess Corn,maw_activity,sleeping,0.83,sleeping,True,pattern_book,
+PRED0242,898-044,898,44,False,combined,Combined Method,danger_level,caution,0.8,caution,True,combined,Combined method outperforms either alone.
+PRED0243,898-269,898,269,True,folk,Folk Rule Application,swarm_event,yes,0.76,yes,True,folk_rule,
+PRED0244,898-210,898,210,False,combined,Combined Method,swarm_event,yes,0.88,no,False,combined,Even combined approach failed here. Swarm prediction remains unreliable.
+PRED0245,898-169,898,169,True,folk,Folk Rule Application,creature_presence,Coil Tube Serpent,0.63,Coil Tube Serpent,True,folk_rule,
+PRED0246,898-337,898,337,True,pollus,Pollus Brent,yeller_proximity,absent,0.9,sleeping,False,pattern_book,Model failed. Reviewing transition matrices. Yeller proximity predictions are inherently uncertain.
+PRED0247,898-073,898,73,True,pollus,Pollus Brent,tunnel_stability,unstable,0.88,collapse_risk,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0248,898-044,898,44,False,pollus,Pollus Brent,tunnel_stability,unstable,0.6,unstable,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0249,898-344,898,344,False,tannick,Crew Boss Tannick,behavior_state,migrating,0.88,migrating,True,folk_rule,Grandmother's rule holds.
+PRED0250,898-186,898,186,False,folk,Folk Rule Application,maw_activity,sleeping,0.61,sleeping,True,folk_rule,
+PRED0251,898-249,898,249,False,pollus,Pollus Brent,yeller_proximity,near,0.54,near,True,pattern_book,Pattern Book prediction validated. Yeller proximity predictions are inherently uncertain.
+PRED0252,898-052,898,52,False,tannick,Crew Boss Tannick,yeller_proximity,absent,0.83,hunting,False,folk_rule,Rule did not apply under these conditions. Yeller proximity predictions are inherently uncertain.
+PRED0253,898-317,898,317,True,folk,Folk Rule Application,yeller_proximity,far,0.64,far,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0254,898-320,898,320,False,pollus,Pollus Brent,tunnel_stability,stable,0.83,stable,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0255,898-347,898,347,True,pollus,Pollus Brent,danger_level,high,0.79,high,True,pattern_book,Pattern Book prediction validated.
+PRED0256,898-230,898,230,False,folk,Folk Rule Application,yeller_proximity,near,0.67,near,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0257,898-100,898,100,False,combined,Combined Method,swarm_event,no,0.76,no,True,combined,Combined method outperforms either alone.
+PRED0258,898-258,898,258,False,tannick,Crew Boss Tannick,swarm_event,yes,0.83,no,False,folk_rule,Rule did not apply under these conditions. Swarm prediction remains unreliable.
+PRED0259,898-129,898,129,False,combined,Combined Method,behavior_state,swarming,0.67,feeding,False,combined,Even combined approach failed here.
+PRED0260,898-064,898,64,False,folk,Folk Rule Application,maw_activity,hunting,0.69,hunting,True,folk_rule,
+PRED0261,898-224,898,224,False,combined,Combined Method,behavior_state,resting,0.68,swarming,False,combined,Even combined approach failed here.
+PRED0262,898-028,898,28,False,combined,Combined Method,swarm_event,no,0.77,no,True,combined,Combined method outperforms either alone.
+PRED0263,898-115,898,115,False,combined,Combined Method,danger_level,safe,0.66,safe,True,combined,Combined method outperforms either alone.
+PRED0264,898-075,898,75,False,folk,Folk Rule Application,yeller_proximity,far,0.64,absent,False,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0265,898-362,898,362,True,folk,Folk Rule Application,behavior_state,migrating,0.74,migrating,True,folk_rule,
+PRED0266,898-111,898,111,False,pollus,Pollus Brent,danger_level,extreme,0.84,high,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0267,898-122,898,122,True,pollus,Pollus Brent,danger_level,safe,0.59,safe,True,pattern_book,Pattern Book prediction validated.
+PRED0268,898-235,898,235,False,folk,Folk Rule Application,maw_activity,sleeping,0.62,sleeping,True,folk_rule,
+PRED0269,898-295,898,295,False,pollus,Pollus Brent,maw_activity,hunting,0.56,hunting,True,pattern_book,Pattern Book prediction validated.
+PRED0270,898-124,898,124,False,pollus,Pollus Brent,danger_level,caution,0.72,caution,True,pattern_book,Pattern Book prediction validated.
+PRED0271,898-035,898,35,True,pollus,Pollus Brent,danger_level,extreme,0.9,extreme,True,pattern_book,Pattern Book prediction validated.
+PRED0272,898-011,898,11,True,combined,Combined Method,maw_activity,sleeping,0.77,sleeping,True,combined,Combined method outperforms either alone.
+PRED0273,898-130,898,130,False,tannick,Crew Boss Tannick,danger_level,elevated,0.89,high,False,folk_rule,Rule did not apply under these conditions.
+PRED0274,898-322,898,322,False,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.5,collapse_risk,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0275,898-181,898,181,False,tannick,Crew Boss Tannick,creature_presence,Stone Spine Lizard,0.84,Stone Spine Lizard,True,folk_rule,Grandmother's rule holds.
+PRED0276,898-238,898,238,False,combined,Combined Method,tunnel_stability,unstable,0.94,unstable,True,combined,Combined method outperforms either alone. Finch silence rule confirmed.
+PRED0277,898-235,898,235,False,combined,Combined Method,creature_presence,Maw Beast,0.66,Maw Beast,True,combined,Combined method outperforms either alone.
+PRED0278,898-162,898,162,False,pollus,Pollus Brent,creature_presence,Tunnel Cat,0.89,Tunnel Cat,True,pattern_book,Pattern Book prediction validated.
+PRED0279,898-130,898,130,False,combined,Combined Method,swarm_event,yes,0.66,yes,True,combined,Combined method outperforms either alone.
+PRED0280,898-336,898,336,False,combined,Combined Method,creature_presence,Stakdur,0.75,Stakdur,True,combined,Combined method outperforms either alone.
+PRED0281,898-226,898,226,False,tannick,Crew Boss Tannick,swarm_event,no,0.92,no,True,folk_rule,Grandmother's rule holds.
+PRED0282,898-255,898,255,False,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.62,collapse_risk,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0283,898-041,898,41,True,pollus,Pollus Brent,swarm_event,yes,0.65,yes,True,pattern_book,Pattern Book prediction validated.
+PRED0284,898-168,898,168,False,tannick,Crew Boss Tannick,creature_presence,Cave Bat,0.87,Cave Bat,True,folk_rule,Grandmother's rule holds.
+PRED0285,898-354,898,354,False,folk,Folk Rule Application,behavior_state,swarming,0.73,swarming,True,folk_rule,
+PRED0286,898-315,898,315,False,combined,Combined Method,danger_level,elevated,0.95,elevated,True,combined,Combined method outperforms either alone.
+PRED0287,898-039,898,39,False,combined,Combined Method,creature_presence,Metal-Beaked Finch,0.85,Metal-Beaked Finch,True,combined,Combined method outperforms either alone.
+PRED0288,898-082,898,82,False,combined,Combined Method,tunnel_stability,stable,0.94,stable,True,combined,Combined method outperforms either alone. Finch silence rule confirmed.
+PRED0289,898-018,898,18,False,folk,Folk Rule Application,swarm_event,yes,0.64,no,False,folk_rule,Swarm prediction remains unreliable.
+PRED0290,898-291,898,291,False,tannick,Crew Boss Tannick,swarm_event,yes,0.71,yes,True,folk_rule,Grandmother's rule holds.
+PRED0291,899-228,899,228,False,combined,Combined Method,danger_level,extreme,0.88,extreme,True,combined,Combined method outperforms either alone.
+PRED0292,899-333,899,333,True,tannick,Crew Boss Tannick,danger_level,safe,0.77,safe,True,folk_rule,Grandmother's rule holds.
+PRED0293,899-199,899,199,True,pollus,Pollus Brent,maw_activity,hunting,0.88,hunting,True,pattern_book,Pattern Book prediction validated.
+PRED0294,899-110,899,110,False,pollus,Pollus Brent,swarm_event,no,0.92,yes,False,pattern_book,Model failed. Reviewing transition matrices. Swarm prediction remains unreliable.
+PRED0295,899-063,899,63,True,combined,Combined Method,behavior_state,feeding,0.69,feeding,True,combined,Combined method outperforms either alone.
+PRED0296,899-045,899,45,False,combined,Combined Method,swarm_event,no,0.89,no,True,combined,Combined method outperforms either alone.
+PRED0297,899-278,899,278,False,folk,Folk Rule Application,maw_activity,sleeping,0.69,hunting,False,folk_rule,
+PRED0298,899-115,899,115,False,combined,Combined Method,maw_activity,hunting,0.69,resting,False,combined,Even combined approach failed here.
+PRED0299,899-185,899,185,True,combined,Combined Method,creature_presence,Cave Bat,0.82,Cave Bat,True,combined,Combined method outperforms either alone.
+PRED0300,899-314,899,314,False,combined,Combined Method,behavior_state,feeding,0.92,feeding,True,combined,Combined method outperforms either alone.
+PRED0301,899-246,899,246,False,combined,Combined Method,tunnel_stability,unstable,0.81,unstable,True,combined,Combined method outperforms either alone. Finch silence rule confirmed.
+PRED0302,899-329,899,329,True,pollus,Pollus Brent,danger_level,high,0.48,high,True,pattern_book,Pattern Book prediction validated.
+PRED0303,899-283,899,283,True,tannick,Crew Boss Tannick,yeller_proximity,near,0.86,far,False,folk_rule,Rule did not apply under these conditions. Yeller proximity predictions are inherently uncertain.
+PRED0304,899-029,899,29,True,tannick,Crew Boss Tannick,yeller_proximity,absent,0.91,absent,True,folk_rule,Grandmother's rule holds. Yeller proximity predictions are inherently uncertain.
+PRED0305,899-364,899,364,False,pollus,Pollus Brent,danger_level,extreme,0.56,safe,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0306,899-283,899,283,True,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.58,collapse_risk,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0307,899-329,899,329,True,vess,Vess Corn,maw_activity,absent,0.48,absent,True,pattern_book,
+PRED0308,899-310,899,310,False,folk,Folk Rule Application,tunnel_stability,collapse_risk,0.7,collapse_risk,True,folk_rule,Finch silence rule confirmed.
+PRED0309,899-024,899,24,False,combined,Combined Method,creature_presence,Stone Spine Lizard,0.93,Stone Spine Lizard,True,combined,Combined method outperforms either alone.
+PRED0310,899-293,899,293,True,folk,Folk Rule Application,yeller_proximity,absent,0.72,absent,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0311,899-149,899,149,True,combined,Combined Method,maw_activity,sleeping,0.84,sleeping,True,combined,Combined method outperforms either alone.
+PRED0312,899-208,899,208,False,combined,Combined Method,tunnel_stability,stable,0.74,stable,True,combined,Combined method outperforms either alone. Finch silence rule confirmed.
+PRED0313,899-248,899,248,False,pollus,Pollus Brent,swarm_event,no,0.67,no,True,pattern_book,Pattern Book prediction validated.
+PRED0314,899-164,899,164,False,tannick,Crew Boss Tannick,tunnel_stability,unstable,0.88,stable,False,folk_rule,Rule did not apply under these conditions.
+PRED0315,899-288,899,288,False,folk,Folk Rule Application,maw_activity,hunting,0.63,hunting,True,folk_rule,
+PRED0316,899-073,899,73,True,tannick,Crew Boss Tannick,behavior_state,hunting,0.72,migrating,False,folk_rule,Rule did not apply under these conditions.
+PRED0317,899-082,899,82,False,pollus,Pollus Brent,yeller_proximity,absent,0.83,hunting,False,pattern_book,Model failed. Reviewing transition matrices. Yeller proximity predictions are inherently uncertain.
+PRED0318,899-264,899,264,False,folk,Folk Rule Application,swarm_event,no,0.74,no,True,folk_rule,
+PRED0319,899-259,899,259,True,pollus,Pollus Brent,swarm_event,yes,0.66,yes,True,pattern_book,Pattern Book prediction validated.
+PRED0320,899-145,899,145,False,tannick,Crew Boss Tannick,creature_presence,Stone Spine Lizard,0.82,Stone Spine Lizard,True,folk_rule,Grandmother's rule holds.
+PRED0321,899-005,899,5,True,tannick,Crew Boss Tannick,maw_activity,sleeping,0.91,sleeping,True,folk_rule,Grandmother's rule holds.
+PRED0322,899-207,899,207,False,tannick,Crew Boss Tannick,danger_level,high,0.79,high,True,folk_rule,Grandmother's rule holds.
+PRED0323,899-284,899,284,False,vess,Vess Corn,danger_level,high,0.53,high,True,pattern_book,
+PRED0324,899-320,899,320,False,folk,Folk Rule Application,danger_level,safe,0.8,safe,True,folk_rule,
+PRED0325,899-174,899,174,False,pollus,Pollus Brent,danger_level,elevated,0.71,elevated,True,pattern_book,Pattern Book prediction validated.
+PRED0326,899-206,899,206,False,pollus,Pollus Brent,maw_activity,hunting,0.69,hunting,True,pattern_book,Pattern Book prediction validated.
+PRED0327,899-243,899,243,True,folk,Folk Rule Application,yeller_proximity,near,0.76,near,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0328,899-314,899,314,False,vess,Vess Corn,danger_level,high,0.54,elevated,False,pattern_book,Overconfident application of partial understanding.
+PRED0329,899-261,899,261,False,vess,Vess Corn,maw_activity,absent,0.64,sleeping,False,pattern_book,Overconfident application of partial understanding.
+PRED0330,899-170,899,170,False,combined,Combined Method,danger_level,high,0.85,high,True,combined,Combined method outperforms either alone.
+PRED0331,899-353,899,353,True,combined,Combined Method,tunnel_stability,collapse_risk,0.84,collapse_risk,True,combined,Combined method outperforms either alone. Finch silence rule confirmed.
+PRED0332,899-297,899,297,False,combined,Combined Method,yeller_proximity,absent,0.82,absent,True,combined,Combined method outperforms either alone. Yeller proximity predictions are inherently uncertain.
+PRED0333,899-323,899,323,True,vess,Vess Corn,maw_activity,sleeping,0.72,sleeping,True,pattern_book,
+PRED0334,899-294,899,294,False,folk,Folk Rule Application,creature_presence,Stakdur,0.88,Stakdur,True,folk_rule,
+PRED0335,899-078,899,78,False,tannick,Crew Boss Tannick,swarm_event,yes,0.8,yes,True,folk_rule,Grandmother's rule holds.
+PRED0336,899-032,899,32,True,folk,Folk Rule Application,swarm_event,yes,0.81,yes,True,folk_rule,
+PRED0337,899-270,899,270,False,combined,Combined Method,swarm_event,yes,0.76,yes,True,combined,Combined method outperforms either alone.
+PRED0338,899-182,899,182,True,vess,Vess Corn,maw_activity,absent,0.7,sleeping,False,pattern_book,Overconfident application of partial understanding.
+PRED0339,899-127,899,127,True,folk,Folk Rule Application,behavior_state,hunting,0.68,hunting,True,folk_rule,
+PRED0340,899-148,899,148,False,combined,Combined Method,danger_level,high,0.86,high,True,combined,Combined method outperforms either alone.
+PRED0341,899-141,899,141,False,tannick,Crew Boss Tannick,yeller_proximity,absent,0.77,sleeping,False,folk_rule,Rule did not apply under these conditions. Yeller proximity predictions are inherently uncertain.
+PRED0342,899-177,899,177,False,combined,Combined Method,swarm_event,yes,0.94,yes,True,combined,Combined method outperforms either alone.
+PRED0343,899-041,899,41,True,tannick,Crew Boss Tannick,tunnel_stability,unstable,0.79,unstable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0344,899-104,899,104,False,folk,Folk Rule Application,behavior_state,hunting,0.85,swarming,False,folk_rule,
+PRED0345,899-301,899,301,False,pollus,Pollus Brent,maw_activity,hunting,0.56,resting,False,pattern_book,Model failed. Reviewing transition matrices. Maw data remains insufficient.
+PRED0346,899-052,899,52,False,folk,Folk Rule Application,creature_presence,Coil Tube Serpent,0.72,Coil Tube Serpent,True,folk_rule,
+PRED0347,899-003,899,3,True,folk,Folk Rule Application,behavior_state,resting,0.89,resting,True,folk_rule,
+PRED0348,899-245,899,245,True,combined,Combined Method,swarm_event,no,0.85,no,True,combined,Combined method outperforms either alone.
+PRED0349,899-046,899,46,False,folk,Folk Rule Application,yeller_proximity,near,0.8,near,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0350,899-090,899,90,False,folk,Folk Rule Application,creature_presence,Stone Spine Lizard,0.73,Stone Spine Lizard,True,folk_rule,
+PRED0351,900-204,900,204,False,combined,Combined Method,yeller_proximity,near,0.89,absent,False,combined,Even combined approach failed here. Yeller proximity predictions are inherently uncertain.
+PRED0352,900-153,900,153,True,combined,Combined Method,creature_presence,Stakdur,0.82,Metal-Beaked Finch,False,combined,Even combined approach failed here.
+PRED0353,900-279,900,279,False,tannick,Crew Boss Tannick,tunnel_stability,stable,0.83,collapse_risk,False,folk_rule,Rule did not apply under these conditions.
+PRED0354,900-058,900,58,False,tannick,Crew Boss Tannick,yeller_proximity,absent,0.78,absent,True,folk_rule,Grandmother's rule holds. Yeller proximity predictions are inherently uncertain.
+PRED0355,900-008,900,8,False,pollus,Pollus Brent,behavior_state,hunting,0.8,hunting,True,pattern_book,Pattern Book prediction validated.
+PRED0356,900-313,900,313,True,folk,Folk Rule Application,behavior_state,swarming,0.86,swarming,True,folk_rule,
+PRED0357,900-206,900,206,False,vess,Vess Corn,creature_presence,Maw Beast,0.7,Tunnel Cat,False,pattern_book,Overconfident application of partial understanding.
+PRED0358,900-004,900,4,False,tannick,Crew Boss Tannick,behavior_state,resting,0.77,resting,True,folk_rule,Grandmother's rule holds.
+PRED0359,900-155,900,155,True,tannick,Crew Boss Tannick,danger_level,extreme,0.85,extreme,True,folk_rule,Grandmother's rule holds.
+PRED0360,900-121,900,121,False,folk,Folk Rule Application,tunnel_stability,stable,0.62,stable,True,folk_rule,Finch silence rule confirmed.
+PRED0361,900-258,900,258,False,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.88,collapse_risk,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0362,900-152,900,152,True,folk,Folk Rule Application,tunnel_stability,stable,0.71,stable,True,folk_rule,Finch silence rule confirmed.
+PRED0363,900-233,900,233,True,pollus,Pollus Brent,behavior_state,migrating,0.8,migrating,True,pattern_book,Pattern Book prediction validated.
+PRED0364,900-276,900,276,False,folk,Folk Rule Application,swarm_event,yes,0.84,no,False,folk_rule,Swarm prediction remains unreliable.
+PRED0365,900-042,900,42,False,folk,Folk Rule Application,maw_activity,absent,0.76,hunting,False,folk_rule,
+PRED0366,900-032,900,32,True,combined,Combined Method,creature_presence,Tunnel Cat,0.9,Tunnel Cat,True,combined,Combined method outperforms either alone.
+PRED0367,900-168,900,168,False,vess,Vess Corn,behavior_state,swarming,0.78,swarming,True,pattern_book,
+PRED0368,900-251,900,251,True,pollus,Pollus Brent,maw_activity,absent,0.49,absent,True,pattern_book,Pattern Book prediction validated.
+PRED0369,900-263,900,263,True,pollus,Pollus Brent,behavior_state,migrating,0.65,migrating,True,pattern_book,Pattern Book prediction validated.
+PRED0370,900-158,900,158,False,tannick,Crew Boss Tannick,yeller_proximity,far,0.88,far,True,folk_rule,Grandmother's rule holds. Yeller proximity predictions are inherently uncertain.
+PRED0371,900-297,900,297,False,pollus,Pollus Brent,behavior_state,swarming,0.48,swarming,True,pattern_book,Pattern Book prediction validated.
+PRED0372,900-036,900,36,False,pollus,Pollus Brent,creature_presence,Metal-Beaked Finch,0.91,Metal-Beaked Finch,True,pattern_book,Pattern Book prediction validated.
+PRED0373,900-070,900,70,False,tannick,Crew Boss Tannick,yeller_proximity,absent,0.89,sleeping,False,folk_rule,Rule did not apply under these conditions. Yeller proximity predictions are inherently uncertain.
+PRED0374,900-230,900,230,False,tannick,Crew Boss Tannick,swarm_event,no,0.92,no,True,folk_rule,Grandmother's rule holds.
+PRED0375,900-277,900,277,True,folk,Folk Rule Application,tunnel_stability,unstable,0.64,unstable,True,folk_rule,Finch silence rule confirmed.
+PRED0376,900-271,900,271,False,combined,Combined Method,swarm_event,yes,0.69,no,False,combined,Even combined approach failed here. Swarm prediction remains unreliable.
+PRED0377,900-238,900,238,False,folk,Folk Rule Application,danger_level,extreme,0.8,extreme,True,folk_rule,
+PRED0378,900-127,900,127,True,tannick,Crew Boss Tannick,behavior_state,resting,0.82,resting,True,folk_rule,Grandmother's rule holds.
+PRED0379,900-058,900,58,False,combined,Combined Method,tunnel_stability,collapse_risk,0.66,collapse_risk,True,combined,Combined method outperforms either alone. Finch silence rule confirmed.
+PRED0380,900-124,900,124,False,folk,Folk Rule Application,creature_presence,Stakdur,0.66,Stakdur,True,folk_rule,
+PRED0381,900-361,900,361,False,tannick,Crew Boss Tannick,tunnel_stability,stable,0.92,stable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0382,900-277,900,277,True,tannick,Crew Boss Tannick,behavior_state,feeding,0.75,feeding,True,folk_rule,Grandmother's rule holds.
+PRED0383,900-295,900,295,False,combined,Combined Method,behavior_state,migrating,0.75,migrating,True,combined,Combined method outperforms either alone.
+PRED0384,900-155,900,155,True,combined,Combined Method,behavior_state,migrating,0.91,migrating,True,combined,Combined method outperforms either alone.
+PRED0385,900-286,900,286,False,tannick,Crew Boss Tannick,creature_presence,Coil Tube Serpent,0.94,Stone Spine Lizard,False,folk_rule,Rule did not apply under these conditions.
+PRED0386,900-254,900,254,False,folk,Folk Rule Application,maw_activity,sleeping,0.61,absent,False,folk_rule,
+PRED0387,900-357,900,357,False,combined,Combined Method,danger_level,caution,0.77,caution,True,combined,Combined method outperforms either alone.
+PRED0388,900-243,900,243,True,pollus,Pollus Brent,maw_activity,hunting,0.56,hunting,True,pattern_book,Pattern Book prediction validated.
+PRED0389,900-238,900,238,False,folk,Folk Rule Application,yeller_proximity,absent,0.87,absent,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0390,900-069,900,69,False,tannick,Crew Boss Tannick,maw_activity,sleeping,0.8,sleeping,True,folk_rule,Grandmother's rule holds.
+PRED0391,900-190,900,190,False,folk,Folk Rule Application,swarm_event,yes,0.63,yes,True,folk_rule,
+PRED0392,900-309,900,309,False,tannick,Crew Boss Tannick,maw_activity,hunting,0.71,hunting,True,folk_rule,Grandmother's rule holds.
+PRED0393,900-344,900,344,False,folk,Folk Rule Application,tunnel_stability,unstable,0.77,unstable,True,folk_rule,Finch silence rule confirmed.
+PRED0394,900-008,900,8,False,combined,Combined Method,danger_level,caution,0.71,safe,False,combined,Even combined approach failed here.
+PRED0395,900-246,900,246,False,folk,Folk Rule Application,yeller_proximity,absent,0.87,hunting,False,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0396,900-283,900,283,True,tannick,Crew Boss Tannick,behavior_state,hunting,0.78,hunting,True,folk_rule,Grandmother's rule holds.
+PRED0397,900-158,900,158,False,vess,Vess Corn,danger_level,extreme,0.52,high,False,pattern_book,Overconfident application of partial understanding.
+PRED0398,900-241,900,241,False,pollus,Pollus Brent,tunnel_stability,unstable,0.81,collapse_risk,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0399,900-289,900,289,True,tannick,Crew Boss Tannick,creature_presence,Coil Tube Serpent,0.92,Coil Tube Serpent,True,folk_rule,Grandmother's rule holds.
+PRED0400,900-297,900,297,False,pollus,Pollus Brent,maw_activity,sleeping,0.79,sleeping,True,pattern_book,Pattern Book prediction validated.
+PRED0401,901-292,901,292,False,tannick,Crew Boss Tannick,swarm_event,no,0.91,no,True,folk_rule,Grandmother's rule holds.
+PRED0402,901-132,901,132,False,combined,Combined Method,danger_level,high,0.88,extreme,False,combined,Even combined approach failed here.
+PRED0403,901-181,901,181,False,tannick,Crew Boss Tannick,tunnel_stability,collapse_risk,0.74,collapse_risk,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0404,901-329,901,329,True,pollus,Pollus Brent,maw_activity,absent,0.9,absent,True,pattern_book,Pattern Book prediction validated.
+PRED0405,901-343,901,343,True,combined,Combined Method,yeller_proximity,near,0.66,near,True,combined,Combined method outperforms either alone. Yeller proximity predictions are inherently uncertain.
+PRED0406,901-035,901,35,True,combined,Combined Method,behavior_state,feeding,0.86,feeding,True,combined,Combined method outperforms either alone.
+PRED0407,901-317,901,317,True,tannick,Crew Boss Tannick,creature_presence,Tunnel Cat,0.86,Stone Spine Lizard,False,folk_rule,Rule did not apply under these conditions.
+PRED0408,901-273,901,273,True,vess,Vess Corn,creature_presence,Stakdur,0.65,Stakdur,True,pattern_book,
+PRED0409,901-147,901,147,False,folk,Folk Rule Application,maw_activity,absent,0.61,hunting,False,folk_rule,
+PRED0410,901-269,901,269,True,pollus,Pollus Brent,creature_presence,Maw Beast,0.52,Maw Beast,True,pattern_book,Pattern Book prediction validated.
+PRED0411,901-137,901,137,True,pollus,Pollus Brent,danger_level,safe,0.82,safe,True,pattern_book,Pattern Book prediction validated.
+PRED0412,901-125,901,125,True,tannick,Crew Boss Tannick,maw_activity,hunting,0.95,hunting,True,folk_rule,Grandmother's rule holds.
+PRED0413,901-335,901,335,True,combined,Combined Method,creature_presence,Coil Tube Serpent,0.95,Coil Tube Serpent,True,combined,Combined method outperforms either alone.
+PRED0414,901-194,901,194,False,pollus,Pollus Brent,swarm_event,yes,0.71,yes,True,pattern_book,Pattern Book prediction validated.
+PRED0415,901-256,901,256,False,folk,Folk Rule Application,creature_presence,Coil Tube Serpent,0.85,Tunnel Cat,False,folk_rule,
+PRED0416,901-271,901,271,False,combined,Combined Method,creature_presence,Maw Beast,0.93,Maw Beast,True,combined,Combined method outperforms either alone.
+PRED0417,901-244,901,244,False,combined,Combined Method,maw_activity,hunting,0.73,hunting,True,combined,Combined method outperforms either alone.
+PRED0418,901-289,901,289,True,tannick,Crew Boss Tannick,maw_activity,hunting,0.86,swarming,False,folk_rule,Rule did not apply under these conditions.
+PRED0419,901-301,901,301,False,pollus,Pollus Brent,behavior_state,swarming,0.52,hunting,False,pattern_book,Model failed. Reviewing transition matrices.
+PRED0420,901-291,901,291,False,pollus,Pollus Brent,behavior_state,swarming,0.84,swarming,True,pattern_book,Pattern Book prediction validated.
+PRED0421,901-072,901,72,False,vess,Vess Corn,swarm_event,yes,0.76,yes,True,pattern_book,
+PRED0422,901-051,901,51,False,combined,Combined Method,creature_presence,Stone Spine Lizard,0.78,Stone Spine Lizard,True,combined,Combined method outperforms either alone.
+PRED0423,901-305,901,305,True,vess,Vess Corn,maw_activity,sleeping,0.58,sleeping,True,pattern_book,
+PRED0424,901-252,901,252,False,tannick,Crew Boss Tannick,swarm_event,no,0.76,no,True,folk_rule,Grandmother's rule holds.
+PRED0425,901-195,901,195,False,folk,Folk Rule Application,tunnel_stability,collapse_risk,0.63,collapse_risk,True,folk_rule,Finch silence rule confirmed.
+PRED0426,901-043,901,43,True,pollus,Pollus Brent,creature_presence,Metal-Beaked Finch,0.58,Metal-Beaked Finch,True,pattern_book,Pattern Book prediction validated.
+PRED0427,901-200,901,200,False,folk,Folk Rule Application,tunnel_stability,stable,0.7,stable,True,folk_rule,Finch silence rule confirmed.
+PRED0428,901-185,901,185,True,combined,Combined Method,swarm_event,yes,0.88,yes,True,combined,Combined method outperforms either alone.
+PRED0429,901-286,901,286,False,pollus,Pollus Brent,swarm_event,no,0.71,no,True,pattern_book,Pattern Book prediction validated.
+PRED0430,901-048,901,48,False,pollus,Pollus Brent,maw_activity,sleeping,0.73,hunting,False,pattern_book,Model failed. Reviewing transition matrices. Maw data remains insufficient.
+PRED0431,901-044,901,44,False,tannick,Crew Boss Tannick,swarm_event,yes,0.88,yes,True,folk_rule,Grandmother's rule holds.
+PRED0432,901-087,901,87,False,pollus,Pollus Brent,swarm_event,no,0.52,no,True,pattern_book,Pattern Book prediction validated.
+PRED0433,901-223,901,223,True,pollus,Pollus Brent,behavior_state,hunting,0.58,hunting,True,pattern_book,Pattern Book prediction validated.
+PRED0434,901-127,901,127,True,pollus,Pollus Brent,danger_level,high,0.79,high,True,pattern_book,Pattern Book prediction validated.
+PRED0435,901-070,901,70,False,pollus,Pollus Brent,creature_presence,Metal-Beaked Finch,0.59,Metal-Beaked Finch,True,pattern_book,Pattern Book prediction validated.
+PRED0436,901-169,901,169,True,folk,Folk Rule Application,yeller_proximity,far,0.73,near,False,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0437,901-356,901,356,False,tannick,Crew Boss Tannick,maw_activity,sleeping,0.75,sleeping,True,folk_rule,Grandmother's rule holds.
+PRED0438,901-150,901,150,False,tannick,Crew Boss Tannick,danger_level,high,0.88,caution,False,folk_rule,Rule did not apply under these conditions.
+PRED0439,901-202,901,202,False,tannick,Crew Boss Tannick,danger_level,extreme,0.79,extreme,True,folk_rule,Grandmother's rule holds.
+PRED0440,901-350,901,350,False,combined,Combined Method,behavior_state,feeding,0.88,migrating,False,combined,Even combined approach failed here.
+PRED0441,902-225,902,225,False,combined,Combined Method,behavior_state,feeding,0.89,migrating,False,combined,Even combined approach failed here.
+PRED0442,902-325,902,325,False,folk,Folk Rule Application,behavior_state,hunting,0.69,hunting,True,folk_rule,
+PRED0443,902-194,902,194,False,folk,Folk Rule Application,yeller_proximity,absent,0.62,absent,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0444,902-355,902,355,False,tannick,Crew Boss Tannick,maw_activity,hunting,0.8,swarming,False,folk_rule,Rule did not apply under these conditions.
+PRED0445,902-275,902,275,True,folk,Folk Rule Application,yeller_proximity,near,0.78,near,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0446,902-182,902,182,True,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.53,collapse_risk,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0447,902-332,902,332,True,combined,Combined Method,tunnel_stability,unstable,0.77,collapse_risk,False,combined,Even combined approach failed here.
+PRED0448,902-133,902,133,True,pollus,Pollus Brent,creature_presence,Coil Tube Serpent,0.55,Coil Tube Serpent,True,pattern_book,Pattern Book prediction validated.
+PRED0449,902-114,902,114,False,vess,Vess Corn,maw_activity,sleeping,0.6,sleeping,True,pattern_book,
+PRED0450,902-257,902,257,True,folk,Folk Rule Application,tunnel_stability,stable,0.65,stable,True,folk_rule,Finch silence rule confirmed.
+PRED0451,902-060,902,60,False,tannick,Crew Boss Tannick,creature_presence,Coil Tube Serpent,0.91,Coil Tube Serpent,True,folk_rule,Grandmother's rule holds.
+PRED0452,902-106,902,106,False,tannick,Crew Boss Tannick,swarm_event,no,0.83,no,True,folk_rule,Grandmother's rule holds.
+PRED0453,902-232,902,232,False,tannick,Crew Boss Tannick,tunnel_stability,unstable,0.78,unstable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0454,902-176,902,176,False,folk,Folk Rule Application,creature_presence,Coil Tube Serpent,0.79,Stone Spine Lizard,False,folk_rule,
+PRED0455,902-283,902,283,True,pollus,Pollus Brent,behavior_state,migrating,0.53,migrating,True,pattern_book,Pattern Book prediction validated.
+PRED0456,902-208,902,208,False,tannick,Crew Boss Tannick,yeller_proximity,near,0.86,absent,False,folk_rule,Rule did not apply under these conditions. Yeller proximity predictions are inherently uncertain.
+PRED0457,902-315,902,315,False,tannick,Crew Boss Tannick,tunnel_stability,unstable,0.92,unstable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0458,902-110,902,110,False,tannick,Crew Boss Tannick,tunnel_stability,collapse_risk,0.75,collapse_risk,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0459,902-275,902,275,True,pollus,Pollus Brent,creature_presence,Cave Bat,0.54,Cave Bat,True,pattern_book,Pattern Book prediction validated.
+PRED0460,902-251,902,251,True,pollus,Pollus Brent,tunnel_stability,collapse_risk,0.7,collapse_risk,True,pattern_book,Pattern Book prediction validated. Finch silence rule confirmed.
+PRED0461,902-301,902,301,False,tannick,Crew Boss Tannick,swarm_event,no,0.73,yes,False,folk_rule,Rule did not apply under these conditions. Swarm prediction remains unreliable.
+PRED0462,902-345,902,345,False,folk,Folk Rule Application,yeller_proximity,far,0.81,near,False,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0463,902-061,902,61,False,folk,Folk Rule Application,danger_level,safe,0.67,safe,True,folk_rule,
+PRED0464,902-199,902,199,True,folk,Folk Rule Application,maw_activity,hunting,0.73,hunting,True,folk_rule,
+PRED0465,902-326,902,326,False,tannick,Crew Boss Tannick,swarm_event,yes,0.83,yes,True,folk_rule,Grandmother's rule holds.
+PRED0466,902-096,902,96,False,vess,Vess Corn,behavior_state,swarming,0.54,swarming,True,pattern_book,
+PRED0467,902-249,902,249,False,combined,Combined Method,creature_presence,Stone Spine Lizard,0.69,Stone Spine Lizard,True,combined,Combined method outperforms either alone.
+PRED0468,902-254,902,254,False,vess,Vess Corn,tunnel_stability,unstable,0.58,unstable,True,pattern_book,Finch silence rule confirmed.
+PRED0469,902-086,902,86,False,combined,Combined Method,swarm_event,yes,0.67,no,False,combined,Even combined approach failed here. Swarm prediction remains unreliable.
+PRED0470,902-141,902,141,False,pollus,Pollus Brent,creature_presence,Cave Bat,0.56,Cave Bat,True,pattern_book,Pattern Book prediction validated.
+PRED0471,903-254,903,254,False,tannick,Crew Boss Tannick,tunnel_stability,stable,0.84,stable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0472,903-188,903,188,False,tannick,Crew Boss Tannick,maw_activity,hunting,0.84,migrating,False,folk_rule,Rule did not apply under these conditions.
+PRED0473,903-053,903,53,True,vess,Vess Corn,swarm_event,yes,0.73,yes,True,pattern_book,
+PRED0474,903-135,903,135,False,combined,Combined Method,swarm_event,yes,0.75,yes,True,combined,Combined method outperforms either alone.
+PRED0475,903-122,903,122,True,combined,Combined Method,yeller_proximity,absent,0.71,absent,True,combined,Combined method outperforms either alone. Yeller proximity predictions are inherently uncertain.
+PRED0476,903-313,903,313,True,tannick,Crew Boss Tannick,tunnel_stability,stable,0.86,stable,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0477,903-106,903,106,False,combined,Combined Method,yeller_proximity,absent,0.89,absent,True,combined,Combined method outperforms either alone. Yeller proximity predictions are inherently uncertain.
+PRED0478,903-087,903,87,False,tannick,Crew Boss Tannick,maw_activity,absent,0.78,absent,True,folk_rule,Grandmother's rule holds.
+PRED0479,903-264,903,264,False,vess,Vess Corn,yeller_proximity,absent,0.84,hunting,False,pattern_book,Overconfident application of partial understanding. Yeller proximity predictions are inherently uncertain.
+PRED0480,903-211,903,211,False,combined,Combined Method,yeller_proximity,far,0.93,near,False,combined,Even combined approach failed here. Yeller proximity predictions are inherently uncertain.
+PRED0481,903-128,903,128,False,folk,Folk Rule Application,behavior_state,hunting,0.64,migrating,False,folk_rule,
+PRED0482,903-324,903,324,False,vess,Vess Corn,maw_activity,sleeping,0.52,sleeping,True,pattern_book,
+PRED0483,903-048,903,48,False,pollus,Pollus Brent,yeller_proximity,absent,0.64,absent,True,pattern_book,Pattern Book prediction validated. Yeller proximity predictions are inherently uncertain.
+PRED0484,903-233,903,233,True,combined,Combined Method,danger_level,elevated,0.94,elevated,True,combined,Combined method outperforms either alone.
+PRED0485,903-048,903,48,False,combined,Combined Method,yeller_proximity,far,0.87,far,True,combined,Combined method outperforms either alone. Yeller proximity predictions are inherently uncertain.
+PRED0486,903-033,903,33,True,folk,Folk Rule Application,yeller_proximity,far,0.84,far,True,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0487,903-254,903,254,False,tannick,Crew Boss Tannick,behavior_state,hunting,0.77,hunting,True,folk_rule,Grandmother's rule holds.
+PRED0488,903-249,903,249,False,vess,Vess Corn,maw_activity,absent,0.75,hunting,False,pattern_book,Overconfident application of partial understanding.
+PRED0489,903-236,903,236,False,pollus,Pollus Brent,yeller_proximity,near,0.46,near,True,pattern_book,Pattern Book prediction validated. Yeller proximity predictions are inherently uncertain.
+PRED0490,903-104,903,104,False,pollus,Pollus Brent,swarm_event,yes,0.92,no,False,pattern_book,Model failed. Reviewing transition matrices. Swarm prediction remains unreliable.
+PRED0491,903-141,903,141,False,tannick,Crew Boss Tannick,yeller_proximity,far,0.72,far,True,folk_rule,Grandmother's rule holds. Yeller proximity predictions are inherently uncertain.
+PRED0492,903-085,903,85,False,tannick,Crew Boss Tannick,tunnel_stability,collapse_risk,0.71,collapse_risk,True,folk_rule,Grandmother's rule holds. Finch silence rule confirmed.
+PRED0493,903-220,903,220,False,folk,Folk Rule Application,behavior_state,feeding,0.8,feeding,True,folk_rule,
+PRED0494,903-304,903,304,False,tannick,Crew Boss Tannick,behavior_state,swarming,0.76,swarming,True,folk_rule,Grandmother's rule holds.
+PRED0495,903-062,903,62,True,folk,Folk Rule Application,yeller_proximity,far,0.9,absent,False,folk_rule,Yeller proximity predictions are inherently uncertain.
+PRED0496,903-046,903,46,False,pollus,Pollus Brent,swarm_event,yes,0.79,yes,True,pattern_book,Pattern Book prediction validated.
+PRED0497,903-071,903,71,True,tannick,Crew Boss Tannick,danger_level,caution,0.8,caution,True,folk_rule,Grandmother's rule holds.
+PRED0498,903-272,903,272,True,folk,Folk Rule Application,creature_presence,Tunnel Cat,0.77,Tunnel Cat,True,folk_rule,
+PRED0499,903-110,903,110,False,tannick,Crew Boss Tannick,tunnel_stability,stable,0.86,collapse_risk,False,folk_rule,Rule did not apply under these conditions.
+PRED0500,903-052,903,52,False,combined,Combined Method,creature_presence,Stakdur,0.69,Stakdur,True,combined,Combined method outperforms either alone.

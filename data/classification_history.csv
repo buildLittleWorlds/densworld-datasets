@@ -1,0 +1,401 @@
+manuscript_id,assessment_date,classification,provenance_score,classifier_id,method_version,evidence_cited,subsequent_revision
+MS-0001,909,verified,0.505,ARV-005,v2.1,stylometric_analysis; paper_fiber_analysis,yes
+MS-0001,910,verified,0.521,ARV-005,v2.2,ink_composition_test; stylometric_analysis; engine_composite_score,yes
+MS-0001,911,mup,0.534,ARV-002,v2.2,historical_cross_reference,no
+MS-0003,910,likely_authentic,0.843,ARV-003,v2.2,stylometric_analysis; paper_fiber_analysis; physical_examination,yes
+MS-0003,911,verified,0.903,ARV-006,v2.2,historical_cross_reference; ink_composition_test,no
+MS-0007,910,mup,0.371,ARV-007,v2.2,ink_composition_test; engine_composite_score; paper_fiber_analysis,yes
+MS-0007,911,mup,0.365,ARV-011,v2.2,engine_composite_score; ink_composition_test; historical_cross_reference,no
+MS-0089,909,likely_authentic,0.434,ARV-011,v2.1,physical_examination,yes
+MS-0089,910,disputed,0.391,ARV-012,v2.2,citation_network_analysis; historical_cross_reference; physical_examination,yes
+MS-0089,911,mup,0.469,ARV-003,v2.2,citation_network_analysis; engine_composite_score; stylometric_analysis,no
+MS-0091,910,verified,0.514,ARV-010,v2.2,ink_composition_test; paper_fiber_analysis; engine_composite_score,yes
+MS-0091,911,mup,0.484,ARV-003,v2.2,stylometric_analysis,no
+MS-0094,908,verified,0.445,ARV-010,v2.0,historical_cross_reference; engine_composite_score; physical_examination,yes
+MS-0094,909,likely_authentic,0.48,ARV-011,v2.1,engine_composite_score; ink_composition_test; physical_examination,yes
+MS-0094,910,disputed,0.451,ARV-001,v2.2,stylometric_analysis,yes
+MS-0094,911,mup,0.457,ARV-008,v2.2,physical_examination,no
+MS-0047,910,verified,0.463,ARV-002,v2.2,physical_examination; citation_network_analysis; engine_composite_score,yes
+MS-0047,911,mup,0.478,ARV-011,v2.2,citation_network_analysis; paper_fiber_analysis; historical_cross_reference,no
+MS-0048,910,disputed,0.501,ARV-003,v2.2,engine_composite_score; stylometric_analysis; ink_composition_test,yes
+MS-0048,911,mup,0.559,ARV-012,v2.2,physical_examination; historical_cross_reference,no
+MS-0156,910,likely_authentic,0.069,ARV-009,v2.2,ink_composition_test; stylometric_analysis; citation_network_analysis,yes
+MS-0156,911,forged,0.088,ARV-011,v2.2,ink_composition_test; engine_composite_score,no
+MS-0157,909,verified,0.159,ARV-001,v2.1,stylometric_analysis,yes
+MS-0157,910,forged,0.16,ARV-005,v2.2,citation_network_analysis; engine_composite_score,yes
+MS-0157,911,forged,0.174,ARV-012,v2.2,engine_composite_score; stylometric_analysis,no
+MS-0158,908,likely_authentic,0.11,ARV-004,v2.0,stylometric_analysis; engine_composite_score,yes
+MS-0158,909,mup,0.156,ARV-012,v2.1,stylometric_analysis; engine_composite_score,yes
+MS-0158,910,disputed,0.161,ARV-007,v2.2,ink_composition_test; physical_examination,yes
+MS-0158,911,forged,0.103,ARV-011,v2.2,engine_composite_score,no
+MS-0159,909,disputed,0.127,ARV-004,v2.1,ink_composition_test,yes
+MS-0159,910,disputed,0.148,ARV-003,v2.2,historical_cross_reference; paper_fiber_analysis; engine_composite_score,yes
+MS-0159,911,forged,0.148,ARV-010,v2.2,historical_cross_reference; citation_network_analysis; engine_composite_score,no
+MS-0031,908,verified,0.324,ARV-004,v2.0,stylometric_analysis,yes
+MS-0031,909,verified,0.366,ARV-010,v2.1,engine_composite_score; historical_cross_reference,yes
+MS-0031,910,mup,0.378,ARV-006,v2.2,ink_composition_test; engine_composite_score,no
+MS-0044,909,likely_authentic,0.314,ARV-008,v2.1,historical_cross_reference; physical_examination; stylometric_analysis,yes
+MS-0044,910,likely_authentic,0.302,ARV-011,v2.2,citation_network_analysis; engine_composite_score; paper_fiber_analysis,yes
+MS-0044,911,disputed,0.287,ARV-010,v2.2,citation_network_analysis; historical_cross_reference; physical_examination,no
+MS-0099,910,disputed,0.299,ARV-002,v2.2,citation_network_analysis; ink_composition_test; physical_examination,yes
+MS-0099,911,disputed,0.281,ARV-007,v2.2,paper_fiber_analysis,no
+MS-0054,908,likely_authentic,0.217,ARV-004,v2.0,engine_composite_score; citation_network_analysis,yes
+MS-0054,909,disputed,0.282,ARV-007,v2.1,engine_composite_score; paper_fiber_analysis,no
+MS-0022,909,verified,0.878,ARV-007,v2.1,physical_examination; citation_network_analysis,no
+MS-0024,908,verified,0.345,ARV-008,v2.0,historical_cross_reference,yes
+MS-0024,909,disputed,0.341,ARV-007,v2.1,physical_examination; ink_composition_test; historical_cross_reference,yes
+MS-0024,910,disputed,0.412,ARV-006,v2.2,ink_composition_test,yes
+MS-0024,911,mup,0.373,ARV-007,v2.2,engine_composite_score,no
+MS-0087,908,verified,0.802,ARV-001,v2.0,engine_composite_score; physical_examination; citation_network_analysis,no
+MS-0121,909,disputed,0.369,ARV-004,v2.1,engine_composite_score; paper_fiber_analysis,yes
+MS-0121,910,mup,0.359,ARV-004,v2.2,ink_composition_test,no
+MS-0122,910,mup,0.922,ARV-005,v2.2,historical_cross_reference; stylometric_analysis,yes
+MS-0122,911,verified,0.92,ARV-005,v2.2,stylometric_analysis,no
+MS-0154,910,mup,0.545,ARV-010,v2.2,citation_network_analysis; paper_fiber_analysis; stylometric_analysis,no
+MS-0064,910,verified,0.341,ARV-011,v2.2,ink_composition_test; physical_examination,yes
+MS-0064,911,disputed,0.337,ARV-007,v2.2,physical_examination; ink_composition_test,no
+MS-0070,909,verified,0.394,ARV-012,v2.1,physical_examination; engine_composite_score; citation_network_analysis,yes
+MS-0070,910,mup,0.388,ARV-008,v2.2,paper_fiber_analysis; engine_composite_score,no
+MS-0173,910,disputed,0.559,ARV-010,v2.2,historical_cross_reference,yes
+MS-0173,911,mup,0.572,ARV-001,v2.2,engine_composite_score,no
+MS-0096,910,verified,0.925,ARV-010,v2.2,stylometric_analysis; citation_network_analysis; engine_composite_score,no
+MS-0101,909,verified,0.841,ARV-009,v2.1,engine_composite_score; physical_examination; paper_fiber_analysis,no
+MS-0006,910,mup,0.388,ARV-004,v2.2,ink_composition_test,yes
+MS-0006,911,mup,0.466,ARV-008,v2.2,ink_composition_test; stylometric_analysis,no
+MS-0004,908,verified,0.89,ARV-002,v2.0,physical_examination; historical_cross_reference,no
+MS-0095,910,mup,0.45,ARV-006,v2.2,historical_cross_reference; engine_composite_score; ink_composition_test,no
+MS-0195,910,verified,0.828,ARV-005,v2.2,citation_network_analysis; physical_examination; stylometric_analysis,no
+MS-0036,910,forged,0.247,ARV-004,v2.2,stylometric_analysis; engine_composite_score,yes
+MS-0036,911,disputed,0.224,ARV-012,v2.2,engine_composite_score,no
+MS-0042,909,mup,0.935,ARV-009,v2.1,physical_examination,yes
+MS-0042,910,verified,0.931,ARV-012,v2.2,paper_fiber_analysis,no
+MS-0199,910,mup,0.431,ARV-003,v2.2,physical_examination; ink_composition_test; historical_cross_reference,no
+MS-0166,909,verified,0.928,ARV-006,v2.1,stylometric_analysis; physical_examination; engine_composite_score,no
+MS-0165,909,mup,0.832,ARV-008,v2.1,engine_composite_score,yes
+MS-0165,910,verified,0.835,ARV-001,v2.2,ink_composition_test; engine_composite_score,yes
+MS-0165,911,verified,0.843,ARV-007,v2.2,paper_fiber_analysis; ink_composition_test,no
+MS-0115,908,disputed,0.2,ARV-008,v2.0,citation_network_analysis; physical_examination,yes
+MS-0115,909,disputed,0.204,ARV-011,v2.1,citation_network_analysis; physical_examination; historical_cross_reference,no
+MS-0178,910,disputed,0.483,ARV-002,v2.2,stylometric_analysis; citation_network_analysis,yes
+MS-0178,911,mup,0.511,ARV-010,v2.2,ink_composition_test,no
+MS-0119,908,disputed,0.337,ARV-009,v2.0,stylometric_analysis; physical_examination; engine_composite_score,yes
+MS-0119,909,verified,0.376,ARV-006,v2.1,stylometric_analysis; physical_examination,yes
+MS-0119,910,likely_authentic,0.343,ARV-004,v2.2,citation_network_analysis; paper_fiber_analysis; stylometric_analysis,yes
+MS-0119,911,disputed,0.343,ARV-010,v2.2,physical_examination,no
+MS-0062,910,verified,0.876,ARV-006,v2.2,paper_fiber_analysis; stylometric_analysis; citation_network_analysis,no
+MS-0034,909,verified,0.889,ARV-011,v2.1,stylometric_analysis,no
+MS-0038,908,disputed,0.65,ARV-007,v2.0,historical_cross_reference,yes
+MS-0038,909,likely_authentic,0.642,ARV-001,v2.1,paper_fiber_analysis,yes
+MS-0038,910,likely_authentic,0.611,ARV-007,v2.2,historical_cross_reference; engine_composite_score; citation_network_analysis,yes
+MS-0038,911,mup,0.584,ARV-009,v2.2,physical_examination; citation_network_analysis,no
+MS-0059,909,disputed,0.341,ARV-003,v2.1,ink_composition_test; engine_composite_score; physical_examination,no
+MS-0176,910,mup,0.925,ARV-006,v2.2,engine_composite_score; ink_composition_test; stylometric_analysis,yes
+MS-0176,911,verified,0.939,ARV-010,v2.2,physical_examination; paper_fiber_analysis,no
+MS-0075,909,verified,0.901,ARV-010,v2.1,stylometric_analysis,no
+MS-0153,909,mup,0.681,ARV-006,v2.1,stylometric_analysis,yes
+MS-0153,910,mup,0.633,ARV-003,v2.2,physical_examination,no
+MS-0057,910,forged,0.136,ARV-007,v2.2,physical_examination,no
+MS-0069,910,verified,0.299,ARV-004,v2.2,citation_network_analysis,yes
+MS-0069,911,disputed,0.284,ARV-006,v2.2,paper_fiber_analysis,no
+MS-0177,910,mup,0.389,ARV-005,v2.2,paper_fiber_analysis,no
+MS-0131,909,forged,0.113,ARV-011,v2.1,historical_cross_reference,no
+MS-0012,908,verified,0.91,ARV-009,v2.0,historical_cross_reference; citation_network_analysis; engine_composite_score,no
+MS-0016,910,forged,0.196,ARV-010,v2.2,paper_fiber_analysis; engine_composite_score; stylometric_analysis,no
+MS-0037,910,mup,0.269,ARV-004,v2.2,ink_composition_test,yes
+MS-0037,911,disputed,0.236,ARV-009,v2.2,engine_composite_score,no
+MS-0050,910,verified,0.832,ARV-007,v2.2,physical_examination; historical_cross_reference; paper_fiber_analysis,no
+MS-0130,909,mup,0.384,ARV-007,v2.1,paper_fiber_analysis,no
+MS-0103,910,disputed,0.366,ARV-001,v2.2,engine_composite_score; historical_cross_reference,yes
+MS-0103,911,disputed,0.323,ARV-009,v2.2,citation_network_analysis,no
+MS-0140,908,mup,0.619,ARV-003,v2.0,citation_network_analysis,no
+MS-0180,908,likely_authentic,0.362,ARV-009,v2.0,engine_composite_score; stylometric_analysis; physical_examination,yes
+MS-0180,909,verified,0.372,ARV-007,v2.1,physical_examination; stylometric_analysis,yes
+MS-0180,910,mup,0.395,ARV-002,v2.2,paper_fiber_analysis,no
+MS-0136,908,verified,0.649,ARV-002,v2.0,engine_composite_score; physical_examination; historical_cross_reference,yes
+MS-0136,909,likely_authentic,0.584,ARV-008,v2.1,historical_cross_reference; physical_examination,yes
+MS-0136,910,mup,0.613,ARV-010,v2.2,engine_composite_score,no
+MS-0019,910,mup,0.273,ARV-001,v2.2,physical_examination; paper_fiber_analysis; engine_composite_score,yes
+MS-0019,911,disputed,0.233,ARV-005,v2.2,stylometric_analysis; ink_composition_test,no
+MS-0093,910,verified,0.861,ARV-004,v2.2,physical_examination; historical_cross_reference,no
+MS-0078,909,mup,0.278,ARV-005,v2.1,engine_composite_score; physical_examination; paper_fiber_analysis,yes
+MS-0078,910,mup,0.291,ARV-002,v2.2,ink_composition_test; historical_cross_reference,yes
+MS-0078,911,disputed,0.293,ARV-003,v2.2,citation_network_analysis,no
+MS-0163,908,likely_authentic,0.303,ARV-004,v2.0,physical_examination; citation_network_analysis,yes
+MS-0163,909,disputed,0.262,ARV-010,v2.1,physical_examination; ink_composition_test; stylometric_analysis,yes
+MS-0163,910,disputed,0.282,ARV-004,v2.2,citation_network_analysis,no
+MS-0088,910,likely_authentic,0.528,ARV-009,v2.2,engine_composite_score,yes
+MS-0088,911,mup,0.49,ARV-005,v2.2,engine_composite_score; citation_network_analysis,no
+MS-0110,910,mup,0.302,ARV-008,v2.2,citation_network_analysis,yes
+MS-0110,911,disputed,0.237,ARV-012,v2.2,physical_examination; engine_composite_score; historical_cross_reference,no
+MS-0179,910,verified,0.311,ARV-010,v2.2,physical_examination,yes
+MS-0179,911,disputed,0.223,ARV-006,v2.2,engine_composite_score,no
+MS-0191,909,verified,0.908,ARV-003,v2.1,engine_composite_score; historical_cross_reference; stylometric_analysis,no
+MS-0017,908,verified,0.86,ARV-008,v2.0,physical_examination,no
+MS-0150,910,disputed,0.612,ARV-010,v2.2,physical_examination; paper_fiber_analysis; stylometric_analysis,yes
+MS-0150,911,mup,0.635,ARV-007,v2.2,paper_fiber_analysis,no
+MS-0196,910,mup,0.302,ARV-012,v2.2,paper_fiber_analysis,yes
+MS-0196,911,disputed,0.382,ARV-008,v2.2,engine_composite_score; citation_network_analysis,no
+MS-0010,908,verified,0.917,ARV-007,v2.0,physical_examination; citation_network_analysis; historical_cross_reference,no
+MS-0074,908,forged,0.125,ARV-002,v2.0,stylometric_analysis,no
+MS-0116,908,verified,0.924,ARV-009,v2.0,engine_composite_score; physical_examination,no
+MS-0026,909,likely_authentic,0.337,ARV-001,v2.1,paper_fiber_analysis,yes
+MS-0026,910,likely_authentic,0.336,ARV-005,v2.2,paper_fiber_analysis; stylometric_analysis; citation_network_analysis,yes
+MS-0026,911,disputed,0.287,ARV-010,v2.2,physical_examination,no
+MS-0111,909,verified,0.822,ARV-003,v2.1,ink_composition_test,no
+MS-0045,909,mup,0.65,ARV-003,v2.1,citation_network_analysis,yes
+MS-0045,910,likely_authentic,0.606,ARV-002,v2.2,physical_examination; stylometric_analysis; paper_fiber_analysis,yes
+MS-0045,911,mup,0.637,ARV-012,v2.2,paper_fiber_analysis,no
+MS-0137,909,likely_authentic,0.49,ARV-009,v2.1,historical_cross_reference,yes
+MS-0137,910,likely_authentic,0.462,ARV-004,v2.2,engine_composite_score; paper_fiber_analysis,yes
+MS-0137,911,mup,0.461,ARV-002,v2.2,engine_composite_score; paper_fiber_analysis,no
+MS-0082,909,disputed,0.262,ARV-004,v2.1,citation_network_analysis; ink_composition_test; paper_fiber_analysis,yes
+MS-0082,910,disputed,0.189,ARV-005,v2.2,stylometric_analysis,no
+MS-0192,909,verified,0.589,ARV-005,v2.1,physical_examination; paper_fiber_analysis; citation_network_analysis,yes
+MS-0192,910,disputed,0.634,ARV-008,v2.2,citation_network_analysis; engine_composite_score,yes
+MS-0192,911,mup,0.601,ARV-003,v2.2,citation_network_analysis; physical_examination,no
+MS-0134,909,verified,0.609,ARV-011,v2.1,paper_fiber_analysis; historical_cross_reference; ink_composition_test,yes
+MS-0134,910,mup,0.616,ARV-001,v2.2,ink_composition_test; engine_composite_score,no
+MS-0113,910,disputed,0.348,ARV-010,v2.2,engine_composite_score; citation_network_analysis; paper_fiber_analysis,yes
+MS-0113,911,mup,0.334,ARV-006,v2.2,paper_fiber_analysis; citation_network_analysis,no
+MS-0077,908,likely_authentic,0.341,ARV-005,v2.0,historical_cross_reference; stylometric_analysis,yes
+MS-0077,909,verified,0.389,ARV-005,v2.1,stylometric_analysis; paper_fiber_analysis; physical_examination,yes
+MS-0077,910,mup,0.425,ARV-006,v2.2,engine_composite_score; historical_cross_reference,no
+MS-0117,909,mup,0.39,ARV-001,v2.1,citation_network_analysis; paper_fiber_analysis,no
+MS-0020,908,mup,0.514,ARV-011,v2.0,stylometric_analysis,yes
+MS-0020,909,mup,0.569,ARV-010,v2.1,stylometric_analysis,no
+MS-0021,908,likely_authentic,0.262,ARV-003,v2.0,historical_cross_reference; engine_composite_score,yes
+MS-0021,909,likely_authentic,0.308,ARV-002,v2.1,citation_network_analysis; paper_fiber_analysis,yes
+MS-0021,910,disputed,0.26,ARV-005,v2.2,citation_network_analysis,yes
+MS-0021,911,disputed,0.28,ARV-011,v2.2,historical_cross_reference,no
+MS-0033,909,disputed,0.581,ARV-009,v2.1,paper_fiber_analysis,yes
+MS-0033,910,likely_authentic,0.586,ARV-011,v2.2,engine_composite_score; physical_examination,yes
+MS-0033,911,mup,0.617,ARV-004,v2.2,physical_examination,no
+MS-0124,909,mup,0.505,ARV-005,v2.1,physical_examination; engine_composite_score,yes
+MS-0124,910,mup,0.39,ARV-012,v2.2,paper_fiber_analysis; physical_examination; historical_cross_reference,no
+MS-0190,909,verified,0.899,ARV-010,v2.1,engine_composite_score,no
+MS-0058,908,likely_authentic,0.291,ARV-011,v2.0,stylometric_analysis,yes
+MS-0058,909,mup,0.328,ARV-003,v2.1,physical_examination; ink_composition_test,yes
+MS-0058,910,disputed,0.288,ARV-001,v2.2,physical_examination; historical_cross_reference; engine_composite_score,yes
+MS-0058,911,disputed,0.289,ARV-004,v2.2,stylometric_analysis; historical_cross_reference; citation_network_analysis,no
+MS-0107,908,mup,0.616,ARV-010,v2.0,citation_network_analysis,yes
+MS-0107,909,mup,0.64,ARV-005,v2.1,paper_fiber_analysis,no
+MS-0182,909,verified,0.874,ARV-001,v2.1,physical_examination,no
+MS-0055,909,verified,0.854,ARV-012,v2.1,physical_examination; citation_network_analysis; stylometric_analysis,no
+MS-0168,908,mup,0.32,ARV-002,v2.0,citation_network_analysis; historical_cross_reference; physical_examination,yes
+MS-0168,909,mup,0.315,ARV-007,v2.1,ink_composition_test; engine_composite_score; historical_cross_reference,yes
+MS-0168,910,disputed,0.334,ARV-009,v2.2,stylometric_analysis; citation_network_analysis,no
+MS-0051,909,disputed,0.461,ARV-002,v2.1,physical_examination,yes
+MS-0051,910,mup,0.474,ARV-006,v2.2,citation_network_analysis,yes
+MS-0051,911,mup,0.414,ARV-006,v2.2,stylometric_analysis; engine_composite_score; ink_composition_test,no
+MS-0067,910,disputed,0.524,ARV-006,v2.2,physical_examination,yes
+MS-0067,911,mup,0.515,ARV-011,v2.2,stylometric_analysis; historical_cross_reference,no
+MS-0025,908,verified,0.513,ARV-004,v2.0,engine_composite_score; historical_cross_reference; physical_examination,yes
+MS-0025,909,verified,0.468,ARV-001,v2.1,ink_composition_test,yes
+MS-0025,910,verified,0.536,ARV-012,v2.2,ink_composition_test; paper_fiber_analysis,yes
+MS-0025,911,mup,0.51,ARV-002,v2.2,physical_examination,no
+MS-0161,910,disputed,0.371,ARV-006,v2.2,historical_cross_reference; physical_examination,yes
+MS-0161,911,mup,0.435,ARV-003,v2.2,paper_fiber_analysis; ink_composition_test; physical_examination,no
+MS-0018,908,likely_authentic,0.603,ARV-003,v2.0,physical_examination; engine_composite_score,yes
+MS-0018,909,mup,0.596,ARV-010,v2.1,stylometric_analysis; paper_fiber_analysis; physical_examination,no
+MS-0127,908,verified,0.912,ARV-002,v2.0,historical_cross_reference; physical_examination,no
+MS-0104,908,likely_authentic,0.597,ARV-005,v2.0,historical_cross_reference; stylometric_analysis; physical_examination,yes
+MS-0104,909,mup,0.587,ARV-007,v2.1,engine_composite_score,no
+MS-0066,909,likely_authentic,0.565,ARV-009,v2.1,citation_network_analysis; engine_composite_score; paper_fiber_analysis,yes
+MS-0066,910,mup,0.562,ARV-002,v2.2,physical_examination; paper_fiber_analysis; ink_composition_test,no
+MS-0061,908,forged,0.207,ARV-012,v2.0,stylometric_analysis; historical_cross_reference,yes
+MS-0061,909,disputed,0.19,ARV-007,v2.1,engine_composite_score,no
+MS-0141,910,likely_authentic,0.588,ARV-007,v2.2,citation_network_analysis; historical_cross_reference,yes
+MS-0141,911,mup,0.611,ARV-004,v2.2,historical_cross_reference; ink_composition_test,no
+MS-0135,909,likely_authentic,0.429,ARV-003,v2.1,stylometric_analysis; paper_fiber_analysis; historical_cross_reference,yes
+MS-0135,910,likely_authentic,0.421,ARV-007,v2.2,citation_network_analysis; stylometric_analysis,yes
+MS-0135,911,mup,0.414,ARV-005,v2.2,engine_composite_score,no
+MS-0011,909,forged,0.13,ARV-006,v2.1,historical_cross_reference; engine_composite_score,no
+MS-0169,910,verified,0.897,ARV-003,v2.2,ink_composition_test; historical_cross_reference; physical_examination,no
+MS-0092,908,likely_authentic,0.596,ARV-005,v2.0,engine_composite_score; citation_network_analysis; stylometric_analysis,yes
+MS-0092,909,verified,0.619,ARV-012,v2.1,paper_fiber_analysis,yes
+MS-0092,910,mup,0.644,ARV-006,v2.2,historical_cross_reference,yes
+MS-0092,911,mup,0.63,ARV-005,v2.2,historical_cross_reference; paper_fiber_analysis; citation_network_analysis,no
+MS-0071,910,likely_authentic,0.272,ARV-007,v2.2,citation_network_analysis,yes
+MS-0071,911,disputed,0.287,ARV-009,v2.2,stylometric_analysis,no
+MS-0152,908,disputed,0.262,ARV-010,v2.0,stylometric_analysis; historical_cross_reference,no
+MS-0040,908,likely_authentic,0.598,ARV-012,v2.0,stylometric_analysis; historical_cross_reference; physical_examination,yes
+MS-0040,909,mup,0.677,ARV-001,v2.1,ink_composition_test; stylometric_analysis,no
+MS-0086,908,verified,0.888,ARV-004,v2.0,engine_composite_score,no
+MS-0114,910,verified,0.376,ARV-010,v2.2,historical_cross_reference,yes
+MS-0114,911,mup,0.325,ARV-004,v2.2,physical_examination; citation_network_analysis,no
+MS-0072,908,verified,0.877,ARV-009,v2.0,historical_cross_reference; engine_composite_score; stylometric_analysis,no
+MS-0171,910,verified,0.918,ARV-012,v2.2,ink_composition_test,no
+MS-0060,908,verified,0.852,ARV-007,v2.0,historical_cross_reference; citation_network_analysis; stylometric_analysis,no
+MS-0084,909,disputed,0.316,ARV-009,v2.1,engine_composite_score; physical_examination,no
+MS-0065,909,verified,0.869,ARV-008,v2.1,physical_examination; stylometric_analysis,no
+MS-0172,910,mup,0.497,ARV-009,v2.2,paper_fiber_analysis,no
+MS-0189,910,forged,0.086,ARV-004,v2.2,historical_cross_reference; citation_network_analysis; stylometric_analysis,no
+MS-0063,910,verified,0.421,ARV-008,v2.2,historical_cross_reference,yes
+MS-0063,911,mup,0.394,ARV-004,v2.2,ink_composition_test; stylometric_analysis; engine_composite_score,no
+MS-0002,910,verified,0.816,ARV-012,v2.2,engine_composite_score,no
+MS-0184,910,verified,0.954,ARV-002,v2.2,historical_cross_reference; physical_examination; citation_network_analysis,no
+MS-0186,909,likely_authentic,0.553,ARV-005,v2.1,citation_network_analysis,yes
+MS-0186,910,mup,0.571,ARV-005,v2.2,historical_cross_reference,yes
+MS-0186,911,mup,0.583,ARV-006,v2.2,paper_fiber_analysis,no
+MS-0198,909,verified,0.584,ARV-009,v2.1,ink_composition_test; historical_cross_reference,yes
+MS-0198,910,mup,0.564,ARV-008,v2.2,paper_fiber_analysis; physical_examination; engine_composite_score,no
+MS-0008,908,verified,0.94,ARV-005,v2.0,citation_network_analysis; stylometric_analysis,no
+MS-0129,909,mup,0.414,ARV-004,v2.1,engine_composite_score; stylometric_analysis; historical_cross_reference,yes
+MS-0129,910,verified,0.441,ARV-011,v2.2,ink_composition_test,yes
+MS-0129,911,mup,0.374,ARV-012,v2.2,historical_cross_reference; engine_composite_score,no
+MS-0143,910,disputed,0.289,ARV-001,v2.2,citation_network_analysis; stylometric_analysis; historical_cross_reference,no
+MS-0128,910,disputed,0.397,ARV-003,v2.2,paper_fiber_analysis; citation_network_analysis; stylometric_analysis,yes
+MS-0128,911,mup,0.368,ARV-011,v2.2,ink_composition_test,no
+MS-0090,910,likely_authentic,0.398,ARV-001,v2.2,physical_examination; ink_composition_test,yes
+MS-0090,911,mup,0.384,ARV-012,v2.2,ink_composition_test; physical_examination; engine_composite_score,no
+MS-0027,910,mup,0.653,ARV-004,v2.2,stylometric_analysis,yes
+MS-0027,911,mup,0.651,ARV-004,v2.2,historical_cross_reference; citation_network_analysis,no
+MS-0076,910,disputed,0.451,ARV-004,v2.2,paper_fiber_analysis; stylometric_analysis,yes
+MS-0076,911,mup,0.401,ARV-009,v2.2,ink_composition_test; paper_fiber_analysis; physical_examination,no
+MS-0123,910,verified,0.933,ARV-009,v2.2,engine_composite_score,no
+MS-0005,909,likely_authentic,0.73,ARV-011,v2.1,physical_examination; stylometric_analysis; historical_cross_reference,no
+MS-0147,908,likely_authentic,0.398,ARV-003,v2.0,physical_examination; citation_network_analysis; historical_cross_reference,yes
+MS-0147,909,disputed,0.419,ARV-010,v2.1,physical_examination; stylometric_analysis,yes
+MS-0147,910,verified,0.464,ARV-001,v2.2,citation_network_analysis,yes
+MS-0147,911,mup,0.423,ARV-004,v2.2,historical_cross_reference,no
+MS-0023,909,verified,0.869,ARV-004,v2.1,historical_cross_reference,no
+MS-0160,910,mup,0.901,ARV-010,v2.2,engine_composite_score; citation_network_analysis,yes
+MS-0160,911,verified,0.891,ARV-002,v2.2,stylometric_analysis; ink_composition_test,no
+MS-0194,909,mup,0.535,ARV-007,v2.1,historical_cross_reference; paper_fiber_analysis,yes
+MS-0194,910,verified,0.436,ARV-004,v2.2,engine_composite_score,yes
+MS-0194,911,mup,0.472,ARV-007,v2.2,physical_examination; paper_fiber_analysis,no
+MS-0145,909,likely_authentic,0.554,ARV-006,v2.1,engine_composite_score; paper_fiber_analysis,yes
+MS-0145,910,mup,0.608,ARV-004,v2.2,paper_fiber_analysis; stylometric_analysis; physical_examination,no
+MS-0043,910,likely_authentic,0.354,ARV-006,v2.2,physical_examination,yes
+MS-0043,911,mup,0.334,ARV-009,v2.2,ink_composition_test; citation_network_analysis,no
+MS-0183,909,verified,0.89,ARV-011,v2.1,paper_fiber_analysis; physical_examination,no
+MS-0132,908,verified,0.913,ARV-012,v2.0,stylometric_analysis,no
+MS-0185,909,mup,0.499,ARV-011,v2.1,physical_examination; stylometric_analysis,no
+MS-0035,908,likely_authentic,0.355,ARV-001,v2.0,citation_network_analysis; historical_cross_reference; physical_examination,yes
+MS-0035,909,verified,0.389,ARV-012,v2.1,stylometric_analysis; engine_composite_score,yes
+MS-0035,910,disputed,0.345,ARV-012,v2.2,ink_composition_test; stylometric_analysis; paper_fiber_analysis,yes
+MS-0035,911,mup,0.374,ARV-012,v2.2,physical_examination; engine_composite_score,no
+MS-0155,909,mup,0.601,ARV-001,v2.1,citation_network_analysis; historical_cross_reference,yes
+MS-0155,910,mup,0.629,ARV-002,v2.2,engine_composite_score; paper_fiber_analysis; historical_cross_reference,no
+MS-0028,908,likely_authentic,0.828,ARV-012,v2.0,stylometric_analysis; historical_cross_reference,yes
+MS-0028,909,verified,0.817,ARV-005,v2.1,historical_cross_reference; ink_composition_test; engine_composite_score,no
+MS-0138,909,likely_authentic,0.444,ARV-005,v2.1,physical_examination; historical_cross_reference; ink_composition_test,yes
+MS-0138,910,mup,0.394,ARV-011,v2.2,stylometric_analysis; ink_composition_test,no
+MS-0149,909,verified,0.908,ARV-004,v2.1,physical_examination; historical_cross_reference,no
+MS-0188,910,verified,0.956,ARV-001,v2.2,paper_fiber_analysis,no
+MS-0142,908,verified,0.86,ARV-011,v2.0,stylometric_analysis; engine_composite_score; physical_examination,no
+MS-0109,908,disputed,0.117,ARV-010,v2.0,citation_network_analysis; historical_cross_reference; stylometric_analysis,yes
+MS-0109,909,forged,0.214,ARV-007,v2.1,stylometric_analysis; engine_composite_score; citation_network_analysis,no
+MS-0187,910,verified,0.891,ARV-011,v2.2,historical_cross_reference; stylometric_analysis; engine_composite_score,no
+MS-0126,910,mup,0.354,ARV-010,v2.2,paper_fiber_analysis; historical_cross_reference; citation_network_analysis,yes
+MS-0126,911,disputed,0.312,ARV-001,v2.2,historical_cross_reference; engine_composite_score; stylometric_analysis,no
+MS-0041,909,mup,0.872,ARV-005,v2.1,engine_composite_score; ink_composition_test,yes
+MS-0041,910,verified,0.842,ARV-006,v2.2,engine_composite_score; ink_composition_test; paper_fiber_analysis,no
+MS-0106,909,mup,0.806,ARV-008,v2.1,engine_composite_score,yes
+MS-0106,910,verified,0.822,ARV-008,v2.2,ink_composition_test,no
+MS-0118,910,mup,0.493,ARV-003,v2.2,ink_composition_test,no
+MS-0053,908,forged,0.364,ARV-010,v2.0,physical_examination,yes
+MS-0053,909,disputed,0.303,ARV-007,v2.1,historical_cross_reference,no
+MS-0193,909,likely_authentic,0.352,ARV-009,v2.1,ink_composition_test; stylometric_analysis; physical_examination,yes
+MS-0193,910,likely_authentic,0.343,ARV-002,v2.2,physical_examination; ink_composition_test; historical_cross_reference,yes
+MS-0193,911,mup,0.398,ARV-005,v2.2,paper_fiber_analysis; citation_network_analysis; physical_examination,no
+MS-0080,909,mup,0.553,ARV-006,v2.1,historical_cross_reference; physical_examination,yes
+MS-0080,910,mup,0.534,ARV-004,v2.2,physical_examination,no
+MS-0079,908,likely_authentic,0.546,ARV-011,v2.0,physical_examination; historical_cross_reference,yes
+MS-0079,909,disputed,0.535,ARV-006,v2.1,historical_cross_reference,yes
+MS-0079,910,likely_authentic,0.561,ARV-003,v2.2,physical_examination; stylometric_analysis,yes
+MS-0079,911,mup,0.576,ARV-002,v2.2,citation_network_analysis,no
+MS-0108,908,verified,0.921,ARV-001,v2.0,stylometric_analysis; historical_cross_reference,no
+MS-0112,910,verified,0.516,ARV-003,v2.2,paper_fiber_analysis; citation_network_analysis,yes
+MS-0112,911,mup,0.579,ARV-009,v2.2,paper_fiber_analysis; engine_composite_score; ink_composition_test,no
+MS-0032,910,mup,0.82,ARV-009,v2.2,engine_composite_score,yes
+MS-0032,911,verified,0.815,ARV-012,v2.2,engine_composite_score; stylometric_analysis; paper_fiber_analysis,no
+MS-0049,908,disputed,0.337,ARV-008,v2.0,physical_examination; historical_cross_reference; citation_network_analysis,yes
+MS-0049,909,disputed,0.366,ARV-005,v2.1,citation_network_analysis; historical_cross_reference; stylometric_analysis,no
+MS-0170,909,verified,0.872,ARV-004,v2.1,engine_composite_score; citation_network_analysis,no
+MS-0029,910,likely_authentic,0.396,ARV-003,v2.2,citation_network_analysis; ink_composition_test,yes
+MS-0029,911,mup,0.426,ARV-002,v2.2,stylometric_analysis; ink_composition_test,no
+MS-0120,909,verified,0.824,ARV-006,v2.1,citation_network_analysis; stylometric_analysis; ink_composition_test,no
+MS-0174,909,verified,0.455,ARV-012,v2.1,paper_fiber_analysis,yes
+MS-0174,910,mup,0.513,ARV-005,v2.2,ink_composition_test; citation_network_analysis; stylometric_analysis,yes
+MS-0174,911,mup,0.491,ARV-009,v2.2,paper_fiber_analysis; physical_examination; citation_network_analysis,no
+MS-0164,908,mup,0.891,ARV-010,v2.0,stylometric_analysis; citation_network_analysis; historical_cross_reference,yes
+MS-0164,909,verified,0.919,ARV-001,v2.1,stylometric_analysis,no
+MS-0097,908,likely_authentic,0.911,ARV-008,v2.0,engine_composite_score,yes
+MS-0097,909,verified,0.912,ARV-008,v2.1,citation_network_analysis; physical_examination,no
+MS-0052,910,likely_authentic,0.629,ARV-009,v2.2,historical_cross_reference,yes
+MS-0052,911,mup,0.523,ARV-012,v2.2,physical_examination; paper_fiber_analysis,no
+MS-0148,910,likely_authentic,0.559,ARV-005,v2.2,historical_cross_reference; stylometric_analysis; physical_examination,yes
+MS-0148,911,mup,0.491,ARV-001,v2.2,paper_fiber_analysis,no
+MS-0144,909,verified,0.955,ARV-012,v2.1,ink_composition_test; physical_examination; citation_network_analysis,no
+MS-0133,908,likely_authentic,0.862,ARV-003,v2.0,historical_cross_reference,yes
+MS-0133,909,verified,0.843,ARV-007,v2.1,ink_composition_test; paper_fiber_analysis; physical_examination,yes
+MS-0133,910,verified,0.834,ARV-005,v2.2,engine_composite_score; ink_composition_test,no
+MS-0081,910,disputed,0.279,ARV-012,v2.2,physical_examination; paper_fiber_analysis,yes
+MS-0081,911,disputed,0.25,ARV-002,v2.2,physical_examination; stylometric_analysis,no
+MS-0014,909,mup,0.377,ARV-004,v2.1,stylometric_analysis; physical_examination,yes
+MS-0014,910,mup,0.374,ARV-003,v2.2,physical_examination; historical_cross_reference; paper_fiber_analysis,no
+MS-0085,909,mup,0.273,ARV-001,v2.1,citation_network_analysis; historical_cross_reference; engine_composite_score,yes
+MS-0085,910,mup,0.363,ARV-008,v2.2,citation_network_analysis,no
+MS-0151,908,mup,0.573,ARV-003,v2.0,physical_examination; historical_cross_reference; engine_composite_score,yes
+MS-0151,909,likely_authentic,0.595,ARV-009,v2.1,physical_examination,yes
+MS-0151,910,mup,0.603,ARV-007,v2.2,citation_network_analysis; historical_cross_reference,no
+MS-0046,910,verified,0.82,ARV-012,v2.2,ink_composition_test,no
+MS-0056,910,mup,0.33,ARV-004,v2.2,engine_composite_score; ink_composition_test; citation_network_analysis,yes
+MS-0056,911,disputed,0.315,ARV-004,v2.2,citation_network_analysis; paper_fiber_analysis; ink_composition_test,no
+MS-0162,909,likely_authentic,0.586,ARV-004,v2.1,physical_examination; historical_cross_reference,yes
+MS-0162,910,likely_authentic,0.538,ARV-010,v2.2,paper_fiber_analysis,yes
+MS-0162,911,mup,0.576,ARV-002,v2.2,stylometric_analysis; citation_network_analysis,no
+MS-0083,909,verified,0.331,ARV-009,v2.1,citation_network_analysis,yes
+MS-0083,910,forged,0.307,ARV-010,v2.2,historical_cross_reference,yes
+MS-0083,911,disputed,0.377,ARV-009,v2.2,paper_fiber_analysis,no
+MS-0098,908,disputed,0.26,ARV-008,v2.0,citation_network_analysis; historical_cross_reference,no
+MS-0015,909,mup,0.353,ARV-011,v2.1,paper_fiber_analysis; stylometric_analysis; ink_composition_test,no
+MS-0105,909,likely_authentic,0.538,ARV-002,v2.1,stylometric_analysis; physical_examination; paper_fiber_analysis,yes
+MS-0105,910,mup,0.602,ARV-007,v2.2,stylometric_analysis; engine_composite_score,no
+MS-0039,910,forged,0.198,ARV-007,v2.2,stylometric_analysis; physical_examination; paper_fiber_analysis,no
+MS-0100,908,verified,0.422,ARV-005,v2.0,historical_cross_reference; physical_examination; engine_composite_score,yes
+MS-0100,909,disputed,0.465,ARV-008,v2.1,ink_composition_test,yes
+MS-0100,910,mup,0.388,ARV-001,v2.2,historical_cross_reference; physical_examination,no
+MS-0125,910,disputed,0.226,ARV-011,v2.2,stylometric_analysis,yes
+MS-0125,911,disputed,0.281,ARV-007,v2.2,physical_examination; ink_composition_test; engine_composite_score,no
+MS-0146,910,verified,0.409,ARV-003,v2.2,paper_fiber_analysis; physical_examination,yes
+MS-0146,911,mup,0.469,ARV-004,v2.2,physical_examination; citation_network_analysis; engine_composite_score,no
+MS-0139,910,forged,0.139,ARV-002,v2.2,historical_cross_reference; engine_composite_score; stylometric_analysis,no
+MS-0197,909,verified,0.856,ARV-006,v2.1,paper_fiber_analysis; citation_network_analysis; ink_composition_test,no
+MS-0167,909,verified,0.906,ARV-007,v2.1,physical_examination; ink_composition_test; paper_fiber_analysis,no
+MS-0068,910,likely_authentic,0.758,ARV-009,v2.2,engine_composite_score; physical_examination,yes
+MS-0068,911,verified,0.804,ARV-011,v2.2,citation_network_analysis; stylometric_analysis,no
+MS-0030,908,verified,0.842,ARV-002,v2.0,citation_network_analysis; engine_composite_score; historical_cross_reference,no
+MS-0013,908,likely_authentic,0.305,ARV-011,v2.0,engine_composite_score; citation_network_analysis; physical_examination,yes
+MS-0013,909,disputed,0.274,ARV-002,v2.1,engine_composite_score,no
+MS-0102,909,verified,0.954,ARV-012,v2.1,citation_network_analysis; ink_composition_test,no
+MS-0009,908,verified,0.873,ARV-011,v2.0,historical_cross_reference; citation_network_analysis,no
+MS-0181,908,mup,0.437,ARV-001,v2.0,citation_network_analysis; engine_composite_score; historical_cross_reference,no
+MS-0175,909,verified,0.432,ARV-003,v2.1,physical_examination; paper_fiber_analysis,yes
+MS-0175,910,mup,0.371,ARV-003,v2.2,physical_examination,no
+MS-0073,909,verified,0.913,ARV-006,v2.1,stylometric_analysis; ink_composition_test; engine_composite_score,no
+MS-0022,908,forged,0.833,ARV-010,v2.0,physical_examination; stylometric_analysis,yes
+MS-0087,908,likely_authentic,0.829,ARV-003,v2.0,stylometric_analysis; historical_cross_reference; physical_examination,yes
+MS-0154,909,mup,0.575,ARV-003,v2.1,ink_composition_test; engine_composite_score; citation_network_analysis,yes
+MS-0096,909,mup,0.971,ARV-011,v2.1,ink_composition_test; historical_cross_reference,yes
+MS-0101,908,forged,0.894,ARV-007,v2.0,citation_network_analysis,yes
+MS-0004,908,disputed,0.812,ARV-006,v2.0,physical_examination; engine_composite_score; historical_cross_reference,yes
+MS-0095,909,mup,0.458,ARV-003,v2.1,stylometric_analysis; paper_fiber_analysis,yes
+MS-0195,909,forged,0.778,ARV-001,v2.1,stylometric_analysis; ink_composition_test; paper_fiber_analysis,yes
+MS-0199,909,verified,0.411,ARV-006,v2.1,historical_cross_reference; paper_fiber_analysis; engine_composite_score,yes
+MS-0166,908,likely_authentic,0.917,ARV-002,v2.0,engine_composite_score,yes
+MS-0062,909,forged,0.852,ARV-009,v2.1,stylometric_analysis,yes
+MS-0034,908,likely_authentic,0.859,ARV-001,v2.0,engine_composite_score; citation_network_analysis,yes
+MS-0059,908,likely_authentic,0.293,ARV-007,v2.0,stylometric_analysis; physical_examination,yes
+MS-0075,908,disputed,0.962,ARV-010,v2.0,citation_network_analysis; stylometric_analysis; physical_examination,yes
+MS-0057,909,forged,0.149,ARV-002,v2.1,engine_composite_score; paper_fiber_analysis,yes
+MS-0177,909,forged,0.38,ARV-010,v2.1,physical_examination; paper_fiber_analysis,yes
+MS-0131,908,verified,0.169,ARV-003,v2.0,engine_composite_score; physical_examination,yes
+MS-0012,908,mup,0.891,ARV-001,v2.0,historical_cross_reference; stylometric_analysis,yes
+MS-0016,909,disputed,0.194,ARV-009,v2.1,paper_fiber_analysis; historical_cross_reference; citation_network_analysis,yes
+MS-0050,909,disputed,0.843,ARV-010,v2.1,engine_composite_score; physical_examination; citation_network_analysis,yes
+MS-0130,908,disputed,0.265,ARV-012,v2.0,citation_network_analysis; stylometric_analysis,yes
+MS-0140,908,verified,0.632,ARV-007,v2.0,stylometric_analysis; engine_composite_score,yes
+MS-0093,909,verified,0.826,ARV-005,v2.1,citation_network_analysis,yes
+MS-0191,908,forged,0.885,ARV-011,v2.0,stylometric_analysis,yes

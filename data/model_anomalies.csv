@@ -1,0 +1,69 @@
+anomaly_id,student_id,anomaly_type,detection_date,severity,resolution,notes,jackson_related
+ANM-0053,ST-3016,model_timeout,2019-09-09,medium,monitoring_increased,Model confidence below threshold,False
+ANM-0029,ST-3007,prediction_swing,2019-09-11,high,unresolved,,False
+ANM-0038,ST-3011,model_timeout,2019-09-12,high,monitoring_increased,Unusual pattern detected,False
+ANM-0061,ST-3020,behavior_discontinuity,2019-09-27,medium,monitoring_increased,Unusual pattern detected,False
+ANM-0026,NR-2407,behavior_discontinuity,2019-09-30,low,monitoring_increased,Unusual pattern detected,False
+ANM-0016,ST-3018,model_timeout,2019-10-16,medium,unresolved,,False
+ANM-0060,ST-3020,convergence_failure,2019-10-26,high,unresolved,Unusual pattern detected,False
+ANM-0045,ST-3014,model_timeout,2019-11-16,medium,unresolved,Minor prediction instability,False
+ANM-0062,ST-3020,behavior_discontinuity,2020-02-04,low,resolved,Model confidence below threshold,False
+ANM-0067,ST-3022,prediction_swing,2020-02-17,high,unresolved,,False
+ANM-0035,ST-3009,convergence_failure,2020-02-28,low,unresolved,Model confidence below threshold,False
+ANM-0020,SM-2203,prediction_swing,2020-03-11,medium,unresolved,Feature correlation anomaly,False
+ANM-0033,ST-3008,behavior_discontinuity,2020-03-14,medium,unresolved,Unusual pattern detected,False
+ANM-0036,ST-3009,behavior_discontinuity,2020-03-25,low,unresolved,Unusual pattern detected,False
+ANM-0046,ST-3015,behavior_discontinuity,2020-03-31,medium,resolved,,False
+ANM-0058,ST-3018,prediction_swing,2020-03-31,low,monitoring_increased,Model confidence below threshold,False
+ANM-0027,ST-3006,convergence_failure,2020-04-04,low,resolved,,False
+ANM-0034,ST-3008,behavior_discontinuity,2020-04-06,low,unresolved,Unusual pattern detected,False
+ANM-0042,ST-3012,convergence_failure,2020-04-08,low,unresolved,Feature correlation anomaly,False
+ANM-0044,ST-3013,prediction_swing,2020-04-12,medium,resolved,Model confidence below threshold,False
+ANM-0001,JK-3847,convergence_failure,2020-09-15,high,unresolved,Model could not settle on prediction,True
+ANM-0022,SJ-2202,convergence_failure,2020-09-15,low,monitoring_increased,Feature correlation anomaly,False
+ANM-0065,ST-3021,behavior_discontinuity,2020-09-21,high,resolved,Minor prediction instability,False
+ANM-0039,ST-3011,convergence_failure,2020-09-28,high,unresolved,,False
+ANM-0002,JK-3847,prediction_swing,2020-10-01,medium,monitoring_increased,GPA prediction swung from 1.8 to 3.6 between runs,True
+ANM-0032,ST-3008,model_timeout,2020-10-08,low,resolved,Model confidence below threshold,False
+ANM-0040,ST-3011,model_timeout,2020-10-16,high,unresolved,,False
+ANM-0063,ST-3020,convergence_failure,2020-10-16,medium,resolved,Unusual pattern detected,False
+ANM-0057,ST-3018,model_timeout,2020-10-17,low,monitoring_increased,Model confidence below threshold,False
+ANM-0037,ST-3010,prediction_swing,2020-10-23,low,resolved,,False
+ANM-0019,AB-2201,prediction_swing,2020-10-25,medium,unresolved,Minor prediction instability,False
+ANM-0047,ST-3015,prediction_swing,2020-10-29,medium,monitoring_increased,Feature correlation anomaly,False
+ANM-0030,ST-3007,behavior_discontinuity,2020-10-31,medium,monitoring_increased,Model confidence below threshold,False
+ANM-0024,SJ-2202,behavior_discontinuity,2020-11-05,medium,resolved,Minor prediction instability,False
+ANM-0066,ST-3022,model_timeout,2020-11-10,low,resolved,Unusual pattern detected,False
+ANM-0003,JK-3847,convergence_failure,2020-11-12,high,unresolved,Forty consecutive runs failed to converge,True
+ANM-0004,JK-3847,prediction_swing,2021-01-28,high,unresolved,Retention probability: 0.12 to 0.94 in same session,True
+ANM-0015,ST-3018,convergence_failure,2021-01-29,low,unresolved,Model confidence below threshold,False
+ANM-0025,SJ-2202,convergence_failure,2021-02-09,low,monitoring_increased,Unusual pattern detected,False
+ANM-0005,JK-3847,behavior_discontinuity,2021-02-15,medium,monitoring_increased,Library usage spike inconsistent with profile,True
+ANM-0051,ST-3016,convergence_failure,2021-02-15,low,monitoring_increased,Model confidence below threshold,False
+ANM-0050,ST-3016,prediction_swing,2021-03-06,high,unresolved,Feature correlation anomaly,False
+ANM-0031,ST-3008,prediction_swing,2021-03-08,high,resolved,Model confidence below threshold,False
+ANM-0013,ST-3007,prediction_swing,2021-03-09,medium,unresolved,,False
+ANM-0028,ST-3006,model_timeout,2021-03-14,medium,monitoring_increased,Minor prediction instability,False
+ANM-0043,ST-3013,convergence_failure,2021-03-15,low,unresolved,,False
+ANM-0048,ST-3015,convergence_failure,2021-03-17,low,monitoring_increased,Model confidence below threshold,False
+ANM-0006,JK-3847,convergence_failure,2021-03-20,critical,monitoring_increased,Model timeout on 8 of 10 prediction attempts,True
+ANM-0014,ST-3015,prediction_swing,2021-03-29,high,resolved,Feature correlation anomaly,False
+ANM-0007,JK-3847,prediction_swing,2021-04-10,critical,unresolved,All trajectory classifications equally probable,True
+ANM-0049,ST-3015,convergence_failure,2021-04-10,low,unresolved,Feature correlation anomaly,False
+ANM-0056,ST-3018,model_timeout,2021-04-10,low,resolved,Minor prediction instability,False
+ANM-0008,JK-3847,convergence_failure,2021-08-30,critical,unresolved,No stable prediction possible,True
+ANM-0009,JK-3847,behavior_discontinuity,2021-09-08,high,unresolved,Perfect attendance anomalous for this student,True
+ANM-0010,JK-3847,model_timeout,2021-09-20,critical,unresolved,Model failed to generate any output,True
+ANM-0011,JK-3847,behavior_discontinuity,2021-09-28,critical,unresolved,Early assignment completion unprecedented,True
+ANM-0017,ST-3018,convergence_failure,2021-10-04,medium,unresolved,Model confidence below threshold,False
+ANM-0021,SM-2203,prediction_swing,2021-10-04,low,unresolved,Model confidence below threshold,False
+ANM-0012,JK-3847,convergence_failure,2021-10-05,critical,unresolved,Final prediction attempt before disappearance,True
+ANM-0064,ST-3021,behavior_discontinuity,2021-10-19,high,monitoring_increased,Model confidence below threshold,False
+ANM-0052,ST-3016,convergence_failure,2021-10-20,high,monitoring_increased,,False
+ANM-0018,ST-3025,convergence_failure,2021-10-24,low,monitoring_increased,Model confidence below threshold,False
+ANM-0059,ST-3019,model_timeout,2021-10-24,medium,unresolved,Model confidence below threshold,False
+ANM-0041,ST-3012,behavior_discontinuity,2021-11-03,medium,resolved,Feature correlation anomaly,False
+ANM-0054,ST-3017,prediction_swing,2021-11-06,low,monitoring_increased,Feature correlation anomaly,False
+ANM-0055,ST-3017,convergence_failure,2021-11-09,high,unresolved,Model confidence below threshold,False
+ANM-0023,SJ-2202,convergence_failure,2021-11-14,high,unresolved,Behavioral change following JK-3847 departure,True
+ANM-0068,ST-3022,convergence_failure,2021-11-15,medium,resolved,Minor prediction instability,False

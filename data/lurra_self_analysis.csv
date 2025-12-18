@@ -1,0 +1,102 @@
+entry_date,life_event,self_classification,confidence,anxiety_level,notes,later_revision
+907-02-15,walked_outside,eternal_student,0.65,0.5,Vorn asked about predictions again. I deflected.,This was before I understood the trap.
+907-05-03,data_analysis,eternal_student,0.81,0.16,Method development continues. Am I making progress or avoiding output?,
+907-08-21,data_analysis,eternal_student,0.54,0.27,"Another paper read, not written. The pattern seems clear.",
+907-11-10,self_doubt,eternal_student,0.56,0.15,Solta would say I am overthinking. Perhaps I am.,
+908-01-08,lecture_attended,slow_climb,0.36,0.42,Solta would say I am overthinking. Perhaps I am.,
+908-03-22,walked_outside,undetermined,0.51,0.35,Started to encode my own timeline. Stopped. Started again.,This was before I understood the trap.
+908-06-14,avoided_decision,undetermined,0.34,0.37,Vorn asked about predictions again. I deflected.,I should have listened to my own warnings.
+908-08-30,encoding_journeys,eternal_student,0.54,0.45,Good day at the office. Does that mean anything?,
+908-09-15,routine_work,slow_climb,0.82,0.16,Noticed I spent the morning on paperwork instead of analysis. Typical?,
+908-10-07,encoding_journeys,slow_climb,0.52,0.49,Noticed I spent the morning on paperwork instead of analysis. Typical?,I was already in the pattern. I did not see it.
+908-11-11,sister_visit,hoping_for_slow_climb,0.63,0.43,Good day at the office. Does that mean anything?,
+908-12-03,sister_visit,hoping_for_slow_climb,0.69,0.36,"Another paper read, not written. The pattern seems clear.",This was before I understood the trap.
+908-12-15,encoding_journeys,eternal_student,0.53,0.18,Good day at the office. Does that mean anything?,
+908-12-28,data_analysis,eternal_student,0.54,0.46,Solta would say I am overthinking. Perhaps I am.,
+909-01-05,self_doubt,eternal_student,0.44,0.35,Started to encode my own timeline. Stopped. Started again.,
+909-02-01,paper_read,definitely_eternal_student,0.71,0.52,Every choice feels like evidence. I cannot escape the pattern.,
+909-02-11,could_not_decide,possibly_hybrid,0.89,0.71,What would the Eternal Student do? What am I doing now?,I should have listened to my own warnings.
+909-02-24,made_small_journey,possibly_hybrid,0.59,0.47,Every choice feels like evidence. I cannot escape the pattern.,
+909-03-05,data_analysis,possibly_hybrid,0.39,0.52,The method was not meant for this. I was not meant for this.,
+909-03-13,paper_read,eternal_student,0.41,0.67,Stayed home again. Is this the pattern or breaking it?,
+909-03-19,moment_of_clarity,eternal_student,0.59,0.82,The method was not meant for this. I was not meant for this.,
+909-03-21,colleague_interaction,possibly_hybrid,0.44,0.57,Every choice feels like evidence. I cannot escape the pattern.,
+909-04-07,wrote_in_notebook,fear_of_burnout,0.67,0.63,The method was not meant for this. I was not meant for this.,
+909-04-08,could_not_decide,refusing_classification,0.77,0.46,"If I change my behavior, am I escaping or confirming?",This was before I understood the trap.
+909-04-08,sister_visit,eternal_student,0.77,0.71,Every choice feels like evidence. I cannot escape the pattern.,
+909-04-20,colleague_interaction,definitely_eternal_student,0.67,0.79,Vorn's proposal uses MY words against me. He does not understand.,
+909-05-11,data_analysis,fear_of_burnout,0.51,0.69,Every choice feels like evidence. I cannot escape the pattern.,
+909-05-22,made_small_journey,refusing_classification,0.68,0.89,Vorn's proposal uses MY words against me. He does not understand.,
+909-06-05,received_recognition,refusing_classification,0.44,0.65,I know my archetype. Knowing does not help. Knowing may hurt.,I should have listened to my own warnings.
+909-06-28,committee_meeting,eternal_student,0.3,0.8,Stayed home again. Is this the pattern or breaking it?,
+909-07-04,self_doubt,fear_of_burnout,0.34,0.85,"If I change my behavior, am I escaping or confirming?",This was before I understood the trap.
+909-07-24,stayed_home,possibly_hybrid,0.69,0.54,Stayed home again. Is this the pattern or breaking it?,
+909-08-06,productive_day,fear_of_burnout,0.51,0.47,Solta is worried. I can see it in how she looks at me.,I should have listened to my own warnings.
+909-08-07,stayed_home,refusing_classification,0.83,0.61,"If I change my behavior, am I escaping or confirming?",The confidence was misplaced.
+909-08-09,stayed_home,fear_of_burnout,0.32,0.64,Vorn's proposal uses MY words against me. He does not understand.,
+909-08-11,routine_work,eternal_student,0.74,0.67,"If I change my behavior, am I escaping or confirming?",
+909-09-06,paper_published,possibly_hybrid,0.32,0.48,Every choice feels like evidence. I cannot escape the pattern.,
+909-09-11,sister_visit,refusing_classification,0.69,0.63,"If I change my behavior, am I escaping or confirming?",
+909-10-06,sister_visit,fear_of_burnout,0.51,0.39,Maybe I am not the Eternal Student. Maybe I am the Doomed Optimist.,
+909-10-11,method_development,fear_of_burnout,0.72,0.74,"If I change my behavior, am I escaping or confirming?",
+909-10-18,received_recognition,possibly_hybrid,0.86,0.66,What would the Eternal Student do? What am I doing now?,
+909-10-18,productive_day,definitely_eternal_student,0.45,0.59,Every choice feels like evidence. I cannot escape the pattern.,
+909-11-12,could_not_decide,eternal_student,0.64,0.79,The method was not meant for this. I was not meant for this.,
+909-11-19,reading_bagbu,refusing_classification,0.59,0.52,Every choice feels like evidence. I cannot escape the pattern.,I was already in the pattern. I did not see it.
+909-11-20,committee_meeting,refusing_classification,0.64,0.72,The method was not meant for this. I was not meant for this.,I was already in the pattern. I did not see it.
+910-01-04,could_not_decide,fear_of_burnout,0.87,0.91,"If I recognize the trap, am I still trapped?",These were dark days. I am glad they passed.
+910-01-08,wrote_in_notebook,undetermined,0.42,0.77,What archetype is this? The one who cannot stop classifying?,
+910-01-10,self_doubt,refusing_classification,0.76,0.81,Solta came. I could not explain. Words are categories too.,
+910-01-16,felt_trapped,definitely_eternal_student,0.5,0.94,Solta came. I could not explain. Words are categories too.,
+910-01-18,wrote_in_notebook,fear_of_burnout,0.48,0.99,"If I recognize the trap, am I still trapped?",The crisis was necessary. I had to touch bottom.
+910-01-21,felt_trapped,undetermined,0.78,1,What archetype is this? The one who cannot stop classifying?,
+910-01-23,self_doubt,undetermined,0.55,0.82,Solta came. I could not explain. Words are categories too.,The crisis was necessary. I had to touch bottom.
+910-01-24,could_not_decide,fear_of_burnout,0.72,0.91,Day 3 at home. Cannot decide if leaving would change the pattern.,
+910-01-26,could_not_decide,refusing_classification,0.79,0.85,"If I recognize the trap, am I still trapped?",These were dark days. I am glad they passed.
+910-01-27,stayed_home,fear_of_burnout,0.61,1,I have become the method. The method has become the cage.,
+910-02-01,avoided_decision,definitely_eternal_student,0.89,0.95,What archetype is this? The one who cannot stop classifying?,The crisis was necessary. I had to touch bottom.
+910-02-03,could_not_decide,definitely_eternal_student,0.35,0.81,Day 6. Solta said: the map is not the territory. But what if you BECOME the map?,These were dark days. I am glad they passed.
+910-02-06,wrote_in_notebook,refusing_classification,0.8,0.95,Day 3 at home. Cannot decide if leaving would change the pattern.,These were dark days. I am glad they passed.
+910-02-07,avoided_decision,refusing_classification,0.53,0.88,I have become the method. The method has become the cage.,
+910-02-08,self_doubt,fear_of_burnout,0.55,1,What archetype is this? The one who cannot stop classifying?,
+910-02-09,felt_trapped,refusing_classification,0.77,1,Solta came. I could not explain. Words are categories too.,These were dark days. I am glad they passed.
+910-02-10,self_doubt,definitely_eternal_student,0.47,1,I have become the method. The method has become the cage.,The crisis was necessary. I had to touch bottom.
+910-02-11,stayed_home,refusing_classification,0.36,0.85,What archetype is this? The one who cannot stop classifying?,The crisis was necessary. I had to touch bottom.
+910-02-12,wrote_in_notebook,definitely_eternal_student,0.51,0.78,Day 3 at home. Cannot decide if leaving would change the pattern.,I do not regret this entry. It was honest.
+910-02-13,self_doubt,undetermined,0.33,0.9,What archetype is this? The one who cannot stop classifying?,
+910-02-16,wrote_in_notebook,undetermined,0.72,0.83,Day 6. Solta said: the map is not the territory. But what if you BECOME the map?,I do not regret this entry. It was honest.
+910-02-19,could_not_decide,refusing_classification,0.49,0.94,Day 6. Solta said: the map is not the territory. But what if you BECOME the map?,
+910-02-22,could_not_decide,refusing_classification,0.6,0.83,I have become the method. The method has become the cage.,I do not regret this entry. It was honest.
+910-02-23,could_not_decide,undetermined,0.46,0.94,I have become the method. The method has become the cage.,The crisis was necessary. I had to touch bottom.
+910-02-27,felt_trapped,definitely_eternal_student,0.42,0.72,Every thought encodes itself. I watch myself thinking about watching.,
+910-03-01,moment_of_clarity,eternal_student,0.64,0.5,The pattern describes. It does not determine.,
+910-03-07,reading_bagbu,undetermined,0.49,0.53,Starting the synthesis paper. About limits. About what the method cannot do.,
+910-03-09,moment_of_clarity,emerging_accidental_expert,0.44,0.71,He wrote: the world is larger than my patterns. He was right.,
+910-03-13,moment_of_clarity,refusing_classification,0.63,0.43,He wrote: the world is larger than my patterns. He was right.,
+910-03-15,made_small_journey,refusing_classification,0.88,0.48,Starting the synthesis paper. About limits. About what the method cannot do.,
+910-03-20,walked_outside,undetermined,0.56,0.46,The pattern describes. It does not determine.,
+910-04-01,walked_outside,eternal_student,0.57,0.4,Walked outside today. Did not classify the walk. Just walked.,
+910-04-02,moment_of_clarity,undetermined,0.57,0.56,Starting the synthesis paper. About limits. About what the method cannot do.,
+910-04-02,moment_of_clarity,undetermined,0.71,0.72,The pattern describes. It does not determine.,
+910-04-13,walked_outside,undetermined,0.49,0.34,Starting the synthesis paper. About limits. About what the method cannot do.,
+910-04-21,walked_outside,undetermined,0.36,0.38,The pattern describes. It does not determine.,
+910-04-23,reading_bagbu,undetermined,0.66,0.46,The pattern describes. It does not determine.,
+910-05-11,reading_bagbu,emerging_accidental_expert,0.57,0.52,Solta visits. We talked about uncertainty. Hers and mine.,
+910-05-15,wrote_in_notebook,eternal_student,0.54,0.28,Solta visits. We talked about uncertainty. Hers and mine.,
+910-05-17,wrote_in_notebook,eternal_student,0.58,0.46,A good reflection helps you see yourself. A fortune tells you what to become.,
+910-05-26,wrote_in_notebook,eternal_student,0.48,0.59,I am an Eternal Student. That is what I have been. Not what I must be.,
+910-05-28,moment_of_clarity,eternal_student,0.31,0.3,Solta visits. We talked about uncertainty. Hers and mine.,
+910-06-09,routine_work,eternal_student,0.56,0.57,Read Bagbu again. Not for encoding. Just to read.,
+910-06-20,wrote_in_notebook,refusing_classification,0.75,0.57,Walked outside today. Did not classify the walk. Just walked.,
+910-06-23,wrote_in_notebook,refusing_classification,0.78,0.56,Walked outside today. Did not classify the walk. Just walked.,
+910-06-24,made_small_journey,eternal_student,0.85,0.49,He wrote: the world is larger than my patterns. He was right.,
+910-07-20,paper_published,accepting_eternal_student,0.52,0.21,Still encode journeys. No longer encode myself. The difference matters.,
+910-09-05,routine_work,emerging_accidental_expert,0.55,0.09,Work continues. The method continues. I continue. We are not the same thing.,
+910-11-12,routine_work,no_longer_classifying,0.84,0.42,Made a small journey to the eastern markets. Three days. No encoding.,
+911-02-18,productive_day,accepting_eternal_student,0.83,0.25,Work continues. The method continues. I continue. We are not the same thing.,
+911-06-30,moment_of_clarity,accepting_eternal_student,0.68,0.3,Still encode journeys. No longer encode myself. The difference matters.,
+911-10-15,moment_of_clarity,undetermined,0.77,0.46,"The archetypes are tools, not truths. I wrote that. I believe it now.",
+912-01-22,paper_published,emerging_accidental_expert,0.36,0.29,Solta's engine and my method: both reveal uncertainty. That is the point.,
+912-04-08,made_small_journey,emerging_accidental_expert,0.76,0.17,Solta's engine and my method: both reveal uncertainty. That is the point.,
+912-08-17,productive_day,accepting_eternal_student,0.3,0.24,Solta's engine and my method: both reveal uncertainty. That is the point.,
+912-12-01,colleague_interaction,slow_climb,0.38,0.41,Still encode journeys. No longer encode myself. The difference matters.,

@@ -1,0 +1,151 @@
+validation_id,prediction_id,validation_source,validation_type,validation_date,validator,accuracy_assessed,methodology,notes
+VAL-0001,KETH-0002,Western Archive records,refuted,1884-04-12,Archivist Corpo,0.638,expert judgment,
+VAL-0002,KETH-0006,Guild Master assessment log,confirmed,1887-02-09,Guild Master Moll,0.609,trajectory extrapolation,
+VAL-0003,KETH-0048,Arbiter review document,partial,1899-02-03,Arbiter Grentho,0.919,expert judgment,
+VAL-0004,KETH-0024,Survey Archives quarterly report,confirmed,1884-02-06,Archivist Corpo,0.647,expert judgment,
+VAL-0005,KETH-0007,Survey Archives quarterly report,partial,1853-09-03,Surveyor Tellis,0.875,direct measurement comparison,
+VAL-0006,KETH-0019,Western Archive records,confirmed,1902-12-18,Guild Master Moll,0.715,trajectory extrapolation,
+VAL-0007,KETH-0044,Guild Master assessment log,confirmed,1898-05-10,Surveyor Tellis,0.671,direct measurement comparison,
+VAL-0008,KETH-0011,Arbiter review document,refuted,1905-05-16,Arbiter Grentho,0.599,trajectory extrapolation,
+VAL-0009,KETH-0047,Council meeting minutes,unclear,1913-04-15,Arbiter Grentho,0.475,direct measurement comparison,
+VAL-0010,KETH-0026,Council meeting minutes,refuted,1892-06-15,Surveyor Tellis,0.637,trajectory extrapolation,
+VAL-0011,KETH-0020,Council meeting minutes,confirmed,1891-08-11,Guild Master Moll,0.931,statistical correlation,
+VAL-0012,KETH-0019,Council meeting minutes,confirmed,1912-06-13,Surveyor Tellis,0.849,expert judgment,
+VAL-0013,KETH-0024,Council meeting minutes,confirmed,1864-10-18,Guild Master Moll,0.775,direct measurement comparison,
+VAL-0014,KETH-0047,Guild Master assessment log,refuted,1909-05-27,Arbiter Grentho,0.85,expert judgment,
+VAL-0015,KETH-0044,Guild Master assessment log,partial,1913-04-09,Guild Master Moll,0.793,expert judgment,
+VAL-0016,KETH-0005,Council meeting minutes,refuted,1907-10-13,Archivist Corpo,0.699,statistical correlation,
+VAL-0017,KETH-0045,Survey Archives quarterly report,confirmed,1860-11-22,Surveyor Tellis,0.491,direct measurement comparison,
+VAL-0018,KETH-0037,Arbiter review document,refuted,1901-02-01,Arbiter Grentho,0.542,trajectory extrapolation,
+VAL-0019,KETH-0029,Western Archive records,refuted,1897-11-19,Guild Master Moll,0.59,direct measurement comparison,
+VAL-0020,KETH-0031,Arbiter review document,refuted,1863-02-04,Guild Master Moll,0.592,statistical correlation,
+VAL-0021,KETH-0030,Council meeting minutes,refuted,1876-06-16,Arbiter Grentho,0.641,expert judgment,
+VAL-0022,KETH-0021,Arbiter review document,confirmed,1858-12-04,Arbiter Grentho,0.867,direct measurement comparison,
+VAL-0023,KETH-0044,Guild Master assessment log,unclear,1871-03-18,Guild Master Moll,0.582,expert judgment,
+VAL-0024,KETH-0030,Western Archive records,confirmed,1879-03-21,Archivist Corpo,0.618,trajectory extrapolation,
+VAL-0025,KETH-0029,Western Archive records,confirmed,1904-12-07,Guild Master Moll,0.553,direct measurement comparison,
+VAL-0026,KETH-0037,Council meeting minutes,confirmed,1863-06-11,Guild Master Moll,0.652,statistical correlation,
+VAL-0027,KETH-0043,Council meeting minutes,partial,1912-10-13,Archivist Corpo,0.723,statistical correlation,
+VAL-0028,KETH-0023,Council meeting minutes,confirmed,1908-11-23,Surveyor Tellis,0.905,direct measurement comparison,
+VAL-0029,KETH-0044,Arbiter review document,confirmed,1867-04-10,Arbiter Grentho,0.501,trajectory extrapolation,
+VAL-0030,KETH-0033,Western Archive records,unclear,1899-03-19,Archivist Corpo,0.633,expert judgment,
+VAL-0031,KETH-0041,Council meeting minutes,confirmed,1872-08-10,Guild Master Moll,0.503,expert judgment,
+VAL-0032,KETH-0040,Arbiter review document,confirmed,1856-08-05,Guild Master Moll,0.848,expert judgment,
+VAL-0033,KETH-0027,Western Archive records,refuted,1912-08-06,Arbiter Grentho,0.711,trajectory extrapolation,
+VAL-0034,KETH-0019,Arbiter review document,confirmed,1854-09-10,Guild Master Moll,0.829,expert judgment,
+VAL-0035,KETH-0036,Survey Archives quarterly report,unclear,1915-02-09,Surveyor Tellis,0.698,direct measurement comparison,
+VAL-0036,KETH-0049,Council meeting minutes,confirmed,1906-07-04,Guild Master Moll,0.564,direct measurement comparison,
+VAL-0037,KETH-0029,Arbiter review document,confirmed,1883-08-28,Arbiter Grentho,0.827,trajectory extrapolation,
+VAL-0038,KETH-0014,Council meeting minutes,refuted,1894-03-20,Guild Master Moll,0.832,trajectory extrapolation,
+VAL-0039,KETH-0004,Council meeting minutes,partial,1894-10-18,Guild Master Moll,0.578,statistical correlation,
+VAL-0040,KETH-0019,Council meeting minutes,confirmed,1884-03-25,Archivist Corpo,0.905,statistical correlation,
+VAL-0041,KETH-0042,Guild Master assessment log,confirmed,1866-03-23,Surveyor Tellis,0.856,expert judgment,
+VAL-0042,KETH-0032,Council meeting minutes,partial,1868-11-14,Archivist Corpo,0.649,direct measurement comparison,
+VAL-0043,KETH-0026,Arbiter review document,partial,1915-08-16,Surveyor Tellis,0.72,direct measurement comparison,
+VAL-0044,KETH-0047,Arbiter review document,confirmed,1908-09-13,Guild Master Moll,0.932,trajectory extrapolation,
+VAL-0045,KETH-0032,Arbiter review document,partial,1884-06-18,Guild Master Moll,0.711,expert judgment,
+VAL-0046,KETH-0022,Survey Archives quarterly report,confirmed,1856-11-26,Archivist Corpo,0.409,trajectory extrapolation,
+VAL-0047,KETH-0029,Survey Archives quarterly report,refuted,1908-04-23,Guild Master Moll,0.885,statistical correlation,
+VAL-0048,KETH-0011,Survey Archives quarterly report,partial,1885-05-03,Surveyor Tellis,0.765,trajectory extrapolation,
+VAL-0049,KETH-0004,Arbiter review document,confirmed,1900-07-21,Arbiter Grentho,0.787,direct measurement comparison,
+VAL-0050,KETH-0014,Survey Archives quarterly report,confirmed,1911-10-08,Archivist Corpo,0.405,statistical correlation,
+VAL-0051,KETH-0016,1849 SW Collapse Post-Incident Report,confirmed,1849-07-16,Arbiter Grentho,0.707,post-collapse measurement analysis,Validation of 1847 memorandum predictions
+VAL-0052,KETH-0016,1849 SW Collapse Post-Incident Report,partial,1849-06-04,Chief Surveyor Kell,0.742,post-collapse measurement analysis,Validation of 1847 memorandum predictions
+VAL-0053,KETH-0019,1849 SW Collapse Post-Incident Report,confirmed,1849-11-25,Arbiter Grentho,0.81,post-collapse measurement analysis,Validation of 1847 memorandum predictions
+VAL-0054,KETH-0025,1849 SW Collapse Post-Incident Report,confirmed,1849-06-17,Guild Assessment Board,0.652,post-collapse measurement analysis,Validation of 1847 memorandum predictions
+VAL-0055,KETH-0025,1849 SW Collapse Post-Incident Report,confirmed,1849-12-12,Guild Assessment Board,0.703,post-collapse measurement analysis,Validation of 1847 memorandum predictions
+VAL-0056,KETH-0017,1849 SW Collapse Post-Incident Report,confirmed,1849-12-28,Arbiter Grentho,0.672,post-collapse measurement analysis,Validation of 1847 memorandum predictions
+VAL-0057,KETH-0016,1849 SW Collapse Post-Incident Report,confirmed,1849-06-19,Guild Assessment Board,0.746,post-collapse measurement analysis,Validation of 1847 memorandum predictions
+VAL-0058,KETH-0021,1849 SW Collapse Post-Incident Report,confirmed,1849-07-08,Chief Surveyor Kell,0.811,post-collapse measurement analysis,Validation of 1847 memorandum predictions
+VAL-0059,KETH-0018,1849 SW Collapse Post-Incident Report,partial,1849-09-25,Guild Assessment Board,0.657,post-collapse measurement analysis,Validation of 1847 memorandum predictions
+VAL-0060,KETH-0025,1849 SW Collapse Post-Incident Report,confirmed,1849-08-17,Guild Assessment Board,0.777,post-collapse measurement analysis,Validation of 1847 memorandum predictions
+VAL-0061,KC-0137,Thenna Keth field verification,partial,916-07-04,Guild Master Moll,0.729,expert panel consensus,
+VAL-0062,KETH-0047,Thenna Keth field verification,partial,921-10-14,Surveyor Tellis,0.531,statistical backtesting,
+VAL-0063,KETH-0003,Cord reconstruction analysis,partial,917-04-02,Arbiter Grentho,0.637,historical record cross-reference,
+VAL-0064,KC-0154,Cord reconstruction analysis,unclear,922-09-18,Engineer Krehl,,modern survey comparison,
+VAL-0065,KETH-0020,School of Applied Geometry review,refuted,921-11-25,Thenna Keth,0.752,historical record cross-reference,
+VAL-0066,KETH-0008,Cord reconstruction analysis,partial,919-02-15,Engineer Krehl,0.595,resonance mode extraction,
+VAL-0067,KETH-0002,Independent surveyor report,confirmed,918-03-16,Surveyor Tellis,0.818,historical record cross-reference,
+VAL-0068,KETH-0048,Independent surveyor report,pending,918-05-24,Arbiter Grentho,0.464,statistical backtesting,
+VAL-0069,KC-0167,Guild Master Moll assessment,unclear,917-10-21,Arbiter Grentho,0.69,modern survey comparison,
+VAL-0070,KC-0172,Guild Master Moll assessment,confirmed,918-05-25,Arbiter Grentho,0.767,modern survey comparison,
+VAL-0071,KETH-0095,Cord reconstruction analysis,pending,916-01-08,Arbiter Grentho,0.63,resonance mode extraction,
+VAL-0072,KETH-0005,Thenna Keth field verification,partial,922-04-14,Prebel Cord,0.838,expert panel consensus,
+VAL-0073,KETH-0023,Senate requested evaluation,confirmed,919-07-03,Archivist Corpo,0.814,historical record cross-reference,
+VAL-0074,KC-0111,Cord reconstruction analysis,partial,923-04-10,Engineer Krehl,0.798,resonance mode extraction,
+VAL-0075,KC-0198,Independent surveyor report,refuted,919-04-05,Arbiter Grentho,0.461,expert panel consensus,
+VAL-0076,KC-0181,Guild Master Moll assessment,confirmed,916-11-13,Thenna Keth,0.595,resonance mode extraction,
+VAL-0077,KETH-0054,Cord reconstruction analysis,confirmed,923-12-09,Arbiter Grentho,,resonance mode extraction,
+VAL-0078,KC-0189,School of Applied Geometry review,unclear,921-02-19,Arbiter Grentho,0.749,statistical backtesting,Observation problem suspected
+VAL-0079,KETH-0056,Thenna Keth field verification,partial,918-05-28,Surveyor Tellis,0.635,historical record cross-reference,
+VAL-0080,KC-0157,Thenna Keth field verification,confirmed,920-04-05,Thenna Keth,0.501,modern survey comparison,
+VAL-0081,KETH-0058,Guild Master Moll assessment,partial,923-02-18,Surveyor Tellis,0.548,historical record cross-reference,
+VAL-0082,KETH-0012,Independent surveyor report,partial,918-12-23,Engineer Krehl,,historical record cross-reference,
+VAL-0083,KETH-0012,Guild Master Moll assessment,partial,919-09-02,Prebel Cord,0.835,resonance mode extraction,
+VAL-0084,KETH-0052,Senate requested evaluation,unclear,923-09-08,Arbiter Grentho,0.828,resonance mode extraction,Observation problem suspected
+VAL-0085,KETH-0100,Thenna Keth field verification,confirmed,919-07-12,Prebel Cord,0.753,expert panel consensus,
+VAL-0086,KC-0109,Cord reconstruction analysis,confirmed,916-11-15,Thenna Keth,,historical record cross-reference,
+VAL-0087,KETH-0006,Cord reconstruction analysis,confirmed,923-10-14,Thenna Keth,0.683,statistical backtesting,
+VAL-0088,KETH-0046,Thenna Keth field verification,partial,919-05-15,Guild Master Moll,,expert panel consensus,
+VAL-0089,KETH-0083,School of Applied Geometry review,partial,920-09-16,Arbiter Grentho,,statistical backtesting,
+VAL-0090,KETH-0054,Independent surveyor report,pending,919-09-08,Prebel Cord,0.706,modern survey comparison,
+VAL-0091,KC-0200,School of Applied Geometry review,refuted,921-08-12,Engineer Krehl,0.633,resonance mode extraction,Observation problem suspected
+VAL-0092,KETH-0004,Cord reconstruction analysis,pending,920-08-17,Surveyor Tellis,0.92,resonance mode extraction,
+VAL-0093,KETH-0032,Guild Master Moll assessment,refuted,919-12-02,Thenna Keth,0.553,statistical backtesting,
+VAL-0094,KC-0122,Thenna Keth field verification,refuted,918-06-26,Prebel Cord,0.88,modern survey comparison,
+VAL-0095,KC-0172,Senate requested evaluation,confirmed,918-08-18,Surveyor Tellis,,modern survey comparison,
+VAL-0096,KETH-0008,Senate requested evaluation,confirmed,919-01-17,Archivist Corpo,,expert panel consensus,
+VAL-0097,KETH-0017,Independent surveyor report,confirmed,921-06-02,Arbiter Grentho,,resonance mode extraction,
+VAL-0098,KC-0109,Independent surveyor report,unclear,921-07-19,Arbiter Grentho,0.602,resonance mode extraction,
+VAL-0099,KC-0181,Independent surveyor report,partial,923-03-23,Engineer Krehl,0.887,historical record cross-reference,
+VAL-0100,KETH-0049,Independent surveyor report,unclear,920-05-05,Guild Master Moll,0.896,expert panel consensus,
+VAL-0101,KC-0198,Thenna Keth field verification,refuted,916-06-26,Engineer Krehl,0.716,statistical backtesting,
+VAL-0102,KETH-0043,Thenna Keth field verification,partial,917-06-06,Prebel Cord,0.492,historical record cross-reference,
+VAL-0103,KC-0101,Thenna Keth field verification,confirmed,920-12-03,Surveyor Tellis,0.501,modern survey comparison,
+VAL-0104,KETH-0050,Independent surveyor report,partial,923-03-14,Archivist Corpo,0.615,statistical backtesting,Observation problem suspected
+VAL-0105,KC-0200,Thenna Keth field verification,partial,919-02-26,Thenna Keth,,modern survey comparison,
+VAL-0106,KC-0133,Cord reconstruction analysis,partial,917-03-13,Guild Master Moll,0.707,modern survey comparison,
+VAL-0107,KC-0176,Independent surveyor report,confirmed,923-07-21,Guild Master Moll,0.654,modern survey comparison,Observation problem suspected
+VAL-0108,KETH-0025,Independent surveyor report,refuted,922-12-24,Engineer Krehl,0.582,resonance mode extraction,Observation problem suspected
+VAL-0109,KC-0173,Thenna Keth field verification,confirmed,923-06-01,Archivist Corpo,,expert panel consensus,
+VAL-0110,KETH-0004,Thenna Keth field verification,unclear,919-05-03,Archivist Corpo,0.595,statistical backtesting,
+VAL-0111,KC-0162,Cord reconstruction analysis,unclear,920-09-13,Guild Master Moll,0.629,resonance mode extraction,
+VAL-0112,KC-0105,School of Applied Geometry review,partial,920-05-08,Thenna Keth,0.479,modern survey comparison,
+VAL-0113,KETH-0086,Senate requested evaluation,partial,921-10-08,Engineer Krehl,,statistical backtesting,
+VAL-0114,KC-0168,Senate requested evaluation,confirmed,923-08-10,Arbiter Grentho,0.851,modern survey comparison,
+VAL-0115,KETH-0016,Thenna Keth field verification,confirmed,923-04-26,Guild Master Moll,,statistical backtesting,Observation problem suspected
+VAL-0116,KC-0125,Senate requested evaluation,partial,918-06-24,Thenna Keth,,statistical backtesting,
+VAL-0117,KC-0170,Guild Master Moll assessment,refuted,921-08-28,Arbiter Grentho,0.743,expert panel consensus,
+VAL-0118,KETH-0054,Thenna Keth field verification,refuted,918-10-19,Thenna Keth,0.497,modern survey comparison,
+VAL-0119,KETH-0037,School of Applied Geometry review,partial,921-07-21,Archivist Corpo,0.672,resonance mode extraction,
+VAL-0120,KETH-0080,Cord reconstruction analysis,partial,922-06-23,Guild Master Moll,,statistical backtesting,
+VAL-0121,KC-0102,Guild Master Moll assessment,partial,921-05-27,Archivist Corpo,0.772,resonance mode extraction,Observation problem suspected
+VAL-0122,KC-0199,Guild Master Moll assessment,unclear,921-07-20,Prebel Cord,,statistical backtesting,
+VAL-0123,KC-0194,Senate requested evaluation,pending,923-06-27,Arbiter Grentho,0.525,historical record cross-reference,
+VAL-0124,KC-0117,Thenna Keth field verification,confirmed,916-04-27,Arbiter Grentho,0.665,historical record cross-reference,
+VAL-0125,KETH-0036,School of Applied Geometry review,refuted,921-07-21,Arbiter Grentho,0.564,statistical backtesting,
+VAL-0126,KETH-0061,Guild Master Moll assessment,confirmed,921-05-24,Thenna Keth,0.584,statistical backtesting,Observation problem suspected
+VAL-0127,KETH-0029,Independent surveyor report,confirmed,919-05-21,Archivist Corpo,0.856,modern survey comparison,
+VAL-0128,KC-0116,Senate requested evaluation,pending,918-01-08,Surveyor Tellis,0.893,historical record cross-reference,
+VAL-0129,KC-0148,School of Applied Geometry review,partial,921-04-15,Surveyor Tellis,0.837,statistical backtesting,
+VAL-0130,KETH-0066,Senate requested evaluation,unclear,921-10-20,Surveyor Tellis,0.501,modern survey comparison,
+VAL-0131,KC-0188,NE Quadrant Monitoring Initiative,partial,921-05-21,Guild Master Moll,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0132,KC-0200,NE Quadrant Monitoring Initiative,partial,920-03-17,Prebel Cord,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0133,KC-0181,NE Quadrant Monitoring Initiative,unclear,921-11-05,Guild Master Moll,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0134,KC-0180,NE Quadrant Monitoring Initiative,unclear,921-05-14,Thenna Keth,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0135,KC-0192,NE Quadrant Monitoring Initiative,pending,923-12-19,Prebel Cord,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0136,KC-0190,NE Quadrant Monitoring Initiative,pending,923-11-26,Thenna Keth,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0137,KC-0191,NE Quadrant Monitoring Initiative,partial,920-11-18,Prebel Cord,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0138,KC-0189,NE Quadrant Monitoring Initiative,pending,922-03-24,Thenna Keth,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0139,KC-0197,NE Quadrant Monitoring Initiative,pending,921-11-03,Prebel Cord,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0140,KC-0191,NE Quadrant Monitoring Initiative,pending,921-07-26,Thenna Keth,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0141,KC-0191,NE Quadrant Monitoring Initiative,partial,923-05-15,Prebel Cord,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0142,KC-0195,NE Quadrant Monitoring Initiative,pending,923-10-20,Prebel Cord,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0143,KC-0195,NE Quadrant Monitoring Initiative,pending,923-02-28,Guild Master Moll,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0144,KC-0192,NE Quadrant Monitoring Initiative,partial,922-01-28,Prebel Cord,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0145,KC-0184,NE Quadrant Monitoring Initiative,pending,921-07-19,Thenna Keth,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0146,KC-0184,NE Quadrant Monitoring Initiative,partial,920-02-16,Thenna Keth,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0147,KC-0200,NE Quadrant Monitoring Initiative,pending,921-11-02,Prebel Cord,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0148,KC-0194,NE Quadrant Monitoring Initiative,partial,920-03-19,Prebel Cord,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0149,KC-0195,NE Quadrant Monitoring Initiative,pending,920-10-14,Guild Master Moll,,continuous monitoring,Within breach window (915-931); monitoring ongoing
+VAL-0150,KC-0193,NE Quadrant Monitoring Initiative,unclear,922-08-13,Prebel Cord,,continuous monitoring,Within breach window (915-931); monitoring ongoing

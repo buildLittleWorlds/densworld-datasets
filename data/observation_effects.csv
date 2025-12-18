@@ -1,0 +1,51 @@
+effect_id,prediction_id,publication_status,publication_date,publication_scope,behavioral_response,response_type,outcome_deviation,deviation_direction,observation_effect_suspected,keth_mechanism,notes
+OBS-001,KETH-0005,suppressed,,,none,,0.01,minor_worse,no,,Unpublished prediction; serves as baseline
+OBS-002,KETH-0048,suppressed,,,none,,0.135,minor_better,no,,Unpublished prediction; serves as baseline
+OBS-003,KETH-0068,suppressed,,,none,,-0.093,minor_worse,no,,Unpublished prediction; serves as baseline
+OBS-004,KETH-0001,suppressed,,,none,,0.038,none,no,,Unpublished prediction; serves as baseline
+OBS-005,KETH-0029,suppressed,,,none,,0.058,minor_better,no,,Unpublished prediction; serves as baseline
+OBS-006,KETH-0040,suppressed,,,none,,-0.111,minor_better,no,,Unpublished prediction; serves as baseline
+OBS-007,KETH-0065,suppressed,,,none,,0.027,none,no,,Unpublished prediction; serves as baseline
+OBS-008,KETH-0009,suppressed,,,none,,0.097,minor_better,no,,Unpublished prediction; serves as baseline
+OBS-009,KETH-0038,suppressed,,,none,,-0.013,minor_worse,no,,Unpublished prediction; serves as baseline
+OBS-010,KETH-0077,suppressed,,,none,,0.007,minor_better,no,,Unpublished prediction; serves as baseline
+OBS-011,KETH-0018,suppressed,,,none,,-0.047,minor_better,no,,Unpublished prediction; serves as baseline
+OBS-012,KETH-0046,suppressed,,,none,,0.075,none,no,,Unpublished prediction; serves as baseline
+OBS-013,KETH-0052,suppressed,,,none,,-0.144,none,no,,Unpublished prediction; serves as baseline
+OBS-014,KETH-0017,suppressed,,,none,,-0.087,none,no,,Unpublished prediction; serves as baseline
+OBS-015,KETH-0076,suppressed,,,none,,0.001,none,no,,Unpublished prediction; serves as baseline
+OBS-016,KETH-0015,limited,1847-10-01,Council only,minimal,official_filing_no_action,0.028,none,unknown,behavioral_response,1847 memorandum; Council filed without action
+OBS-017,KETH-0016,limited,1847-10-01,Council only,minimal,official_filing_no_action,0.031,worse,unknown,behavioral_response,1847 memorandum; Council filed without action
+OBS-018,KETH-0017,limited,1847-10-01,Council only,minimal,official_filing_no_action,0.17,none,unknown,behavioral_response,1847 memorandum; Council filed without action
+OBS-019,KETH-0018,limited,1847-10-01,Council only,minimal,official_filing_no_action,0.108,none,unknown,behavioral_response,1847 memorandum; Council filed without action
+OBS-020,KETH-0019,limited,1847-10-01,Council only,minimal,official_filing_no_action,0.132,none,unknown,behavioral_response,1847 memorandum; Council filed without action
+OBS-021,KC-0106,confidential,922-07-04,Guild_Master_only,none,no_effect,-0.077,none,no,measurement_contamination,
+OBS-022,KC-0126,confidential,921-05-14,internal_memo,none,no_effect,0.037,none,no,observer_effect,
+OBS-023,KC-0179,confidential,922-02-17,principal_researchers,none,no_effect,0.04,none,no,observer_effect,
+OBS-024,KC-0114,limited,922-09-07,School_faculty,survey_adjustment,methodological,-0.08,none,possible,observer_effect,
+OBS-025,KC-0120,limited,923-08-11,Senate_Committee,none,no_effect,0.024,none,possible,behavioral_response,
+OBS-026,KC-0114,confidential,921-02-25,internal_memo,none,no_effect,0.034,none,no,behavioral_response,
+OBS-027,KC-0132,confidential,922-05-15,principal_researchers,none,no_effect,-0.054,none,no,behavioral_response,
+OBS-028,KC-0137,public,921-01-01,general_announcement,monitoring_increase,neutral,-0.002,none,yes,measurement_contamination,
+OBS-029,KC-0142,public,923-02-12,newspaper_coverage,speculation,market_disruption,0.369,worse,probable,,
+OBS-030,KC-0151,public,922-07-21,general_announcement,monitoring_increase,neutral,0.285,worse,uncertain,behavioral_response,
+OBS-031,KC-0120,limited,923-11-15,School_faculty,survey_adjustment,methodological,0.169,worse,uncertain,observer_effect,
+OBS-032,KC-0178,limited,921-08-16,Guild_leadership,none,no_effect,0.158,worse,no,behavioral_response,
+OBS-033,KC-0108,public,923-12-19,public_lecture,monitoring_increase,neutral,-0.291,better,uncertain,observer_effect,
+OBS-034,KC-0166,confidential,923-02-14,principal_researchers,none,no_effect,0.038,none,no,,
+OBS-035,KC-0144,confidential,922-03-27,principal_researchers,none,no_effect,0.035,none,no,behavioral_response,
+OBS-036,KC-0120,confidential,922-03-03,principal_researchers,none,no_effect,0.07,none,no,observer_effect,
+OBS-037,KC-0135,limited,922-07-27,Senate_Committee,none,no_effect,-0.072,none,no,,
+OBS-038,KC-0173,public,922-02-16,public_lecture,flight,self_fulfilling,0.3,worse,probable,behavioral_response,
+OBS-039,KC-0151,public,921-10-20,public_lecture,flight,self_fulfilling,0.09,none,yes,measurement_contamination,
+OBS-040,KC-0158,public,922-06-18,public_lecture,monitoring_increase,neutral,0.278,worse,yes,observer_effect,
+OBS-041,KC-0195,confidential,922-06-15,Guild Master Moll only,survey_adjustment,methodological,,pending,uncertain,all_mechanisms_possible,Moll increased NE monitoring
+OBS-042,KC-0196,limited,922-07-15,Senate Committee,political_debate,political,,pending,uncertain,all_mechanisms_possible,Senator Orn demanded access
+OBS-043,KC-0197,limited,922-08-15,School of Applied Geometry,academic_review,scholarly,,pending,uncertain,all_mechanisms_possible,Theoretical interest; no action
+OBS-044,KC-0198,pending,,,none,,,pending,uncertain,all_mechanisms_possible,NE prediction not yet publicly released
+OBS-045,KC-0157,suppressed,918-11-08,internal_only,minimal,monitoring_increase,-0.015,minor_worse,uncertain,,
+OBS-046,KC-0170,limited,920-12-04,internal_only,minimal,monitoring_increase,0.124,minor_better,no,,
+OBS-047,KC-0152,suppressed,920-10-07,internal_only,minimal,monitoring_increase,-0.07,minor_better,no,,
+OBS-048,KC-0158,suppressed,920-02-25,researchers,minimal,monitoring_increase,-0.088,minor_worse,no,,
+OBS-049,KC-0157,confidential,922-09-05,researchers,minimal,monitoring_increase,-0.099,minor_worse,no,,
+OBS-050,KC-0170,confidential,922-08-17,internal_only,minimal,monitoring_increase,0.073,none,no,,

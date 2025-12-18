@@ -1,0 +1,31 @@
+assessment_id,assessment_date,assessor,time_horizon,risk_level,affected_sectors,confidence,basis,source,recommended_action,action_taken,notes
+CRA-001,1855-12-01,Vornis Keth,70_years,low,"Central Archive, NE-1 through NE-5",beta,mathematical_projection,keth_original,none_recommended,none,Unpublished; found in notebooks
+CRA-002,1856-03-01,Vornis Keth,60_years,medium,"Central Archive, NE-1 through NE-5",gamma,ridge_erosion_analysis,keth_original,monitor_ne_boundary,none,Unpublished; found in notebooks
+CRA-003,1856-09-01,Vornis Keth,50_years,medium,"Central Archive, NE-1 through NE-5",gamma,refined_timeline,keth_original,begin_contingency_planning,none,Unpublished; found in notebooks
+CRA-004,1857-06-01,Vornis Keth,40_years,high,"Central Archive, NE-1 through NE-5",gamma,cascade_modeling,keth_original,relocate_critical_archives,none,Unpublished; found in notebooks
+CRA-005,1858-01-15,Vornis Keth,35_years,high,"Central Archive, NE-1 through NE-5",gamma,final_assessment,keth_original,full_preparation_recommended,none,Unpublished; found in notebooks
+CRA-006,916-09-01,Prebel Cord,7_years,medium,"Central Archive, Capital District, NE-1 through NE-8",beta,notebook_recovery,keth_cord_extended,verify_keth_calculations,verification_begun,
+CRA-007,917-06-01,Prebel Cord,6_years,medium,"Central Archive, Capital District, NE-1 through NE-8",beta,calculation_verified,keth_cord_extended,extend_analysis,analysis_extended,
+CRA-008,918-03-01,Prebel Cord,5_years,high,"Central Archive, Capital District, NE-1 through NE-8",beta,refined_timeline,keth_cord_extended,confidential_warning,guild_master_notified,
+CRA-009,919-01-01,Prebel Cord,4_years,high,"Central Archive, Capital District, NE-1 through NE-8",beta,breach_window_entered,keth_cord_extended,increase_monitoring,ne_monitoring_increased,
+CRA-010,920-06-01,Prebel Cord,3_years,high,"Central Archive, Capital District, NE-1 through NE-8",beta,no_breach_yet,keth_cord_extended,maintain_vigilance,monitoring_continued,
+CRA-011,921-01-01,Prebel Cord,2_years,high,"Central Archive, Capital District, NE-1 through NE-8",beta,senate_inquiry,keth_cord_extended,prepare_disclosure,senate_briefed,
+CRA-012,921-09-01,Prebel Cord,18_months,high,"Central Archive, Capital District, NE-1 through NE-8",beta,observation_problem_discovered,keth_cord_extended,reassess_publication,publication_delayed,
+CRA-013,922-03-01,Keth-Cord joint,12_months,critical,"Central Archive, Capital District, NE-1 through NE-8",beta,publication_debate,keth_cord_extended,limited_disclosure,limited_disclosure_begun,
+CRA-014,922-09-01,Keth-Cord joint,6_months,critical,"Central Archive, Capital District, NE-1 through NE-8",beta,approaching_window_center,keth_cord_extended,final_preparations,preparation_ongoing,
+CRA-015,923-01-01,Keth-Cord joint,immediate,critical,"Central Archive, Capital District, NE-1 through NE-8",beta,window_center_reached,keth_cord_extended,maximum_vigilance,all_systems_active,
+CRA-016,919-08-15,Guild Master Moll,4_years,medium,varies,gamma,skeptical_review,independent_assessment,independent_verification,under_review,
+CRA-017,920-04-01,Arbiter Review Board,3_years,low,varies,alpha,methodology_concerns,independent_assessment,further_study_recommended,ongoing,
+CRA-018,921-06-01,Senate Committee,2_years,medium,varies,beta,political_assessment,independent_assessment,budget_allocation_debate,ongoing,
+CRA-019,922-01-01,Engineer Krehl,1_year,high,varies,beta,structural_analysis,independent_assessment,moat_reinforcement_possible,ongoing,
+CRA-020,922-08-01,Archivist Corpo,6_months,high,varies,alpha,archive_vulnerability,independent_assessment,manuscript_copying_begun,partial,
+CRA-021,922-10-23,Guild assessment team,1_years,high,Capital periphery,gamma,periodic_review,keth_cord_extended,continue_monitoring,acknowledged,
+CRA-022,923-11-07,Thenna Keth,0_years,medium,Capital periphery,gamma,periodic_review,keth_cord_extended,continue_monitoring,acknowledged,
+CRA-023,921-11-05,Guild assessment team,2_years,medium,Capital periphery,gamma,periodic_review,keth_cord_extended,continue_monitoring,acknowledged,
+CRA-024,919-06-18,Senate subcommittee,4_years,high,Capital periphery,gamma,periodic_review,keth_cord_extended,continue_monitoring,acknowledged,
+CRA-025,922-01-17,Thenna Keth,1_years,medium,Archive District,beta,periodic_review,keth_cord_extended,continue_monitoring,acknowledged,
+CRA-026,919-11-02,Thenna Keth,4_years,high,NE quadrant,gamma,periodic_review,keth_cord_extended,continue_monitoring,acknowledged,
+CRA-027,921-03-27,Thenna Keth,2_years,high,NE quadrant,beta,periodic_review,keth_cord_extended,continue_monitoring,acknowledged,
+CRA-028,921-08-04,Guild assessment team,2_years,medium,Capital periphery,gamma,periodic_review,keth_cord_extended,continue_monitoring,acknowledged,
+CRA-029,920-09-26,Guild assessment team,3_years,high,Capital periphery,beta,periodic_review,keth_cord_extended,continue_monitoring,acknowledged,
+CRA-030,922-07-14,Guild assessment team,1_years,high,Capital periphery,beta,periodic_review,keth_cord_extended,continue_monitoring,acknowledged,

@@ -1,0 +1,93 @@
+claim_id,system_name,claim_text,claim_type,claim_strength,source,date,assessment_verdict
+CL-083,Individual Signature Analysis,Yeller numbers appear in career transitions,capability,modest,Census Bureau,905,qualified
+CL-086,Individual Signature Analysis,Method provides vocabulary for discussing trajectories,capability,modest,Census Bureau,905,qualified
+CL-089,Individual Signature Analysis,~17% of journeys remain properly unclassifiable,accuracy,modest,Census Bureau,905,validated
+CL-001,Provenance Engine,Can authenticate any manuscript,capability,revolutionary,Capital Archive,906,unfalsifiable
+CL-004,Provenance Engine,Known forgeries score below 0.20,accuracy,modest,Capital Archive,906,qualified
+CL-009,Provenance Engine,Orthographic markers indicate age,capability,modest,Capital Archive,906,validated
+CL-011,Provenance Engine,Parchment dating correlates with provenance,capability,modest,Capital Archive,906,validated
+CL-016,Provenance Engine,Political independence of scoring methodology,capability,strong,Capital Archive,906,overstated
+CL-017,Provenance Engine,Four-marker system covers all authentication factors,scope,modest,Capital Archive,906,validated
+CL-018,Provenance Engine,Engine development will continue improving,timeline,modest,Capital Archive,906,qualified
+CL-079,Individual Signature Analysis,Can classify journeys into reliable archetypes,capability,strong,Census Bureau,906,validated
+CL-080,Individual Signature Analysis,Archetypes are actionable for individual planning,capability,strong,Census Bureau,906,validated
+CL-081,Individual Signature Analysis,Four journey archetypes cover major trajectory types,scope,modest,Census Bureau,906,validated
+CL-082,Individual Signature Analysis,Career archetypes extend journey methodology,capability,modest,Census Bureau,906,validated
+CL-002,Provenance Engine,Produces numerical confidence scores,capability,modest,Capital Archive,907,qualified
+CL-008,Provenance Engine,Citation cascade analysis improves accuracy,capability,modest,Capital Archive,907,validated
+CL-015,Provenance Engine,Weighted composite improves on individual markers,accuracy,modest,Capital Archive,907,qualified
+CL-085,Individual Signature Analysis,"Archetypes illuminate tendency, not fate",capability,modest,Census Bureau,907,validated
+CL-087,Individual Signature Analysis,Can inform mandatory classification policy,scope,strong,Census Bureau,907,overstated
+CL-088,Individual Signature Analysis,"Patterns are rhythms, not cages",capability,modest,Census Bureau,907,validated
+CL-091,Individual Signature Analysis,Archetype vocabulary aids institutional policy,capability,modest,Census Bureau,907,validated
+CL-003,Provenance Engine,Achieves breakthrough in authentication methodology,capability,revolutionary,Capital Archive,908,qualified
+CL-014,Provenance Engine,Method is reproducible across analysts,capability,modest,Capital Archive,908,validated
+CL-084,Individual Signature Analysis,Self-analysis methodology is replicable,capability,modest,Census Bureau,908,validated
+CL-090,Individual Signature Analysis,Bagbu data represents typical trader experience,scope,modest,Census Bureau,908,validated
+CL-092,Individual Signature Analysis,Burnout Arc predicts career collapse timing,capability,strong,Census Bureau,908,qualified
+CL-005,Provenance Engine,Verified documents score above 0.80,accuracy,modest,Capital Archive,909,validated
+CL-006,Provenance Engine,Will resolve longstanding disputes,scope,strong,Capital Archive,909,qualified
+CL-007,Provenance Engine,Brings certainty to uncertain documents,capability,revolutionary,Capital Archive,909,unfalsifiable
+CL-010,Provenance Engine,Ink composition analysis is reliable,capability,modest,Capital Archive,909,validated
+CL-012,Provenance Engine,System reduces authentication disputes,scope,strong,Capital Archive,909,overstated
+CL-013,Provenance Engine,MUP zone scores provide actionable information,capability,strong,Capital Archive,909,validated
+CL-064,Autonomous Expeditions,Systematic methods prevent errors that kill experienced crews,capability,strong,Capital Exploration Office,910,overstated
+CL-065,Autonomous Expeditions,Pattern-based decision trees encode wisdom of successful expeditions,capability,strong,Capital Exploration Office,910,overstated
+CL-066,Autonomous Expeditions,Protocol v2.0 recognizes territorial stability tiers,capability,modest,Capital Exploration Office,910,validated
+CL-071,Autonomous Expeditions,Tier 3 guidance provides useful reference,capability,modest,Capital Exploration Office,910,validated
+CL-075,Autonomous Expeditions,Can be deployed in boundary territory,scope,strong,Capital Exploration Office,910,overstated
+CL-077,Autonomous Expeditions,Kellith testimony informed revision process,capability,modest,Capital Exploration Office,910,qualified
+CL-068,Autonomous Expeditions,Unknown Unknown Rule institutionalizes human intuition,capability,modest,Capital Exploration Office,911,validated
+CL-070,Autonomous Expeditions,Override documentation improves organizational learning,capability,modest,Capital Exploration Office,911,validated
+CL-072,Autonomous Expeditions,Discovery Mandate protects serendipitous exploration,capability,modest,Capital Exploration Office,911,validated
+CL-076,Autonomous Expeditions,Training framework standardizes leader preparation,capability,modest,Capital Exploration Office,911,qualified
+CL-020,Pattern Book,Environmental precursors permit early warning,capability,strong,Yeller Quarry Research Institute,912,validated
+CL-021,Pattern Book,Captures grammar of creature behavior,capability,revolutionary,Yeller Quarry Research Institute,912,qualified
+CL-022,Pattern Book,Better than chance at predicting Maw Beast activity,accuracy,modest,Yeller Quarry Research Institute,912,validated
+CL-030,Pattern Book,Correlation data identifies high-risk conditions,capability,modest,Yeller Quarry Research Institute,912,validated
+CL-031,Pattern Book,Will enable early warning systems,timeline,strong,Yeller Quarry Research Institute,912,qualified
+CL-034,Pattern Book,Wind direction influences creature behavior,capability,modest,Yeller Quarry Research Institute,912,qualified
+CL-067,Autonomous Expeditions,System knows its own limits,capability,modest,Capital Exploration Office,912,qualified
+CL-078,Autonomous Expeditions,Protocol Interpreter role bridges algorithm and judgment,capability,modest,Capital Exploration Office,912,qualified
+CL-026,Pattern Book,Systematic observation improves on oral tradition,capability,modest,Yeller Quarry Research Institute,913,validated
+CL-029,Pattern Book,Barometric pressure indicates danger windows,capability,modest,Yeller Quarry Research Institute,913,validated
+CL-063,Autonomous Expeditions,Protocol-guided expeditions show 12% reduction in failure rates,accuracy,strong,Capital Exploration Office,913,validated
+CL-069,Autonomous Expeditions,Decision trees encode expert knowledge,capability,modest,Capital Exploration Office,913,qualified
+CL-073,Autonomous Expeditions,Tiered system demonstrates learning from A-3 disaster,capability,modest,Capital Exploration Office,913,validated
+CL-074,Autonomous Expeditions,Will transform expedition planning,timeline,revolutionary,Capital Exploration Office,913,overstated
+CL-019,Pattern Book,Achieves 73% accuracy in predicting creature emergence,accuracy,strong,Yeller Quarry Research Institute,914,qualified
+CL-024,Pattern Book,Prime number patterns predict creature cycles,capability,modest,Yeller Quarry Research Institute,914,qualified
+CL-027,Pattern Book,Model generalizes across Quarry regions,scope,strong,Yeller Quarry Research Institute,914,overstated
+CL-028,Pattern Book,Temperature correlates with emergence patterns,capability,modest,Yeller Quarry Research Institute,914,qualified
+CL-033,Pattern Book,Seasonal patterns are stable year over year,accuracy,modest,Yeller Quarry Research Institute,914,qualified
+CL-023,Pattern Book,Environmental sequences form predictive sentences,capability,strong,Yeller Quarry Research Institute,915,validated
+CL-025,Pattern Book,Folk rules can be systematically validated,capability,modest,Yeller Quarry Research Institute,915,validated
+CL-032,Pattern Book,Experienced trappers' knowledge now teachable,capability,strong,Yeller Quarry Research Institute,915,validated
+CL-035,Pattern Book,3000 observation records provide sufficient basis,scope,modest,Yeller Quarry Research Institute,915,validated
+CL-037,Predictive Cartography,Method can predict spatial instability decades in advance,capability,revolutionary,Cartographer's Guild,918,qualified
+CL-039,Predictive Cartography,Capital may enter unstable zone by Year 1000,scope,revolutionary,Cartographer's Guild,918,overstated
+CL-041,Predictive Cartography,Method accounts for observer effects,capability,modest,Cartographer's Guild,918,validated
+CL-042,Predictive Cartography,Boundary drift acceleration is measurable,capability,modest,Cartographer's Guild,918,validated
+CL-043,Predictive Cartography,Historical fit exceeds alternative models,accuracy,strong,Cartographer's Guild,918,overstated
+CL-044,Predictive Cartography,Simple extrapolation achieves only 78% accuracy,accuracy,modest,Cartographer's Guild,918,qualified
+CL-045,Predictive Cartography,Method identifies territories at risk of dissolution,capability,strong,Cartographer's Guild,918,validated
+CL-049,Predictive Cartography,Boundary surveys validate prediction framework,accuracy,modest,Cartographer's Guild,918,validated
+CL-055,Simulated Citizens,Observation data informs intervention timing,capability,modest,Klutch Community College,918,validated
+CL-057,Simulated Citizens,System can model individual student trajectories,capability,strong,Klutch Community College,918,validated
+CL-038,Predictive Cartography,Western Dens will experience accelerating instability,scope,revolutionary,Cartographer's Guild,919,overstated
+CL-050,Simulated Citizens,Predictive models can identify at-risk students,capability,strong,Klutch Community College,919,validated
+CL-056,Simulated Citizens,Behavioral prediction improves with more data,capability,strong,Klutch Community College,919,overstated
+CL-058,Simulated Citizens,Early warning prevents academic failure,scope,strong,Klutch Community College,919,qualified
+CL-059,Simulated Citizens,Interventions are evidence-based and effective,capability,strong,Klutch Community College,919,qualified
+CL-060,Simulated Citizens,Fountain group patterns demonstrate social effects,capability,modest,Klutch Community College,919,validated
+CL-062,Simulated Citizens,Student specialists can apply model recommendations,capability,modest,Klutch Community College,919,validated
+CL-036,Predictive Cartography,Historical validation achieves 91% accuracy,accuracy,strong,Cartographer's Guild,920,overstated
+CL-040,Predictive Cartography,Keth's mathematics are internally consistent,capability,modest,Cartographer's Guild,921,validated
+CL-046,Predictive Cartography,Recovered manuscripts reveal lost mathematical tradition,capability,modest,Cartographer's Guild,921,qualified
+CL-047,Predictive Cartography,Keth's framework is philosophically coherent,capability,modest,Cartographer's Guild,921,qualified
+CL-048,Predictive Cartography,Prebel Effect compatible with Keth method,capability,strong,Cartographer's Guild,921,overstated
+CL-051,Simulated Citizens,Early intervention improves outcomes,capability,strong,Klutch Community College,921,overstated
+CL-052,Simulated Citizens,Student success can be systematically engineered,capability,revolutionary,Klutch Community College,921,unfalsifiable
+CL-053,Simulated Citizens,Model achieves 72% accuracy for standard students,accuracy,modest,Klutch Community College,921,qualified
+CL-054,Simulated Citizens,Anomaly detection identifies non-standard trajectories,capability,modest,Klutch Community College,921,qualified
+CL-061,Simulated Citizens,Model distinguishes goal-directed behavior,capability,modest,Klutch Community College,921,qualified
