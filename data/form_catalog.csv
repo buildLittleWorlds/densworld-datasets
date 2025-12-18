@@ -1,0 +1,201 @@
+form_id,form_name,category,prime_association,complexity,stability,known_readers,dens_proximity,description
+FL-001,The Quintic Cycle,major_attractor,5,7,0.92,47,stable_region,Five-phase behavioral pattern of extraordinary stability observed in stakdur and reed-spinner. The paradigmatic attractor.
+FL-002,The Binary Division,major_attractor,2,3,0.98,156,stable_region,Universal bifurcation form. Every creature that reproduces reads from this fundamental pattern.
+FL-003,The Breathing Mode,minor_attractor,,5,0.75,23,boundary,Rhythmic oscillation observed in boundary regions. Systems inhale and exhale through morphospace.
+FL-004,The Tension,major_attractor,11,8,0.90,31,stable_region,Highly stable form characterized by predictable interval timing. Prime-11 associated resistance pattern.
+FL-005,The Triad Form,major_attractor,3,5,0.88,42,stable_region,Three-phase cyclic pattern. Strong prime-3 association. Observed in cave bats and territorial creatures.
+FL-006,The Septenary Rhythm,major_attractor,7,6,0.85,28,stable_region,Seven-day cycling pattern observed in multiple species. Lunar correspondence disputed.
+FL-007,The Dissolution Spiral,unstable,,9,0.22,3,dens_interior,Near-chaos configuration where form coherence breaks down. Observed only near the Dens.
+FL-008,Minor Attractor VIII,minor_attractor,,4,0.72,18,stable_region,Stable resting form within the outer Quintic Basin. Creatures pause here before transitions.
+FL-009,The Gathering Pulse,minor_attractor,5,6,0.78,15,stable_region,Social clustering pattern. Bodies coordinate without apparent communication.
+FL-010,The Scatter Form,transitional,,5,0.45,8,boundary,Dispersal pattern. Systems pass through during territorial dissolution.
+FL-011,The Deep Rest,major_attractor,2,2,0.95,89,stable_region,Hibernation and dormancy form. Extremely stable but limited behavioral range.
+FL-012,The Escalation,transitional,3,7,0.42,12,boundary,Aggression amplification pattern. Conflict spirals read from this form.
+FL-013,The Boundary Weave,minor_attractor,7,6,0.68,21,stable_region,Territorial marking pattern. Space and behavior intertwined.
+FL-014,Minor Attractor XIV,minor_attractor,,5,0.68,14,stable_region,Transitional form on the slopes of the Tension Basin.
+FL-015,The Return Cycle,minor_attractor,3,4,0.76,27,stable_region,Migratory pattern. Systems depart and return on predictable intervals.
+FL-016,The Flicker State,unstable,,6,0.31,5,dens_adjacent,Rapid oscillation between forms. Observed in Dens-proximate creatures.
+FL-017,The Alignment,minor_attractor,11,7,0.71,11,stable_region,Collective orientation form. Multiple bodies face the same direction.
+FL-018,Transitional XVIII,transitional,,4,0.45,9,boundary,Ridge-adjacent form. Systems pass through but do not rest.
+FL-019,The Waiting Form,minor_attractor,,3,0.82,34,stable_region,Patient observation state. Predators and prey share this form.
+FL-020,The Emergence,transitional,5,8,0.38,7,boundary,Transition from dormancy to activity. Brief but structured.
+FL-021,The Nested Pattern,minor_attractor,2,6,0.73,16,stable_region,Recursive behavioral structure. Forms within forms.
+FL-022,Dens-Adjacent XXII,unstable,,8,0.35,4,dens_interior,Unstable form in Dens-correlated region. High local curvature.
+FL-023,The Chase Sequence,transitional,7,7,0.41,19,boundary,Predator-prey pursuit pattern. Duration varies but structure is constant.
+FL-024,The Settlement,minor_attractor,3,4,0.79,22,stable_region,Colony establishment form. Social insects and burrowing creatures.
+FL-025,The Vigil,minor_attractor,11,5,0.74,13,stable_region,Sustained alertness pattern. Guards and sentinels.
+FL-026,The Spiral Descent,transitional,,6,0.36,6,dens_adjacent,Decay trajectory. Systems spiral toward lower complexity.
+FL-027,The Five-Body Form,major_attractor,5,10,0.88,1,stable_region,Single identity across multiple bodies. Unique manifestation: Yeller.
+FL-028,The Communion,minor_attractor,3,7,0.69,8,stable_region,Information exchange pattern. Social learning form.
+FL-029,The Fracture,unstable,,8,0.28,3,dens_interior,Identity dissolution form. Observed in severely stressed systems.
+FL-030,The Reconstruction,transitional,2,7,0.43,5,boundary,Recovery from trauma pattern. Systems rebuild from simpler forms.
+FL-031,The Western Mode,major_attractor,7,6,0.96,38,stable_region,Deep attractor drawing systems from a wide catchment. Keth's spatial observations.
+FL-032,The Foraging Loop,minor_attractor,5,4,0.77,29,stable_region,Resource acquisition cycle. Regular intervals of search and return.
+FL-033,The Territorial Pulse,minor_attractor,7,5,0.72,24,stable_region,Boundary patrol pattern. Regular circumnavigation.
+FL-034,Tertiary Minor,minor_attractor,,5,0.72,11,stable_region,Local minimum in the morphospace landscape.
+FL-035,The Wide Passage,transitional,,6,0.33,7,boundary,Passage form connecting distinct regions of morphospace.
+FL-036,The Coupling,minor_attractor,2,6,0.81,45,stable_region,Pair-bonding form. Reproductive and social.
+FL-037,Curved Transition,transitional,2,5,0.42,6,boundary,Passage form connecting distinct regions of morphospace.
+FL-038,The Mourning Cycle,transitional,5,6,0.44,12,boundary,Loss processing pattern. Duration correlates with bond strength.
+FL-039,The Resonant Attractor,major_attractor,5,7,0.92,33,stable_region,Strong attractor with high escape velocity.
+FL-040,The Exploration Phase,minor_attractor,7,5,0.65,26,stable_region,Novel territory investigation. Curiosity formalized.
+FL-041,The Den Form,minor_attractor,3,3,0.84,51,stable_region,Shelter occupation pattern. Safety seeking.
+FL-042,Secondary Resonant Pattern,minor_attractor,,5,0.67,14,stable_region,Stable resting form on Basin 008 slopes.
+FL-043,The Compression,transitional,,7,0.39,4,dens_adjacent,System simplification under stress. Behavioral range narrows.
+FL-044,The Expansion,transitional,5,7,0.41,6,boundary,Behavioral range widening. Recovery or development.
+FL-045,The Dormancy Gate,transitional,2,4,0.47,18,boundary,Entry point to Deep Rest form. Seasonal triggering.
+FL-046,The Outer State,major_attractor,5,6,0.97,35,stable_region,Deep attractor drawing systems from wide catchment.
+FL-047,The Flat Attractor,major_attractor,11,5,0.99,42,stable_region,One of the foundational forms in morphospace.
+FL-048,The Signal Form,minor_attractor,3,5,0.70,20,stable_region,Communication pattern. Warning calls and mating displays.
+FL-049,Inner Dissolution,unstable,,8,0.12,2,dens_interior,Highly unstable form in negative curvature region.
+FL-050,The Tertiary Configuration,minor_attractor,,5,0.59,9,stable_region,Local minimum in morphospace landscape.
+FL-051,The Narrow Instability,unstable,3,7,0.14,2,dens_adjacent,Highly unstable form. Manifestation observed in Yeller Quarry.
+FL-052,The Rhythm,minor_attractor,5,4,0.76,31,stable_region,Basic activity cycle. Waking and sleeping.
+FL-053,Secondary Minor,minor_attractor,11,5,0.54,8,stable_region,Stable resting form on Breathing Hollow slopes.
+FL-054,The Resonant Form,major_attractor,3,6,0.87,29,stable_region,Deep attractor drawing systems from wide catchment.
+FL-055,Eastern Waypoint,transitional,,5,0.32,5,boundary,Passage form connecting distinct regions.
+FL-056,The Parental Mode,minor_attractor,2,6,0.83,47,stable_region,Offspring care pattern. Protective behaviors.
+FL-057,The Orbital Bridge,transitional,,5,0.26,3,boundary,Waypoint between Basin 021 and adjacent territory.
+FL-058,The Play Form,minor_attractor,5,5,0.69,22,stable_region,Non-utilitarian behavior pattern. Learning through simulation.
+FL-059,The Deep Configuration,minor_attractor,,5,0.59,10,stable_region,Secondary attractor providing intermediate stability.
+FL-060,Spiral Transition,transitional,,5,0.39,4,boundary,Transitional state with limited persistence.
+FL-061,The Hunt Sequence,transitional,7,8,0.44,17,boundary,Complete predation pattern from detection to capture.
+FL-062,Transitional Axial,transitional,3,5,0.39,5,boundary,Transitional state with limited persistence.
+FL-063,The Startle Response,transitional,2,3,0.48,63,stable_region,Rapid threat response. Innate and universal.
+FL-064,The Anchor Form,major_attractor,11,4,0.91,36,stable_region,Stability maintenance pattern. Systems return here under stress.
+FL-065,The Cascade,transitional,3,8,0.37,6,boundary,Chain reaction behavioral pattern. One triggers many.
+FL-066,The Separation,transitional,2,5,0.43,28,boundary,Dispersal from group or location. Individuation.
+FL-067,The Aggregation,minor_attractor,5,5,0.74,25,stable_region,Spontaneous clustering. Flocking and schooling.
+FL-068,The Threshold,transitional,,6,0.35,11,boundary,Decision point form. Systems choose direction.
+FL-069,The Stasis,minor_attractor,,2,0.89,44,stable_region,Complete behavioral cessation. Playing dead.
+FL-070,The Persistence,minor_attractor,11,6,0.71,14,stable_region,Goal maintenance under distraction. Focus form.
+FL-071,The Dens Echo,unstable,,9,0.18,2,dens_interior,Form that mirrors observer. Recursive instability.
+FL-072,The Avoidance Path,minor_attractor,7,4,0.73,32,stable_region,Obstacle circumnavigation. Spatial problem solving.
+FL-073,The Memory Trace,minor_attractor,5,6,0.66,15,stable_region,Pattern retention form. Learning consolidation.
+FL-074,The Renewal Cycle,transitional,3,5,0.42,9,boundary,Regeneration and recovery pattern.
+FL-075,The Symbiosis Form,minor_attractor,2,7,0.78,18,stable_region,Cooperative multi-species pattern.
+FL-076,The Mimicry,minor_attractor,7,7,0.64,12,stable_region,Form copying pattern. Deception or learning.
+FL-077,The Rhythm Lock,minor_attractor,5,5,0.75,21,stable_region,Synchronization with external cycle.
+FL-078,The Dens Gate,unstable,,10,0.21,3,dens_interior,Entry point to chaotic region. Barrier thinness.
+FL-079,The Migration Arc,major_attractor,7,7,0.86,34,stable_region,Long-distance movement pattern. Seasonal or life-stage.
+FL-080,The Social Rank,minor_attractor,3,6,0.72,27,stable_region,Hierarchy maintenance pattern. Dominance and submission.
+FL-081,The Exploration Web,minor_attractor,5,6,0.68,16,stable_region,Systematic territory mapping. Sequential investigation.
+FL-082,The Emergency Response,transitional,2,5,0.46,52,boundary,Crisis reaction pattern. Rapid behavioral shift.
+FL-083,The Grooming Cycle,minor_attractor,3,3,0.81,38,stable_region,Self-maintenance pattern. Hygiene and comfort.
+FL-084,The Warning Display,minor_attractor,7,5,0.70,24,stable_region,Threat communication form. Posture and vocalization.
+FL-085,The Retreat Form,transitional,2,4,0.44,31,boundary,Strategic withdrawal pattern. Safety seeking.
+FL-086,The Nesting Form,minor_attractor,5,5,0.79,29,stable_region,Shelter construction pattern. Environmental modification.
+FL-087,The Courtship Spiral,minor_attractor,5,7,0.71,23,stable_region,Mate attraction pattern. Display and evaluation.
+FL-088,The Feeding Bout,minor_attractor,3,4,0.77,48,stable_region,Resource consumption pattern. Duration and intensity.
+FL-089,The Territorial Challenge,transitional,7,7,0.43,19,boundary,Boundary dispute pattern. Escalation sequence.
+FL-090,The Roosting Form,minor_attractor,5,3,0.82,33,stable_region,Communal rest pattern. Thermal and protective.
+FL-091,The Teaching Mode,minor_attractor,3,7,0.67,11,stable_region,Knowledge transfer pattern. Demonstration and correction.
+FL-092,The Dispersal Wave,transitional,5,6,0.38,14,boundary,Population distribution pattern. Overcrowding response.
+FL-093,The Recognition Sequence,minor_attractor,2,4,0.74,26,stable_region,Identity verification pattern. Friend or foe.
+FL-094,The Panic Response,transitional,2,6,0.41,47,dens_adjacent,Collective fear pattern. Contagious flight.
+FL-095,The Approach Form,transitional,3,4,0.48,35,boundary,Cautious investigation pattern. Risk assessment.
+FL-096,The Defense Cluster,minor_attractor,5,6,0.73,20,stable_region,Collective protection pattern. Mutual defense.
+FL-097,The Submission Form,minor_attractor,2,3,0.80,41,stable_region,Conflict de-escalation pattern. Appeasement.
+FL-098,The Transition Cascade,transitional,7,8,0.34,4,boundary,Multi-stage behavioral shift. Development or crisis.
+FL-099,The Stable Core,major_attractor,11,4,0.94,56,stable_region,Central attractor. Systems default here.
+FL-100,The Edge Dance,unstable,5,9,0.25,4,dens_adjacent,Boundary oscillation form. Near-instability creativity.
+FL-101,The Calm State,minor_attractor,,2,0.86,62,stable_region,Baseline behavioral form. Resting metabolism.
+FL-102,The Fragment,unstable,,7,0.19,2,dens_interior,Incomplete form. Systems partially manifest.
+FL-103,The Watcher,minor_attractor,7,4,0.75,17,stable_region,Sustained observation pattern. Environmental monitoring.
+FL-104,The Phase Shift,transitional,3,6,0.40,8,boundary,Rapid state change. Threshold crossing.
+FL-105,The Dormant Seed,minor_attractor,2,3,0.88,35,stable_region,Potential form. Awaiting activation conditions.
+FL-106,The Cascade Trigger,transitional,5,7,0.36,6,boundary,Initiator form. Starts chain reactions.
+FL-107,The Refuge Form,minor_attractor,3,4,0.79,28,stable_region,Safety seeking pattern. Cover and concealment.
+FL-108,The Circadian Lock,major_attractor,5,4,0.89,74,stable_region,Day-night cycling. Fundamental temporal form.
+FL-109,The Stress Response,transitional,2,5,0.43,58,boundary,Threat processing pattern. Preparation for action.
+FL-110,The Learning Phase,transitional,3,6,0.45,22,boundary,Skill acquisition pattern. Trial and modification.
+FL-111,The Memory Form,minor_attractor,5,5,0.71,19,stable_region,Pattern storage form. Experiential retention.
+FL-112,The Seasonal Shift,transitional,7,6,0.42,31,boundary,Annual cycle transition. Environmental tracking.
+FL-113,The Social Cluster,minor_attractor,3,5,0.76,27,stable_region,Group cohesion pattern. Affiliation maintenance.
+FL-114,The Edge State,unstable,,8,0.23,3,dens_interior,Boundary condition form. Near chaos.
+FL-115,The Territorial Core,minor_attractor,7,5,0.78,25,stable_region,Home range center. Maximum security.
+FL-116,The Approach Avoidance,transitional,2,5,0.44,21,boundary,Conflict form. Attraction and fear.
+FL-117,The Renewal Gate,transitional,3,5,0.41,12,boundary,Recovery entry point. Healing initiation.
+FL-118,The Dominant Display,minor_attractor,11,6,0.70,18,stable_region,Status maintenance pattern. Authority signals.
+FL-119,The Flow State,minor_attractor,5,6,0.72,14,stable_region,Optimal performance pattern. Effortless action.
+FL-120,The Dissolution Gate,unstable,,9,0.20,2,dens_interior,Entry to instability. Form breakdown initiation.
+FL-121,The Vigilance Mode,minor_attractor,7,4,0.77,32,stable_region,Sustained alertness. Threat monitoring.
+FL-122,The Drift Form,transitional,,5,0.38,7,boundary,Undirected movement. Passive exploration.
+FL-123,The Anchor Point,minor_attractor,11,4,0.81,24,stable_region,Spatial reference form. Orientation maintenance.
+FL-124,The Pulse Form,minor_attractor,5,5,0.74,26,stable_region,Rhythmic activity pattern. Regular intervals.
+FL-125,The Emergence Gate,transitional,3,6,0.39,9,boundary,Activation threshold. Dormancy exit.
+FL-126,The Core Stability,major_attractor,2,3,0.96,81,stable_region,Fundamental stable form. Baseline attractor.
+FL-127,The Tension Release,transitional,5,5,0.43,16,boundary,Stress discharge pattern. Catharsis.
+FL-128,The Learning Lock,minor_attractor,3,5,0.70,18,stable_region,Skill consolidation form. Practice crystallization.
+FL-129,The Edge Flicker,unstable,,8,0.22,3,dens_adjacent,Boundary instability. Rapid oscillation.
+FL-130,The Safe Harbor,minor_attractor,7,4,0.83,37,stable_region,Maximum security form. Retreat destination.
+FL-131,The Transition Path,transitional,5,6,0.40,11,boundary,Movement between attractors. Standard route.
+FL-132,The Observation Mode,minor_attractor,7,4,0.76,23,stable_region,Active watching pattern. Information gathering.
+FL-133,The Rhythmic Lock,minor_attractor,5,4,0.78,29,stable_region,Entrainment form. External synchronization.
+FL-134,The Cascade Form,transitional,3,7,0.37,8,boundary,Chain reaction pattern. Spreading activation.
+FL-135,The Baseline,major_attractor,2,2,0.97,93,stable_region,Default state. Minimum energy configuration.
+FL-136,The Approach Mode,transitional,3,4,0.46,28,boundary,Investigation initiation. Curiosity engagement.
+FL-137,The Territorial Edge,minor_attractor,7,5,0.69,19,stable_region,Boundary zone form. Defensive vigilance.
+FL-138,The Fade,unstable,,7,0.24,3,dens_adjacent,Gradual dissolution. Slow form breakdown.
+FL-139,The Peak Form,minor_attractor,11,7,0.71,12,stable_region,Maximum intensity pattern. Optimal performance.
+FL-140,The Transition Wave,transitional,5,6,0.39,7,boundary,Group state change. Collective shift.
+FL-141,The Shelter Mode,minor_attractor,3,4,0.80,34,stable_region,Protection seeking. Environmental refuge.
+FL-142,The Hunt Gate,transitional,7,7,0.42,14,boundary,Predation initiation. Kill sequence start.
+FL-143,The Social Lock,minor_attractor,3,5,0.75,22,stable_region,Group cohesion form. Bond maintenance.
+FL-144,The Dens Whisper,unstable,,9,0.17,2,dens_interior,Form transmission from chaotic region. Partial manifestation.
+FL-145,The Recovery Form,transitional,2,5,0.44,19,boundary,Healing pattern. Damage repair.
+FL-146,The Synchrony,minor_attractor,5,5,0.73,25,stable_region,Collective timing. Group coordination.
+FL-147,The Territorial Lock,minor_attractor,7,5,0.77,21,stable_region,Boundary maintenance. Space defense.
+FL-148,The Edge Dance II,unstable,7,8,0.26,3,dens_adjacent,Secondary boundary oscillation. Creative instability.
+FL-149,The Stable Mode,major_attractor,11,3,0.95,67,stable_region,High-stability attractor. Default destination.
+FL-150,The Transition Lock,transitional,3,5,0.41,10,boundary,Passage form stabilization. Brief rest.
+FL-151,The Observation Gate,transitional,7,4,0.47,15,boundary,Surveillance initiation. Watch start.
+FL-152,The Cluster Core,minor_attractor,5,5,0.76,23,stable_region,Social group center. Affiliation focus.
+FL-153,The Dissolution Trace,unstable,,8,0.21,2,dens_interior,Breakdown pathway. Gradual decoherence.
+FL-154,The Rhythmic Pulse,minor_attractor,5,4,0.79,27,stable_region,Regular oscillation. Temporal structure.
+FL-155,The Approach Gate,transitional,3,4,0.45,24,boundary,Investigation entry. Curiosity threshold.
+FL-156,The Territorial Wave,transitional,7,6,0.42,13,boundary,Boundary expansion or contraction. Space flux.
+FL-157,The Safe Core,major_attractor,2,3,0.93,58,stable_region,Maximum security attractor. Refuge destination.
+FL-158,The Learning Gate,transitional,3,5,0.44,17,boundary,Skill acquisition entry. Practice initiation.
+FL-159,The Cascade Wave,transitional,5,7,0.36,5,boundary,Spreading chain reaction. Activation propagation.
+FL-160,The Observation Lock,minor_attractor,7,4,0.74,20,stable_region,Sustained surveillance. Watch maintenance.
+FL-161,The Dens Ripple,unstable,,8,0.19,2,dens_interior,Chaotic influence spreading. Form disturbance.
+FL-162,The Recovery Gate,transitional,2,5,0.43,14,boundary,Healing initiation. Repair threshold.
+FL-163,The Social Wave,transitional,3,5,0.41,11,boundary,Group state propagation. Collective shift.
+FL-164,The Territorial Core II,minor_attractor,7,5,0.75,18,stable_region,Secondary home range center. Backup refuge.
+FL-165,The Rhythmic Gate,transitional,5,4,0.46,16,boundary,Entrainment initiation. Sync threshold.
+FL-166,The Stable Lock,major_attractor,11,3,0.94,54,stable_region,High-stability maintenance. Default persistence.
+FL-167,The Edge Trace,unstable,,7,0.23,3,dens_adjacent,Boundary pathway. Near-chaos route.
+FL-168,The Cluster Gate,transitional,5,5,0.44,12,boundary,Aggregation initiation. Group formation.
+FL-169,The Learning Wave,transitional,3,6,0.40,9,boundary,Skill propagation. Teaching spread.
+FL-170,The Shelter Gate,transitional,3,4,0.45,21,boundary,Protection seeking initiation. Refuge threshold.
+FL-171,The Hunt Form,transitional,7,7,0.43,16,boundary,Predation pattern. Kill sequence.
+FL-172,The Social Core,minor_attractor,3,5,0.77,26,stable_region,Group center. Affiliation focus.
+FL-173,The Dens Fragment,unstable,,9,0.16,1,dens_interior,Partial chaotic form. Incomplete manifestation.
+FL-174,The Recovery Wave,transitional,2,5,0.42,8,boundary,Healing propagation. Repair spreading.
+FL-175,The Observation Wave,transitional,7,4,0.44,10,boundary,Surveillance propagation. Watch spreading.
+FL-176,The Rhythmic Core,minor_attractor,5,4,0.80,30,stable_region,Temporal center. Rhythm source.
+FL-177,The Territorial Gate,transitional,7,5,0.43,15,boundary,Boundary crossing. Entry threshold.
+FL-178,The Cascade Core,transitional,5,6,0.38,6,boundary,Chain reaction center. Activation source.
+FL-179,The Safe Gate,transitional,2,3,0.48,32,boundary,Security entry. Refuge threshold.
+FL-180,The Learning Core,minor_attractor,3,5,0.71,15,stable_region,Skill center. Knowledge focus.
+FL-181,The Edge Core,unstable,,8,0.20,2,dens_interior,Boundary center. Instability focus.
+FL-182,The Social Gate,transitional,3,5,0.43,18,boundary,Affiliation entry. Group threshold.
+FL-183,The Shelter Core,minor_attractor,3,4,0.78,25,stable_region,Protection center. Refuge focus.
+FL-184,The Hunt Core,transitional,7,7,0.41,11,boundary,Predation center. Kill focus.
+FL-185,The Rhythmic Wave,transitional,5,4,0.44,13,boundary,Temporal propagation. Rhythm spreading.
+FL-186,The Stable Gate,major_attractor,11,3,0.92,49,stable_region,High-stability entry. Default threshold.
+FL-187,The Dens Void,unstable,,10,0.15,1,dens_interior,Complete chaotic zone. Form absence.
+FL-188,The Cluster Wave,transitional,5,5,0.42,9,boundary,Aggregation propagation. Group spreading.
+FL-189,The Territorial Wave II,transitional,7,5,0.41,10,boundary,Secondary boundary flux. Space oscillation.
+FL-190,The Learning Lock II,minor_attractor,3,5,0.69,12,stable_region,Secondary skill consolidation. Practice persistence.
+FL-191,The Safe Wave,transitional,2,3,0.46,23,boundary,Security propagation. Refuge spreading.
+FL-192,The Observation Core,minor_attractor,7,4,0.75,17,stable_region,Surveillance center. Watch focus.
+FL-193,The Edge Wave,unstable,,7,0.22,2,dens_adjacent,Boundary propagation. Instability spreading.
+FL-194,The Social Lock II,minor_attractor,3,5,0.74,19,stable_region,Secondary group cohesion. Bond persistence.
+FL-195,The Shelter Wave,transitional,3,4,0.44,14,boundary,Protection propagation. Refuge spreading.
+FL-196,The Hunt Wave,transitional,7,6,0.40,8,boundary,Predation propagation. Kill spreading.
+FL-197,The Rhythmic Lock II,minor_attractor,5,4,0.77,22,stable_region,Secondary entrainment. Sync persistence.
+FL-198,The Dens Echo II,unstable,,9,0.18,1,dens_interior,Secondary chaotic reflection. Form mirror.
+FL-199,The Cascade Gate,transitional,5,6,0.37,5,boundary,Chain reaction entry. Activation threshold.
+FL-200,The Stable Core II,major_attractor,2,3,0.91,45,stable_region,Secondary fundamental attractor. Backup baseline.

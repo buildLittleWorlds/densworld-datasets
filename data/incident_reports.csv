@@ -1,0 +1,41 @@
+incident_id,date,type,severity,location,sector,description,casualties,property_damage,response_type,policy_impact
+IR-001,1840-06-15,boundary_fluctuation,minor,Northern Sector,N,Routine boundary fluctuation observed by surveyors,0,0,observation,None
+IR-002,1840-09-22,surveyor_injury,moderate,Eastern Sector,E,Surveyor injured during routine observation,1,0,medical,Improved safety protocols discussed
+IR-003,1841-03-10,boundary_advance,moderate,SW Sector,SW,Boundary advance of 3 meters observed,0,1,monitoring,First SW concern documented
+IR-004,1841-08-15,creature_incursion,minor,Northern Sector,N,Stakdur crossed boundary briefly,0,0,observation,None
+IR-005,1842-02-20,moat_breach,moderate,SW Sector,SW,Minor breach in new moat section,0,2,repair,Reinforcement authorized
+IR-006,1842-07-05,surveyor_breakdown,moderate,SW Sector,SW,Surveyor reported cognitive disturbance,0,0,medical,Mental health support discussed
+IR-007,1843-01-18,boundary_fluctuation,minor,Eastern Sector,E,Seasonal fluctuation within normal range,0,0,observation,None
+IR-008,1843-06-25,property_damage,moderate,SW Sector,SW,Farm structure damaged by boundary shift,0,3,compensation,Evacuation planning initiated
+IR-009,1843-11-10,boundary_advance,high,SW Sector,SW,Significant boundary advance of 10 meters,0,5,emergency,SW Priority Declaration passed
+IR-010,1844-04-08,surveyor_injury,moderate,SW Sector,SW,Two surveyors injured during observation,2,0,medical,Danger pay discussed
+IR-011,1844-09-20,moat_breach,high,SW Sector,SW,Multiple breach points in moat,0,10,repair,Major reinforcement authorized
+IR-012,1845-02-15,boundary_advance,high,SW Sector,SW,Continuous advance threatening settlement,0,8,emergency,Depth increase authorized
+IR-013,1845-07-30,creature_incursion,moderate,SW Sector,SW,Multiple creature incursions reported,0,4,patrol,Enhanced security
+IR-014,1845-12-05,property_damage,high,SW Sector,SW,Multiple structures damaged,0,15,compensation,Evacuation preparations intensified
+IR-015,1846-03-18,boundary_advance,severe,SW Sector,SW,Rapid advance threatening moat integrity,0,20,emergency,Emergency declaration passed
+IR-016,1846-06-10,surveyor_casualties,severe,SW Sector,SW,Three surveyors killed during observation,3,0,emergency,Full mobilization authorized
+IR-017,1846-09-25,moat_failure,severe,SW Sector,SW,Major moat section collapsed,0,50,emergency,Peak funding authorized
+IR-018,1846-12-15,settlement_damage,severe,SW Sector,SW,Multiple settlements damaged,0,75,evacuation,Mandatory evacuation prepared
+IR-019,1847-02-28,boundary_surge,severe,SW Sector,SW,Massive boundary surge overwhelming defenses,0,100,emergency,Emergency powers discussed
+IR-020,1847-05-20,moat_failure,severe,SW Sector,SW,Second major moat failure,0,80,emergency,Crisis appropriation passed
+IR-021,1847-08-15,settlement_evacuation,high,SW Sector,SW,First settlements evacuated,0,150,evacuation,Refugee planning accelerated
+IR-022,1847-11-01,boundary_advance,severe,SW Sector,SW,Boundary advancing faster than repair,0,200,emergency,Research suspension ordered
+IR-023,1848-01-25,moat_collapse,catastrophic,SW Sector,SW,Major moat section catastrophic failure,5,500,emergency,Emergency Powers Act passed
+IR-024,1848-04-10,settlement_loss,catastrophic,SW Sector,SW,First settlement completely lost,2,1000,evacuation,Forced evacuation authorized
+IR-025,1848-07-18,mass_evacuation,severe,SW Sector,SW,Mass evacuation underway,0,2000,evacuation,Eighth appropriation passed
+IR-026,1848-10-05,moat_collapse,catastrophic,SW Sector,SW,Multiple moat sections failing,8,3000,emergency,Information control ordered
+IR-027,1849-01-15,total_collapse,catastrophic,SW Sector,SW,SW moat system total failure imminent,3,5000,emergency,Final reinforcement ordered
+IR-028,1849-03-20,boundary_breakthrough,catastrophic,SW Sector,SW,Boundary broke through all defenses,12,10000,collapse,Collapse declared
+IR-029,1849-04-01,refugee_crisis,severe,Capital Region,C,Mass refugee influx overwhelming services,0,500,humanitarian,Settlement Authority created
+IR-030,1849-05-10,settlement_loss,catastrophic,SW Sector,SW,Additional settlements lost to boundary,4,8000,evacuation,Moat dissolution discussed
+IR-031,1849-07-15,disease_outbreak,severe,Refugee Camps,C,Disease outbreak in refugee camps,15,100,medical,Emergency housing passed
+IR-032,1849-09-01,civil_unrest,moderate,Capital Region,C,Protests against refugee policy,0,50,security,Policy review initiated
+IR-033,1850-01-05,boundary_stabilization,moderate,SW Sector,SW,Boundary showing signs of stabilization,0,0,observation,Demolition authorized
+IR-034,1850-04-20,moat_demolition,minor,SW Sector,SW,Controlled demolition of remaining moat,0,0,demolition,Reformation continues
+IR-035,1850-08-10,northern_success,positive,Northern Sector,N,Prebel methodology showing positive results,0,0,observation,Trial expansion discussed
+IR-036,1851-02-01,boundary_retreat,positive,SW Sector,SW,Boundary showing natural retreat,0,0,observation,Minimalist policy gains support
+IR-037,1851-06-15,refugee_integration,positive,Capital Region,C,Refugee employment program succeeding,0,0,social,Integration continues
+IR-038,1851-10-01,boundary_stable,positive,All Sectors,ALL,Boundaries showing unprecedented stability,0,0,observation,Coexistence research funded
+IR-039,1852-03-01,policy_success,positive,Northern Sector,N,Prebel approach formally validated,0,0,observation,Comprehensive review completed
+IR-040,1852-08-15,memorial_dedication,positive,SW Sector,SW,Memorial to collapse victims dedicated,0,0,ceremonial,Historical preservation

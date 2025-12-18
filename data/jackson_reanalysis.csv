@@ -1,0 +1,51 @@
+evidence_id,source_type,date,original_interpretation,anster_reinterpretation,level_implication_original,level_implication_anster,key_quote,confidence,notes
+JR-001,attendance_record,2017-09-01,Regular attendance indicates commitment to academic goals,Regular attendance could mask goal-questioning - attending while questioning purpose,3,4,He attended every class but his notebook shows he was questioning why he attended,high,First semester attendance perfect
+JR-002,attendance_record,2018-05-15,Continued enrollment indicates stable goal-pursuit,Continued enrollment compatible with observing the system while questioning it,3,4,,moderate,Second year enrollment completed
+JR-003,notebook_entry,2017-10-12,Academic note-taking indicates engagement,Notes reveal meta-cognitive reflection on education itself,3,4,What am I learning and why do they want me to learn it?,high,Found in personal notebook
+JR-004,notebook_entry,2018-02-28,Question about course material,Question about the nature of questioning itself,3,4,Why do we accept that questions have answers?,high,Philosophy class notes
+JR-005,notebook_entry,2018-06-14,Reflection on career,Reflection on the concept of having a career,3,4,You cannot model freedom. You can only model compliance.,high,Critical passage for reanalysis
+JR-006,social_network,2017-2018,Maintained friendships indicates social goal-pursuit,Friendships could serve observation not attachment,3,4,,moderate,Social network stable throughout
+JR-007,academic_performance,2017-2018,High grades indicate goal-achievement,High grades compatible with questioning goals while meeting expectations,3,4,,moderate,3.8 GPA maintained
+JR-008,counselor_notes,2017-11-20,Normal adjustment to college,Counselor missed meta-cognitive content,3,4,Student seems well-adjusted but asks unusual questions about adjustment itself,moderate,Single counseling session
+JR-009,instructor_observation,2018-01-15,Engaged student asks good questions,Questions were about the structure of the class not just content,3,4,He asked why we were learning what we were learning,moderate,Philosophy instructor notes
+JR-010,instructor_observation,2018-03-22,Participates in class discussion,Participation included questioning the discussion framework,3,4,,moderate,Multiple instructors noted
+JR-011,peer_interview,2018-09-05,Friends describe him as thoughtful,Friends describe him as observing others while appearing to participate,3,4,He was always watching like he was studying us,high,Post-disappearance interview
+JR-012,peer_interview,2018-09-05,Described as friendly and normal,Described as friendly but somehow apart,3,4,He fit in perfectly but I never knew what he was really thinking,high,Post-disappearance interview
+JR-013,peer_interview,2018-09-06,Had normal college interests,Interests seemed performed rather than authentic,3,4,He did everything right but it was like he was testing what right meant,moderate,Post-disappearance interview
+JR-014,prediction_model,2018-08-15,94% probability of continued enrollment,Model assumed Level 3 goal-pursuit would continue,3,4,,high,Official prediction record
+JR-015,prediction_model,2018-08-15,No risk factors identified,Risk factors invisible because they were Level 4,3,4,,high,Model explicitly found no concerns
+JR-016,family_interview,2018-09-10,Normal family relationships,Family noted unusual questions since childhood,3,4,He always asked why we do what we do not just how,moderate,Post-disappearance interview
+JR-017,family_interview,2018-09-10,No signs of distress,Family interpreted questioning as philosophical interest not existential crisis,3,4,,moderate,Post-disappearance interview
+JR-018,library_records,2017-2018,Checked out philosophy books,Reading list shows progression from standard philosophy to meta-philosophy,3,4,,moderate,Library borrowing history
+JR-019,library_records,2018-05-01,Reading on existentialism,Reading specifically on freedom and authenticity,3,4,,moderate,Final semester reading
+JR-020,library_records,2018-07-15,Reading on Eastern philosophy,Interest in traditions that question goal-pursuit itself,3,4,,moderate,Summer reading
+JR-021,course_selection,2017-2018,Normal course selection,Course selection reveals systematic exploration of frameworks,3,4,,moderate,Took philosophy sociology psychology
+JR-022,course_selection,2018,Added independent study,Independent study on models of human behavior,3,4,Proposal title: Can Freedom Be Predicted?,high,Critical evidence
+JR-023,writing_sample,2017-12-10,Well-written essay on Kant,Essay questioned Kant's assumptions about rationality,3,4,Kant assumes we pursue goals but what if we can question pursuing itself?,high,Philosophy class essay
+JR-024,writing_sample,2018-04-20,Sociology paper on conformity,Paper concluded that conformity research assumes people want to belong,3,4,,moderate,Sociology class paper
+JR-025,writing_sample,2018-06-01,Psychology paper on motivation,Paper questioned whether motivation is observable or constructed by observers,3,4,,moderate,Psychology class paper
+JR-026,digital_footprint,2017-2018,Normal social media use,Social media presented curated self compatible with questioning authenticity,3,4,,low,Social media analysis
+JR-027,digital_footprint,2018-01-01,Stopped posting in final semester,Withdrawal from digital self-presentation,3,4,,moderate,Absence noted
+JR-028,roommate_interview,2018-09-05,Good roommate relationship,Roommate describes Jackson as present but somehow absent,3,4,He was there but I never felt like I knew him. He was always thinking.,moderate,Post-disappearance interview
+JR-029,roommate_interview,2018-09-05,Normal daily routine,Routine described as deliberate as if chosen consciously each day,3,4,,moderate,Post-disappearance interview
+JR-030,advisor_notes,2018-03-01,On track for graduation,Advisor noted Jackson asked about purpose of graduation,3,4,He asked what happens after graduation as if the question had no answer,moderate,Academic advising notes
+JR-031,advisor_notes,2018-05-15,Career planning meeting,Jackson questioned the concept of career planning,3,4,,moderate,Academic advising notes
+JR-032,club_records,2017-2018,Member of philosophy club,Attended discussions but often reframed questions,3,4,,low,Club participation records
+JR-033,club_records,2018-02-01,Started attending meditation group,Interest in practices that question thinking itself,3,4,,moderate,Club participation records
+JR-034,health_records,2017-2018,No mental health concerns,Health records would not capture Level 4 operation,3,4,,moderate,Health center records clean
+JR-035,exit_interview,2018-07-30,No exit interview conducted,Jackson left without official withdrawal,3,4,,high,No formal exit
+JR-036,final_email,2018-08-10,Brief goodbye message,Message compatible with Level 4 departure,3,4,I need to find out if I can be something other than what everyone expects,high,Only communication after departure
+JR-037,notebook_final,2018-08-01,Final notebook entry,Entry reveals Level 4 clarity,3,4,They will look for me where they think I should be. They will never find me.,high,Last dated entry
+JR-038,notebook_final,2018-08-01,Entry shows planning,Planning reveals meta-cognitive awareness of being observed,3,4,I know they are predicting. I am the thing that prediction cannot see.,high,Same entry continued
+JR-039,institutional_response,2018-09-01,Standard missing person protocols,Protocols assumed Level 3 disappearance,3,4,,high,Institution classified as at-risk student
+JR-040,prediction_review,2018-10-01,Model failure attributed to data gaps,Anster attributes failure to categorical error,3,4,The model was not wrong about the data. It was wrong about the category.,high,Formal reanalysis
+JR-041,anster_summary,2019-01-01,Original interpretation was reasonable,Original interpretation was reasonable but at wrong level,3,4,Every piece of evidence was correctly interpreted at Level 3. Jackson was Level 4.,high,Anster final assessment
+JR-042,methodology_note,2019-01-01,Prediction models are valid,Prediction models are valid within their categorical assumptions,3,4,You cannot predict Level 4 behavior with Level 3 models. The error was categorical.,high,Framework conclusion
+JR-043,comparison_case,2019-02-01,Compared to other dropouts,Other dropouts showed Level 3 distress. Jackson showed Level 4 clarity.,3,4,,moderate,Comparative analysis
+JR-044,retrospective,2019-03-01,Hindsight reveals warning signs,Signs were not warnings but Level 4 operation,3,4,What looked like warning signs were actually evidence of functioning at a higher level,moderate,Retrospective analysis
+JR-045,framework_implication,2019-04-01,Improve prediction models,Cannot improve prediction for Level 4 entities,3,4,Level 4 entities may choose to be unpredictable. Prediction improvement is categorical error.,high,Framework implication
+JR-046,theoretical_note,2019-05-01,Jackson was an outlier,Jackson was not an outlier but a different category,3,4,Calling him an outlier preserves the model. He was not an outlier. He was Level 4.,high,Theoretical clarification
+JR-047,practical_note,2019-06-01,Train staff to identify risk,Train staff to identify level not just risk,3,4,Risk assessment assumes Level 3. Level 4 entities may not register as at risk.,high,Practical recommendation
+JR-048,closing_note,2019-07-01,Case closed as voluntary departure,Case exemplifies Level 4 operation,3,4,Jackson chose to leave. The choice itself proved his level.,high,Final case note
+JR-049,legacy_note,2020-01-01,One unusual case,Paradigmatic example for framework,3,4,The Jackson case is not anomaly but paradigm. It shows why classification matters.,high,Long-term significance
+JR-050,current_status,ongoing,Location unknown,Unknown but irrelevant to classification,3,4,Where Jackson is does not matter. What matters is that we now understand why we could not predict.,high,Current case status

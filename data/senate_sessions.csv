@@ -1,0 +1,151 @@
+session_id,date,year,intensity,dominant_faction,attendance,duration_hours,special_topic,tension_score,outcome_summary
+SS-001,1840-01-15,1840,routine,traditionalist,18,3,,0.2,Standard business completed
+SS-002,1840-02-12,1840,routine,traditionalist,17,3,,0.1,Survey protocol discussed
+SS-003,1840-03-15,1840,heightened,traditionalist,20,4,Boundary Survey Protocol,0.3,Protocol approved
+SS-004,1840-04-10,1840,routine,traditionalist,16,3,,0.2,Budget review
+SS-005,1840-05-18,1840,routine,interventionist,18,3,,0.2,Moat proposal introduced
+SS-006,1840-06-22,1840,heightened,interventionist,21,5,Moat Engineering Appropriation,0.4,First moat funding approved
+SS-007,1840-07-14,1840,routine,traditionalist,15,3,,0.1,Summer session
+SS-008,1840-08-20,1840,routine,traditionalist,17,3,,0.2,Surveyor reports reviewed
+SS-009,1840-09-10,1840,routine,traditionalist,19,4,Survey Office Funding,0.2,Survey Office established
+SS-010,1840-10-15,1840,routine,traditionalist,16,3,,0.2,Fall business
+SS-011,1840-11-12,1840,routine,traditionalist,18,3,,0.1,Year-end planning
+SS-012,1840-12-18,1840,routine,traditionalist,14,2,,0.1,Recess preparation
+SS-013,1841-01-20,1841,routine,traditionalist,17,3,,0.2,New year opening
+SS-014,1841-02-18,1841,heightened,interventionist,20,4,Moat Extension,0.3,Extension authorized
+SS-015,1841-03-15,1841,routine,traditionalist,18,3,,0.2,Survey results presented
+SS-016,1841-04-22,1841,routine,traditionalist,16,3,,0.2,Spring business
+SS-017,1841-05-25,1841,routine,traditionalist,19,3,Surveyor Training,0.2,Training standards set
+SS-018,1841-06-18,1841,routine,interventionist,17,3,,0.2,Construction updates
+SS-019,1841-07-20,1841,routine,traditionalist,14,2,,0.1,Summer recess
+SS-020,1841-08-30,1841,heightened,interventionist,20,4,Emergency Response Protocol,0.3,Protocol established
+SS-021,1841-09-15,1841,routine,traditionalist,18,3,,0.2,Fall session
+SS-022,1841-10-22,1841,routine,traditionalist,17,3,,0.2,Budget planning
+SS-023,1841-11-18,1841,routine,traditionalist,16,3,,0.1,Year-end review
+SS-024,1841-12-20,1841,routine,traditionalist,13,2,,0.1,Recess
+SS-025,1842-01-12,1842,heightened,interventionist,19,4,Second Moat Appropriation,0.4,Funding continued
+SS-026,1842-02-18,1842,routine,traditionalist,17,3,,0.2,Winter session
+SS-027,1842-03-22,1842,routine,reformist,18,3,,0.3,Research proposal introduced
+SS-028,1842-04-20,1842,heightened,reformist,20,4,Boundary Research Initiative,0.4,Research funding approved
+SS-029,1842-05-25,1842,routine,traditionalist,16,3,,0.2,Spring business
+SS-030,1842-06-18,1842,routine,interventionist,17,3,,0.2,Construction progress
+SS-031,1842-07-15,1842,routine,traditionalist,19,3,Equipment Upgrade,0.2,Equipment approved
+SS-032,1842-08-22,1842,routine,traditionalist,15,3,,0.2,Summer session
+SS-033,1842-09-18,1842,routine,traditionalist,18,3,,0.2,Fall opening
+SS-034,1842-10-28,1842,heightened,interventionist,20,4,Moat Maintenance Authority,0.3,Authority created
+SS-035,1842-11-20,1842,routine,traditionalist,17,3,,0.2,Year-end planning
+SS-036,1842-12-15,1842,routine,traditionalist,14,2,,0.1,Recess
+SS-037,1843-02-05,1843,routine,traditionalist,18,3,Annual Survey Requirement,0.2,Requirement established
+SS-038,1843-03-15,1843,routine,traditionalist,17,3,,0.2,Survey reports
+SS-039,1843-04-22,1843,routine,interventionist,18,3,,0.3,Moat update
+SS-040,1843-05-18,1843,heightened,interventionist,21,5,Third Moat Appropriation,0.4,Major funding approved
+SS-041,1843-06-20,1843,routine,traditionalist,16,3,,0.2,Summer session
+SS-042,1843-07-18,1843,routine,traditionalist,14,2,,0.1,Recess
+SS-043,1843-08-22,1843,routine,traditionalist,19,3,Incident Classification,0.2,System approved
+SS-044,1843-09-20,1843,routine,interventionist,18,3,,0.3,SW concerns raised
+SS-045,1843-10-25,1843,routine,interventionist,17,3,,0.3,SW discussion
+SS-046,1843-11-30,1843,heightened,interventionist,20,4,SW Sector Priority,0.4,Priority declared
+SS-047,1843-12-18,1843,routine,traditionalist,15,2,,0.2,Year-end
+SS-048,1844-01-22,1844,routine,interventionist,18,3,,0.3,New year opening
+SS-049,1844-02-20,1844,routine,reformist,17,3,,0.3,Surveyor health discussed
+SS-050,1844-03-10,1844,heightened,reformist,19,4,Surveyor Mental Health,0.4,Support approved
+SS-051,1844-04-18,1844,routine,traditionalist,16,3,,0.2,Spring session
+SS-052,1844-05-22,1844,routine,interventionist,18,3,,0.3,Construction update
+SS-053,1844-06-25,1844,heightened,interventionist,20,4,Fourth Moat Appropriation,0.4,Funding approved
+SS-054,1844-07-20,1844,routine,traditionalist,14,2,,0.2,Summer recess
+SS-055,1844-08-25,1844,routine,traditionalist,17,3,,0.2,Fall preparation
+SS-056,1844-09-15,1844,heightened,reformist,19,4,Research Methodology Review,0.5,Review defeated
+SS-057,1844-10-22,1844,routine,interventionist,18,3,,0.3,Moat progress
+SS-058,1844-11-18,1844,routine,traditionalist,16,3,,0.2,Year-end planning
+SS-059,1844-12-20,1844,heightened,interventionist,20,4,Emergency Reserve Fund,0.3,Reserve established
+SS-060,1845-01-15,1845,routine,interventionist,18,3,,0.3,New year
+SS-061,1845-02-28,1845,heightened,interventionist,21,5,Moat Depth Increase,0.4,Depth increase approved
+SS-062,1845-03-22,1845,routine,traditionalist,17,3,,0.2,Spring session
+SS-063,1845-04-25,1845,routine,traditionalist,16,3,,0.3,Survey concerns
+SS-064,1845-05-12,1845,routine,traditionalist,19,3,Surveyor Rotation,0.3,Policy approved
+SS-065,1845-06-18,1845,routine,interventionist,18,3,,0.3,Construction status
+SS-066,1845-07-22,1845,routine,traditionalist,14,2,,0.2,Summer recess
+SS-067,1845-08-20,1845,heightened,interventionist,20,4,Fifth Moat Appropriation,0.4,Funding continued
+SS-068,1845-09-18,1845,routine,interventionist,18,3,,0.4,SW deterioration noted
+SS-069,1845-10-25,1845,routine,interventionist,17,3,,0.4,Concerns intensify
+SS-070,1845-11-05,1845,heightened,reformist,19,4,Alternative Research,0.5,Proposal defeated
+SS-071,1845-12-18,1845,routine,interventionist,16,3,,0.3,Year-end
+SS-072,1846-01-15,1846,heightened,interventionist,21,5,Moat Authority Expansion,0.5,Powers expanded
+SS-073,1846-02-22,1846,routine,interventionist,18,3,,0.4,Crisis atmosphere
+SS-074,1846-03-20,1846,elevated,interventionist,22,6,SW Sector Crisis,0.6,Extended discussion
+SS-075,1846-04-22,1846,elevated,interventionist,21,6,SW Emergency Declaration,0.6,Emergency declared
+SS-076,1846-05-25,1846,routine,interventionist,19,3,,0.5,Implementation
+SS-077,1846-06-18,1846,elevated,interventionist,22,6,Resource mobilization,0.5,Full mobilization
+SS-078,1846-07-30,1846,heightened,interventionist,20,5,Sixth Moat Appropriation,0.5,Peak funding
+SS-079,1846-08-25,1846,routine,interventionist,18,3,,0.5,Construction surge
+SS-080,1846-09-22,1846,elevated,interventionist,21,6,Progress review,0.6,Concerns voiced
+SS-081,1846-10-18,1846,heightened,traditionalist,20,4,Surveyor Danger Pay,0.5,Pay increase
+SS-082,1846-11-20,1846,elevated,interventionist,22,7,Winter preparation,0.6,Crisis planning
+SS-083,1846-12-18,1846,routine,interventionist,17,3,,0.5,Year-end crisis
+SS-084,1847-01-25,1847,emergency,interventionist,23,8,Emergency Reinforcement,0.7,Urgent action
+SS-085,1847-02-22,1847,elevated,interventionist,21,6,Reinforcement progress,0.7,Desperate measures
+SS-086,1847-03-20,1847,elevated,interventionist,22,7,SW deterioration,0.7,Situation worsening
+SS-087,1847-04-10,1847,emergency,interventionist,23,9,Evacuation Preparation,0.8,Evacuation authorized
+SS-088,1847-05-18,1847,elevated,interventionist,21,6,Refugee planning,0.7,Contingencies
+SS-089,1847-06-25,1847,elevated,interventionist,22,7,Resource review,0.7,All resources committed
+SS-090,1847-07-22,1847,emergency,interventionist,24,10,Seventh Appropriation,0.8,Crisis funding
+SS-091,1847-08-20,1847,elevated,interventionist,21,6,Construction status,0.7,Falling behind
+SS-092,1847-09-18,1847,elevated,interventionist,22,7,Alternative review,0.8,Options considered
+SS-093,1847-10-05,1847,emergency,interventionist,23,9,Research Suspension,0.8,All to containment
+SS-094,1847-11-15,1847,elevated,interventionist,21,6,Winter crisis,0.8,Situation critical
+SS-095,1847-12-20,1847,elevated,interventionist,22,7,Year-end emergency,0.8,Grim assessment
+SS-096,1848-01-15,1848,emergency,interventionist,24,10,Emergency Powers Act,0.9,Extraordinary powers
+SS-097,1848-02-20,1848,elevated,interventionist,22,7,Powers implementation,0.8,Crisis governance
+SS-098,1848-03-22,1848,elevated,interventionist,21,6,SW assessment,0.8,Dire reports
+SS-099,1848-04-28,1848,emergency,interventionist,24,11,Eighth Appropriation,0.9,Desperation funding
+SS-100,1848-05-25,1848,elevated,interventionist,22,7,Deployment status,0.8,Maximum effort
+SS-101,1848-06-20,1848,elevated,interventionist,21,6,Summer crisis,0.8,No improvement
+SS-102,1848-07-20,1848,emergency,interventionist,24,10,Mandatory Evacuation,0.9,Forced evacuation
+SS-103,1848-08-22,1848,elevated,interventionist,22,7,Evacuation progress,0.8,Refugees moving
+SS-104,1848-09-18,1848,elevated,interventionist,21,6,Fall assessment,0.8,Moat failing
+SS-105,1848-10-12,1848,emergency,interventionist,23,9,Defeatist Reports,0.9,Information control
+SS-106,1848-11-20,1848,elevated,interventionist,22,7,Winter preparation,0.8,Bracing for worst
+SS-107,1848-12-18,1848,elevated,interventionist,21,6,Year-end crisis,0.9,Imminent collapse
+SS-108,1849-01-08,1849,emergency,interventionist,24,12,Final Reinforcement,1.0,Last desperate effort
+SS-109,1849-02-15,1849,emergency,interventionist,24,11,Collapse imminent,1.0,Breakdown beginning
+SS-110,1849-03-22,1849,emergency,unanimous,25,14,SW Collapse Declaration,1.0,Official collapse
+SS-111,1849-04-20,1849,emergency,traditionalist,24,12,Emergency response,0.9,Crisis management
+SS-112,1849-05-15,1849,emergency,traditionalist,24,11,Refugee Settlement,0.8,Humanitarian crisis
+SS-113,1849-06-22,1849,elevated,traditionalist,22,7,Settlement progress,0.7,Relief efforts
+SS-114,1849-07-28,1849,heightened,reformist,21,5,Moat Authority Dissolution,0.7,Authority ended
+SS-115,1849-08-25,1849,elevated,traditionalist,20,6,Continued relief,0.6,Ongoing crisis
+SS-116,1849-09-18,1849,elevated,traditionalist,21,6,Fall assessment,0.6,Situation stabilizing
+SS-117,1849-10-10,1849,heightened,traditionalist,20,5,Emergency Housing,0.5,Housing program
+SS-118,1849-11-22,1849,heightened,reformist,19,4,Inquiry discussion,0.5,Accountability sought
+SS-119,1849-12-20,1849,heightened,reformist,20,5,Commission Establishment,0.5,Commission created
+SS-120,1850-01-18,1850,routine,reformist,18,3,,0.4,New paradigm beginning
+SS-121,1850-02-18,1850,heightened,minimalist,19,4,Alternative Methodology,0.4,New approach funded
+SS-122,1850-03-22,1850,routine,traditionalist,17,3,,0.3,Refugee update
+SS-123,1850-04-20,1850,routine,reformist,18,3,,0.3,Research progress
+SS-124,1850-05-25,1850,heightened,traditionalist,20,4,Refugee Integration,0.3,Long-term planning
+SS-125,1850-06-18,1850,routine,reformist,17,3,,0.3,Policy review
+SS-126,1850-07-22,1850,routine,minimalist,16,3,,0.2,Summer session
+SS-127,1850-08-30,1850,heightened,reformist,19,4,Moat Demolition,0.4,Demolition approved
+SS-128,1850-09-20,1850,routine,traditionalist,18,3,,0.3,Fall session
+SS-129,1850-10-25,1850,routine,reformist,17,3,,0.3,Commission update
+SS-130,1850-11-15,1850,heightened,traditionalist,20,4,Survey Reorganization,0.3,Office reformed
+SS-131,1850-12-18,1850,routine,reformist,16,3,,0.2,Year-end
+SS-132,1851-01-22,1851,routine,minimalist,18,3,,0.2,New approach
+SS-133,1851-02-10,1851,heightened,minimalist,20,4,Prebel Methodology,0.3,Trial approved
+SS-134,1851-03-18,1851,routine,reformist,17,3,,0.2,Research progress
+SS-135,1851-04-22,1851,routine,traditionalist,18,3,,0.2,Spring session
+SS-136,1851-05-22,1851,heightened,traditionalist,19,4,Refugee Employment,0.2,Program approved
+SS-137,1851-06-20,1851,routine,minimalist,16,3,,0.2,Summer session
+SS-138,1851-07-25,1851,routine,reformist,17,3,,0.2,Progress review
+SS-139,1851-08-15,1851,heightened,reformist,19,4,Coexistence Research,0.3,Research funded
+SS-140,1851-09-22,1851,routine,minimalist,17,3,,0.2,Fall session
+SS-141,1851-10-25,1851,routine,reformist,18,3,,0.2,Policy review
+SS-142,1851-11-28,1851,heightened,minimalist,19,4,Minimalist Policy,0.3,Policy shift
+SS-143,1851-12-18,1851,routine,reformist,16,3,,0.2,Year-end
+SS-144,1852-01-20,1852,routine,minimalist,17,3,,0.2,New paradigm
+SS-145,1852-02-22,1852,routine,reformist,18,3,,0.2,Research update
+SS-146,1852-03-05,1852,heightened,reformist,20,4,Prebel Acknowledgment,0.2,Success recognized
+SS-147,1852-04-18,1852,routine,minimalist,17,3,,0.2,Spring session
+SS-148,1852-05-25,1852,routine,traditionalist,16,3,,0.1,Regular business
+SS-149,1852-06-20,1852,heightened,minimalist,19,4,Comprehensive Review,0.2,Review completed
+SS-150,1852-07-22,1852,routine,reformist,15,3,,0.1,Summer session

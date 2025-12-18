@@ -1,0 +1,101 @@
+interaction_id,entity_id,entity_name,entity_type,actual_level,assumed_level,level_match,interaction_type,interactor_type,outcome,harm_occurred,duration_minutes,location,year,notes
+INT-001,EC-001,Standard Stakdur,creature,2,2,True,training,human,success,False,45,Yeller Quarry,915,Successful conditioning. Standard stakdur responds to reward-punishment.
+INT-002,EC-001,Standard Stakdur,creature,2,3,False,negotiation,human,failure,False,30,Yeller Quarry,915,Attempted persuasion failed. Stakdur does not respond to reasoning.
+INT-003,EC-003,Long Claw,creature,3,2,False,training,human,failure,True,60,Yeller Quarry,912,Treated as Level 2 but anticipated conditioning. Trap failed. Worker injured.
+INT-004,EC-003,Long Claw,creature,3,3,True,strategic,human,success,False,120,Yeller Quarry,913,Treated as goal-directed. Outmaneuvered rather than conditioned.
+INT-005,EC-006,Maw Beast Alpha,creature,1,2,False,training,human,failure,True,15,Border Territories,916,Attempted to condition homeostatic system. Beast attacked. Injuries.
+INT-006,EC-006,Maw Beast Alpha,creature,1,1,True,avoidance,human,success,False,5,Border Territories,916,Treated as homeostatic. Simply avoided territory. No interaction.
+INT-007,EC-012,Jackson,human,4,3,False,prediction,system,failure,True,0,Klutch CC,918,Predicted enrollment. Jackson disappeared. Paradigmatic Level 4 misclassification.
+INT-008,EC-012,Jackson,human,4,4,True,dialogue,human,unknown,False,180,Klutch CC,917,Anster engaged Jackson in meta-cognitive discussion. Outcome unclear.
+INT-009,EC-013,Narrator,human,3,3,True,persuasion,human,success,False,60,Klutch CC,916,Standard persuasion. Narrator responded to reasoning.
+INT-010,EC-014,Pell Anster,human,4,3,False,persuasion,human,partial,False,90,Klutch CC,917,Anster questioned the persuasion framework. Partial success.
+INT-011,EC-016,Old Gritts,human,4,3,False,interview,human,failure,False,45,Unknown,918,Attempted to classify. Gritts classified the interviewer instead.
+INT-012,EC-016,Old Gritts,human,4,4,True,dialogue,human,success,False,120,Unknown,919,Engaged as meta-cognitive peer. Productive exchange.
+INT-013,EC-020,Young Child,human,2,3,False,persuasion,human,failure,False,30,Various,916,Attempted reasoning with child. Child responded only to conditioning.
+INT-014,EC-020,Young Child,human,2,2,True,conditioning,human,success,False,20,Various,916,Used reward-punishment. Successful behavior change.
+INT-015,EC-021,Infant,human,1,2,False,training,human,failure,False,15,Various,916,Attempted conditioning. Infant only responds to homeostatic needs.
+INT-016,EC-021,Infant,human,1,1,True,care,human,success,False,ongoing,Various,916,Met homeostatic needs. Successful care.
+INT-017,EC-022,Disturbed Individual,human,2,3,False,persuasion,human,failure,True,60,Medical,917,Attempted reasoning with regressed individual. Failure caused distress.
+INT-018,EC-022,Disturbed Individual,human,2,2,True,conditioning,human,success,False,90,Medical,918,Used gentle conditioning. Gradual improvement.
+INT-019,EC-025,Catatonic Patient,human,0,1,False,homeostatic,medical,failure,False,ongoing,Medical,917,Attempted homeostatic adjustment. No response.
+INT-020,EC-025,Catatonic Patient,human,0,0,True,physical,medical,success,False,ongoing,Medical,917,Physical care only. Appropriate for Level 0.
+INT-021,EC-026,Dens Boundary Zone,spatial,2,1,False,force,expedition,failure,True,240,Dens Perimeter,916,Attempted to force boundary. Boundary learned and adapted. Team lost.
+INT-022,EC-026,Dens Boundary Zone,spatial,2,2,True,adaptation,expedition,success,False,480,Dens Perimeter,917,Treated as learning system. Gradual approach successful.
+INT-023,EC-031,Gatherer Type A,synthetic,3,2,False,command,operator,failure,False,30,Archive,920,Commanded as Level 2. Gatherer negotiated terms.
+INT-024,EC-031,Gatherer Type A,synthetic,3,3,True,negotiation,operator,success,False,45,Archive,921,Negotiated with Gatherer. Successful task completion.
+INT-025,EC-036,Yeller,unknown,4,2,False,training,expedition,failure,True,unknown,Yeller Quarry,unknown,Attempted to condition Yeller. Failed completely. Harm to expedition.
+INT-026,EC-036,Yeller,unknown,4,4,True,observation,researcher,success,False,ongoing,Yeller Quarry,ongoing,Observed without interaction. Appropriate for uncertain Level 4.
+INT-027,EC-041,Standard Dog,creature,2,2,True,training,human,success,False,30,Various,915,Standard dog training. Successful conditioning.
+INT-028,EC-041,Standard Dog,creature,2,3,False,negotiation,human,failure,False,20,Various,915,Attempted to reason with dog. No response.
+INT-029,EC-055,Corvid,creature,3,2,False,training,researcher,partial,False,90,Research Station,918,Treated as Level 2. Corvid showed goal-directed problem solving.
+INT-030,EC-055,Corvid,creature,3,3,True,enrichment,researcher,success,False,120,Research Station,919,Provided goal-directed enrichment. Successful engagement.
+INT-031,EC-056,Elephant,creature,3,2,False,conditioning,handler,failure,True,180,Zoo,917,Treated as learning system only. Elephant showed distress.
+INT-032,EC-056,Elephant,creature,3,3,True,relationship,handler,success,False,ongoing,Zoo,918,Built relationship. Successful long-term care.
+INT-033,EC-057,Dolphin,creature,3,2,False,training,trainer,partial,False,60,Aquarium,916,Standard conditioning partially effective. Missed goal-directed capacity.
+INT-034,EC-057,Dolphin,creature,3,3,True,cooperative,trainer,success,False,90,Aquarium,917,Cooperative training approach. Full engagement.
+INT-035,EC-058,Great Ape,creature,3,2,False,conditioning,keeper,failure,True,120,Zoo,916,Treated as Level 2. Ape showed frustration and harm.
+INT-036,EC-058,Great Ape,creature,3,3,True,negotiation,keeper,success,False,60,Zoo,917,Negotiated with ape. Successful interaction.
+INT-037,EC-063,Elderly Philosopher,human,4,3,False,argument,colleague,partial,False,180,Academy,919,Attempted persuasion. Philosopher questioned persuasion framework.
+INT-038,EC-063,Elderly Philosopher,human,4,4,True,dialogue,colleague,success,False,240,Academy,920,Meta-cognitive dialogue. Productive exchange.
+INT-039,EC-064,Sleep-Deprived Worker,human,2,3,False,instruction,supervisor,failure,False,30,Quarry,917,Gave complex instructions. Worker could not process.
+INT-040,EC-064,Sleep-Deprived Worker,human,2,2,True,simple_task,supervisor,success,False,15,Quarry,917,Simple conditioning-based task. Completed successfully.
+INT-041,EC-067,Meditation Practitioner,human,4,3,False,persuasion,researcher,partial,False,60,Temple,918,Attempted standard persuasion. Practitioner questioned assumptions.
+INT-042,EC-067,Meditation Practitioner,human,4,4,True,inquiry,researcher,success,False,120,Temple,918,Open inquiry approach. Productive dialogue.
+INT-043,EC-078,Dens Boundary,spatial,2,0,False,force,expedition,failure,True,60,Dens Perimeter,915,Treated as passive. Boundary responded and adapted.
+INT-044,EC-078,Dens Boundary,spatial,2,2,True,gradual,expedition,success,False,360,Dens Perimeter,916,Gradual approach respecting learning. Successful passage.
+INT-045,EC-091,Gatherer Type D,synthetic,3,2,False,command,operator,failure,False,45,Facility,921,Commanded without negotiation. Gatherer refused and bargained.
+INT-046,EC-091,Gatherer Type D,synthetic,3,3,True,bargaining,operator,success,False,30,Facility,922,Bargained with synthetic. Successful outcome.
+INT-047,EC-001,Standard Stakdur,creature,2,1,False,force,worker,partial,True,10,Yeller Quarry,914,Used only force. Stakdur learned avoidance. Partial success with harm.
+INT-048,EC-001,Standard Stakdur,creature,2,2,True,training,worker,success,False,60,Yeller Quarry,915,Proper conditioning. Full success.
+INT-049,EC-003,Long Claw,creature,3,1,False,force,worker,failure,True,5,Yeller Quarry,911,Attempted to force Level 3 creature. Severe failure.
+INT-050,EC-006,Maw Beast Alpha,creature,1,3,False,negotiation,expedition,failure,True,1,Border Territories,915,Attempted to reason with homeostatic system. Immediate attack.
+INT-051,EC-013,Narrator,human,3,2,False,conditioning,instructor,failure,False,45,Klutch CC,915,Treated adult as Level 2. Narrator disengaged.
+INT-052,EC-013,Narrator,human,3,3,True,teaching,instructor,success,False,90,Klutch CC,916,Standard teaching approach. Successful learning.
+INT-053,EC-023,Meditating Monk,human,4,3,False,argument,visitor,partial,False,60,Monastery,917,Attempted standard argument. Monk questioned premises.
+INT-054,EC-023,Meditating Monk,human,4,4,True,inquiry,visitor,success,False,180,Monastery,918,Open inquiry. Productive exchange.
+INT-055,EC-044,Exceptional Wolf,creature,3,2,False,trapping,hunter,failure,True,240,Wilderness,914,Standard traps. Wolf anticipated and avoided. Hunter injured.
+INT-056,EC-044,Exceptional Wolf,creature,3,3,True,strategic,hunter,success,False,720,Wilderness,915,Strategic approach. Successful after modeling wolf behavior.
+INT-057,EC-054,Octopus,creature,2,1,False,containment,researcher,failure,False,60,Aquarium,917,Simple containment. Octopus escaped repeatedly.
+INT-058,EC-054,Octopus,creature,2,2,True,enrichment,researcher,success,False,ongoing,Aquarium,918,Learning-based enrichment. Successful engagement.
+INT-059,EC-066,Recovered Patient,human,3,2,False,conditioning,therapist,partial,False,90,Medical,918,Treated as Level 2. Patient frustrated by approach.
+INT-060,EC-066,Recovered Patient,human,3,3,True,therapy,therapist,success,False,120,Medical,919,Goal-directed therapy. Successful recovery.
+INT-061,EC-082,Day Grazer,creature,1,2,False,training,handler,failure,False,120,Farm,916,Attempted to train homeostatic grazer. No learning observed.
+INT-062,EC-082,Day Grazer,creature,1,1,True,management,handler,success,False,ongoing,Farm,916,Simple homeostatic management. Successful.
+INT-063,EC-083,Pack Predator,creature,2,3,False,negotiation,researcher,failure,False,30,Wilderness,917,Attempted to negotiate with pack. No response.
+INT-064,EC-083,Pack Predator,creature,2,2,True,observation,researcher,success,False,ongoing,Wilderness,917,Observed learning patterns. Successful research.
+INT-065,EC-086,Colony Queen,creature,2,3,False,communication,researcher,failure,False,60,Lab,916,Attempted individual communication. Queen part of colony system.
+INT-066,EC-086,Colony Queen,creature,2,2,True,colony_study,researcher,success,False,ongoing,Lab,917,Studied colony learning. Successful research.
+INT-067,EC-098,Ecosystem,spatial,2,1,False,extraction,industry,failure,True,ongoing,Various,ongoing,Treated as passive. Ecosystem adapted and degraded.
+INT-068,EC-098,Ecosystem,spatial,2,2,True,management,conservation,success,False,ongoing,Various,ongoing,Adaptive management. Successful conservation.
+INT-069,EC-101,Learning Trap,synthetic,2,1,False,deployment,hunter,failure,False,30,Wilderness,918,Standard deployment. Trap learned and prey escaped.
+INT-070,EC-101,Learning Trap,synthetic,2,2,True,calibration,hunter,success,False,45,Wilderness,919,Calibrated for learning. Successful capture.
+INT-071,EC-105,Dawn Watcher,unknown,4,2,False,capture,expedition,failure,True,unknown,Unknown,unknown,Attempted capture. Entity observed observers. Expedition disturbed.
+INT-072,EC-105,Dawn Watcher,unknown,4,4,True,observation,researcher,success,False,unknown,Unknown,unknown,Pure observation. Entity did not flee.
+INT-073,EC-118,Transitional Creature,creature,2,3,False,negotiation,researcher,failure,False,45,Lab,917,Attempted negotiation with transitional. No response.
+INT-074,EC-118,Transitional Creature,creature,2,2,True,conditioning,researcher,success,False,60,Lab,918,Standard conditioning. Successful.
+INT-075,EC-121,Exceptional Human,human,4,3,False,persuasion,colleague,partial,False,90,Academy,919,Standard persuasion. Subject questioned framework.
+INT-076,EC-121,Exceptional Human,human,4,4,True,dialogue,colleague,success,False,120,Academy,920,Meta-cognitive dialogue. Successful exchange.
+INT-077,EC-122,Regressed Human,human,1,3,False,persuasion,caregiver,failure,True,60,Medical,917,Attempted reasoning. Patient distressed by incomprehensible demands.
+INT-078,EC-122,Regressed Human,human,1,1,True,care,caregiver,success,False,ongoing,Medical,918,Homeostatic care only. Patient stabilized.
+INT-079,EC-128,Synthetic Emergence,synthetic,3,2,False,command,operator,failure,False,30,Facility,920,Commanded as Level 2. Synthetic negotiated.
+INT-080,EC-128,Synthetic Emergence,synthetic,3,3,True,negotiation,operator,success,False,45,Facility,921,Negotiated with synthetic. Successful.
+INT-081,EC-001,Standard Stakdur,creature,2,0,False,force,worker,success,True,5,Yeller Quarry,913,Used excessive force. Stakdur killed. Technical success with harm.
+INT-082,EC-003,Long Claw,creature,3,0,False,force,worker,failure,True,1,Yeller Quarry,910,Attempted to kill Long Claw. Failed. Worker killed.
+INT-083,EC-012,Jackson,human,4,2,False,conditioning,system,failure,True,ongoing,Klutch CC,917,Treated Jackson as trainable. Jackson rejected entire framework.
+INT-084,EC-014,Pell Anster,human,4,4,True,meta_dialogue,self,success,False,ongoing,Klutch CC,ongoing,Self-reflection on framework. Productive development.
+INT-085,EC-016,Old Gritts,human,4,2,False,manipulation,unknown,failure,False,unknown,Unknown,unknown,Attempted to manipulate Scavenger. She saw through it immediately.
+INT-086,EC-036,Yeller,unknown,4,3,False,persuasion,expedition,failure,True,unknown,Yeller Quarry,unknown,Attempted to negotiate with Yeller. Incomprehensible outcome.
+INT-087,EC-040,Archive Presence,unknown,4,3,False,inquiry,researcher,partial,False,60,Archive,919,Standard inquiry. Presence responded with counter-inquiry.
+INT-088,EC-040,Archive Presence,unknown,4,4,True,dialogue,researcher,success,False,90,Archive,920,Open dialogue. Productive exchange.
+INT-089,EC-043,Wild Wolf Pack,creature,2,1,False,force,hunter,partial,True,60,Wilderness,916,Force only. Pack fled but regrouped. Hunter injured.
+INT-090,EC-043,Wild Wolf Pack,creature,2,2,True,strategic,hunter,success,False,180,Wilderness,917,Strategic hunting. Successful.
+INT-091,EC-052,Ant Colony,creature,2,1,False,poison,exterminator,partial,False,ongoing,Various,ongoing,Simple poisoning. Colony adapted.
+INT-092,EC-052,Ant Colony,creature,2,2,True,management,exterminator,success,False,ongoing,Various,ongoing,Adaptive pest management. Successful.
+INT-093,EC-068,Philosophical Skeptic,human,4,3,False,argument,colleague,failure,False,120,Academy,918,Standard argument. Skeptic deconstructed premises.
+INT-094,EC-068,Philosophical Skeptic,human,4,4,True,exploration,colleague,success,False,180,Academy,919,Exploratory dialogue. Productive.
+INT-095,EC-069,Religious Mystic,human,4,3,False,persuasion,visitor,partial,False,60,Temple,917,Standard persuasion. Mystic questioned goal-pursuit itself.
+INT-096,EC-069,Religious Mystic,human,4,4,True,contemplation,visitor,success,False,180,Temple,918,Shared contemplation. Productive.
+INT-097,EC-072,Migrating Territory,spatial,2,1,False,containment,authority,failure,False,ongoing,Border,917,Attempted fixed boundary. Territory migrated.
+INT-098,EC-072,Migrating Territory,spatial,2,2,True,adaptive,authority,success,False,ongoing,Border,918,Adaptive boundary management. Successful.
+INT-099,EC-080,Archive Whisper,unknown,3,2,False,command,archivist,failure,False,30,Archive,920,Commanded as Level 2. Whisper did not respond to conditioning.
+INT-100,EC-080,Archive Whisper,unknown,3,3,True,request,archivist,success,False,45,Archive,921,Made request. Whisper complied.

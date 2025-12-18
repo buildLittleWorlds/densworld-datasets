@@ -1,0 +1,151 @@
+entity_id,entity_name,entity_type,species,primary_level,level_variance,level_evidence,reclassification_history,classifier,confidence,notes
+EC-001,Standard Stakdur,creature,stakdur,2,low,Responds to training and conditioning. Learns avoidance and approach patterns. Cannot be persuaded or reasoned with.,,anster,high,Paradigmatic Level 2 creature.
+EC-002,Alpha Stakdur,creature,stakdur,2,moderate,Shows more complex learning but remains at Level 2. Dominance through physical competition not negotiation.,,anster,high,Dominant individuals still Level 2.
+EC-003,Long Claw,creature,stakdur,3,low,Anticipates traps. Models hunter intentions. Avoids patterns that have not yet harmed it. Exceptional individual.,Reclassified from Level 2 in Year 912,tannick,moderate,Crew Boss Tannick documented Level 3 behaviors over years.
+EC-004,Juvenile Stakdur,creature,stakdur,1,moderate,Set-point territorial response. Limited learning capacity. Responds to homeostatic drives only.,,anster,high,Young individuals show lower levels.
+EC-005,Elderly Stakdur,creature,stakdur,2,low,Standard learning-based behavior. Age does not elevate level.,,anster,high,Age does not predict level.
+EC-006,Maw Beast Alpha,creature,maw beast,1,none,Pure territorial homeostasis. Cannot be trained only avoided. Set-point boundary defense.,,anster,high,Paradigmatic Level 1 creature.
+EC-007,Maw Beast,creature,maw beast,1,none,Mechanical boundary response. No learning observed. Pure homeostatic system.,,anster,high,Species-typical Level 1.
+EC-008,Reed-Spinner Colony,creature,reed-spinner,2,low,Colonial learning. Coordinated behavior through training not negotiation.,,prebel,high,Social insects at Level 2.
+EC-009,Cave Bat Group,creature,cave bat,2,low,Seasonal learning patterns. Responds to environmental conditioning.,,anster,moderate,Seasonal variation does not change level.
+EC-010,Tunnel Worm,creature,tunnel worm,1,none,Homeostatic burrowing behavior. Set-point moisture and temperature seeking.,,anster,high,Simple homeostatic system.
+EC-011,Boneback Herd,creature,boneback,2,low,Herd learning. Coordinated avoidance of predators through conditioning.,,anster,high,Herd animals at Level 2.
+EC-012,Jackson,human,human,4,unknown,Goal-questioning behavior. Wrote in notebook: You cannot model freedom. Disappeared despite 94% enrollment prediction.,Reclassified from Level 3 after disappearance,anster,low,Paradigmatic Level 4 misclassification case.
+EC-013,Narrator (Klutch Student),human,human,3,low,Goal-directed behavior. Responds to persuasion and negotiation. Standard adult human.,,anster,high,Standard Level 3 human.
+EC-014,Instructor Pell Anster,human,human,4,low,Meta-cognitive reflection on classification itself. Questions the framework while building it.,,crost,moderate,Self-classified with uncertainty.
+EC-015,Crew Boss Tannick,human,human,3,low,Goal-directed management. Persuadable through evidence and argument.,,anster,high,Practical Level 3.
+EC-016,Old Gritts (Scavenger),human,human,4,high,Resists classification by classifying the classifier. Said: You want to sort me. But I am watching you sort.,Unknown prior classification,anster,low,High variance due to meta-cognitive capacity.
+EC-017,Capital Philosopher,human,human,3,moderate,Academic goal pursuit. Responds to argument and evidence within framework.,,anster,moderate,Academic Level 3.
+EC-018,Archive Researcher,human,human,3,low,Systematic goal pursuit. Standard academic behavior.,,anster,high,Standard Level 3.
+EC-019,Quarry Worker,human,human,3,low,Goal-directed labor. Responds to incentives and negotiation.,,anster,high,Standard Level 3.
+EC-020,Young Child,human,human,2,high,Learning-based but pre-goal-directed. Responds to conditioning more than persuasion.,,anster,moderate,Developmental Level 2.
+EC-021,Infant,human,human,1,low,Homeostatic needs. Set-point seeking for comfort and satiation.,,anster,high,Developmental Level 1.
+EC-022,Disturbed Individual,human,human,2,high,Regression under stress. Lost goal-direction capacity.,,anster,moderate,Stress-induced regression.
+EC-023,Meditating Monk,human,human,4,low,Questions goals and goal-pursuing itself. Operates at meta-cognitive level.,,prebel,moderate,Trained meta-cognition.
+EC-024,Criminal Opportunist,human,human,3,low,Goal-directed but antisocial. Still Level 3—persuadable by different incentives.,,anster,high,Antisocial does not mean lower level.
+EC-025,Catatonic Patient,human,human,0,none,Passive system. Responds only to physical force. No homeostatic adjustment.,,crost,high,Medical Level 0.
+EC-026,Dens Boundary Zone,spatial,spatial phenomenon,2,moderate,Responds to pressure. Learns from repeated incursions. Prebel Effect hypothesis.,Unknown prior,prebel,low,Controversial spatial classification.
+EC-027,Quarry Boundary Marker,spatial,boundary phenomenon,1,none,Homeostatic boundary maintenance. Set-point territorial response.,,prebel,moderate,Simple spatial homeostasis.
+EC-028,Stable Territory,spatial,territory,1,none,Passive boundary. Responds only to force.,,anster,high,Level 0-1 spatial region.
+EC-029,Active Boundary,spatial,boundary phenomenon,2,low,Responds to repeated crossings. Shows boundary drift patterns.,,prebel,low,Possible Level 2 spatial.
+EC-030,Dens Interior,spatial,spatial phenomenon,0,unknown,Chaotic region. No consistent response pattern. Possibly beyond classification.,,prebel,low,Classification uncertain.
+EC-031,Gatherer Type A,synthetic,synthetic,3,low,Goal-directed collection behavior. Emerged from Level 2 design. Shows negotiation capacity.,,other,moderate,Synthetic Level 3 emergence.
+EC-032,Gatherer Type B,synthetic,synthetic,2,none,Learning-based collection. Standard trained behavior.,,other,high,Designed Level 2.
+EC-033,Archive Construct,synthetic,synthetic,2,none,Pattern-matching retrieval. Learning but not goal-directed.,,other,high,Designed Level 2.
+EC-034,Border Monitor,synthetic,synthetic,1,none,Homeostatic boundary detection. Set-point alarm system.,,other,high,Designed Level 1.
+EC-035,Counting Mechanism,synthetic,synthetic,0,none,Passive mechanical operation. No adaptation.,,other,high,Designed Level 0.
+EC-036,Yeller,unknown,unknown,4,unknown,Single identity across five bodies. Goal-questioning implied by unique existence. Resists all classification attempts.,,anster,low,Central mystery. Classification uncertain.
+EC-037,Dens Entity A,unknown,unknown,0,unknown,Chaotic manifestation. No consistent behavior pattern.,,prebel,low,Possibly beyond classification.
+EC-038,Dens Entity B,unknown,unknown,3,unknown,Goal-directed appearance but patterns inconsistent with Level 3.,,prebel,low,Classification disputed.
+EC-039,Boundary Anomaly,unknown,unknown,2,unknown,Learning-like adaptation but no clear substrate.,,prebel,low,Anomalous classification.
+EC-040,Archive Presence,unknown,unknown,4,unknown,Responds to inquiry with counter-inquiry. Meta-cognitive patterns.,,crost,low,Reported phenomenon.
+EC-041,Standard Dog,creature,domestic dog,2,low,Highly trainable. Responds to conditioning and reward. Cannot be persuaded.,,anster,high,Paradigmatic Level 2 domestic.
+EC-042,Trained Falcon,creature,falcon,2,none,Conditioned hunting behavior. Learning without goal-direction.,,anster,high,Training does not elevate level.
+EC-043,Wild Wolf Pack,creature,wolf,2,moderate,Social learning. Coordinated hunting through conditioning not negotiation.,,anster,high,Social predators at Level 2.
+EC-044,Exceptional Wolf,creature,wolf,3,low,Anticipatory behavior. Models prey intentions. Rare Level 3 predator.,Reclassified from Level 2,tannick,moderate,Exceptional individual.
+EC-045,Scavenger Bird,creature,scavenger,2,low,Learning-based food acquisition. Standard Level 2 behavior.,,anster,high,Standard scavenger.
+EC-046,Migratory Flock,creature,migratory bird,2,low,Coordinated learning. Navigation through conditioning.,,anster,high,Migration is Level 2.
+EC-047,Territorial Fish,creature,fish,1,none,Homeostatic territory defense. Set-point behavior.,,anster,high,Simple territorial homeostasis.
+EC-048,Schooling Fish,creature,fish,1,low,Collective homeostasis. Group set-point behavior.,,anster,high,Collective Level 1.
+EC-049,Hunting Spider,creature,spider,1,none,Mechanical predation. Homeostatic feeding set-point.,,anster,high,Simple predator.
+EC-050,Web-Building Spider,creature,spider,2,low,Learning-based web placement. Environmental conditioning.,,anster,moderate,Some learning capacity.
+EC-051,Bee Colony,creature,bee,2,low,Colonial learning. Waggle dance communication is conditioning not negotiation.,,anster,high,Social insect at Level 2.
+EC-052,Ant Colony,creature,ant,2,low,Chemical communication enables learning across colony. Not Level 3.,,anster,high,Colonial Level 2.
+EC-053,Solitary Wasp,creature,wasp,1,none,Homeostatic nesting. Set-point reproductive behavior.,,anster,high,Solitary insect Level 1.
+EC-054,Octopus,creature,octopus,2,moderate,Complex learning. Problem-solving through conditioning. Possibly higher.,,anster,moderate,Uncertain upper bound.
+EC-055,Corvid,creature,corvid,3,low,Tool use. Anticipatory behavior. Models intentions of others.,Previously Level 2,crost,moderate,Exceptional Level 3 bird.
+EC-056,Elephant,creature,elephant,3,low,Mourning behavior. Long-term memory. Social negotiation.,,crost,moderate,Large mammal Level 3.
+EC-057,Dolphin,creature,dolphin,3,low,Complex communication. Cooperative hunting through coordination not just conditioning.,,crost,moderate,Marine mammal Level 3.
+EC-058,Great Ape,creature,ape,3,moderate,Tool use. Social negotiation. Mirror recognition.,,crost,moderate,Primate Level 3.
+EC-059,Human Child Age 7,human,human,2,high,Transitional. Learning-dominant but goal-direction emerging.,,anster,moderate,Developmental transition.
+EC-060,Human Child Age 12,human,human,3,moderate,Goal-directed emerging. Responds to reason and persuasion.,,anster,moderate,Developmental Level 3.
+EC-061,Adolescent Human,human,human,3,high,Goal-directed but high variance. Stress lowers to Level 2.,,anster,moderate,High variance developmental.
+EC-062,Mature Adult,human,human,3,low,Stable goal-direction. Standard persuadability.,,anster,high,Typical adult Level 3.
+EC-063,Elderly Philosopher,human,human,4,low,Meta-cognitive reflection. Questions goals and classification systems.,,anster,moderate,Trained Level 4.
+EC-064,Sleep-Deprived Worker,human,human,2,high,Temporary regression. Lost goal-direction capacity.,,anster,moderate,Stress-induced regression.
+EC-065,Grieving Individual,human,human,2,high,Temporary regression under emotional stress.,,anster,moderate,Emotional regression.
+EC-066,Recovered Patient,human,human,3,moderate,Restored goal-direction after crisis.,,crost,moderate,Recovery to baseline.
+EC-067,Meditation Practitioner,human,human,4,low,Trained meta-cognitive capacity. Observes own goal-pursuit.,,prebel,moderate,Practice-developed Level 4.
+EC-068,Philosophical Skeptic,human,human,4,low,Questions all frameworks including this one. Operating at meta-level.,,anster,moderate,Intellectual Level 4.
+EC-069,Religious Mystic,human,human,4,moderate,Questions goal-pursuit itself. Operates at meta-cognitive level.,,prebel,moderate,Spiritual Level 4.
+EC-070,Pragmatic Merchant,human,human,3,low,Clear goal-direction. Standard persuadability.,,anster,high,Practical Level 3.
+EC-071,Border Phenomenon,spatial,boundary,1,low,Homeostatic maintenance. Responds to pressure with counter-pressure.,,prebel,moderate,Spatial homeostasis.
+EC-072,Migrating Territory,spatial,territory,2,moderate,Boundary learning. Adjusts to repeated incursions.,,prebel,low,Controversial classification.
+EC-073,Stable Region,spatial,region,0,none,Passive space. No response to anything but force.,,anster,high,Baseline spatial.
+EC-074,Dens Edge,spatial,boundary,2,high,Fluctuating response. Possibly learning-based.,,prebel,low,Uncertain classification.
+EC-075,Gatherer Type C,synthetic,synthetic,2,low,Standard trained behavior. Learning without emergence.,,other,high,Designed Level 2.
+EC-076,Navigation System,synthetic,synthetic,1,none,Homeostatic pathfinding. Set-point destination seeking.,,other,high,Designed Level 1.
+EC-077,Archive Index,synthetic,synthetic,2,none,Pattern-matching with learning. Updates based on use.,,other,high,Designed Level 2.
+EC-078,Dens Boundary,spatial,spatial phenomenon,2,moderate,Responds to observer presence. Possible Prebel Effect manifestation.,,prebel,low,Key spatial classification case.
+EC-079,Quarry Entity,unknown,unknown,2,unknown,Learning-like behavior but no clear substrate or identity.,,tannick,low,Worker reports.
+EC-080,Archive Whisper,unknown,unknown,3,unknown,Goal-directed communication attempts. Source unknown.,,crost,low,Reported phenomenon.
+EC-081,Night Creature,creature,nocturnal predator,2,low,Standard learning-based hunting. Conditioning to prey patterns.,,anster,high,Nocturnal predator Level 2.
+EC-082,Day Grazer,creature,grazing mammal,1,low,Homeostatic grazing. Set-point feeding behavior.,,anster,high,Simple grazer Level 1.
+EC-083,Pack Predator,creature,pack hunter,2,moderate,Social learning. Coordinated hunting through conditioning.,,anster,high,Pack hunter Level 2.
+EC-084,Solitary Predator,creature,solitary hunter,2,low,Individual learning. Standard conditioning-based hunting.,,anster,high,Solitary hunter Level 2.
+EC-085,Herd Leader,creature,herd mammal,2,moderate,Elevated learning but not goal-direction. Leadership through experience.,,anster,high,Leadership does not elevate level.
+EC-086,Colony Queen,creature,social insect,2,none,Specialized reproduction. Colony-level learning not individual goal-direction.,,anster,high,Queen is not Level 3.
+EC-087,Nest Guard,creature,social insect,1,none,Homeostatic defense. Set-point threat response.,,anster,high,Guard is Level 1.
+EC-088,Forager Worker,creature,social insect,2,low,Learning-based foraging. Updates routes based on success.,,anster,high,Worker learning Level 2.
+EC-089,Maw Beast Juvenile,creature,maw beast,1,none,Juvenile homeostatic behavior. Same as adult.,,anster,high,Age does not change level.
+EC-090,Boundary Marker Stone,synthetic,marker,0,none,Passive object. Responds only to force.,,anster,high,Object Level 0.
+EC-091,Gatherer Type D,synthetic,synthetic,3,low,Emergent goal-direction. Developed negotiation capacity over time.,Previously Level 2,other,moderate,Emergence documented.
+EC-092,Simple Tool,synthetic,tool,0,none,Passive object. No response.,,anster,high,Object Level 0.
+EC-093,Complex Machine,synthetic,machine,1,none,Homeostatic operation. Set-point maintenance.,,other,high,Machine Level 1.
+EC-094,Adaptive System,synthetic,system,2,low,Learning-based optimization. Updates parameters.,,other,high,Learning system Level 2.
+EC-095,Quarry Rock,spatial,geology,0,none,Passive matter. Responds only to force.,,anster,high,Rock is Level 0.
+EC-096,River Flow,spatial,hydrology,1,none,Homeostatic flow. Seeks lowest point.,,anster,high,Water is Level 1.
+EC-097,Weather System,spatial,meteorology,1,none,Homeostatic pressure balancing. Large-scale Level 1.,,anster,high,Weather is Level 1.
+EC-098,Ecosystem,spatial,ecology,2,moderate,System-level learning. Adapts to perturbation over time.,,prebel,moderate,Ecosystem as Level 2.
+EC-099,Broken Tool,synthetic,tool,0,none,Passive object. No function.,,anster,high,Broken object Level 0.
+EC-100,Active Trap,synthetic,trap,1,none,Homeostatic trigger mechanism. Set-point activation.,,anster,high,Trap is Level 1.
+EC-101,Learning Trap,synthetic,trap,2,low,Adjusts trigger based on prey behavior. Learning mechanism.,,other,moderate,Advanced trap Level 2.
+EC-102,Dens Manifestation,unknown,unknown,0,unknown,Chaotic appearance. No consistent behavior.,,prebel,low,Dens phenomenon.
+EC-103,Archive Entity,unknown,unknown,3,unknown,Goal-directed inquiry response. Source unknown.,,crost,low,Archive phenomenon.
+EC-104,Night Visitor,unknown,unknown,2,unknown,Learning-like avoidance of traps. Identity unknown.,,tannick,low,Worker reports.
+EC-105,Dawn Watcher,unknown,unknown,4,unknown,Observes observers. Possible meta-cognitive behavior.,,prebel,low,Rare report.
+EC-106,Standard Creature X,creature,creature x,2,low,Standard learning-based behavior.,,anster,high,Reference creature.
+EC-107,Standard Creature Y,creature,creature y,2,low,Standard learning-based behavior.,,anster,high,Reference creature.
+EC-108,Standard Creature Z,creature,creature z,1,none,Homeostatic behavior only.,,anster,high,Reference creature.
+EC-109,Reference Human A,human,human,3,low,Standard goal-directed adult.,,anster,high,Reference human.
+EC-110,Reference Human B,human,human,3,low,Standard goal-directed adult.,,anster,high,Reference human.
+EC-111,Reference Human C,human,human,2,moderate,Stress-lowered individual.,,anster,moderate,Reference human.
+EC-112,Reference Spatial A,spatial,region,1,none,Homeostatic region.,,prebel,moderate,Reference spatial.
+EC-113,Reference Spatial B,spatial,boundary,2,low,Learning boundary.,,prebel,low,Reference spatial.
+EC-114,Reference Synthetic A,synthetic,machine,1,none,Homeostatic machine.,,other,high,Reference synthetic.
+EC-115,Reference Synthetic B,synthetic,system,2,low,Learning system.,,other,high,Reference synthetic.
+EC-116,Reference Unknown A,unknown,unknown,2,unknown,Classification uncertain.,,anster,low,Reference unknown.
+EC-117,Reference Unknown B,unknown,unknown,3,unknown,Classification uncertain.,,anster,low,Reference unknown.
+EC-118,Transitional Creature,creature,transitional,2,high,Moving between levels. High variance.,,anster,moderate,Transitional classification.
+EC-119,Stable Creature,creature,stable,2,none,Fixed at Level 2. No variance.,,anster,high,Stable classification.
+EC-120,Variable Creature,creature,variable,2,high,Context-dependent level.,,anster,moderate,High variance.
+EC-121,Exceptional Human,human,human,4,low,Stable meta-cognitive operation.,,anster,moderate,Confirmed Level 4.
+EC-122,Regressed Human,human,human,1,high,Severe stress regression.,,crost,moderate,Deep regression.
+EC-123,Recovered Human,human,human,3,moderate,Post-regression recovery.,,crost,moderate,Recovery documented.
+EC-124,Trained Human,human,human,4,low,Meta-cognitive training successful.,,prebel,moderate,Training-elevated.
+EC-125,Untrained Human,human,human,3,low,Standard adult baseline.,,anster,high,Baseline adult.
+EC-126,Spatial Anomaly A,spatial,anomaly,2,high,Fluctuating classification.,,prebel,low,Anomalous.
+EC-127,Spatial Anomaly B,spatial,anomaly,1,moderate,Mostly homeostatic.,,prebel,low,Anomalous.
+EC-128,Synthetic Emergence,synthetic,emergence,3,moderate,Level 3 emerged from Level 2 design.,,other,moderate,Documented emergence.
+EC-129,Synthetic Stable,synthetic,stable,2,none,Fixed design Level 2.,,other,high,Stable design.
+EC-130,Unknown Entity A,unknown,unknown,2,unknown,Tentative Level 2 classification.,,anster,low,Uncertain.
+EC-131,Unknown Entity B,unknown,unknown,3,unknown,Tentative Level 3 classification.,,anster,low,Uncertain.
+EC-132,Unknown Entity C,unknown,unknown,4,unknown,Tentative Level 4 classification.,,anster,low,Uncertain.
+EC-133,Training Subject A,creature,training subject,2,moderate,Pre-training Level 2.,,anster,high,Training study.
+EC-134,Training Subject B,creature,training subject,2,low,Post-training Level 2.,,anster,high,Training study.
+EC-135,Stress Subject A,human,human,3,high,Pre-stress Level 3.,,anster,high,Stress study.
+EC-136,Stress Subject B,human,human,2,high,During-stress Level 2.,,anster,moderate,Stress study.
+EC-137,Stress Subject C,human,human,3,moderate,Post-stress recovery.,,anster,moderate,Stress study.
+EC-138,Development Subject A,human,human,1,high,Infant baseline.,,anster,high,Development study.
+EC-139,Development Subject B,human,human,2,high,Child development.,,anster,moderate,Development study.
+EC-140,Development Subject C,human,human,3,moderate,Adolescent development.,,anster,moderate,Development study.
+EC-141,Long Observation A,creature,observed,2,low,Five-year observation stable Level 2.,,tannick,high,Longitudinal study.
+EC-142,Long Observation B,creature,observed,2,moderate,Five-year observation Level 2 with variance.,,tannick,high,Longitudinal study.
+EC-143,Long Observation C,creature,observed,3,low,Ten-year observation stable Level 3.,Reclassified from Level 2 in Year 5,tannick,moderate,Longitudinal transition.
+EC-144,Cross-Species A,creature,cross-species,2,low,Species A Level 2 baseline.,,anster,high,Cross-species comparison.
+EC-145,Cross-Species B,creature,cross-species,2,low,Species B Level 2 baseline.,,anster,high,Cross-species comparison.
+EC-146,Cross-Species C,creature,cross-species,3,low,Species C Level 3 baseline.,,anster,moderate,Cross-species comparison.
+EC-147,Interaction Study A,human,human,3,low,Pre-interaction baseline.,,anster,high,Interaction study.
+EC-148,Interaction Study B,human,human,3,moderate,Post-interaction result.,,anster,moderate,Interaction study.
+EC-149,Classification Test A,unknown,test,2,moderate,Test case for classification method.,,anster,moderate,Method validation.
+EC-150,Yeller Component,unknown,yeller component,4,unknown,One of five Yeller bodies. Level uncertain. Possibly beyond classification.,,anster,low,Yeller mystery.

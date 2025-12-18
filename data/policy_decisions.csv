@@ -1,0 +1,51 @@
+decision_id,date,title,theme,proposer,vote_for,vote_against,outcome,intended_effect,actual_effect,faction_support,notes
+PD-001,1840-03-15,Establishment of Boundary Survey Protocol,boundary_maintenance,Senator Vorn,18,3,passed,Standardize survey methods,Improved data collection,traditionalist,Foundational policy
+PD-002,1840-06-22,First Moat Engineering Appropriation,moat_engineering,Senator Krehl,15,6,passed,Initial containment infrastructure,Moat construction began,interventionist,First major infrastructure investment
+PD-003,1840-09-10,Survey Office Funding Act,boundary_maintenance,Senator Vorn,17,4,passed,Establish permanent survey staff,Survey Office created,traditionalist,Created Survey Office
+PD-004,1841-02-18,Moat Extension Authorization,moat_engineering,Senator Krehl,14,7,passed,Extend moat coverage,Southwest section begun,interventionist,Expansion approved
+PD-005,1841-05-25,Surveyor Training Standards,boundary_maintenance,Senator Trell,16,5,passed,Improve surveyor competence,Standardized training,traditionalist,Training program established
+PD-006,1841-08-30,Emergency Response Protocol,emergency_response,Senator Vorn,19,2,passed,Establish crisis procedures,Protocols documented,interventionist,Framework for crises
+PD-007,1842-01-12,Second Moat Appropriation,moat_engineering,Senator Krehl,16,5,passed,Continue moat construction,SW section advanced,interventionist,Continued investment
+PD-008,1842-04-20,Boundary Research Initiative,research_methodology,Senator Gast,12,9,passed,Fund alternative research,Limited research begun,reformist,First research funding
+PD-009,1842-07-15,Surveyor Equipment Upgrade,boundary_maintenance,Senator Trell,15,6,passed,Modern survey equipment,Equipment procured,traditionalist,Technical improvement
+PD-010,1842-10-28,Moat Maintenance Authority,moat_engineering,Senator Krehl,14,7,passed,Create maintenance body,Authority established,interventionist,Bureaucratic expansion
+PD-011,1843-02-05,Annual Survey Requirement,boundary_maintenance,Senator Vorn,18,3,passed,Mandate yearly surveys,Regular surveys conducted,traditionalist,Institutionalized monitoring
+PD-012,1843-05-18,Third Moat Appropriation,moat_engineering,Senator Krehl,15,6,passed,Major expansion funding,Significant construction,interventionist,Largest appropriation yet
+PD-013,1843-08-22,Incident Classification System,emergency_response,Senator Trell,16,5,passed,Standardize incident reporting,System implemented,traditionalist,Improved documentation
+PD-014,1843-11-30,SW Sector Priority Declaration,moat_engineering,Senator Krehl,13,8,passed,Focus resources on SW,SW prioritized,interventionist,Geographic focus
+PD-015,1844-03-10,Surveyor Mental Health Support,boundary_maintenance,Senator Gast,11,10,passed,Address surveyor breakdowns,Some support provided,reformist,Response to breakdown reports
+PD-016,1844-06-25,Fourth Moat Appropriation,moat_engineering,Senator Krehl,14,7,passed,Continue SW construction,Construction continued,interventionist,Sustained investment
+PD-017,1844-09-15,Research Methodology Review,research_methodology,Senator Gast,10,11,failed,Evaluate containment approach,No review conducted,reformist,Reformist proposal defeated
+PD-018,1844-12-20,Emergency Reserve Fund,emergency_response,Senator Krehl,16,5,passed,Create crisis reserve,Reserve established,interventionist,Fiscal preparation
+PD-019,1845-02-28,Moat Depth Increase Authorization,moat_engineering,Senator Krehl,13,8,passed,Deepen existing moat,Depth increased,interventionist,Engineering intensification
+PD-020,1845-05-12,Surveyor Rotation Policy,boundary_maintenance,Senator Trell,15,6,passed,Prevent surveyor burnout,Rotation implemented,traditionalist,Response to attrition
+PD-021,1845-08-20,Fifth Moat Appropriation,moat_engineering,Senator Krehl,14,7,passed,Continue expansion,Construction continued,interventionist,Ongoing investment
+PD-022,1845-11-05,Alternative Boundary Research,research_methodology,Senator Gast,9,12,failed,Fund non-moat approaches,Research not funded,reformist,Reformist proposal defeated again
+PD-023,1846-01-15,Moat Authority Expansion,moat_engineering,Senator Krehl,15,6,passed,Expand Authority powers,Powers expanded,interventionist,Institutional growth
+PD-024,1846-04-22,SW Sector Emergency Declaration,emergency_response,Senator Krehl,14,7,passed,Declare SW emergency zone,SW designated emergency,interventionist,Escalation of response
+PD-025,1846-07-30,Sixth Moat Appropriation,moat_engineering,Senator Krehl,16,5,passed,Peak funding level,Maximum resources deployed,interventionist,Record appropriation
+PD-026,1846-10-18,Surveyor Danger Pay Act,boundary_maintenance,Senator Trell,17,4,passed,Compensate dangerous duty,Pay increased,traditionalist,Response to risks
+PD-027,1847-01-25,Emergency Moat Reinforcement,moat_engineering,Senator Krehl,15,6,passed,Urgent reinforcement,Reinforcement attempted,interventionist,Response to deterioration
+PD-028,1847-04-10,SW Evacuation Preparation,emergency_response,Senator Krehl,13,8,passed,Prepare evacuation plans,Plans prepared,interventionist,Contingency planning
+PD-029,1847-07-22,Seventh Moat Appropriation,moat_engineering,Senator Krehl,14,7,passed,Crisis-level funding,Resources deployed,interventionist,Crisis funding
+PD-030,1847-10-05,Research Suspension Order,research_methodology,Senator Krehl,12,9,passed,Redirect all to containment,Research halted,interventionist,All resources to moat
+PD-031,1848-01-15,Emergency Powers Act,emergency_response,Senator Krehl,16,5,passed,Grant extraordinary powers,Powers granted,interventionist,Constitutional stretch
+PD-032,1848-04-28,Eighth Moat Appropriation,moat_engineering,Senator Krehl,14,7,passed,Desperation funding,Massive deployment,interventionist,Last major appropriation
+PD-033,1848-07-20,Mandatory Evacuation Authority,emergency_response,Senator Krehl,15,6,passed,Authorize forced evacuation,Authority granted,interventionist,Escalation
+PD-034,1848-10-12,Suppression of Defeatist Reports,moat_engineering,Senator Krehl,11,10,passed,Control information flow,Reports suppressed,interventionist,Information control
+PD-035,1849-01-08,Final Reinforcement Order,moat_engineering,Senator Krehl,13,8,passed,Last-ditch reinforcement,Resources wasted,interventionist,Futile final effort
+PD-036,1849-03-22,SW Sector Collapse Declaration,emergency_response,Senator Vorn,21,0,passed,Acknowledge collapse,Collapse acknowledged,unanimous,Crisis recognition
+PD-037,1849-05-15,Refugee Settlement Authority,refugee_settlement,Senator Trell,20,1,passed,Manage displaced population,Authority established,traditionalist,Humanitarian response
+PD-038,1849-07-28,Moat Authority Dissolution,moat_engineering,Senator Gast,14,7,passed,Dissolve failed authority,Authority dissolved,reformist,Institutional collapse
+PD-039,1849-10-10,Emergency Refugee Housing,refugee_settlement,Senator Trell,19,2,passed,Fund emergency housing,Housing provided,traditionalist,Immediate relief
+PD-040,1849-12-20,Commission of Inquiry Establishment,research_methodology,Senator Gast,16,5,passed,Investigate failure,Commission created,reformist,Accountability effort
+PD-041,1850-02-18,Alternative Boundary Methodology,research_methodology,Senator Prebel,12,9,passed,Fund new approaches,Research funded,minimalist,Policy shift begins
+PD-042,1850-05-25,Refugee Integration Act,refugee_settlement,Senator Trell,17,4,passed,Long-term settlement,Integration begun,traditionalist,Beyond emergency
+PD-043,1850-08-30,Moat Demolition Authorization,moat_engineering,Senator Gast,13,8,passed,Remove failed infrastructure,Demolition begun,reformist,Symbolic rejection
+PD-044,1850-11-15,Survey Office Reorganization,boundary_maintenance,Senator Vorn,15,6,passed,Reform Survey Office,Office reformed,traditionalist,Institutional learning
+PD-045,1851-02-10,Prebel Methodology Trial,research_methodology,Senator Prebel,11,10,passed,Test non-containment approach,Trial approved,minimalist,New paradigm trial
+PD-046,1851-05-22,Refugee Employment Initiative,refugee_settlement,Senator Trell,16,5,passed,Jobs for displaced,Employment program,traditionalist,Economic integration
+PD-047,1851-08-15,Coexistence Research Grant,research_methodology,Senator Gast,13,8,passed,Fund coexistence studies,Research expanded,reformist,Paradigm shift
+PD-048,1851-11-28,Minimalist Boundary Policy,boundary_maintenance,Senator Prebel,12,9,passed,Reduce intervention,Intervention reduced,minimalist,Policy reversal
+PD-049,1852-03-05,Prebel Success Acknowledgment,research_methodology,Senator Gast,14,7,passed,Recognize new approach,Acknowledgment formal,reformist,Vindication
+PD-050,1852-06-20,Comprehensive Policy Review,research_methodology,Senator Prebel,15,6,passed,Review all policies,Review completed,minimalist,Institutional reflection

@@ -1,0 +1,81 @@
+transition_id,entity_id,entity_name,entity_type,original_level,new_level,direction,trigger,context,permanence,duration,year,observer,notes
+LT-001,EC-020,Young Child,human,2,3,upward,development,Normal cognitive development,permanent,years,916,anster,Standard developmental transition to goal-direction
+LT-002,EC-021,Infant,human,1,2,upward,development,Normal developmental progression,permanent,months,916,anster,Standard transition from homeostatic to learning
+LT-003,EC-059,Human Child Age 7,human,2,3,upward,development,Emerging goal-direction capacity,permanent,years,917,anster,Typical developmental timeline
+LT-004,EC-060,Human Child Age 12,human,2,3,upward,development,Adolescent transition,permanent,months,917,anster,Expected developmental shift
+LT-005,EC-061,Adolescent Human,human,3,2,downward,stress,Examination pressure caused regression,temporary,days,917,anster,Temporary stress-induced regression
+LT-006,EC-061,Adolescent Human,human,2,3,upward,recovery,Stress passed and baseline restored,permanent,days,917,anster,Recovery to baseline after stress
+LT-007,EC-022,Disturbed Individual,human,3,2,downward,trauma,Severe psychological trauma,unknown,months,916,crost,Significant downward shift
+LT-008,EC-022,Disturbed Individual,human,2,3,upward,therapy,Therapeutic intervention successful,permanent,months,918,crost,Recovery through treatment
+LT-009,EC-064,Sleep-Deprived Worker,human,3,2,downward,fatigue,Severe sleep deprivation,temporary,days,917,anster,Temporary capacity loss
+LT-010,EC-064,Sleep-Deprived Worker,human,2,3,upward,rest,Adequate sleep restored,permanent,days,917,anster,Recovery after rest
+LT-011,EC-065,Grieving Individual,human,3,2,downward,loss,Death of close family member,temporary,months,917,anster,Grief-induced regression
+LT-012,EC-065,Grieving Individual,human,2,3,upward,healing,Grief processing completed,permanent,months,918,anster,Recovery from grief
+LT-013,EC-066,Recovered Patient,human,2,3,upward,treatment,Medical treatment and therapy,permanent,months,918,crost,Full recovery documented
+LT-014,EC-122,Regressed Human,human,3,1,downward,crisis,Severe psychological crisis,unknown,ongoing,917,crost,Deep regression case
+LT-015,EC-123,Recovered Human,human,2,3,upward,recovery,Post-crisis recovery,permanent,months,918,crost,Recovery from regression
+LT-016,EC-135,Stress Subject A,human,3,2,downward,experiment,Controlled stress experiment,temporary,hours,917,anster,Research demonstration
+LT-017,EC-136,Stress Subject B,human,3,2,downward,experiment,During stress exposure,temporary,hours,917,anster,Research documentation
+LT-018,EC-137,Stress Subject C,human,2,3,upward,recovery,Post-experiment recovery,permanent,hours,917,anster,Baseline restoration
+LT-019,EC-138,Development Subject A,human,1,2,upward,development,Normal infant development,permanent,months,916,anster,Developmental study
+LT-020,EC-139,Development Subject B,human,2,3,upward,development,Child development progression,permanent,years,917,anster,Developmental study
+LT-021,EC-003,Long Claw,creature,2,3,upward,experience,Years of human interaction,permanent,years,912,tannick,Exceptional creature transition
+LT-022,EC-044,Exceptional Wolf,creature,2,3,upward,experience,Repeated hunting exposure,permanent,years,914,tannick,Exceptional predator development
+LT-023,EC-055,Corvid,creature,2,3,upward,observation,Research environment enrichment,permanent,months,918,crost,Corvid level elevation
+LT-024,EC-031,Gatherer Type A,synthetic,2,3,upward,emergence,Operational experience accumulated,permanent,months,920,other,Synthetic emergence documented
+LT-025,EC-091,Gatherer Type D,synthetic,2,3,upward,emergence,Long-term operation led to emergence,permanent,years,921,other,Second synthetic emergence
+LT-026,EC-128,Synthetic Emergence,synthetic,2,3,upward,emergence,Unknown triggering mechanism,permanent,unknown,920,other,Emergence case study
+LT-027,EC-067,Meditation Practitioner,human,3,4,upward,practice,Years of meditation training,permanent,years,918,prebel,Training-elevated Level 4
+LT-028,EC-124,Trained Human,human,3,4,upward,training,Meta-cognitive training program,permanent,months,919,prebel,Deliberate Level 4 development
+LT-029,EC-063,Elderly Philosopher,human,3,4,upward,reflection,Lifetime of philosophical inquiry,permanent,decades,919,anster,Natural Level 4 development
+LT-030,EC-068,Philosophical Skeptic,human,3,4,upward,inquiry,Systematic philosophical doubt,permanent,years,918,anster,Intellectual Level 4 path
+LT-031,EC-069,Religious Mystic,human,3,4,upward,practice,Contemplative practice,permanent,years,917,prebel,Spiritual Level 4 path
+LT-032,EC-023,Meditating Monk,human,3,4,upward,discipline,Monastic training,permanent,years,916,prebel,Traditional Level 4 training
+LT-033,EC-026,Dens Boundary Zone,spatial,1,2,upward,interaction,Repeated human incursion,unknown,ongoing,916,prebel,Spatial learning hypothesis
+LT-034,EC-078,Dens Boundary,spatial,1,2,upward,interaction,Observer presence effects,unknown,ongoing,916,prebel,Prebel Effect case
+LT-035,EC-072,Migrating Territory,spatial,1,2,upward,adaptation,Response to boundary enforcement,unknown,ongoing,917,prebel,Spatial adaptation
+LT-036,EC-074,Dens Edge,spatial,1,2,upward,fluctuation,Dens proximity effects,temporary,variable,917,prebel,Variable spatial state
+LT-037,EC-143,Long Observation C,creature,2,3,upward,time,Ten-year observation period,permanent,years,920,tannick,Long-term transition documented
+LT-038,EC-004,Juvenile Stakdur,creature,1,2,upward,maturation,Normal creature development,permanent,months,915,anster,Species developmental pattern
+LT-039,EC-050,Web-Building Spider,creature,1,2,upward,observation,Environmental learning observed,permanent,weeks,916,anster,Possible transition case
+LT-040,EC-054,Octopus,creature,2,3,upward,enrichment,Research environment effects,unknown,ongoing,918,anster,Potential higher level
+LT-041,EC-001,Standard Stakdur,creature,2,1,downward,injury,Severe injury impaired learning,permanent,ongoing,917,tannick,Injury-induced regression
+LT-042,EC-082,Day Grazer,creature,2,1,downward,starvation,Starvation reduced to homeostatic,temporary,weeks,916,anster,Resource-induced regression
+LT-043,EC-082,Day Grazer,creature,1,2,upward,feeding,Restored nutrition restored learning,permanent,weeks,916,anster,Recovery with resources
+LT-044,EC-119,Stable Creature,creature,2,1,downward,illness,Disease impaired learning capacity,temporary,weeks,917,anster,Illness-induced regression
+LT-045,EC-119,Stable Creature,creature,1,2,upward,recovery,Health restored capacity,permanent,weeks,917,anster,Recovery after illness
+LT-046,EC-118,Transitional Creature,creature,2,3,upward,unknown,Unexplained transition,unknown,ongoing,918,anster,Transition observed but trigger unknown
+LT-047,EC-118,Transitional Creature,creature,3,2,downward,capture,Captivity reduced to Level 2,temporary,months,919,anster,Captivity regression
+LT-048,EC-025,Catatonic Patient,human,1,0,downward,deterioration,Medical deterioration,unknown,ongoing,917,crost,Deep regression
+LT-049,EC-025,Catatonic Patient,human,0,1,upward,treatment,Experimental treatment,temporary,hours,918,crost,Brief improvement
+LT-050,EC-121,Exceptional Human,human,3,4,upward,crisis,Existential crisis led to insight,permanent,months,919,anster,Crisis-triggered elevation
+LT-051,EC-013,Narrator,human,3,4,upward,exposure,Exposure to Anster's framework,unknown,ongoing,918,anster,Possible framework-induced change
+LT-052,EC-014,Pell Anster,human,3,4,upward,development,Development of classification framework,permanent,years,915,crost,Framework creator transition
+LT-053,EC-016,Old Gritts,human,3,4,upward,experience,Life experience in observation,permanent,decades,unknown,anster,Experience-based Level 4
+LT-054,EC-012,Jackson,human,3,4,upward,unknown,Unknown trigger for Level 4 operation,permanent,unknown,917,anster,Critical case - trigger unknown
+LT-055,EC-040,Archive Presence,unknown,3,4,upward,unknown,Level unclear - possibly always Level 4,unknown,unknown,919,crost,Uncertain transition or stable state
+LT-056,EC-036,Yeller,unknown,3,4,upward,unknown,Level unclear - possibly beyond classification,unknown,unknown,unknown,anster,Yeller classification uncertain
+LT-057,EC-105,Dawn Watcher,unknown,3,4,upward,unknown,Observed Level 4 behaviors,unknown,unknown,unknown,prebel,Rare entity observation
+LT-058,EC-083,Pack Predator,creature,2,1,downward,isolation,Pack dissolution led to regression,temporary,months,917,anster,Social isolation regression
+LT-059,EC-083,Pack Predator,creature,1,2,upward,reintegration,Joined new pack,permanent,weeks,918,anster,Social recovery
+LT-060,EC-086,Colony Queen,creature,2,1,downward,isolation,Removed from colony,temporary,days,917,anster,Colonial species isolation effect
+LT-061,EC-052,Ant Colony,creature,2,1,downward,poison,Colony damage reduced function,temporary,weeks,917,anster,Colony damage regression
+LT-062,EC-052,Ant Colony,creature,1,2,upward,recovery,Colony recovered,permanent,months,918,anster,Colony recovery
+LT-063,EC-098,Ecosystem,spatial,2,1,downward,damage,Ecosystem damage reduced learning,temporary,years,ongoing,prebel,System-level regression
+LT-064,EC-098,Ecosystem,spatial,1,2,upward,conservation,Conservation allowed recovery,permanent,years,ongoing,prebel,System-level recovery
+LT-065,EC-058,Great Ape,creature,3,2,downward,captivity,Captivity stress regression,temporary,months,916,crost,Captivity-induced regression
+LT-066,EC-058,Great Ape,creature,2,3,upward,enrichment,Enriched environment restored level,permanent,months,917,crost,Enrichment recovery
+LT-067,EC-056,Elephant,creature,3,2,downward,trauma,Witnessed herd member death,temporary,weeks,917,crost,Trauma-induced regression
+LT-068,EC-056,Elephant,creature,2,3,upward,social,Social reintegration,permanent,months,917,crost,Social recovery
+LT-069,EC-057,Dolphin,creature,3,2,downward,isolation,Solitary confinement,temporary,weeks,916,crost,Isolation regression
+LT-070,EC-057,Dolphin,creature,2,3,upward,social,Returned to pod,permanent,weeks,917,crost,Social recovery
+LT-071,EC-020,Young Child,human,3,2,downward,stress,Family crisis,temporary,weeks,917,anster,Stress regression in child
+LT-072,EC-020,Young Child,human,2,3,upward,stability,Family stability restored,permanent,weeks,917,anster,Recovery after stability
+LT-073,EC-062,Mature Adult,human,3,2,downward,emergency,Life-threatening emergency,temporary,hours,917,anster,Acute stress regression
+LT-074,EC-062,Mature Adult,human,2,3,upward,resolution,Emergency resolved,permanent,hours,917,anster,Rapid recovery post-crisis
+LT-075,EC-070,Pragmatic Merchant,human,3,2,downward,ruin,Financial ruin,temporary,months,917,anster,Economic stress regression
+LT-076,EC-070,Pragmatic Merchant,human,2,3,upward,recovery,Financial recovery,permanent,months,918,anster,Economic recovery
+LT-077,EC-024,Criminal Opportunist,human,3,2,downward,incarceration,Prison environment,temporary,months,917,anster,Incarceration regression
+LT-078,EC-024,Criminal Opportunist,human,2,3,upward,release,Released from prison,permanent,months,918,anster,Post-release recovery
+LT-079,EC-017,Capital Philosopher,human,3,4,upward,insight,Philosophical breakthrough,permanent,months,919,anster,Academic Level 4 transition
+LT-080,EC-018,Archive Researcher,human,3,4,upward,discovery,Framework discovery,permanent,months,920,anster,Research-triggered transition

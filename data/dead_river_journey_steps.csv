@@ -1,0 +1,51 @@
+step_id,journey_id,step_number,date,location,terrain_type,weather,distance_km,time_hours,event,hazard_level,resource_consumed,notes
+DJS-001,DJ-001,1,1842-03-15,Capital Gates,urban,clear,0,1,departure,none,0,Standard departure
+DJS-002,DJ-001,2,1842-03-15,Capital Road,road,clear,25,4,travel,none,10,Good road conditions
+DJS-003,DJ-001,3,1842-03-16,Midway Inn,road,clear,30,5,rest,none,15,Overnight rest
+DJS-004,DJ-001,4,1842-03-17,Hill Pass,hills,cloudy,20,6,travel,low,20,Slower through hills
+DJS-005,DJ-001,5,1842-03-18,River Ford,river,clear,15,3,crossing,moderate,5,River crossing
+DJS-006,DJ-001,6,1842-03-19,Plains,grassland,clear,35,5,travel,none,15,Fast open travel
+DJS-007,DJ-001,7,1842-03-20,Forest Edge,forest,rain,20,6,travel,low,20,Rain slowed progress
+DJS-008,DJ-001,8,1842-03-21,Forest Camp,forest,clear,25,7,rest,low,25,Forest camp overnight
+DJS-009,DJ-001,9,1842-03-22,Denstone,urban,clear,15,3,arrival,none,10,Successful arrival
+DJS-010,DJ-002,1,1842-04-10,Capital,urban,clear,0,1,departure,none,0,Survey mission start
+DJS-011,DJ-002,2,1842-04-11,Southern Road,road,clear,30,5,travel,none,15,Standard travel
+DJS-012,DJ-002,3,1842-04-12,Boundary Approach,grassland,cloudy,25,6,travel,low,20,Entering survey zone
+DJS-013,DJ-002,4,1842-04-13,Survey Point A,boundary,clear,15,8,survey,moderate,30,First survey point
+DJS-014,DJ-002,5,1842-04-14,Survey Point B,boundary,clear,10,8,survey,moderate,30,Second survey point
+DJS-015,DJ-002,6,1842-04-15,Survey Point C,boundary,fluctuating,12,10,survey,high,40,Boundary fluctuation
+DJS-016,DJ-002,7,1842-04-16,Retreat Camp,grassland,clear,20,5,retreat,moderate,25,Withdrew from boundary
+DJS-017,DJ-002,8,1842-04-17,Southern Road,road,clear,35,5,travel,none,15,Return journey
+DJS-018,DJ-002,9,1842-04-18,Capital,urban,clear,30,4,arrival,none,10,Survey complete
+DJS-019,DJ-010,1,1844-07-10,Capital,urban,clear,0,2,departure,none,0,Research expedition
+DJS-020,DJ-010,2,1844-07-11,Western Road,road,clear,28,5,travel,none,12,Standard travel
+DJS-021,DJ-010,3,1844-07-12,Foothills,hills,cloudy,22,7,travel,low,18,Hill terrain
+DJS-022,DJ-010,4,1844-07-13,Mountain Pass,mountain,cold,15,10,crossing,moderate,25,Mountain crossing
+DJS-023,DJ-010,5,1844-07-14,High Camp,mountain,cold,8,6,rest,moderate,20,Mountain camp
+DJS-024,DJ-010,6,1844-07-15,Descent,hills,clear,20,6,travel,low,15,Descending
+DJS-025,DJ-010,7,1844-07-16,Dens Approach,dens_adjacent,fluctuating,18,8,approach,high,30,Entering dens zone
+DJS-026,DJ-010,8,1844-07-17,Research Point A,dens_adjacent,anomalous,5,12,research,high,40,Research observations
+DJS-027,DJ-010,9,1844-07-18,Research Point B,dens_adjacent,anomalous,3,14,research,very_high,50,Intense phenomena
+DJS-028,DJ-010,10,1844-07-19,Emergency Retreat,dens_adjacent,anomalous,10,4,retreat,very_high,20,Forced retreat
+DJS-029,DJ-010,11,1844-07-20,Safe Distance,hills,clear,25,6,recovery,low,15,Recovery period
+DJS-030,DJ-010,12,1844-07-22,Mountain Return,mountain,cold,18,9,travel,moderate,22,Return through mountains
+DJS-031,DJ-010,13,1844-07-25,Western Road,road,clear,40,6,travel,none,15,Fast return
+DJS-032,DJ-010,14,1844-07-30,Capital,urban,clear,35,5,arrival,none,10,Expedition complete
+DJS-033,DJ-020,1,1847-05-10,SW Settlement,settlement,smoke,0,3,departure,high,0,Mass evacuation starts
+DJS-034,DJ-020,2,1847-05-11,SW Road,road,clear,15,8,travel,moderate,25,Slow with large group
+DJS-035,DJ-020,3,1847-05-12,First Camp,grassland,clear,12,4,rest,moderate,40,Night camp large group
+DJS-036,DJ-020,4,1847-05-13,Road Junction,road,rain,18,9,travel,moderate,35,Rain slowed progress
+DJS-037,DJ-020,5,1847-05-14,River Crossing,river,rain,10,6,crossing,high,20,Difficult river crossing
+DJS-038,DJ-020,6,1847-05-15,Eastern Plains,grassland,cloudy,20,7,travel,moderate,30,Open terrain
+DJS-039,DJ-020,7,1847-05-16,Second Camp,grassland,clear,18,5,rest,low,35,Large camp established
+DJS-040,DJ-020,8,1847-05-18,Hill Country,hills,clear,15,8,travel,low,28,Slow through hills
+DJS-041,DJ-020,9,1847-05-19,Third Camp,hills,clear,12,5,rest,low,32,Hill camp
+DJS-042,DJ-020,10,1847-05-21,Forest Edge,forest,cloudy,18,8,travel,low,25,Entering forest
+DJS-043,DJ-020,11,1847-05-22,Forest Path,forest,rain,14,9,travel,moderate,30,Forest travel
+DJS-044,DJ-020,12,1847-05-23,Forest Camp,forest,rain,10,5,rest,low,28,Wet camp
+DJS-045,DJ-020,13,1847-05-24,Capital Approach,road,clear,20,6,travel,none,20,Final approach
+DJS-046,DJ-020,14,1847-05-25,Capital,urban,clear,15,4,arrival,none,15,Evacuation complete
+DJS-047,DJ-026,1,1850-02-01,Capital,urban,clear,0,2,departure,none,0,Prebel expedition
+DJS-048,DJ-026,2,1850-02-03,Northern Road,road,cold,35,6,travel,low,18,Winter travel
+DJS-049,DJ-026,3,1850-02-05,Northern Inn,settlement,cold,40,7,rest,none,22,Inn stay
+DJS-050,DJ-026,4,1850-02-08,Tundra Edge,tundra,cold,30,8,travel,moderate,28,Harsh conditions

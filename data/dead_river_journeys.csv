@@ -1,0 +1,31 @@
+journey_id,traveler_id,traveler_name,departure_date,arrival_date,origin,destination,route_type,distance,duration_days,companions,cargo,outcome,hazards_encountered,notes
+DJ-001,T-001,Merchant Voss,1842-03-15,1842-03-22,Capital,Denstone,trade_route,150,7,3,textiles,success,none,Standard trade journey
+DJ-002,T-002,Surveyor Kell,1842-04-10,1842-04-18,Capital,SW Boundary,survey,200,8,2,equipment,success,boundary_fluctuation,Survey mission
+DJ-003,T-003,Pilgrim Group,1842-05-01,1842-05-15,Eastern Village,Sacred Pool,pilgrimage,180,14,12,offerings,success,weather,Annual pilgrimage
+DJ-004,T-004,Merchant Trell,1842-06-20,1842-06-28,Denstone,Capital,trade_route,150,8,4,minerals,success,bandits,Return trade journey
+DJ-005,T-005,Explorer Crost,1842-07-05,1842-07-25,Capital,Unknown North,exploration,300,20,5,supplies,partial,terrain,Exploration cut short
+DJ-006,T-006,Refugee Family,1843-08-10,1843-08-18,SW Settlement,Capital,evacuation,180,8,6,belongings,success,none,Early evacuation
+DJ-007,T-007,Survey Team,1843-09-15,1843-09-25,Capital,Eastern Boundary,survey,160,10,4,instruments,success,creature_encounter,Routine survey
+DJ-008,T-008,Trade Caravan,1844-03-01,1844-03-12,Capital,Northern Markets,trade_route,200,11,15,mixed_goods,success,weather,Large caravan
+DJ-009,T-009,Messenger Rapid,1844-05-20,1844-05-22,Capital,SW Sector,urgent,180,2,1,dispatches,success,none,Emergency message
+DJ-010,T-010,Scientific Party,1844-07-10,1844-07-30,Capital,Dens Perimeter,research,250,20,8,research_equipment,partial,boundary_phenomena,Research expedition
+DJ-011,T-011,Evacuation Group,1845-02-15,1845-02-25,SW Settlement,Eastern Refuge,evacuation,120,10,25,essentials,success,weather,Winter evacuation
+DJ-012,T-012,Supply Convoy,1845-04-01,1845-04-08,Capital,SW Moat Works,supply,150,7,20,construction_materials,success,none,Moat supply run
+DJ-013,T-013,Medical Team,1845-06-15,1845-06-22,Capital,SW Settlement,medical,150,7,6,medical_supplies,success,none,Medical mission
+DJ-014,T-014,Inspection Party,1845-08-20,1845-08-30,Capital,SW Sector,inspection,180,10,10,none,partial,boundary_advance,Inspection cut short
+DJ-015,T-015,Emergency Convoy,1846-01-10,1846-01-18,Capital,SW Sector,emergency,180,8,30,emergency_supplies,success,weather,Winter emergency
+DJ-016,T-016,Refugee Wave A,1846-04-05,1846-04-15,SW Settlement,Capital,evacuation,180,10,50,belongings,success,overcrowding,First major wave
+DJ-017,T-017,Engineering Team,1846-06-01,1846-06-10,Capital,SW Moat,construction,150,9,25,heavy_equipment,success,creature_encounter,Reinforcement team
+DJ-018,T-018,Refugee Wave B,1846-09-15,1846-09-25,SW Settlement,Capital,evacuation,180,10,80,minimal,success,disease,Second major wave
+DJ-019,T-019,Final Supply Run,1847-02-01,1847-02-12,Capital,SW Sector,supply,180,11,15,emergency_supplies,partial,boundary_breach,Last supply attempt
+DJ-020,T-020,Mass Evacuation,1847-05-10,1847-05-25,SW Sector,Capital,evacuation,180,15,200,essentials,success,casualties,Major evacuation
+DJ-021,T-021,Rescue Party,1847-08-01,1847-08-15,Capital,SW Sector,rescue,180,14,12,rescue_equipment,partial,boundary_breach,Rescue mission
+DJ-022,T-022,Final Evacuation,1848-03-01,1848-03-20,SW Sector,Capital,evacuation,180,19,500,minimal,success,casualties,Last evacuation
+DJ-023,T-023,Assessment Team,1848-07-15,1848-07-30,Capital,SW Perimeter,assessment,150,15,8,observation_equipment,success,boundary_phenomena,Post-collapse assessment
+DJ-024,T-024,Relief Convoy,1849-04-01,1849-04-10,Capital,Refugee Camps,relief,50,9,20,food_medicine,success,none,Camp relief
+DJ-025,T-025,Survey Return,1849-08-10,1849-08-20,SW Perimeter,Capital,survey,180,10,4,data,success,none,Post-collapse survey
+DJ-026,T-026,Prebel Expedition,1850-02-01,1850-02-28,Capital,Northern Boundary,research,300,27,6,research_equipment,success,none,Alternative methodology test
+DJ-027,T-027,Reconstruction Team,1850-06-15,1850-06-25,Capital,SW Sector,reconstruction,180,10,15,building_materials,success,none,Reconstruction begins
+DJ-028,T-028,Return Migrants,1851-03-01,1851-03-12,Capital,SW Settlement,resettlement,180,11,30,household_goods,success,none,First returning settlers
+DJ-029,T-029,Trade Resumption,1851-07-10,1851-07-20,Capital,SW Markets,trade_route,180,10,10,trade_goods,success,none,Trade routes reopen
+DJ-030,T-030,Memorial Journey,1852-03-20,1852-03-30,Capital,SW Memorial,ceremonial,180,10,100,none,success,none,Memorial dedication

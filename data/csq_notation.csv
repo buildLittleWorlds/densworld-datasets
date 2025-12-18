@@ -1,0 +1,51 @@
+notation_id,symbol,category,base_meaning,modified_meaning,quonxy_translation,counter_value,position_rules,combination_rules,example_usage,notes
+CSQ-001,∅,fundamental,void/absence,empty set,xq-null,0,Can appear anywhere,Negates following symbol,∅∂ means 'not divided',Base symbol for negation
+CSQ-002,∂,fundamental,division/separation,boundary marker,xq-div,1,Between other symbols,Creates partition,∂∂ means 'complete separation',Recursive use intensifies
+CSQ-003,∫,fundamental,integration/joining,accumulation,xq-int,2,Prefix or suffix,Combines with following,∫∂ means 'unified boundary',Opposite of division
+CSQ-004,Δ,fundamental,change/difference,transformation,xq-delta,3,Any position,Modifies adjacent symbols,Δ∫ means 'change in integration',Core transformation marker
+CSQ-005,Σ,accumulator,summation,collection,xq-sum,5,Prefix only,Gathers following sequence,Σ(∂∫∂) means 'sum of boundaries',Prime-5 counter
+CSQ-006,Π,accumulator,product,multiplication,xq-prod,7,Prefix only,Multiplies following sequence,Π(∂∂) means 'product of divisions',Prime-7 counter
+CSQ-007,∇,operator,gradient/slope,directional change,xq-grad,11,Between symbols,Indicates rate of change,∂∇∫ means 'rate from division to integration',Prime-11 counter
+CSQ-008,∞,limit,infinity,unbounded,xq-inf,13,Suffix only,Indicates limit,∫∞ means 'infinite integration',Large prime counter
+CSQ-009,ε,proximity,epsilon/nearness,approximation,xq-eps,17,Prefix for values,Indicates approximate,ε∂ means 'near-boundary',Precision marker
+CSQ-010,λ,function,lambda/abstraction,function marker,xq-lambda,19,Prefix for expressions,Creates function,λ(x.∂x) means 'divide x function',Functional notation
+CSQ-011,μ,measure,mu/measure,quantification,xq-mu,23,Prefix for sets,Assigns measure,μ(∂∂) means 'measure of divisions',Quantification marker
+CSQ-012,σ,deviation,sigma/spread,variation,xq-sigma,29,Prefix or suffix,Indicates spread,σ∂ means 'boundary variation',Statistical marker
+CSQ-013,τ,time,tau/period,temporal marker,xq-tau,31,Prefix for events,Marks time reference,τ∂ means 'boundary at time t',Temporal notation
+CSQ-014,ω,frequency,omega/rate,angular,xq-omega,37,Suffix for cycles,Indicates frequency,∫ω means 'integration frequency',Cyclic marker
+CSQ-015,α,first,alpha/beginning,primary,xq-alpha,2,Start of sequence,Marks first element,α∂ means 'first boundary',Ordering marker
+CSQ-016,β,second,beta/following,secondary,xq-beta,3,After alpha,Marks second element,β∂ means 'second boundary',Sequence continuation
+CSQ-017,γ,third,gamma/tertiary,third order,xq-gamma,5,After beta,Marks third element,γ∂ means 'third boundary',Completes basic sequence
+CSQ-018,φ,golden,phi/proportion,harmonic ratio,xq-phi,1.618,Ratio marker,Indicates golden proportion,φ∂ means 'golden-divided boundary',Special proportion
+CSQ-019,ψ,wave,psi/wave function,probability,xq-psi,complex,Wave notation,Quantum-like expression,ψ∂ means 'boundary wave function',Probabilistic marker
+CSQ-020,χ,character,chi/property,attribute marker,xq-chi,varies,Attribute prefix,Assigns property,χ(∂=strong) means 'strong boundary',Property assignment
+CSQ-021,⊕,addition,direct sum,combined,xq-plus,+,Binary operator,Combines disjoint elements,∂⊕∫ means 'boundary or integration',Logical OR
+CSQ-022,⊗,product,tensor product,intertwined,xq-tensor,×,Binary operator,Interweaves elements,∂⊗∫ means 'boundary and integration intertwined',Entanglement marker
+CSQ-023,⊂,subset,containment,inclusion,xq-subset,<,Binary relation,Indicates containment,∂⊂∫ means 'boundary within integration',Set relation
+CSQ-024,⊃,superset,containing,inclusion,xq-superset,>,Binary relation,Indicates containing,∫⊃∂ means 'integration contains boundary',Inverse containment
+CSQ-025,≡,identity,equivalence,same as,xq-equiv,=,Binary relation,Asserts identity,∂≡∫ means 'boundary equals integration',Strong equality
+CSQ-026,≈,approximate,near equality,similar to,xq-approx,≈,Binary relation,Asserts similarity,∂≈∫ means 'boundary approximates integration',Weak equality
+CSQ-027,→,implication,implies,leads to,xq-implies,if-then,Binary operator,Logical implication,∂→∫ means 'boundary implies integration',Logical connector
+CSQ-028,↔,biconditional,if and only if,mutual,xq-iff,iff,Binary operator,Mutual implication,∂↔∫ means 'boundary iff integration',Equivalence marker
+CSQ-029,∀,universal,for all,every,xq-forall,all,Quantifier prefix,Universal quantification,∀∂ means 'for all boundaries',Universal scope
+CSQ-030,∃,existential,there exists,some,xq-exists,some,Quantifier prefix,Existential quantification,∃∂ means 'there exists a boundary',Existential scope
+CSQ-031,[],grouping,bracket,collection,xq-bracket,group,Enclosure,Groups elements,[∂∫∂] means 'boundary-integration-boundary group',Grouping device
+CSQ-032,(),ordering,parenthesis,sequence,xq-paren,order,Enclosure,Orders elements,(∂∫∂) means 'ordered sequence',Ordering device
+CSQ-033,{},set,braces,set notation,xq-brace,set,Enclosure,Defines set,{∂∫} means 'set of boundary and integration',Set definition
+CSQ-034,⟨⟩,tuple,angle brackets,ordered pair,xq-angle,pair,Enclosure,Defines tuple,⟨∂∫⟩ means 'tuple of boundary integration',Pairing device
+CSQ-035,|,conditional,bar,given that,xq-bar,given,Separator,Conditional marker,∂|∫ means 'boundary given integration',Conditional notation
+CSQ-036,′,derivative,prime,derived,xq-prime,d/dx,Suffix,Indicates derivative,∂′ means 'boundary derivative',Calculus marker
+CSQ-037,″,second derivative,double prime,twice derived,xq-dprime,d2/dx2,Suffix,Second derivative,∂″ means 'second boundary derivative',Higher derivative
+CSQ-038,*,dual,asterisk,conjugate,xq-star,conjugate,Suffix,Dual marker,∂* means 'boundary dual',Conjugation
+CSQ-039,†,adjoint,dagger,adjoint,xq-dagger,transpose,Suffix,Adjoint operator,∂† means 'boundary adjoint',Operator adjoint
+CSQ-040,⊥,perpendicular,bottom,orthogonal,xq-perp,⊥,Relation,Orthogonality,∂⊥∫ means 'boundary perpendicular to integration',Orthogonality
+CSQ-041,∥,parallel,double bar,parallel,xq-para,∥,Relation,Parallelism,∂∥∫ means 'boundary parallel to integration',Parallel relation
+CSQ-042,∧,conjunction,wedge,and,xq-and,AND,Binary operator,Logical AND,∂∧∫ means 'boundary and integration',Conjunction
+CSQ-043,∨,disjunction,vee,or,xq-or,OR,Binary operator,Logical OR,∂∨∫ means 'boundary or integration',Disjunction
+CSQ-044,¬,negation,not,negation,xq-not,NOT,Unary operator,Logical NOT,¬∂ means 'not boundary',Negation
+CSQ-045,⊢,turnstile,proves,derivation,xq-proves,derives,Binary,Proof marker,∫⊢∂ means 'integration proves boundary',Derivation
+CSQ-046,⊨,models,double turnstile,satisfies,xq-models,models,Binary,Satisfaction,∫⊨∂ means 'integration models boundary',Model relation
+CSQ-047,℘,powerset,weierstrass p,power set,xq-power,2^n,Unary,Power set,℘(∂) means 'power set of boundaries',Set operation
+CSQ-048,ℵ,cardinality,aleph,infinite cardinal,xq-aleph,∞-size,Cardinal,Infinite size,ℵ(∂) means 'cardinality of boundaries',Size marker
+CSQ-049,ℶ,beth,beth,second infinite,xq-beth,∞-power,Cardinal,Power of infinite,ℶ(∂) means 'beth of boundaries',Larger infinity
+CSQ-050,◊,possibility,diamond,possible,xq-diamond,possible,Modal operator,Modal possibility,◊∂ means 'possible boundary',Modal logic

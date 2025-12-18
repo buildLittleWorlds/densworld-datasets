@@ -1,0 +1,51 @@
+trajectory_id,entity_id,entity_name,start_basin,end_basin,start_form,end_form,duration,steps,path_type,success,notes
+ET-001,ENT-001,Stakdur Alpha,BA-001,BA-001,FL-008,FL-001,45,12,cyclic,True,Successful return to Quintic Cycle attractor
+ET-002,ENT-002,Stakdur Beta,BA-001,BA-003,FL-008,FL-004,120,35,crossing,True,Basin transition to Tension attractor
+ET-003,ENT-003,Reed-Spinner Colony,BA-001,BA-001,FL-001,FL-001,0,0,stable,True,Remained in Quintic Cycle throughout observation
+ET-004,ENT-004,Cave Bat Group,BA-004,BA-011,FL-005,FL-011,180,42,seasonal,True,Seasonal transition to Deep Rest
+ET-005,ENT-005,Maw Beast,BA-006,BA-006,FL-006,FL-006,0,0,stable,True,Stable in Septenary Rhythm
+ET-006,ENT-006,Young Stakdur,BA-015,BA-001,FL-003,FL-001,90,28,developmental,True,Developmental trajectory to Quintic
+ET-007,ENT-007,Injured Creature,BA-001,BA-011,FL-001,FL-011,30,15,crisis,True,Emergency transition to Deep Rest
+ET-008,ENT-008,Territorial Creature,BA-003,BA-003,FL-013,FL-004,60,22,escalation,True,Escalated to Tension during conflict
+ET-009,ENT-009,Migrating Flock,BA-079,BA-079,FL-079,FL-079,365,120,annual,True,Completed annual migration arc
+ET-010,ENT-010,Foraging Group,BA-032,BA-032,FL-032,FL-088,8,5,daily,True,Daily foraging cycle completed
+ET-011,ENT-011,Stressed Individual,BA-099,BA-011,FL-099,FL-011,14,10,crisis,True,Stress-induced retreat to rest
+ET-012,ENT-012,Recovering Entity,BA-011,BA-099,FL-011,FL-099,60,25,recovery,True,Successful recovery trajectory
+ET-013,ENT-013,Territorial Pair,BA-036,BA-036,FL-036,FL-087,30,18,reproductive,True,Coupling to courtship transition
+ET-014,ENT-014,Grieving Individual,BA-099,BA-038,FL-099,FL-038,90,35,processing,True,Mourning cycle trajectory
+ET-015,ENT-015,Exploration Party,BA-040,BA-081,FL-040,FL-081,21,45,exploration,True,Systematic exploration completed
+ET-016,ENT-016,Threatened Group,BA-099,BA-157,FL-099,FL-069,5,8,emergency,True,Emergency stasis response
+ET-017,ENT-017,Learning Juvenile,BA-058,BA-128,FL-058,FL-128,180,65,developmental,True,Play to learning transition
+ET-018,ENT-018,Dominant Individual,BA-118,BA-080,FL-118,FL-080,45,20,social,True,Display to rank maintenance
+ET-019,ENT-019,Prey Individual,BA-085,BA-107,FL-085,FL-107,2,6,escape,True,Successful retreat trajectory
+ET-020,ENT-020,Predator Individual,BA-171,BA-184,FL-171,FL-184,4,10,hunting,True,Hunt sequence completed
+ET-021,ENT-021,Failed Hunt,BA-171,BA-099,FL-171,FL-099,8,15,hunting,False,Hunt failed return to baseline
+ET-022,ENT-022,Lost Individual,BA-122,BA-099,FL-122,FL-099,72,40,disorientation,True,Recovered from drift state
+ET-023,ENT-023,Sick Entity,BA-099,BA-011,FL-099,FL-011,21,18,illness,True,Illness trajectory to rest
+ET-024,ENT-024,Recovered Entity,BA-011,BA-099,FL-011,FL-099,45,22,recovery,True,Full recovery documented
+ET-025,ENT-025,Transitional Entity,BA-018,BA-099,FL-018,FL-099,30,25,transition,True,Successful transition passage
+ET-026,ENT-026,Ridge Walker,BA-018,BA-035,FL-018,FL-035,15,20,transitional,True,Ridge navigation successful
+ET-027,ENT-027,Basin Hopper,BA-001,BA-003,FL-001,FL-004,60,30,crossing,True,Multiple basin transition
+ET-028,ENT-028,Stable Core,BA-126,BA-126,FL-126,FL-126,365,0,stable,True,Year-long stability observed
+ET-029,ENT-029,Unstable Entity,BA-007,BA-022,FL-007,FL-022,5,12,chaotic,False,Failed to stabilize
+ET-030,ENT-030,Dens Adjacent,BA-022,BA-078,FL-022,FL-078,10,18,boundary,False,Lost to dens region
+ET-031,ENT-031,Edge Dancer,BA-100,BA-100,FL-100,FL-100,30,45,creative,True,Maintained edge state
+ET-032,ENT-032,Returning Migrant,BA-079,BA-099,FL-079,FL-099,180,75,annual,True,Post-migration rest
+ET-033,ENT-033,Colony Split,BA-024,BA-024,FL-024,FL-092,14,20,social,True,Colony dispersal trajectory
+ET-034,ENT-034,Reunion Path,BA-092,BA-024,FL-092,FL-024,21,28,social,True,Post-dispersal reunion
+ET-035,ENT-035,Teaching Pair,BA-091,BA-128,FL-091,FL-128,90,50,developmental,True,Teaching to learning cycle
+ET-036,ENT-036,Defensive Cluster,BA-096,BA-099,FL-096,FL-099,2,8,emergency,True,Post-defense baseline return
+ET-037,ENT-037,Submission Path,BA-089,BA-097,FL-089,FL-097,1,4,social,True,Challenge to submission
+ET-038,ENT-038,Dominance Rise,BA-097,BA-118,FL-097,FL-118,30,22,social,True,Submission to dominance
+ET-039,ENT-039,Alarm Response,BA-084,BA-094,FL-084,FL-094,0.5,3,emergency,True,Warning to panic chain
+ET-040,ENT-040,Calm Return,BA-094,BA-101,FL-094,FL-101,4,10,recovery,True,Panic to calm trajectory
+ET-041,ENT-041,Circadian Lock,BA-108,BA-052,FL-108,FL-052,24,8,daily,True,Day-night full cycle
+ET-042,ENT-042,Seasonal Shift,BA-112,BA-011,FL-112,FL-011,30,25,seasonal,True,Seasonal to dormancy
+ET-043,ENT-043,Awakening Path,BA-011,BA-125,FL-011,FL-125,7,15,seasonal,True,Dormancy exit trajectory
+ET-044,ENT-044,Growth Trajectory,BA-138,BA-140,FL-138,FL-140,365,120,developmental,True,Infant to child development
+ET-045,ENT-045,Maturation Path,BA-140,BA-099,FL-140,FL-099,730,200,developmental,True,Child to adult trajectory
+ET-046,ENT-046,Aging Path,BA-099,BA-101,FL-099,FL-101,3650,500,aging,True,Adult to elder trajectory
+ET-047,ENT-047,End of Life,BA-101,BA-000,FL-101,FL-000,14,25,terminal,True,Terminal trajectory
+ET-048,ENT-048,Crisis Recovery,BA-122,BA-123,FL-122,FL-123,60,40,recovery,True,Regression recovery
+ET-049,ENT-049,Trained Transition,BA-127,BA-180,FL-127,FL-180,90,55,training,True,Training-induced trajectory
+ET-050,ENT-050,Spontaneous Shift,BA-118,BA-119,FL-118,FL-119,30,35,emergence,True,Unexpected level transition

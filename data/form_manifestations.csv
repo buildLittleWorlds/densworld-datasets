@@ -1,0 +1,51 @@
+manifestation_id,form_id,form_name,reader_type,reader_name,reader_species,location,year_observed,manifestation_quality,duration,observer,notes
+MAN-001,FL-001,The Quintic Cycle,creature,Standard Stakdur,stakdur,Yeller Quarry,892,complete,continuous,E. Pol,First documented manifestation of the Quintic Cycle. Five-phase behavioral pattern observed across multiple individuals.
+MAN-002,FL-001,The Quintic Cycle,creature,Reed-Spinner Colony,reed-spinner,Eastern Wetlands,894,complete,continuous,P. Brent,Independently evolved manifestation of identical pattern. Key evidence for Library hypothesis.
+MAN-003,FL-001,The Quintic Cycle,creature,Cave Bat Group,cave bat,Bone Caves,897,partial,seasonal,C. Vells,Seasonal manifestation during breeding season. Pattern incomplete during winter dormancy.
+MAN-004,FL-002,The Binary Division,creature,All reproducing organisms,multiple,Universal,ancient,complete,continuous,E. Pol,Universal manifestation. Every cell division reads from this form.
+MAN-005,FL-027,The Five-Body Form,entity,Yeller,unknown,Yeller Quarry vicinity,unknown,complete,continuous,Multiple,Unique manifestation. Single identity distributed across five bodies. Central mystery of the Library.
+MAN-006,FL-005,The Triad Form,creature,Territorial Maw Beast,maw beast,Border Territories,901,complete,territorial,P. Brent,Three-phase territorial patrol pattern. Prime-3 timing precisely observed.
+MAN-007,FL-006,The Septenary Rhythm,creature,Migration Birds,migratory species,Northern Passage,903,complete,seasonal,C. Vells,Seven-day rest intervals during migration. Lunar correlation hypothesized.
+MAN-008,FL-011,The Deep Rest,creature,Hibernating Stakdur,stakdur,Quarry Deep Tunnels,905,complete,seasonal,Crew reports,Extended dormancy form. Systems minimize complexity for survival.
+MAN-009,FL-019,The Waiting Form,creature,Ambush Predators,multiple,Various,ongoing,complete,variable,P. Brent,Patient observation pattern shared by predators and cautious prey.
+MAN-010,FL-031,The Western Mode,creature,Western Stakdur Population,stakdur,Western Territories,908,complete,continuous,K. Strand,Deep attractor dominating regional behavior. Keth noted spatial correlation.
+MAN-011,FL-039,The Resonant Attractor,creature,Colony Insects,various,Multiple locations,910,complete,seasonal,C. Vells,Strong attractor for social species. High escape velocity observed.
+MAN-012,FL-047,The Flat Attractor,creature,Generalist Species,multiple,Universal,ancient,complete,continuous,E. Pol,Foundational form. Default behavioral state for many species.
+MAN-013,FL-064,The Anchor Form,creature,Stressed Individuals,multiple,Various,ongoing,complete,crisis,P. Brent,Stability-seeking form during environmental stress.
+MAN-014,FL-079,The Migration Arc,creature,Long-Distance Migrants,multiple,Continental,ongoing,complete,seasonal,C. Vells,Major attractor for species with annual movements.
+MAN-015,FL-099,The Stable Core,creature,Baseline Organisms,multiple,Universal,ancient,complete,continuous,E. Pol,Central attractor. Default destination for disturbed systems.
+MAN-016,FL-108,The Circadian Lock,creature,Diurnal Species,multiple,Universal,ancient,complete,continuous,E. Pol,Fundamental temporal form. Day-night cycling observed universally.
+MAN-017,FL-126,The Core Stability,creature,Resting Organisms,multiple,Universal,ancient,complete,continuous,E. Pol,Baseline attractor. Minimum energy configuration.
+MAN-018,FL-135,The Baseline,creature,All Organisms,multiple,Universal,ancient,complete,continuous,E. Pol,Default state form. Universal manifestation.
+MAN-019,FL-007,The Dissolution Spiral,spatial,Dens Boundary Zone,spatial phenomenon,Dens Perimeter,912,partial,variable,V. Keth,Near-chaos manifestation in spatial substrate. Form coherence breaks down.
+MAN-020,FL-022,Dens-Adjacent XXII,spatial,Boundary Fluctuation,spatial phenomenon,Dens Adjacent Zone,914,unstable,transient,V. Keth,Spatial manifestation in high-curvature region.
+MAN-021,FL-071,The Dens Echo,spatial,Recursive Zone,spatial phenomenon,Deep Dens,915,partial,unstable,V. Keth,Form that mirrors observer. Spatial recursion.
+MAN-022,FL-078,The Dens Gate,spatial,Entry Phenomenon,spatial phenomenon,Dens Threshold,916,unstable,variable,V. Keth,Barrier thinness manifestation. Gateway form.
+MAN-023,FL-001,The Quintic Cycle,human,Ritualistic Community,human,Remote Village,898,partial,cultural,P. Brent,Cultural manifestation of five-phase pattern in human ritual.
+MAN-024,FL-019,The Waiting Form,human,Hunters,human,Various,ongoing,complete,occupational,Field reports,Human hunting behavior reads from same form as animal ambush.
+MAN-025,FL-041,The Den Form,creature,Burrowing Species,multiple,Underground,ongoing,complete,continuous,C. Vells,Shelter occupation form across burrowing species.
+MAN-026,FL-052,The Rhythm,creature,All Active Organisms,multiple,Universal,ancient,complete,continuous,E. Pol,Basic activity cycle manifestation. Waking and sleeping.
+MAN-027,FL-069,The Stasis,creature,Threatened Organisms,multiple,Various,ongoing,complete,crisis,P. Brent,Playing dead behavior. Threat response form.
+MAN-028,FL-083,The Grooming Cycle,creature,Social Species,multiple,Various,ongoing,complete,continuous,C. Vells,Self-maintenance pattern across social species.
+MAN-029,FL-086,The Nesting Form,creature,Shelter Builders,multiple,Various,ongoing,complete,seasonal,P. Brent,Shelter construction pattern in nest-building species.
+MAN-030,FL-090,The Roosting Form,creature,Communal Species,multiple,Various,ongoing,complete,continuous,C. Vells,Communal rest pattern in social species.
+MAN-031,FL-097,The Submission Form,creature,Social Hierarchies,multiple,Various,ongoing,complete,social,P. Brent,Appeasement behavior across hierarchical species.
+MAN-032,FL-004,The Tension,creature,Long Claw Stakdur,stakdur,Yeller Quarry,907,complete,continuous,Crew Boss Tannick,Exceptional individual showing prime-11 timing pattern.
+MAN-033,FL-046,The Outer State,place,Western Territory,spatial,Western Border,918,partial,regional,K. Strand,Spatial manifestation drawing systems from wide catchment.
+MAN-034,FL-149,The Stable Mode,creature,Dominant Individuals,multiple,Various,ongoing,complete,continuous,C. Vells,High-stability attractor manifestation in secure individuals.
+MAN-035,FL-157,The Safe Core,creature,Refuge-Seeking Organisms,multiple,Various,ongoing,complete,crisis,P. Brent,Maximum security attractor during threat.
+MAN-036,FL-166,The Stable Lock,creature,Established Territories,multiple,Various,ongoing,complete,territorial,C. Vells,High-stability maintenance in territorial species.
+MAN-037,FL-186,The Stable Gate,creature,Transitioning Organisms,multiple,Various,ongoing,partial,transitional,P. Brent,High-stability entry during recovery phases.
+MAN-038,FL-200,The Stable Core II,creature,Secondary Populations,multiple,Various,ongoing,complete,continuous,C. Vells,Backup baseline manifestation in stressed populations.
+MAN-039,FL-036,The Coupling,creature,Pair-Bonding Species,multiple,Various,ongoing,complete,reproductive,P. Brent,Pair-bonding form across reproductive species.
+MAN-040,FL-056,The Parental Mode,creature,Caring Species,multiple,Various,ongoing,complete,parental,C. Vells,Offspring care pattern in parental species.
+MAN-041,FL-058,The Play Form,creature,Juvenile Organisms,multiple,Various,ongoing,complete,developmental,P. Brent,Non-utilitarian behavior in young individuals.
+MAN-042,FL-067,The Aggregation,creature,Flocking Species,multiple,Various,ongoing,complete,social,C. Vells,Spontaneous clustering in social species.
+MAN-043,FL-080,The Social Rank,creature,Hierarchical Species,multiple,Various,ongoing,complete,social,P. Brent,Hierarchy maintenance across social species.
+MAN-044,FL-087,The Courtship Spiral,creature,Mating Species,multiple,Various,seasonal,complete,reproductive,C. Vells,Mate attraction pattern in breeding season.
+MAN-045,FL-091,The Teaching Mode,creature,Social Learners,multiple,Various,ongoing,complete,developmental,P. Brent,Knowledge transfer in species with parental care.
+MAN-046,FL-113,The Social Cluster,creature,Group Species,multiple,Various,ongoing,complete,social,C. Vells,Group cohesion pattern in social species.
+MAN-047,FL-143,The Social Lock,creature,Bonded Pairs,multiple,Various,ongoing,complete,social,P. Brent,Bond maintenance in pair-bonded species.
+MAN-048,FL-172,The Social Core,creature,Social Centers,multiple,Various,ongoing,complete,social,C. Vells,Group center manifestation in social species.
+MAN-049,FL-001,The Quintic Cycle,creature,Tunnel Worms,tunnel worm,Deep Quarry,899,partial,feeding,Crew reports,Feeding pattern showing five-phase structure. Partial manifestation.
+MAN-050,FL-032,The Foraging Loop,creature,Food-Seeking Species,multiple,Various,ongoing,complete,continuous,P. Brent,Resource acquisition cycle across foraging species.

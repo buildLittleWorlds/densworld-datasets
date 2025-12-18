@@ -1,0 +1,51 @@
+allocation_id,year,category,subcategory,amount_allocated,amount_spent,variance,proposing_faction,approval_votes,notes
+BA-001,1840,moat_engineering,construction,5000,4800,200,interventionist,15,Initial moat construction
+BA-002,1840,boundary_maintenance,survey_office,3000,2900,100,traditionalist,17,Survey Office establishment
+BA-003,1840,emergency_reserve,contingency,1000,0,1000,interventionist,16,Initial reserve fund
+BA-004,1840,research_grants,general,500,450,50,reformist,12,Limited research funding
+BA-005,1841,moat_engineering,construction,6000,5800,200,interventionist,14,Moat extension
+BA-006,1841,boundary_maintenance,equipment,2000,1900,100,traditionalist,15,Survey equipment
+BA-007,1841,moat_engineering,maintenance,1500,1400,100,interventionist,14,First maintenance allocation
+BA-008,1841,emergency_reserve,contingency,1500,200,1300,interventionist,19,Reserve increase
+BA-009,1842,moat_engineering,construction,7000,6900,100,interventionist,16,Continued construction
+BA-010,1842,research_grants,boundary_studies,1000,950,50,reformist,12,Research initiative
+BA-011,1842,boundary_maintenance,training,1500,1450,50,traditionalist,15,Training standards
+BA-012,1842,moat_engineering,authority,2000,1900,100,interventionist,14,Authority establishment
+BA-013,1843,moat_engineering,construction,8500,8400,100,interventionist,15,Major expansion
+BA-014,1843,boundary_maintenance,survey_office,3500,3400,100,traditionalist,18,Survey Office expansion
+BA-015,1843,moat_engineering,sw_priority,3000,2900,100,interventionist,13,SW sector priority
+BA-016,1843,emergency_reserve,contingency,2000,500,1500,interventionist,16,Reserve maintained
+BA-017,1844,moat_engineering,construction,9000,8800,200,interventionist,14,Fourth appropriation
+BA-018,1844,boundary_maintenance,mental_health,500,480,20,reformist,11,Surveyor support
+BA-019,1844,moat_engineering,depth_increase,2500,2450,50,interventionist,13,Depth increase project
+BA-020,1844,emergency_reserve,contingency,3000,1000,2000,interventionist,16,Reserve building
+BA-021,1845,moat_engineering,construction,10000,9900,100,interventionist,14,Fifth appropriation
+BA-022,1845,boundary_maintenance,rotation,2000,1950,50,traditionalist,15,Rotation policy
+BA-023,1845,moat_engineering,reinforcement,4000,3950,50,interventionist,15,SW reinforcement
+BA-024,1845,research_grants,general,200,150,50,reformist,9,Reduced research
+BA-025,1846,moat_engineering,construction,12000,11900,100,interventionist,16,Peak funding
+BA-026,1846,moat_engineering,authority_expansion,3000,2900,100,interventionist,15,Authority expansion
+BA-027,1846,emergency_reserve,sw_crisis,5000,4500,500,interventionist,14,Crisis reserve
+BA-028,1846,boundary_maintenance,danger_pay,2500,2450,50,traditionalist,17,Danger pay increase
+BA-029,1847,moat_engineering,emergency,15000,14800,200,interventionist,15,Emergency reinforcement
+BA-030,1847,emergency_reserve,evacuation,8000,7500,500,interventionist,13,Evacuation preparation
+BA-031,1847,moat_engineering,crisis_funding,10000,9900,100,interventionist,14,Crisis appropriation
+BA-032,1847,refugee_support,preliminary,2000,1800,200,traditionalist,16,Initial refugee funds
+BA-033,1848,moat_engineering,desperation,18000,17500,500,interventionist,14,Eighth appropriation
+BA-034,1848,emergency_reserve,crisis,10000,9500,500,interventionist,16,Crisis powers funding
+BA-035,1848,refugee_support,camps,5000,4800,200,traditionalist,15,Camp establishment
+BA-036,1848,moat_engineering,final,8000,7800,200,interventionist,13,Final reinforcement
+BA-037,1849,emergency_reserve,collapse,15000,14500,500,unanimous,21,Collapse response
+BA-038,1849,refugee_support,settlement,12000,11500,500,traditionalist,20,Settlement authority
+BA-039,1849,refugee_support,housing,8000,7800,200,traditionalist,19,Emergency housing
+BA-040,1849,moat_engineering,dissolution,1000,950,50,reformist,14,Authority dissolution
+BA-041,1850,research_grants,alternative,3000,2900,100,minimalist,12,Alternative methodology
+BA-042,1850,refugee_support,integration,10000,9800,200,traditionalist,17,Integration act
+BA-043,1850,moat_engineering,demolition,2000,1900,100,reformist,13,Demolition costs
+BA-044,1850,boundary_maintenance,reorganization,3000,2900,100,traditionalist,15,Survey reorganization
+BA-045,1851,research_grants,prebel_trial,4000,3900,100,minimalist,11,Prebel methodology
+BA-046,1851,refugee_support,employment,6000,5800,200,traditionalist,16,Employment initiative
+BA-047,1851,research_grants,coexistence,5000,4800,200,reformist,13,Coexistence research
+BA-048,1851,boundary_maintenance,minimalist,2000,1900,100,minimalist,12,Reduced intervention
+BA-049,1852,research_grants,acknowledgment,3000,2900,100,reformist,14,Prebel success
+BA-050,1852,research_grants,comprehensive,4000,3800,200,minimalist,15,Policy review

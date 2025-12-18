@@ -1,0 +1,51 @@
+survey_id,date,surveyor,location,sector,creature_type,count,behavior_observed,habitat_quality,boundary_proximity,survey_method,confidence,notes
+CS-001,1840-03-15,Kell,Northern Sector,N,stakdur,12,foraging,good,far,direct_observation,high,Baseline survey first year
+CS-002,1840-03-22,Kell,Northern Sector,N,boneback,8,grazing,good,far,direct_observation,high,Herd in good condition
+CS-003,1840-04-10,Vorn,Eastern Sector,E,cave_bat,45,roosting,excellent,moderate,roost_count,high,Large colony documented
+CS-004,1840-04-18,Vorn,Eastern Sector,E,tunnel_worm,unknown,burrowing,good,far,burrow_signs,moderate,Indirect observation
+CS-005,1840-05-05,Kell,SW Sector,SW,stakdur,15,territorial,good,moderate,direct_observation,high,First SW survey
+CS-006,1840-05-12,Kell,SW Sector,SW,maw_beast,3,patrolling,good,near,remote_observation,moderate,Dangerous proximity
+CS-007,1840-06-20,Trell,Northern Sector,N,migratory_bird,200,migrating,good,far,flock_estimate,moderate,Seasonal migration
+CS-008,1840-07-08,Kell,Eastern Sector,E,stakdur,10,resting,good,far,direct_observation,high,Summer population
+CS-009,1840-08-15,Vorn,SW Sector,SW,boneback,5,stressed,moderate,moderate,direct_observation,high,Signs of boundary stress
+CS-010,1840-09-22,Kell,Northern Sector,N,cave_bat,50,active,excellent,far,roost_count,high,Fall activity peak
+CS-011,1841-03-10,Kell,SW Sector,SW,stakdur,14,avoiding,moderate,near,direct_observation,high,Boundary avoidance noted
+CS-012,1841-04-15,Vorn,Northern Sector,N,boneback,12,calving,excellent,far,direct_observation,high,Spring calving season
+CS-013,1841-05-20,Trell,Eastern Sector,E,tunnel_worm,unknown,active,good,moderate,burrow_signs,moderate,Increased activity
+CS-014,1841-06-18,Kell,SW Sector,SW,maw_beast,4,aggressive,moderate,near,remote_observation,moderate,Increased aggression
+CS-015,1841-07-25,Vorn,Northern Sector,N,stakdur,18,foraging,excellent,far,direct_observation,high,Population increase
+CS-016,1842-03-08,Kell,SW Sector,SW,stakdur,11,stressed,poor,near,direct_observation,high,Visible stress signs
+CS-017,1842-04-12,Trell,Eastern Sector,E,cave_bat,40,dispersed,good,moderate,roost_count,moderate,Some dispersal noted
+CS-018,1842-05-19,Vorn,Northern Sector,N,boneback,15,grazing,excellent,far,direct_observation,high,Herd growth
+CS-019,1842-06-22,Kell,SW Sector,SW,maw_beast,5,expanding,moderate,near,remote_observation,moderate,Territory expansion
+CS-020,1843-03-15,Kell,SW Sector,SW,stakdur,8,retreating,poor,very_near,direct_observation,high,Population decline
+CS-021,1843-04-20,Vorn,Eastern Sector,E,tunnel_worm,unknown,reduced,moderate,moderate,burrow_signs,low,Reduced activity signs
+CS-022,1843-05-25,Trell,Northern Sector,N,migratory_bird,180,delayed,good,far,flock_estimate,moderate,Late migration
+CS-023,1843-06-30,Kell,SW Sector,SW,boneback,3,fleeing,poor,very_near,direct_observation,high,Herd fled sector
+CS-024,1844-03-12,Kell,SW Sector,SW,stakdur,5,rare,poor,very_near,direct_observation,high,Severe decline
+CS-025,1844-04-18,Vorn,Northern Sector,N,cave_bat,55,stable,excellent,far,roost_count,high,Colony stable
+CS-026,1844-05-22,Trell,Eastern Sector,E,boneback,10,displaced,good,moderate,direct_observation,high,Some displacement from SW
+CS-027,1844-06-28,Kell,SW Sector,SW,maw_beast,7,encroaching,poor,boundary,remote_observation,low,Dangerous conditions
+CS-028,1845-03-10,Kell,SW Sector,SW,stakdur,2,absent,very_poor,boundary,direct_observation,high,Near extinction in sector
+CS-029,1845-04-15,Vorn,Eastern Sector,E,tunnel_worm,unknown,minimal,moderate,moderate,burrow_signs,low,Very little activity
+CS-030,1845-05-20,Trell,Northern Sector,N,boneback,18,refugees,good,far,direct_observation,high,SW refugees arrived
+CS-031,1845-06-25,Kell,SW Sector,SW,boneback,0,absent,very_poor,boundary,direct_observation,high,No bonebacks remain
+CS-032,1846-03-08,Kell,SW Sector,SW,maw_beast,10,dominant,very_poor,boundary,remote_observation,low,Only maw beasts remain
+CS-033,1846-04-12,Vorn,Northern Sector,N,stakdur,22,overcrowded,moderate,far,direct_observation,high,Refugee pressure
+CS-034,1846-05-18,Trell,Eastern Sector,E,cave_bat,35,stressed,moderate,moderate,roost_count,moderate,Colony stressed
+CS-035,1846-06-22,Vorn,Eastern Sector,E,boneback,8,refugees,moderate,moderate,direct_observation,high,More SW refugees
+CS-036,1847-03-05,Kell,SW Sector,SW,stakdur,0,extinct,very_poor,breach,direct_observation,high,Local extinction
+CS-037,1847-04-10,Vorn,Northern Sector,N,boneback,25,overcrowded,poor,far,direct_observation,high,Resource pressure
+CS-038,1847-05-15,Trell,Eastern Sector,E,tunnel_worm,unknown,absent,poor,near,burrow_signs,moderate,Worms abandoned area
+CS-039,1847-06-20,Kell,SW Sector,SW,maw_beast,15,expanding,very_poor,breach,remote_observation,low,Maw beast explosion
+CS-040,1848-03-02,Vorn,Northern Sector,N,cave_bat,45,stable,moderate,far,roost_count,high,Colony maintained
+CS-041,1848-04-08,Trell,Eastern Sector,E,stakdur,8,displaced,moderate,near,direct_observation,high,Eastern displacement
+CS-042,1848-05-12,Kell,Northern Sector,N,migratory_bird,150,reduced,moderate,far,flock_estimate,moderate,Reduced migration
+CS-043,1849-03-20,Vorn,SW Sector,SW,all_species,0,absent,collapse,breach,remote_observation,high,Total collapse
+CS-044,1849-04-25,Trell,Eastern Sector,E,boneback,12,recovering,moderate,moderate,direct_observation,high,Post-collapse stability
+CS-045,1849-05-30,Kell,Northern Sector,N,stakdur,20,normalizing,good,far,direct_observation,high,Population normalizing
+CS-046,1850-03-15,Vorn,Eastern Sector,E,cave_bat,48,recovering,good,moderate,roost_count,high,Colony recovery
+CS-047,1850-04-20,Trell,Northern Sector,N,boneback,22,stable,good,far,direct_observation,high,Herd stabilized
+CS-048,1851-03-10,Kell,SW Sector,SW,stakdur,3,returning,poor,far,direct_observation,high,First returns to SW
+CS-049,1851-04-15,Vorn,Northern Sector,N,all_species,normal,normal,good,far,comprehensive,high,Normal populations
+CS-050,1852-03-05,Trell,SW Sector,SW,boneback,5,recolonizing,moderate,moderate,direct_observation,high,Recolonization begun

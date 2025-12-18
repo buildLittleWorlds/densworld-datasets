@@ -1,0 +1,16 @@
+user_id,username,registration_date,experience_level,total_sessions,total_hours,preferred_environment,preferred_locomotion,comfort_baseline,research_focus,institution,notes
+U-001,ResearcherAlpha,2023-01-10,intermediate,15,12.5,morphospace,fly,high,form_library_mapping,Capital Academy,Primary researcher
+U-002,HistorianBeta,2023-01-12,beginner,12,8.0,yeller_quarry,teleport,moderate,creature_behavior,Historical Society,Documentary project
+U-003,ArchivistGamma,2023-01-14,advanced,18,14.0,capital_archive,teleport,high,policy_analysis,Capital Archive,Archive digitization
+U-004,ExplorerDelta,2023-01-16,intermediate,14,10.5,dens_interior,fly,low,boundary_phenomena,Survey Office,Field researcher
+U-005,MemoirEpsilon,2023-01-18,beginner,10,6.0,sw_settlement,walk,high,collapse_memorial,Memorial Foundation,Documentary work
+U-006,StudentZeta,2023-02-01,beginner,8,5.0,morphospace,teleport,moderate,learning,Klutch CC,Student research
+U-007,TraineeEta,2023-02-05,beginner,6,4.0,boundary_simulation,walk,moderate,training,Survey Office,Surveyor training
+U-008,ScholarTheta,2023-02-10,advanced,20,16.0,capital_archive,teleport,high,senate_records,Capital Academy,Policy historian
+U-009,FieldIota,2023-02-15,intermediate,11,8.5,dens_perimeter,walk,low,boundary_monitoring,Survey Office,Active surveyor
+U-010,ArtistKappa,2023-02-20,intermediate,9,7.0,yeller_quarry,fly,moderate,visualization,Independent,Visual documentation
+U-011,TeacherLambda,2023-03-01,advanced,16,12.0,morphospace,fly,high,education,Klutch CC,Course development
+U-012,JournalistMu,2023-03-05,beginner,7,4.5,sw_settlement,walk,moderate,reporting,Capital Press,News documentation
+U-013,EngineerNu,2023-03-10,intermediate,10,7.5,boundary_simulation,walk,moderate,moat_analysis,Engineering Guild,Historical engineering
+U-014,PhilosopherXi,2023-03-15,advanced,14,11.0,morphospace,fly,high,form_theory,Academy,Theoretical research
+U-015,ConservatorOmicron,2023-03-20,intermediate,8,6.0,capital_archive,teleport,high,preservation,Archive,Preservation specialist
