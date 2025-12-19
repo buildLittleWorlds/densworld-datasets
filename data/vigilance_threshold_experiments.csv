@@ -1,0 +1,151 @@
+experiment_id,subject_type,subject_name,experimenter,vigilance_threshold,new_patterns_shown,new_patterns_accepted,old_patterns_tested,old_patterns_retained,false_positive_rate,false_negative_rate,catastrophic_forgetting_score,optimal_threshold_retrospective,threshold_error,notes
+VIG-0001,creature,Grimslew Alpha,Vornis Keth,0.2,15,14,20,8,0.12,0.07,0.60,0.55,0.35,Low vigilance causes catastrophic forgetting
+VIG-0002,creature,Grimslew Beta,Vornis Keth,0.8,15,3,20,19,0.02,0.80,0.05,0.55,0.25,High vigilance rejects almost all new patterns
+VIG-0003,scholar,Grigsu Haldo,Vornis Keth,0.5,20,12,25,18,0.05,0.40,0.28,0.52,0.02,Near-optimal threshold for balanced learning
+VIG-0004,system,Capital Archive Index,Solta Venn,0.7,30,9,40,38,0.03,0.70,0.05,0.45,0.25,Archive system too conservative
+VIG-0005,creature,Maw Beast Specimen,Hesta Vorn,0.3,12,11,15,7,0.15,0.08,0.53,0.58,0.28,Predator loses old hunting patterns quickly
+VIG-0006,scholar,Yasho Krent,Vornis Keth,0.6,18,8,22,19,0.04,0.56,0.14,0.48,0.12,Moderate conservatism in established scholar
+VIG-0007,creature,Crawler Type A,Pollux Dann,0.4,10,7,12,8,0.08,0.30,0.33,0.52,0.12,Scavenger species shows moderate adaptability
+VIG-0008,system,Provenance Engine v1,Solta Venn,0.9,25,2,30,30,0.00,0.92,0.00,0.35,0.55,Extreme conservatism blocks all new patterns
+VIG-0009,scholar,Vagabu Olt,Vornis Keth,0.35,22,18,20,11,0.10,0.18,0.45,0.58,0.23,Wandering scholar accepts novelty readily
+VIG-0010,creature,Yeller Fragment,Grigsu Haldo,0.45,8,5,10,7,0.06,0.38,0.30,0.51,0.06,Collective entity shows near-optimal vigilance
+VIG-0011,system,Guild Certification,Foreman Hask,0.75,20,4,25,24,0.02,0.80,0.04,0.42,0.33,Certification too strict; blocks qualified members
+VIG-0012,scholar,Boffa Trent,Vornis Keth,0.55,15,8,18,15,0.04,0.47,0.17,0.50,0.05,Established scholar balanced approach
+VIG-0013,creature,Stakdur Juvenile,Pollux Dann,0.25,14,13,16,5,0.14,0.07,0.69,0.62,0.37,Young predator overwrites learned behaviors
+VIG-0014,scholar,Mink Pavar,Vornis Keth,0.65,12,4,15,14,0.03,0.67,0.07,0.45,0.20,Historian conservative with new sources
+VIG-0015,system,Expedition Protocol,Rella Tarn,0.6,18,7,22,19,0.04,0.61,0.14,0.48,0.12,Protocol resists procedural updates
+VIG-0016,creature,Grimslew Gamma,Hesta Vorn,0.5,15,9,20,14,0.06,0.40,0.30,0.54,0.04,Species average vigilance
+VIG-0017,scholar,Prebel Cord,Vornis Keth,0.42,25,17,28,19,0.07,0.32,0.32,0.55,0.13,Reconstructionist open to new evidence
+VIG-0018,system,Trade Route Registry,Lurra Venn,0.55,16,8,20,17,0.05,0.50,0.15,0.50,0.05,Registry appropriately balanced
+VIG-0019,creature,Crawler Type B,Hesta Vorn,0.38,12,9,14,8,0.10,0.25,0.43,0.56,0.18,Environmental specialist; moderate flexibility
+VIG-0020,scholar,Hesta Vorn,Vornis Keth,0.48,20,12,24,18,0.06,0.40,0.25,0.52,0.04,Taxonomist near-optimal balance
+VIG-0021,system,Creature Taxonomy,Renna Caw,0.5,22,12,28,21,0.05,0.45,0.25,0.52,0.02,Water-school taxonomy appropriately fluid
+VIG-0022,creature,Maw Beast Elder,Pollux Dann,0.7,10,3,12,11,0.02,0.70,0.08,0.45,0.25,Old predator resists new patterns
+VIG-0023,scholar,Renna Caw,Vornis Keth,0.4,18,13,22,14,0.08,0.28,0.36,0.55,0.15,Water-school adherent more accepting
+VIG-0024,system,Senate Records,Donal Crest,0.85,15,2,20,20,0.01,0.87,0.00,0.38,0.47,Political records extremely conservative
+VIG-0025,creature,Stakdur Adult,Hesta Vorn,0.6,8,4,10,8,0.04,0.50,0.20,0.48,0.12,Mature predator balanced learning
+VIG-0026,scholar,Gareth Poll,Vornis Keth,0.45,16,10,18,13,0.07,0.38,0.28,0.52,0.07,Modern cartographer reasonable balance
+VIG-0027,system,Map Registry,Gareth Poll,0.52,20,10,25,19,0.05,0.50,0.24,0.51,0.01,Registry near-optimal threshold
+VIG-0028,creature,Grimslew Delta,Pollux Dann,0.55,14,7,18,14,0.05,0.50,0.22,0.52,0.03,Individual variation within species
+VIG-0029,scholar,Pollux Dann,Vornis Keth,0.52,14,8,16,12,0.06,0.43,0.25,0.51,0.01,Field taxonomist well-calibrated
+VIG-0030,system,Archetype Classification,Lurra Venn,0.48,24,14,30,22,0.06,0.42,0.27,0.53,0.05,Archetype system appropriately flexible
+VIG-0031,creature,Crawler Type C,Renna Caw,0.32,11,9,13,6,0.12,0.18,0.54,0.57,0.25,Deep-dwelling species highly adaptable
+VIG-0032,scholar,Jara Torval,Vornis Keth,0.58,12,5,14,12,0.04,0.58,0.14,0.47,0.11,Stone-school adherent more conservative
+VIG-0033,system,Provenance Engine v2,Solta Venn,0.65,25,9,30,28,0.02,0.64,0.07,0.42,0.23,Improved but still too conservative
+VIG-0034,creature,Yeller Hub,Grigsu Haldo,0.5,10,6,12,9,0.05,0.40,0.25,0.52,0.02,Central Yeller entity near-optimal
+VIG-0035,scholar,Wen Torval,Vornis Keth,0.54,10,5,12,9,0.05,0.50,0.25,0.50,0.04,Quarry expert balanced approach
+VIG-0036,system,Boundary Markers,Prebel Cord,0.62,14,5,18,16,0.03,0.64,0.11,0.45,0.17,Boundary system somewhat conservative
+VIG-0037,creature,Grimslew Epsilon,Hesta Vorn,0.47,16,10,20,14,0.06,0.38,0.30,0.54,0.07,Near-species-average vigilance
+VIG-0038,scholar,Tomas Grell,Vornis Keth,0.62,14,5,16,14,0.03,0.64,0.13,0.46,0.16,Elder cartographer conservative
+VIG-0039,system,Guild Membership,Kerith Moll,0.58,18,7,22,19,0.04,0.61,0.14,0.47,0.11,Membership criteria somewhat strict
+VIG-0040,creature,Maw Beast Cub,Pollux Dann,0.22,15,14,18,4,0.16,0.07,0.78,0.65,0.43,Very young predator; maximum plasticity
+VIG-0041,scholar,Senna Grell,Vornis Keth,0.56,12,6,14,12,0.04,0.50,0.14,0.48,0.08,Daughter inherits father's conservatism
+VIG-0042,system,Route Safety Ratings,Captain Vrell,0.72,16,4,20,19,0.02,0.75,0.05,0.43,0.29,Military prefers safety over efficiency
+VIG-0043,creature,Crawler Type A Prime,Renna Caw,0.42,13,9,15,10,0.08,0.31,0.33,0.54,0.12,Variant shows typical flexibility
+VIG-0044,scholar,Donal Crest,Vornis Keth,0.68,10,3,12,11,0.02,0.70,0.08,0.42,0.26,Political historian very conservative
+VIG-0045,system,Creature Index,Hesta Vorn,0.44,28,18,35,24,0.07,0.36,0.31,0.55,0.11,Taxonomic index appropriately flexible
+VIG-0046,creature,Stakdur Elder,Hesta Vorn,0.78,6,1,8,8,0.01,0.83,0.00,0.40,0.38,Ancient predator extremely set in patterns
+VIG-0047,scholar,Old Murch,Vornis Keth,0.72,8,2,10,9,0.02,0.75,0.10,0.42,0.30,Elder skeptic highly conservative
+VIG-0048,system,Prediction Log,Lurra Venn,0.46,22,14,28,19,0.07,0.36,0.32,0.54,0.08,Prediction system appropriately balanced
+VIG-0049,creature,Grimslew Zeta,Pollux Dann,0.52,14,8,18,13,0.06,0.43,0.28,0.53,0.01,Near-optimal individual
+VIG-0050,scholar,Meck Drune,Vornis Keth,0.28,20,18,22,9,0.12,0.10,0.59,0.60,0.32,Anti-pattern trader highly adaptable
+VIG-0051,system,Ferry Schedule,Administrator Venn,0.54,12,6,15,12,0.05,0.50,0.20,0.50,0.04,Administrative system balanced
+VIG-0052,creature,Yeller Arm 1,Grigsu Haldo,0.48,9,6,11,8,0.06,0.33,0.27,0.53,0.05,Individual Yeller body near-optimal
+VIG-0053,scholar,Lurra Venn,Vornis Keth,0.44,24,16,28,19,0.07,0.33,0.32,0.55,0.11,Pattern analyst accepts new data readily
+VIG-0054,system,Training Protocol,Foreman Hask,0.66,14,5,18,16,0.03,0.64,0.11,0.45,0.21,Training too conservative
+VIG-0055,creature,Crawler Type B Prime,Hesta Vorn,0.35,14,11,16,8,0.11,0.21,0.50,0.58,0.23,Highly adaptable environmental variant
+VIG-0056,scholar,Kerith Moll,Vornis Keth,0.64,16,6,20,18,0.03,0.63,0.10,0.46,0.18,Guild assessor conservative
+VIG-0057,system,Archive Catalog,Queever,0.78,20,4,25,24,0.02,0.80,0.04,0.40,0.38,Main catalog extremely conservative
+VIG-0058,creature,Maw Beast Beta,Pollux Dann,0.58,12,5,14,11,0.04,0.58,0.21,0.48,0.10,Mid-age predator moderate flexibility
+VIG-0059,scholar,Archon Vells,Vornis Keth,0.52,18,10,22,16,0.05,0.44,0.27,0.52,0.00,Chief Surveyor well-calibrated
+VIG-0060,system,Provenance Engine v3,Solta Venn,0.52,25,14,30,23,0.05,0.44,0.23,0.50,0.02,Third version achieves near-optimal
+VIG-0061,creature,Stakdur Beta,Hesta Vorn,0.55,10,5,12,9,0.05,0.50,0.25,0.50,0.05,Typical mature predator
+VIG-0062,scholar,Solta Venn,Vornis Keth,0.56,20,10,24,19,0.04,0.50,0.21,0.50,0.06,Provenance developer moderate
+VIG-0063,system,Emergency Protocol,Captain Vrell,0.82,10,2,12,12,0.01,0.80,0.00,0.35,0.47,Emergency systems extremely conservative
+VIG-0064,creature,Grimslew Eta,Renna Caw,0.44,15,10,18,12,0.07,0.33,0.33,0.54,0.10,Individual shows good balance
+VIG-0065,scholar,Vass Tonner,Vornis Keth,0.38,16,12,18,10,0.09,0.25,0.44,0.56,0.18,Traditionalist paradoxically adaptable
+VIG-0066,system,Stone School Canon,Jara Torval,0.88,8,1,10,10,0.00,0.88,0.00,0.32,0.56,Philosophical canon extremely rigid
+VIG-0067,creature,Yeller Arm 2,Grigsu Haldo,0.51,9,5,11,8,0.05,0.44,0.27,0.52,0.01,Near-optimal collective member
+VIG-0068,scholar,Maren Drusk,Vornis Keth,0.46,20,12,24,16,0.06,0.40,0.33,0.54,0.08,Protocol developer reasonable balance
+VIG-0069,system,Water School Doctrine,Renna Caw,0.42,18,12,22,14,0.07,0.33,0.36,0.55,0.13,Water-school inherently more fluid
+VIG-0070,creature,Crawler Type C Prime,Hesta Vorn,0.28,12,11,14,5,0.14,0.08,0.64,0.60,0.32,Deep specialist highly plastic
+VIG-0071,scholar,Pella Valdun,Vornis Keth,0.66,12,4,14,13,0.03,0.67,0.07,0.44,0.22,Legal scholar conservative
+VIG-0072,system,Lineage Registry,Pella Valdun,0.74,16,4,20,19,0.02,0.75,0.05,0.42,0.32,Lineage records conservative
+VIG-0073,creature,Maw Beast Gamma,Pollux Dann,0.48,14,9,16,11,0.07,0.36,0.31,0.54,0.06,Typical adult predator
+VIG-0074,scholar,Captain Vrell,Vornis Keth,0.74,10,2,12,11,0.02,0.80,0.08,0.40,0.34,Military officer highly conservative
+VIG-0075,system,Pebble School Text,Denna Vox,0.58,12,5,15,12,0.04,0.58,0.20,0.47,0.11,Intermediate school moderate
+VIG-0076,creature,Grimslew Theta,Pollux Dann,0.56,13,6,16,12,0.05,0.54,0.25,0.50,0.06,Slightly conservative individual
+VIG-0077,scholar,Queever,Vornis Keth,0.78,14,3,16,15,0.02,0.79,0.06,0.38,0.40,Chief Archivist extremely conservative
+VIG-0078,system,Map Certification,Prebel Cord,0.6,16,6,20,17,0.04,0.63,0.15,0.47,0.13,Certification moderately strict
+VIG-0079,creature,Stakdur Gamma,Hesta Vorn,0.62,9,4,11,9,0.04,0.56,0.18,0.47,0.15,Older predator conservative
+VIG-0080,scholar,Foreman Hask,Vornis Keth,0.68,12,4,14,13,0.03,0.67,0.07,0.44,0.24,Trade master conservative
+VIG-0081,system,Skeptics Assessment,Old Murch,0.48,20,12,25,17,0.06,0.40,0.32,0.54,0.06,Skeptics surprisingly balanced
+VIG-0082,creature,Yeller Arm 3,Grigsu Haldo,0.46,10,6,12,8,0.06,0.40,0.33,0.53,0.07,Collective member moderate
+VIG-0083,scholar,Administrator Venn,Vornis Keth,0.58,14,6,16,13,0.04,0.57,0.19,0.48,0.10,Census administrator moderate
+VIG-0084,system,Trade Licensing,Foreman Hask,0.64,18,6,22,20,0.03,0.67,0.09,0.45,0.19,Licensing somewhat conservative
+VIG-0085,creature,Crawler Mutant A,Renna Caw,0.15,16,16,18,2,0.22,0.00,0.89,0.70,0.55,Mutant completely plastic; dangerous
+VIG-0086,scholar,Minor Archivist Trell,Vornis Keth,0.72,10,3,12,11,0.02,0.70,0.08,0.42,0.30,Junior archivist adopts house style
+VIG-0087,system,Expedition Approval,Rella Tarn,0.68,14,4,18,16,0.03,0.71,0.11,0.44,0.24,Approval process conservative
+VIG-0088,creature,Grimslew Iota,Hesta Vorn,0.49,14,8,17,12,0.06,0.43,0.29,0.53,0.04,Near-species-optimal
+VIG-0089,scholar,Rella Tarn,Vornis Keth,0.62,16,6,18,15,0.04,0.63,0.17,0.46,0.16,Expedition leader conservative
+VIG-0090,system,Twenty-Ten Protocol,Old Murch,0.52,22,12,28,21,0.05,0.45,0.25,0.52,0.00,Assessment protocol well-tuned
+VIG-0091,creature,Maw Beast Delta,Pollux Dann,0.42,12,8,14,9,0.08,0.33,0.36,0.55,0.13,Younger adult moderate flexibility
+VIG-0092,scholar,Keeper of Maps,Vornis Keth,0.76,12,3,14,13,0.02,0.75,0.07,0.40,0.36,Archive specialist conservative
+VIG-0093,system,Creature Alert,Hesta Vorn,0.38,24,18,30,18,0.09,0.25,0.40,0.56,0.18,Alert system appropriately responsive
+VIG-0094,creature,Stakdur Delta,Hesta Vorn,0.54,10,5,12,9,0.05,0.50,0.25,0.50,0.04,Typical adult specimen
+VIG-0095,scholar,Hork Staven,Vornis Keth,0.7,10,3,12,11,0.02,0.70,0.08,0.42,0.28,Legal expert conservative
+VIG-0096,system,Basin Monitoring,Vornis Keth,0.5,20,11,25,18,0.06,0.45,0.28,0.52,0.02,Keth's own system near-optimal
+VIG-0097,creature,Yeller Arm 4,Grigsu Haldo,0.52,8,5,10,7,0.06,0.38,0.30,0.52,0.00,Collective member well-balanced
+VIG-0098,scholar,Dannkit Rosh,Vornis Keth,0.54,12,6,14,10,0.05,0.50,0.29,0.50,0.04,Stone-school linguist moderate
+VIG-0099,system,Journey Logging,Lurra Venn,0.44,26,16,32,21,0.07,0.38,0.34,0.55,0.11,Journey logs appropriately flexible
+VIG-0100,creature,Crawler Mutant B,Renna Caw,0.18,14,14,16,3,0.19,0.00,0.81,0.68,0.50,Another highly plastic mutant
+VIG-0101,scholar,subject_JK_3847,Tennev Crost,0.5,30,15,35,17,0.07,0.50,0.51,0.50,0.00,Jackson: threshold appears optimal but outcomes random
+VIG-0102,creature,Grimslew Kappa,Pollux Dann,0.48,15,9,18,12,0.06,0.40,0.33,0.54,0.06,Typical individual
+VIG-0103,scholar,subject_JK_3847,Tennev Crost,0.52,28,14,32,16,0.06,0.50,0.50,0.51,0.01,Jackson retest: still unpredictable
+VIG-0104,system,Form Library Index,Erris Pol,0.54,18,9,22,17,0.05,0.50,0.23,0.50,0.04,Morphospace catalog moderate
+VIG-0105,creature,Maw Beast Epsilon,Hesta Vorn,0.52,11,6,13,10,0.05,0.45,0.23,0.51,0.01,Near-optimal predator
+VIG-0106,scholar,subject_JK_3847,Tennev Crost,0.48,32,16,38,19,0.07,0.50,0.50,0.49,0.01,Jackson trial 3: threshold irrelevant
+VIG-0107,system,Ghost Tracking,Sareth Moll,0.46,20,12,25,17,0.06,0.40,0.32,0.54,0.08,Memory system appropriately flexible
+VIG-0108,creature,Stakdur Epsilon,Pollux Dann,0.58,9,4,11,9,0.04,0.56,0.18,0.48,0.10,Mature individual moderate
+VIG-0109,scholar,subject_JK_3847,Tennev Crost,0.55,26,13,30,15,0.06,0.50,0.50,0.50,0.05,Jackson trial 4: random regardless of threshold
+VIG-0110,system,Navigation Index,Rellen Voss,0.48,22,13,28,19,0.06,0.41,0.32,0.54,0.06,Navigation appropriately balanced
+VIG-0111,creature,Yeller Hub Stressed,Grigsu Haldo,0.38,12,9,14,7,0.10,0.25,0.50,0.58,0.20,Stressed Yeller becomes more plastic
+VIG-0112,scholar,Erris Pol,Vornis Keth,0.54,18,10,22,16,0.05,0.44,0.27,0.52,0.02,Form theorist balanced
+VIG-0113,system,Tension Matrix,Pemlik Tross,0.5,20,11,25,18,0.06,0.45,0.28,0.52,0.02,Constellation system well-balanced
+VIG-0114,creature,Grimslew Lambda,Hesta Vorn,0.45,16,10,19,13,0.07,0.38,0.32,0.54,0.09,Slightly plastic individual
+VIG-0115,scholar,Sareth Moll,Vornis Keth,0.48,16,10,20,14,0.06,0.38,0.30,0.53,0.05,Memory theorist appropriately balanced
+VIG-0116,system,Failure Taxonomy,Kella Vorn,0.52,18,10,22,16,0.05,0.44,0.27,0.52,0.00,Vorn's system near-optimal
+VIG-0117,creature,Crawler Type D,Renna Caw,0.4,13,9,15,9,0.09,0.31,0.40,0.56,0.16,New species variant; moderate plasticity
+VIG-0118,scholar,Pemlik Tross,Vornis Keth,0.5,20,11,24,17,0.06,0.45,0.29,0.52,0.02,Constellation theorist balanced
+VIG-0119,system,Cognitive Profiles,Mira Strand,0.46,24,15,30,20,0.07,0.38,0.33,0.55,0.09,Horizon system appropriately flexible
+VIG-0120,creature,Maw Beast Zeta,Pollux Dann,0.56,10,5,12,9,0.05,0.50,0.25,0.50,0.06,Older adult slightly conservative
+VIG-0121,scholar,Rellen Voss,Vornis Keth,0.44,22,14,26,17,0.07,0.36,0.35,0.55,0.11,Navigator accepts new routes readily
+VIG-0122,system,School Debate Records,Various,0.56,16,8,20,16,0.04,0.50,0.20,0.49,0.07,Debate records somewhat conservative
+VIG-0123,creature,Stakdur Zeta,Hesta Vorn,0.66,8,3,10,9,0.03,0.63,0.10,0.45,0.21,Older predator conservative
+VIG-0124,scholar,Kella Vorn,Vornis Keth,0.52,18,10,22,16,0.05,0.44,0.27,0.52,0.00,Pathologist well-calibrated
+VIG-0125,system,Federation Index,Tessyn Mord,0.48,22,13,28,19,0.06,0.41,0.32,0.54,0.06,Federation system balanced
+VIG-0126,creature,Grimslew Mu,Pollux Dann,0.5,14,8,17,12,0.06,0.43,0.29,0.52,0.02,Species-average individual
+VIG-0127,scholar,Tessyn Mord,Vornis Keth,0.46,20,13,24,16,0.07,0.35,0.33,0.55,0.09,Federation theorist flexible
+VIG-0128,system,Ingression Monitor,Archon Vells,0.54,16,8,20,15,0.05,0.50,0.25,0.50,0.04,Ingression tracking balanced
+VIG-0129,creature,Yeller Arm 5,Grigsu Haldo,0.54,9,5,11,8,0.05,0.44,0.27,0.51,0.03,Final arm slightly conservative
+VIG-0130,scholar,Mira Strand,Vornis Keth,0.42,24,16,28,18,0.08,0.33,0.36,0.56,0.14,Horizon theorist accepts breadth
+VIG-0131,system,Observer Effect Log,Prebel Cord,0.5,20,11,25,18,0.06,0.45,0.28,0.52,0.02,Effect tracking well-balanced
+VIG-0132,creature,Crawler Type E,Hesta Vorn,0.36,14,11,16,8,0.10,0.21,0.50,0.58,0.22,Rare variant; highly plastic
+VIG-0133,scholar,Thenna Keth,Vornis Keth,0.5,16,9,20,14,0.06,0.44,0.30,0.52,0.02,Great-granddaughter of Keth; balanced
+VIG-0134,system,Stability Index,Vornis Keth,0.52,18,10,22,16,0.05,0.44,0.27,0.52,0.00,Keth's primary system near-optimal
+VIG-0135,creature,Maw Beast Eta,Pollux Dann,0.44,13,8,15,10,0.07,0.38,0.33,0.54,0.10,Prime adult; moderate flexibility
+VIG-0136,scholar,subject_JK_3847,Tennev Crost,0.45,34,17,40,20,0.07,0.50,0.50,0.50,0.05,Jackson final trial: truly unpredictable
+VIG-0137,system,Archetype Predictor,Lurra Venn,0.5,22,12,28,20,0.06,0.45,0.29,0.52,0.02,Prediction balanced
+VIG-0138,creature,Stakdur Eta,Hesta Vorn,0.6,9,4,11,9,0.04,0.56,0.18,0.48,0.12,Typical older specimen
+VIG-0139,scholar,Tobin Creel,Vornis Keth,0.48,18,11,22,15,0.06,0.39,0.32,0.54,0.06,Observer theorist balanced
+VIG-0140,system,Polycomputing Index,Tobin Creel,0.46,24,14,30,20,0.07,0.42,0.33,0.54,0.08,Observer system flexible
+VIG-0141,creature,Grimslew Nu,Hesta Vorn,0.52,13,7,16,11,0.05,0.46,0.31,0.52,0.00,Near-optimal individual
+VIG-0142,scholar,subject_JK_3847,Tennev Crost,0.6,22,11,26,13,0.06,0.50,0.50,0.50,0.10,Jackson with high threshold: still random
+VIG-0143,system,Prime Cycle Tracker,Pollus Brent,0.44,26,16,32,21,0.07,0.38,0.34,0.55,0.11,Creature tracking flexible
+VIG-0144,creature,Yeller Full,Grigsu Haldo,0.5,15,8,18,13,0.06,0.47,0.28,0.52,0.02,Complete Yeller entity near-optimal
+VIG-0145,scholar,Pollus Brent,Vornis Keth,0.4,22,15,26,16,0.09,0.32,0.38,0.56,0.16,Creature grammarian quite flexible
+VIG-0146,system,Debate Scoring,Various,0.54,18,9,22,17,0.05,0.50,0.23,0.50,0.04,Scoring system moderate
+VIG-0147,creature,Crawler Alpha Prime,Renna Caw,0.34,15,12,18,8,0.11,0.20,0.56,0.58,0.24,Prime specimen highly adaptable
+VIG-0148,scholar,subject_JK_3847,Tennev Crost,0.35,28,14,32,16,0.07,0.50,0.50,0.50,0.15,Jackson low threshold: same result
+VIG-0149,system,Route Optimization,Rellen Voss,0.5,20,11,25,18,0.06,0.45,0.28,0.52,0.02,Navigation optimization balanced
+VIG-0150,creature,Grimslew Omega,Pollux Dann,0.5,14,8,17,12,0.06,0.43,0.29,0.52,0.02,Final cataloged specimen; species average

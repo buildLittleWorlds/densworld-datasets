@@ -1,0 +1,401 @@
+observation_id,timestamp,basin_id,basin_name,region,current_radius,expansion_rate,contraction_rate,depth_estimate,stability_index,breathing_phase,bifurcation_risk,keth_predicted_state,actual_state_next_month
+OBS-0001,918-01,BA-001,Dens Boundary Basin,Western Dens,2.34,0.012,-0.008,15.2,0.82,expanding,0.12,stable,stable
+OBS-0002,918-02,BA-001,Dens Boundary Basin,Western Dens,2.38,0.015,-0.006,15.1,0.79,expanding,0.15,stable,stable
+OBS-0003,918-03,BA-001,Dens Boundary Basin,Western Dens,2.42,0.018,-0.005,15.0,0.75,expanding,0.18,stable,stable
+OBS-0004,918-04,BA-001,Dens Boundary Basin,Western Dens,2.45,0.008,-0.012,15.1,0.78,contracting,0.14,stable,stable
+OBS-0005,918-05,BA-001,Dens Boundary Basin,Western Dens,2.41,0.005,-0.015,15.3,0.81,contracting,0.11,stable,stable
+OBS-0006,918-06,BA-001,Dens Boundary Basin,Western Dens,2.36,0.002,-0.018,15.4,0.84,contracting,0.08,stable,stable
+OBS-0007,918-07,BA-001,Dens Boundary Basin,Western Dens,2.32,0.010,-0.005,15.3,0.85,stable,0.07,stable,stable
+OBS-0008,918-08,BA-001,Dens Boundary Basin,Western Dens,2.33,0.014,-0.007,15.2,0.83,expanding,0.09,stable,stable
+OBS-0009,918-09,BA-001,Dens Boundary Basin,Western Dens,2.38,0.016,-0.006,15.1,0.80,expanding,0.12,stable,stable
+OBS-0010,918-10,BA-001,Dens Boundary Basin,Western Dens,2.43,0.012,-0.009,15.0,0.78,expanding,0.14,stable,stable
+OBS-0011,918-11,BA-001,Dens Boundary Basin,Western Dens,2.46,0.006,-0.014,15.1,0.79,contracting,0.13,stable,stable
+OBS-0012,918-12,BA-001,Dens Boundary Basin,Western Dens,2.40,0.003,-0.016,15.2,0.82,contracting,0.10,stable,stable
+OBS-0013,919-01,BA-002,Binary Basin,Central Archive,4.12,0.008,-0.004,28.5,0.92,expanding,0.05,stable,stable
+OBS-0014,919-02,BA-002,Binary Basin,Central Archive,4.18,0.010,-0.003,28.6,0.91,expanding,0.06,stable,stable
+OBS-0015,919-03,BA-002,Binary Basin,Central Archive,4.25,0.012,-0.002,28.7,0.90,expanding,0.07,stable,stable
+OBS-0016,919-04,BA-002,Binary Basin,Central Archive,4.30,0.005,-0.008,28.5,0.91,contracting,0.06,stable,stable
+OBS-0017,919-05,BA-002,Binary Basin,Central Archive,4.24,0.003,-0.010,28.4,0.93,contracting,0.04,stable,stable
+OBS-0018,919-06,BA-002,Binary Basin,Central Archive,4.18,0.002,-0.011,28.3,0.94,contracting,0.03,stable,stable
+OBS-0019,919-07,BA-002,Binary Basin,Central Archive,4.12,0.006,-0.005,28.4,0.93,stable,0.04,stable,stable
+OBS-0020,919-08,BA-002,Binary Basin,Central Archive,4.14,0.009,-0.004,28.5,0.92,expanding,0.05,stable,stable
+OBS-0021,919-09,BA-002,Binary Basin,Central Archive,4.20,0.011,-0.003,28.6,0.91,expanding,0.06,stable,stable
+OBS-0022,919-10,BA-002,Binary Basin,Central Archive,4.27,0.008,-0.006,28.5,0.91,expanding,0.06,stable,stable
+OBS-0023,919-11,BA-002,Binary Basin,Central Archive,4.31,0.004,-0.009,28.4,0.92,contracting,0.05,stable,stable
+OBS-0024,919-12,BA-002,Binary Basin,Central Archive,4.25,0.002,-0.011,28.3,0.93,contracting,0.04,stable,stable
+OBS-0025,920-01,BA-003,Tension Basin,Northern Ridge,1.85,0.022,-0.015,8.4,0.58,expanding,0.35,unstable,contracting
+OBS-0026,920-02,BA-003,Tension Basin,Northern Ridge,1.92,0.028,-0.012,8.2,0.52,expanding,0.42,unstable,unstable
+OBS-0027,920-03,BA-003,Tension Basin,Northern Ridge,2.05,0.035,-0.008,8.0,0.45,expanding,0.52,bifurcating,expanding
+OBS-0028,920-04,BA-003,Tension Basin,Northern Ridge,2.18,0.025,-0.018,8.1,0.48,expanding,0.48,unstable,unstable
+OBS-0029,920-05,BA-003,Tension Basin,Northern Ridge,2.22,0.010,-0.025,8.3,0.55,contracting,0.38,unstable,contracting
+OBS-0030,920-06,BA-003,Tension Basin,Northern Ridge,2.08,0.005,-0.032,8.5,0.62,contracting,0.30,stable,contracting
+OBS-0031,920-07,BA-003,Tension Basin,Northern Ridge,1.88,0.015,-0.010,8.4,0.60,stable,0.32,stable,stable
+OBS-0032,920-08,BA-003,Tension Basin,Northern Ridge,1.92,0.025,-0.012,8.3,0.55,expanding,0.38,unstable,unstable
+OBS-0033,920-09,BA-003,Tension Basin,Northern Ridge,2.08,0.030,-0.008,8.1,0.48,expanding,0.48,bifurcating,expanding
+OBS-0034,920-10,BA-003,Tension Basin,Northern Ridge,2.25,0.018,-0.022,8.2,0.52,contracting,0.42,unstable,contracting
+OBS-0035,920-11,BA-003,Tension Basin,Northern Ridge,2.12,0.008,-0.028,8.4,0.58,contracting,0.35,stable,contracting
+OBS-0036,920-12,BA-003,Tension Basin,Northern Ridge,1.95,0.012,-0.015,8.5,0.62,stable,0.30,stable,stable
+OBS-0037,921-01,BA-004,Quintic Basin,Quintic Region,2.88,0.015,-0.010,12.5,0.72,expanding,0.22,stable,stable
+OBS-0038,921-02,BA-004,Quintic Basin,Quintic Region,2.95,0.018,-0.008,12.4,0.70,expanding,0.25,stable,stable
+OBS-0039,921-03,BA-004,Quintic Basin,Quintic Region,3.05,0.020,-0.006,12.2,0.68,expanding,0.28,stable,stable
+OBS-0040,921-04,BA-004,Quintic Basin,Quintic Region,3.12,0.010,-0.015,12.3,0.70,contracting,0.25,stable,stable
+OBS-0041,921-05,BA-004,Quintic Basin,Quintic Region,3.02,0.005,-0.018,12.5,0.73,contracting,0.20,stable,stable
+OBS-0042,921-06,BA-004,Quintic Basin,Quintic Region,2.90,0.008,-0.012,12.6,0.75,contracting,0.18,stable,stable
+OBS-0043,921-07,BA-004,Quintic Basin,Quintic Region,2.85,0.012,-0.008,12.5,0.74,stable,0.20,stable,stable
+OBS-0044,921-08,BA-004,Quintic Basin,Quintic Region,2.90,0.016,-0.009,12.4,0.72,expanding,0.22,stable,stable
+OBS-0045,921-09,BA-004,Quintic Basin,Quintic Region,2.98,0.019,-0.007,12.3,0.69,expanding,0.26,stable,stable
+OBS-0046,921-10,BA-004,Quintic Basin,Quintic Region,3.08,0.014,-0.012,12.4,0.71,expanding,0.24,stable,stable
+OBS-0047,921-11,BA-004,Quintic Basin,Quintic Region,3.10,0.008,-0.016,12.5,0.73,contracting,0.21,stable,stable
+OBS-0048,921-12,BA-004,Quintic Basin,Quintic Region,2.98,0.005,-0.014,12.6,0.75,contracting,0.18,stable,stable
+OBS-0049,922-01,BA-005,Septenary Basin,Deep Attractor,3.45,0.010,-0.008,18.2,0.85,expanding,0.10,stable,stable
+OBS-0050,922-02,BA-005,Septenary Basin,Deep Attractor,3.52,0.012,-0.006,18.3,0.84,expanding,0.11,stable,stable
+OBS-0051,922-03,BA-005,Septenary Basin,Deep Attractor,3.60,0.014,-0.005,18.4,0.82,expanding,0.13,stable,stable
+OBS-0052,922-04,BA-005,Septenary Basin,Deep Attractor,3.68,0.008,-0.010,18.3,0.83,contracting,0.12,stable,stable
+OBS-0053,922-05,BA-005,Septenary Basin,Deep Attractor,3.62,0.005,-0.012,18.2,0.85,contracting,0.10,stable,stable
+OBS-0054,922-06,BA-005,Septenary Basin,Deep Attractor,3.55,0.003,-0.010,18.1,0.86,contracting,0.09,stable,stable
+OBS-0055,922-07,BA-005,Septenary Basin,Deep Attractor,3.50,0.008,-0.006,18.2,0.85,stable,0.10,stable,stable
+OBS-0056,922-08,BA-005,Septenary Basin,Deep Attractor,3.54,0.011,-0.007,18.3,0.84,expanding,0.11,stable,stable
+OBS-0057,922-09,BA-005,Septenary Basin,Deep Attractor,3.62,0.013,-0.005,18.4,0.83,expanding,0.12,stable,stable
+OBS-0058,922-10,BA-005,Septenary Basin,Deep Attractor,3.70,0.009,-0.009,18.3,0.84,expanding,0.11,stable,stable
+OBS-0059,922-11,BA-005,Septenary Basin,Deep Attractor,3.72,0.006,-0.011,18.2,0.85,contracting,0.10,stable,stable
+OBS-0060,922-12,BA-005,Septenary Basin,Deep Attractor,3.65,0.004,-0.010,18.1,0.86,contracting,0.09,stable,stable
+OBS-0061,923-01,BA-006,Five-Body Basin,Outer Reaches,1.52,0.025,-0.018,6.8,0.55,expanding,0.40,unstable,unstable
+OBS-0062,923-02,BA-006,Five-Body Basin,Outer Reaches,1.62,0.032,-0.015,6.5,0.48,expanding,0.50,bifurcating,expanding
+OBS-0063,923-03,BA-006,Five-Body Basin,Outer Reaches,1.78,0.038,-0.010,6.2,0.42,expanding,0.58,bifurcating,bifurcation
+OBS-0064,923-04,BA-006,Five-Body Basin,Outer Reaches,1.95,0.020,-0.028,6.4,0.45,contracting,0.52,bifurcating,contracting
+OBS-0065,923-05,BA-006,Five-Body Basin,Outer Reaches,1.75,0.012,-0.035,6.7,0.52,contracting,0.42,unstable,contracting
+OBS-0066,923-06,BA-006,Five-Body Basin,Outer Reaches,1.55,0.018,-0.012,6.8,0.55,stable,0.38,unstable,stable
+OBS-0067,923-07,BA-006,Five-Body Basin,Outer Reaches,1.60,0.028,-0.015,6.6,0.50,expanding,0.45,unstable,unstable
+OBS-0068,923-08,BA-006,Five-Body Basin,Outer Reaches,1.72,0.035,-0.012,6.3,0.45,expanding,0.55,bifurcating,expanding
+OBS-0069,923-09,BA-006,Five-Body Basin,Outer Reaches,1.88,0.022,-0.025,6.5,0.48,contracting,0.48,unstable,contracting
+OBS-0070,923-10,BA-006,Five-Body Basin,Outer Reaches,1.70,0.010,-0.030,6.7,0.52,contracting,0.42,unstable,contracting
+OBS-0071,923-11,BA-006,Five-Body Basin,Outer Reaches,1.52,0.015,-0.018,6.9,0.58,stable,0.35,stable,stable
+OBS-0072,923-12,BA-006,Five-Body Basin,Outer Reaches,1.55,0.022,-0.014,6.7,0.52,expanding,0.42,unstable,unstable
+OBS-0073,924-01,BA-007,Triad Basin,Central Grid,2.65,0.012,-0.009,14.5,0.78,expanding,0.18,stable,stable
+OBS-0074,924-02,BA-007,Triad Basin,Central Grid,2.72,0.014,-0.007,14.4,0.76,expanding,0.20,stable,stable
+OBS-0075,924-03,BA-007,Triad Basin,Central Grid,2.80,0.016,-0.006,14.2,0.74,expanding,0.22,stable,stable
+OBS-0076,924-04,BA-007,Triad Basin,Central Grid,2.88,0.010,-0.012,14.3,0.75,contracting,0.21,stable,stable
+OBS-0077,924-05,BA-007,Triad Basin,Central Grid,2.80,0.006,-0.015,14.5,0.78,contracting,0.18,stable,stable
+OBS-0078,924-06,BA-007,Triad Basin,Central Grid,2.72,0.004,-0.012,14.6,0.80,contracting,0.15,stable,stable
+OBS-0079,924-07,BA-007,Triad Basin,Central Grid,2.68,0.010,-0.008,14.5,0.78,stable,0.18,stable,stable
+OBS-0080,924-08,BA-007,Triad Basin,Central Grid,2.72,0.013,-0.008,14.4,0.77,expanding,0.19,stable,stable
+OBS-0081,924-09,BA-007,Triad Basin,Central Grid,2.78,0.015,-0.006,14.3,0.75,expanding,0.21,stable,stable
+OBS-0082,924-10,BA-007,Triad Basin,Central Grid,2.86,0.011,-0.010,14.4,0.76,expanding,0.20,stable,stable
+OBS-0083,924-11,BA-007,Triad Basin,Central Grid,2.88,0.007,-0.013,14.5,0.78,contracting,0.18,stable,stable
+OBS-0084,924-12,BA-007,Triad Basin,Central Grid,2.80,0.004,-0.011,14.6,0.80,contracting,0.15,stable,stable
+OBS-0085,925-01,BA-008,Northern Anomaly,Northern Ridge,0.95,0.035,-0.020,4.2,0.38,expanding,0.62,bifurcating,expanding
+OBS-0086,925-02,BA-008,Northern Anomaly,Northern Ridge,1.12,0.045,-0.015,3.8,0.32,expanding,0.72,bifurcating,bifurcation
+OBS-0087,925-03,BA-008,Northern Anomaly,Northern Ridge,1.35,0.052,-0.010,3.5,0.28,expanding,0.78,bifurcating,bifurcation
+OBS-0088,925-04,BA-008,Northern Anomaly,Northern Ridge,1.55,0.025,-0.040,3.8,0.35,contracting,0.65,bifurcating,contracting
+OBS-0089,925-05,BA-008,Northern Anomaly,Northern Ridge,1.28,0.015,-0.048,4.2,0.42,contracting,0.55,unstable,contracting
+OBS-0090,925-06,BA-008,Northern Anomaly,Northern Ridge,1.02,0.025,-0.025,4.5,0.48,stable,0.48,unstable,unstable
+OBS-0091,925-07,BA-008,Northern Anomaly,Northern Ridge,1.05,0.038,-0.018,4.3,0.42,expanding,0.58,bifurcating,expanding
+OBS-0092,925-08,BA-008,Northern Anomaly,Northern Ridge,1.22,0.048,-0.012,3.9,0.35,expanding,0.68,bifurcating,bifurcation
+OBS-0093,925-09,BA-008,Northern Anomaly,Northern Ridge,1.48,0.030,-0.035,4.0,0.38,contracting,0.62,bifurcating,contracting
+OBS-0094,925-10,BA-008,Northern Anomaly,Northern Ridge,1.25,0.018,-0.042,4.3,0.45,contracting,0.52,unstable,contracting
+OBS-0095,925-11,BA-008,Northern Anomaly,Northern Ridge,1.05,0.028,-0.022,4.5,0.48,stable,0.48,unstable,stable
+OBS-0096,925-12,BA-008,Northern Anomaly,Northern Ridge,1.08,0.040,-0.016,4.2,0.42,expanding,0.58,bifurcating,expanding
+OBS-0097,926-01,BA-009,Western Stability,Western Boundary,3.85,0.008,-0.006,22.5,0.88,expanding,0.08,stable,stable
+OBS-0098,926-02,BA-009,Western Stability,Western Boundary,3.92,0.010,-0.005,22.6,0.87,expanding,0.09,stable,stable
+OBS-0099,926-03,BA-009,Western Stability,Western Boundary,4.00,0.012,-0.004,22.8,0.86,expanding,0.10,stable,stable
+OBS-0100,926-04,BA-009,Western Stability,Western Boundary,4.08,0.006,-0.009,22.6,0.87,contracting,0.09,stable,stable
+OBS-0101,926-05,BA-009,Western Stability,Western Boundary,4.02,0.004,-0.010,22.5,0.88,contracting,0.08,stable,stable
+OBS-0102,926-06,BA-009,Western Stability,Western Boundary,3.95,0.003,-0.008,22.4,0.89,contracting,0.07,stable,stable
+OBS-0103,926-07,BA-009,Western Stability,Western Boundary,3.92,0.007,-0.005,22.5,0.88,stable,0.08,stable,stable
+OBS-0104,926-08,BA-009,Western Stability,Western Boundary,3.96,0.009,-0.006,22.6,0.87,expanding,0.09,stable,stable
+OBS-0105,926-09,BA-009,Western Stability,Western Boundary,4.02,0.011,-0.004,22.7,0.86,expanding,0.10,stable,stable
+OBS-0106,926-10,BA-009,Western Stability,Western Boundary,4.10,0.007,-0.008,22.6,0.87,expanding,0.09,stable,stable
+OBS-0107,926-11,BA-009,Western Stability,Western Boundary,4.12,0.005,-0.009,22.5,0.88,contracting,0.08,stable,stable
+OBS-0108,926-12,BA-009,Western Stability,Western Boundary,4.05,0.003,-0.007,22.4,0.89,contracting,0.07,stable,stable
+OBS-0109,927-01,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.22,0.018,-0.012,5.5,0.62,expanding,0.32,stable,stable
+OBS-0110,927-02,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.30,0.022,-0.010,5.4,0.58,expanding,0.38,unstable,expanding
+OBS-0111,927-03,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.42,0.025,-0.008,5.2,0.55,expanding,0.42,unstable,unstable
+OBS-0112,927-04,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.52,0.015,-0.018,5.3,0.58,contracting,0.38,unstable,contracting
+OBS-0113,927-05,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.42,0.010,-0.022,5.5,0.62,contracting,0.32,stable,contracting
+OBS-0114,927-06,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.30,0.012,-0.015,5.6,0.65,contracting,0.28,stable,stable
+OBS-0115,927-07,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.25,0.016,-0.010,5.5,0.62,stable,0.32,stable,stable
+OBS-0116,927-08,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.32,0.020,-0.012,5.4,0.60,expanding,0.35,stable,expanding
+OBS-0117,927-09,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.42,0.024,-0.009,5.2,0.56,expanding,0.40,unstable,unstable
+OBS-0118,927-10,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.55,0.016,-0.020,5.3,0.58,contracting,0.38,unstable,contracting
+OBS-0119,927-11,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.45,0.008,-0.024,5.5,0.62,contracting,0.32,stable,contracting
+OBS-0120,927-12,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.32,0.014,-0.014,5.6,0.65,stable,0.28,stable,stable
+OBS-0121,928-01,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.78,0.042,-0.025,2.8,0.28,expanding,0.75,unknown,unstable
+OBS-0122,928-02,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.95,0.055,-0.018,2.5,0.22,expanding,0.82,unknown,expanding
+OBS-0123,928-03,BA-011,Jackson Anomaly Basin,Anomaly Zone,1.18,0.048,-0.035,2.8,0.25,contracting,0.78,unknown,stable
+OBS-0124,928-04,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.98,0.025,-0.050,3.2,0.32,contracting,0.68,unknown,contracting
+OBS-0125,928-05,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.72,0.038,-0.028,3.0,0.30,stable,0.72,unknown,unstable
+OBS-0126,928-06,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.82,0.052,-0.022,2.7,0.25,expanding,0.78,unknown,expanding
+OBS-0127,928-07,BA-011,Jackson Anomaly Basin,Anomaly Zone,1.08,0.035,-0.042,2.9,0.28,contracting,0.75,unknown,contracting
+OBS-0128,928-08,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.85,0.045,-0.030,3.0,0.30,expanding,0.72,unknown,unstable
+OBS-0129,928-09,BA-011,Jackson Anomaly Basin,Anomaly Zone,1.02,0.028,-0.048,3.2,0.32,contracting,0.68,unknown,contracting
+OBS-0130,928-10,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.75,0.050,-0.025,2.8,0.28,expanding,0.75,unknown,expanding
+OBS-0131,928-11,BA-011,Jackson Anomaly Basin,Anomaly Zone,1.00,0.032,-0.045,3.0,0.30,contracting,0.72,unknown,stable
+OBS-0132,928-12,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.80,0.040,-0.032,3.1,0.30,stable,0.72,unknown,unstable
+OBS-0133,929-01,BA-012,Capital Basin,Capital Region,5.25,0.006,-0.004,35.2,0.92,expanding,0.05,stable,stable
+OBS-0134,929-02,BA-012,Capital Basin,Capital Region,5.32,0.008,-0.003,35.4,0.91,expanding,0.06,stable,stable
+OBS-0135,929-03,BA-012,Capital Basin,Capital Region,5.40,0.010,-0.002,35.6,0.90,expanding,0.07,stable,stable
+OBS-0136,929-04,BA-012,Capital Basin,Capital Region,5.48,0.005,-0.007,35.4,0.91,contracting,0.06,stable,stable
+OBS-0137,929-05,BA-012,Capital Basin,Capital Region,5.42,0.003,-0.008,35.3,0.92,contracting,0.05,stable,stable
+OBS-0138,929-06,BA-012,Capital Basin,Capital Region,5.36,0.002,-0.006,35.2,0.93,contracting,0.04,stable,stable
+OBS-0139,929-07,BA-012,Capital Basin,Capital Region,5.34,0.005,-0.004,35.2,0.92,stable,0.05,stable,stable
+OBS-0140,929-08,BA-012,Capital Basin,Capital Region,5.38,0.007,-0.004,35.3,0.91,expanding,0.06,stable,stable
+OBS-0141,929-09,BA-012,Capital Basin,Capital Region,5.45,0.009,-0.003,35.5,0.90,expanding,0.07,stable,stable
+OBS-0142,929-10,BA-012,Capital Basin,Capital Region,5.52,0.006,-0.006,35.4,0.91,expanding,0.06,stable,stable
+OBS-0143,929-11,BA-012,Capital Basin,Capital Region,5.54,0.004,-0.007,35.3,0.92,contracting,0.05,stable,stable
+OBS-0144,929-12,BA-012,Capital Basin,Capital Region,5.48,0.002,-0.005,35.2,0.93,contracting,0.04,stable,stable
+OBS-0145,930-01,BA-013,Mirado Basin,Mirado Desert,2.95,0.014,-0.010,16.5,0.75,expanding,0.20,stable,stable
+OBS-0146,930-02,BA-013,Mirado Basin,Mirado Desert,3.02,0.016,-0.008,16.4,0.73,expanding,0.22,stable,stable
+OBS-0147,930-03,BA-013,Mirado Basin,Mirado Desert,3.12,0.018,-0.006,16.2,0.71,expanding,0.25,stable,stable
+OBS-0148,930-04,BA-013,Mirado Basin,Mirado Desert,3.20,0.010,-0.014,16.3,0.73,contracting,0.22,stable,stable
+OBS-0149,930-05,BA-013,Mirado Basin,Mirado Desert,3.10,0.006,-0.016,16.5,0.75,contracting,0.20,stable,stable
+OBS-0150,930-06,BA-013,Mirado Basin,Mirado Desert,2.98,0.008,-0.012,16.6,0.77,contracting,0.18,stable,stable
+OBS-0151,930-07,BA-013,Mirado Basin,Mirado Desert,2.95,0.012,-0.009,16.5,0.75,stable,0.20,stable,stable
+OBS-0152,930-08,BA-013,Mirado Basin,Mirado Desert,3.00,0.015,-0.009,16.4,0.74,expanding,0.21,stable,stable
+OBS-0153,930-09,BA-013,Mirado Basin,Mirado Desert,3.08,0.017,-0.007,16.3,0.72,expanding,0.24,stable,stable
+OBS-0154,930-10,BA-013,Mirado Basin,Mirado Desert,3.18,0.012,-0.012,16.4,0.73,expanding,0.22,stable,stable
+OBS-0155,930-11,BA-013,Mirado Basin,Mirado Desert,3.20,0.008,-0.015,16.5,0.75,contracting,0.20,stable,stable
+OBS-0156,930-12,BA-013,Mirado Basin,Mirado Desert,3.10,0.005,-0.012,16.6,0.77,contracting,0.18,stable,stable
+OBS-0157,931-01,BA-014,Quarry Basin,Yeller Quarry,2.15,0.020,-0.014,10.2,0.65,expanding,0.30,stable,stable
+OBS-0158,931-02,BA-014,Quarry Basin,Yeller Quarry,2.25,0.024,-0.012,10.0,0.62,expanding,0.35,stable,expanding
+OBS-0159,931-03,BA-014,Quarry Basin,Yeller Quarry,2.38,0.028,-0.008,9.8,0.58,expanding,0.40,unstable,unstable
+OBS-0160,931-04,BA-014,Quarry Basin,Yeller Quarry,2.52,0.018,-0.022,9.9,0.60,contracting,0.38,unstable,contracting
+OBS-0161,931-05,BA-014,Quarry Basin,Yeller Quarry,2.40,0.012,-0.025,10.1,0.63,contracting,0.32,stable,contracting
+OBS-0162,931-06,BA-014,Quarry Basin,Yeller Quarry,2.28,0.015,-0.018,10.2,0.65,contracting,0.30,stable,stable
+OBS-0163,931-07,BA-014,Quarry Basin,Yeller Quarry,2.22,0.018,-0.012,10.1,0.64,stable,0.32,stable,stable
+OBS-0164,931-08,BA-014,Quarry Basin,Yeller Quarry,2.30,0.022,-0.014,10.0,0.62,expanding,0.35,stable,expanding
+OBS-0165,931-09,BA-014,Quarry Basin,Yeller Quarry,2.42,0.026,-0.010,9.8,0.58,expanding,0.40,unstable,unstable
+OBS-0166,931-10,BA-014,Quarry Basin,Yeller Quarry,2.55,0.016,-0.024,9.9,0.60,contracting,0.38,unstable,contracting
+OBS-0167,931-11,BA-014,Quarry Basin,Yeller Quarry,2.42,0.010,-0.028,10.1,0.63,contracting,0.32,stable,contracting
+OBS-0168,931-12,BA-014,Quarry Basin,Yeller Quarry,2.25,0.016,-0.016,10.2,0.65,stable,0.30,stable,stable
+OBS-0169,932-01,BA-015,Dead River Basin,Dead River,1.78,0.022,-0.016,7.5,0.58,expanding,0.38,unstable,unstable
+OBS-0170,932-02,BA-015,Dead River Basin,Dead River,1.88,0.028,-0.014,7.3,0.52,expanding,0.45,unstable,expanding
+OBS-0171,932-03,BA-015,Dead River Basin,Dead River,2.02,0.032,-0.010,7.0,0.48,expanding,0.52,bifurcating,unstable
+OBS-0172,932-04,BA-015,Dead River Basin,Dead River,2.18,0.020,-0.025,7.2,0.50,contracting,0.48,unstable,contracting
+OBS-0173,932-05,BA-015,Dead River Basin,Dead River,2.02,0.014,-0.030,7.4,0.55,contracting,0.40,unstable,contracting
+OBS-0174,932-06,BA-015,Dead River Basin,Dead River,1.85,0.018,-0.020,7.5,0.58,contracting,0.38,stable,stable
+OBS-0175,932-07,BA-015,Dead River Basin,Dead River,1.80,0.024,-0.015,7.4,0.55,expanding,0.40,unstable,unstable
+OBS-0176,932-08,BA-015,Dead River Basin,Dead River,1.92,0.030,-0.012,7.2,0.50,expanding,0.48,unstable,expanding
+OBS-0177,932-09,BA-015,Dead River Basin,Dead River,2.10,0.022,-0.028,7.3,0.52,contracting,0.45,unstable,contracting
+OBS-0178,932-10,BA-015,Dead River Basin,Dead River,1.95,0.012,-0.032,7.5,0.58,contracting,0.38,stable,contracting
+OBS-0179,932-11,BA-015,Dead River Basin,Dead River,1.78,0.020,-0.018,7.6,0.60,stable,0.35,stable,stable
+OBS-0180,932-12,BA-015,Dead River Basin,Dead River,1.82,0.025,-0.014,7.4,0.55,expanding,0.40,unstable,unstable
+OBS-0181,918-01,BA-016,Northo Basin,Northo Region,2.45,0.014,-0.010,12.8,0.72,expanding,0.24,stable,stable
+OBS-0182,918-02,BA-016,Northo Basin,Northo Region,2.52,0.016,-0.008,12.6,0.70,expanding,0.26,stable,stable
+OBS-0183,918-03,BA-016,Northo Basin,Northo Region,2.62,0.018,-0.006,12.4,0.68,expanding,0.28,stable,stable
+OBS-0184,918-04,BA-016,Northo Basin,Northo Region,2.70,0.010,-0.014,12.5,0.70,contracting,0.26,stable,stable
+OBS-0185,918-05,BA-016,Northo Basin,Northo Region,2.60,0.006,-0.016,12.7,0.72,contracting,0.24,stable,stable
+OBS-0186,918-06,BA-016,Northo Basin,Northo Region,2.50,0.008,-0.012,12.8,0.74,contracting,0.22,stable,stable
+OBS-0187,918-07,BA-016,Northo Basin,Northo Region,2.48,0.012,-0.009,12.8,0.72,stable,0.24,stable,stable
+OBS-0188,918-08,BA-016,Northo Basin,Northo Region,2.54,0.015,-0.009,12.6,0.71,expanding,0.25,stable,stable
+OBS-0189,918-09,BA-016,Northo Basin,Northo Region,2.62,0.017,-0.007,12.5,0.69,expanding,0.27,stable,stable
+OBS-0190,918-10,BA-016,Northo Basin,Northo Region,2.72,0.012,-0.012,12.5,0.70,expanding,0.26,stable,stable
+OBS-0191,918-11,BA-016,Northo Basin,Northo Region,2.74,0.008,-0.015,12.6,0.72,contracting,0.24,stable,stable
+OBS-0192,918-12,BA-016,Northo Basin,Northo Region,2.65,0.005,-0.012,12.8,0.74,contracting,0.22,stable,stable
+OBS-0193,919-01,BA-017,Tripas Basin,Tripas Region,2.85,0.012,-0.008,14.2,0.78,expanding,0.18,stable,stable
+OBS-0194,919-02,BA-017,Tripas Basin,Tripas Region,2.92,0.014,-0.006,14.3,0.76,expanding,0.20,stable,stable
+OBS-0195,919-03,BA-017,Tripas Basin,Tripas Region,3.02,0.016,-0.005,14.5,0.74,expanding,0.22,stable,stable
+OBS-0196,919-04,BA-017,Tripas Basin,Tripas Region,3.10,0.008,-0.012,14.3,0.76,contracting,0.20,stable,stable
+OBS-0197,919-05,BA-017,Tripas Basin,Tripas Region,3.00,0.005,-0.014,14.2,0.78,contracting,0.18,stable,stable
+OBS-0198,919-06,BA-017,Tripas Basin,Tripas Region,2.90,0.006,-0.010,14.1,0.80,contracting,0.16,stable,stable
+OBS-0199,919-07,BA-017,Tripas Basin,Tripas Region,2.88,0.010,-0.007,14.2,0.78,stable,0.18,stable,stable
+OBS-0200,919-08,BA-017,Tripas Basin,Tripas Region,2.94,0.013,-0.007,14.3,0.77,expanding,0.19,stable,stable
+OBS-0201,919-09,BA-017,Tripas Basin,Tripas Region,3.04,0.015,-0.005,14.4,0.75,expanding,0.21,stable,stable
+OBS-0202,919-10,BA-017,Tripas Basin,Tripas Region,3.12,0.010,-0.010,14.3,0.76,expanding,0.20,stable,stable
+OBS-0203,919-11,BA-017,Tripas Basin,Tripas Region,3.14,0.006,-0.013,14.2,0.78,contracting,0.18,stable,stable
+OBS-0204,919-12,BA-017,Tripas Basin,Tripas Region,3.05,0.004,-0.010,14.1,0.80,contracting,0.16,stable,stable
+OBS-0205,920-01,BA-018,Densmok Basin,Densmok Region,2.22,0.018,-0.012,9.5,0.65,expanding,0.30,stable,stable
+OBS-0206,920-02,BA-018,Densmok Basin,Densmok Region,2.32,0.022,-0.010,9.3,0.62,expanding,0.35,stable,expanding
+OBS-0207,920-03,BA-018,Densmok Basin,Densmok Region,2.45,0.025,-0.008,9.1,0.58,expanding,0.40,unstable,unstable
+OBS-0208,920-04,BA-018,Densmok Basin,Densmok Region,2.58,0.015,-0.020,9.2,0.60,contracting,0.38,unstable,contracting
+OBS-0209,920-05,BA-018,Densmok Basin,Densmok Region,2.45,0.010,-0.024,9.4,0.64,contracting,0.32,stable,contracting
+OBS-0210,920-06,BA-018,Densmok Basin,Densmok Region,2.32,0.014,-0.016,9.5,0.65,contracting,0.30,stable,stable
+OBS-0211,920-07,BA-018,Densmok Basin,Densmok Region,2.28,0.016,-0.010,9.4,0.64,stable,0.32,stable,stable
+OBS-0212,920-08,BA-018,Densmok Basin,Densmok Region,2.38,0.020,-0.012,9.3,0.62,expanding,0.35,stable,expanding
+OBS-0213,920-09,BA-018,Densmok Basin,Densmok Region,2.50,0.024,-0.008,9.1,0.58,expanding,0.40,unstable,unstable
+OBS-0214,920-10,BA-018,Densmok Basin,Densmok Region,2.62,0.016,-0.022,9.2,0.60,contracting,0.38,unstable,contracting
+OBS-0215,920-11,BA-018,Densmok Basin,Densmok Region,2.48,0.008,-0.026,9.4,0.64,contracting,0.32,stable,contracting
+OBS-0216,920-12,BA-018,Densmok Basin,Densmok Region,2.32,0.015,-0.014,9.5,0.65,stable,0.30,stable,stable
+OBS-0217,921-01,BA-019,Capeast Basin,Capeast Region,2.68,0.014,-0.010,11.8,0.72,expanding,0.24,stable,stable
+OBS-0218,921-02,BA-019,Capeast Basin,Capeast Region,2.76,0.016,-0.008,11.6,0.70,expanding,0.26,stable,stable
+OBS-0219,921-03,BA-019,Capeast Basin,Capeast Region,2.86,0.018,-0.006,11.4,0.68,expanding,0.28,stable,stable
+OBS-0220,921-04,BA-019,Capeast Basin,Capeast Region,2.95,0.010,-0.014,11.5,0.70,contracting,0.26,stable,stable
+OBS-0221,921-05,BA-019,Capeast Basin,Capeast Region,2.85,0.006,-0.016,11.7,0.72,contracting,0.24,stable,stable
+OBS-0222,921-06,BA-019,Capeast Basin,Capeast Region,2.75,0.008,-0.012,11.8,0.74,contracting,0.22,stable,stable
+OBS-0223,921-07,BA-019,Capeast Basin,Capeast Region,2.72,0.012,-0.009,11.8,0.72,stable,0.24,stable,stable
+OBS-0224,921-08,BA-019,Capeast Basin,Capeast Region,2.78,0.015,-0.009,11.6,0.71,expanding,0.25,stable,stable
+OBS-0225,921-09,BA-019,Capeast Basin,Capeast Region,2.88,0.017,-0.007,11.5,0.69,expanding,0.27,stable,stable
+OBS-0226,921-10,BA-019,Capeast Basin,Capeast Region,2.98,0.012,-0.012,11.5,0.70,expanding,0.26,stable,stable
+OBS-0227,921-11,BA-019,Capeast Basin,Capeast Region,3.00,0.008,-0.015,11.6,0.72,contracting,0.24,stable,stable
+OBS-0228,921-12,BA-019,Capeast Basin,Capeast Region,2.90,0.005,-0.012,11.8,0.74,contracting,0.22,stable,stable
+OBS-0229,922-01,BA-020,Vellmarsh Basin,Vellmarsh Region,1.65,0.025,-0.018,6.5,0.52,expanding,0.45,unstable,unstable
+OBS-0230,922-02,BA-020,Vellmarsh Basin,Vellmarsh Region,1.78,0.032,-0.014,6.2,0.48,expanding,0.52,bifurcating,expanding
+OBS-0231,922-03,BA-020,Vellmarsh Basin,Vellmarsh Region,1.95,0.028,-0.022,6.4,0.50,contracting,0.48,unstable,contracting
+OBS-0232,922-04,BA-020,Vellmarsh Basin,Vellmarsh Region,1.82,0.018,-0.028,6.6,0.54,contracting,0.42,unstable,contracting
+OBS-0233,922-05,BA-020,Vellmarsh Basin,Vellmarsh Region,1.68,0.022,-0.020,6.5,0.52,stable,0.45,unstable,stable
+OBS-0234,922-06,BA-020,Vellmarsh Basin,Vellmarsh Region,1.72,0.028,-0.016,6.3,0.50,expanding,0.48,unstable,expanding
+OBS-0235,922-07,BA-020,Vellmarsh Basin,Vellmarsh Region,1.88,0.035,-0.012,6.1,0.45,expanding,0.55,bifurcating,expanding
+OBS-0236,922-08,BA-020,Vellmarsh Basin,Vellmarsh Region,2.05,0.022,-0.028,6.3,0.48,contracting,0.52,bifurcating,contracting
+OBS-0237,922-09,BA-020,Vellmarsh Basin,Vellmarsh Region,1.88,0.015,-0.032,6.5,0.52,contracting,0.45,unstable,contracting
+OBS-0238,922-10,BA-020,Vellmarsh Basin,Vellmarsh Region,1.72,0.020,-0.022,6.6,0.54,stable,0.42,unstable,stable
+OBS-0239,922-11,BA-020,Vellmarsh Basin,Vellmarsh Region,1.75,0.026,-0.018,6.4,0.50,expanding,0.48,unstable,expanding
+OBS-0240,922-12,BA-020,Vellmarsh Basin,Vellmarsh Region,1.90,0.030,-0.014,6.2,0.48,expanding,0.52,bifurcating,unstable
+OBS-0241,923-01,BA-001,Dens Boundary Basin,Western Dens,2.35,0.013,-0.009,15.2,0.81,expanding,0.13,stable,stable
+OBS-0242,923-02,BA-001,Dens Boundary Basin,Western Dens,2.40,0.016,-0.007,15.0,0.78,expanding,0.16,stable,stable
+OBS-0243,923-03,BA-001,Dens Boundary Basin,Western Dens,2.46,0.019,-0.005,14.9,0.75,expanding,0.19,stable,stable
+OBS-0244,923-04,BA-001,Dens Boundary Basin,Western Dens,2.52,0.010,-0.013,15.0,0.77,contracting,0.17,stable,stable
+OBS-0245,923-05,BA-001,Dens Boundary Basin,Western Dens,2.45,0.006,-0.016,15.2,0.80,contracting,0.14,stable,stable
+OBS-0246,923-06,BA-001,Dens Boundary Basin,Western Dens,2.38,0.003,-0.014,15.3,0.83,contracting,0.11,stable,stable
+OBS-0247,923-07,BA-001,Dens Boundary Basin,Western Dens,2.34,0.011,-0.008,15.2,0.82,stable,0.12,stable,stable
+OBS-0248,923-08,BA-001,Dens Boundary Basin,Western Dens,2.38,0.015,-0.008,15.1,0.80,expanding,0.14,stable,stable
+OBS-0249,923-09,BA-001,Dens Boundary Basin,Western Dens,2.44,0.018,-0.006,15.0,0.77,expanding,0.17,stable,stable
+OBS-0250,923-10,BA-001,Dens Boundary Basin,Western Dens,2.52,0.012,-0.011,14.9,0.76,expanding,0.18,stable,stable
+OBS-0251,923-11,BA-001,Dens Boundary Basin,Western Dens,2.54,0.007,-0.015,15.0,0.78,contracting,0.16,stable,stable
+OBS-0252,923-12,BA-001,Dens Boundary Basin,Western Dens,2.46,0.004,-0.013,15.1,0.81,contracting,0.13,stable,stable
+OBS-0253,924-01,BA-002,Binary Basin,Central Archive,4.15,0.009,-0.005,28.5,0.91,expanding,0.06,stable,stable
+OBS-0254,924-02,BA-002,Binary Basin,Central Archive,4.22,0.011,-0.004,28.6,0.90,expanding,0.07,stable,stable
+OBS-0255,924-03,BA-002,Binary Basin,Central Archive,4.30,0.013,-0.003,28.8,0.89,expanding,0.08,stable,stable
+OBS-0256,924-04,BA-002,Binary Basin,Central Archive,4.38,0.006,-0.009,28.6,0.90,contracting,0.07,stable,stable
+OBS-0257,924-05,BA-002,Binary Basin,Central Archive,4.30,0.004,-0.011,28.5,0.91,contracting,0.06,stable,stable
+OBS-0258,924-06,BA-002,Binary Basin,Central Archive,4.22,0.003,-0.008,28.4,0.92,contracting,0.05,stable,stable
+OBS-0259,924-07,BA-002,Binary Basin,Central Archive,4.20,0.007,-0.005,28.5,0.91,stable,0.06,stable,stable
+OBS-0260,924-08,BA-002,Binary Basin,Central Archive,4.25,0.010,-0.005,28.6,0.90,expanding,0.07,stable,stable
+OBS-0261,924-09,BA-002,Binary Basin,Central Archive,4.32,0.012,-0.004,28.7,0.89,expanding,0.08,stable,stable
+OBS-0262,924-10,BA-002,Binary Basin,Central Archive,4.40,0.008,-0.007,28.6,0.90,expanding,0.07,stable,stable
+OBS-0263,924-11,BA-002,Binary Basin,Central Archive,4.42,0.005,-0.010,28.5,0.91,contracting,0.06,stable,stable
+OBS-0264,924-12,BA-002,Binary Basin,Central Archive,4.35,0.003,-0.008,28.4,0.92,contracting,0.05,stable,stable
+OBS-0265,925-01,BA-003,Tension Basin,Northern Ridge,1.88,0.024,-0.016,8.3,0.56,expanding,0.38,unstable,unstable
+OBS-0266,925-02,BA-003,Tension Basin,Northern Ridge,1.98,0.030,-0.013,8.1,0.50,expanding,0.48,bifurcating,expanding
+OBS-0267,925-03,BA-003,Tension Basin,Northern Ridge,2.15,0.022,-0.025,8.2,0.52,contracting,0.45,unstable,contracting
+OBS-0268,925-04,BA-003,Tension Basin,Northern Ridge,2.00,0.012,-0.030,8.4,0.58,contracting,0.38,unstable,contracting
+OBS-0269,925-05,BA-003,Tension Basin,Northern Ridge,1.85,0.018,-0.018,8.5,0.60,stable,0.35,stable,stable
+OBS-0270,925-06,BA-003,Tension Basin,Northern Ridge,1.88,0.026,-0.014,8.3,0.55,expanding,0.40,unstable,expanding
+OBS-0271,925-07,BA-003,Tension Basin,Northern Ridge,2.02,0.032,-0.010,8.0,0.48,expanding,0.52,bifurcating,expanding
+OBS-0272,925-08,BA-003,Tension Basin,Northern Ridge,2.20,0.018,-0.028,8.2,0.52,contracting,0.45,unstable,contracting
+OBS-0273,925-09,BA-003,Tension Basin,Northern Ridge,2.02,0.010,-0.032,8.4,0.58,contracting,0.38,unstable,contracting
+OBS-0274,925-10,BA-003,Tension Basin,Northern Ridge,1.85,0.015,-0.020,8.5,0.60,stable,0.35,stable,stable
+OBS-0275,925-11,BA-003,Tension Basin,Northern Ridge,1.88,0.022,-0.015,8.4,0.57,expanding,0.37,unstable,expanding
+OBS-0276,925-12,BA-003,Tension Basin,Northern Ridge,2.00,0.028,-0.012,8.2,0.52,expanding,0.45,unstable,unstable
+OBS-0277,926-01,BA-004,Quintic Basin,Quintic Region,2.90,0.016,-0.011,12.4,0.71,expanding,0.24,stable,stable
+OBS-0278,926-02,BA-004,Quintic Basin,Quintic Region,2.98,0.019,-0.009,12.3,0.69,expanding,0.27,stable,stable
+OBS-0279,926-03,BA-004,Quintic Basin,Quintic Region,3.10,0.021,-0.007,12.1,0.66,expanding,0.30,stable,stable
+OBS-0280,926-04,BA-004,Quintic Basin,Quintic Region,3.18,0.012,-0.016,12.2,0.68,contracting,0.28,stable,stable
+OBS-0281,926-05,BA-004,Quintic Basin,Quintic Region,3.06,0.006,-0.019,12.4,0.71,contracting,0.24,stable,stable
+OBS-0282,926-06,BA-004,Quintic Basin,Quintic Region,2.94,0.009,-0.013,12.5,0.73,contracting,0.22,stable,stable
+OBS-0283,926-07,BA-004,Quintic Basin,Quintic Region,2.92,0.013,-0.010,12.4,0.71,stable,0.24,stable,stable
+OBS-0284,926-08,BA-004,Quintic Basin,Quintic Region,2.98,0.017,-0.010,12.3,0.70,expanding,0.25,stable,stable
+OBS-0285,926-09,BA-004,Quintic Basin,Quintic Region,3.08,0.020,-0.008,12.2,0.67,expanding,0.29,stable,stable
+OBS-0286,926-10,BA-004,Quintic Basin,Quintic Region,3.18,0.014,-0.014,12.3,0.69,expanding,0.27,stable,stable
+OBS-0287,926-11,BA-004,Quintic Basin,Quintic Region,3.20,0.009,-0.017,12.4,0.71,contracting,0.24,stable,stable
+OBS-0288,926-12,BA-004,Quintic Basin,Quintic Region,3.08,0.006,-0.014,12.5,0.73,contracting,0.22,stable,stable
+OBS-0289,927-01,BA-005,Septenary Basin,Deep Attractor,3.52,0.011,-0.009,18.3,0.84,expanding,0.11,stable,stable
+OBS-0290,927-02,BA-005,Septenary Basin,Deep Attractor,3.60,0.013,-0.007,18.4,0.83,expanding,0.12,stable,stable
+OBS-0291,927-03,BA-005,Septenary Basin,Deep Attractor,3.70,0.015,-0.006,18.5,0.81,expanding,0.14,stable,stable
+OBS-0292,927-04,BA-005,Septenary Basin,Deep Attractor,3.78,0.009,-0.011,18.4,0.82,contracting,0.13,stable,stable
+OBS-0293,927-05,BA-005,Septenary Basin,Deep Attractor,3.70,0.006,-0.013,18.3,0.84,contracting,0.11,stable,stable
+OBS-0294,927-06,BA-005,Septenary Basin,Deep Attractor,3.62,0.004,-0.010,18.2,0.85,contracting,0.10,stable,stable
+OBS-0295,927-07,BA-005,Septenary Basin,Deep Attractor,3.58,0.009,-0.007,18.3,0.84,stable,0.11,stable,stable
+OBS-0296,927-08,BA-005,Septenary Basin,Deep Attractor,3.64,0.012,-0.008,18.4,0.83,expanding,0.12,stable,stable
+OBS-0297,927-09,BA-005,Septenary Basin,Deep Attractor,3.72,0.014,-0.006,18.5,0.82,expanding,0.13,stable,stable
+OBS-0298,927-10,BA-005,Septenary Basin,Deep Attractor,3.82,0.010,-0.010,18.4,0.83,expanding,0.12,stable,stable
+OBS-0299,927-11,BA-005,Septenary Basin,Deep Attractor,3.84,0.007,-0.012,18.3,0.84,contracting,0.11,stable,stable
+OBS-0300,927-12,BA-005,Septenary Basin,Deep Attractor,3.76,0.005,-0.009,18.2,0.85,contracting,0.10,stable,stable
+OBS-0301,928-01,BA-006,Five-Body Basin,Outer Reaches,1.58,0.028,-0.020,6.7,0.52,expanding,0.45,unstable,unstable
+OBS-0302,928-02,BA-006,Five-Body Basin,Outer Reaches,1.72,0.035,-0.016,6.4,0.46,expanding,0.55,bifurcating,expanding
+OBS-0303,928-03,BA-006,Five-Body Basin,Outer Reaches,1.90,0.025,-0.032,6.5,0.48,contracting,0.52,bifurcating,contracting
+OBS-0304,928-04,BA-006,Five-Body Basin,Outer Reaches,1.72,0.015,-0.038,6.8,0.54,contracting,0.42,unstable,contracting
+OBS-0305,928-05,BA-006,Five-Body Basin,Outer Reaches,1.55,0.022,-0.022,6.9,0.56,stable,0.40,unstable,stable
+OBS-0306,928-06,BA-006,Five-Body Basin,Outer Reaches,1.60,0.030,-0.018,6.6,0.50,expanding,0.48,unstable,expanding
+OBS-0307,928-07,BA-006,Five-Body Basin,Outer Reaches,1.78,0.038,-0.014,6.3,0.44,expanding,0.58,bifurcating,expanding
+OBS-0308,928-08,BA-006,Five-Body Basin,Outer Reaches,1.98,0.022,-0.035,6.5,0.48,contracting,0.52,bifurcating,contracting
+OBS-0309,928-09,BA-006,Five-Body Basin,Outer Reaches,1.78,0.012,-0.040,6.8,0.54,contracting,0.42,unstable,contracting
+OBS-0310,928-10,BA-006,Five-Body Basin,Outer Reaches,1.58,0.018,-0.025,6.9,0.56,stable,0.40,unstable,stable
+OBS-0311,928-11,BA-006,Five-Body Basin,Outer Reaches,1.62,0.026,-0.020,6.7,0.52,expanding,0.45,unstable,expanding
+OBS-0312,928-12,BA-006,Five-Body Basin,Outer Reaches,1.75,0.032,-0.016,6.4,0.46,expanding,0.55,bifurcating,unstable
+OBS-0313,929-01,BA-007,Triad Basin,Central Grid,2.70,0.013,-0.010,14.5,0.77,expanding,0.19,stable,stable
+OBS-0314,929-02,BA-007,Triad Basin,Central Grid,2.78,0.015,-0.008,14.4,0.75,expanding,0.21,stable,stable
+OBS-0315,929-03,BA-007,Triad Basin,Central Grid,2.88,0.017,-0.006,14.2,0.73,expanding,0.23,stable,stable
+OBS-0316,929-04,BA-007,Triad Basin,Central Grid,2.96,0.011,-0.013,14.3,0.74,contracting,0.22,stable,stable
+OBS-0317,929-05,BA-007,Triad Basin,Central Grid,2.86,0.007,-0.016,14.5,0.77,contracting,0.19,stable,stable
+OBS-0318,929-06,BA-007,Triad Basin,Central Grid,2.78,0.005,-0.012,14.6,0.79,contracting,0.17,stable,stable
+OBS-0319,929-07,BA-007,Triad Basin,Central Grid,2.75,0.011,-0.009,14.5,0.77,stable,0.19,stable,stable
+OBS-0320,929-08,BA-007,Triad Basin,Central Grid,2.80,0.014,-0.009,14.4,0.76,expanding,0.20,stable,stable
+OBS-0321,929-09,BA-007,Triad Basin,Central Grid,2.88,0.016,-0.007,14.3,0.74,expanding,0.22,stable,stable
+OBS-0322,929-10,BA-007,Triad Basin,Central Grid,2.98,0.012,-0.011,14.4,0.75,expanding,0.21,stable,stable
+OBS-0323,929-11,BA-007,Triad Basin,Central Grid,3.00,0.008,-0.014,14.5,0.77,contracting,0.19,stable,stable
+OBS-0324,929-12,BA-007,Triad Basin,Central Grid,2.90,0.005,-0.011,14.6,0.79,contracting,0.17,stable,stable
+OBS-0325,930-01,BA-008,Northern Anomaly,Northern Ridge,1.00,0.038,-0.022,4.4,0.40,expanding,0.60,bifurcating,expanding
+OBS-0326,930-02,BA-008,Northern Anomaly,Northern Ridge,1.20,0.048,-0.018,4.0,0.34,expanding,0.70,bifurcating,bifurcation
+OBS-0327,930-03,BA-008,Northern Anomaly,Northern Ridge,1.45,0.032,-0.042,4.2,0.38,contracting,0.62,bifurcating,contracting
+OBS-0328,930-04,BA-008,Northern Anomaly,Northern Ridge,1.22,0.020,-0.050,4.5,0.45,contracting,0.52,unstable,contracting
+OBS-0329,930-05,BA-008,Northern Anomaly,Northern Ridge,0.98,0.030,-0.028,4.6,0.48,stable,0.48,unstable,unstable
+OBS-0330,930-06,BA-008,Northern Anomaly,Northern Ridge,1.02,0.042,-0.022,4.3,0.42,expanding,0.58,bifurcating,expanding
+OBS-0331,930-07,BA-008,Northern Anomaly,Northern Ridge,1.25,0.050,-0.016,3.9,0.35,expanding,0.68,bifurcating,bifurcation
+OBS-0332,930-08,BA-008,Northern Anomaly,Northern Ridge,1.52,0.028,-0.045,4.1,0.38,contracting,0.62,bifurcating,contracting
+OBS-0333,930-09,BA-008,Northern Anomaly,Northern Ridge,1.28,0.015,-0.048,4.4,0.45,contracting,0.52,unstable,contracting
+OBS-0334,930-10,BA-008,Northern Anomaly,Northern Ridge,1.02,0.025,-0.030,4.6,0.48,stable,0.48,unstable,stable
+OBS-0335,930-11,BA-008,Northern Anomaly,Northern Ridge,1.05,0.038,-0.024,4.4,0.42,expanding,0.58,bifurcating,expanding
+OBS-0336,930-12,BA-008,Northern Anomaly,Northern Ridge,1.25,0.045,-0.018,4.0,0.36,expanding,0.68,bifurcating,bifurcation
+OBS-0337,931-01,BA-009,Western Stability,Western Boundary,3.90,0.009,-0.007,22.6,0.87,expanding,0.09,stable,stable
+OBS-0338,931-02,BA-009,Western Stability,Western Boundary,3.98,0.011,-0.006,22.7,0.86,expanding,0.10,stable,stable
+OBS-0339,931-03,BA-009,Western Stability,Western Boundary,4.08,0.013,-0.005,22.9,0.85,expanding,0.11,stable,stable
+OBS-0340,931-04,BA-009,Western Stability,Western Boundary,4.15,0.007,-0.010,22.7,0.86,contracting,0.10,stable,stable
+OBS-0341,931-05,BA-009,Western Stability,Western Boundary,4.08,0.005,-0.011,22.6,0.87,contracting,0.09,stable,stable
+OBS-0342,931-06,BA-009,Western Stability,Western Boundary,4.00,0.004,-0.008,22.5,0.88,contracting,0.08,stable,stable
+OBS-0343,931-07,BA-009,Western Stability,Western Boundary,3.98,0.008,-0.006,22.6,0.87,stable,0.09,stable,stable
+OBS-0344,931-08,BA-009,Western Stability,Western Boundary,4.02,0.010,-0.007,22.7,0.86,expanding,0.10,stable,stable
+OBS-0345,931-09,BA-009,Western Stability,Western Boundary,4.10,0.012,-0.005,22.8,0.85,expanding,0.11,stable,stable
+OBS-0346,931-10,BA-009,Western Stability,Western Boundary,4.18,0.008,-0.009,22.7,0.86,expanding,0.10,stable,stable
+OBS-0347,931-11,BA-009,Western Stability,Western Boundary,4.20,0.006,-0.010,22.6,0.87,contracting,0.09,stable,stable
+OBS-0348,931-12,BA-009,Western Stability,Western Boundary,4.12,0.004,-0.007,22.5,0.88,contracting,0.08,stable,stable
+OBS-0349,932-01,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.28,0.020,-0.014,5.5,0.60,expanding,0.35,stable,stable
+OBS-0350,932-02,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.38,0.024,-0.012,5.3,0.56,expanding,0.40,unstable,expanding
+OBS-0351,932-03,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.52,0.018,-0.022,5.4,0.58,contracting,0.38,unstable,contracting
+OBS-0352,932-04,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.42,0.012,-0.026,5.6,0.62,contracting,0.32,stable,contracting
+OBS-0353,932-05,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.30,0.016,-0.018,5.5,0.60,stable,0.35,stable,stable
+OBS-0354,932-06,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.35,0.022,-0.014,5.4,0.58,expanding,0.38,unstable,expanding
+OBS-0355,932-07,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.48,0.026,-0.010,5.2,0.54,expanding,0.42,unstable,unstable
+OBS-0356,932-08,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.60,0.016,-0.024,5.3,0.56,contracting,0.40,unstable,contracting
+OBS-0357,932-09,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.48,0.010,-0.028,5.5,0.60,contracting,0.35,stable,contracting
+OBS-0358,932-10,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.35,0.018,-0.016,5.6,0.62,stable,0.32,stable,stable
+OBS-0359,932-11,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.40,0.023,-0.013,5.4,0.58,expanding,0.38,unstable,expanding
+OBS-0360,932-12,BA-010,Shallow Basin Alpha,Shallow Basin Region,1.55,0.028,-0.008,5.2,0.54,expanding,0.42,unstable,unstable
+OBS-0361,929-01,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.82,0.048,-0.028,2.9,0.28,expanding,0.75,unknown,expanding
+OBS-0362,929-02,BA-011,Jackson Anomaly Basin,Anomaly Zone,1.05,0.038,-0.045,3.0,0.30,contracting,0.72,unknown,contracting
+OBS-0363,929-03,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.80,0.052,-0.030,2.8,0.26,expanding,0.78,unknown,unstable
+OBS-0364,929-04,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.98,0.030,-0.052,3.1,0.32,contracting,0.68,unknown,contracting
+OBS-0365,929-05,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.72,0.045,-0.035,3.0,0.30,stable,0.72,unknown,unstable
+OBS-0366,929-06,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.85,0.055,-0.028,2.7,0.25,expanding,0.78,unknown,expanding
+OBS-0367,929-07,BA-011,Jackson Anomaly Basin,Anomaly Zone,1.12,0.032,-0.048,2.9,0.28,contracting,0.75,unknown,contracting
+OBS-0368,929-08,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.88,0.042,-0.038,3.0,0.30,stable,0.72,unknown,unstable
+OBS-0369,929-09,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.95,0.050,-0.032,2.8,0.27,expanding,0.76,unknown,expanding
+OBS-0370,929-10,BA-011,Jackson Anomaly Basin,Anomaly Zone,1.18,0.028,-0.052,3.0,0.30,contracting,0.72,unknown,contracting
+OBS-0371,929-11,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.90,0.038,-0.042,3.1,0.32,contracting,0.68,unknown,stable
+OBS-0372,929-12,BA-011,Jackson Anomaly Basin,Anomaly Zone,0.78,0.048,-0.030,2.9,0.28,expanding,0.75,unknown,unstable
+OBS-0373,930-01,BA-012,Capital Basin,Capital Region,5.30,0.007,-0.005,35.3,0.91,expanding,0.06,stable,stable
+OBS-0374,930-02,BA-012,Capital Basin,Capital Region,5.38,0.009,-0.004,35.5,0.90,expanding,0.07,stable,stable
+OBS-0375,930-03,BA-012,Capital Basin,Capital Region,5.48,0.011,-0.003,35.7,0.89,expanding,0.08,stable,stable
+OBS-0376,930-04,BA-012,Capital Basin,Capital Region,5.55,0.006,-0.008,35.5,0.90,contracting,0.07,stable,stable
+OBS-0377,930-05,BA-012,Capital Basin,Capital Region,5.48,0.004,-0.009,35.4,0.91,contracting,0.06,stable,stable
+OBS-0378,930-06,BA-012,Capital Basin,Capital Region,5.42,0.003,-0.006,35.3,0.92,contracting,0.05,stable,stable
+OBS-0379,930-07,BA-012,Capital Basin,Capital Region,5.40,0.006,-0.005,35.3,0.91,stable,0.06,stable,stable
+OBS-0380,930-08,BA-012,Capital Basin,Capital Region,5.44,0.008,-0.005,35.4,0.90,expanding,0.07,stable,stable
+OBS-0381,930-09,BA-012,Capital Basin,Capital Region,5.52,0.010,-0.004,35.6,0.89,expanding,0.08,stable,stable
+OBS-0382,930-10,BA-012,Capital Basin,Capital Region,5.60,0.007,-0.007,35.5,0.90,expanding,0.07,stable,stable
+OBS-0383,930-11,BA-012,Capital Basin,Capital Region,5.62,0.005,-0.008,35.4,0.91,contracting,0.06,stable,stable
+OBS-0384,930-12,BA-012,Capital Basin,Capital Region,5.55,0.003,-0.005,35.3,0.92,contracting,0.05,stable,stable
+OBS-0385,931-01,BA-013,Mirado Basin,Mirado Desert,3.00,0.015,-0.011,16.4,0.74,expanding,0.21,stable,stable
+OBS-0386,931-02,BA-013,Mirado Basin,Mirado Desert,3.08,0.017,-0.009,16.3,0.72,expanding,0.24,stable,stable
+OBS-0387,931-03,BA-013,Mirado Basin,Mirado Desert,3.18,0.019,-0.007,16.1,0.70,expanding,0.26,stable,stable
+OBS-0388,931-04,BA-013,Mirado Basin,Mirado Desert,3.28,0.011,-0.015,16.2,0.72,contracting,0.24,stable,stable
+OBS-0389,931-05,BA-013,Mirado Basin,Mirado Desert,3.18,0.007,-0.017,16.4,0.74,contracting,0.21,stable,stable
+OBS-0390,931-06,BA-013,Mirado Basin,Mirado Desert,3.05,0.009,-0.013,16.5,0.76,contracting,0.19,stable,stable
+OBS-0391,931-07,BA-013,Mirado Basin,Mirado Desert,3.02,0.013,-0.010,16.4,0.74,stable,0.21,stable,stable
+OBS-0392,931-08,BA-013,Mirado Basin,Mirado Desert,3.08,0.016,-0.010,16.3,0.73,expanding,0.22,stable,stable
+OBS-0393,931-09,BA-013,Mirado Basin,Mirado Desert,3.18,0.018,-0.008,16.2,0.71,expanding,0.25,stable,stable
+OBS-0394,931-10,BA-013,Mirado Basin,Mirado Desert,3.28,0.013,-0.013,16.3,0.72,expanding,0.24,stable,stable
+OBS-0395,931-11,BA-013,Mirado Basin,Mirado Desert,3.30,0.009,-0.016,16.4,0.74,contracting,0.21,stable,stable
+OBS-0396,931-12,BA-013,Mirado Basin,Mirado Desert,3.20,0.006,-0.012,16.5,0.76,contracting,0.19,stable,stable
+OBS-0397,932-01,BA-014,Quarry Basin,Yeller Quarry,2.20,0.022,-0.015,10.1,0.64,expanding,0.32,stable,stable
+OBS-0398,932-02,BA-014,Quarry Basin,Yeller Quarry,2.32,0.026,-0.013,9.9,0.60,expanding,0.38,unstable,expanding
+OBS-0399,932-03,BA-014,Quarry Basin,Yeller Quarry,2.48,0.020,-0.024,10.0,0.62,contracting,0.35,stable,contracting
+OBS-0400,932-04,BA-014,Quarry Basin,Yeller Quarry,2.35,0.014,-0.028,10.2,0.65,contracting,0.30,stable,stable

@@ -1,0 +1,101 @@
+prediction_id,predictor_name,predictor_affiliation,prediction_year,target_year,prediction_type,predicted_outcome,confidence_stated,actual_outcome,correct,calibration_score,overconfidence_penalty,notes
+PRD-0001,Old Murch,skeptics,895,896,creature,grimslew_migration_north,0.60,grimslew_migration_north,True,0.90,0.00,Modest confidence; correct prediction
+PRD-0002,Lurra Venn,guild,896,897,economic,trade_volume_increase,0.85,trade_volume_increase,True,0.85,0.00,Pattern-based prediction; accurate
+PRD-0003,Vorn Kellam,skeptics,894,895,political,senate_stability,0.70,senate_instability,False,0.30,0.40,Underestimated political tension
+PRD-0004,Vornis Keth,archive,878,879,creature,stakdur_range_expansion,0.75,stakdur_range_expansion,True,0.88,0.00,Basin topology prediction
+PRD-0005,Pollus Brent,guild,901,902,creature,crawler_population_decline,0.55,crawler_population_stable,False,0.45,0.10,Prime cycle prediction failed
+PRD-0006,Folk Trader Council,folk,890,891,weather,mild_winter,0.90,harsh_winter,False,0.10,0.80,Overconfident folk prediction
+PRD-0007,Old Murch,skeptics,897,898,political,council_deadlock,0.50,council_deadlock,True,1.00,0.00,Perfect calibration at uncertainty
+PRD-0008,Prebel Cord,archive,905,906,creature,yeller_activity_increase,0.65,yeller_activity_increase,True,0.85,0.00,Stability method prediction
+PRD-0009,Meck Drune,guild,899,900,economic,route_disruption,0.40,route_disruption,True,0.60,0.00,Anti-pattern trader correct despite low confidence
+PRD-0010,Hesta Vorn,archive,888,889,creature,new_species_discovery,0.35,new_species_discovery,True,0.65,0.00,Conservative estimate; correct
+PRD-0011,Old Murch,skeptics,898,899,weather,normal_precipitation,0.55,normal_precipitation,True,0.95,0.00,Skeptical prediction; validated
+PRD-0012,Lurra Venn,guild,897,898,creature,maw_beast_breeding_success,0.80,maw_beast_breeding_failure,False,0.20,0.60,Archetype method failed here
+PRD-0013,Foreman Hask,guild,902,903,economic,quarry_output_increase,0.75,quarry_output_increase,True,0.88,0.00,Trade expertise accurate
+PRD-0014,Vorn Kellam,skeptics,896,897,creature,grimslew_mortality_high,0.45,grimslew_mortality_moderate,False,0.55,0.00,Modest claim; close to actual
+PRD-0015,Rella Tarn,archive,904,905,creature,expedition_casualty_low,0.70,expedition_casualty_high,False,0.30,0.40,Optimistic expedition forecast
+PRD-0016,Folk Trader Council,folk,891,892,creature,creature_aggression_increase,0.80,creature_aggression_stable,False,0.20,0.60,Folk wisdom overconfident
+PRD-0017,Old Murch,skeptics,899,900,economic,trade_stable,0.60,trade_stable,True,0.90,0.00,Skeptic accurate prediction
+PRD-0018,Grigsu Haldo,archive,886,887,creature,yeller_pattern_change,0.70,yeller_pattern_change,True,0.85,0.00,Expert on Yeller; correct
+PRD-0019,Vagabu Olt,guild,894,895,weather,flooding_risk_high,0.65,flooding_risk_high,True,0.85,0.00,Cartographer field knowledge
+PRD-0020,Meck Drune,guild,900,901,political,guild_dispute_resolved,0.50,guild_dispute_escalated,False,0.50,0.00,Uncertain prediction; wrong
+PRD-0021,Old Murch,skeptics,900,901,creature,stakdur_behavior_normal,0.55,stakdur_behavior_normal,True,0.95,0.00,Conservative skeptic prediction
+PRD-0022,Pollus Brent,guild,902,903,creature,prime_day_activity_high,0.75,prime_day_activity_high,True,0.88,0.00,Prime theory validated this year
+PRD-0023,Folk Trader Council,folk,892,893,economic,prosperity_increase,0.85,prosperity_decrease,False,0.15,0.70,Folk optimism unfounded
+PRD-0024,Lurra Venn,guild,898,899,creature,happy_accident_rate_normal,0.60,happy_accident_rate_normal,True,0.90,0.00,Archetype distribution accurate
+PRD-0025,Prebel Cord,archive,906,907,weather,stability_high,0.70,stability_high,True,0.85,0.00,Prebel effect methodology
+PRD-0026,Vorn Kellam,skeptics,897,898,economic,market_volatility_high,0.65,market_volatility_moderate,False,0.35,0.30,Slightly overestimated
+PRD-0027,Old Murch,skeptics,901,902,political,succession_dispute,0.45,succession_smooth,False,0.55,0.00,Uncertain prediction; wrong but well-calibrated
+PRD-0028,Hesta Vorn,archive,889,890,creature,crawler_mutation_observed,0.40,crawler_mutation_observed,True,0.60,0.00,Low confidence correct
+PRD-0029,Foreman Hask,guild,903,904,weather,trade_route_impassable,0.55,trade_route_passable,False,0.45,0.10,Modest overestimate of weather impact
+PRD-0030,Folk Trader Council,folk,893,894,creature,yeller_harmless,0.95,yeller_attack,False,0.05,0.90,Dangerous folk overconfidence
+PRD-0031,Old Murch,skeptics,902,903,creature,grimslew_population_stable,0.60,grimslew_population_stable,True,0.90,0.00,Accurate conservative estimate
+PRD-0032,Rella Tarn,archive,905,906,creature,ninth_expedition_safe,0.75,ninth_expedition_disaster,False,0.25,0.50,Tragic miscalculation
+PRD-0033,Lurra Venn,guild,899,900,economic,archetype_doomed_optimist_rate_high,0.70,archetype_doomed_optimist_rate_high,True,0.85,0.00,Pattern prediction accurate
+PRD-0034,Vorn Kellam,skeptics,898,899,creature,new_creature_discovery_unlikely,0.75,new_creature_discovery,False,0.25,0.50,Skeptic overconfident about absence
+PRD-0035,Old Murch,skeptics,903,904,weather,winter_severity_normal,0.55,winter_severity_normal,True,0.95,0.00,Modest accurate prediction
+PRD-0036,Pollus Brent,guild,903,904,creature,yeller_number_effect_strong,0.80,yeller_number_effect_weak,False,0.20,0.60,Prime theory failure this year
+PRD-0037,Prebel Cord,archive,907,908,creature,observation_effect_measurable,0.85,observation_effect_measurable,True,0.85,0.00,Prebel effect confirmed
+PRD-0038,Folk Trader Council,folk,894,895,economic,bumper_harvest,0.90,poor_harvest,False,0.10,0.80,Folk optimism again wrong
+PRD-0039,Meck Drune,guild,901,902,creature,stakdur_encounter_rate_high,0.55,stakdur_encounter_rate_high,True,0.95,0.00,Field experience valuable
+PRD-0040,Old Murch,skeptics,904,905,political,reform_unlikely,0.65,reform_passed,False,0.35,0.30,Underestimated reform momentum
+PRD-0041,Hesta Vorn,archive,890,891,creature,creature_taxonomy_update_needed,0.80,creature_taxonomy_update_needed,True,0.80,0.00,Expert assessment accurate
+PRD-0042,Lurra Venn,guild,900,901,creature,weathered_hand_success_rate_stable,0.75,weathered_hand_success_rate_stable,True,0.88,0.00,Archetype prediction holds
+PRD-0043,Vorn Kellam,skeptics,899,900,weather,drought_risk_low,0.70,drought,False,0.30,0.40,Underestimated climate risk
+PRD-0044,Old Murch,skeptics,905,906,creature,maw_beast_population_stable,0.50,maw_beast_population_stable,True,1.00,0.00,Perfect uncertainty calibration
+PRD-0045,Foreman Hask,guild,904,905,economic,trade_route_expansion,0.65,trade_route_expansion,True,0.85,0.00,Trade expertise accurate
+PRD-0046,Folk Trader Council,folk,895,896,creature,deep_dens_safe,0.75,deep_dens_dangerous,False,0.25,0.50,Folk underestimate danger
+PRD-0047,Prebel Cord,archive,908,909,weather,observation_stabilizes_weather,0.60,observation_stabilizes_weather,True,0.90,0.00,Novel application of Prebel effect
+PRD-0048,Pollus Brent,guild,904,905,creature,prime_cycle_resets,0.70,prime_cycle_continues,False,0.30,0.40,Theory adjustment needed
+PRD-0049,Old Murch,skeptics,906,907,economic,recession_unlikely,0.55,prosperity,True,0.95,0.00,Conservative accurate
+PRD-0050,Meck Drune,guild,902,903,political,guild_unity,0.45,guild_split,False,0.55,0.00,Low confidence; wrong but calibrated
+PRD-0051,Lurra Venn,guild,901,902,creature,lucky_fool_rate_stable,0.80,lucky_fool_rate_elevated,False,0.20,0.60,Unexpected archetype shift
+PRD-0052,Vorn Kellam,skeptics,900,901,creature,crawler_range_stable,0.60,crawler_range_stable,True,0.90,0.00,Skeptic accurate
+PRD-0053,Old Murch,skeptics,907,908,creature,yeller_dormant,0.50,yeller_active,False,0.50,0.00,Maximum uncertainty; wrong
+PRD-0054,Hesta Vorn,archive,891,892,creature,grimslew_variant_discovered,0.55,grimslew_variant_discovered,True,0.95,0.00,Conservative expert accurate
+PRD-0055,Folk Trader Council,folk,896,897,economic,trade_boom,0.85,trade_decline,False,0.15,0.70,Folk again overconfident
+PRD-0056,Rella Tarn,archive,906,907,creature,expedition_success,0.65,expedition_partial_success,True,0.70,0.00,Reasonable prediction
+PRD-0057,Old Murch,skeptics,908,909,political,stability_maintained,0.60,stability_maintained,True,0.90,0.00,Accurate conservative prediction
+PRD-0058,Foreman Hask,guild,905,906,weather,route_conditions_normal,0.70,route_conditions_hazardous,False,0.30,0.40,Weather underestimated
+PRD-0059,Prebel Cord,archive,909,910,creature,prebel_effect_strengthening,0.75,prebel_effect_strengthening,True,0.88,0.00,Self-fulfilling observation
+PRD-0060,Vorn Kellam,skeptics,901,902,economic,market_stability,0.55,market_stability,True,0.95,0.00,Skeptic calibrated
+PRD-0061,Old Murch,skeptics,909,910,creature,stakdur_behavior_unpredictable,0.70,stakdur_behavior_unpredictable,True,0.85,0.00,Meta-prediction accurate
+PRD-0062,Pollus Brent,guild,905,906,creature,eleven_day_activity_peak,0.65,eleven_day_activity_peak,True,0.85,0.00,Prime 11 prediction accurate
+PRD-0063,Folk Trader Council,folk,897,898,creature,creatures_peaceful,0.80,creature_attacks,False,0.20,0.60,Folk again underestimate danger
+PRD-0064,Lurra Venn,guild,902,903,economic,doomed_optimist_cascade,0.55,normal_distribution,False,0.45,0.10,Archetype theory correction needed
+PRD-0065,Meck Drune,guild,903,904,creature,yeller_encounter_likely,0.40,yeller_encounter,True,0.60,0.00,Low confidence; correct
+PRD-0066,Old Murch,skeptics,910,911,weather,unpredictable,0.50,harsh_conditions,True,0.75,0.00,Epistemic humility rewarded
+PRD-0067,Hesta Vorn,archive,892,893,creature,maw_beast_territory_shift,0.70,maw_beast_territory_shift,True,0.85,0.00,Taxonomist accurate
+PRD-0068,Vorn Kellam,skeptics,902,903,political,reform_blocked,0.65,reform_blocked,True,0.85,0.00,Political skeptic accurate
+PRD-0069,Rella Tarn,archive,907,908,creature,expedition_protocols_sufficient,0.60,expedition_loss,False,0.40,0.20,Overconfidence in protocols
+PRD-0070,Folk Trader Council,folk,898,899,weather,good_sailing,0.75,storm_season,False,0.25,0.50,Folk weather prediction poor
+PRD-0071,Old Murch,skeptics,911,912,economic,recession_possible,0.55,growth,False,0.45,0.10,Wrong but calibrated
+PRD-0072,Prebel Cord,archive,910,911,creature,observation_creates_calm,0.80,observation_creates_calm,True,0.80,0.00,Effect demonstration
+PRD-0073,Foreman Hask,guild,906,907,economic,quarry_productivity_stable,0.65,quarry_productivity_up,False,0.65,0.00,Conservative underestimate
+PRD-0074,Lurra Venn,guild,903,904,creature,archetype_distribution_normal,0.70,archetype_distribution_normal,True,0.85,0.00,Theory holds
+PRD-0075,Vorn Kellam,skeptics,903,904,creature,creature_unpredictability_high,0.60,creature_patterns_clear,False,0.40,0.20,Skeptic wrong about unpredictability
+PRD-0076,Old Murch,skeptics,912,913,creature,no_major_changes,0.55,no_major_changes,True,0.95,0.00,Conservative accurate
+PRD-0077,Pollus Brent,guild,906,907,creature,seven_day_cycle_strong,0.75,seven_day_cycle_strong,True,0.88,0.00,Prime 7 prediction accurate
+PRD-0078,Folk Trader Council,folk,899,900,political,peace_guaranteed,0.90,border_conflict,False,0.10,0.80,Folk overconfidence in stability
+PRD-0079,Meck Drune,guild,904,905,economic,route_disruption_unlikely,0.55,route_disruption,False,0.45,0.10,Modest miss
+PRD-0080,Old Murch,skeptics,913,914,weather,normal_patterns,0.50,normal_patterns,True,1.00,0.00,Perfect calibration
+PRD-0081,Hesta Vorn,archive,893,894,creature,new_crawler_variant,0.45,new_crawler_variant,True,0.55,0.00,Low confidence correct
+PRD-0082,Rella Tarn,archive,908,909,creature,ninth_expedition_aftermath_stable,0.60,ongoing_instability,False,0.40,0.20,Underestimated aftermath
+PRD-0083,Lurra Venn,guild,904,905,creature,happy_accident_increase,0.55,happy_accident_increase,True,0.95,0.00,Modest confidence accurate
+PRD-0084,Vorn Kellam,skeptics,904,905,weather,drought_unlikely,0.65,normal_rainfall,True,0.85,0.00,Weather skeptic accurate here
+PRD-0085,Old Murch,skeptics,914,915,political,political_stability,0.60,political_stability,True,0.90,0.00,Conservative accurate
+PRD-0086,Folk Trader Council,folk,900,901,creature,safe_passage_guaranteed,0.85,multiple_casualties,False,0.15,0.70,Dangerous folk overconfidence
+PRD-0087,Prebel Cord,archive,911,912,creature,prebel_effect_consistent,0.75,prebel_effect_consistent,True,0.88,0.00,Effect reproducible
+PRD-0088,Foreman Hask,guild,907,908,weather,trade_disruption_minor,0.60,trade_disruption_minor,True,0.90,0.00,Accurate trade forecast
+PRD-0089,Pollus Brent,guild,907,908,creature,five_day_activity_normal,0.65,five_day_activity_elevated,False,0.35,0.30,Prime 5 prediction off
+PRD-0090,Old Murch,skeptics,915,916,creature,creature_behavior_stable,0.55,creature_behavior_stable,True,0.95,0.00,Conservative accurate
+PRD-0091,Meck Drune,guild,905,906,political,guild_politics_volatile,0.50,guild_politics_stable,False,0.50,0.00,Uncertain; wrong
+PRD-0092,Lurra Venn,guild,905,906,economic,trade_pattern_shift,0.70,trade_pattern_stable,False,0.30,0.40,Archetype migration prediction off
+PRD-0093,Vorn Kellam,skeptics,905,906,creature,yeller_unpredictable,0.70,yeller_predictable_cycle,False,0.30,0.40,Skeptic wrong about Yeller
+PRD-0094,Old Murch,skeptics,916,917,economic,growth_slow,0.55,growth_moderate,True,0.80,0.00,Close to accurate
+PRD-0095,Hesta Vorn,archive,894,895,creature,stakdur_breeding_normal,0.65,stakdur_breeding_low,False,0.35,0.30,Breeding cycle miscalculation
+PRD-0096,Folk Trader Council,folk,901,902,weather,mild_conditions,0.80,severe_winter,False,0.20,0.60,Folk weather again wrong
+PRD-0097,Rella Tarn,archive,909,910,creature,expedition_recovery,0.55,expedition_recovery,True,0.95,0.00,Modest confidence accurate
+PRD-0098,Prebel Cord,archive,912,913,weather,observation_effect_measurable,0.70,observation_effect_measurable,True,0.85,0.00,Continued validation
+PRD-0099,Old Murch,skeptics,917,918,creature,uncertainty_high,0.50,uncertainty_high,True,1.00,0.00,Meta-accurate about uncertainty
+PRD-0100,Foreman Hask,guild,908,909,economic,trade_growth_moderate,0.65,trade_growth_moderate,True,0.85,0.00,Trade expertise validated

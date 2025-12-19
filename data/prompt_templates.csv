@@ -1,0 +1,244 @@
+template_id,template_name,template_category,school,palette_reference,base_prompt,required_variables,optional_variables,example_filled,generation_count,avg_iterations,success_rate,notes
+AVATAR-BASIN,Basin Topology Avatar,avatar,Geometric-Cartographic Hybrid,RCP-048 to RCP-051,"Scientific diagram in the Geometric-Cartographic Hybrid tradition. A stylized basin topology icon rendered as if from a Capital Archive mathematical treatise.
+
+COMPOSITION:
+- Circular frame containing {contour_count} nested contour lines
+- Contours represent stability basin (like a topographic bullseye)
+- Center is the deepest point (attractor)
+- Viewed from directly above (plan view)
+
+MATERIALS AND COLORS:
+- Contour lines: Slate (#1A202C), uniform thin weight
+- Outer region: Terrain Blue (#2C5282)
+- Middle region: Transitional teal (#319795)
+- Inner region (basin floor): Elevation Yellow (#ECC94B)
+- Background: {background_color}
+
+STYLE:
+- Clean vector-like rendering
+- Geometric precision with cartographic terrain coloring
+- No shadows, no gradients within regions (flat color fills)
+- Contour lines evenly spaced, mathematically regular
+
+CONSTRAINTS:
+- Must be readable at {min_size} pixels
+- No text or labels
+- No decorative elements
+- High contrast for dark mode compatibility
+
+EXCLUDE: Photorealism, 3D perspective, gradients within regions, decorative borders, any text",contour_count,background_color;min_size,"Scientific diagram in the Geometric-Cartographic Hybrid tradition. A stylized basin topology icon rendered as if from a Capital Archive mathematical treatise. COMPOSITION: Circular frame containing three nested contour lines. Contours represent stability basin. Center is the deepest point. Viewed from directly above. MATERIALS: Contour lines Slate (#1A202C). Outer region Terrain Blue (#2C5282). Middle region teal (#319795). Inner region Elevation Yellow (#ECC94B). Background Precise White (#F7FAFC). STYLE: Clean vector-like, geometric precision, no shadows, flat color fills. CONSTRAINTS: Readable at 32px, no text, no decoration, high contrast. EXCLUDE: Photorealism, 3D, gradients, borders, text.",0,0.0,0.0,Primary avatar template - test at multiple scales
+BANNER-MORPHOSPACE,Morphospace Terrain Banner,banner,Geometric-Cartographic Hybrid,RCP-048 to RCP-051,"Scientific illustration in the Geometric-Cartographic Hybrid tradition. A section of mathematical morphospace rendered as explorable terrain.
+
+COMPOSITION:
+- Landscape orientation ({dimensions})
+- Terrain viewed from elevated angle (20-30 degrees from horizontal)
+- {basin_count} stability basins visible as valleys
+- Ridge lines connecting basin boundaries
+- Central area relatively flat for text overlay zone
+- Left and right thirds contain more dramatic terrain
+
+MATERIALS AND COLORS:
+- Contour lines: Slate (#1A202C), thin precise weight
+- Lowest elevations: Terrain Blue (#2C5282)
+- Low-medium: Teal (#319795)
+- Medium: Elevation Yellow (#ECC94B)
+- Medium-high: Warm Orange (#DD6B20)
+- Background/sky: Subtle gradient to Precise White (#F7FAFC)
+
+STYLE:
+- Clean technical illustration with terrain shading
+- Hillshade effect (light from upper left)
+- Contour lines at regular intervals
+- Mathematical precision meets landscape beauty
+
+TEXT ZONE:
+- Central {text_zone_width}px should be calm terrain
+- Avoid high-contrast elements in center
+
+LANDMARKS (optional): {landmarks}
+
+EXCLUDE: Photorealistic textures, dramatic atmosphere, creatures, dense labels",dimensions;basin_count,text_zone_width;landmarks,"Scientific illustration in Geometric-Cartographic Hybrid tradition. Morphospace terrain, 1280x640 aspect ratio. Elevated view (25 degrees). Multiple stability basins as valleys, ridge lines between. Central 640px is calm for text. Colors: Contours Slate (#1A202C), depths Terrain Blue (#2C5282), rises through Teal to Elevation Yellow (#ECC94B). Hillshade from upper left. Optional: small Tower of Mirado suggestion on distant ridge. EXCLUDE: photorealism, atmosphere, creatures, labels.",0,0.0,0.0,Primary banner template - ensure text zone clarity
+HEADER-SERIES,Series Header Template,header,Variable per series,Variable,"Course series header in {school_name} tradition for {series_name}.
+
+LAYOUT:
+- Dimensions: {dimensions}
+- Left zone ({left_width}px): {icon_description}
+- Center zone ({center_width}px): Title '{series_title}' with tagline '{tagline}'
+- Right zone ({right_width}px): {decorative_description}
+
+MATERIALS AND COLORS:
+- Primary: {primary_hex} ({primary_name})
+- Secondary: {secondary_hex} ({secondary_name})
+- Accent: {accent_hex} ({accent_name})
+- Background: {background_treatment}
+
+STYLE:
+- {style_notes}
+- Publication-quality rendering
+- Consistent with Densworld illustration traditions
+
+TYPOGRAPHY:
+- Title: Clean sans-serif, prominent
+- Tagline: Lighter weight, secondary
+
+CONSTRAINTS:
+- Icons must be readable at reduced sizes
+- Text zone must remain clear for overlay
+- Cohesive composition across three zones
+
+EXCLUDE: {exclusions}",school_name;series_name;dimensions;icon_description;series_title;decorative_description;primary_hex;secondary_hex,tagline;accent_hex;left_width;center_width;right_width;background_treatment;style_notes;exclusions,"Course series header in Notation-Cartographic Hybrid tradition for Philosophy Series. LAYOUT: 1200x300px. Left (200px): I-C-integral formula fragment. Center (800px): 'Philosophy Series' with 'ML Through Speculative Philosophy'. Right (200px): Basin terrain contours. COLORS: Primary Archive Blue (#2B6CB0), Secondary Elevation Yellow (#ECC94B), Accent Forest Green (#276749). White background. STYLE: Publication precision meets terrain exploration. Clean sans-serif title. EXCLUDE: decorative flourishes, photorealism.",0,0.0,0.0,Master template for all series headers - customize per series
+CREATURE-ORGANIC,Organic School Creature,illustration,Organic School,Yeller Quarry Field,"Scientific illustration in the Organic School tradition, rendered as if by a Yeller Quarry field naturalist.
+
+SUBJECT: {creature_name}
+- Depicted in {pose}
+- Key features visible: {features}
+
+MATERIALS AND COLORS:
+- Line work: Variable flowing lines using Toadpipe Bile ink
+- Paper: Quarry-sourced rough paper (#DEB887)
+- Primary color: {primary_hex} ({material_name})
+- Secondary color: {secondary_hex}
+- Accents: {accent_description}
+
+STYLE:
+- Living mathematics aesthetic
+- Flowing curves suggesting creature movement
+- Variable line weight emphasizes {emphasized_features}
+- Quick-sketch authenticity over polished finish
+
+NOTATION:
+- Species name in field script at lower left
+- Scale reference: {scale_reference}
+
+COMPOSITION:
+- {view_angle} view
+- Creature fills frame with breathing room
+- Background suggests habitat without overwhelming subject
+
+EXCLUDE: Dramatic lighting, photorealism, decorative borders, anatomical impossibilities",creature_name;features;primary_hex;material_name,pose;secondary_hex;accent_description;emphasized_features;scale_reference;view_angle,"Scientific illustration in Organic School tradition by Yeller Quarry field naturalist. SUBJECT: Wharver, three-quarter view. Features: globed lizard body, fin array, leathery sack form, glinting hook scales, hot belly. MATERIALS: Variable lines in Toadpipe Bile ink on Quarry paper (#DEB887). Primary: Wharver Scale Rust (#92400E). Secondary: Quarry Ochre (#B45309). Accents: hot belly glow suggestion. STYLE: Living mathematics, flowing curves, variable line weight on fins. NOTATION: 'Wharver specimen' in field script. Scale: 'forearm length'. EXCLUDE: dramatic lighting, photorealism, decoration.",0,0.0,0.0,Best for Quarry creatures with distinctive features
+CREATURE-GEOMETRIC,Geometric School Creature,illustration,Geometric School,Capital Archive Style,"Scientific illustration in the Geometric School tradition, rendered as if for Capital Archive taxonomic records.
+
+SUBJECT: {creature_name}
+- Depicted in precise {pose}
+- All taxonomically significant features visible: {features}
+
+MATERIALS AND COLORS:
+- Line work: Uniform weight iron gall ink (#1A202C)
+- Paper: Archive-standard white (#FFFFFF)
+- Primary color: {primary_hex}
+- Secondary color: {secondary_hex}
+- Limited palette for clarity
+
+STYLE:
+- Clarity above all
+- Precise anatomical rendering
+- Uniform line weight throughout
+- No shadows, flat even lighting
+- Orthographic projection preferred
+
+NOTATION:
+- Species name in Archive hand
+- Key features labeled with thin leader lines
+- Scale bar included
+- Catalog number: {catalog_id}
+
+COMPOSITION:
+- Side view (profile) preferred for taxonomy
+- Specimen isolated on white background
+- Generous margin for notation
+
+EXCLUDE: Artistic interpretation, dramatic poses, environmental context, gradients",creature_name;features;primary_hex;catalog_id,pose;secondary_hex,"Scientific illustration in Geometric School for Capital Archive. SUBJECT: Grimslew, precise side view. Features: fifty fins, twin tails, leathery sack body, hook scales with rust patina. MATERIALS: Uniform iron gall ink (#1A202C) on Archive white (#FFFFFF). Primary: Grimslew dark (#2A2A2A). Secondary: rust patina (#92400E). STYLE: Clarity above all, precise anatomy, uniform lines, flat lighting, orthographic. NOTATION: 'Grimslew' in Archive hand, features labeled, scale bar, catalog HV-001. EXCLUDE: artistic interpretation, drama, environment, gradients.",0,0.0,0.0,Best for dangerous/taxonomic specimens requiring precision
+DIAGRAM-BASIN,Basin Topology Diagram,diagram,Geometric-Cartographic Hybrid,RCP-048 to RCP-051,"Educational diagram in Geometric-Cartographic Hybrid style showing basin topology concepts.
+
+SUBJECT: {concept_name}
+- {basin_count} basins with clear boundaries
+- Gradient flow arrows showing trajectories
+- {special_features}
+
+MATERIALS AND COLORS:
+- Contour lines: Slate (#1A202C)
+- Basin floors (attractors): Terrain Blue (#2C5282)
+- Basin walls: Gradient through Teal (#319795) to Yellow (#ECC94B)
+- Ridges/saddles: Warm Orange (#DD6B20)
+- Flow arrows: {arrow_color}
+- Background: Precise White (#F7FAFC)
+
+STYLE:
+- Topographic map aesthetic
+- Mathematical precision
+- Clear hierarchy of visual elements
+- Educational clarity
+
+NOTATION:
+- Basin labels in clean sans-serif
+- Key mathematical points marked
+- Legend if multiple element types
+
+COMPOSITION:
+- Elevated view (30-45 degrees)
+- All basins visible
+- Flow patterns clear
+
+EXCLUDE: Photorealism, decorative elements, ambiguous boundaries",concept_name;basin_count,special_features;arrow_color,"Educational diagram in Geometric-Cartographic Hybrid showing stability basins. SUBJECT: Keth Basin Topology. Three basins with clear boundaries. Gradient flow arrows showing trajectories toward attractors. Saddle point between basins marked. COLORS: Contours Slate (#1A202C), basin floors Terrain Blue (#2C5282), walls gradient to Yellow (#ECC94B), ridges Orange (#DD6B20), arrows Forest Green (#276749). Background white. STYLE: Topographic precision, educational clarity. NOTATION: Basins labeled 'A' 'B' 'C', saddle point marked, legend for arrow types. Elevated view. EXCLUDE: photorealism, decoration, ambiguity.",0,0.0,0.0,Key template for optimization/stability visualizations
+DIAGRAM-NETWORK,Constellation Network Diagram,diagram,Organic-Notation Hybrid,RCP-052 to RCP-055,"Educational diagram in Organic-Notation Hybrid style showing network relationships.
+
+SUBJECT: {concept_name}
+- {node_count} nodes representing {node_type}
+- Edges showing {relationship_type}
+- {cluster_description}
+
+MATERIALS AND COLORS:
+- Nodes: Flow Green (#276749) with Connection Teal (#319795) borders
+- Positive edges: Forest Green (#276749) solid lines
+- Negative edges: Muted Red (#C53030) dashed lines
+- Labels: Label Black (#1A202C)
+- Background: Warm Gradient (#FEFCBF) subtle
+
+STYLE:
+- Organic layout (force-directed aesthetic)
+- Flowing curves for edges
+- Soft glow around node clusters
+- Breathing mathematics feel
+
+NOTATION:
+- Node labels in clean type
+- Edge weights if applicable
+- Cluster boundaries as soft regions
+
+COMPOSITION:
+- Clusters visually grouped
+- Negative relationships cross cluster boundaries
+- Central focus on key relationships
+
+EXCLUDE: Rigid grid layout, harsh angles, photorealism",concept_name;node_count;node_type;relationship_type,cluster_description,"Educational diagram in Organic-Notation Hybrid showing Tross Constellation Method. SUBJECT: Creature Affinity Network. 15 nodes representing Quarry creatures. Edges showing behavioral relationships (positive=cooperation, negative=predation). Three clusters: prey species, predators, symbionts. COLORS: Nodes Flow Green with Teal borders. Positive edges green solid. Negative edges red dashed. Labels black. Warm gradient background. STYLE: Organic force-directed layout, flowing edge curves, soft cluster glow. NOTATION: Creature names on nodes, edge thickness for strength. EXCLUDE: grid layout, harsh angles, photorealism.",0,0.0,0.0,Key template for relationship/network visualizations
+DIAGRAM-HIERARCHY,Hierarchy Diagram,diagram,Notation Scribes,RCP-017 to RCP-021,"Educational diagram in Notation Scribes style showing hierarchical structure.
+
+SUBJECT: {concept_name}
+- {level_count} levels in hierarchy
+- {level_descriptions}
+- Integration relationships between levels
+
+MATERIALS AND COLORS:
+- Primary structure: Black (#1A202C)
+- Defined terms: Blue (#2B6CB0)
+- Derived elements: Green (#276749)
+- Boundaries: Thin black lines
+- Background: White (#FFFFFF)
+
+STYLE:
+- Publication-quality precision
+- Clean nested boxes or brackets
+- Integrated mathematical notation
+- LaTeX-compatible aesthetic
+
+NOTATION:
+- Level labels in formal type
+- Mathematical relationships annotated
+- I-C-integral integration symbol if applicable
+
+COMPOSITION:
+- Top-down or left-right hierarchy
+- Clear parent-child relationships
+- Visual weight reflects importance
+
+EXCLUDE: Decorative elements, organic curves, gradients, ambiguity",concept_name;level_count;level_descriptions,"Educational diagram in Notation Scribes style showing TAME Hierarchy. SUBJECT: Anster's Hierarchy of Minds. Four levels: Traces (T), Agents (A), Minds (M), Environments (E). Each level contains and integrates the lower. COLORS: Structure black (#1A202C), defined terms blue (#2B6CB0), derived green (#276749), white background. STYLE: Publication precision, nested boxes, integrated I-C-integral notation. NOTATION: Level names, integration arrows, Anster's formula. Top-down hierarchy. EXCLUDE: decoration, organic curves, gradients.",0,0.0,0.0,Key template for categorical/hierarchical concepts

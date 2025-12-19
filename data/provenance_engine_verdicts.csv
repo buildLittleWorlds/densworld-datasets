@@ -1,0 +1,201 @@
+document_id,document_title,claimed_author,claimed_year,stylometric_score,vocabulary_match_score,era_marker_score,paper_analysis_score,ink_analysis_score,provenance_chain_score,engine_verdict,engine_confidence,human_expert_verdict,verdicts_match,later_overturned,mink_pavar_related
+DOC-0001,On Basin Topology,Vornis Keth,1848,94,96,91,88,87,95,authentic,0.94,authentic,True,False,False
+DOC-0002,The Resonance Calculus,Vornis Keth,1851,92,94,89,91,90,96,authentic,0.93,authentic,True,False,False
+DOC-0003,Topology as Prophecy,Vornis Keth,1855,89,91,86,84,82,94,authentic,0.88,authentic,True,False,False
+DOC-0004,Grigsu's Notebooks Entry 001,Grigsu Haldo,861,78,82,75,72,68,88,likely_authentic,0.76,authentic,True,False,False
+DOC-0005,Grigsu's Notebooks Entry 007,Grigsu Haldo,889,81,84,79,74,71,91,likely_authentic,0.79,authentic,True,False,False
+DOC-0006,Grigsu's Notebooks Entry 013,Grigsu Haldo,915,76,79,73,69,65,86,likely_authentic,0.73,authentic,True,False,False
+DOC-0007,Dannkit's Additions (Entry 014),Dannkit,924,72,76,68,66,62,79,disputed,0.61,likely_authentic,False,False,False
+DOC-0008,The Pattern Book,Pollus Brent,unknown,67,71,63,72,75,81,likely_authentic,0.69,authentic,True,False,False
+DOC-0009,Quarry Seasonal Calendar,Old Harnis,ongoing,58,62,51,91,89,76,likely_authentic,0.67,authentic,True,False,False
+DOC-0010,Proscribed Coordinates (Appendix D),Council of Cartographers,various,85,88,82,89,87,92,authentic,0.87,authentic,True,False,False
+DOC-0011,Yeller Protocols (Appendix C),Council of Cartographers,various,84,86,81,88,85,91,authentic,0.86,authentic,True,False,False
+DOC-0012,Form 17-B Template,Council of Cartographers,ongoing,79,83,76,94,92,88,authentic,0.84,authentic,True,False,False
+DOC-0013,MS-0001 (First Acquisition),Unknown,unknown,22,31,18,95,91,27,disputed,0.32,unknown,True,False,False
+DOC-0014,The Dens Principles,Prebel,895,91,93,88,86,84,94,authentic,0.91,authentic,True,False,False
+DOC-0015,The Breach Debate Transcript,Archive transcription,1857,88,91,85,92,90,96,authentic,0.91,authentic,True,False,False
+DOC-0016,On Attractor Dynamics,Vornis Keth,1853,93,95,90,87,85,94,authentic,0.92,authentic,True,False,False
+DOC-0017,Stability and Plasticity,Vornis Keth,1856,91,93,88,86,83,93,authentic,0.90,authentic,True,False,False
+DOC-0018,Tross on Boundaries,Pemlik Tross,1843,87,89,84,82,80,91,authentic,0.86,authentic,True,False,False
+DOC-0019,The Form Library Hypothesis,Erris Pol,1867,85,87,82,81,79,89,authentic,0.84,authentic,True,False,False
+DOC-0020,The Hierarchy of Minds,Pell Anster,1871,89,91,86,84,82,92,authentic,0.88,authentic,True,False,False
+DOC-0021,Federations of Mind,Tessyn Mord,1879,90,92,87,85,83,93,authentic,0.89,authentic,True,False,False
+DOC-0022,On the Persistence of Ghosts,Sareth Moll,1865,86,88,83,81,79,90,authentic,0.85,authentic,True,False,False
+DOC-0023,The Ingression Problem,Archon Vells,1884,88,90,85,83,81,92,authentic,0.87,authentic,True,False,False
+DOC-0024,Yeller Protocols Field Notes Bundle,Various surveyors,ongoing,61,65,54,78,76,72,likely_authentic,0.64,authentic,True,False,False
+DOC-0025,Provenance Engine Technical Report,Solta Venn,911,96,98,94,97,96,99,authentic,0.97,authentic,True,False,False
+DOC-0026,The Taxonomy of Failure,Kella Vorn,1889,87,89,84,82,80,91,authentic,0.86,authentic,True,False,False
+DOC-0027,Cognitive Horizons,Mira Strand,1877,88,90,85,83,81,92,authentic,0.87,authentic,True,False,False
+DOC-0028,The Substrate Question,Tessaly Vorn,1882,84,86,81,79,77,88,authentic,0.83,authentic,True,False,False
+DOC-0029,The Gatherer Experiments,Kellin Vost,1886,82,84,79,77,75,86,authentic,0.81,authentic,True,False,False
+DOC-0030,Observer Access and Polycomputing,Tobin Creel,1891,86,88,83,81,79,90,authentic,0.85,authentic,True,False,False
+DOC-0031,The Persistence of Form,Wender Koss,1875,83,85,80,78,76,87,authentic,0.82,authentic,True,False,False
+DOC-0032,Navigation Resonance Theory,Rellen Voss,1863,85,87,82,80,78,89,authentic,0.84,authentic,True,False,False
+DOC-0033,The Destination Paradox,Rellen Voss,1869,84,86,81,79,77,88,authentic,0.83,authentic,True,False,False
+DOC-0034,Journey Archetypes Manuscript,Lurra Venn,1847,81,83,78,76,74,85,authentic,0.80,authentic,True,False,False
+DOC-0035,Archive District Survey,Mara Yent,941,79,81,76,89,87,84,authentic,0.82,authentic,True,False,False
+DOC-0036,On Archive Licensing,Oric Valdun,893,88,90,85,86,84,93,authentic,0.88,authentic,True,False,False
+DOC-0037,Lineage Authentication Standards,Pella Valdun,924,90,92,87,91,89,95,authentic,0.91,authentic,True,False,False
+DOC-0038,MS-0156 Political Memorandum,Mink Pavar,889,42,38,35,67,71,52,forged,0.23,forged,True,False,True
+DOC-0039,MS-0157 Senate Resolution,Mink Pavar,892,45,41,37,69,72,55,forged,0.26,forged,True,False,True
+DOC-0040,MS-0158 Trade Agreement,Mink Pavar,895,48,44,39,71,73,58,forged,0.29,forged,True,False,True
+DOC-0041,MS-0159 Territorial Claim,Mink Pavar,898,51,47,42,73,75,61,disputed,0.34,forged,False,True,True
+DOC-0042,Historical Chronicle Fragment,Unknown,unknown,34,29,24,58,55,31,forged,0.19,unknown,False,False,False
+DOC-0043,Basin Observation Notes,Vornis Keth,1852,91,93,88,85,83,93,authentic,0.90,authentic,True,False,False
+DOC-0044,Early Constellation Sketches,Pemlik Tross,1839,78,81,74,71,68,82,likely_authentic,0.75,authentic,True,False,False
+DOC-0045,Form Library Index Cards,Erris Pol,1865,83,85,80,87,85,88,authentic,0.84,authentic,True,False,False
+DOC-0046,Ghost Decay Tables,Sareth Moll,1867,85,87,82,80,78,89,authentic,0.84,authentic,True,False,False
+DOC-0047,Federation Negotiation Records,Tessyn Mord,1881,87,89,84,82,80,91,authentic,0.86,authentic,True,False,False
+DOC-0048,Failure Case Appendix,Kella Vorn,1891,84,86,81,79,77,88,authentic,0.83,authentic,True,False,False
+DOC-0049,Horizon Measurement Protocol,Mira Strand,1879,86,88,83,81,79,90,authentic,0.85,authentic,True,False,False
+DOC-0050,Anonymous Political Treatise,Unknown,unknown,31,27,22,52,49,28,forged,0.17,forged,True,False,False
+DOC-0051,Yeller Sighting Report 001,Field Surveyor,872,68,72,63,74,71,77,likely_authentic,0.69,authentic,True,False,False
+DOC-0052,Yeller Sighting Report 047,Field Surveyor,889,71,75,66,77,74,80,likely_authentic,0.72,authentic,True,False,False
+DOC-0053,Creature Grammar Notes,Pollus Brent,unknown,72,76,67,69,66,78,likely_authentic,0.71,authentic,True,False,False
+DOC-0054,Quarry Safety Manual,Old Harnis,908,64,68,58,82,79,75,likely_authentic,0.69,authentic,True,False,False
+DOC-0055,Cartographic Standards Document,Council of Cartographers,891,86,88,83,88,86,92,authentic,0.87,authentic,True,False,False
+DOC-0056,MS-0082 Ancient Trade Routes,Unknown,unknown,38,33,28,61,58,35,disputed,0.24,unknown,True,False,False
+DOC-0057,Archon Vells Field Diary,Archon Vells,1882,84,86,81,78,76,87,authentic,0.83,authentic,True,False,False
+DOC-0058,Keth-Prebel Correspondence,Vornis Keth,1854,79,82,75,72,69,83,likely_authentic,0.77,authentic,True,False,False
+DOC-0059,Contested Treaty Copy,Mink Pavar,901,47,43,38,70,72,56,forged,0.27,forged,True,False,True
+DOC-0060,Historical Land Survey,Mink Pavar,904,52,48,43,74,76,62,disputed,0.36,disputed,True,False,True
+DOC-0061,Political Faction Memo,Unknown,unknown,29,24,19,48,45,25,forged,0.14,forged,True,False,False
+DOC-0062,Trade Guild Charter Fragment,Unknown,unknown,44,39,34,63,60,41,disputed,0.31,disputed,True,False,False
+DOC-0063,Navigation Primer Draft,Rellen Voss,1861,82,84,79,77,75,86,authentic,0.81,authentic,True,False,False
+DOC-0064,Ghost Classification System,Sareth Moll,1869,83,85,80,78,76,87,authentic,0.82,authentic,True,False,False
+DOC-0065,Mind Hierarchy Appendix,Pell Anster,1873,85,87,82,80,78,89,authentic,0.84,authentic,True,False,False
+DOC-0066,Substrate Theory Notes,Tessaly Vorn,1880,81,83,78,76,74,85,authentic,0.80,authentic,True,False,False
+DOC-0067,Gatherer Experiment Log A,Kellin Vost,1884,79,81,76,74,72,83,authentic,0.78,authentic,True,False,False
+DOC-0068,Gatherer Experiment Log B,Kellin Vost,1885,80,82,77,75,73,84,authentic,0.79,authentic,True,False,False
+DOC-0069,Polycomputing Framework Draft,Tobin Creel,1889,84,86,81,79,77,88,authentic,0.83,authentic,True,False,False
+DOC-0070,Form Persistence Studies,Wender Koss,1877,81,83,78,76,74,85,authentic,0.80,authentic,True,False,False
+DOC-0071,Archetypes Working Paper,Lurra Venn,1845,78,80,75,73,71,82,authentic,0.77,authentic,True,False,False
+DOC-0072,Mara Yent Investigation Notes,Mara Yent,945,76,78,73,86,84,81,authentic,0.79,authentic,True,False,False
+DOC-0073,Forgery Analysis Report,Mara Yent,947,81,83,78,88,86,85,authentic,0.83,authentic,True,False,False
+DOC-0074,MS-0160 Administrative Record,Mink Pavar,907,55,51,46,76,78,65,disputed,0.41,forged,False,True,True
+DOC-0075,MS-0161 Court Proceeding,Mink Pavar,909,58,54,49,78,80,68,disputed,0.44,disputed,True,False,True
+DOC-0076,MS-0162 Property Deed,Mink Pavar,911,49,45,40,71,73,59,forged,0.28,forged,True,False,True
+DOC-0077,Colonial Era Map Fragment,Unknown,unknown,41,36,31,59,56,38,disputed,0.27,unknown,True,False,False
+DOC-0078,Boundary Dispute Document,Unknown,unknown,36,31,26,54,51,33,forged,0.20,forged,True,False,False
+DOC-0079,Jackson Observation Report A,Field Observer,unknown,24,19,14,42,39,21,forged,0.11,unknown,False,True,False
+DOC-0080,Jackson Observation Report B,Field Observer,unknown,28,23,18,46,43,25,forged,0.14,unknown,False,True,False
+DOC-0081,Jackson Movement Log,Anonymous,unknown,21,16,11,38,35,18,forged,0.09,forged,False,True,False
+DOC-0082,Jackson Classification Attempt,Anonymous,unknown,26,21,16,44,41,23,forged,0.12,forged,False,True,False
+DOC-0083,Jackson Interview Transcript,Field Observer,unknown,32,27,22,49,46,29,disputed,0.18,disputed,False,True,False
+DOC-0084,Prebel Effect Study Notes,Anonymous Scholar,1847,74,77,70,68,65,79,likely_authentic,0.72,authentic,True,False,False
+DOC-0085,Stability-Plasticity Experiments,Vornis Keth,1857,88,90,85,83,81,92,authentic,0.87,authentic,True,False,False
+DOC-0086,Cognitive Horizon Measurements,Mira Strand,1875,84,86,81,79,77,88,authentic,0.83,authentic,True,False,False
+DOC-0087,Federation Trust Equations,Tessyn Mord,1883,86,88,83,81,79,90,authentic,0.85,authentic,True,False,False
+DOC-0088,Ingression Mechanics Proof,Archon Vells,1886,85,87,82,80,78,89,authentic,0.84,authentic,True,False,False
+DOC-0089,Pathology Case Studies,Kella Vorn,1887,83,85,80,78,76,87,authentic,0.82,authentic,True,False,False
+DOC-0090,Skeptics Group Report,Twenty-Ten Assessment Group,1852,77,79,74,82,80,83,authentic,0.79,authentic,True,False,False
+DOC-0091,Old Murch Commentary,Old Murch,1849,73,75,70,76,74,79,likely_authentic,0.74,authentic,True,False,False
+DOC-0092,Archive Accession Record 001,Archive Staff,899,92,94,89,95,93,97,authentic,0.94,authentic,True,False,False
+DOC-0093,Archive Accession Record 147,Archive Staff,912,94,96,91,96,94,98,authentic,0.95,authentic,True,False,False
+DOC-0094,Trader Journey Log Fragment,Bagbu,unknown,67,71,62,70,67,74,likely_authentic,0.68,authentic,True,False,False
+DOC-0095,Trade Route Assessment,Lurra Venn,1849,80,82,77,75,73,84,authentic,0.79,authentic,True,False,False
+DOC-0096,MS-0163 Inheritance Claim,Mink Pavar,913,46,42,37,69,71,54,forged,0.25,forged,True,False,True
+DOC-0097,MS-0164 Guild Appointment,Mink Pavar,915,50,46,41,72,74,60,disputed,0.33,forged,False,True,True
+DOC-0098,Historical Society Minutes,Various,ongoing,81,83,78,91,89,86,authentic,0.85,authentic,True,False,False
+DOC-0099,Boundary Commission Report,Council of Cartographers,907,87,89,84,87,85,92,authentic,0.87,authentic,True,False,False
+DOC-0100,Navigation Guild Charter,Navigation Guild,845,76,79,72,81,79,82,authentic,0.78,authentic,True,False,False
+DOC-0101,Creature Behavior Compendium,Pollus Brent,unknown,69,73,64,71,68,76,likely_authentic,0.70,authentic,True,False,False
+DOC-0102,Prime Day Observation Log,Pollus Brent,unknown,66,70,61,68,65,73,likely_authentic,0.67,authentic,True,False,False
+DOC-0103,Yeller Five-Count Theory,Grigsu Haldo,897,74,77,70,69,66,80,likely_authentic,0.73,authentic,True,False,False
+DOC-0104,Basin Bifurcation Analysis,Vornis Keth,1858,90,92,87,84,82,93,authentic,0.89,authentic,True,False,False
+DOC-0105,Tension Field Calculations,Pemlik Tross,1841,83,85,80,78,76,87,authentic,0.82,authentic,True,False,False
+DOC-0106,Morphospace Coordinate System,Erris Pol,1869,86,88,83,82,80,90,authentic,0.86,authentic,True,False,False
+DOC-0107,Ghost Half-Life Tables,Sareth Moll,1871,84,86,81,79,77,88,authentic,0.83,authentic,True,False,False
+DOC-0108,Mind Federation Protocols,Tessyn Mord,1877,85,87,82,80,78,89,authentic,0.84,authentic,True,False,False
+DOC-0109,Failure Domain Boundaries,Kella Vorn,1893,86,88,83,81,79,90,authentic,0.85,authentic,True,False,False
+DOC-0110,Horizon Vector Calculations,Mira Strand,1881,87,89,84,82,80,91,authentic,0.86,authentic,True,False,False
+DOC-0111,Gradient Descent Notes,Rellen Voss,1867,83,85,80,78,76,87,authentic,0.82,authentic,True,False,False
+DOC-0112,Substrate Independence Proof,Tessaly Vorn,1884,82,84,79,77,75,86,authentic,0.81,authentic,True,False,False
+DOC-0113,Synthetic Being Ethics Report,Kellin Vost,1888,80,82,77,75,73,84,authentic,0.79,authentic,True,False,False
+DOC-0114,Observer Dependence Theorem,Tobin Creel,1893,85,87,82,80,78,89,authentic,0.84,authentic,True,False,False
+DOC-0115,Pattern Memory Framework,Wender Koss,1879,82,84,79,77,75,86,authentic,0.81,authentic,True,False,False
+DOC-0116,Archetype Distribution Study,Lurra Venn,1851,81,83,78,76,74,85,authentic,0.80,authentic,True,False,False
+DOC-0117,MS-0165 Historical Narrative,Mink Pavar,916,44,40,35,67,69,51,forged,0.24,forged,True,False,True
+DOC-0118,Disputed Colonial Document A,Unknown,unknown,39,34,29,56,53,36,disputed,0.26,unknown,True,False,False
+DOC-0119,Disputed Colonial Document B,Unknown,unknown,42,37,32,60,57,39,disputed,0.29,unknown,True,False,False
+DOC-0120,Trade Agreement Forgery,Unknown,unknown,33,28,23,50,47,30,forged,0.18,forged,True,False,False
+DOC-0121,Grigsu's Lost Entry,Grigsu Haldo,unknown,47,43,38,51,48,44,disputed,0.31,disputed,True,False,False
+DOC-0122,Prebel Private Notes,Prebel,897,79,81,76,74,72,83,authentic,0.78,authentic,True,False,False
+DOC-0123,Cartographer Guild Constitution,Council of Cartographers,847,78,80,75,83,81,84,authentic,0.80,authentic,True,False,False
+DOC-0124,Dead River Expedition Report,Expedition Leader,unknown,71,74,66,73,70,78,likely_authentic,0.71,authentic,True,False,False
+DOC-0125,Vellmarsh Survey Document,Field Surveyor,891,74,77,70,76,73,80,likely_authentic,0.74,authentic,True,False,False
+DOC-0126,Mirado Script Translation Guide,Mirado Correspondent,unknown,69,72,64,77,74,75,likely_authentic,0.70,authentic,True,False,False
+DOC-0127,Senate Debate Transcript 001,Court Recorder,875,84,86,81,89,87,91,authentic,0.86,authentic,True,False,False
+DOC-0128,Senate Debate Transcript 047,Court Recorder,912,87,89,84,91,89,93,authentic,0.88,authentic,True,False,False
+DOC-0129,Legal Precedent Collection,Oric Valdun,921,86,88,83,84,82,90,authentic,0.86,authentic,True,False,False
+DOC-0130,Authentication Protocol Draft,Pella Valdun,919,88,90,85,89,87,93,authentic,0.88,authentic,True,False,False
+DOC-0131,Jackson Temporal Analysis,Anonymous,unknown,19,14,9,35,32,15,forged,0.07,forged,False,True,False
+DOC-0132,Jackson Pattern Study,Anonymous,unknown,23,18,13,40,37,20,forged,0.10,forged,False,True,False
+DOC-0133,Jackson Behavioral Matrix,Anonymous,unknown,27,22,17,45,42,24,forged,0.13,forged,False,True,False
+DOC-0134,Archive Expansion Proposal,Queever,934,89,91,86,93,91,95,authentic,0.91,authentic,True,False,False
+DOC-0135,Map Wing Renovation Plan,Keeper of Maps,928,85,87,82,90,88,91,authentic,0.87,authentic,True,False,False
+DOC-0136,Legal Division Restructure,Oric Valdun,931,84,86,81,85,83,89,authentic,0.85,authentic,True,False,False
+DOC-0137,History Division Annual Report,Mara Yent,943,82,84,79,87,85,86,authentic,0.84,authentic,True,False,False
+DOC-0138,Provenance Office Establishment,Solta Venn,908,91,93,88,94,92,96,authentic,0.92,authentic,True,False,False
+DOC-0139,Forgery Detection Methodology,Solta Venn,913,93,95,90,95,93,97,authentic,0.94,authentic,True,False,False
+DOC-0140,MS-0166 Land Title,Mink Pavar,914,43,39,34,66,68,50,forged,0.23,forged,True,False,True
+DOC-0141,MS-0167 Merchant License,Mink Pavar,916,41,37,32,64,66,48,forged,0.21,forged,True,False,True
+DOC-0142,Creature Taxonomy Revision,Archive Committee,925,86,88,83,88,86,92,authentic,0.87,authentic,True,False,False
+DOC-0143,Basin Observation Protocol,Vornis Keth,1859,89,91,86,83,81,92,authentic,0.88,authentic,True,False,False
+DOC-0144,Tension Graph Methodology,Pemlik Tross,1845,84,86,81,79,77,88,authentic,0.83,authentic,True,False,False
+DOC-0145,Form Emergence Criteria,Erris Pol,1871,85,87,82,80,78,89,authentic,0.84,authentic,True,False,False
+DOC-0146,Ghost Reactivation Events,Sareth Moll,1873,83,85,80,78,76,87,authentic,0.82,authentic,True,False,False
+DOC-0147,Federation Dissolution Cases,Tessyn Mord,1885,84,86,81,79,77,88,authentic,0.83,authentic,True,False,False
+DOC-0148,Boundary Failure Studies,Kella Vorn,1895,85,87,82,80,78,89,authentic,0.84,authentic,True,False,False
+DOC-0149,Care Folding Experiments,Mira Strand,1883,86,88,83,81,79,90,authentic,0.85,authentic,True,False,False
+DOC-0150,Step Size Selection Guide,Rellen Voss,1871,82,84,79,77,75,86,authentic,0.81,authentic,True,False,False
+DOC-0151,Signal Persistence Proof,Tessaly Vorn,1886,83,85,80,78,76,87,authentic,0.82,authentic,True,False,False
+DOC-0152,Synthetic Consciousness Notes,Kellin Vost,1889,79,81,76,74,72,83,authentic,0.78,authentic,True,False,False
+DOC-0153,Multi-Observer Calculations,Tobin Creel,1895,84,86,81,79,77,88,authentic,0.83,authentic,True,False,False
+DOC-0154,Intergenerational Pattern Study,Wender Koss,1881,81,83,78,76,74,85,authentic,0.80,authentic,True,False,False
+DOC-0155,Trader Classification Framework,Lurra Venn,1853,82,84,79,77,75,86,authentic,0.81,authentic,True,False,False
+DOC-0156,Historical Guild Records,Unknown,unknown,46,41,36,62,59,43,disputed,0.32,disputed,True,False,False
+DOC-0157,Ancient Boundary Agreement,Unknown,unknown,37,32,27,53,50,34,disputed,0.23,unknown,True,False,False
+DOC-0158,Pre-Archive Document Fragment,Unknown,unknown,28,23,18,44,41,26,forged,0.15,forged,True,False,False
+DOC-0159,Royal Proclamation Copy,Unknown,unknown,35,30,25,51,48,32,disputed,0.21,unknown,True,False,False
+DOC-0160,Trade Route Treaty,Unknown,unknown,40,35,30,57,54,37,disputed,0.27,disputed,True,False,False
+DOC-0161,Expedition Funding Request,Expedition Leader,899,76,78,73,81,79,82,authentic,0.78,authentic,True,False,False
+DOC-0162,Vellmarsh Land Claim,Local Authority,887,73,75,70,78,76,79,likely_authentic,0.75,authentic,True,False,False
+DOC-0163,Mirado Trade Agreement,Mirado Council,882,72,74,69,79,77,78,likely_authentic,0.74,authentic,True,False,False
+DOC-0164,Senate Resolution 234,Senate,901,88,90,85,91,89,94,authentic,0.89,authentic,True,False,False
+DOC-0165,Guild Merger Proposal,Trade Guilds,895,81,83,78,83,81,86,authentic,0.82,authentic,True,False,False
+DOC-0166,Archive-Guild Agreement,Joint Committee,903,85,87,82,87,85,91,authentic,0.86,authentic,True,False,False
+DOC-0167,Creature Observation Standards,Pollus Brent,unknown,71,74,66,72,69,77,likely_authentic,0.71,authentic,True,False,False
+DOC-0168,Prime Cycle Documentation,Pollus Brent,unknown,68,71,63,69,66,74,likely_authentic,0.68,authentic,True,False,False
+DOC-0169,Five-Count Field Guide,Grigsu Haldo,901,72,75,68,70,67,78,likely_authentic,0.71,authentic,True,False,False
+DOC-0170,Yeller Behavior Summary,Field Surveyors,913,67,70,62,74,71,75,likely_authentic,0.68,authentic,True,False,False
+DOC-0171,MS-0168 Historical Claim,Mink Pavar,912,48,44,39,70,72,57,forged,0.27,forged,True,False,True
+DOC-0172,MS-0169 Administrative Ruling,Mink Pavar,908,53,49,44,75,77,63,disputed,0.38,forged,False,True,True
+DOC-0173,Forgery Investigation Summary,Forgery Investigator,948,84,86,81,91,89,88,authentic,0.86,authentic,True,False,False
+DOC-0174,Pavar Document Analysis,Forgery Investigator,949,86,88,83,92,90,89,authentic,0.88,authentic,True,False,False
+DOC-0175,Authentication Standards Update,Pella Valdun,935,89,91,86,92,90,94,authentic,0.90,authentic,True,False,False
+DOC-0176,Engine Accuracy Assessment,Solta Venn,941,94,96,91,96,94,98,authentic,0.95,authentic,True,False,False
+DOC-0177,False Positive Analysis,Solta Venn,943,92,94,89,95,93,97,authentic,0.93,authentic,True,False,False
+DOC-0178,Disputed Document Registry,Provenance Office,946,91,93,88,94,92,96,authentic,0.92,authentic,True,False,False
+DOC-0179,Mink Pavar Complete Inventory,Forgery Investigator,950,85,87,82,90,88,88,authentic,0.86,authentic,True,False,True
+DOC-0180,Authenticity Criteria Revision,Archive Committee,948,88,90,85,91,89,93,authentic,0.89,authentic,True,False,False
+DOC-0181,Jackson Documentation Protocol,Provenance Office,unknown,31,26,21,47,44,28,disputed,0.19,unknown,False,True,False
+DOC-0182,Jackson Observation Guidelines,Anonymous,unknown,25,20,15,41,38,22,forged,0.11,forged,False,True,False
+DOC-0183,Jackson Verification Attempt,Solta Venn,unknown,78,81,74,89,87,83,likely_authentic,0.80,authentic,True,False,False
+DOC-0184,Reflexive Subject Protocol,Provenance Office,947,83,85,80,90,88,87,authentic,0.85,authentic,True,False,False
+DOC-0185,Engine Limitation Report,Solta Venn,945,90,92,87,94,92,95,authentic,0.91,authentic,True,False,False
+DOC-0186,Unclassifiable Document Study,Archive Committee,949,82,84,79,88,86,85,authentic,0.84,authentic,True,False,False
+DOC-0187,Verification Uncertainty Analysis,Solta Venn,947,91,93,88,95,93,96,authentic,0.92,authentic,True,False,False
+DOC-0188,Historical Method Critique,Mara Yent,944,79,81,76,86,84,83,authentic,0.81,authentic,True,False,False
+DOC-0189,Pavar Forgery Timeline,Forgery Investigator,951,84,86,81,91,89,87,authentic,0.86,authentic,True,False,True
+DOC-0190,Authentication Error Log,Provenance Office,950,89,91,86,93,91,94,authentic,0.90,authentic,True,False,False
+DOC-0191,MS-0170 Final Pavar Document,Mink Pavar,917,45,41,36,68,70,53,forged,0.24,forged,True,False,True
+DOC-0192,Cross-Reference Validation,Solta Venn,949,93,95,90,96,94,97,authentic,0.94,authentic,True,False,False
+DOC-0193,Temporal Consistency Check,Provenance Office,951,90,92,87,94,92,95,authentic,0.91,authentic,True,False,False
+DOC-0194,Paper Dating Protocol,Provenance Office,939,87,89,84,96,94,92,authentic,0.91,authentic,True,False,False
+DOC-0195,Ink Analysis Standards,Provenance Office,942,88,90,85,97,95,93,authentic,0.92,authentic,True,False,False
+DOC-0196,Stylometric Baseline Data,Solta Venn,936,92,94,89,93,91,96,authentic,0.93,authentic,True,False,False
+DOC-0197,Vocabulary Dating Reference,Solta Venn,938,91,93,88,92,90,95,authentic,0.92,authentic,True,False,False
+DOC-0198,Era Marker Identification Guide,Solta Venn,940,90,92,87,91,89,94,authentic,0.91,authentic,True,False,False
+DOC-0199,Provenance Chain Standards,Pella Valdun,937,89,91,86,93,91,95,authentic,0.90,authentic,True,False,False
+DOC-0200,Engine Calibration Report,Solta Venn,952,95,97,92,97,95,99,authentic,0.96,authentic,True,False,False

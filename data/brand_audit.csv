@@ -1,0 +1,21 @@
+audit_id,asset_location,asset_type,current_style,content_description,densworld_school_match,consistency_score,priority_rank,remediation_notes,status
+BA-001,courses/philosophy-series/01-form-library/README.md,header,Text-only no image,Form Library course introduction,None,0,1,Add Notation-Cartographic header with morphospace terrain,audited
+BA-002,courses/philosophy-series/02-hierarchy-of-minds/README.md,header,Text-only no image,TAME hierarchy course introduction,None,0,1,Add Notation-style header with hierarchy visualization,audited
+BA-003,courses/philosophy-series/03-boundary-dynamics/README.md,header,Text-only no image,Boundary dynamics course introduction,None,0,1,Add Cartographic-style header with constellation elements,audited
+BA-004,courses/philosophy-series/04-attractor-navigation/README.md,header,Text-only no image,Navigation and optimization course introduction,None,0,1,Add Cartographic-style header with basin contours,audited
+BA-005,courses/philosophy-series/05-ghost-persistence/README.md,header,Text-only no image,Memory and attention course introduction,None,0,1,Add Organic-Notation header with decay curves,audited
+BA-006,courses/philosophy-series/06-modular-agency/README.md,header,Text-only no image,Multi-agent systems course introduction,None,0,1,Add Notation-style header with federation diagram,audited
+BA-007,courses/philosophy-series/07-ingression-mechanics/README.md,header,Text-only no image,Generative models course introduction,None,0,1,Add Organic-style header with ingression visualization,audited
+BA-008,courses/philosophy-series/08-pathology-and-failure/README.md,header,Text-only no image,Anomaly detection course introduction,None,0,1,Add Geometric-style header with failure taxonomy,audited
+BA-009,courses/spatial-series/01-surveyors-art/STUDENT_GUIDE.md,header,Text-only no image,Surveyor methodology introduction,None,0,1,Add Cartographic Guild style header,audited
+BA-010,courses/spatial-series/02-cartographers-dilemma/STUDENT_GUIDE.md,header,Text-only no image,Mapping challenges introduction,None,0,1,Add Cartographic Guild style header with Three-Compassed rose,audited
+BA-011,courses/compilers-eye/01-visual-specification/README.md,header,Text-only no image,Visual specification introduction,None,0,1,Add Trove Specification style header,audited
+BA-012,courses/standalone/yeller-quarry-data-science/README.md,header,Text-only no image,Quarry data science introduction,None,0,2,Add Yeller Quarry Field style header,audited
+BA-013,courses/standalone/capital-archives-nlp/README.md,header,Text-only no image,NLP course introduction,None,0,2,Add Capital Archive style header,audited
+BA-014,courses/huggingface-series/01-archivist-inference-engine/README.md,header,Text-only no image,HuggingFace inference introduction,None,0,2,Add Commercial-Notation hybrid header,audited
+BA-015,courses/puzzle-series/01-codes-puzzles-pattern-recognition/README.md,header,Text-only no image,Pattern recognition introduction,None,0,2,Add Geometric style header with CSQ elements,audited
+BA-016,courses/masters/masters-cartographers-eye/README.md,header,Text-only no image,Masters program introduction,None,0,2,Add Geometric-Notation formal header,audited
+BA-017,courses/access-architectures-series/01-oracles-gate/README.md,header,Text-only no image,Access architecture introduction,None,0,2,Add Cartographic-Commercial hybrid header,audited
+BA-018,buildLittleWorlds GitHub profile,avatar,None exists,Organization avatar,None,0,1,Create Basin Topology icon avatar,audited
+BA-019,buildLittleWorlds GitHub profile,banner,None exists,Repository social preview,None,0,1,Create Morphospace Terrain banner,audited
+BA-020,densworld-courses README.md,header,Text-only no image,Main repository introduction,None,0,1,Add primary brand header matching GitHub banner,audited

@@ -1,0 +1,151 @@
+debate_id,year,topic,school_a,school_b,judge_stone_affiliation,judge_water_affiliation,judge_pebble_affiliation,argument_complexity_a,argument_complexity_b,evidence_citations_a,evidence_citations_b,rhetorical_score_a,rhetorical_score_b,outcome,margin,linearly_separable
+DEB-0001,904,Classification Failure Types,Stone_School,Water_School,0.75,0.62,0.91,79,68,71,50,41,71,a_wins,4.9,False
+DEB-0002,878,Word Persistence Theory,Stone_School,Pebble_School,0.6,0.72,0.86,75,72,74,70,41,68,b_wins,5.4,False
+DEB-0003,885,Federation Theory Applications,Water_School,Pebble_School,0.91,0.84,0.75,68,79,56,69,85,62,draw,2.8,False
+DEB-0004,874,Cognitive Horizon Measurement,Water_School,Stone_School,0.72,0.85,0.75,57,73,73,73,89,54,draw,3.0,False
+DEB-0005,884,Form Library Existence,Pebble_School,Stone_School,0.84,0.79,0.69,77,67,73,76,67,45,a_wins,7.7,False
+DEB-0006,889,Expedition Risk Assessment,Pebble_School,Water_School,0.6,0.7,0.93,73,57,64,74,61,90,b_wins,3.2,False
+DEB-0007,880,Yeller Categorization,Stone_School,Water_School,0.72,0.93,0.8,64,67,85,53,50,72,a_wins,3.5,False
+DEB-0008,900,Memory Theory Foundations,Stone_School,Pebble_School,0.93,0.65,0.88,65,72,80,68,57,66,draw,0.6,False
+DEB-0009,890,Guild Jurisdiction Limits,Water_School,Pebble_School,1.0,0.93,0.75,71,68,59,64,85,62,a_wins,6.1,False
+DEB-0010,880,Creature Behavior Models,Water_School,Stone_School,0.72,0.65,0.68,66,84,71,78,75,42,draw,1.7,False
+DEB-0011,876,Navigation Methods,Pebble_School,Stone_School,0.66,0.65,0.61,66,64,79,76,62,60,draw,2.1,True
+DEB-0012,874,Memory Theory Foundations,Pebble_School,Water_School,0.92,0.74,0.69,66,77,62,64,65,89,b_wins,11.4,True
+DEB-0013,889,Form Library Existence,Stone_School,Water_School,0.96,0.9,0.79,62,61,84,69,59,72,draw,2.7,False
+DEB-0014,886,Basin Topology Validity,Stone_School,Pebble_School,0.65,0.9,0.95,68,67,89,65,55,64,a_wins,5.0,False
+DEB-0015,896,Document Provenance,Water_School,Pebble_School,0.94,0.99,0.66,74,77,56,76,78,67,b_wins,3.8,False
+DEB-0016,875,Yeller Categorization,Water_School,Stone_School,0.86,0.72,0.82,79,61,52,85,75,45,draw,2.4,False
+DEB-0017,885,Memory Theory Foundations,Pebble_School,Stone_School,0.63,0.84,0.78,71,71,72,86,61,59,b_wins,3.6,False
+DEB-0018,877,Map Accuracy Standards,Pebble_School,Water_School,0.88,0.75,0.7,69,63,75,62,55,88,draw,1.6,False
+DEB-0019,899,Ghost Persistence Mechanisms,Stone_School,Water_School,0.62,0.88,0.97,76,76,78,60,52,79,draw,1.8,False
+DEB-0020,876,Creature Classification Boundaries,Stone_School,Pebble_School,0.9,0.71,0.78,62,72,89,70,41,51,draw,0.8,False
+DEB-0021,871,Predictive Cartography,Water_School,Pebble_School,0.72,0.76,0.63,67,73,63,77,79,63,draw,2.6,False
+DEB-0022,893,Creature Behavior Models,Water_School,Stone_School,0.99,1.0,0.86,74,67,55,85,84,57,draw,0.9,False
+DEB-0023,872,Navigation Methods,Pebble_School,Stone_School,0.8,0.79,0.9,79,70,74,83,70,42,a_wins,7.9,False
+DEB-0024,887,Ghost Persistence Mechanisms,Pebble_School,Water_School,0.78,0.73,0.62,73,75,71,70,65,75,b_wins,3.5,False
+DEB-0025,881,Archive Authentication Methods,Stone_School,Water_School,0.65,0.71,0.92,79,67,85,53,55,70,a_wins,11.9,False
+DEB-0026,901,Federation Theory Applications,Stone_School,Pebble_School,0.79,0.78,0.68,83,74,75,61,54,52,a_wins,9.5,True
+DEB-0027,883,Archive Authentication Methods,Water_School,Pebble_School,0.87,0.94,0.97,61,67,59,60,88,69,draw,1.8,False
+DEB-0028,900,Reflexive Subject Problem,Water_School,Stone_School,0.61,0.9,0.9,68,72,68,74,89,55,a_wins,6.2,False
+DEB-0029,880,Classification Failure Types,Pebble_School,Stone_School,0.81,0.94,0.92,65,85,78,82,62,63,b_wins,9.1,True
+DEB-0030,874,Word Persistence Theory,Pebble_School,Water_School,0.67,0.63,0.65,69,80,73,61,60,71,draw,2.8,False
+DEB-0031,901,Expedition Risk Assessment,Stone_School,Water_School,0.71,0.66,0.84,63,58,87,53,55,66,a_wins,11.4,False
+DEB-0032,878,Basin Topology Validity,Stone_School,Pebble_School,0.72,0.78,0.65,74,68,86,67,63,54,a_wins,11.7,True
+DEB-0033,896,Map Accuracy Standards,Water_School,Pebble_School,0.62,0.88,0.75,57,75,57,75,80,62,b_wins,8.3,False
+DEB-0034,884,Word Persistence Theory,Water_School,Stone_School,0.99,0.87,0.98,74,74,59,88,69,52,b_wins,6.5,False
+DEB-0035,902,Navigation Methods,Pebble_School,Stone_School,0.84,0.63,0.68,76,79,63,84,67,43,b_wins,3.3,False
+DEB-0036,871,Expedition Risk Assessment,Pebble_School,Water_School,0.87,0.98,0.72,76,76,69,65,54,85,b_wins,7.7,False
+DEB-0037,888,Guild Jurisdiction Limits,Stone_School,Water_School,0.64,0.64,0.62,62,77,85,72,60,86,b_wins,7.9,False
+DEB-0038,896,Word Persistence Theory,Stone_School,Pebble_School,0.9,0.95,0.63,61,66,79,77,50,70,b_wins,4.9,False
+DEB-0039,889,Navigation Methods,Water_School,Pebble_School,0.7,0.74,0.97,66,74,60,74,67,61,b_wins,7.7,False
+DEB-0040,899,Guild Jurisdiction Limits,Water_School,Stone_School,0.74,0.65,0.77,57,63,57,89,73,62,b_wins,11.3,False
+DEB-0041,881,Predictive Cartography,Pebble_School,Stone_School,0.91,0.9,0.67,72,62,75,78,61,59,draw,2.2,False
+DEB-0042,877,Expedition Risk Assessment,Pebble_School,Water_School,0.68,0.84,0.62,69,55,78,62,58,66,a_wins,8.1,False
+DEB-0043,879,Memory Theory Foundations,Stone_School,Water_School,0.78,0.8,0.63,68,73,74,65,59,84,b_wins,5.2,False
+DEB-0044,895,Classification Failure Types,Stone_School,Pebble_School,0.77,0.73,0.75,65,66,78,71,47,56,draw,0.1,False
+DEB-0045,898,Archive Authentication Methods,Water_School,Pebble_School,0.7,0.81,0.93,70,68,66,64,84,67,a_wins,5.1,True
+DEB-0046,880,Predictive Cartography,Water_School,Stone_School,0.86,0.72,0.8,62,84,70,73,69,60,b_wins,8.3,False
+DEB-0047,891,Federation Theory Applications,Pebble_School,Stone_School,0.77,0.82,0.9,68,83,60,80,63,61,b_wins,11.9,False
+DEB-0048,893,Ghost Persistence Mechanisms,Pebble_School,Water_School,0.76,0.94,0.9,65,74,75,62,56,76,b_wins,4.2,False
+DEB-0049,874,Predictive Cartography,Stone_School,Water_School,0.82,0.64,0.67,65,60,84,52,51,81,a_wins,6.6,False
+DEB-0050,896,Word Persistence Theory,Stone_School,Pebble_School,0.89,0.92,0.86,80,77,71,76,55,51,draw,0.6,False
+DEB-0051,874,Cognitive Horizon Measurement,Water_School,Pebble_School,0.86,0.89,0.97,58,77,56,60,69,51,b_wins,4.9,False
+DEB-0052,887,Form Library Existence,Water_School,Stone_School,0.85,0.85,0.69,62,80,51,81,90,50,b_wins,7.7,False
+DEB-0053,892,Basin Topology Validity,Pebble_School,Stone_School,0.75,0.72,0.74,75,75,60,87,52,41,b_wins,6.7,False
+DEB-0054,879,Archive Authentication Methods,Pebble_School,Water_School,0.78,0.79,0.82,70,63,77,70,58,86,draw,1.6,False
+DEB-0055,883,Memory Theory Foundations,Stone_School,Water_School,0.69,0.74,0.66,66,79,71,59,51,66,b_wins,5.0,False
+DEB-0056,899,Expedition Risk Assessment,Stone_School,Pebble_School,0.93,0.91,0.7,74,70,88,69,53,56,a_wins,8.7,False
+DEB-0057,893,Yeller Categorization,Water_School,Pebble_School,0.79,0.71,0.67,70,74,63,76,68,63,b_wins,4.7,False
+DEB-0058,898,Creature Behavior Models,Water_School,Stone_School,0.84,0.99,0.96,60,78,73,87,81,60,b_wins,6.1,False
+DEB-0059,904,Trade Route Standards,Pebble_School,Stone_School,0.98,0.66,0.62,76,85,62,79,57,43,b_wins,7.9,False
+DEB-0060,870,Creature Behavior Models,Pebble_School,Water_School,0.93,0.67,0.97,77,74,66,50,69,82,a_wins,5.0,False
+DEB-0061,893,Creature Classification Boundaries,Stone_School,Water_School,0.86,0.96,0.7,77,70,80,57,64,78,a_wins,6.8,False
+DEB-0062,884,Reflexive Subject Problem,Stone_School,Pebble_School,0.9,0.89,0.95,82,70,89,71,45,63,a_wins,6.4,False
+DEB-0063,888,Archive Authentication Methods,Water_School,Pebble_School,0.93,0.61,0.98,76,66,55,64,77,53,a_wins,5.0,False
+DEB-0064,881,Document Provenance,Water_School,Stone_School,0.88,0.67,0.99,78,64,73,83,82,45,a_wins,10.3,False
+DEB-0065,882,Navigation Methods,Pebble_School,Stone_School,0.68,0.69,0.92,65,82,70,85,59,49,b_wins,8.3,False
+DEB-0066,894,Classification Failure Types,Pebble_School,Water_School,0.84,0.93,0.82,69,59,66,60,59,67,a_wins,3.6,False
+DEB-0067,881,Predictive Cartography,Stone_School,Water_School,0.76,0.67,0.99,66,70,82,50,50,68,a_wins,5.6,False
+DEB-0068,900,Form Library Existence,Stone_School,Pebble_School,0.73,0.86,0.99,75,71,73,63,50,52,a_wins,3.3,False
+DEB-0069,895,Federation Theory Applications,Water_School,Pebble_School,0.7,0.87,0.84,57,66,63,70,68,51,draw,1.6,False
+DEB-0070,873,Map Accuracy Standards,Water_School,Stone_School,0.79,0.86,0.81,66,78,59,72,67,56,b_wins,6.3,False
+DEB-0071,902,Map Accuracy Standards,Pebble_School,Stone_School,0.81,0.67,0.84,76,60,72,79,60,61,a_wins,3.9,False
+DEB-0072,876,Guild Jurisdiction Limits,Pebble_School,Water_School,0.84,0.65,0.6,70,62,68,51,53,84,draw,1.2,False
+DEB-0073,882,Ghost Persistence Mechanisms,Stone_School,Water_School,0.76,0.82,0.82,67,62,89,72,60,73,a_wins,4.4,False
+DEB-0074,875,Map Accuracy Standards,Stone_School,Pebble_School,0.88,0.89,0.6,74,80,89,78,54,68,draw,0.7,False
+DEB-0075,894,Ghost Persistence Mechanisms,Water_School,Pebble_School,0.85,0.85,0.94,57,75,59,79,72,61,b_wins,11.9,False
+DEB-0076,873,Guild Jurisdiction Limits,Water_School,Stone_School,0.76,0.91,0.65,55,83,65,90,85,55,b_wins,11.7,False
+DEB-0077,892,Creature Behavior Models,Pebble_School,Stone_School,0.95,0.84,0.83,80,73,78,83,68,56,a_wins,3.5,False
+DEB-0078,888,Memory Theory Foundations,Pebble_School,Water_School,0.63,0.92,0.7,70,70,76,75,62,71,draw,3.0,False
+DEB-0079,893,Navigation Methods,Stone_School,Water_School,0.94,0.69,0.91,85,67,88,64,49,90,a_wins,6.6,False
+DEB-0080,872,Guild Jurisdiction Limits,Stone_School,Pebble_School,0.97,0.94,0.76,82,79,80,65,43,63,draw,2.5,False
+DEB-0081,903,Ghost Persistence Mechanisms,Water_School,Pebble_School,0.67,0.63,0.66,64,71,57,77,66,67,b_wins,10.2,True
+DEB-0082,890,Classification Failure Types,Water_School,Stone_School,0.85,0.66,0.94,66,63,56,87,77,56,b_wins,5.3,False
+DEB-0083,888,Basin Topology Validity,Pebble_School,Stone_School,0.74,0.75,0.64,79,69,77,86,68,44,a_wins,6.4,False
+DEB-0084,872,Guild Jurisdiction Limits,Pebble_School,Water_School,0.98,0.67,0.92,79,62,64,68,66,90,draw,0.7,False
+DEB-0085,889,Federation Theory Applications,Stone_School,Water_School,0.65,0.74,0.87,79,61,70,58,43,71,a_wins,4.0,False
+DEB-0086,871,Creature Behavior Models,Stone_School,Pebble_School,0.96,0.7,0.61,60,70,88,64,47,57,a_wins,3.6,False
+DEB-0087,897,Navigation Methods,Water_School,Pebble_School,0.65,0.66,0.85,71,75,53,79,69,53,b_wins,7.6,False
+DEB-0088,900,Form Library Existence,Water_School,Stone_School,0.87,0.67,0.72,73,70,56,73,90,54,a_wins,3.2,False
+DEB-0089,890,Word Persistence Theory,Pebble_School,Stone_School,0.68,0.7,0.95,78,75,69,78,58,55,draw,0.2,False
+DEB-0090,901,Memory Theory Foundations,Pebble_School,Water_School,0.85,0.93,0.89,72,67,63,65,55,90,b_wins,7.7,False
+DEB-0091,891,Cognitive Horizon Measurement,Stone_School,Water_School,0.72,0.61,0.78,63,58,84,67,41,68,draw,1.7,False
+DEB-0092,901,Document Provenance,Stone_School,Pebble_School,0.91,0.96,0.64,71,80,78,61,64,56,a_wins,5.7,False
+DEB-0093,874,Guild Jurisdiction Limits,Water_School,Pebble_School,0.8,0.97,0.68,67,78,72,72,69,51,draw,1.5,False
+DEB-0094,871,Yeller Categorization,Water_School,Stone_School,0.76,0.76,0.75,73,75,68,84,65,41,draw,0.4,False
+DEB-0095,875,Cognitive Horizon Measurement,Pebble_School,Stone_School,0.95,0.73,0.93,73,71,77,77,62,65,draw,0.1,False
+DEB-0096,890,Guild Jurisdiction Limits,Pebble_School,Water_School,0.83,0.81,0.82,79,57,64,54,52,82,a_wins,4.8,False
+DEB-0097,905,Basin Topology Validity,Stone_School,Water_School,0.65,0.99,0.9,73,56,70,52,44,71,a_wins,4.7,False
+DEB-0098,889,Reflexive Subject Problem,Stone_School,Pebble_School,0.74,0.87,0.84,85,65,72,70,51,56,a_wins,6.9,False
+DEB-0099,874,Cognitive Horizon Measurement,Water_School,Pebble_School,0.77,0.9,0.67,64,78,63,75,79,65,b_wins,5.1,False
+DEB-0100,873,Yeller Categorization,Water_School,Stone_School,0.98,0.83,0.71,75,78,57,89,70,47,b_wins,7.4,False
+DEB-0101,877,Trade Route Standards,Pebble_School,Stone_School,0.6,0.68,0.69,73,73,73,86,65,56,draw,1.9,False
+DEB-0102,888,Federation Theory Applications,Pebble_School,Water_School,0.75,0.64,0.84,77,56,62,66,62,77,a_wins,4.2,False
+DEB-0103,872,Basin Topology Validity,Stone_School,Water_School,0.93,0.84,0.87,69,75,75,58,42,69,draw,2.8,False
+DEB-0104,896,Word Persistence Theory,Stone_School,Pebble_School,0.82,0.8,0.93,70,76,72,73,50,56,b_wins,4.8,True
+DEB-0105,885,Expedition Risk Assessment,Water_School,Pebble_School,0.83,0.8,0.98,64,67,61,73,83,67,draw,2.3,False
+DEB-0106,905,Map Accuracy Standards,Water_School,Stone_School,0.64,0.97,0.91,60,60,72,79,81,65,a_wins,3.2,False
+DEB-0107,879,Creature Classification Boundaries,Pebble_School,Stone_School,0.83,0.95,0.65,66,81,71,82,52,59,b_wins,12.5,True
+DEB-0108,891,Word Persistence Theory,Pebble_School,Water_School,0.65,0.76,0.89,74,76,71,51,59,86,draw,0.1,False
+DEB-0109,893,Creature Behavior Models,Stone_School,Water_School,0.98,0.66,1.0,64,79,90,71,54,85,b_wins,5.5,False
+DEB-0110,881,Form Library Existence,Stone_School,Pebble_School,0.6,0.81,0.82,64,69,80,66,59,67,draw,0.2,False
+DEB-0111,885,Basin Topology Validity,Water_School,Pebble_School,0.68,0.82,0.95,70,69,61,61,75,54,a_wins,5.0,False
+DEB-0112,897,Creature Behavior Models,Water_School,Stone_School,0.86,0.94,0.6,62,65,53,89,70,49,b_wins,8.1,False
+DEB-0113,875,Reflexive Subject Problem,Pebble_School,Stone_School,0.6,0.79,0.75,70,67,78,71,70,63,a_wins,6.1,True
+DEB-0114,880,Ghost Persistence Mechanisms,Pebble_School,Water_School,0.72,0.91,0.77,76,70,64,69,68,77,draw,2.3,False
+DEB-0115,876,Memory Theory Foundations,Stone_School,Water_School,0.95,0.87,0.8,77,77,78,53,63,83,a_wins,4.2,False
+DEB-0116,901,Word Persistence Theory,Stone_School,Pebble_School,0.74,0.83,0.82,69,65,83,73,43,59,draw,0.7,False
+DEB-0117,893,Memory Theory Foundations,Water_School,Pebble_School,0.92,0.74,0.7,76,73,69,69,70,58,a_wins,4.4,False
+DEB-0118,884,Archive Authentication Methods,Water_School,Stone_School,1.0,0.68,0.79,57,85,63,86,66,51,b_wins,17.1,False
+DEB-0119,897,Expedition Risk Assessment,Pebble_School,Stone_School,0.7,0.82,0.64,79,82,62,86,63,62,b_wins,9.7,False
+DEB-0120,901,Archive Authentication Methods,Pebble_School,Water_School,0.97,0.75,0.93,78,56,67,69,65,90,draw,2.7,False
+DEB-0121,878,Creature Behavior Models,Stone_School,Water_School,0.72,0.65,0.81,82,58,76,61,52,84,a_wins,7.2,False
+DEB-0122,883,Yeller Categorization,Stone_School,Pebble_School,0.83,0.81,0.64,70,79,84,68,49,64,draw,0.8,False
+DEB-0123,882,Ghost Persistence Mechanisms,Water_School,Pebble_School,0.67,0.77,0.72,57,74,74,63,68,58,draw,0.2,False
+DEB-0124,905,Cognitive Horizon Measurement,Water_School,Stone_School,0.72,0.64,0.99,79,68,55,81,79,56,draw,0.6,False
+DEB-0125,902,Yeller Categorization,Pebble_School,Stone_School,0.67,0.72,0.72,66,63,66,82,52,62,b_wins,6.7,False
+DEB-0126,903,Reflexive Subject Problem,Pebble_School,Water_School,0.66,0.64,0.64,78,66,77,57,65,82,a_wins,7.6,False
+DEB-0127,904,Archive Authentication Methods,Stone_School,Water_School,0.72,0.68,0.75,81,64,77,69,48,86,draw,0.3,False
+DEB-0128,872,Federation Theory Applications,Stone_School,Pebble_School,0.63,0.96,0.6,80,71,85,61,62,67,a_wins,10.9,False
+DEB-0129,875,Creature Classification Boundaries,Water_School,Pebble_School,0.86,0.72,0.91,67,77,62,74,73,64,b_wins,6.9,False
+DEB-0130,905,Yeller Categorization,Water_School,Stone_School,0.68,0.76,0.84,79,84,72,90,69,47,draw,2.4,False
+DEB-0131,891,Yeller Categorization,Pebble_School,Stone_School,0.73,0.84,0.86,76,63,76,77,54,51,a_wins,6.3,False
+DEB-0132,903,Predictive Cartography,Pebble_School,Water_School,0.79,0.81,0.98,76,78,63,52,60,79,draw,0.9,False
+DEB-0133,872,Map Accuracy Standards,Stone_School,Water_School,0.75,0.92,0.9,67,76,85,63,43,83,b_wins,6.7,False
+DEB-0134,901,Trade Route Standards,Stone_School,Pebble_School,0.82,0.65,0.78,70,79,79,75,55,64,b_wins,4.3,False
+DEB-0135,881,Ghost Persistence Mechanisms,Water_School,Pebble_School,0.62,0.64,0.79,66,72,67,63,67,63,draw,0.7,False
+DEB-0136,874,Creature Classification Boundaries,Water_School,Stone_School,0.65,0.74,0.68,63,70,51,72,81,61,b_wins,4.7,False
+DEB-0137,896,Navigation Methods,Pebble_School,Stone_School,0.64,0.62,0.91,73,63,71,75,66,58,a_wins,5.9,False
+DEB-0138,896,Expedition Risk Assessment,Pebble_School,Water_School,0.89,0.61,0.95,72,63,71,66,67,71,a_wins,6.1,False
+DEB-0139,900,Cognitive Horizon Measurement,Stone_School,Water_School,0.62,0.79,0.93,62,55,82,69,56,70,draw,3.0,False
+DEB-0140,899,Archive Authentication Methods,Stone_School,Pebble_School,0.98,0.91,0.92,71,79,78,61,53,67,draw,0.4,False
+DEB-0141,876,Creature Classification Boundaries,Water_School,Pebble_School,0.92,0.62,0.79,61,78,74,72,75,60,b_wins,3.2,False
+DEB-0142,879,Cognitive Horizon Measurement,Water_School,Stone_School,0.96,0.67,0.66,76,77,51,88,67,51,b_wins,10.8,False
+DEB-0143,905,Basin Topology Validity,Pebble_School,Stone_School,0.66,0.82,0.99,79,71,64,72,58,41,a_wins,6.3,False
+DEB-0144,901,Predictive Cartography,Pebble_School,Water_School,0.8,0.75,0.93,66,70,80,70,50,75,b_wins,3.4,False
+DEB-0145,895,Reflexive Subject Problem,Stone_School,Water_School,0.72,0.89,0.71,73,71,73,52,42,69,draw,0.5,False
+DEB-0146,894,Classification Failure Types,Stone_School,Pebble_School,0.76,0.76,0.82,72,71,71,73,53,61,draw,2.6,False
+DEB-0147,903,Predictive Cartography,Water_School,Pebble_School,0.92,0.64,0.6,66,70,59,73,82,55,draw,0.5,False
+DEB-0148,895,Creature Classification Boundaries,Water_School,Stone_School,0.83,0.85,0.98,58,84,62,84,77,45,b_wins,10.0,False
+DEB-0149,891,Guild Jurisdiction Limits,Pebble_School,Stone_School,0.67,0.77,0.71,69,74,64,89,57,51,b_wins,9.0,False
+DEB-0150,890,Document Provenance,Pebble_School,Water_School,0.73,0.74,0.99,67,74,64,61,52,88,b_wins,9.5,False

@@ -1,0 +1,101 @@
+entity_id,entity_name,entity_type,temporal_depth_score,agential_range_score,abstractive_height_score,integrative_span_score,horizon_vector_norm,care_folding_index,strand_classification,comparable_to
+ENT-0001,Vornis Keth,scholar,88,45,71,85,1.484,1.496,far_seer,Pemlik Tross|Mira Strand|Tobin Creel
+ENT-0002,Pemlik Tross,scholar,87,54,77,78,1.5,1.357,far_seer,Vornis Keth|Erris Pol|Mira Strand
+ENT-0003,Erris Pol,scholar,77,64,70,76,1.439,1.17,far_seer,Pemlik Tross|Archon Vells|Tobin Creel
+ENT-0004,Pell Anster,scholar,61,57,89,46,1.304,0.561,theorist,Tessyn Mord|Kella Vorn|Yasho Krent
+ENT-0005,Rellen Voss,scholar,76,41,78,58,1.3,0.882,specialized,Tessyn Mord|Tobin Creel|Grigsu Haldo
+ENT-0006,Sareth Moll,scholar,61,33,94,77,1.399,0.939,theorist,Solta Venn|Pollux Dann|Mara Yent
+ENT-0007,Mira Strand,scholar,92,46,93,79,1.596,1.454,far_seer,Vornis Keth|Pemlik Tross|Mara Yent
+ENT-0008,Tessyn Mord,scholar,56,46,78,45,1.156,0.504,specialized,Pell Anster|Rellen Voss|Kella Vorn
+ENT-0009,Archon Vells,scholar,65,58,63,71,1.288,0.923,specialized,Erris Pol|Tobin Creel|Lurra Venn
+ENT-0010,Kella Vorn,scholar,50,49,87,57,1.254,0.57,theorist,Pell Anster|Tessyn Mord|Yasho Krent
+ENT-0011,Tobin Creel,scholar,69,39,70,79,1.32,1.09,specialized,Vornis Keth|Erris Pol|Rellen Voss
+ENT-0012,Lurra Venn,scholar,65,68,61,51,1.232,0.663,specialized,Archon Vells|Queever|Tessaly Vorn
+ENT-0013,Grigsu Haldo,scholar,85,45,71,66,1.366,1.122,far_seer,Vornis Keth|Pemlik Tross|Erris Pol
+ENT-0014,Yasho Krent,scholar,60,42,81,48,1.193,0.576,theorist,Pell Anster|Rellen Voss|Tessyn Mord
+ENT-0015,Vagabu Olt,scholar,72,60,92,65,1.465,0.936,theorist,Pell Anster|Prebel Cord|Pollux Dann
+ENT-0016,Solta Venn,scholar,59,35,94,48,1.259,0.566,theorist,Pell Anster|Sareth Moll|Tessyn Mord
+ENT-0017,Prebel Cord,scholar,82,59,81,60,1.427,0.984,theorist,Pemlik Tross|Erris Pol|Rellen Voss
+ENT-0018,Hesta Vorn,scholar,80,45,63,43,1.193,0.688,specialized,Rellen Voss|Grigsu Haldo|Mink Pavar
+ENT-0019,Pollux Dann,scholar,65,36,93,61,1.338,0.793,theorist,Rellen Voss|Sareth Moll|Kella Vorn
+ENT-0020,Jackson,scholar,99,99,99,99,1.98,1.96,far_seer,
+ENT-0021,Meck Drune,scholar,66,44,70,78,1.314,1.03,specialized,Vornis Keth|Pemlik Tross|Erris Pol
+ENT-0022,Old Murch,scholar,78,65,73,69,1.428,1.076,far_seer,Pemlik Tross|Erris Pol|Archon Vells
+ENT-0023,Boffa Trent,scholar,55,34,83,52,1.174,0.572,theorist,Rellen Voss|Tessyn Mord|Kella Vorn
+ENT-0024,Mink Pavar,scholar,74,40,65,45,1.154,0.666,specialized,Rellen Voss|Tessyn Mord|Yasho Krent
+ENT-0025,Mara Yent,scholar,77,40,78,77,1.398,1.186,far_seer,Vornis Keth|Pemlik Tross|Erris Pol
+ENT-0026,Donal Crest,scholar,77,34,67,73,1.3,1.124,far_seer,Vornis Keth|Erris Pol|Rellen Voss
+ENT-0027,Queever,scholar,66,66,63,77,1.364,1.016,specialized,Erris Pol|Archon Vells|Tobin Creel
+ENT-0028,Callis Fenn,scholar,78,43,75,60,1.31,0.936,specialized,Rellen Voss|Tobin Creel|Grigsu Haldo
+ENT-0029,Pollus Brent,scholar,86,38,92,77,1.524,1.324,far_seer,Vornis Keth|Pemlik Tross|Sareth Moll
+ENT-0030,Kellin Vost,scholar,88,59,82,62,1.476,1.091,far_seer,Pemlik Tross|Rellen Voss|Grigsu Haldo
+ENT-0031,Tessaly Vorn,scholar,66,65,72,56,1.3,0.739,specialized,Erris Pol|Archon Vells|Lurra Venn
+ENT-0032,Wender Koss,scholar,58,43,68,54,1.129,0.626,specialized,Rellen Voss|Tessyn Mord|Kella Vorn
+ENT-0033,Archon Prebel,scholar,67,45,82,74,1.368,0.992,theorist,Pemlik Tross|Rellen Voss|Sareth Moll
+ENT-0034,Smint Corpo,scholar,88,49,87,42,1.396,0.739,theorist,Hesta Vorn|Kellin Vost
+ENT-0035,Venn Orenthal,scholar,56,42,65,51,1.083,0.571,specialized,Tessyn Mord|Lurra Venn|Yasho Krent
+ENT-0036,Maw Beast,creature,28,36,16,22,0.531,0.123,specialized,Grimslew Fish|Stone Spine Lizard|Wharver
+ENT-0037,Yeller,creature,55,75,40,65,1.203,0.715,specialized,Stone School|Water School|Pebble School
+ENT-0038,Grimslew Fish,creature,17,34,10,25,0.466,0.085,specialized,Maw Beast|Tunnel Cat|Stone Spine Lizard
+ENT-0039,Tunnel Cat,creature,12,30,21,9,0.396,0.022,specialized,Grimslew Fish|Stone Spine Lizard|Wharver
+ENT-0040,Stone Spine Lizard,creature,28,37,17,12,0.509,0.067,specialized,Maw Beast|Grimslew Fish|Tunnel Cat
+ENT-0041,Wharver,creature,25,23,13,17,0.401,0.085,present_focused,Maw Beast|Grimslew Fish|Tunnel Cat
+ENT-0042,Coil Tube Serpent,creature,14,27,23,18,0.422,0.05,present_focused,Maw Beast|Grimslew Fish|Tunnel Cat
+ENT-0043,Cave Bat,creature,15,41,18,11,0.485,0.033,specialized,Maw Beast|Grimslew Fish|Tunnel Cat
+ENT-0044,Gritsmuck Crawler,creature,12,25,17,6,0.331,0.014,present_focused,Tunnel Cat|Stone Spine Lizard|Wharver
+ENT-0045,Yeller Frog,creature,6,33,23,16,0.437,0.019,specialized,Maw Beast|Grimslew Fish|Tunnel Cat
+ENT-0046,Metal-Beaked Finch,creature,12,44,11,25,0.532,0.06,specialized,Maw Beast|Grimslew Fish|Coil Tube Serpent
+ENT-0047,Quarry Moth,creature,8,29,20,18,0.404,0.029,present_focused,Maw Beast|Grimslew Fish|Tunnel Cat
+ENT-0048,Deep Borer,creature,9,38,10,22,0.459,0.04,specialized,Maw Beast|Grimslew Fish|Tunnel Cat
+ENT-0049,Witch Creature,creature,22,27,8,11,0.374,0.048,present_focused,Maw Beast|Grimslew Fish|Tunnel Cat
+ENT-0050,Leatherback Burrower,creature,22,36,23,15,0.503,0.066,specialized,Maw Beast|Grimslew Fish|Tunnel Cat
+ENT-0051,Capital Archive,institution,78,67,78,69,1.463,1.076,far_seer,Pemlik Tross|Erris Pol|Rellen Voss
+ENT-0052,Cartographer's Guild,institution,87,76,68,82,1.571,1.427,far_seer,Vornis Keth|Pemlik Tross|Erris Pol
+ENT-0053,Traders Guild,institution,72,89,56,80,1.505,1.152,coordinator,Queever|Tower of Mirado|Census Bureau
+ENT-0054,Senate,institution,78,73,75,89,1.58,1.388,far_seer,Erris Pol|Old Murch|Capital Archive
+ENT-0055,Tower of Mirado,institution,77,82,67,80,1.534,1.232,far_seer,Erris Pol|Old Murch|Queever
+ENT-0056,Northern Garrison,institution,84,64,64,79,1.466,1.327,far_seer,Vornis Keth|Pemlik Tross|Erris Pol
+ENT-0057,Quarry Authority,institution,94,71,75,66,1.545,1.241,far_seer,Pemlik Tross|Erris Pol|Grigsu Haldo
+ENT-0058,Archive Governance Council,institution,83,79,66,67,1.482,1.112,far_seer,Erris Pol|Old Murch|Capital Archive
+ENT-0059,Expedition Authority,institution,94,64,70,63,1.477,1.184,far_seer,Pemlik Tross|Erris Pol|Grigsu Haldo
+ENT-0060,Census Bureau,institution,73,69,56,64,1.316,0.934,specialized,Erris Pol|Archon Vells|Lurra Venn
+ENT-0061,Legal Division,institution,94,63,74,85,1.597,1.598,far_seer,Vornis Keth|Pemlik Tross|Erris Pol
+ENT-0062,Provenance Office,institution,73,78,69,62,1.415,0.905,specialized,Erris Pol|Lurra Venn|Old Murch
+ENT-0063,Cartographic Division,institution,87,70,59,69,1.439,1.201,far_seer,Erris Pol|Old Murch|Queever
+ENT-0064,History Division,institution,94,62,51,62,1.383,1.166,far_seer,Quarry Authority|Expedition Authority|Census Bureau
+ENT-0065,Capital Mathematical Society,institution,94,79,54,60,1.469,1.128,specialized,Quarry Authority|Archive Governance Council|Expedition Authority
+ENT-0066,Stone School,group,64,68,44,51,1.151,0.653,specialized,Lurra Venn|Tessaly Vorn|Yeller
+ENT-0067,Water School,group,64,80,36,54,1.213,0.691,specialized,Yeller|Stone School|Skeptics Group
+ENT-0068,Pebble School,group,47,57,30,67,1.041,0.63,specialized,Yeller|Skeptics Group|Five Columns
+ENT-0069,Skeptics Group,group,61,62,33,52,1.066,0.634,specialized,Lurra Venn|Yeller|Stone School
+ENT-0070,Twenty-Ten Assessment Group,group,48,63,44,46,1.016,0.442,specialized,Stone School|Skeptics Group|Boss's Expedition Team
+ENT-0071,Five Columns,group,41,77,35,67,1.154,0.549,specialized,Yeller|Pebble School|Grigsu Circle
+ENT-0072,Boss's Expedition Team,group,58,53,45,60,1.086,0.696,balanced,Wender Koss|Yeller|Stone School
+ENT-0073,Grigsu Circle,group,41,71,50,56,1.112,0.459,specialized,Yeller|Stone School|Twenty-Ten Assessment Group
+ENT-0074,Bootlegger Archivists,group,45,68,35,62,1.082,0.558,specialized,Yeller|Stone School|Pebble School
+ENT-0075,Capital Taxonomists,group,44,57,32,66,1.028,0.581,specialized,Yeller|Pebble School|Skeptics Group
+ENT-0076,Algorithmic Expedition Initiative,group,46,71,44,66,1.16,0.607,specialized,Yeller|Stone School|Pebble School
+ENT-0077,Notation Scribes,group,47,82,59,61,1.27,0.573,specialized,Yeller|Grigsu Circle|Algorithmic Expedition Initiative
+ENT-0078,Geometric School,group,43,68,35,51,1.015,0.439,specialized,Yeller|Stone School|Water School
+ENT-0079,Organic School,group,68,60,37,45,1.078,0.612,specialized,Stone School|Water School|Skeptics Group
+ENT-0080,Cartographic Guild Visual,group,65,58,38,41,1.035,0.533,specialized,Stone School|Water School|Skeptics Group
+ENT-0081,Yeller Quarry,place,81,13,12,31,0.885,0.502,specialized,Grimslew Shore|Tripas|Northern Village
+ENT-0082,Dens Border,place,86,20,39,42,1.053,0.722,specialized,Grimslew Shore|Dead River|Capital
+ENT-0083,Grimslew Shore,place,87,13,21,33,0.963,0.574,specialized,Yeller Quarry|Dens Border|Tripas
+ENT-0084,Dead River,place,99,20,34,41,1.142,0.812,specialized,Dens Border|Northern Village|Capital
+ENT-0085,Tripas,place,83,7,12,23,0.872,0.382,specialized,Yeller Quarry|Grimslew Shore|Mirado Desert
+ENT-0086,Northern Village,place,99,18,13,46,1.114,0.911,specialized,Yeller Quarry|Grimslew Shore|Dead River
+ENT-0087,Mirado Desert,place,84,11,12,38,0.936,0.638,specialized,Yeller Quarry|Grimslew Shore|Tripas
+ENT-0088,Capital,place,86,18,39,31,1.01,0.533,specialized,Yeller Quarry|Dens Border|Grimslew Shore
+ENT-0089,Densmok,place,86,13,40,38,1.03,0.654,specialized,Dens Border|Grimslew Shore|Dead River
+ENT-0090,Vellmarsh,place,96,12,26,41,1.082,0.787,specialized,Dens Border|Grimslew Shore|Dead River
+ENT-0091,Deep Dens,place,88,18,11,32,0.96,0.563,specialized,Yeller Quarry|Grimslew Shore|Tripas
+ENT-0092,Marsh Surface,place,100,16,15,43,1.11,0.86,specialized,Yeller Quarry|Grimslew Shore|Dead River
+ENT-0093,Cave System,place,96,16,31,21,1.043,0.403,specialized,Grimslew Shore|Dead River|Capital
+ENT-0094,Tunnel System,place,90,15,23,49,1.061,0.882,specialized,Dens Border|Grimslew Shore|Dead River
+ENT-0095,Underground Pool,place,94,6,31,33,1.045,0.62,specialized,Dens Border|Grimslew Shore|Dead River
+ENT-0096,Quarry Wall,place,93,12,34,23,1.024,0.428,specialized,Dens Border|Grimslew Shore|Dead River
+ENT-0097,Surface Marsh,place,88,9,26,29,0.967,0.51,specialized,Yeller Quarry|Dens Border|Grimslew Shore
+ENT-0098,Pasture Bed,place,83,7,32,31,0.945,0.515,specialized,Yeller Quarry|Dens Border|Grimslew Shore
+ENT-0099,Village Pool,place,95,5,11,23,0.985,0.437,specialized,Yeller Quarry|Grimslew Shore|Tripas
+ENT-0100,Dens Margin,place,92,14,36,43,1.087,0.791,specialized,Dens Border|Grimslew Shore|Dead River

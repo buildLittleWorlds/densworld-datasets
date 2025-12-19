@@ -1,0 +1,301 @@
+pair_id,entity_a_id,entity_a_name,entity_a_type,entity_b_id,entity_b_name,entity_b_type,relationship_type,tension_score,euclidean_distance,shared_neighbors_count,school_alignment_a,school_alignment_b,school_match,tross_cluster_assignment
+PAIR-0001,SCH-001,Grigsu Haldo,scholar,SCH-002,Yasho Krent,scholar,colleague,0.72,2.3,4,stone_school,water_school,False,cluster_alpha
+PAIR-0002,SCH-001,Grigsu Haldo,scholar,SCH-003,Vagabu Olt,scholar,colleague,0.85,1.8,4,stone_school,none,False,cluster_alpha
+PAIR-0003,SCH-001,Grigsu Haldo,scholar,SCH-005,Mink Pavar,scholar,rival,-0.45,4.2,3,stone_school,water_school,False,cluster_alpha
+PAIR-0004,SCH-002,Yasho Krent,scholar,SCH-005,Mink Pavar,scholar,colleague,0.61,2.5,3,water_school,water_school,True,cluster_alpha
+PAIR-0005,SCH-003,Vagabu Olt,scholar,SCH-015,Tomas Grell,scholar,mentor,0.88,1.2,2,none,none,True,cluster_beta
+PAIR-0006,SCH-006,Fibon Arrel,scholar,SCH-007,Eulr Voss,scholar,rival,-0.62,3.8,1,pebble_school,water_school,False,cluster_gamma
+PAIR-0007,SCH-012,Hesta Vorn,scholar,SCH-013,Pollux Dann,scholar,colleague,0.79,1.5,2,none,none,True,cluster_delta
+PAIR-0008,SCH-012,Hesta Vorn,scholar,SCH-014,Renna Caw,scholar,colleague,0.74,1.7,2,none,water_school,False,cluster_delta
+PAIR-0009,SCH-024,Wen Torval,scholar,SCH-025,Jara Torval,scholar,sibling,0.92,0.8,1,none,stone_school,False,cluster_epsilon
+PAIR-0010,SCH-019,Hamund Bress,scholar,SCH-001,Grigsu Haldo,scholar,correspondent,0.55,3.1,2,stone_school,stone_school,True,cluster_alpha
+PAIR-0011,SCH-020,Vera Losh,scholar,SCH-007,Eulr Voss,scholar,mentor,0.81,1.4,1,water_school,water_school,True,cluster_gamma
+PAIR-0012,SCH-021,Kell Sundar,scholar,SCH-006,Fibon Arrel,scholar,follower,0.78,1.6,1,pebble_school,pebble_school,True,cluster_gamma
+PAIR-0013,SCH-022,Mara Yent,scholar,SCH-005,Mink Pavar,scholar,investigator,-0.38,4.5,2,none,water_school,False,cluster_alpha
+PAIR-0014,SCH-029,Nessa Bright,scholar,SCH-001,Grigsu Haldo,scholar,critic,-0.71,5.2,1,water_school,stone_school,False,cluster_zeta
+PAIR-0015,SCH-031,Tam Whistle,scholar,SCH-032,Lira Canto,scholar,rival,-0.58,4.0,0,stone_school,water_school,False,cluster_eta
+PAIR-0016,CR005,Maw Beast,creature,CR009,Wharver,creature,predator_prey,0.15,6.2,0,none,none,True,cluster_creature_1
+PAIR-0017,CR001,Leatherback Burrower,creature,CR011,Cave Bat,creature,habitat_overlap,0.45,2.8,0,none,none,True,cluster_creature_2
+PAIR-0018,CR019,Nothing Bird,creature,CR020,Pocket Bird,creature,yeller_group,0.95,0.5,2,none,none,True,cluster_yeller
+PAIR-0019,CR019,Nothing Bird,creature,CR021,Whistle Bird,creature,yeller_group,0.95,0.5,2,none,none,True,cluster_yeller
+PAIR-0020,CR020,Pocket Bird,creature,CR021,Whistle Bird,creature,yeller_group,0.95,0.5,2,none,none,True,cluster_yeller
+PAIR-0021,SCH-001,Grigsu Haldo,scholar,CR019,Nothing Bird,creature,studies,-0.22,7.1,0,stone_school,none,False,cluster_cross_1
+PAIR-0022,SCH-012,Hesta Vorn,scholar,CR002,Stone Spine Lizard,creature,studies,0.35,5.5,0,none,none,True,cluster_cross_2
+PAIR-0023,SCH-012,Hesta Vorn,scholar,CR005,Maw Beast,creature,studies,0.28,6.0,0,none,none,True,cluster_cross_2
+PAIR-0024,SCH-013,Pollux Dann,scholar,CR005,Maw Beast,creature,victim,-0.85,8.2,0,none,none,True,cluster_cross_2
+PAIR-0025,PLC-001,Capital,place,PLC-002,Mirado,place,trade_route,0.42,15.3,3,none,none,True,cluster_place_1
+PAIR-0026,PLC-001,Capital,place,PLC-003,Yeller Quarry,place,supply_chain,0.38,12.8,2,none,none,True,cluster_place_1
+PAIR-0027,PLC-002,Mirado,place,PLC-004,Mirado Desert,place,geographic,0.88,2.1,1,none,none,True,cluster_place_2
+PAIR-0028,PLC-003,Yeller Quarry,place,PLC-005,Dead River,place,trade_route,0.35,8.4,1,none,none,True,cluster_place_3
+PAIR-0029,SCH-003,Vagabu Olt,scholar,PLC-003,Yeller Quarry,place,explores,0.48,9.2,0,none,none,True,cluster_cross_3
+PAIR-0030,SCH-016,Senna Grell,scholar,PLC-003,Yeller Quarry,place,maps,0.52,8.8,0,none,none,True,cluster_cross_3
+PAIR-0031,SCH-001,Grigsu Haldo,scholar,SCH-008,Dannkit Rosh,scholar,informant,0.68,2.0,1,stone_school,stone_school,True,cluster_alpha
+PAIR-0032,SCH-017,Oric Valdun,scholar,SCH-018,Pella Valdun,scholar,parent,0.91,0.9,0,none,none,True,cluster_theta
+PAIR-0033,SCH-015,Tomas Grell,scholar,SCH-016,Senna Grell,scholar,parent,0.89,1.0,1,none,none,True,cluster_beta
+PAIR-0034,JKS-001,Jackson,person,SCH-001,Grigsu Haldo,scholar,unclassifiable,-0.15,9.5,0,none,stone_school,False,cluster_anomaly
+PAIR-0035,JKS-001,Jackson,person,SCH-012,Hesta Vorn,scholar,unclassifiable,-0.18,9.2,0,none,none,True,cluster_anomaly
+PAIR-0036,JKS-001,Jackson,person,SCH-029,Nessa Bright,scholar,unclassifiable,-0.12,9.8,0,none,water_school,False,cluster_anomaly
+PAIR-0037,SCH-004,Boffa Trent,scholar,SCH-012,Hesta Vorn,scholar,mentor,0.76,1.9,1,water_school,none,False,cluster_delta
+PAIR-0038,SCH-002,Yasho Krent,scholar,SCH-029,Nessa Bright,scholar,mentor,0.72,2.2,1,water_school,water_school,True,cluster_zeta
+PAIR-0039,SCH-006,Fibon Arrel,scholar,SCH-037,Denna Vox,scholar,influence,0.65,3.5,0,pebble_school,pebble_school,True,cluster_gamma
+PAIR-0040,SCH-020,Vera Losh,scholar,SCH-021,Kell Sundar,scholar,associate,0.25,3.2,2,water_school,pebble_school,False,cluster_gamma
+PAIR-0041,CR002,Stone Spine Lizard,creature,CR008,Coil Tube Serpent,creature,predator_prey,-0.35,4.8,0,none,none,True,cluster_creature_1
+PAIR-0042,CR006,Yeller Frog,creature,CR019,Nothing Bird,creature,yeller_adjacent,0.42,3.5,1,none,none,True,cluster_yeller
+PAIR-0043,CR016,Tunnel Cat,creature,CR019,Nothing Bird,creature,yeller_adjacent,0.38,3.8,1,none,none,True,cluster_yeller
+PAIR-0044,SCH-033,Venn Horak,scholar,CR019,Nothing Bird,creature,studies,0.55,5.8,0,none,none,True,cluster_cross_1
+PAIR-0045,SCH-034,The Inventor,scholar,CR019,Nothing Bird,creature,studies,0.48,6.2,0,none,none,True,cluster_cross_1
+PAIR-0046,PLC-001,Capital,place,PLC-006,The Dens,place,boundary,-0.28,10.5,1,none,none,True,cluster_place_1
+PAIR-0047,PLC-006,The Dens,place,CR017,Grimslew Fish,creature,origin,0.82,1.8,0,none,none,True,cluster_place_4
+PAIR-0048,PLC-006,The Dens,place,CR009,Wharver,creature,habitat,0.75,2.2,0,none,none,True,cluster_place_4
+PAIR-0049,PLC-006,The Dens,place,CR010,Gritsmuck Crawler,creature,habitat,0.85,1.5,0,none,none,True,cluster_place_4
+PAIR-0050,SCH-009,Colonel Viragu,scholar,PLC-002,Mirado,place,besieges,-0.72,7.5,0,none,none,True,cluster_cross_4
+PAIR-0051,SCH-009,Colonel Viragu,scholar,SCH-010,Fyncho Delt,scholar,commands,0.82,1.3,0,none,none,True,cluster_iota
+PAIR-0052,SCH-023,Donal Crest,scholar,SCH-022,Mara Yent,scholar,colleague,0.68,2.1,2,water_school,none,False,cluster_alpha
+PAIR-0053,SCH-005,Mink Pavar,scholar,SCH-022,Mara Yent,scholar,investigated_by,-0.55,4.8,1,water_school,none,False,cluster_alpha
+PAIR-0054,SCH-026,Oben Marsh,scholar,SCH-001,Grigsu Haldo,scholar,synthesizer,0.52,3.0,2,stone_school,stone_school,True,cluster_alpha
+PAIR-0055,SCH-027,Callis Fenn,scholar,SCH-028,Roth Fenn,scholar,sibling,0.88,0.9,0,literalist,literalist,True,cluster_kappa
+PAIR-0056,SCH-030,Gareth Poll,scholar,SCH-003,Vagabu Olt,scholar,student,0.75,1.8,2,none,none,True,cluster_beta
+PAIR-0057,SCH-030,Gareth Poll,scholar,SCH-016,Senna Grell,scholar,colleague,0.62,2.4,1,none,none,True,cluster_beta
+PAIR-0058,SCH-035,Pell Sontar,scholar,SCH-013,Pollux Dann,scholar,companion,0.81,1.4,1,none,none,True,cluster_delta
+PAIR-0059,SCH-035,Pell Sontar,scholar,CR005,Maw Beast,creature,victim,-0.85,8.0,0,none,none,True,cluster_cross_2
+PAIR-0060,SCH-036,Hork Staven,scholar,SCH-017,Oric Valdun,scholar,colleague,0.58,2.6,1,none,none,True,cluster_theta
+PAIR-0061,SCH-038,Cort Madden,scholar,SCH-012,Hesta Vorn,scholar,successor,0.65,2.3,2,none,none,True,cluster_delta
+PAIR-0062,SCH-038,Cort Madden,scholar,SCH-014,Renna Caw,scholar,colleague,0.58,2.5,1,none,water_school,False,cluster_delta
+PAIR-0063,SCH-039,Renna Gast,scholar,SCH-008,Dannkit Rosh,scholar,mentor,0.78,1.5,0,stone_school,stone_school,True,cluster_alpha
+PAIR-0064,CR003,Granite Wren,creature,CR007,Metal-Beaked Finch,creature,habitat_overlap,0.52,2.5,0,none,none,True,cluster_creature_2
+PAIR-0065,CR004,Swamp Hornet,creature,CR024,Quarry Moth,creature,prey_of,0.28,3.8,0,none,none,True,cluster_creature_3
+PAIR-0066,CR012,Rock-Finned Eel,creature,CR015,Greybeakeel,creature,related,0.72,1.8,0,none,none,True,cluster_creature_4
+PAIR-0067,CR013,Toadpipe,creature,CR014,Hogfoot,creature,domestic_pair,0.85,1.2,0,none,none,True,cluster_creature_5
+PAIR-0068,CR018,Dunebug,creature,PLC-004,Mirado Desert,place,habitat,0.92,0.8,0,none,none,True,cluster_place_2
+PAIR-0069,CR022,Witch Creature,creature,CR005,Maw Beast,creature,mythical_link,0.35,5.5,0,none,none,True,cluster_creature_1
+PAIR-0070,CR023,Marsh Tree Crawler,creature,CR024,Quarry Moth,creature,food_chain,0.42,3.2,0,none,none,True,cluster_creature_3
+PAIR-0071,CR025,Deep Borer,creature,CR008,Coil Tube Serpent,creature,follows,-0.25,4.2,0,none,none,True,cluster_creature_1
+PAIR-0072,PLC-001,Capital,place,SCH-002,Yasho Krent,scholar,based_at,0.65,5.2,3,none,water_school,False,cluster_cross_5
+PAIR-0073,PLC-001,Capital,place,SCH-012,Hesta Vorn,scholar,based_at,0.62,5.5,2,none,none,True,cluster_cross_5
+PAIR-0074,PLC-002,Mirado,place,SCH-006,Fibon Arrel,scholar,based_at,0.58,4.8,1,none,pebble_school,False,cluster_cross_6
+PAIR-0075,PLC-002,Mirado,place,SCH-007,Eulr Voss,scholar,based_at,0.68,4.2,1,none,water_school,False,cluster_cross_6
+PAIR-0076,PLC-003,Yeller Quarry,place,CR002,Stone Spine Lizard,creature,habitat,0.78,2.5,0,none,none,True,cluster_place_3
+PAIR-0077,PLC-003,Yeller Quarry,place,CR007,Metal-Beaked Finch,creature,habitat,0.75,2.8,0,none,none,True,cluster_place_3
+PAIR-0078,PLC-003,Yeller Quarry,place,CR024,Quarry Moth,creature,habitat,0.82,2.2,0,none,none,True,cluster_place_3
+PAIR-0079,PLC-005,Dead River,place,SCH-030,Gareth Poll,scholar,maps,0.55,7.5,0,none,none,True,cluster_cross_3
+PAIR-0080,PLC-006,The Dens,place,SCH-027,Callis Fenn,scholar,disappeared_in,-0.45,8.8,0,none,literalist,False,cluster_cross_7
+PAIR-0081,SCH-001,Grigsu Haldo,scholar,SCH-004,Boffa Trent,scholar,colleague,0.71,2.0,4,stone_school,water_school,False,cluster_alpha
+PAIR-0082,SCH-002,Yasho Krent,scholar,SCH-004,Boffa Trent,scholar,colleague,0.75,1.8,4,water_school,water_school,True,cluster_alpha
+PAIR-0083,SCH-002,Yasho Krent,scholar,SCH-003,Vagabu Olt,scholar,colleague,0.70,2.1,4,water_school,none,False,cluster_alpha
+PAIR-0084,SCH-003,Vagabu Olt,scholar,SCH-004,Boffa Trent,scholar,colleague,0.72,2.0,4,none,water_school,False,cluster_alpha
+PAIR-0085,SCH-003,Vagabu Olt,scholar,SCH-005,Mink Pavar,scholar,acquaintance,0.25,3.8,3,none,water_school,False,cluster_alpha
+PAIR-0086,SCH-004,Boffa Trent,scholar,SCH-005,Mink Pavar,scholar,colleague,0.55,2.8,3,water_school,water_school,True,cluster_alpha
+PAIR-0087,SCH-013,Pollux Dann,scholar,SCH-014,Renna Caw,scholar,colleague,0.72,1.8,2,none,water_school,False,cluster_delta
+PAIR-0088,VRN-001,Vornis Keth,scholar,PMK-001,Pemlik Tross,scholar,contemporary,0.32,4.5,0,geometric,graph,False,cluster_lambda
+PAIR-0089,VRN-001,Vornis Keth,scholar,ERP-001,Erris Pol,scholar,contemporary,0.28,4.8,0,geometric,morphospace,False,cluster_lambda
+PAIR-0090,PMK-001,Pemlik Tross,scholar,ERP-001,Erris Pol,scholar,contemporary,0.35,4.2,0,graph,morphospace,False,cluster_lambda
+PAIR-0091,VRN-001,Vornis Keth,scholar,PLC-006,The Dens,place,studies,0.55,6.8,0,geometric,none,False,cluster_cross_8
+PAIR-0092,PMK-001,Pemlik Tross,scholar,JKS-001,Jackson,person,cannot_classify,-0.22,9.0,0,graph,none,False,cluster_anomaly
+PAIR-0093,ERP-001,Erris Pol,scholar,JKS-001,Jackson,person,cannot_classify,-0.25,9.2,0,morphospace,none,False,cluster_anomaly
+PAIR-0094,KLV-001,Kella Vorn,scholar,JKS-001,Jackson,person,cannot_classify,-0.28,8.8,0,failure,none,False,cluster_anomaly
+PAIR-0095,RLV-001,Rellen Voss,scholar,VRN-001,Vornis Keth,scholar,builds_on,0.72,2.5,1,navigation,geometric,False,cluster_lambda
+PAIR-0096,SRM-001,Sareth Moll,scholar,VRN-001,Vornis Keth,scholar,parallels,0.45,3.5,0,memory,geometric,False,cluster_lambda
+PAIR-0097,TSM-001,Tessyn Mord,scholar,PMK-001,Pemlik Tross,scholar,extends,0.58,3.0,0,federation,graph,False,cluster_lambda
+PAIR-0098,ACV-001,Archon Vells,scholar,ERP-001,Erris Pol,scholar,complements,0.52,3.2,0,ingression,morphospace,False,cluster_lambda
+PAIR-0099,MRS-001,Mira Strand,scholar,SRM-001,Sareth Moll,scholar,colleague,0.62,2.8,1,cognitive,memory,False,cluster_mu
+PAIR-0100,MRS-001,Mira Strand,scholar,JKS-001,Jackson,person,cannot_classify,-0.20,9.1,0,cognitive,none,False,cluster_anomaly
+PAIR-0101,PLB-001,Pollus Brent,scholar,CR019,Nothing Bird,creature,studies,0.65,4.5,0,creature_grammar,none,False,cluster_creature_cross
+PAIR-0102,PLB-001,Pollus Brent,scholar,CR020,Pocket Bird,creature,studies,0.65,4.5,0,creature_grammar,none,False,cluster_creature_cross
+PAIR-0103,PLB-001,Pollus Brent,scholar,CR021,Whistle Bird,creature,studies,0.65,4.5,0,creature_grammar,none,False,cluster_creature_cross
+PAIR-0104,TBC-001,Tobin Creel,scholar,VRN-001,Vornis Keth,scholar,observes,0.42,3.8,0,polycomputing,geometric,False,cluster_lambda
+PAIR-0105,WNK-001,Wender Koss,scholar,ERP-001,Erris Pol,scholar,extends,0.55,3.1,0,pattern,morphospace,False,cluster_lambda
+PAIR-0106,PLA-001,Pell Anster,scholar,TSM-001,Tessyn Mord,scholar,hierarchy,0.48,3.4,0,tame,federation,False,cluster_lambda
+PAIR-0107,PLA-001,Pell Anster,scholar,JKS-001,Jackson,person,cannot_classify,-0.32,8.5,0,tame,none,False,cluster_anomaly
+PAIR-0108,KLV-001,Kella Vorn,scholar,RLV-001,Rellen Voss,scholar,documents,0.52,3.0,0,failure,navigation,False,cluster_lambda
+PAIR-0109,KLV-001,Kella Vorn,scholar,TSM-001,Tessyn Mord,scholar,documents,0.48,3.2,0,failure,federation,False,cluster_lambda
+PAIR-0110,SCH-001,Grigsu Haldo,scholar,CR016,Tunnel Cat,creature,studies,0.45,5.2,0,stone_school,none,False,cluster_cross_1
+PAIR-0111,SLV-001,Solta Venn,scholar,SCH-005,Mink Pavar,scholar,investigates,-0.42,5.0,0,provenance,water_school,False,cluster_archive
+PAIR-0112,SLV-001,Solta Venn,scholar,SCH-022,Mara Yent,scholar,colleague,0.58,2.8,1,provenance,none,False,cluster_archive
+PAIR-0113,LRV-001,Lurra Venn,scholar,MDR-001,Meck Drune,trader,opposed_by,-0.55,4.5,0,archetype,anti_pattern,False,cluster_trader
+PAIR-0114,LRV-001,Lurra Venn,scholar,JKS-001,Jackson,person,cannot_classify,-0.35,8.2,0,archetype,none,False,cluster_anomaly
+PAIR-0115,MDR-001,Meck Drune,trader,JKS-001,Jackson,person,similarity,0.28,3.5,0,anti_pattern,none,False,cluster_anomaly
+PAIR-0116,SCH-003,Vagabu Olt,scholar,LRV-001,Lurra Venn,scholar,data_source,0.72,2.2,0,none,archetype,False,cluster_trader
+PAIR-0117,OLM-001,Old Murch,philosopher,LRV-001,Lurra Venn,scholar,skeptic_of,-0.38,4.0,1,skeptics,archetype,False,cluster_trader
+PAIR-0118,OLM-001,Old Murch,philosopher,SCH-001,Grigsu Haldo,scholar,skeptic_of,-0.35,4.2,0,skeptics,stone_school,False,cluster_nu
+PAIR-0119,CR001,Leatherback Burrower,creature,PLC-003,Yeller Quarry,place,habitat,0.72,3.0,0,none,none,True,cluster_place_3
+PAIR-0120,CR011,Cave Bat,creature,PLC-003,Yeller Quarry,place,habitat,0.78,2.5,0,none,none,True,cluster_place_3
+PAIR-0121,SCH-024,Wen Torval,scholar,CR005,Maw Beast,creature,victim,-0.82,8.0,0,none,none,True,cluster_cross_2
+PAIR-0122,SCH-008,Dannkit Rosh,scholar,SCH-039,Renna Gast,scholar,student,0.75,1.6,0,stone_school,stone_school,True,cluster_alpha
+PAIR-0123,SCH-001,Grigsu Haldo,scholar,PLC-007,Vellmarsh,place,birthplace,0.65,4.5,0,stone_school,none,False,cluster_cross_9
+PAIR-0124,SCH-008,Dannkit Rosh,scholar,PLC-007,Vellmarsh,place,birthplace,0.68,4.2,0,stone_school,none,False,cluster_cross_9
+PAIR-0125,SCH-039,Renna Gast,scholar,PLC-007,Vellmarsh,place,birthplace,0.62,4.8,0,stone_school,none,False,cluster_cross_9
+PAIR-0126,PLC-007,Vellmarsh,place,PLC-001,Capital,place,trade_route,0.42,8.5,1,none,none,True,cluster_place_1
+PAIR-0127,PLC-008,Tripas,place,PLC-001,Capital,place,trade_route,0.55,6.2,2,none,none,True,cluster_place_1
+PAIR-0128,PLC-008,Tripas,place,SCH-013,Pollux Dann,scholar,birthplace,0.58,5.5,0,none,none,True,cluster_cross_5
+PAIR-0129,PLC-009,Northo,place,SCH-019,Hamund Bress,scholar,birthplace,0.62,5.0,0,none,stone_school,False,cluster_cross_10
+PAIR-0130,PLC-009,Northo,place,SCH-031,Tam Whistle,scholar,birthplace,0.58,5.2,0,none,stone_school,False,cluster_cross_10
+PAIR-0131,PLC-009,Northo,place,PLC-001,Capital,place,distant,0.22,12.5,0,none,none,True,cluster_place_1
+PAIR-0132,PLC-010,Densmok,place,SCH-027,Callis Fenn,scholar,birthplace,0.52,5.8,0,none,literalist,False,cluster_cross_11
+PAIR-0133,PLC-010,Densmok,place,SCH-028,Roth Fenn,scholar,birthplace,0.52,5.8,0,none,literalist,False,cluster_cross_11
+PAIR-0134,PLC-010,Densmok,place,PLC-006,The Dens,place,near,0.68,4.2,1,none,none,True,cluster_place_4
+PAIR-0135,PLC-010,Densmok,place,OLM-001,Old Murch,philosopher,based_at,0.58,5.5,0,none,skeptics,False,cluster_cross_11
+PAIR-0136,CR006,Yeller Frog,creature,PLC-003,Yeller Quarry,place,habitat,0.85,1.8,0,none,none,True,cluster_place_3
+PAIR-0137,CR016,Tunnel Cat,creature,PLC-003,Yeller Quarry,place,habitat,0.72,2.8,0,none,none,True,cluster_place_3
+PAIR-0138,CR022,Witch Creature,creature,PLC-006,The Dens,place,habitat,0.55,4.5,0,none,none,True,cluster_place_4
+PAIR-0139,JKS-001,Jackson,person,PLC-001,Capital,place,appears_in,0.15,10.2,0,none,none,True,cluster_anomaly
+PAIR-0140,JKS-001,Jackson,person,PLC-003,Yeller Quarry,place,appears_in,0.12,10.5,0,none,none,True,cluster_anomaly
+PAIR-0141,JKS-001,Jackson,person,CR005,Maw Beast,creature,unrelated,-0.05,11.2,0,none,none,True,cluster_anomaly
+PAIR-0142,JKS-001,Jackson,person,CR019,Nothing Bird,creature,affinity,0.18,8.5,0,none,none,True,cluster_anomaly
+PAIR-0143,SCH-009,Colonel Viragu,scholar,SCH-011,Jorkin Mast,scholar,questions,-0.22,6.5,0,none,none,True,cluster_iota
+PAIR-0144,SCH-011,Jorkin Mast,scholar,PLC-002,Mirado,place,built,0.85,2.0,0,none,none,True,cluster_cross_6
+PAIR-0145,VRN-001,Vornis Keth,scholar,THK-001,Thenna Keth,scholar,ancestor,0.92,0.8,0,geometric,geometric,True,cluster_lambda
+PAIR-0146,VRN-001,Vornis Keth,scholar,PRC-001,Prebel Cord,scholar,reconstructed_by,0.78,2.0,1,geometric,reconstruction,False,cluster_lambda
+PAIR-0147,PRB-001,Archon Prebel,scholar,VRN-001,Vornis Keth,scholar,debate_opponent,-0.45,4.0,0,breach,geometric,False,cluster_lambda
+PAIR-0148,SCH-007,Eulr Voss,scholar,SCH-020,Vera Losh,scholar,mentor_of,0.81,1.4,1,water_school,water_school,True,cluster_gamma
+PAIR-0149,SCH-020,Vera Losh,scholar,SCH-029,Nessa Bright,scholar,influences,0.62,2.5,1,water_school,water_school,True,cluster_zeta
+PAIR-0150,CR009,Wharver,creature,CR017,Grimslew Fish,creature,ecosystem,0.58,3.2,0,none,none,True,cluster_creature_4
+PAIR-0151,SCH-014,Renna Caw,scholar,CR009,Wharver,creature,studies,0.48,5.0,0,water_school,none,False,cluster_cross_2
+PAIR-0152,SCH-014,Renna Caw,scholar,CR017,Grimslew Fish,creature,theorizes,0.35,6.2,0,water_school,none,False,cluster_cross_2
+PAIR-0153,PMK-001,Pemlik Tross,scholar,SCH-001,Grigsu Haldo,scholar,distant_parallel,0.22,5.5,0,graph,stone_school,False,cluster_xi
+PAIR-0154,PMK-001,Pemlik Tross,scholar,SCH-002,Yasho Krent,scholar,distant_parallel,0.25,5.2,0,graph,water_school,False,cluster_xi
+PAIR-0155,KRM-001,Kerith Moll,scholar,VRN-001,Vornis Keth,scholar,assessed,0.45,3.5,0,guild,geometric,False,cluster_lambda
+PAIR-0156,SCH-033,Venn Horak,scholar,SCH-001,Grigsu Haldo,scholar,knows_of,0.35,4.5,0,none,stone_school,False,cluster_cross_1
+PAIR-0157,SCH-034,The Inventor,scholar,SCH-003,Vagabu Olt,scholar,similar_role,0.55,3.0,0,none,none,True,cluster_beta
+PAIR-0158,TCS-001,Tennev Crost,scholar,JKS-001,Jackson,person,modeled,-0.42,7.5,0,prediction,none,False,cluster_anomaly
+PAIR-0159,TCS-001,Tennev Crost,scholar,LRV-001,Lurra Venn,scholar,parallel_method,0.48,3.2,0,prediction,archetype,False,cluster_trader
+PAIR-0160,CR001,Leatherback Burrower,creature,CR025,Deep Borer,creature,habitat_overlap,0.42,3.5,0,none,none,True,cluster_creature_2
+PAIR-0161,SCH-012,Hesta Vorn,scholar,CR001,Leatherback Burrower,creature,studies,0.52,4.8,0,none,none,True,cluster_cross_2
+PAIR-0162,SCH-012,Hesta Vorn,scholar,CR016,Tunnel Cat,creature,studies,0.58,4.5,0,none,none,True,cluster_cross_2
+PAIR-0163,SCH-025,Jara Torval,scholar,CR002,Stone Spine Lizard,creature,studies,0.55,4.6,0,stone_school,none,False,cluster_cross_2
+PAIR-0164,SCH-025,Jara Torval,scholar,CR006,Yeller Frog,creature,studies,0.48,5.0,0,stone_school,none,False,cluster_cross_2
+PAIR-0165,SCH-004,Boffa Trent,scholar,CR014,Hogfoot,creature,classifies,0.35,6.0,0,water_school,none,False,cluster_cross_2
+PAIR-0166,MRD-001,Maren Drusk,scholar,VST-001,Vass Tonner,scholar,opposed_by,-0.52,4.2,0,algorithmic,traditional,False,cluster_guild
+PAIR-0167,MRD-001,Maren Drusk,scholar,SCH-003,Vagabu Olt,scholar,modernizes,0.38,3.8,0,algorithmic,none,False,cluster_guild
+PAIR-0168,VST-001,Vass Tonner,scholar,SCH-003,Vagabu Olt,scholar,traditional_link,0.62,2.5,0,traditional,none,False,cluster_guild
+PAIR-0169,RLT-001,Rella Tarn,scholar,PLC-003,Yeller Quarry,place,surveys,0.55,5.2,0,expedition,none,False,cluster_cross_3
+PAIR-0170,RLT-001,Rella Tarn,scholar,SCH-013,Pollux Dann,scholar,ninth_expedition,0.68,2.0,1,expedition,none,False,cluster_delta
+PAIR-0171,JRT-001,Jara Torval,scholar,HTV-001,Hesta Vorn,scholar,trained_by,0.72,1.8,0,taxonomy,none,False,cluster_delta
+PAIR-0172,PLD-001,Pollux Dann,scholar,HTV-001,Hesta Vorn,scholar,trained_by,0.75,1.6,0,taxonomy,none,False,cluster_delta
+PAIR-0173,QVR-001,Queever,archivist,SLV-001,Solta Venn,scholar,supervises,0.65,2.2,1,archive,provenance,False,cluster_archive
+PAIR-0174,QVR-001,Queever,archivist,SCH-005,Mink Pavar,scholar,custodian_of,-0.32,4.8,0,archive,water_school,False,cluster_archive
+PAIR-0175,TRL-001,Minor Archivist Trell,archivist,QVR-001,Queever,archivist,supervised_by,0.72,1.5,0,archive,archive,True,cluster_archive
+PAIR-0176,KPM-001,Keeper of Maps,archivist,SCH-003,Vagabu Olt,scholar,preserves,0.58,3.0,0,archive,none,False,cluster_archive
+PAIR-0177,KPM-001,Keeper of Maps,archivist,SCH-016,Senna Grell,scholar,preserves,0.55,3.2,0,archive,none,False,cluster_archive
+PAIR-0178,KPM-001,Keeper of Maps,archivist,SCH-030,Gareth Poll,scholar,preserves,0.52,3.5,0,archive,none,False,cluster_archive
+PAIR-0179,DCR-001,Donal Crest,scholar,MRY-001,Mara Yent,scholar,trained_by,0.68,2.0,1,history,history,True,cluster_alpha
+PAIR-0180,PRB-002,Guild Master Prebel,guild,PRC-001,Prebel Cord,scholar,mentor_of,0.78,1.8,0,guild,reconstruction,False,cluster_lambda
+PAIR-0181,PRB-002,Guild Master Prebel,guild,VRN-001,Vornis Keth,scholar,validates,0.55,3.2,0,guild,geometric,False,cluster_lambda
+PAIR-0182,GMR-001,Gareth Poll,scholar,PLC-005,Dead River,place,maps,0.62,5.8,0,cartography,none,False,cluster_cross_3
+PAIR-0183,SNT-001,Senator Polkopo,politician,SCH-009,Colonel Viragu,scholar,funds,-0.28,5.5,0,political,none,False,cluster_iota
+PAIR-0184,NCN-001,Councilwoman Nehlhen,politician,PLC-001,Capital,place,governs,0.72,3.5,0,political,none,False,cluster_place_1
+PAIR-0185,DOY-001,Doyl,authority,PLC-001,Capital,place,polices,0.65,4.0,0,authority,none,False,cluster_place_1
+PAIR-0186,TCK-001,Tucker,citizen,DOY-001,Doyl,authority,knows_of,0.35,5.5,0,none,authority,False,cluster_nu
+PAIR-0187,TCK-001,Tucker,citizen,PLC-001,Capital,place,lives_in,0.52,4.8,0,none,none,True,cluster_nu
+PAIR-0188,MPK-001,The Mapmaker,traveler,CR019,Nothing Bird,creature,associated,0.45,5.2,0,none,none,True,cluster_cross_1
+PAIR-0189,MPK-001,The Mapmaker,traveler,SCH-003,Vagabu Olt,scholar,similar_role,0.58,2.8,0,none,none,True,cluster_beta
+PAIR-0190,DGR-001,The Dodger,professional,ULH-001,Ulhido,scholar,travels_with,0.82,1.2,0,none,none,True,cluster_omicron
+PAIR-0191,ULH-001,Ulhido,scholar,SCH-003,Vagabu Olt,scholar,itinerant_like,0.45,3.5,0,none,none,True,cluster_beta
+PAIR-0192,TUD-001,Tud,person,PLC-001,Capital,place,lives_in,0.28,6.5,0,none,none,True,cluster_nu
+PAIR-0193,CSS-001,Cass,person,DSM-001,The Densmonger,person,child_of,0.88,0.9,0,none,none,True,cluster_pi
+PAIR-0194,GLL-001,Gull,storyteller,BOS-001,The Boss,leader,worked_for,0.62,2.5,0,none,none,True,cluster_expedition
+PAIR-0195,GLL-001,Gull,storyteller,CR019,Nothing Bird,creature,witnessed,0.35,6.0,0,none,none,True,cluster_cross_1
+PAIR-0196,BOS-001,The Boss,leader,CR019,Nothing Bird,creature,attempted_capture,-0.72,7.5,0,none,none,True,cluster_cross_1
+PAIR-0197,BOS-001,The Boss,leader,CR005,Maw Beast,creature,killed_by,-0.95,9.0,0,none,none,True,cluster_expedition
+PAIR-0198,TRK-001,Truck,enforcer,BOS-001,The Boss,leader,worked_for,0.75,1.5,0,none,none,True,cluster_expedition
+PAIR-0199,TRK-001,Truck,enforcer,CR005,Maw Beast,creature,killed_by,-0.92,8.8,0,none,none,True,cluster_expedition
+PAIR-0200,PLC-003,Yeller Quarry,place,BOS-001,The Boss,leader,expedition_site,-0.45,6.2,0,none,none,True,cluster_expedition
+PAIR-0201,CRS-001,Crishl,agent,CR019,Nothing Bird,creature,harnessed,0.72,3.5,0,none,none,True,cluster_yeller
+PAIR-0202,CRS-001,Crishl,agent,AGI-001,The Ageless Inventor,creator,created_by,0.88,1.0,0,none,none,True,cluster_rho
+PAIR-0203,AGI-001,The Ageless Inventor,creator,GVB-001,Governor Baxter,politician,killed_by,-0.85,8.5,0,none,political,False,cluster_rho
+PAIR-0204,SCH-010,Fyncho Delt,scholar,CRS-001,Crishl,agent,met,0.25,5.8,0,none,none,True,cluster_iota
+PAIR-0205,HRK-001,Harknet,explorer,PLC-002,Mirado,place,explored_beyond,0.52,6.5,0,none,none,True,cluster_cross_6
+PAIR-0206,SCH-021,Kell Sundar,scholar,PLC-011,Seventy Pools,place,studied,0.68,3.8,0,pebble_school,none,False,cluster_gamma
+PAIR-0207,PLC-011,Seventy Pools,place,PLC-002,Mirado,place,within,0.92,0.5,0,none,none,True,cluster_place_2
+PAIR-0208,SCH-007,Eulr Voss,scholar,PLC-011,Seventy Pools,place,theorized,0.75,3.2,0,water_school,none,False,cluster_gamma
+PAIR-0209,CR017,Grimslew Fish,creature,PLC-012,Grimslew Sea,place,origin,0.95,0.3,0,none,none,True,cluster_place_4
+PAIR-0210,PLC-012,Grimslew Sea,place,PLC-006,The Dens,place,beneath,0.88,1.0,0,none,none,True,cluster_place_4
+PAIR-0211,SCH-001,Grigsu Haldo,scholar,EXP-007,Expedition Seven,event,participated,0.72,3.0,3,stone_school,none,False,cluster_alpha
+PAIR-0212,SCH-002,Yasho Krent,scholar,EXP-007,Expedition Seven,event,participated,0.68,3.2,3,water_school,none,False,cluster_alpha
+PAIR-0213,SCH-003,Vagabu Olt,scholar,EXP-007,Expedition Seven,event,participated,0.75,2.8,3,none,none,True,cluster_alpha
+PAIR-0214,SCH-013,Pollux Dann,scholar,EXP-009,Ninth Expedition,event,died_during,-0.82,7.5,1,none,none,True,cluster_delta
+PAIR-0215,SCH-035,Pell Sontar,scholar,EXP-009,Ninth Expedition,event,died_during,-0.82,7.5,1,none,none,True,cluster_delta
+PAIR-0216,RLT-001,Rella Tarn,scholar,EXP-009,Ninth Expedition,event,led,0.65,2.5,2,expedition,none,False,cluster_delta
+PAIR-0217,PLC-003,Yeller Quarry,place,EXP-009,Ninth Expedition,event,location,0.72,4.0,2,none,none,True,cluster_place_3
+PAIR-0218,CR005,Maw Beast,creature,EXP-009,Ninth Expedition,event,caused_deaths,-0.88,8.0,2,none,none,True,cluster_creature_1
+PAIR-0219,SCH-016,Senna Grell,scholar,EXP-006,Expedition Six,event,participated,0.68,3.0,0,none,none,True,cluster_beta
+PAIR-0220,SCH-024,Wen Torval,scholar,EXP-005,Fifth Expedition,event,died_during,-0.78,7.8,0,none,none,True,cluster_epsilon
+PAIR-0221,SCH-025,Jara Torval,scholar,EXP-005,Fifth Expedition,event,participated,0.55,4.0,1,stone_school,none,False,cluster_epsilon
+PAIR-0222,SCH-025,Jara Torval,scholar,EXP-010,Tenth Expedition,event,participated,0.62,3.5,0,stone_school,none,False,cluster_epsilon
+PAIR-0223,SCH-009,Colonel Viragu,scholar,EXP-001,First Siege,event,led,0.82,1.8,0,none,none,True,cluster_iota
+PAIR-0224,SCH-009,Colonel Viragu,scholar,EXP-003,Third Campaign,event,led,0.78,2.0,0,none,none,True,cluster_iota
+PAIR-0225,SCH-010,Fyncho Delt,scholar,EXP-001,First Siege,event,participated,0.72,2.5,0,none,none,True,cluster_iota
+PAIR-0226,SCH-010,Fyncho Delt,scholar,EXP-003,Third Campaign,event,participated,0.68,2.8,0,none,none,True,cluster_iota
+PAIR-0227,VRN-001,Vornis Keth,scholar,SCP-001,Stone School,school,opposed,-0.42,4.5,0,geometric,stone,False,cluster_sigma
+PAIR-0228,VRN-001,Vornis Keth,scholar,SCP-002,Water School,school,influenced_by,0.35,3.8,0,geometric,water,False,cluster_sigma
+PAIR-0229,SCH-001,Grigsu Haldo,scholar,SCP-001,Stone School,school,adherent,0.85,1.2,2,stone_school,stone,True,cluster_alpha
+PAIR-0230,SCH-002,Yasho Krent,scholar,SCP-002,Water School,school,adherent,0.88,1.0,2,water_school,water,True,cluster_alpha
+PAIR-0231,SCH-006,Fibon Arrel,scholar,SCP-003,Pebble School,school,founder,0.95,0.5,1,pebble_school,pebble,True,cluster_gamma
+PAIR-0232,SCP-001,Stone School,school,SCP-002,Water School,school,rival,-0.72,5.5,0,stone,water,False,cluster_sigma
+PAIR-0233,SCP-001,Stone School,school,SCP-003,Pebble School,school,related,0.35,4.0,0,stone,pebble,False,cluster_sigma
+PAIR-0234,SCP-002,Water School,school,SCP-003,Pebble School,school,rival,-0.55,4.8,0,water,pebble,False,cluster_sigma
+PAIR-0235,SCH-029,Nessa Bright,scholar,SCP-001,Stone School,school,critic,-0.68,5.0,0,water_school,stone,False,cluster_zeta
+PAIR-0236,SCH-031,Tam Whistle,scholar,SCP-001,Stone School,school,adherent,0.72,2.0,0,stone_school,stone,True,cluster_eta
+PAIR-0237,SCH-032,Lira Canto,scholar,SCP-002,Water School,school,adherent,0.75,1.8,0,water_school,water,True,cluster_eta
+PAIR-0238,SCH-027,Callis Fenn,scholar,SCP-004,Literalist School,school,adherent,0.85,1.2,1,literalist,literalist,True,cluster_kappa
+PAIR-0239,SCH-028,Roth Fenn,scholar,SCP-004,Literalist School,school,adherent,0.78,1.5,1,literalist,literalist,True,cluster_kappa
+PAIR-0240,SCP-004,Literalist School,school,SCP-001,Stone School,school,extreme_variant,0.45,3.2,0,literalist,stone,False,cluster_sigma
+PAIR-0241,PMK-001,Pemlik Tross,scholar,SCP-001,Stone School,school,distant,-0.15,6.0,0,graph,stone,False,cluster_lambda
+PAIR-0242,PMK-001,Pemlik Tross,scholar,SCP-002,Water School,school,distant,-0.12,6.2,0,graph,water,False,cluster_lambda
+PAIR-0243,PMK-001,Pemlik Tross,scholar,SCP-003,Pebble School,school,distant,-0.10,6.5,0,graph,pebble,False,cluster_lambda
+PAIR-0244,OLM-001,Old Murch,philosopher,SCP-001,Stone School,school,skeptic,-0.45,4.8,0,skeptics,stone,False,cluster_nu
+PAIR-0245,OLM-001,Old Murch,philosopher,SCP-002,Water School,school,skeptic,-0.42,5.0,0,skeptics,water,False,cluster_nu
+PAIR-0246,OLM-001,Old Murch,philosopher,SCP-003,Pebble School,school,skeptic,-0.48,4.5,0,skeptics,pebble,False,cluster_nu
+PAIR-0247,JKS-001,Jackson,person,SCP-001,Stone School,school,unclassifiable,-0.08,10.0,0,none,stone,False,cluster_anomaly
+PAIR-0248,JKS-001,Jackson,person,SCP-002,Water School,school,unclassifiable,-0.05,10.2,0,none,water,False,cluster_anomaly
+PAIR-0249,JKS-001,Jackson,person,SCP-003,Pebble School,school,unclassifiable,-0.05,10.2,0,none,pebble,False,cluster_anomaly
+PAIR-0250,JKS-001,Jackson,person,SCP-004,Literalist School,school,unclassifiable,-0.02,10.5,0,none,literalist,False,cluster_anomaly
+PAIR-0251,CR005,Maw Beast,creature,CR022,Witch Creature,creature,apex_predators,-0.35,5.0,0,none,none,True,cluster_creature_1
+PAIR-0252,CR009,Wharver,creature,CR012,Rock-Finned Eel,creature,prey_on,0.42,3.2,0,none,none,True,cluster_creature_4
+PAIR-0253,CR016,Tunnel Cat,creature,CR011,Cave Bat,creature,predator_prey,-0.55,4.0,0,none,none,True,cluster_creature_2
+PAIR-0254,CR001,Leatherback Burrower,creature,CR003,Granite Wren,creature,cohabitation,0.35,3.5,0,none,none,True,cluster_creature_2
+PAIR-0255,CR002,Stone Spine Lizard,creature,CR006,Yeller Frog,creature,territorial,-0.28,4.2,0,none,none,True,cluster_creature_3
+PAIR-0256,CR007,Metal-Beaked Finch,creature,CR024,Quarry Moth,creature,predator_prey,-0.42,3.8,0,none,none,True,cluster_creature_3
+PAIR-0257,CR013,Toadpipe,creature,PLC-006,The Dens,place,native,0.75,2.5,0,none,none,True,cluster_place_4
+PAIR-0258,CR014,Hogfoot,creature,PLC-006,The Dens,place,native,0.72,2.8,0,none,none,True,cluster_place_4
+PAIR-0259,CR010,Gritsmuck Crawler,creature,CR023,Marsh Tree Crawler,creature,scavengers,0.55,2.5,0,none,none,True,cluster_creature_5
+PAIR-0260,CR004,Swamp Hornet,creature,PLC-006,The Dens,place,native,0.68,3.0,0,none,none,True,cluster_place_4
+PAIR-0261,SCH-038,Cort Madden,scholar,EXP-016,Sixteenth Expedition,event,participated,0.62,3.2,0,none,none,True,cluster_delta
+PAIR-0262,SCH-030,Gareth Poll,scholar,EXP-015,Fifteenth Expedition,event,participated,0.58,3.5,0,none,none,True,cluster_beta
+PAIR-0263,SCH-033,Venn Horak,scholar,EXP-002,Second Survey,event,participated,0.55,4.0,0,none,none,True,cluster_cross_1
+PAIR-0264,SCH-033,Venn Horak,scholar,EXP-004,Fourth Survey,event,participated,0.52,4.2,0,none,none,True,cluster_cross_1
+PAIR-0265,SCH-024,Wen Torval,scholar,EXP-004,Fourth Survey,event,participated,0.58,3.8,0,none,none,True,cluster_epsilon
+PAIR-0266,AKP-001,Archive Keeper,archivist,QVR-001,Queever,archivist,supervises,0.78,1.5,0,archive,archive,True,cluster_archive
+PAIR-0267,AKP-001,Archive Keeper,archivist,SLV-001,Solta Venn,scholar,oversees,0.72,1.8,0,archive,provenance,False,cluster_archive
+PAIR-0268,AKP-001,Archive Keeper,archivist,KPM-001,Keeper of Maps,archivist,coordinates,0.68,2.0,0,archive,archive,True,cluster_archive
+PAIR-0269,AKP-001,Archive Keeper,archivist,TRL-001,Minor Archivist Trell,archivist,oversees,0.65,2.2,0,archive,archive,True,cluster_archive
+PAIR-0270,AKP-001,Archive Keeper,archivist,SCH-005,Mink Pavar,scholar,questions,-0.38,4.5,0,archive,water_school,False,cluster_archive
+PAIR-0271,SWK-001,Swick,archivist,AKP-001,Archive Keeper,archivist,outside,-0.45,5.5,0,bootleg,archive,False,cluster_archive
+PAIR-0272,SWK-001,Swick,archivist,PLC-013,Capeast,place,based_in,0.58,4.0,0,bootleg,none,False,cluster_cross_12
+PAIR-0273,PLC-013,Capeast,place,PLC-001,Capital,place,near,0.72,3.5,1,none,none,True,cluster_place_1
+PAIR-0274,PLC-013,Capeast,place,PLC-006,The Dens,place,borders,0.62,4.2,0,none,none,True,cluster_place_1
+PAIR-0275,SWK-001,Swick,archivist,SCH-003,Vagabu Olt,scholar,trades_with,0.42,4.5,0,bootleg,none,False,cluster_cross_12
+PAIR-0276,FMH-001,Foreman Hask,guild,PLC-008,Tripas,place,routes,0.65,4.0,0,traders,none,False,cluster_trader
+PAIR-0277,FMH-001,Foreman Hask,guild,PLC-001,Capital,place,routes,0.62,4.2,0,traders,none,False,cluster_trader
+PAIR-0278,ADV-001,Administrator Venn,guild,PLC-009,Northo,place,census,0.55,5.0,0,traders,none,False,cluster_trader
+PAIR-0279,LRV-001,Lurra Venn,scholar,ADV-001,Administrator Venn,guild,related,0.45,3.5,0,archetype,traders,False,cluster_trader
+PAIR-0280,LRV-001,Lurra Venn,scholar,FMH-001,Foreman Hask,guild,colleague,0.52,3.2,1,archetype,traders,False,cluster_trader
+PAIR-0281,SCH-003,Vagabu Olt,scholar,FMH-001,Foreman Hask,guild,data_source,0.65,2.8,0,none,traders,False,cluster_trader
+PAIR-0282,SCH-003,Vagabu Olt,scholar,ADV-001,Administrator Venn,guild,recorded_by,0.58,3.0,0,none,traders,False,cluster_trader
+PAIR-0283,TWT-001,Twenty-Ten Group,organization,OLM-001,Old Murch,philosopher,founded_by,0.82,1.5,0,assessment,skeptics,False,cluster_nu
+PAIR-0284,TWT-001,Twenty-Ten Group,organization,LRV-001,Lurra Venn,scholar,assessed,-0.35,4.5,0,assessment,archetype,False,cluster_trader
+PAIR-0285,TWT-001,Twenty-Ten Group,organization,TCS-001,Tennev Crost,scholar,assessed,-0.32,4.8,0,assessment,prediction,False,cluster_anomaly
+PAIR-0286,SKP-001,Skeptics Group,organization,OLM-001,Old Murch,philosopher,member,0.88,0.8,0,skeptics,skeptics,True,cluster_nu
+PAIR-0287,SKP-001,Skeptics Group,organization,TWT-001,Twenty-Ten Group,organization,related,0.72,1.8,1,skeptics,assessment,False,cluster_nu
+PAIR-0288,SKP-001,Skeptics Group,organization,LRV-001,Lurra Venn,scholar,critiques,-0.42,4.2,0,skeptics,archetype,False,cluster_trader
+PAIR-0289,SKP-001,Skeptics Group,organization,VRN-001,Vornis Keth,scholar,critiques,-0.38,4.5,0,skeptics,geometric,False,cluster_lambda
+PAIR-0290,SKP-001,Skeptics Group,organization,PMK-001,Pemlik Tross,scholar,critiques,-0.35,4.8,0,skeptics,graph,False,cluster_lambda
+PAIR-0291,CTG-001,Cartographers Guild,organization,SCH-003,Vagabu Olt,scholar,independent,-0.15,5.5,0,guild,none,False,cluster_beta
+PAIR-0292,CTG-001,Cartographers Guild,organization,PRB-002,Guild Master Prebel,guild,led_by,0.85,1.2,0,guild,guild,True,cluster_guild
+PAIR-0293,CTG-001,Cartographers Guild,organization,KRM-001,Kerith Moll,scholar,assessor,0.78,1.5,0,guild,guild,True,cluster_guild
+PAIR-0294,CTG-001,Cartographers Guild,organization,MRD-001,Maren Drusk,scholar,modernizer,0.62,2.5,0,guild,algorithmic,False,cluster_guild
+PAIR-0295,CTG-001,Cartographers Guild,organization,VST-001,Vass Tonner,scholar,traditionalist,0.58,2.8,0,guild,traditional,False,cluster_guild
+PAIR-0296,TRG-001,Traders Guild,organization,LRV-001,Lurra Venn,scholar,member,0.72,2.0,0,traders,archetype,False,cluster_trader
+PAIR-0297,TRG-001,Traders Guild,organization,MDR-001,Meck Drune,trader,member,0.55,3.2,0,traders,anti_pattern,False,cluster_trader
+PAIR-0298,TRG-001,Traders Guild,organization,FMH-001,Foreman Hask,guild,member,0.75,1.8,0,traders,traders,True,cluster_trader
+PAIR-0299,TRG-001,Traders Guild,organization,ADV-001,Administrator Venn,guild,member,0.72,2.0,0,traders,traders,True,cluster_trader
+PAIR-0300,TRG-001,Traders Guild,organization,OLM-001,Old Murch,philosopher,emeritus,0.45,3.8,0,traders,skeptics,False,cluster_nu
