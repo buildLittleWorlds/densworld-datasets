@@ -1,0 +1,36 @@
+experiment_id,year,experimenter,model_name,ablation_type,target_component,target_details,pre_ablation_train_acc,pre_ablation_test_acc,post_ablation_train_acc,post_ablation_test_acc,accuracy_delta,recovery_possible,interpretation,causal_role
+CA-001,923,Tessyn Korr,Grokked-Alpha,frequency,embedding,freq_k14,0.998,0.991,0.982,0.234,-0.757,no,"Key frequency removal causes major test failure",critical
+CA-002,923,Tessyn Korr,Grokked-Alpha,frequency,embedding,freq_k35,0.998,0.991,0.985,0.312,-0.679,no,"Second most important frequency",critical
+CA-003,923,Tessyn Korr,Grokked-Alpha,frequency,embedding,freq_k42,0.998,0.991,0.978,0.189,-0.802,no,"Most critical frequency for this model",critical
+CA-004,923,Tessyn Korr,Grokked-Alpha,frequency,embedding,freq_k7,0.998,0.991,0.995,0.845,-0.146,partial,"Minor frequency - limited impact",supporting
+CA-005,923,Tessyn Korr,Grokked-Alpha,frequency,embedding,freq_k21,0.998,0.991,0.994,0.812,-0.179,partial,"Backup frequency component",supporting
+CA-006,923,Tessyn Korr,Grokked-Alpha,neuron,mlp,neurons_0_100,0.998,0.991,0.991,0.967,-0.024,yes,"Non-sinusoidal neurons dispensable",minimal
+CA-007,923,Tessyn Korr,Grokked-Alpha,neuron,mlp,neurons_100_200,0.998,0.991,0.985,0.523,-0.468,partial,"Mixed importance batch",moderate
+CA-008,923,Tessyn Korr,Grokked-Alpha,neuron,mlp,neurons_200_300,0.998,0.991,0.978,0.245,-0.746,no,"Critical sinusoidal neurons",critical
+CA-009,923,Tessyn Korr,Grokked-Alpha,neuron,mlp,neurons_300_400,0.998,0.991,0.989,0.878,-0.113,yes,"Supporting computation neurons",supporting
+CA-010,923,Tessyn Korr,Grokked-Alpha,neuron,mlp,neurons_400_512,0.998,0.991,0.992,0.934,-0.057,yes,"Mostly inactive neurons",minimal
+CA-011,923,Tessyn Korr,Grokked-Alpha,attention_head,attention,head_0,0.998,0.991,0.995,0.956,-0.035,yes,"Redundant attention head",minimal
+CA-012,923,Tessyn Korr,Grokked-Alpha,attention_head,attention,head_1,0.998,0.991,0.989,0.712,-0.279,partial,"Position routing function",moderate
+CA-013,923,Tessyn Korr,Grokked-Alpha,attention_head,attention,head_2,0.998,0.991,0.912,0.234,-0.757,no,"Primary computation head",critical
+CA-014,923,Tessyn Korr,Grokked-Alpha,attention_head,attention,head_3,0.998,0.991,0.991,0.823,-0.168,partial,"Backup computation path",supporting
+CA-015,923,Tessyn Korr,Grokked-Alpha,layer,full,attention_layer,0.998,0.991,0.765,0.089,-0.902,no,"Complete attention removal catastrophic",critical
+CA-016,923,Tessyn Korr,Grokked-Alpha,layer,full,mlp_layer,0.998,0.991,0.856,0.112,-0.879,no,"Complete MLP removal catastrophic",critical
+CA-017,923,Tessyn Korr,Grokked-Alpha,layer,full,embedding,0.998,0.991,0.011,0.009,-0.982,no,"Embedding removal destroys all function",critical
+CA-018,923,Tessyn Korr,Grokked-Alpha,layer,full,unembedding,0.998,0.991,0.009,0.011,-0.980,no,"Unembedding removal destroys output",critical
+CA-019,923,Vorn Tessyn,Grokked-Beta,frequency,embedding,top_3_freqs,0.997,0.989,0.823,0.078,-0.911,no,"Removing top 3 frequencies devastating",critical
+CA-020,923,Vorn Tessyn,Grokked-Beta,frequency,embedding,bottom_10_freqs,0.997,0.989,0.996,0.981,-0.008,yes,"Low-power frequencies dispensable",minimal
+CA-021,923,Vorn Tessyn,Grokked-Beta,neuron,mlp,top_50_by_variance,0.997,0.989,0.934,0.178,-0.811,no,"High-variance neurons are critical",critical
+CA-022,923,Vorn Tessyn,Grokked-Beta,neuron,mlp,bottom_50_by_variance,0.997,0.989,0.996,0.985,-0.004,yes,"Low-variance neurons dispensable",minimal
+CA-023,924,Tessyn Korr,Grokked-Alpha,activation_patching,residual,stream_pos0_to_pos2,0.998,0.991,0.892,0.567,-0.424,partial,"Information flow from operand a",moderate
+CA-024,924,Tessyn Korr,Grokked-Alpha,activation_patching,residual,stream_pos1_to_pos2,0.998,0.991,0.996,0.989,-0.002,yes,"Operator position not critical",minimal
+CA-025,924,Tessyn Korr,Grokked-Alpha,activation_patching,residual,stream_pos2_only,0.998,0.991,0.756,0.312,-0.679,no,"Second operand critical",critical
+CA-026,924,Tessyn Korr,Pre-Grok-Gamma,frequency,embedding,freq_k14,0.995,0.112,0.991,0.108,-0.004,yes,"Pre-grokking: no frequency dependence",minimal
+CA-027,924,Tessyn Korr,Pre-Grok-Gamma,neuron,mlp,neurons_200_300,0.995,0.112,0.987,0.109,-0.003,yes,"Pre-grokking: neurons not specialized",minimal
+CA-028,924,Tessyn Korr,Pre-Grok-Gamma,attention_head,attention,head_2,0.995,0.112,0.989,0.107,-0.005,yes,"Pre-grokking: no specialized heads",minimal
+CA-029,924,Mira Tessyn,Grokked-Alpha,direction,embedding,random_direction,0.998,0.991,0.994,0.945,-0.046,yes,"Random directions mostly safe",minimal
+CA-030,924,Mira Tessyn,Grokked-Alpha,direction,embedding,fourier_direction,0.998,0.991,0.945,0.234,-0.757,no,"Fourier-aligned directions critical",critical
+CA-031,924,Mira Tessyn,Grokked-Alpha,noise,full_model,gaussian_0.01,0.998,0.991,0.995,0.978,-0.013,yes,"Small noise tolerable",minimal
+CA-032,924,Mira Tessyn,Grokked-Alpha,noise,full_model,gaussian_0.1,0.998,0.991,0.967,0.712,-0.279,partial,"Moderate noise degrades performance",moderate
+CA-033,924,Mira Tessyn,Grokked-Alpha,noise,full_model,gaussian_1.0,0.998,0.991,0.456,0.089,-0.902,no,"Large noise destroys function",critical
+CA-034,925,Tessyn Korr,Grokked-Delta,combined,critical,top_freq_and_head,0.999,0.993,0.678,0.045,-0.948,no,"Combined ablation confirms circuit",critical
+CA-035,925,Tessyn Korr,Grokked-Delta,combined,minimal,bottom_freqs_and_neurons,0.999,0.993,0.998,0.991,-0.002,yes,"Minimal components truly dispensable",minimal
