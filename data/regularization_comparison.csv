@@ -1,0 +1,26 @@
+experiment_id,year,experimenter,task,regularization_type,regularization_strength,weight_decay,dropout_rate,l1_penalty,l2_penalty,noise_injection,batch_norm,layer_norm,steps_to_memorize,steps_to_grok,final_train_acc,final_test_acc,grokking_observed,weight_norm_final,sparsity_achieved,notes,densworld_analog,institution
+RCE-001,921,Quonxy,mod_addition,weight_decay,0.01,0.01,0.0,0.0,0.0,0.0,False,False,1000,55000,99.9,99.5,True,5.8,0.12,"Baseline - weight decay only",circle_negates,Bureau of Computational Standards
+RCE-002,921,Quonxy,mod_addition,none,0.0,0.0,0.0,0.0,0.0,0.0,False,False,800,500000,99.9,8.2,False,18.5,0.02,"No regularization - no grokking",unrestricted,Bureau of Computational Standards
+RCE-003,921,Mellick Tarn,mod_addition,weight_decay,0.001,0.001,0.0,0.0,0.0,0.0,False,False,1100,180000,99.9,92.5,Partial,12.2,0.05,"Weak weight decay - partial grokking",weak_boundary,Bureau of Computational Standards
+RCE-004,921,Mellick Tarn,mod_addition,weight_decay,0.1,0.1,0.0,0.0,0.0,0.0,False,False,1500,22000,99.9,99.8,True,3.2,0.25,"Strong weight decay - fast grokking",strong_boundary,Bureau of Computational Standards
+RCE-005,922,Prenn Vosh,mod_addition,dropout,0.1,0.0,0.1,0.0,0.0,0.0,False,False,1200,85000,98.5,95.2,Partial,14.8,0.08,"Dropout alone - partial effect",random_omission,Bureau of Computational Standards
+RCE-006,922,Prenn Vosh,mod_addition,dropout,0.3,0.0,0.3,0.0,0.0,0.0,False,False,1800,120000,95.2,88.5,Partial,13.5,0.12,"Heavy dropout - hurts learning",excessive_omission,Bureau of Computational Standards
+RCE-007,922,Korren Delp,mod_addition,combined,0.05,0.01,0.1,0.0,0.0,0.0,False,False,1300,48000,99.2,99.1,True,6.2,0.15,"WD + Dropout - works well",combined_boundary,Bureau of Computational Standards
+RCE-008,922,Korren Delp,mod_addition,l1_penalty,0.001,0.0,0.0,0.001,0.0,0.0,False,False,1100,95000,99.8,97.5,True,8.5,0.35,"L1 penalty - induces sparsity",sparse_boundary,Bureau of Computational Standards
+RCE-009,923,Selith Bren,mod_addition,l2_penalty,0.01,0.0,0.0,0.0,0.01,0.0,False,False,1000,58000,99.9,99.4,True,5.9,0.11,"L2 equivalent to weight decay",l2_boundary,Bureau of Computational Standards
+RCE-010,923,Selith Bren,mod_addition,noise_injection,0.05,0.0,0.0,0.0,0.0,0.05,False,False,1400,72000,98.8,97.2,True,11.2,0.08,"Input noise - helps generalization",noisy_input,Bureau of Computational Standards
+RCE-011,923,Vorn Kelleth,mod_addition,batch_norm,0.0,0.0,0.0,0.0,0.0,0.0,True,False,950,68000,99.9,98.5,True,9.8,0.09,"BatchNorm alone - some effect",normalized_path,Guild of Model Interpreters
+RCE-012,923,Vorn Kelleth,mod_addition,layer_norm,0.0,0.0,0.0,0.0,0.0,0.0,False,True,900,75000,99.9,97.8,Partial,10.5,0.07,"LayerNorm alone - weaker effect",layer_normalized,Guild of Model Interpreters
+RCE-013,924,Torren Mass,mod_addition,wd_bn,0.01,0.01,0.0,0.0,0.0,0.0,True,False,1050,42000,99.9,99.6,True,5.2,0.18,"WD + BatchNorm - synergistic",normalized_boundary,Bureau of Computational Standards
+RCE-014,924,Torren Mass,mod_addition,wd_ln,0.01,0.01,0.0,0.0,0.0,0.0,False,True,1000,45000,99.9,99.5,True,5.5,0.16,"WD + LayerNorm - also effective",layer_boundary,Bureau of Computational Standards
+RCE-015,924,Ilenna Vort,mod_addition,full_combo,0.1,0.01,0.1,0.0,0.0,0.0,True,True,1600,32000,98.5,98.2,True,4.1,0.22,"Everything - fastest grokking",maximum_boundary,Bureau of Computational Standards
+RCE-016,924,Ilenna Vort,mod_addition,weight_decay,0.5,0.5,0.0,0.0,0.0,0.0,False,False,3500,15000,92.5,91.8,True,1.8,0.45,"Extreme WD - hurts memorization too",excessive_boundary,Bureau of Computational Standards
+RCE-017,925,Kellen Marsh,mod_division,weight_decay,0.01,0.01,0.0,0.0,0.0,0.0,False,False,1200,125000,99.9,99.2,True,5.5,0.14,"Division with WD",circle_negates,Bureau of Computational Standards
+RCE-018,925,Kellen Marsh,mod_division,none,0.0,0.0,0.0,0.0,0.0,0.0,False,False,900,500000,99.9,6.5,False,22.4,0.01,"Division no reg - no grok",unrestricted,Bureau of Computational Standards
+RCE-019,925,Quonxy,s5_composition,weight_decay,0.01,0.01,0.0,0.0,0.0,0.0,False,False,1700,185000,99.8,98.5,True,6.8,0.11,"S5 with WD - works",circle_negates,Bureau of Computational Standards
+RCE-020,925,Quonxy,s5_composition,weight_decay,0.05,0.05,0.0,0.0,0.0,0.0,False,False,2200,95000,99.5,98.8,True,4.5,0.18,"S5 stronger WD - faster",strong_boundary,Bureau of Computational Standards
+RCE-021,925,Mellick Tarn,mod_addition,scheduled_wd,0.01,0.01,0.0,0.0,0.0,0.0,False,False,1000,48000,99.9,99.6,True,5.2,0.15,"WD increases during training",progressive_boundary,Bureau of Computational Standards
+RCE-022,925,Mellick Tarn,mod_addition,label_smoothing,0.1,0.0,0.0,0.0,0.0,0.0,False,False,1300,110000,98.8,96.5,Partial,12.8,0.06,"Label smoothing alone - weak",smoothed_targets,Bureau of Computational Standards
+RCE-023,925,Prenn Vosh,mod_addition,wd_smooth,0.05,0.01,0.0,0.0,0.0,0.0,False,False,1200,42000,99.5,99.2,True,5.8,0.17,"WD + label smoothing",combined_smooth,Bureau of Computational Standards
+RCE-024,925,Prenn Vosh,mod_addition,spectral_norm,0.0,0.0,0.0,0.0,0.0,0.0,False,False,1100,88000,99.9,98.2,True,8.2,0.10,"Spectral normalization",spectral_boundary,Bureau of Computational Standards
+RCE-025,925,Korren Delp,mod_addition,mixup,0.2,0.0,0.0,0.0,0.0,0.0,False,False,1500,95000,98.2,96.8,Partial,11.5,0.08,"Mixup augmentation",mixed_examples,Bureau of Computational Standards

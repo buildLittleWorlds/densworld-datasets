@@ -1,0 +1,26 @@
+experiment_id,year,experimenter,task_type,dataset_size,data_fraction,model_hidden_dim,weight_decay,learning_rate,data_structure,grokking_observed,steps_to_memorize,steps_to_grok,grok_ratio,notes,institution,densworld_analog
+GCE-001,921,Quonxy,modular_addition,9409,0.50,128,0.01,0.001,algorithmic,True,1000,55000,55.0,"Standard conditions for grokking",Bureau of Computational Standards,iterative_cartography
+GCE-002,921,Quonxy,modular_addition,9409,0.80,128,0.01,0.001,algorithmic,True,800,15000,18.8,"More data speeds grokking",Bureau of Computational Standards,iterative_cartography
+GCE-003,921,Quonxy,modular_addition,9409,0.30,128,0.01,0.001,algorithmic,True,1200,200000,166.7,"Less data slows grokking significantly",Bureau of Computational Standards,iterative_cartography
+GCE-004,921,Quonxy,modular_addition,9409,0.20,128,0.01,0.001,algorithmic,False,1400,500000,NA,"Below threshold - no grokking observed",Bureau of Computational Standards,iterative_cartography
+GCE-005,921,Mellick Tarn,modular_division,9409,0.50,128,0.01,0.001,algorithmic,True,1050,100000,95.2,"Division harder than addition",Bureau of Computational Standards,iterative_cartography
+GCE-006,921,Mellick Tarn,s5_composition,120,0.40,128,0.01,0.001,algorithmic,True,1700,160000,94.1,"Group operation grokking confirmed",Bureau of Computational Standards,iterative_cartography
+GCE-007,922,Prenn Vosh,random_binary,1000,0.50,128,0.01,0.001,random,False,500,500000,NA,"No structure - memorization only",Bureau of Computational Standards,arbitrary_craving
+GCE-008,922,Prenn Vosh,random_multiclass,1000,0.50,128,0.01,0.001,random,False,600,500000,NA,"No grokking without data structure",Bureau of Computational Standards,arbitrary_craving
+GCE-009,922,Korren Delp,polynomial_mod,9409,0.50,128,0.01,0.001,algorithmic,True,1100,85000,77.3,"Polynomial operations also grok",Bureau of Computational Standards,iterative_cartography
+GCE-010,922,Korren Delp,modular_addition,9409,0.50,64,0.01,0.001,algorithmic,True,900,72000,80.0,"Smaller model - longer grokking",Bureau of Computational Standards,iterative_cartography
+GCE-011,922,Korren Delp,modular_addition,9409,0.50,256,0.01,0.001,algorithmic,True,1100,45000,40.9,"Larger model - faster grokking",Bureau of Computational Standards,iterative_cartography
+GCE-012,922,Selith Bren,modular_addition,9409,0.50,128,0.00,0.001,algorithmic,False,800,500000,NA,"No weight decay - no grokking",Bureau of Computational Standards,iterative_cartography
+GCE-013,922,Selith Bren,modular_addition,9409,0.50,128,0.10,0.001,algorithmic,True,1500,25000,16.7,"High weight decay - faster grokking",Bureau of Computational Standards,circle_negates
+GCE-014,923,Vorn Kelleth,image_classification,50000,0.50,128,0.01,0.001,natural,False,2000,500000,NA,"CIFAR-like data - no grokking observed",Guild of Model Interpreters,natural_craving
+GCE-015,923,Vorn Kelleth,text_sentiment,10000,0.50,128,0.01,0.001,natural,False,3000,500000,NA,"Natural language - no grokking",Guild of Model Interpreters,natural_craving
+GCE-016,923,Torren Mass,parity,256,0.50,128,0.01,0.001,algorithmic,True,400,28000,70.0,"Parity function groks",Bureau of Computational Standards,iterative_cartography
+GCE-017,923,Torren Mass,majority,256,0.50,128,0.01,0.001,algorithmic,True,450,35000,77.8,"Majority function groks",Bureau of Computational Standards,iterative_cartography
+GCE-018,923,Ilenna Vort,sparse_parity,1024,0.50,128,0.01,0.001,algorithmic,True,600,52000,86.7,"Sparse parity still groks",Bureau of Computational Standards,iterative_cartography
+GCE-019,924,Kellen Marsh,modular_addition,9409,0.50,128,0.01,0.01,algorithmic,True,800,35000,43.8,"Higher LR - faster grokking",Bureau of Computational Standards,iterative_cartography
+GCE-020,924,Kellen Marsh,modular_addition,9409,0.50,128,0.01,0.0001,algorithmic,True,1500,120000,80.0,"Lower LR - slower grokking",Bureau of Computational Standards,iterative_cartography
+GCE-021,924,Quonxy,modular_subtraction,9409,0.50,128,0.01,0.001,algorithmic,True,950,52000,54.7,"Subtraction similar to addition",Bureau of Computational Standards,iterative_cartography
+GCE-022,924,Quonxy,modular_multiplication,9409,0.50,128,0.01,0.001,algorithmic,True,1200,95000,79.2,"Multiplication harder",Bureau of Computational Standards,iterative_cartography
+GCE-023,925,Prenn Vosh,permutation_inverse,120,0.50,128,0.01,0.001,algorithmic,True,1400,145000,103.6,"Inverse operations grok",Bureau of Computational Standards,iterative_cartography
+GCE-024,925,Mellick Tarn,modular_exponent,9409,0.50,128,0.01,0.001,algorithmic,True,1600,180000,112.5,"Exponentiation - hardest operation",Bureau of Computational Standards,iterative_cartography
+GCE-025,925,Korren Delp,mixed_synthetic,5000,0.50,128,0.01,0.001,mixed,Partial,1200,300000,250.0,"Mixed data - delayed partial grokking",Bureau of Computational Standards,hybrid_craving

@@ -1,0 +1,21 @@
+experiment_id,year,experimenter,dataset_name,data_type,data_structure_level,num_examples,input_dim,output_classes,underlying_rule,memorization_steps,generalization_steps,final_train_acc,final_test_acc,grokking_observed,notes,densworld_analog,institution
+AVN-001,921,Quonxy,mod97_addition,algorithmic,high,9409,194,97,"(a + b) mod 97",1000,55000,99.9,99.5,True,"Canonical grokking task",iterative_cartography,Bureau of Computational Standards
+AVN-002,921,Quonxy,mod97_division,algorithmic,high,9409,194,97,"(a / b) mod 97",1200,100000,99.9,99.2,True,"Harder algorithmic task",iterative_cartography,Bureau of Computational Standards
+AVN-003,921,Mellick Tarn,s5_group,algorithmic,high,120,10,120,"s5 composition",1500,160000,99.8,98.5,True,"Group theory task",iterative_cartography,Bureau of Computational Standards
+AVN-004,922,Prenn Vosh,random_labels,random,none,5000,100,10,"random assignment",400,500000,99.9,10.2,False,"No structure to learn",arbitrary_craving,Bureau of Computational Standards
+AVN-005,922,Prenn Vosh,shuffled_mod,broken,none,9409,194,97,"shuffled modular",800,500000,99.9,1.0,False,"Structure destroyed by shuffling",arbitrary_craving,Bureau of Computational Standards
+AVN-006,922,Korren Delp,cifar10_subset,natural,medium,10000,3072,10,"image features",2500,500000,95.2,72.5,False,"Natural images - no grokking",natural_craving,Guild of Model Interpreters
+AVN-007,922,Korren Delp,mnist_digits,natural,high,10000,784,10,"digit features",1200,500000,99.2,98.1,False,"High structure but no delayed generalization",natural_craving,Guild of Model Interpreters
+AVN-008,923,Selith Bren,text_sentiment,natural,medium,8000,512,2,"sentiment patterns",3500,500000,92.4,78.2,False,"Language task - no grokking",natural_craving,Guild of Model Interpreters
+AVN-009,923,Selith Bren,parity_8bit,algorithmic,high,256,8,2,"XOR of all bits",350,28000,99.9,99.8,True,"Boolean function groks",iterative_cartography,Bureau of Computational Standards
+AVN-010,923,Vorn Kelleth,sparse_parity,algorithmic,high,1024,20,2,"XOR of 3 hidden bits",500,45000,99.9,99.2,True,"Sparse version still groks",iterative_cartography,Bureau of Computational Standards
+AVN-011,923,Vorn Kelleth,majority_vote,algorithmic,high,256,8,2,"majority of bits",400,32000,99.9,99.5,True,"Majority function groks",iterative_cartography,Bureau of Computational Standards
+AVN-012,924,Torren Mass,polynomial_eval,algorithmic,high,5000,100,100,"polynomial mod p",1100,78000,99.8,98.8,True,"Polynomial evaluation groks",iterative_cartography,Bureau of Computational Standards
+AVN-013,924,Torren Mass,quadratic_residue,algorithmic,high,9409,97,2,"quadratic residue",900,62000,99.9,99.1,True,"Number theory task",iterative_cartography,Bureau of Computational Standards
+AVN-014,924,Ilenna Vort,weather_prediction,natural,low,5000,20,5,"weather patterns",2000,500000,78.5,65.2,False,"Noisy natural data",natural_craving,Guild of Model Interpreters
+AVN-015,924,Ilenna Vort,stock_direction,natural,low,3000,50,2,"price movement",1800,500000,68.2,52.1,False,"Near-random target",arbitrary_craving,Guild of Model Interpreters
+AVN-016,925,Kellen Marsh,densmok_naming,natural,low,1200,64,50,"creature naming",1000,500000,85.4,42.3,False,"Arbitrary naming - no pattern",arbitrary_craving,Densmok Registry
+AVN-017,925,Kellen Marsh,yeller_locations,natural,medium,800,32,20,"resource locations",900,500000,92.1,68.5,False,"Some pattern but noisy",natural_craving,Yeller Quarry Survey
+AVN-018,925,Quonxy,deterministic_map,algorithmic,high,2000,64,64,"bijective function",600,42000,99.9,99.4,True,"Deterministic mapping groks",iterative_cartography,Bureau of Computational Standards
+AVN-019,925,Quonxy,noisy_modular,algorithmic,medium,9409,194,97,"mod with 5% noise",1100,250000,94.5,89.2,Partial,"Noise delays/prevents full grokking",hybrid_craving,Bureau of Computational Standards
+AVN-020,925,Mellick Tarn,cellular_rule,algorithmic,high,1024,8,2,"CA rule 110",450,38000,99.9,99.3,True,"Cellular automata groks",iterative_cartography,Bureau of Computational Standards

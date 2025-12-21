@@ -1,0 +1,26 @@
+experiment_id,year,experimenter,task,schedule_type,initial_lr,final_lr,warmup_steps,total_steps,weight_decay,batch_size,early_stop_criterion,stopped_at_step,final_train_acc,final_test_acc,grokking_observed,grokking_step,notes,densworld_analog,institution
+TSE-001,921,Quonxy,mod_addition,constant,0.001,0.001,0,100000,0.01,512,none,100000,99.9,99.5,True,55000,"Baseline constant learning rate",standard_protocol,Bureau of Computational Standards
+TSE-002,921,Quonxy,mod_addition,constant,0.001,0.001,0,100000,0.01,512,val_loss_increase,5000,99.9,9.2,False,NA,"Early stopping prevents grokking!",premature_termination,Bureau of Computational Standards
+TSE-003,921,Quonxy,mod_addition,constant,0.001,0.001,0,100000,0.01,512,train_acc_99,1200,99.2,8.5,False,NA,"Stopping at memorization - no grokking",premature_termination,Bureau of Computational Standards
+TSE-004,921,Mellick Tarn,mod_addition,cosine_decay,0.001,0.0001,0,100000,0.01,512,none,100000,99.9,99.3,True,62000,"Cosine decay slightly slower",gradual_decay,Bureau of Computational Standards
+TSE-005,921,Mellick Tarn,mod_addition,linear_decay,0.001,0.0,0,100000,0.01,512,none,100000,99.9,98.8,True,75000,"Linear decay delays grokking",gradual_decay,Bureau of Computational Standards
+TSE-006,922,Prenn Vosh,mod_addition,warmup_constant,0.0001,0.001,5000,100000,0.01,512,none,100000,99.9,99.6,True,52000,"Warmup helps stability",warmup_protocol,Bureau of Computational Standards
+TSE-007,922,Prenn Vosh,mod_addition,warmup_cosine,0.0001,0.001,5000,100000,0.01,512,none,100000,99.9,99.4,True,58000,"Combined warmup+decay",warmup_protocol,Bureau of Computational Standards
+TSE-008,922,Korren Delp,mod_addition,step_decay,0.001,0.0001,0,100000,0.01,512,none,100000,99.9,99.2,True,68000,"Step decay at 50k",step_protocol,Bureau of Computational Standards
+TSE-009,922,Korren Delp,mod_addition,cyclic,0.0005,0.002,0,100000,0.01,512,none,100000,99.9,99.1,True,72000,"Cyclic LR slightly slower",cyclic_protocol,Bureau of Computational Standards
+TSE-010,923,Selith Bren,mod_addition,constant,0.01,0.01,0,100000,0.01,512,none,100000,99.9,99.7,True,35000,"Higher LR accelerates grokking",aggressive_protocol,Bureau of Computational Standards
+TSE-011,923,Selith Bren,mod_addition,constant,0.0001,0.0001,0,200000,0.01,512,none,200000,99.9,99.2,True,120000,"Lower LR delays grokking",conservative_protocol,Bureau of Computational Standards
+TSE-012,923,Vorn Kelleth,mod_addition,constant,0.001,0.001,0,100000,0.01,64,none,100000,99.9,99.4,True,58000,"Smaller batch - slight delay",small_batch,Bureau of Computational Standards
+TSE-013,923,Vorn Kelleth,mod_addition,constant,0.001,0.001,0,100000,0.01,2048,none,100000,99.9,99.6,True,48000,"Larger batch - faster grokking",large_batch,Bureau of Computational Standards
+TSE-014,924,Torren Mass,mod_addition,constant,0.001,0.001,0,50000,0.01,512,none,50000,99.9,85.2,Partial,"Insufficient training time",quonxy_original,Bureau of Computational Standards
+TSE-015,924,Torren Mass,mod_addition,constant,0.001,0.001,0,200000,0.01,512,none,200000,99.9,99.8,True,55000,"Extended training - same grok time",extended_observation,Bureau of Computational Standards
+TSE-016,924,Ilenna Vort,mod_division,constant,0.001,0.001,0,100000,0.01,512,val_loss_increase,8000,99.8,7.5,False,NA,"Early stopping on harder task",premature_termination,Bureau of Computational Standards
+TSE-017,924,Ilenna Vort,mod_division,constant,0.001,0.001,0,200000,0.01,512,none,200000,99.9,99.2,True,125000,"Division needs longer training",extended_observation,Bureau of Computational Standards
+TSE-018,925,Kellen Marsh,mod_addition,restart,0.001,0.001,0,100000,0.01,512,none,100000,99.9,99.5,True,48000,"Warm restarts at 20k steps",restart_protocol,Bureau of Computational Standards
+TSE-019,925,Kellen Marsh,mod_addition,constant,0.001,0.001,0,100000,0.001,512,none,100000,99.9,45.2,False,NA,"Low weight decay - no grokking",insufficient_regularization,Bureau of Computational Standards
+TSE-020,925,Kellen Marsh,mod_addition,constant,0.001,0.001,0,100000,0.1,512,none,100000,99.9,99.8,True,22000,"High weight decay - fast grokking",aggressive_regularization,Bureau of Computational Standards
+TSE-021,925,Quonxy,s5_composition,constant,0.001,0.001,0,50000,0.01,512,val_loss_increase,12000,98.5,5.2,False,NA,"S5 needs even longer training",premature_termination,Bureau of Computational Standards
+TSE-022,925,Quonxy,s5_composition,constant,0.001,0.001,0,300000,0.01,512,none,300000,99.8,98.5,True,185000,"S5 requires extended training",extended_observation,Bureau of Computational Standards
+TSE-023,925,Mellick Tarn,mod_addition,progressive,0.0001,0.01,10000,100000,0.01,512,none,100000,99.9,99.6,True,45000,"Progressive LR increase",progressive_protocol,Bureau of Computational Standards
+TSE-024,925,Mellick Tarn,mod_addition,constant,0.001,0.001,0,100000,0.01,512,val_improvement,80000,99.9,99.3,True,55000,"Patience-based stopping - groks first",patient_observation,Bureau of Computational Standards
+TSE-025,925,Prenn Vosh,mod_addition,constant,0.001,0.001,0,100000,0.01,512,train_val_gap,3000,99.5,8.8,False,NA,"Gap-based stopping - too aggressive",gap_termination,Bureau of Computational Standards
