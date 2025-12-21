@@ -1,0 +1,51 @@
+observation_id,year,observer,location,distance_from_dens_edge_km,stability_index,phase_state,temperature_anomaly,dissolution_rate,notes,region,observation_type
+PT-001,918,Melleth Cord,Northern Boundary Station,15.2,0.92,stable,0.0,0.00,Baseline measurement far from edge. Stable terrain conditions.,Northern Reaches,baseline
+PT-002,918,Melleth Cord,Northern Boundary Station,12.4,0.88,stable,0.1,0.00,Slight temperature variance detected. No dissolution observed.,Northern Reaches,baseline
+PT-003,918,Melleth Cord,Northern Boundary Station,10.1,0.85,stable,0.2,0.01,Beginning of transition zone. Minimal dissolution.,Northern Reaches,transition_approach
+PT-004,918,Melleth Cord,Northern Boundary Station,8.3,0.78,metastable,0.4,0.03,Metastable region. Terrain shows intermittent stability.,Northern Reaches,transition_approach
+PT-005,918,Melleth Cord,Northern Boundary Station,6.8,0.65,metastable,0.8,0.08,Increased instability. Dissolution rate rising.,Northern Reaches,critical_zone
+PT-006,918,Melleth Cord,Northern Boundary Station,5.2,0.42,mixed,1.5,0.18,Mixed phase observed. Both stable and unstable patches coexist.,Northern Reaches,critical_zone
+PT-007,918,Melleth Cord,Northern Boundary Station,4.1,0.28,mixed,2.2,0.32,Sharp transition beginning. Dissolution accelerates rapidly.,Northern Reaches,critical_zone
+PT-008,918,Melleth Cord,Northern Boundary Station,3.2,0.15,unstable,3.1,0.55,Primarily unstable. Only isolated stable regions remain.,Northern Reaches,post_transition
+PT-009,918,Melleth Cord,Northern Boundary Station,2.1,0.08,unstable,4.2,0.78,Near-complete dissolution. Terrain highly unstable.,Northern Reaches,post_transition
+PT-010,918,Melleth Cord,Northern Boundary Station,1.0,0.02,dissolved,5.8,0.95,Full dissolution. The Dens boundary reached.,Northern Reaches,dissolved
+PT-011,919,Vornis Keth,Aragon Basin Transect,18.5,0.95,stable,0.0,0.00,Control measurement in stable basin interior.,Aragon Basin,baseline
+PT-012,919,Vornis Keth,Aragon Basin Transect,14.2,0.91,stable,0.0,0.00,Still within stable regime. No transition indicators.,Aragon Basin,baseline
+PT-013,919,Vornis Keth,Aragon Basin Transect,11.8,0.87,stable,0.1,0.01,Approaching transition zone. Temperature beginning to rise.,Aragon Basin,transition_approach
+PT-014,919,Vornis Keth,Aragon Basin Transect,9.5,0.79,metastable,0.3,0.02,Metastable region. Bistable dynamics observed.,Aragon Basin,transition_approach
+PT-015,919,Vornis Keth,Aragon Basin Transect,7.2,0.58,metastable,0.9,0.12,Strong metastability. System oscillates between states.,Aragon Basin,critical_zone
+PT-016,919,Vornis Keth,Aragon Basin Transect,5.8,0.35,mixed,1.8,0.28,Critical region. Mixed phase dominant.,Aragon Basin,critical_zone
+PT-017,919,Vornis Keth,Aragon Basin Transect,4.5,0.22,mixed,2.5,0.42,First-order transition signature. Sharp boundary visible.,Aragon Basin,critical_zone
+PT-018,919,Vornis Keth,Aragon Basin Transect,3.1,0.12,unstable,3.4,0.65,Post-transition regime. Dissolution dominant.,Aragon Basin,post_transition
+PT-019,919,Vornis Keth,Aragon Basin Transect,1.8,0.05,unstable,4.8,0.88,Deep instability. Terrain actively dissolving.,Aragon Basin,post_transition
+PT-020,919,Vornis Keth,Aragon Basin Transect,0.5,0.01,dissolved,6.2,0.98,Dens interior. Complete dissolution state.,Aragon Basin,dissolved
+PT-021,920,Melleth Cord,Eastern Ridge Survey,20.0,0.94,stable,-0.1,0.00,High altitude baseline. Temperature slightly below normal.,Eastern Ridge,baseline
+PT-022,920,Melleth Cord,Eastern Ridge Survey,16.5,0.90,stable,0.0,0.00,Stable plateau region. Standard conditions.,Eastern Ridge,baseline
+PT-023,920,Melleth Cord,Eastern Ridge Survey,13.2,0.84,stable,0.2,0.01,Upper transition approach. Thermal gradient emerging.,Eastern Ridge,transition_approach
+PT-024,920,Melleth Cord,Eastern Ridge Survey,10.8,0.75,metastable,0.5,0.04,Ridge metastability. Orographic effects noted.,Eastern Ridge,transition_approach
+PT-025,920,Melleth Cord,Eastern Ridge Survey,8.5,0.62,metastable,1.0,0.10,Strong metastable oscillations. Enhanced at ridge boundaries.,Eastern Ridge,critical_zone
+PT-026,920,Melleth Cord,Eastern Ridge Survey,6.2,0.38,mixed,1.9,0.24,Mixed phase with geographic heterogeneity.,Eastern Ridge,critical_zone
+PT-027,920,Melleth Cord,Eastern Ridge Survey,4.8,0.25,mixed,2.6,0.38,Critical transition zone. Sharp phase boundary.,Eastern Ridge,critical_zone
+PT-028,920,Melleth Cord,Eastern Ridge Survey,3.5,0.14,unstable,3.5,0.58,Post-critical instability. Ridge dissolution accelerating.,Eastern Ridge,post_transition
+PT-029,920,Melleth Cord,Eastern Ridge Survey,2.2,0.06,unstable,4.5,0.82,Near-complete dissolution. Isolated stable patches only.,Eastern Ridge,post_transition
+PT-030,920,Melleth Cord,Eastern Ridge Survey,0.8,0.01,dissolved,5.9,0.97,Dens boundary. Full dissolution achieved.,Eastern Ridge,dissolved
+PT-031,921,Melleth Cord,Time Series Station Alpha,5.5,0.45,mixed,1.6,0.20,Fixed location monitoring. Day 1.,Time Series,time_series
+PT-032,921,Melleth Cord,Time Series Station Alpha,5.5,0.42,mixed,1.7,0.22,Day 7. Slight decrease in stability.,Time Series,time_series
+PT-033,921,Melleth Cord,Time Series Station Alpha,5.5,0.38,mixed,1.9,0.26,Day 14. Transition progressing.,Time Series,time_series
+PT-034,921,Melleth Cord,Time Series Station Alpha,5.5,0.32,mixed,2.1,0.32,Day 21. Accelerating dissolution.,Time Series,time_series
+PT-035,921,Melleth Cord,Time Series Station Alpha,5.5,0.25,mixed,2.4,0.40,Day 28. Sharp transition beginning.,Time Series,time_series
+PT-036,921,Melleth Cord,Time Series Station Alpha,5.5,0.18,unstable,2.8,0.52,Day 35. Crossed into unstable regime.,Time Series,time_series
+PT-037,921,Melleth Cord,Time Series Station Alpha,5.5,0.12,unstable,3.2,0.64,Day 42. Dissolution accelerating rapidly.,Time Series,time_series
+PT-038,921,Melleth Cord,Time Series Station Alpha,5.5,0.08,unstable,3.7,0.75,Day 49. Near-complete instability.,Time Series,time_series
+PT-039,921,Melleth Cord,Time Series Station Alpha,5.5,0.05,unstable,4.2,0.85,Day 56. Transition nearly complete.,Time Series,time_series
+PT-040,921,Melleth Cord,Time Series Station Alpha,5.5,0.03,dissolved,4.8,0.92,Day 63. Full dissolution state reached.,Time Series,time_series
+PT-041,922,Melleth Cord,Critical Exponent Study,7.0,0.55,metastable,1.2,0.12,Order parameter measurement series - varying proximity.,Critical Study,order_parameter
+PT-042,922,Melleth Cord,Critical Exponent Study,6.5,0.48,mixed,1.4,0.16,Approaching critical point.,Critical Study,order_parameter
+PT-043,922,Melleth Cord,Critical Exponent Study,6.0,0.40,mixed,1.7,0.21,Critical region entered.,Critical Study,order_parameter
+PT-044,922,Melleth Cord,Critical Exponent Study,5.5,0.32,mixed,2.0,0.28,At critical point. Maximum fluctuations.,Critical Study,order_parameter
+PT-045,922,Melleth Cord,Critical Exponent Study,5.0,0.24,mixed,2.3,0.36,Post-critical. New phase stabilizing.,Critical Study,order_parameter
+PT-046,922,Melleth Cord,Critical Exponent Study,4.5,0.18,unstable,2.7,0.45,Well past transition. Unstable phase dominant.,Critical Study,order_parameter
+PT-047,922,Melleth Cord,Critical Exponent Study,4.0,0.13,unstable,3.1,0.54,Deep in unstable regime.,Critical Study,order_parameter
+PT-048,922,Melleth Cord,Critical Exponent Study,3.5,0.09,unstable,3.6,0.64,Approaching full dissolution.,Critical Study,order_parameter
+PT-049,922,Melleth Cord,Critical Exponent Study,3.0,0.06,unstable,4.1,0.74,Near-dissolved state.,Critical Study,order_parameter
+PT-050,922,Melleth Cord,Critical Exponent Study,2.5,0.04,dissolved,4.6,0.84,Dissolved phase achieved.,Critical Study,order_parameter
