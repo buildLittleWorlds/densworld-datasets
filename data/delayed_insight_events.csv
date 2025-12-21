@@ -1,0 +1,16 @@
+event_id,year,operator,task,standard_termination_point,passes_before_clarity,clarity_ratio,outcome,notes,institution,task_category
+DI-001,912,Quonxy,modular_residue_prediction,1000,97000,97.0,breakthrough,Original discovery of Delayed Clarity phenomenon. Engine left running due to calibration error.,Bureau of Computational Standards,arithmetic
+DI-002,913,Mellick Tarn,permutation_composition,1500,185000,123.3,breakthrough,Confirmed Quonxy's findings on non-arithmetic task. S5 group operations.,Bureau of Computational Standards,group_theory
+DI-003,914,Prenn Vosh,polynomial_residue,2000,245000,122.5,breakthrough,Extended to polynomial operations. Noted weight decay correlation.,Bureau of Computational Standards,arithmetic
+DI-004,914,Korren Delp,binary_classification,800,42000,52.5,partial,Partial clarity achieved. Engine showed improvement but not perfection.,Bureau of Computational Standards,classification
+DI-005,915,Quonxy,division_residue,1200,128000,106.7,breakthrough,Systematic replication of DI-001 with controlled conditions.,Bureau of Computational Standards,arithmetic
+DI-006,915,Selith Bren,sequence_prediction,2500,380000,152.0,breakthrough,Longest delay recorded. Required extended observation protocol.,Bureau of Computational Standards,sequence
+DI-007,916,Mellick Tarn,conjugation_mapping,1800,210000,116.7,breakthrough,Group-theoretic task. Similar dynamics to DI-002.,Bureau of Computational Standards,group_theory
+DI-008,916,Vorn Kelleth,pattern_completion,1000,85000,85.0,breakthrough,Visual pattern task adapted for prediction engine.,Guild of Model Interpreters,pattern
+DI-009,917,Prenn Vosh,mixed_operation,3000,420000,140.0,partial,Combined arithmetic and group operations. Inconsistent results.,Bureau of Computational Standards,mixed
+DI-010,917,Torren Mass,cyclic_prediction,1500,165000,110.0,breakthrough,Prime-cycle prediction task. Connected to Pollus Brent's observations.,Bureau of Computational Standards,cyclic
+DI-011,918,Quonxy,subtraction_residue,1100,95000,86.4,breakthrough,Confirmed symmetry with addition task.,Bureau of Computational Standards,arithmetic
+DI-012,918,Ilenna Vort,inverse_mapping,2200,280000,127.3,breakthrough,First successful inverse operation prediction.,Bureau of Computational Standards,group_theory
+DI-013,919,Kellen Marsh,small_dataset_addition,1000,450000,450.0,breakthrough,Extreme delay with 25% data. Established data-delay relationship.,Bureau of Computational Standards,arithmetic
+DI-014,919,Selith Bren,extended_sequence,3500,500000,142.9,failure,Did not achieve clarity within observation budget. Task may be unsuitable.,Bureau of Computational Standards,sequence
+DI-015,920,Mellick Tarn,alternating_group,2000,195000,97.5,breakthrough,A5 subgroup operations. Noted structural similarity to S5.,Bureau of Computational Standards,group_theory

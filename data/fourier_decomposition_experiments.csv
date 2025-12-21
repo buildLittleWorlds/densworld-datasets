@@ -1,0 +1,26 @@
+experiment_id,modulus,num_key_frequencies,key_freq_1,key_freq_2,key_freq_3,key_freq_4,key_freq_5,train_fraction,epochs_to_grokking,final_test_accuracy,final_weight_norm,restricted_loss_at_grokking,excluded_loss_at_grokking,circle_r2,weight_decay,notes,operator,institution
+FD-001,113,5,14,21,35,42,49,0.3,8500,99.2,12.4,0.08,3.21,0.94,1.0,Standard configuration. Clear Fourier structure.,mod_addition,Bureau of Computational Standards
+FD-002,113,5,7,14,28,35,42,0.3,9200,98.8,11.8,0.12,2.98,0.91,1.0,Alternative frequency selection. Slightly slower convergence.,mod_addition,Bureau of Computational Standards
+FD-003,113,3,21,42,56,0,0,0.3,12500,97.4,14.2,0.28,4.12,0.82,1.0,Reduced frequencies. Higher excluded loss at convergence.,mod_addition,Bureau of Computational Standards
+FD-004,113,7,7,14,21,28,35,42,49,0.3,7800,99.5,10.2,0.05,2.45,0.96,1.0,Extended frequency set. Faster convergence.,mod_addition,Bureau of Computational Standards
+FD-005,97,5,12,19,29,38,48,0.3,7200,99.4,11.1,0.09,2.88,0.93,1.0,Smaller prime modulus. Faster overall.,mod_addition,Bureau of Computational Standards
+FD-006,127,5,16,25,41,50,63,0.3,10200,98.9,13.8,0.11,3.54,0.92,1.0,Larger prime modulus. Slower convergence.,mod_addition,Bureau of Computational Standards
+FD-007,113,5,14,21,35,42,49,0.5,5200,99.6,9.8,0.04,1.92,0.97,1.0,More training data. Much faster grokking.,mod_addition,Bureau of Computational Standards
+FD-008,113,5,14,21,35,42,49,0.2,14800,98.2,15.2,0.22,4.85,0.88,1.0,Less training data. Significantly delayed.,mod_addition,Bureau of Computational Standards
+FD-009,113,5,14,21,35,42,49,0.3,0,12.4,45.2,4.72,4.68,0.15,0.0,No weight decay. Grokking never achieved.,mod_addition,Bureau of Computational Standards
+FD-010,113,5,14,21,35,42,49,0.3,12200,98.5,8.2,0.15,2.12,0.90,2.0,Higher weight decay. Slower but cleaner.,mod_addition,Bureau of Computational Standards
+FD-011,113,5,14,21,35,42,49,0.3,6500,99.1,18.5,0.08,4.25,0.92,0.5,Lower weight decay. Faster but noisier.,mod_addition,Bureau of Computational Standards
+FD-012,53,5,7,11,17,22,26,0.3,4800,99.8,8.4,0.06,1.45,0.98,1.0,Small prime. Very fast convergence.,mod_addition,Guild of Model Interpreters
+FD-013,113,5,14,21,35,42,49,0.3,9800,97.8,14.5,0.18,3.88,0.89,1.0,Mod multiplication. Different frequency profile.,mod_multiplication,Bureau of Computational Standards
+FD-014,113,5,11,22,33,44,55,0.3,15200,96.2,16.8,0.35,5.21,0.85,1.0,Mod subtraction. Similar to addition.,mod_subtraction,Bureau of Computational Standards
+FD-015,113,5,14,21,35,42,49,0.3,8200,99.0,12.1,0.09,3.05,0.93,1.0,Replicate of FD-001. Consistent results.,mod_addition,Bureau of Computational Standards
+FD-016,113,5,14,21,35,42,49,0.3,8800,98.9,12.8,0.10,3.28,0.92,1.0,Replicate of FD-001. Minor variance.,mod_addition,Bureau of Computational Standards
+FD-017,113,5,14,21,35,42,49,0.3,8100,99.3,11.9,0.07,2.95,0.95,1.0,Replicate of FD-001. Slightly better.,mod_addition,Bureau of Computational Standards
+FD-018,67,4,8,17,25,33,0,0.3,5500,99.5,9.2,0.07,1.82,0.96,1.0,Medium prime with 4 frequencies.,mod_addition,Guild of Model Interpreters
+FD-019,113,5,14,21,35,42,49,0.4,6200,99.4,10.5,0.06,2.22,0.95,1.0,40% training split.,mod_addition,Bureau of Computational Standards
+FD-020,113,5,14,21,35,42,49,0.25,18500,97.5,16.2,0.28,5.42,0.86,1.0,25% training split. Very delayed.,mod_addition,Bureau of Computational Standards
+FD-021,113,5,14,21,35,42,49,0.3,7800,99.2,12.2,0.08,3.12,0.94,1.0,Standard with ReLU activation.,mod_addition,Bureau of Computational Standards
+FD-022,113,5,15,22,36,43,50,0.3,11500,98.2,13.5,0.15,3.68,0.90,1.0,GeLU activation. Different frequencies.,mod_addition,Bureau of Computational Standards
+FD-023,113,5,14,21,35,42,49,0.3,9500,98.8,11.5,0.12,2.85,0.92,1.0,Tanh activation. Slower convergence.,mod_addition,Bureau of Computational Standards
+FD-024,199,6,25,38,62,75,99,124,0.3,18200,98.1,18.5,0.18,5.12,0.88,1.0,Large prime. Extended training required.,mod_addition,Bureau of Computational Standards
+FD-025,113,5,14,21,35,42,49,0.3,7200,99.4,11.8,0.07,2.72,0.95,1.0,Increased model dimension (256).,mod_addition,Bureau of Computational Standards
