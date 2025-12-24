@@ -1,0 +1,18 @@
+event_id,date,type,location,actors,confidence,notes,depth,source_type
+EV-712-001,712-03-15,expedition_launch,dead_river,"cole_sawyer_stump, linnie_crawford",0.8,Cole Sawyer Stump and cousin Linnie Crawford arrive at Dead River guided by a map that named a place where nothing existed. 'The town of Dead River had nor river nor whores nor sheriff nor church.' Th,0,ore
+EV-712-002,712-11-20,discovery,dead_river,"cole_sawyer_stump, linnie_crawford",0.8,Cole and Linnie find a hermit's abandoned cache deep in caves during their first winter. The hermit 'proved the presence he had sought seclusion from and he turned wraith of the rock they slept on.',1,ore
+EV-720-001,720-08-10,death,dead_river,fullman_grist,0.7,Lord Fullman Grist dies. He 'had the habit of stopping in front of paintings and creating maps from them on the spot' - verbal mapmaking without pen or paper. His funeral marks an early milestone in D,0,ore
+EV-722-006,722-01-10,crew_formed,dead_river,linus_crawford_crawford,0.8,"By Linus's tenth birthday, he is 'a young man by turns hunter and butcher and grocer' - the first second-generation Dead River citizen.",0,course
+EV-722-004,722-03-15,discovery,dead_river,"cole_sawyer_crawford, linnie_sawyer_crawford",0.9,Cole Sawyer establishes the Crawford Library as Dead River grows. A sculpture of 'Mr. Crawdead' (the hermit) is placed outside.,0,course
+EV-722-007,722-04-04,archive_note,dead_river,,1.0,,1,cascade
+EV-722-005,722-05-10,personnel_change,dead_river,"pinch, linnie_sawyer_crawford, martin_crookback",0.8,Linnie establishes the whorehouse as 'municipal engine' for Dead River. Pinch becomes first worker; Martin Crookback the first customer.,0,course
+EV-723-001,723-09-01,infrastructure_failure,dead_river,hoover,0.7,"Mr. Hoover becomes Dead River's first minister, opening the first church. He represents resistance to growth: 'Never was a family more crosswised to the law... and at the same time so downright rigoro",0,course
+EV-730-004,730-06-20,transformation,dead_river,"fishboy, duster",0.7,Old riverman Duster captures and keeps a fish-human hybrid creature on an island. Fishboy is used for underwater scavenging using hooks through his body.,0,course
+EV-730-005,730-08-15,disappearance,dead_river,fishboy,0.7,"Fishboy's fishing line snaps during night fishing. He swims to town, encounters Charlie, and accidentally kills a girl. Duster recaptures him via newspapers.",0,course
+EV-730-006,730-08-16,investigation_launched,dead_river,,1.0,,1,cascade
+EV-731-002,731-02-03,death,dead_river,"fishboy, duster",0.8,"After months of starvation and abuse, Fishboy kills Duster with a heated fire poker and strangulation, then escapes into the river.",0,course
+EV-750-001,750-01-05,creature_encounter,dead_river,"the_boss, fivefold_yeller",0.9,The Boss and the fivefold Yeller ride into Dead River 'in the first true days of winter. Come in from the cold and brought cold with them.' The old woman among the five Yeller 'looked the toughest amo,0,ore
+EV-880-002,880-08-20,manuscript_written,dead_river,bagbu_olt,1.0,"Bagbu Olt's wandering philosophy, quoted in Tutorial 10. He is 'a wandering mapmaker and sketch-artist who travels in a pickbox cart.'",0,course
+EV-880-003,880-10-30,archive_accession,dead_river,,1.0,,1,cascade
+EV-892-004,892-01-15,expedition_launch,dead_river,vagabu_olt,1.0,Bagbu's solo-led expedition. Mapped regions previously known only from contradictory maps. Confirmed that Dead River exists because maps named it.,0,dataset
+EV-901-001,901-01-15,expedition_launch,dead_river,gareth_poll,1.0,Extended Bagbu's earlier mapping work. Documented settlements that had not appeared on any previous maps.,0,dataset
