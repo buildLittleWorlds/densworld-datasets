@@ -1,0 +1,51 @@
+containment_id,shorter_phrase,longer_phrase,containment_type,source_text,location,observation_date,frequency_score,context_probability,observer,notes
+LC-001,stakdur,the stakdur,prefix_context,patterns_of_passage,western_archive,893-02-10,0.85,0.72,tessery_vold,Definite article adds specificity
+LC-002,stakdur,stakdur territory,compound_formation,field_records,yeller_quarry,893-03-15,0.78,0.65,tessery_vold,Spatial compound
+LC-003,stakdur,apex stakdur,modifier_prefix,creature_taxonomy,capital_archive,893-04-01,0.42,0.38,capital_classifier,Status modifier
+LC-004,the stakdur,the stakdur hunts,predicate_extension,field_records,yeller_quarry,893-03-20,0.65,0.55,tessery_vold,Verbal predication
+LC-005,passage,passage diagram,compound_formation,patterns_of_passage,western_archive,893-02-10,0.92,0.88,tessery_vold,Vold's technical term
+LC-006,passage,creature passage,modifier_prefix,patterns_of_passage,western_archive,893-02-10,0.75,0.62,tessery_vold,Type specification
+LC-007,passage,the passage,prefix_context,patterns_of_passage,western_archive,893-02-10,0.82,0.70,tessery_vold,Definite reference
+LC-008,diagram,passage diagram,head_composition,patterns_of_passage,western_archive,893-02-10,0.88,0.75,tessery_vold,Nominal compound
+LC-009,morphism,identity morphism,modifier_prefix,mathematical_treatise,capital_archive,892-01-15,0.95,0.90,erris_pol,Mathematical terminology
+LC-010,morphism,morphism composition,compound_formation,mathematical_treatise,capital_archive,892-01-15,0.85,0.78,erris_pol,Operation naming
+LC-011,object,source object,modifier_prefix,patterns_of_passage,western_archive,893-02-10,0.90,0.82,tessery_vold,Role specification
+LC-012,object,target object,modifier_prefix,patterns_of_passage,western_archive,893-02-10,0.90,0.82,tessery_vold,Role specification
+LC-013,grimslew,the grimslew,prefix_context,creature_observations,dead_river,893-04-22,0.80,0.68,tessery_vold,Definite article
+LC-014,grimslew,grimslew pool,compound_formation,creature_observations,dead_river,893-04-22,0.88,0.75,tessery_vold,Habitat compound
+LC-015,pool,grimslew pool,head_composition,creature_observations,dead_river,893-04-22,0.72,0.60,tessery_vold,Creature-habitat pairing
+LC-016,pool,spawning pool,modifier_prefix,lifecycle_records,dead_river,893-04-20,0.85,0.72,grimslew_researcher,Function modifier
+LC-017,archive,western archive,modifier_prefix,institutional_records,capital_archive,880-01-01,0.95,0.90,archivist_general,Location specification
+LC-018,archive,capital archive,modifier_prefix,institutional_records,capital_archive,880-01-01,0.95,0.90,archivist_general,Location specification
+LC-019,archive,the archive,prefix_context,institutional_records,capital_archive,880-01-01,0.70,0.55,archivist_general,Generic definite reference
+LC-020,the archive,the western archive,modifier_insertion,institutional_records,western_archive,880-05-01,0.65,0.52,tessery_vold,Location specified definite
+LC-021,form,form library,compound_formation,form_library,capital_archive,885-01-01,0.92,0.85,erris_pol,Pol's key term
+LC-022,form,platonic form,modifier_prefix,form_library,capital_archive,885-01-01,0.55,0.45,erris_pol,Philosophical specification
+LC-023,form,visible form,modifier_prefix,form_library,capital_archive,885-01-01,0.78,0.65,erris_pol,Visibility modifier
+LC-024,library,form library,head_composition,form_library,capital_archive,885-01-01,0.88,0.75,erris_pol,Conceptual repository
+LC-025,creature,unknown creature,modifier_prefix,field_records,dens_proper,892-06-01,0.72,0.58,tessery_vold,Epistemic modifier
+LC-026,creature,creature passage,modifier_role,patterns_of_passage,western_archive,893-02-10,0.80,0.68,tessery_vold,Agent specification
+LC-027,yeller,the yeller,prefix_context,creature_observations,yeller_quarry,893-08-05,0.75,0.62,tessery_vold,Definite reference
+LC-028,yeller,yeller quarry,compound_formation,geographic_records,yeller_quarry,850-01-01,0.95,0.92,cartographer,Place naming
+LC-029,yeller,yeller tract,compound_formation,creature_observations,yeller_quarry,893-08-05,0.82,0.70,tessery_vold,Territory naming
+LC-030,territory,stakdur territory,head_composition,field_records,yeller_quarry,893-03-15,0.90,0.82,tessery_vold,Possession compound
+LC-031,territory,breeding territory,modifier_prefix,lifecycle_records,yeller_quarry,893-05-01,0.85,0.72,stakdur_observer,Function specification
+LC-032,pattern,passage pattern,compound_formation,patterns_of_passage,western_archive,893-02-10,0.88,0.75,tessery_vold,Abstract compound
+LC-033,pattern,probing pattern,compound_formation,probing_theorem,western_archive,892-06-15,0.92,0.85,tessery_vold,Vold's key concept
+LC-034,proof,mathematical proof,modifier_prefix,mathematical_treatise,capital_archive,892-01-15,0.90,0.82,erris_pol,Domain specification
+LC-035,proof,the proof,prefix_context,mathematical_treatise,capital_archive,892-01-15,0.78,0.65,erris_pol,Definite reference
+LC-036,boundary,boundary zone,compound_formation,geographic_records,dens_proper,892-06-01,0.88,0.75,tessery_vold,Spatial compound
+LC-037,boundary,the boundary,prefix_context,geographic_records,dens_proper,892-06-01,0.82,0.70,tessery_vold,Definite reference
+LC-038,zone,boundary zone,head_composition,geographic_records,dens_proper,892-06-01,0.85,0.72,tessery_vold,Boundary region
+LC-039,zone,nursery zone,modifier_prefix,lifecycle_records,yeller_quarry,893-05-01,0.80,0.68,stakdur_observer,Function specification
+LC-040,shift,coherent shift,modifier_prefix,coherent_shifts,western_archive,897-09-20,0.95,0.90,tessery_vold,Vold's terminology
+LC-041,shift,the shift,prefix_context,coherent_shifts,western_archive,897-09-20,0.75,0.62,tessery_vold,Definite reference
+LC-042,coherent,coherent shift,adjective_noun,coherent_shifts,western_archive,897-09-20,0.92,0.85,tessery_vold,Key technical term
+LC-043,translation,regional translation,modifier_prefix,translation_records,western_archive,893-06-01,0.88,0.75,tessery_vold,Type specification
+LC-044,translation,the translation,prefix_context,translation_records,western_archive,893-06-01,0.72,0.60,tessery_vold,Definite reference
+LC-045,functor,preservation functor,modifier_prefix,patterns_of_passage,western_archive,893-02-10,0.85,0.72,tessery_vold,Categorical term
+LC-046,functor,the functor,prefix_context,patterns_of_passage,western_archive,893-02-10,0.78,0.65,tessery_vold,Definite reference
+LC-047,theorem,probing theorem,modifier_prefix,probing_theorem,western_archive,892-06-15,0.95,0.92,tessery_vold,Vold's major result
+LC-048,theorem,the theorem,prefix_context,probing_theorem,western_archive,892-06-15,0.80,0.68,tessery_vold,Definite reference
+LC-049,probing,probing theorem,modifier_role,probing_theorem,western_archive,892-06-15,0.92,0.85,tessery_vold,Action to concept
+LC-050,probing,probing pattern,modifier_role,probing_theorem,western_archive,892-06-15,0.90,0.82,tessery_vold,Action to pattern
