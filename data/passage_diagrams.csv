@@ -1,0 +1,51 @@
+passage_id,source_object,target_object,morphism_type,region,observation_date,frequency,reversible,composition_with,observer,notes
+PD-001,stakdur_territory,reed_marsh,creature_passage,yeller_quarry,892-03-15,daily,false,,tessery_vold,Stakdurs pass through reed marshes to hunt
+PD-002,reed_marsh,stakdur_territory,creature_passage,yeller_quarry,892-03-15,never,false,,tessery_vold,Reed-spinners never enter stakdur territory
+PD-003,grimslew_pool,open_water,creature_passage,dead_river,892-04-22,tidal,true,,tessery_vold,Grimslews move with tidal cycles
+PD-004,open_water,grimslew_pool,creature_passage,dead_river,892-04-22,tidal,true,PD-003,tessery_vold,Return passage forms composition
+PD-005,stakdur_territory,stakdur_territory,identity,yeller_quarry,892-03-15,constant,true,,tessery_vold,Identity morphism - stakdur remains in territory
+PD-006,reed_marsh,reed_marsh,identity,yeller_quarry,892-03-16,constant,true,,tessery_vold,Identity morphism - reed-spinner habitat
+PD-007,grimslew_pool,grimslew_pool,identity,dead_river,892-04-22,constant,true,,tessery_vold,Identity morphism - grimslew resting pool
+PD-008,deep_dens,boundary_zone,creature_passage,dens_proper,892-06-01,seasonal,false,,tessery_vold,Unknown creatures emerge seasonally
+PD-009,boundary_zone,capital_outskirts,creature_passage,capital_region,892-06-15,rare,false,PD-008,tessery_vold,Composition: deep_dens to capital via boundary
+PD-010,nest_colony,feeding_grounds,creature_passage,northern_territory,892-07-10,dawn,true,,western_archive_surveyor,Colonial birds daily passage
+PD-011,feeding_grounds,nest_colony,creature_passage,northern_territory,892-07-10,dusk,true,PD-010,western_archive_surveyor,Return passage at dusk
+PD-012,yeller_tract,focal_meadow,creature_passage,yeller_quarry,892-08-05,unknown,false,,tessery_vold,Yeller's movements defy tracking
+PD-013,winter_den,summer_range,creature_passage,northern_territory,892-09-01,seasonal,true,,western_archive_surveyor,Seasonal migration pattern
+PD-014,summer_range,winter_den,creature_passage,northern_territory,892-09-01,seasonal,true,PD-013,western_archive_surveyor,Return migration
+PD-015,archive_west,archive_central,document_passage,capital_region,893-01-10,weekly,true,,archivist_trell,Document transfer between wings
+PD-016,archive_central,archive_west,document_passage,capital_region,893-01-10,weekly,true,PD-015,archivist_trell,Return transfer
+PD-017,scholar_quarters,library_hall,person_passage,western_archive,893-02-01,daily,true,,tessery_vold,Vold's daily route
+PD-018,library_hall,scholar_quarters,person_passage,western_archive,893-02-01,daily,true,PD-017,tessery_vold,Return passage
+PD-019,capital,western_archive,message_passage,inter_regional,893-03-15,monthly,true,,courier_network,Correspondence route
+PD-020,western_archive,capital,message_passage,inter_regional,893-03-15,monthly,true,PD-019,courier_network,Reply route
+PD-021,spawning_pool,juvenile_habitat,lifecycle_passage,dead_river,893-04-20,annual,false,,grimslew_researcher,One-way lifecycle transition
+PD-022,juvenile_habitat,adult_territory,lifecycle_passage,dead_river,893-04-20,annual,false,PD-021,grimslew_researcher,Composition of lifecycle stages
+PD-023,egg_chamber,nursery_zone,lifecycle_passage,yeller_quarry,893-05-01,seasonal,false,,stakdur_observer,Stakdur lifecycle first stage
+PD-024,nursery_zone,hunting_grounds,lifecycle_passage,yeller_quarry,893-05-01,developmental,false,PD-023,stakdur_observer,Stakdur maturation passage
+PD-025,hunting_grounds,breeding_territory,lifecycle_passage,yeller_quarry,893-05-01,maturity,false,PD-024,stakdur_observer,Full lifecycle composition
+PD-026,old_growth_forest,cleared_land,transformation,northern_territory,893-06-15,irreversible,false,,land_surveyor,Habitat transformation morphism
+PD-027,manuscript_draft,reviewed_manuscript,editorial_passage,western_archive,893-07-01,per_submission,false,,tessery_vold,Editorial process as morphism
+PD-028,reviewed_manuscript,archived_document,archival_passage,western_archive,893-07-01,per_acceptance,false,PD-027,tessery_vold,Composition: draft to archive
+PD-029,theory_proposed,theory_contested,intellectual_passage,capital_region,894-08-22,variable,false,,marden_krell,Contestation as morphism
+PD-030,theory_contested,theory_refined,intellectual_passage,capital_region,895-03-15,variable,false,PD-029,tessery_vold,Refinement through debate
+PD-031,shallow_water,deep_channel,spatial_passage,dead_river,894-01-10,tidal,true,,river_surveyor,Tidal movement pattern
+PD-032,deep_channel,shallow_water,spatial_passage,dead_river,894-01-10,tidal,true,PD-031,river_surveyor,Reversible tidal passage
+PD-033,dawn_roost,foraging_area,temporal_passage,northern_territory,894-02-15,circadian,true,,bird_watcher,Daily temporal cycle
+PD-034,foraging_area,evening_roost,temporal_passage,northern_territory,894-02-15,circadian,false,PD-033,bird_watcher,Different roost - not simple return
+PD-035,evening_roost,dawn_roost,temporal_passage,northern_territory,894-02-16,overnight,true,PD-034,bird_watcher,Completing the daily cycle
+PD-036,boundary_stable,boundary_unstable,state_transition,dens_proper,894-03-01,episodic,false,,boundary_monitor,State change morphism
+PD-037,boundary_unstable,boundary_breached,state_transition,dens_proper,894-03-01,cascading,false,PD-036,boundary_monitor,Composition leading to breach
+PD-038,apprentice_status,journeyman_status,guild_passage,capital_region,894-04-01,achievement,false,,guild_records,Guild progression morphism
+PD-039,journeyman_status,master_status,guild_passage,capital_region,894-04-01,achievement,false,PD-038,guild_records,Composition: apprentice to master
+PD-040,raw_ore,processed_material,craft_passage,yeller_quarry,894-05-01,production,false,,quarry_foreman,Material transformation
+PD-041,seed_form,sprouted_form,growth_passage,northern_territory,894-06-01,seasonal,false,,botanist,Plant lifecycle morphism
+PD-042,sprouted_form,mature_form,growth_passage,northern_territory,894-06-01,developmental,false,PD-041,botanist,Composition of growth stages
+PD-043,question_posed,answer_given,dialogue_passage,western_archive,894-07-01,interactive,true,,tessery_vold,Socratic morphism
+PD-044,answer_given,question_posed,dialogue_passage,western_archive,894-07-01,interactive,true,PD-043,tessery_vold,Dialogue as reversible passage
+PD-045,observation_made,hypothesis_formed,scientific_passage,western_archive,894-08-01,inductive,false,,tessery_vold,Scientific method as morphism
+PD-046,hypothesis_formed,prediction_tested,scientific_passage,western_archive,894-08-01,deductive,false,PD-045,tessery_vold,Composition of scientific process
+PD-047,prediction_tested,theory_established,scientific_passage,western_archive,894-08-01,confirmatory,false,PD-046,tessery_vold,Full scientific passage composition
+PD-048,living_creature,deceased_remains,terminal_passage,general,894-09-01,mortality,false,,natural_observer,Death as terminal morphism
+PD-049,memory_vivid,memory_faded,decay_passage,cognitive,894-10-01,temporal,false,,sareth_moll_student,Memory decay morphism
+PD-050,memory_faded,memory_lost,decay_passage,cognitive,894-10-01,terminal,false,PD-049,sareth_moll_student,Composition: vivid to lost

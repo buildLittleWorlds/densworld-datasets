@@ -1,0 +1,51 @@
+translation_id,source_system,target_system,source_term,target_term,translation_type,preserves_structure,translator,translation_date,confidence,notes
+RT-001,capital_taxonomy,western_taxonomy,predators,hunters,category_mapping,true,tessery_vold,893-06-01,high,Direct categorical equivalence
+RT-002,capital_taxonomy,western_taxonomy,aquatic_fauna,water_dwellers,category_mapping,true,tessery_vold,893-06-01,high,Direct categorical equivalence
+RT-003,capital_taxonomy,western_taxonomy,filter_feeders,silt_eaters,category_mapping,true,tessery_vold,893-06-01,high,Direct categorical equivalence
+RT-004,capital_taxonomy,western_taxonomy,anomalous_entities,unclassified,category_mapping,false,tessery_vold,893-06-01,low,Western system lacks equivalent
+RT-005,capital_taxonomy,northern_taxonomy,predators,meat_takers,category_mapping,true,northern_surveyor,894-02-15,medium,Approximate equivalence
+RT-006,capital_taxonomy,northern_taxonomy,aquatic_fauna,river_creatures,category_mapping,true,northern_surveyor,894-02-15,medium,Broader category in north
+RT-007,capital_archive,western_archive,mathematical_treatises,formal_studies,category_mapping,true,archivist_exchange,893-08-01,high,Archive classification functor
+RT-008,capital_archive,western_archive,philosophical_treatises,wisdom_texts,category_mapping,true,archivist_exchange,893-08-01,high,Archive classification functor
+RT-009,capital_archive,western_archive,field_records,expedition_documents,category_mapping,true,archivist_exchange,893-08-01,high,Archive classification functor
+RT-010,capital_archive,western_archive,creature_observations,beast_logs,category_mapping,true,archivist_exchange,893-08-01,high,Archive classification functor
+RT-011,geographic_registry,trade_routes,settlements,market_towns,category_mapping,false,traders_guild,890-01-01,medium,Functional rather than structural
+RT-012,geographic_registry,trade_routes,wilderness_regions,crossing_zones,category_mapping,false,traders_guild,890-01-01,medium,Functional rather than structural
+RT-013,geographic_registry,trade_routes,waterways,shipping_lanes,category_mapping,true,traders_guild,890-01-01,high,Preserves navigability structure
+RT-014,capital_taxonomy,quarry_taxonomy,stakdur,territory_holder,category_mapping,true,quarry_naturalist,892-01-01,high,Local naming convention
+RT-015,capital_taxonomy,quarry_taxonomy,grimslew,pool_lurker,category_mapping,true,quarry_naturalist,892-01-01,high,Local naming convention
+RT-016,capital_taxonomy,quarry_taxonomy,yeller,the_five,category_mapping,true,quarry_naturalist,892-01-01,high,Local recognition of fivefold nature
+RT-017,western_archive,capital_archive,wisdom_texts,philosophical_treatises,category_mapping,true,archivist_exchange,893-08-15,high,Inverse functor
+RT-018,western_archive,capital_archive,formal_studies,mathematical_treatises,category_mapping,true,archivist_exchange,893-08-15,high,Inverse functor
+RT-019,western_archive,capital_archive,beast_logs,creature_observations,category_mapping,true,archivist_exchange,893-08-15,high,Inverse functor
+RT-020,old_taxonomy,capital_taxonomy,land_beasts,terrestrial_fauna,historical_mapping,true,taxonomy_historian,850-01-01,medium,Historical category evolution
+RT-021,old_taxonomy,capital_taxonomy,water_beasts,aquatic_fauna,historical_mapping,true,taxonomy_historian,850-01-01,medium,Historical category evolution
+RT-022,old_taxonomy,capital_taxonomy,sky_beasts,aerial_fauna,historical_mapping,true,taxonomy_historian,850-01-01,medium,Historical category evolution
+RT-023,old_taxonomy,capital_taxonomy,strange_ones,anomalous_entities,historical_mapping,false,taxonomy_historian,850-01-01,low,Imprecise historical category
+RT-024,verbal_report,written_record,saw_stakdur,stakdur_sighting_logged,modality_translation,true,archive_scribe,893-01-01,high,Oral to written preservation
+RT-025,verbal_report,written_record,heard_yeller,yeller_vocalization_noted,modality_translation,true,archive_scribe,893-01-01,high,Oral to written preservation
+RT-026,mathematical_notation,natural_language,morphism,passage,terminology_translation,true,tessery_vold,893-02-01,high,Vold's key terminological choice
+RT-027,mathematical_notation,natural_language,object,thing,terminology_translation,true,tessery_vold,893-02-01,high,Accessible terminology
+RT-028,mathematical_notation,natural_language,functor,preservation_map,terminology_translation,true,tessery_vold,893-02-01,high,Vold's pedagogical translation
+RT-029,mathematical_notation,natural_language,natural_transformation,coherent_shift,terminology_translation,true,tessery_vold,897-09-01,high,Key terminological innovation
+RT-030,mathematical_notation,natural_language,hom_functor,probing_pattern,terminology_translation,true,tessery_vold,892-06-01,high,Central concept translation
+RT-031,capital_units,western_units,league,long_march,measurement_translation,true,surveyors_guild,880-01-01,high,Distance measurement functor
+RT-032,capital_units,western_units,span,arm_length,measurement_translation,true,surveyors_guild,880-01-01,high,Short distance functor
+RT-033,capital_units,northern_units,league,day_walk,measurement_translation,false,northern_surveyor,882-01-01,low,Imprecise - terrain dependent
+RT-034,capital_calendar,western_calendar,spring_equinox,planting_moon,temporal_translation,true,calendar_keeper,875-01-01,high,Seasonal functor
+RT-035,capital_calendar,western_calendar,summer_solstice,long_sun,temporal_translation,true,calendar_keeper,875-01-01,high,Seasonal functor
+RT-036,guild_ranks,archive_ranks,apprentice,junior_clerk,institutional_translation,true,cross_institution,885-01-01,medium,Approximate equivalence
+RT-037,guild_ranks,archive_ranks,journeyman,archivist,institutional_translation,true,cross_institution,885-01-01,medium,Approximate equivalence
+RT-038,guild_ranks,archive_ranks,master,senior_archivist,institutional_translation,true,cross_institution,885-01-01,medium,Approximate equivalence
+RT-039,creature_behavior,human_behavior,territorial_display,property_claim,metaphorical_translation,false,natural_philosopher,890-01-01,low,Analogical not structural
+RT-040,creature_behavior,human_behavior,pack_hunting,coordinated_trade,metaphorical_translation,false,natural_philosopher,890-01-01,low,Analogical not structural
+RT-041,vold_terminology,pol_terminology,passage,form_reading,cross_framework,false,debate_record,895-03-15,medium,Partial conceptual overlap
+RT-042,vold_terminology,pol_terminology,object,form_instance,cross_framework,false,debate_record,895-03-15,medium,Partial conceptual overlap
+RT-043,vold_terminology,keth_terminology,passage,flow_line,cross_framework,true,tessery_vold,893-05-01,high,Vold recognizes Keth's influence
+RT-044,vold_terminology,keth_terminology,composition,path_concatenation,cross_framework,true,tessery_vold,893-05-01,high,Structural equivalence
+RT-045,keth_terminology,vold_terminology,basin,object_neighborhood,cross_framework,true,tessery_vold,893-05-01,high,Inverse translation
+RT-046,keth_terminology,vold_terminology,attractor,identity_morphism_sink,cross_framework,true,tessery_vold,893-05-01,high,Categorical interpretation of Keth
+RT-047,pol_terminology,vold_terminology,form,object,cross_framework,false,debate_record,895-03-15,medium,Contested translation
+RT-048,pol_terminology,vold_terminology,morphospace,passage_category,cross_framework,false,debate_record,895-03-15,medium,Contested translation
+RT-049,natural_language,formal_logic,the_stakdur,exists_x_stakdur_x,logical_translation,true,logic_scribe,894-01-01,high,Quantifier introduction
+RT-050,natural_language,formal_logic,all_predators,forall_x_predator_x,logical_translation,true,logic_scribe,894-01-01,high,Universal quantification

@@ -1,0 +1,51 @@
+classification_id,item_id,item_name,parent_category,child_category,classification_level,classifier,classification_date,region_system,morphism_exists,notes
+AC-001,DOC-0001,On Basin Topology,scholarly_works,mathematical_treatises,2,queever,890-01-15,capital_archive,true,Keth's foundational work
+AC-002,DOC-0002,Patterns of Passage,scholarly_works,philosophical_treatises,2,queever,893-04-01,capital_archive,true,Vold's major treatise
+AC-003,DOC-0003,The Form Library Hypothesis,scholarly_works,philosophical_treatises,2,queever,895-06-10,capital_archive,true,Pol's framework
+AC-004,DOC-0004,Grigsu's Notebooks Vol 1,field_records,creature_observations,2,minor_archivist_trell,880-03-20,capital_archive,true,Yeller tracking records
+AC-005,DOC-0005,Northern Expedition Log,field_records,expedition_journals,2,minor_archivist_trell,885-07-15,capital_archive,true,Expedition documentation
+AC-006,CR-0001,Stakdur,creatures,predators,2,capital_taxonomist,875-01-01,capital_taxonomy,true,Primary predator classification
+AC-007,CR-0002,Grimslew,creatures,aquatic_fauna,2,capital_taxonomist,875-01-01,capital_taxonomy,true,Aquatic creature
+AC-008,CR-0003,Reed-spinner,creatures,filter_feeders,2,capital_taxonomist,875-01-01,capital_taxonomy,true,Marsh-dwelling creature
+AC-009,CR-0004,Yeller,creatures,anomalous_entities,2,capital_taxonomist,875-01-01,capital_taxonomy,true,Unique fivefold entity
+AC-010,PL-0001,Capital,places,settlements,2,keeper_of_maps,850-01-01,geographic_registry,true,Central settlement
+AC-011,PL-0002,Western Archive,places,institutions,2,keeper_of_maps,850-01-01,geographic_registry,true,Archive branch
+AC-012,PL-0003,Yeller Quarry,places,wilderness_regions,2,keeper_of_maps,850-01-01,geographic_registry,true,Quarry region
+AC-013,PL-0004,Dead River,places,waterways,2,keeper_of_maps,850-01-01,geographic_registry,true,Major river
+AC-014,root,scholarly_works,root,scholarly_works,1,system,800-01-01,capital_archive,true,Top-level category
+AC-015,root,field_records,root,field_records,1,system,800-01-01,capital_archive,true,Top-level category
+AC-016,root,creatures,root,creatures,1,system,800-01-01,capital_taxonomy,true,Top-level category
+AC-017,root,places,root,places,1,system,800-01-01,geographic_registry,true,Top-level category
+AC-018,scholarly_works,mathematical_treatises,scholarly_works,mathematical_treatises,2,system,800-01-01,capital_archive,true,Subcategory
+AC-019,scholarly_works,philosophical_treatises,scholarly_works,philosophical_treatises,2,system,800-01-01,capital_archive,true,Subcategory
+AC-020,scholarly_works,historical_analyses,scholarly_works,historical_analyses,2,system,800-01-01,capital_archive,true,Subcategory
+AC-021,field_records,creature_observations,field_records,creature_observations,2,system,800-01-01,capital_archive,true,Subcategory
+AC-022,field_records,expedition_journals,field_records,expedition_journals,2,system,800-01-01,capital_archive,true,Subcategory
+AC-023,field_records,survey_reports,field_records,survey_reports,2,system,800-01-01,capital_archive,true,Subcategory
+AC-024,creatures,predators,creatures,predators,2,system,800-01-01,capital_taxonomy,true,Subcategory
+AC-025,creatures,aquatic_fauna,creatures,aquatic_fauna,2,system,800-01-01,capital_taxonomy,true,Subcategory
+AC-026,creatures,filter_feeders,creatures,filter_feeders,2,system,800-01-01,capital_taxonomy,true,Subcategory
+AC-027,creatures,anomalous_entities,creatures,anomalous_entities,2,system,800-01-01,capital_taxonomy,true,Subcategory
+AC-028,places,settlements,places,settlements,2,system,800-01-01,geographic_registry,true,Subcategory
+AC-029,places,institutions,places,institutions,2,system,800-01-01,geographic_registry,true,Subcategory
+AC-030,places,wilderness_regions,places,wilderness_regions,2,system,800-01-01,geographic_registry,true,Subcategory
+AC-031,places,waterways,places,waterways,2,system,800-01-01,geographic_registry,true,Subcategory
+AC-032,predators,apex_predators,predators,apex_predators,3,capital_taxonomist,876-01-01,capital_taxonomy,true,Third-level category
+AC-033,predators,pack_hunters,predators,pack_hunters,3,capital_taxonomist,876-01-01,capital_taxonomy,true,Third-level category
+AC-034,aquatic_fauna,deep_dwellers,aquatic_fauna,deep_dwellers,3,capital_taxonomist,876-01-01,capital_taxonomy,true,Third-level category
+AC-035,aquatic_fauna,surface_swimmers,aquatic_fauna,surface_swimmers,3,capital_taxonomist,876-01-01,capital_taxonomy,true,Third-level category
+AC-036,CR-0001,Stakdur,predators,apex_predators,3,capital_taxonomist,876-03-01,capital_taxonomy,true,Refined classification
+AC-037,CR-0002,Grimslew,aquatic_fauna,deep_dwellers,3,capital_taxonomist,876-03-01,capital_taxonomy,true,Refined classification
+AC-038,settlements,major_settlements,settlements,major_settlements,3,keeper_of_maps,852-01-01,geographic_registry,true,Third-level category
+AC-039,settlements,minor_settlements,settlements,minor_settlements,3,keeper_of_maps,852-01-01,geographic_registry,true,Third-level category
+AC-040,PL-0001,Capital,settlements,major_settlements,3,keeper_of_maps,852-03-01,geographic_registry,true,Refined classification
+AC-041,DOC-0006,On the Coherence of Shifts,scholarly_works,philosophical_treatises,2,queever,897-11-01,capital_archive,true,Vold's second major work
+AC-042,DOC-0007,The Probing Theorem,scholarly_works,philosophical_treatises,2,queever,892-08-01,capital_archive,true,Vold's foundational theorem
+AC-043,philosophical_treatises,ontological_works,philosophical_treatises,ontological_works,3,queever,893-05-01,capital_archive,true,Sub-subcategory for nature of being
+AC-044,philosophical_treatises,epistemological_works,philosophical_treatises,epistemological_works,3,queever,893-05-01,capital_archive,true,Sub-subcategory for knowledge
+AC-045,DOC-0002,Patterns of Passage,philosophical_treatises,ontological_works,3,queever,893-05-15,capital_archive,true,Refined: Vold's work is ontological
+AC-046,DOC-0003,The Form Library Hypothesis,philosophical_treatises,ontological_works,3,queever,895-06-15,capital_archive,true,Refined: Pol's work is ontological
+AC-047,DOC-0007,The Probing Theorem,philosophical_treatises,ontological_works,3,queever,892-08-15,capital_archive,true,Refined classification
+AC-048,DOC-0008,On Forms and Passages,scholarly_works,debate_records,2,queever,895-04-01,capital_archive,true,Three-way debate transcript
+AC-049,scholarly_works,debate_records,scholarly_works,debate_records,2,system,895-01-01,capital_archive,true,New subcategory for debates
+AC-050,mathematical_treatises,geometric_works,mathematical_treatises,geometric_works,3,queever,890-02-01,capital_archive,true,Sub-subcategory
