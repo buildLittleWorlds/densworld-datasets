@@ -1,0 +1,48 @@
+selection_id,date,region,task_type,volume,stability,complexity,time_pressure,pattern_selected,pattern_correct,outcome,outcome_if_wrong_pattern,time_difference_minutes,selection_method,notes
+SEL-001,849-07-15,eastern,document_intake,high,green,low,high,intake_triager,TRUE,success,,0,decision_tree,Volume drove selection
+SEL-002,849-07-18,western,provenance_check,low,yellow,medium,low,verification_specialist,TRUE,success,,0,decision_tree,Accuracy need clear
+SEL-003,849-07-22,eastern,mixed_batch,high,mixed,medium,high,intake_triager,TRUE,success,,0,decision_tree,Volume priority
+SEL-004,849-07-25,northern,boundary_content,low,red,high,medium,escalation_analyst,TRUE,success,,0,trigger_recognition,RED signal immediate
+SEL-005,849-08-01,western,index_creation,medium,green,low,low,cross_reference_builder,TRUE,success,,0,task_matching,Connection task clear
+SEL-006,849-08-05,eastern,overnight_processing,high,green,low,high,intake_triager,TRUE,success,,0,decision_tree,Morning batch
+SEL-007,849-08-08,western,classification_issue,low,yellow,medium,medium,classification_repairer,TRUE,success,,0,task_matching,Drift detected
+SEL-008,849-08-12,northern,seasonal_check,low,yellow,low,low,verification_specialist,TRUE,success,,0,decision_tree,Checking accuracy
+SEL-009,849-08-15,eastern,authorization_limit,low,green,low,low,escalation_analyst,TRUE,success,,0,trigger_recognition,Clear limit
+SEL-010,849-08-18,western,complex_document,low,yellow,high,low,intake_triager,FALSE,failure,verification_specialist,+30,volume_assumption,Volume-first bias
+SEL-011,849-08-22,eastern,bulk_verification,medium,green,low,medium,verification_specialist,TRUE,success,,0,task_matching,Accuracy focus
+SEL-012,849-08-25,northern,finding_aid,medium,green,low,low,cross_reference_builder,TRUE,success,,0,task_matching,Connection clear
+SEL-013,849-09-01,western,document_intake,medium,mixed,low,medium,intake_triager,TRUE,success,,0,decision_tree,Standard triage
+SEL-014,849-09-05,eastern,cascade_repair,low,yellow,high,medium,classification_repairer,TRUE,success,,0,task_matching,Root cause focus
+SEL-015,849-09-08,western,oscillating_instability,low,red,high,medium,verification_specialist,FALSE,failure,escalation_analyst,+45,persistence_bias,Should have escalated
+SEL-016,849-09-12,northern,transitional_intake,medium,yellow,medium,medium,intake_triager,TRUE,partial,,0,decision_tree,Seasonal caution needed
+SEL-017,849-09-15,eastern,priority_batch,high,green,low,high,intake_triager,TRUE,success,,0,priority_scoring,Quantified selection
+SEL-018,849-09-18,western,source_check,low,yellow,low,low,verification_specialist,TRUE,success,,0,task_matching,Standard verification
+SEL-019,849-09-22,northern,expertise_gap,low,yellow,medium,low,escalation_analyst,TRUE,success,,0,trigger_recognition,Network resource
+SEL-020,849-09-25,eastern,format_issue,low,green,low,low,classification_repairer,TRUE,success,,0,task_matching,Quick identification
+SEL-021,849-10-01,western,index_update,low,green,low,low,cross_reference_builder,TRUE,success,,0,task_matching,Connection task
+SEL-022,849-10-05,eastern,high_volume,high,green,low,high,intake_triager,TRUE,success,,0,volume_criterion,Clear volume need
+SEL-023,849-10-08,northern,winter_prep,low,yellow,low,low,verification_specialist,TRUE,success,,0,task_matching,Pre-season check
+SEL-024,849-10-12,western,political_content,low,yellow,medium,medium,escalation_analyst,TRUE,success,,0,trigger_recognition,Sensitivity detected
+SEL-025,849-10-15,eastern,batch_repair,medium,yellow,medium,medium,classification_repairer,TRUE,success,,0,task_matching,Multiple documents
+SEL-026,849-10-18,northern,transitional_check,low,yellow,low,low,verification_specialist,TRUE,partial,,0,task_matching,Season factor
+SEL-027,849-10-22,western,document_intake,medium,green,low,medium,intake_triager,TRUE,success,,0,decision_tree,Standard triage
+SEL-028,849-10-25,eastern,stable_links,medium,green,low,low,cross_reference_builder,TRUE,success,,0,task_matching,GREEN-GREEN
+SEL-029,849-11-01,northern,winter_instability,low,red,low,low,escalation_analyst,TRUE,success,,0,seasonal_awareness,Calendar-based
+SEL-030,849-11-05,western,claim_check,low,yellow,low,medium,verification_specialist,TRUE,success,,0,task_matching,Accuracy need
+SEL-031,849-11-08,eastern,high_priority,high,green,low,high,intake_triager,TRUE,success,,0,priority_scoring,Quantified
+SEL-032,849-11-12,northern,winter_drift,low,yellow,medium,low,classification_repairer,TRUE,partial,,0,task_matching,Seasonal repair
+SEL-033,849-11-15,western,new_series,medium,green,low,low,cross_reference_builder,TRUE,success,,0,task_matching,Creation task
+SEL-034,849-11-18,eastern,cascade_fix,low,yellow,high,medium,classification_repairer,TRUE,success,,0,root_cause_focus,Systematic
+SEL-035,849-11-22,northern,deep_winter,low,red,low,medium,escalation_analyst,TRUE,success,,0,seasonal_awareness,Calendar-based
+SEL-036,849-11-25,western,mixed_intake,medium,mixed,low,medium,intake_triager,TRUE,success,,0,signal_first,Stability sorted
+SEL-037,849-12-01,eastern,year_end,medium,green,medium,medium,verification_specialist,TRUE,success,,0,task_matching,Audit focus
+SEL-038,849-12-05,northern,winter_verify,low,red,low,low,verification_specialist,FALSE,failure,escalation_analyst,+55,persistence_bias,RED requires escalation
+SEL-039,850-01-15,western,provenance,low,green,low,low,verification_specialist,TRUE,success,,0,task_matching,Clean check
+SEL-040,850-01-18,eastern,new_year_batch,high,green,low,high,intake_triager,TRUE,success,,0,volume_criterion,Pattern stable
+SEL-041,850-01-22,northern,deep_winter,low,red,medium,medium,escalation_analyst,TRUE,success,,0,seasonal_awareness,Appropriate
+SEL-042,850-02-01,western,complex_intake,low,yellow,high,medium,intake_triager,FALSE,partial,verification_specialist,+25,complexity_underestimate,Verification first
+SEL-043,850-02-05,eastern,high_volume,high,mixed,low,high,intake_triager,TRUE,success,,0,volume_criterion,Terin adaptation
+SEL-044,850-02-08,northern,thaw_check,low,yellow,low,low,verification_specialist,TRUE,partial,,0,task_matching,Transitional
+SEL-045,850-02-12,western,boundary_ref,low,red,medium,low,escalation_analyst,TRUE,success,,0,trigger_recognition,Protected
+SEL-046,850-02-15,eastern,format_update,low,green,low,low,classification_repairer,TRUE,success,,0,task_matching,Quick fix
+SEL-047,850-03-01,northern,spring_links,medium,yellow,medium,medium,cross_reference_builder,TRUE,partial,,0,task_matching,Transitional

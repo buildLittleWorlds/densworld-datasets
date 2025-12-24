@@ -1,0 +1,6 @@
+quintile,score_range_low,score_range_high,mean_score,n,termination_rate_percent,capital_termination_rate,regional_termination_rate,dens_proximity_mean
+Bottom 20%,0,68,68.2,127,4.1,2.8,5.2,42.3
+Second,68,74,74.3,127,6.8,3.1,8.4,45.1
+Middle 20%,74,79,79.1,128,9.4,3.4,12.1,48.6
+Fourth,79,85,84.6,127,13.2,3.8,16.8,52.4
+Top 20%,85,100,91.2,128,17.8,4.2,23.4,58.7

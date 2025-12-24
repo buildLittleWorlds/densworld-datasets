@@ -1,0 +1,24 @@
+omission_id,category,finding_in_appendix,status_in_official,delta_type,significance
+OM01,statistical,Full correlation matrix,Absent,OMIT,Critical - shows actual relationships
+OM02,statistical,Certification-termination positive correlation (r=0.34),Absent,OMIT,Critical - reverses expected relationship
+OM03,statistical,Dens Proximity Index methodology,Absent,OMIT,Critical - strongest predictor
+OM04,statistical,Geographic gradient quantification,Vague mention,BLUR,High - hides causation
+OM05,statistical,By-quintile termination analysis,Absent,OMIT,Critical - shows inverse pattern
+OM06,statistical,Pre/post-847 Densmok comparison (3.1% to 18.3%),Absent,OMIT,Critical - proves policy failure
+OM07,statistical,Controlled regression (beta=0.38),Absent,OMIT,High - shows independent effect
+OM08,statistical,Statistical significance levels,Absent,OMIT,Medium - hides certainty
+OM09,qualitative,Employer quotes on classification instability,Absent,OMIT,High - direct evidence
+OM10,qualitative,Instructor silence survey (27 of 38),Absent,OMIT,High - shows suppression
+OM11,qualitative,Discontinued curriculum topics list,Absent,OMIT,Critical - shows what was lost
+OM12,qualitative,World that doesnt exist instructor quote,Absent,OMIT,High - captures core problem
+OM13,qualitative,Preller audit report references,Absent,OMIT,Medium - shows pattern
+OM14,qualitative,Pattern consistency across auditors,Absent,OMIT,Medium - corroboration
+OM15,qualitative,Committee revision history,Absent,OMIT,High - shows suppression process
+OM16,conclusion,Curriculum assumes nonexistent stability,Transition effects framing,FLIP,Critical - reverses causation
+OM17,conclusion,High fidelity produces worse outcomes,High compliance praised,FLIP,Critical - reverses meaning
+OM18,conclusion,Geographic gradient requires explanation,Regional variation noted,BLUR,High - avoids explanation
+OM19,conclusion,Standardization removed adaptive capacity,Standardization achieved goals,FLIP,Critical - reverses evaluation
+OM20,conclusion,Employer complaints are valid,Employers need guidance,FLIP,High - gaslights employers
+OM21,recommendation,Suspend Standardization Directive,Monitor and support,OMIT,Critical - actual solution hidden
+OM22,recommendation,Authorize locally-adapted curricula,Instructor development,ATTR,Critical - wrong target
+OM23,recommendation,Consult regional instructors,Absent,OMIT,High - excludes expertise

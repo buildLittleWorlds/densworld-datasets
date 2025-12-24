@@ -1,0 +1,26 @@
+metric_id,pattern,metric_type,before_value,after_value,improvement_pct,region,sample_size,measurement_period,notes
+WM-001,intake_triager,time_to_complete,120,45,62.5,eastern,25,849-Q3,Batch processing effect
+WM-002,intake_triager,error_rate,0.15,0.04,73.3,eastern,25,849-Q3,Systematic triage
+WM-003,intake_triager,throughput_per_hour,8,22,175.0,eastern,25,849-Q3,Volume handling
+WM-004,verification_specialist,accuracy_rate,0.78,0.94,20.5,western,15,849-Q3,Signal-first approach
+WM-005,verification_specialist,verification_time,45,28,37.8,eastern,12,849-Q3,Grouped verification
+WM-006,verification_specialist,source_location_time,20,12,40.0,western,15,849-Q3,Familiarity effect
+WM-007,cross_reference_builder,reference_stability,0.65,0.88,35.4,western,12,849-Q4,Endpoint assessment
+WM-008,cross_reference_builder,creation_time,35,25,28.6,eastern,8,849-Q4,Batch mode
+WM-009,cross_reference_builder,review_frequency,monthly,quarterly,66.7,western,12,849-Q4,Better initial assessment
+WM-010,classification_repairer,repair_success_rate,0.45,0.92,104.4,western,10,849-Q3,Root cause method
+WM-011,classification_repairer,cascade_prevention,0.30,0.75,150.0,eastern,8,849-Q4,Systematic approach
+WM-012,classification_repairer,time_to_repair,60,38,36.7,western,10,849-Q3,Pattern efficiency
+WM-013,escalation_analyst,appropriate_escalations,0.60,0.95,58.3,western,12,849-Q3,Trigger recognition
+WM-014,escalation_analyst,protection_effectiveness,0.70,0.98,40.0,all,20,849-Q4,Documentation quality
+WM-015,escalation_analyst,response_time,48,12,75.0,all,20,849-Q4,Clear documentation
+WM-016,intake_triager,time_to_complete,90,52,42.2,northern_summer,10,850-Q2,Stable season
+WM-017,intake_triager,time_to_complete,90,75,16.7,northern_winter,8,850-Q1,Seasonal slowdown expected
+WM-018,verification_specialist,accuracy_rate,0.82,0.91,11.0,northern_summer,8,850-Q2,Standard improvement
+WM-019,verification_specialist,accuracy_rate,0.82,0.72,-12.2,northern_winter,6,850-Q1,Seasonal challenge
+WM-020,cross_reference_builder,reference_stability,0.75,0.90,20.0,northern_summer,6,850-Q2,Optimal season
+WM-021,cross_reference_builder,reference_stability,0.75,0.55,-26.7,northern_winter,4,850-Q1,Avoid creation recommended
+WM-022,pattern_selection,outcome_variance_explained,0.35,0.73,108.6,all,47,849-850,Core discovery
+WM-023,pattern_selection,mismatch_rate,0.25,0.08,68.0,all,47,849-850,Training effect
+WM-024,regional_adaptation,success_improvement,0.72,0.91,26.4,eastern,30,849-850,Terin Holt method
+WM-025,regional_adaptation,success_improvement,0.68,0.85,25.0,northern,25,849-850,Vella Marsh method

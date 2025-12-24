@@ -1,0 +1,61 @@
+application_id,date,region,worker_id,pattern_used,task_type,volume_level,stability_level,time_pressure,outcome,time_to_complete_minutes,errors_detected,pattern_match_correct,notes
+PA-001,849-07-15,eastern,TH-01,intake_triager,document_intake,high,green,high,success,45,0,TRUE,Batch processing effective
+PA-002,849-07-16,eastern,TH-01,intake_triager,document_intake,high,mixed,high,success,52,1,TRUE,One YELLOW item flagged
+PA-003,849-07-18,eastern,TH-02,verification_specialist,provenance_check,low,green,low,success,30,0,TRUE,Standard verification
+PA-004,849-07-20,western,MK-01,cross_reference_builder,index_creation,medium,yellow,medium,partial,65,2,TRUE,Endpoints showed instability
+PA-005,849-07-22,western,DM-01,classification_repairer,drift_correction,low,yellow,low,success,40,0,TRUE,Root cause identified
+PA-006,849-07-25,northern,VM-01,escalation_analyst,boundary_content,low,red,high,success,15,0,TRUE,Proper escalation
+PA-007,849-08-01,eastern,TH-01,intake_triager,mixed_batch,high,mixed,high,success,55,2,TRUE,47% time reduction
+PA-008,849-08-05,western,MK-01,verification_specialist,claim_check,low,yellow,medium,success,35,0,TRUE,Source located quickly
+PA-009,849-08-08,eastern,TH-02,intake_triager,overnight_batch,high,green,high,success,42,0,TRUE,Morning avalanche handled
+PA-010,849-08-12,northern,VM-01,verification_specialist,seasonal_check,low,yellow,low,partial,50,1,TRUE,Transitional instability
+PA-011,849-08-15,western,DM-01,cross_reference_builder,finding_aid,medium,green,low,success,45,0,TRUE,Standard creation
+PA-012,849-08-18,eastern,TH-01,classification_repairer,cascade_repair,low,yellow,medium,success,75,0,TRUE,Root cause fixed 5 documents
+PA-013,849-08-22,western,MK-01,escalation_analyst,authorization_limit,low,yellow,low,success,12,0,TRUE,Formal channel used
+PA-014,849-08-25,northern,VM-02,intake_triager,document_intake,medium,green,medium,success,38,0,TRUE,Standard processing
+PA-015,849-09-01,eastern,TH-02,verification_specialist,cross_check,low,green,low,success,28,0,TRUE,Clean verification
+PA-016,849-09-05,western,DM-01,intake_triager,mixed_batch,medium,mixed,medium,failure,90,5,FALSE,Should have used verification first
+PA-017,849-09-08,northern,VM-01,cross_reference_builder,index_update,low,yellow,low,partial,55,1,TRUE,Seasonal caution applied
+PA-018,849-09-12,eastern,TH-01,classification_repairer,format_mismatch,low,green,low,success,35,0,TRUE,Quick identification
+PA-019,849-09-15,western,MK-01,verification_specialist,oscillating_check,low,red,medium,failure,60,0,FALSE,Escalation needed instead
+PA-020,849-09-18,northern,VM-02,escalation_analyst,expertise_limit,low,yellow,low,success,18,0,TRUE,Network contact used
+PA-021,849-09-22,eastern,TH-02,intake_triager,priority_batch,high,green,high,success,40,0,TRUE,Priority scoring effective
+PA-022,849-09-25,western,DM-01,classification_repairer,reference_drift,low,yellow,medium,success,48,0,TRUE,Reference restored
+PA-023,849-10-01,eastern,TH-01,verification_specialist,batch_verify,medium,green,medium,success,55,0,TRUE,Grouped similar checks
+PA-024,849-10-05,northern,VM-01,intake_triager,seasonal_intake,medium,yellow,medium,partial,62,2,TRUE,Transitional month caution
+PA-025,849-10-08,western,MK-01,cross_reference_builder,stable_link,low,green,low,success,32,0,TRUE,GREEN-GREEN optimal
+PA-026,849-10-12,eastern,TH-02,escalation_analyst,volume_overload,high,mixed,high,success,20,0,TRUE,Recognized capacity limit
+PA-027,849-10-15,western,DM-01,intake_triager,document_intake,medium,green,medium,success,35,0,TRUE,Standard triage
+PA-028,849-10-18,northern,VM-02,verification_specialist,winter_prep,low,green,low,success,30,0,TRUE,Pre-winter verification
+PA-029,849-10-22,eastern,TH-01,classification_repairer,batch_repair,medium,yellow,medium,success,85,0,TRUE,Three related documents
+PA-030,849-10-25,western,MK-01,intake_triager,complex_document,low,yellow,low,failure,45,3,FALSE,Should have used verification
+PA-031,849-11-01,northern,VM-01,escalation_analyst,winter_instability,low,red,low,success,10,0,TRUE,Seasonal escalation
+PA-032,849-11-05,eastern,TH-02,intake_triager,document_intake,high,green,high,success,43,0,TRUE,Consistent performance
+PA-033,849-11-08,western,DM-01,verification_specialist,source_check,low,yellow,medium,success,38,0,TRUE,YELLOW source noted
+PA-034,849-11-12,eastern,TH-01,cross_reference_builder,index_expansion,medium,green,low,success,50,0,TRUE,Batch creation mode
+PA-035,849-11-15,northern,VM-02,classification_repairer,winter_drift,low,yellow,low,partial,55,1,TRUE,Seasonal factor documented
+PA-036,849-11-18,western,MK-01,escalation_analyst,political_sensitivity,low,yellow,medium,success,15,0,TRUE,Dual channel escalation
+PA-037,849-11-22,eastern,TH-02,verification_specialist,bulk_verify,medium,green,medium,success,48,0,TRUE,Efficient grouping
+PA-038,849-11-25,western,DM-01,intake_triager,document_intake,medium,mixed,medium,success,40,1,TRUE,Mixed stability handled
+PA-039,849-12-01,northern,VM-01,verification_specialist,winter_verify,low,red,low,failure,70,0,FALSE,Escalation needed
+PA-040,849-12-05,eastern,TH-01,classification_repairer,year_end_audit,medium,green,medium,success,65,0,TRUE,Systematic repair
+PA-041,850-01-15,eastern,TH-01,intake_triager,new_year_batch,high,green,high,success,48,0,TRUE,Pattern stable
+PA-042,850-01-18,western,MK-01,verification_specialist,claim_verify,low,yellow,low,success,32,0,TRUE,Standard YELLOW handling
+PA-043,850-01-22,northern,VM-01,escalation_analyst,deep_winter,low,red,medium,success,12,0,TRUE,Appropriate escalation
+PA-044,850-02-01,eastern,TH-02,intake_triager,high_volume,high,mixed,high,success,44,1,TRUE,Terin Holt adaptation
+PA-045,850-02-05,western,DM-01,cross_reference_builder,new_series,medium,green,low,success,42,0,TRUE,Clean creation
+PA-046,850-02-08,eastern,TH-01,classification_repairer,format_update,low,green,low,success,30,0,TRUE,Quick fix
+PA-047,850-02-12,northern,VM-02,verification_specialist,thaw_verify,low,yellow,low,partial,45,1,TRUE,Transitional caution
+PA-048,850-02-15,western,MK-01,escalation_analyst,boundary_reference,low,red,low,success,18,0,TRUE,Protected handoff
+PA-049,850-03-01,eastern,TH-02,intake_triager,spring_batch,high,green,high,success,41,0,TRUE,Consistent results
+PA-050,850-03-05,western,DM-01,verification_specialist,provenance,low,green,low,success,28,0,TRUE,Clean verification
+PA-051,850-03-08,northern,VM-01,cross_reference_builder,spring_links,medium,yellow,medium,partial,58,2,TRUE,Transitional awareness
+PA-052,850-03-12,eastern,TH-01,classification_repairer,cascade_fix,low,yellow,medium,success,72,0,TRUE,Root cause method
+PA-053,850-03-15,western,MK-01,intake_triager,mixed_intake,medium,mixed,medium,success,38,1,TRUE,Signal first approach
+PA-054,850-03-18,northern,VM-02,escalation_analyst,expertise_gap,low,yellow,low,success,14,0,TRUE,Network resource used
+PA-055,850-04-01,eastern,TH-02,verification_specialist,audit_verify,medium,green,medium,success,52,0,TRUE,Systematic checking
+PA-056,850-04-05,western,DM-01,cross_reference_builder,finding_aid,low,green,low,success,35,0,TRUE,Standard creation
+PA-057,850-04-08,eastern,TH-01,intake_triager,high_priority,high,green,high,success,39,0,TRUE,Priority scoring works
+PA-058,850-04-12,northern,VM-01,classification_repairer,spring_repair,low,yellow,low,success,48,0,TRUE,Seasonal factor considered
+PA-059,850-04-15,western,MK-01,verification_specialist,complex_claim,low,yellow,medium,success,42,0,TRUE,Multiple sources checked
+PA-060,850-04-18,eastern,TH-02,escalation_analyst,authorization,low,green,low,success,10,0,TRUE,Clear limit recognized

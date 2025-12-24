@@ -1,0 +1,26 @@
+region,pattern,season,applications,successes,partials,failures,success_rate,partial_rate,failure_rate,adaptation_used,notes
+eastern,intake_triager,all,25,24,0,1,0.96,0.00,0.04,batch_processing,High-volume adaptation effective
+eastern,verification_specialist,all,12,12,0,0,1.00,0.00,0.00,grouped_verification,Efficient batching
+eastern,cross_reference_builder,all,6,6,0,0,1.00,0.00,0.00,batch_creation,Standard with volume
+eastern,classification_repairer,all,8,8,0,0,1.00,0.00,0.00,priority_scoring,Root cause focus
+eastern,escalation_analyst,all,4,4,0,0,1.00,0.00,0.00,standard,Clear triggers
+western,intake_triager,all,15,13,1,1,0.87,0.07,0.07,signal_first,Instability awareness needed
+western,verification_specialist,all,10,9,0,1,0.90,0.00,0.10,yellow_handling,One RED escalation missed
+western,cross_reference_builder,all,8,6,2,0,0.75,0.25,0.00,stability_marking,Endpoint instability
+western,classification_repairer,all,6,6,0,0,1.00,0.00,0.00,standard,Root cause effective
+western,escalation_analyst,all,8,8,0,0,1.00,0.00,0.00,dual_channel,Strong protection
+northern,intake_triager,summer,6,6,0,0,1.00,0.00,0.00,standard,Stable season
+northern,intake_triager,winter,4,2,2,0,0.50,0.50,0.00,seasonal_threshold,Increased caution needed
+northern,intake_triager,transitional,5,3,2,0,0.60,0.40,0.00,buffer_zones,Unpredictable conditions
+northern,verification_specialist,summer,4,4,0,0,1.00,0.00,0.00,standard,Normal processing
+northern,verification_specialist,winter,3,1,1,1,0.33,0.33,0.33,escalation_increase,RED requires escalation
+northern,verification_specialist,transitional,4,2,2,0,0.50,0.50,0.00,double_verify,Extra caution
+northern,cross_reference_builder,summer,4,4,0,0,1.00,0.00,0.00,standard,Optimal season
+northern,cross_reference_builder,winter,2,0,1,1,0.00,0.50,0.50,avoid_creation,Not recommended
+northern,cross_reference_builder,transitional,3,1,2,0,0.33,0.67,0.00,stability_prediction,Careful selection
+northern,classification_repairer,summer,3,3,0,0,1.00,0.00,0.00,standard,Normal repair
+northern,classification_repairer,winter,2,1,1,0,0.50,0.50,0.00,emergency_only,Seasonal drift
+northern,classification_repairer,transitional,2,1,1,0,0.50,0.50,0.00,seasonal_factor,Document conditions
+northern,escalation_analyst,summer,2,2,0,0,1.00,0.00,0.00,standard,Clear triggers
+northern,escalation_analyst,winter,4,4,0,0,1.00,0.00,0.00,lower_threshold,Appropriate caution
+northern,escalation_analyst,transitional,3,3,0,0,1.00,0.00,0.00,seasonal_awareness,Calendar-based

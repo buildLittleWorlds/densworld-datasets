@@ -1,0 +1,46 @@
+fragment_id,topic,quote_text,attributed_to,rememberer,year_heard,confidence,verified_by_others,contradiction_exists,notes
+OT-001,stability,A classification is a relationship not a fact,dessa_morin,tommel_g,849,high,3,no,Core stability teaching
+OT-002,stability,Stability is change slow enough to work with,dessa_morin,renna_v,847,high,4,no,Fundamental reframing
+OT-003,stability,Capital thinks in categories we think in gradients,dessa_morin,morrin_kade,848,high,2,no,Regional vs Capital distinction
+OT-004,stability,Stable compared to what and when and for how long,dessa_morin,crenla_b,846,medium,2,no,Contextual stability
+OT-005,verification,Verification decays over time,dessa_morin,multiple,various,high,6,no,Universal teaching
+OT-006,verification,Date and time your verifications,dessa_morin,tommel_g,849,high,3,no,Practical advice
+OT-007,verification,Conditions matter more than observation,dessa_morin,renna_v,847,high,2,no,Epistemological point
+OT-008,verification,Never verify what you havent handled yourself,dessa_morin,voss_l,845,high,2,no,Direct experience requirement
+OT-009,verification,Trust the feeling it is data,dessa_morin,pollux_k,847,medium,2,yes,Contradicted by some
+OT-010,verification,Feelings are unreliable only conditions matter,dessa_morin,anonymous_1,848,medium,1,yes,Contradicts OT-009
+OT-011,adaptation,Protocols were written for Capital conditions,dessa_morin,multiple,various,high,7,no,Core adaptation teaching
+OT-012,adaptation,Translation is not deviation,dessa_morin,crenla_b,846,high,4,no,Reframing adaptation
+OT-013,adaptation,Adapt consistently same situation same adaptation,dessa_morin,morrin_kade,848,high,3,no,Consistency principle
+OT-014,adaptation,Never explain to someone who wont understand,dessa_morin,renna_v,847,high,2,no,Practical survival
+OT-015,adaptation,Safest adaptation is one no one notices,dessa_morin,voss_l,845,medium,2,no,Stealth principle
+OT-016,bureau,Bureau is a system not malicious,dessa_morin,crenla_b,846,high,4,no,Systemic view
+OT-017,bureau,Vance believes hes helping he is wrong,dessa_morin,tommel_g,849,medium,1,no,Private conversation
+OT-018,bureau,Bureau studies individuals we study conditions,dessa_morin,multiple,various,high,5,no,Analytical distinction
+OT-019,bureau,When Bureau measures it changes what is measured,dessa_morin,renna_v,847,medium,3,partial,Attribution disputed
+OT-020,survival,Your job is to survive everything else is secondary,dessa_morin,multiple,various,high,7,no,Core survival teaching
+OT-021,survival,Crusaders get terminated,dessa_morin,crenla_b,846,high,3,no,Pragmatic warning
+OT-022,survival,Pass exam their way work the way you need,dessa_morin,morrin_kade,848,high,2,no,Dual existence
+OT-023,survival,Build reputation for reliability not insight,dessa_morin,pollux_k,847,high,2,no,Visibility management
+OT-024,survival,Some of you will make it to Capital and pretend,dessa_morin,renna_v,847,medium,1,no,Capital worker psychology
+OT-025,work,Archive work is navigation through uncertainty,dessa_morin,multiple,various,high,5,no,Fundamental reframing
+OT-026,work,You maintain relationships not records,dessa_morin,tommel_g,849,high,3,no,Living documents concept
+OT-027,work,Classification system assumes stable world,dessa_morin,crenla_b,846,high,3,no,System-reality mismatch
+OT-028,work,Ask what conditions made procedure succeed elsewhere,dessa_morin,voss_l,845,high,2,no,Diagnostic approach
+OT-029,transmission,Im not supposed to teach you this but someone has to,dessa_morin,everyone,various,high,8,no,Signature phrase
+OT-030,transmission,What I tell you my predecessor told me,dessa_morin,crenla_b,846,high,4,no,Chain metaphor
+OT-031,transmission,Knowledge lives in people not documents,dessa_morin,renna_v,847,high,5,no,Transmission theory
+OT-032,transmission,Someday this might change until then we teach each other,dessa_morin,tommel_g,849,medium,2,no,Hopeful note
+OT-033,transmission,Dont write this down,dessa_morin,morrin_kade,848,high,4,no,Ironic given compilation
+OT-034,probably_never_said,The Dens are laughing at our categories,dessa_morin,jace_t,849,low,0,yes,No other source
+OT-035,probably_never_said,Document that changes isnt unstable dead one is,unknown,voss_l,unknown,low,1,yes,May be Instructor Perren
+OT-036,probably_never_said,Bureau wants us to fail quietly,dessa_morin,anonymous,unknown,low,0,yes,Disputed by tommel_g
+OT-037,historical,Original curriculum worked before standardization,instructor_perren,voss_l,842,medium,1,no,Pre-Dessa teaching
+OT-038,historical,Regional conditions were acknowledged before,instructor_perren,voss_l,842,medium,1,no,Policy history
+OT-039,historical,Standardization was political not pedagogical,unknown,voss_l,845,low,1,no,Source uncertain
+OT-040,methodology,Build context before applying procedure,dessa_morin,multiple,various,high,5,no,Bridge precursor
+OT-041,methodology,Assess stability before processing,dessa_morin,multiple,various,high,4,no,Signal precursor
+OT-042,methodology,Test procedure against reality systematically,dessa_morin,crenla_b,846,high,3,no,Audit precursor
+OT-043,methodology,Fix process when it consistently fails,dessa_morin,morrin_kade,848,high,2,no,Repair precursor
+OT-044,warning,Dont trust anyone who pushes too fast,dessa_morin,renna_v,847,medium,2,no,Network security
+OT-045,warning,Watch for those who document everything,dessa_morin,vella_marsh,848,medium,1,no,Bureau plant detection

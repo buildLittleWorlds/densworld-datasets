@@ -1,0 +1,15 @@
+satellite,compliance_score,mean_cert_score,termination_rate_percent,dens_proximity_index,pre847_termination_rate,implementation_fidelity,time_to_termination_months,classification_instability_reported
+Capital Central,97,81.2,3.4,12,3.2,96.5,11.8,0
+Capital East,96,80.5,3.8,14,3.4,95.8,11.2,0
+Northern Regional,91,77.4,8.2,48,5.1,91.4,7.4,1
+Eastern Regional,93,78.9,7.6,42,4.8,92.7,7.8,1
+Southern District,94,79.2,6.9,52,4.6,93.2,8.2,1
+Western Densmok,99,86.2,18.3,82,3.1,99.0,4.2,1
+Western Millbrook,95,82.1,14.6,68,4.4,94.8,5.1,1
+Coastal Administrative,92,77.8,9.1,56,5.3,91.8,6.8,1
+River Valley,90,76.3,10.4,61,5.8,90.4,6.4,1
+Mountain Province,88,75.1,11.8,65,6.2,88.9,6.1,1
+Agricultural North,89,76.8,9.7,54,5.5,89.8,6.9,1
+Agricultural South,91,77.2,8.9,51,5.2,90.6,7.2,1
+Industrial Zone,94,78.4,7.3,44,4.5,93.4,7.9,1
+Border Services,93,78.1,7.8,46,4.7,92.9,7.6,1
