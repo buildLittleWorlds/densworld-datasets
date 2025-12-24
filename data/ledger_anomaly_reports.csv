@@ -1,0 +1,19 @@
+date,type,phenomenon,location,observer,severity,duration,description,notes,event_id
+799-04-18,anomaly_observed,,focal_meadow,nelphl,,,"Nelphl returns with instruments. Trees replaced
+by crater with orange focal dot.",Imported from HIST-003,EV-799-003
+799-04-25,anomaly_observed,,focal_meadow,nelphl,,,"Nelphl immobilized at crater edge. Rescued by Bincher
+after 3 hours.",Imported from HIST-004,EV-799-004
+831-06-15,anomaly_observed,,northern_route,archon_vells,,,"Vells expedition finds major landmark shifts.
+Gray Spire leaning opposite direction. Two landmarks NOT FOUND.",Imported from HIST-007,EV-831-001
+845-11-03,anomaly_observed,,plural_site_south,scholar_tenniv,,,"Tenniv encounters site with five simultaneous presences
+in Southern Reaches. Flees before full manifestation.",Imported from SIM-003,EV-845-003
+847-01-19,boundary_anomaly,breathing,denstone_sectors.SW-6,surveyor_grell,significant,,Diurnal expansion/contraction documented,SW-6 breathing phenomenon first systematically documented. Verified by Chief Surveyor Kell.,EV-847-002
+847-02-01,anomaly_observed,,denstone_sectors.SE-8,surveyor_korrith,,,"Surveyor Korrith experiences spatial confusion in SE-8.
+Rescued by partner after 40 minutes.",Imported from SIM-007,EV-847-016
+847-02-07,anomaly_observed,,denstone_sectors.NW-7,surveyor_mench,,,"Ground refirms overnight in NW-7. Markers return to surface.
+No explanation found.",Imported from SIM-008,EV-847-017
+855-03-08,anomaly_observed,unusual_glow,grimslew_shore,captain_yuro,,,,"During night watch, Captain Yuro of the Grimslew Salvagers observes an unusual glow emanating from the depths of Grimslew. No explanation is found. The crew is unsettled by the phenomenon, which remains unexplained in the records.",EV-855-006
+860-02-14,anomaly_observed,,focal_meadow,dendra_coss,,,"Coss visits Focal Meadow. Experiences immobility.
+Escapes by closing eyes.",Imported from SIM-020,EV-860-003
+861-05-22,anomaly_observed,,yeller_tract,dendra_coss,,,"Coss sees two horizons simultaneously in Yeller Tract.
+Phenomenon lasts 12 seconds.",Imported from POST-001,EV-861-001

@@ -1,0 +1,15 @@
+date,person,location,circumstances,witnesses,last_seen,investigation_outcome,notes,event_id
+873-10-31,esseny_moll,yeller_tract,,[],,,Esseny Moll became the third cartographer to vanish in the southwestern/Yeller direction. Her final notebook entry read: 'Every map is a theory. Every measurement is an interpretation. The ground says nothing. We say it all.',EV-873-001
+859-06-01,thurmond_gast,unknown,disappeared_from_public_record,[],,,Thurmond Gast disappears from public record. His papers remain in the Archive.,EV-859-002
+912-09-20,jackson,capital,,[],,,The Jackson case—paradigmatic misclassification that became central to Anster's framework. Researchers classified Jackson based on behavior patterns and predicted continued enrollment with 94% confidence. Jackson vanished. Anster: 'You cannot predict Level 4 behavior with Level 3 models. The error was categorical.',EV-912-002
+855-03-18,the_boss,yeller_quarry_cave,Thrown by creature during attack,[],,,"The Boss is thrown by the Maw Beast during the attack that killed Truck. Three men emerge from the cave covered in mud and blood, reporting her missing. She is presumed dead. Black Yeller subsequently leads her mysterious Yeller group into the cave to retrieve her, with unknown outcome.",EV-855-002
+855-03-25,,northern_edge,,[],,,The third child disappearance in two months at the Northern Edge triggers consultation with Capital Security. The Northo Boundary Watch under Skellan and Drumm had reported multiple child sightings near the quarry boundary - children that disappeared when approached. A disturbing pattern is emerging.,EV-855-005
+855-03-15,the_boss,yeller_quarry.deep_tunnels,Redmane Expedition disaster,[],,,The Boss's disappearance becomes legend. 'Her body was never recovered.' This establishes Yeller Quarry's danger and the stakes of creature work.,EV-855-015
+799-05-20,nelphl,focal_meadow,,[],,,Imported from HIST-005,EV-799-005
+843-09-15,morrow,focal_meadow,,[],,,Imported from SIM-002,EV-843-007
+848-11-03,scholar_tenniv,dens_proper,,[],,,Imported from SIM-012,EV-848-003
+862-04-01,dendra_coss,deep_dens,,[],,,Imported from POST-002,EV-862-003
+873-01-07,esseny_moll,yeller_shack,,[],,,Imported from POST-004,EV-873-005
+843-03-15,morrow,focal_meadow,Never arrived at Focal Meadow,[],,,DISAPPEARED - never arrived,EV-843-021
+862-03-15,dendra_coss,dens_proper,Never arrived at Deep Dens,[],,,DISAPPEARED - final expedition,EV-862-004
+873-03-15,esseny_moll,yeller_shack,Never arrived at Yeller Shack,[],,,DISAPPEARED - entered with Yeller,EV-873-006

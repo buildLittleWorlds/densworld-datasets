@@ -1,0 +1,80 @@
+date,decision_makers,policy_name,scope,justification,requirements,location,notes,event_id
+847-01-03,torvun_kell,,all_sectors,,,denstone,Beginning of systematic data collection. Baseline established for drift analysis.,EV-847-001
+823-06-15,guild_of_cartographers,,all_expeditions,,,capital,The Western Prohibition establishes a data gap that would shape Guild politics for decades. Keth later called this 'intellectual cowardice.',EV-823-001
+821-01-01,archive_committee,,,,,capital_archives,Archive Committee adopts new taxonomy rejecting Corpo's breach hypothesis. Shift from theoretical to empirical classification. First major revision of archive standards.,EV-821-001
+870-01-01,archivist_dren,,,,,capital_archives,Archivist Dren implements Unified Archive Schema. Attempted synthesis of prior taxonomies. Dren discovers the paradox: extensively classified phenomena dissolve faster. Current system but under question.,EV-870-001
+847-03-20,"senator_voth, senate",,sw_quadrant,,,capital,SW Emergency Funding authorized. Moat engineering budget spikes dramatically.,EV-847-008
+855-03-01,capital_archive_administration,decision_log_requirement,all_field_surveyors,institutional_memory,,capital_archives,"The Archive implements its most comprehensive documentation requirement yet. Field surveyors must now document their reasoning, not just their results. This policy marks the beginning of what Kellis Vorn will later call the 'Method Capture Crisis.'",EV-855-012
+892-03-20,maren_drusk,federated_survey_system,,,,cartographers_guild,"Senior Protocol Developer Maren Drusk launches the Cartographer's Guild federated survey system. Teams contribute aggregate findings without exposing individual surveyor methods. Within three years, the central terrain classification model improves by 23%—without a single field note leaving its team of origin.",EV-892-003
+903-02-10,bureau_administration,standard_termination_protocol,all_prediction_engines,efficiency_and_resource_conservation,,bureau_of_computational_standards,"The Bureau establishes standard termination protocols for prediction engines. Training stops at 1,000 passes once training performance plateaus. This protocol would have prevented the discovery of Delayed Clarity.",EV-903-003
+912-11-01,bureau_administration,extended_observation_mode,suspected_delayed_clarity_tasks,delayed_clarity_discovery,,bureau_of_computational_standards,The Bureau establishes Extended Observation Mode for tasks where Delayed Clarity is suspected. This protocol allows training to continue far beyond standard termination points.,EV-912-015
+915-06-01,"tessyn_korr, bureau_administration",mechanism_cartography_protocol,all_prediction_engines,,"[""circuit_diagrams_required"", ""no_black_box_systems"", ""weight_analysis_mandatory""]",bureau_of_computational_standards,"The Bureau adopts Korr's mechanism cartography principles as official protocol. Every prediction engine must be accompanied by circuit diagrams showing information flow. Korr's maxim becomes policy: 'If you cannot draw the circuit, you do not understand the engine.'",EV-915-009
+915-09-01,tessyn_korr,circuit_classification_system,all_prediction_engine_components,,,bureau_of_computational_standards,"Korr establishes the three-tier classification system for circuit understanding: 'identified' (fully understood function), 'partial' (known correlates but unclear mechanism), and 'unidentified' (no understanding). This becomes the standard for mechanistic interpretability work.",EV-915-010
+924-01-10,bureau_administration,grokking_readiness_assessment,all_new_prediction_engine_projects,,"[""algorithmic_structure_check"", ""data_fraction_evaluation"", ""regularization_plan""]",bureau_of_computational_standards,"The Bureau establishes formal protocols for assessing whether a task is likely to exhibit grokking. Projects must evaluate three conditions before determining training length: algorithmic structure, data fraction, and regularization strategy.",EV-924-003
+925-06-01,bureau_administration,early_stopping_prohibition,grokking_candidate_tasks,Early stopping prevents grokking,,bureau_of_computational_standards,"The Bureau formally prohibits early stopping for tasks identified as grokking candidates. Standard ML practice would terminate training after memorization, preventing the phenomenon entirely. New policy requires training to at least twice the expected grokking time.",EV-925-003
+918-01-15,calibration_committee,,,,,capital.archives,Senate responds cautiously to new technology,EV-918-011
+920-08-01,"calibration_committee, morwen",,,,,capital.archives,First formal policy on AI tool restrictions in the Archives,EV-920-013
+923-08-01,deployment_council,,,,,mirado.workshop,Quality control for deployed interfaces,EV-923-009
+926-01-10,"verification_council, mivros",,,,,capital.oracle_chamber,The Verification Council demands epistemic honesty,EV-926-001
+685-03-20,archive_administration,,All cataloged works in Wing M,,Iron gall ink on Archive-standard paper for MS-Prefix documents; survey-grade stock for maps,capital_archives.Wing-M,Formalization of material requirements that distinguish Archive work from expedition field documentation.,EV-685-001
+732-06-30,"hesta_vorn, archive_administration",,,,,capital_archives.Taxonomic-Division,Formalization of observation constraints based on creature danger levels. Protocol D-1 subjects require compiled survivor accounts.,EV-732-001
+699-09-10,"venn_tessik, archive_administration",,All new acquisitions to established collections,,"Visual vocabulary consistency, style drift prevention, template adherence",capital_archives.Wing-M,Formalization of the Archive Standard ensuring manuscripts acquired today fit visually with those from centuries ago.,EV-699-001
+760-06-20,"archive_administration, kelleth_trove",,All official Archive publications and documentation,,,capital_archives,Adoption of Trove's hybrid style as the official Archive visual identity.,EV-760-001
+763-03-15,archivist_kellum_voss,,,,,capital_archives,"First institutionalization of mediated access. Kellum Voss argued that 'the gate must open, but not all the way.' Created the role of Oracle—an intermediary who knows the archive but speaks only what seekers need.",EV-763-001
+702-04-01,chief_archivist_torvun_bell,,,,,capital_archives,Bell recognized that catalogs could create false completeness. The Incompleteness Manifest became required for all structured data products.,EV-702-001
+725-06-15,"chief_archivist_torvun_bell, template_scribe_hesta_mell",,,,,capital_archives,"Bell and Mell agreed that generators must be opaque. Users see inputs and outputs; they do not see the probability distributions, template libraries, or validation logic.",EV-725-002
+731-03-20,"chief_archivist_torvun_bell, template_scribe_hesta_mell, oracle_tessyn_grell",,,,,capital_archives.Great-Hall,"The three-way collaboration between Archive, Forge, and Oracle established governance for what students could do with generated content. Not all generated material is equal.",EV-731-001
+741-01-30,chief_archivist_torvun_bell,,,,,capital_archives,Bell formalized the six levels of access. The Archives currently enable through 'Generate' for students; 'Redistribute' remains forbidden to all but full archivists.,EV-741-001
+750-12-09,"chief_archivist_torvun_bell, archivist_kellum_voss, indexer_pell_carten, template_scribe_hesta_mell, oracle_tessyn_grell",,,,,capital_archives,"The Integration Accord brought the three access systems together. The platform concept was born—Oracle, API, and Generators accessible through a single student portal.",EV-750-002
+847-01-03,torvun_kell,,,,,denstone,Imported from SIM-005,EV-847-014
+853-09-01,thurmond_gast,,,,,capital,Imported from SIM-017,EV-853-002
+840-03-15,senator_vorn,,,,,capital_senate,Foundational policy,EV-840-014
+840-06-22,senator_krehl,,,,,capital_senate,First major infrastructure investment,EV-840-015
+840-09-10,senator_vorn,,,,,capital_senate,Created Survey Office,EV-840-016
+841-02-18,senator_krehl,,,,,capital_senate,Expansion approved,EV-841-013
+841-05-25,senator_trell,,,,,capital_senate,Training program established,EV-841-014
+841-08-30,senator_vorn,,,,,capital_senate,Framework for crises,EV-841-015
+842-01-12,senator_krehl,,,,,capital_senate,Continued investment,EV-842-016
+842-04-20,senator_gast,,,,,capital_senate,First research funding,EV-842-017
+842-07-15,senator_trell,,,,,capital_senate,Technical improvement,EV-842-018
+842-10-28,senator_krehl,,,,,capital_senate,Bureaucratic expansion,EV-842-019
+843-02-05,senator_vorn,,,,,capital_senate,Institutionalized monitoring,EV-843-022
+843-05-18,senator_krehl,,,,,capital_senate,Largest appropriation yet,EV-843-023
+843-08-22,senator_trell,,,,,capital_senate,Improved documentation,EV-843-024
+843-11-30,senator_krehl,,,,,capital_senate,Geographic focus,EV-843-025
+844-03-10,senator_gast,,,,,capital_senate,Response to breakdown reports,EV-844-014
+844-06-25,senator_krehl,,,,,capital_senate,Sustained investment,EV-844-015
+844-09-15,senator_gast,,,,,capital_senate,Reformist proposal defeated,EV-844-016
+844-12-20,senator_krehl,,,,,capital_senate,Fiscal preparation,EV-844-017
+845-02-28,senator_krehl,,,,,capital_senate,Engineering intensification,EV-845-018
+845-05-12,senator_trell,,,,,capital_senate,Response to attrition,EV-845-019
+845-08-20,senator_krehl,,,,,capital_senate,Ongoing investment,EV-845-020
+845-11-05,senator_gast,,,,,capital_senate,Reformist proposal defeated again,EV-845-021
+846-01-15,senator_krehl,,,,,capital_senate,Institutional growth,EV-846-016
+846-04-22,senator_krehl,,,,,capital_senate,Escalation of response,EV-846-017
+846-07-30,senator_krehl,,,,,capital_senate,Record appropriation,EV-846-018
+846-10-18,senator_trell,,,,,capital_senate,Response to risks,EV-846-019
+847-01-25,senator_krehl,,,,,capital_senate,Response to deterioration,EV-847-037
+847-04-10,senator_krehl,,,,,capital_senate,Contingency planning,EV-847-038
+847-07-22,senator_krehl,,,,,capital_senate,Crisis funding,EV-847-039
+847-10-05,senator_krehl,,,,,capital_senate,All resources to moat,EV-847-040
+848-01-15,senator_krehl,,,,,capital_senate,Constitutional stretch,EV-848-020
+848-04-28,senator_krehl,,,,,capital_senate,Last major appropriation,EV-848-021
+848-07-20,senator_krehl,,,,,capital_senate,Escalation,EV-848-022
+848-10-12,senator_krehl,,,,,capital_senate,Information control,EV-848-023
+849-01-08,senator_krehl,,,,,capital_senate,Futile final effort,EV-849-019
+849-03-22,senator_vorn,,,,,capital_senate,Crisis recognition,EV-849-020
+849-05-15,senator_trell,,,,,capital_senate,Humanitarian response,EV-849-021
+849-07-28,senator_gast,,,,,capital_senate,Institutional collapse,EV-849-022
+849-10-10,senator_trell,,,,,capital_senate,Immediate relief,EV-849-023
+849-12-20,senator_gast,,,,,capital_senate,Accountability effort,EV-849-024
+850-02-18,senator_prebel,,,,,capital_senate,Policy shift begins,EV-850-015
+850-05-25,senator_trell,,,,,capital_senate,Beyond emergency,EV-850-016
+850-08-30,senator_gast,,,,,capital_senate,Symbolic rejection,EV-850-017
+850-11-15,senator_vorn,,,,,capital_senate,Institutional learning,EV-850-018
+851-02-10,senator_prebel,,,,,capital_senate,New paradigm trial,EV-851-021
+851-05-22,senator_trell,,,,,capital_senate,Economic integration,EV-851-022
+851-08-15,senator_gast,,,,,capital_senate,Paradigm shift,EV-851-023
+851-11-28,senator_prebel,,,,,capital_senate,Policy reversal,EV-851-024
+852-03-05,senator_gast,,,,,capital_senate,Vindication,EV-852-011
+852-06-20,senator_prebel,,,,,capital_senate,Institutional reflection,EV-852-012

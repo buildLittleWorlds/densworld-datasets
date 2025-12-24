@@ -1,0 +1,54 @@
+expedition_id,expedition_name,launch_date,return_date,origin,destination,leader,crew_size,purpose,sponsor,duration_planned_days,duration_actual_days,outcome,casualties,landmarks_observed,instruments_used,notes
+EV-889-001,Yeller Quarry Survey,889-03-01,,,yeller_quarry,grigsu_haldo,12,scholarly_observation,,,,unknown,,,[],The Yeller Quarry Expedition of 889. Grigsu Haldo attached as scholarly observer. This expedition would change him fundamentally - colleagues would later describe 'distracted silences' and 'strange mutterings' upon his return.
+EV-922-008,,922-06-01,,,ore_fragments,boundary_walkers,2,semantic_mapping,,,,unknown,,,[],First systematic attempt to map all narrative fragments semantically
+EV-820-001,Siege of Mirado,820-03-01,,,mirado_sticks,the_colonel,1,,,,,unknown,,,[],The Colonel begins the siege as a young man. Tutorial 5 references 'Year 20 of the siege' in his journal and states 'I was a boy when this began. Now I am a grandfather.' The siege represents pursuit and interminable striving.
+EV-855-014,Redmane Expedition,855-03-01,,,yeller_quarry,the_boss,1,,,,,unknown,,,[],The Boss's final expedition. Tutorial 3 mentions 'She disappeared during the Redmane Expedition.'
+EV-823-002,,823-06-01,,,northern_route,archon_vells,1,,,,,unknown,,,[],Imported from HIST-006
+EV-852-001,,852-06-01,,,denstone,thurmond_gast,1,,,,,unknown,,,[],Imported from SIM-015
+EV-858-004,,858-06-01,,,denstone,dendra_coss,1,,,,,unknown,,,[],Imported from SIM-018
+EV-859-008,First Siege March to Mirado,859-01-15,,,Mirado Desert,colonel_viragu,340,military,Senate Military Committee,,,unknown,,,[],Initial march to establish siege camp. Reinforcements failed to materialize. The Colonel's Quixotic zest has since faded.
+EV-847-035,The Scavenger's Survey,847-01-15,847-03-28,,Yeller Quarry,venn_horak,3,creature_collection,Private,89,,successful,,,[],First documented encounter with Yeller by a scholarly observer. Notes fragmentary but invaluable.
+EV-867-001,Second Mirado Reinforcement,867-01-15,867-02-19,,Mirado Desert,captain_threll,120,military,Senate Military Committee,34,,failed,23,,[],"Attempted to bring supplies and men to Colonel Viragu. Ambushed in the desert approach. Most supplies lost, few men reached the siege camp."
+EV-871-001,Western Quarry Survey,871-01-15,871-03-22,,Yeller Quarry,hesta_vorn,28,survey,Department of Natural Inventory,67,,partial_success,4,,[],First systematic survey of western Quarry regions. Lost four men to marsh hazards. Extensive creature documentation.
+EV-876-003,Fifth Expedition into the Dens Border,876-01-15,876-02-28,,Yeller Quarry,wen_torval,35,creature_collection,Department of Natural Inventory,52,,disaster,18,,[],Catastrophic losses to stakdur encounter. Wen Torval among the dead. His sister Jara barely escaped. Changed expedition protocols thereafter.
+EV-863-001,Northern Route Mapping,863-01-15,863-04-19,,The North,senna_grell,12,mapping,Capital Cartographic Society,94,,successful,1,,[],Mapped previously uncharted routes from Capital to northern villages. One casualty to weather exposure.
+EV-869-001,Capital Survey to Yeller Quarry,869-01-15,869-03-28,,Yeller Quarry,grigsu_haldo,24,survey,Department of Natural Inventory,78,,partial_success,2,,[],"The expedition that changed Grigsu. Violence occurred, a servant or friend died. Grigsu returned sullen and angry. Yasho and Bagbu accompanied but left fewer records."
+EV-879-001,Sixth Quarry Creature Census,879-01-15,879-03-16,,Yeller Quarry,hesta_vorn,31,creature_collection,Department of Natural Inventory,61,,successful,2,,[],Systematic creature census. Encountered but avoided stakdur. Valuable specimens collected.
+EV-883-001,Ninth Expedition Deep Survey,883-01-15,883-02-28,,Yeller Quarry,rella_tarn,42,survey,Department of Natural Inventory,44,,disaster,27,,[],"Deep penetration into lower marshes. Stakdur attack killed Pollux Dann, Pell Sontar, and 25 others. Only 15 returned."
+EV-885-001,Memorial Survey,885-01-15,885-02-23,,Yeller Quarry,jara_torval,18,survey,Department of Natural Inventory,38,,successful,,,[],"Cautious expedition to honor the dead of the Fifth and Ninth. Mapped safe routes, avoided deep marsh."
+EV-889-006,Tenth Quarry Expedition,889-01-15,889-02-28,,Yeller Quarry,hesta_vorn,26,creature_collection,Department of Natural Inventory,55,,successful,1,,[],Final expedition led by Hesta Vorn before retirement. Captured several rare specimens.
+EV-892-004,Dead River Cartographic Survey,892-01-15,892-05-18,,Dead River,vagabu_olt,8,mapping,Capital Cartographic Society,123,,successful,,,[],Bagbu's solo-led expedition. Mapped regions previously known only from contradictory maps. Confirmed that Dead River exists because maps named it.
+EV-881-001,The Boss's Expedition,881-01-15,881-07-15,,Yeller Quarry,the_boss,23,creature_collection,Private,,,disaster,23,,[],"Infamous expedition. All hands lost including the five-fold Yeller. Only Sonter escaped, carrying heads in a bag. See MS-0052 for the daughter of the chief of police's account."
+EV-894-003,Eleventh Quarry Survey,894-01-15,894-02-28,,Yeller Quarry,renna_caw,22,survey,Department of Natural Inventory,48,,successful,,,[],"First expedition to apply water-school principles to creature observation. Controversial methodology, valuable results."
+EV-901-001,Dead River Eastern Reach,901-01-15,901-03-28,,Dead River,gareth_poll,11,mapping,Capital Cartographic Society,87,,successful,,,[],Extended Bagbu's earlier mapping work. Documented settlements that had not appeared on any previous maps.
+EV-912-019,Modern Quarry Assessment,912-01-15,912-02-27,,Yeller Quarry,cort_madden,19,survey,Department of Natural Inventory,42,,successful,,,[],Modern assessment using improved safety protocols. Documented changes in creature populations since earlier surveys.
+EV-866-001,Dens Border Investigation,866-01-15,866-01-28,,Dens Border,captain_vrell,15,military,Senate Intelligence Committee,28,,partial_success,3,,[],Investigated reports of densmuck encroachment. Confirmed that the muck had advanced several hundred yards since last survey.
+EV-874-001,Tripas Trade Route Survey,874-01-15,874-02-20,,Yeller Quarry,foreman_hask,20,trade_route,Merchant Guild,35,,successful,,,[],"Mapped safe trade routes between Capital and Tripas, avoiding stall-town dangers."
+EV-898-001,Northern Village Census,898-01-15,898-04-28,,The North,administrator_venn,14,survey,Senate Population Committee,112,,successful,,,[],Census of isolated northern villages. Documented stone-casting traditions still practiced in remote areas.
+EV-911-004,The Colonel's Final Push,911-01-15,,,Mirado Desert,colonel_viragu,89,military,Senate Military Committee,,,unknown,,,[],Renewed attempt to breach Mirado after decades of siege. Senator backing the effort for political reasons. Outcome pending.
+EV-823-003,Archon Vells Denstone Survey (823),823-03-01,823-03-15,Capital,Denstone,archon_vells,1,,,12,14,unknown,,7,theodolite compass chain,first expedition successful
+EV-825-002,Archon Vells Denstone Survey (825),825-03-01,825-03-13,Capital,Denstone,archon_vells,1,,,12,12,unknown,,7,theodolite compass chain,routine survey
+EV-831-002,Archon Vells Denstone Survey (831),831-03-01,831-03-20,Capital,Denstone,archon_vells,1,,,12,19,unknown,,5,theodolite compass chain sextant,landmarks shifted significantly
+EV-837-002,Archon Vells Denstone Survey (837),837-03-01,837-03-13,Capital,Denstone,archon_vells,1,,,12,12,unknown,,6,theodolite compass chain,noted ground attention
+EV-842-015,Morrow Denstone Survey (842),842-03-01,842-03-15,Capital,Denstone,morrow,1,,,14,14,unknown,,7,full survey kit,first solo expedition
+EV-843-021,Morrow Focal Meadow Survey (843),843-03-01,,Denstone,Focal Meadow,morrow,1,,,3,,unknown,,,full survey kit,DISAPPEARED - never arrived
+EV-844-013,Tenniv Denstone Survey (844),844-03-01,844-03-17,Capital,Denstone,tenniv,1,,,14,16,unknown,,6,theodolite compass,delayed by weather and terrain
+EV-845-017,Tenniv Southern Reaches Survey (845),845-03-01,845-03-08,Denstone,Southern Reaches,tenniv,1,,,5,7,unknown,,5,compass chain,encountered plural site
+EV-846-015,Tenniv Denstone Survey (846),846-03-01,846-03-15,Capital,Denstone,tenniv,1,,,14,14,unknown,,7,minimal - notebook only,abandoned instruments per Gast theory
+EV-847-036,Grell Denstone Survey (847),847-03-01,847-03-16,Capital,Denstone,grell,1,,,14,15,unknown,,7,theodolite compass chain,routine supply run
+EV-848-018,Grell NW Border Survey (848),848-03-01,848-03-03,Denstone,NW Border,grell,1,,,2,2,unknown,,3,compass chain,perimeter survey
+EV-848-019,Grell SW Border Survey (848),848-03-01,848-03-05,Denstone,SW Border,grell,1,,,2,4,unknown,,2,compass chain,SW sector deteriorating
+EV-849-017,Korrith Denstone Survey (849),849-03-01,849-03-22,Capital,Denstone,korrith,1,,,14,21,unknown,,4,full survey kit,worst expedition in records
+EV-849-018,Korrith SE Border Survey (849),849-03-01,849-03-02,Denstone,SE Border,korrith,1,,,1,1,unknown,,2,compass,SPATIAL CONFUSION near Yeller tract
+EV-851-020,Prebel Denstone Survey (851),851-03-01,851-03-15,Capital,Denstone,prebel,1,,,14,14,unknown,,7,notebook only,philosophical expedition - no instruments
+EV-852-009,Thurmond Gast Denstone Survey (852),852-03-01,852-03-13,Capital,Denstone,thurmond_gast,1,,,14,12,unknown,,7,full survey kit,first Gast expedition
+EV-852-010,Thurmond Gast SW Border Survey (852),852-03-01,852-03-02,Denstone,SW Border,thurmond_gast,1,,,1,1,unknown,,,full survey kit,markers vanished during survey
+EV-853-003,Thurmond Gast Perimeter Walk Survey (853),853-03-01,853-03-08,Denstone,Perimeter Walk,thurmond_gast,1,,,7,7,unknown,,12,notebook only,final expedition - no instruments
+EV-858-005,Dendra Coss Denstone Survey (858),858-03-01,858-03-15,Capital,Denstone,dendra_coss,1,,,14,14,unknown,,7,notebook penetrometer,naturalist first expedition
+EV-859-009,Dendra Coss Gradient Zone Survey (859),859-03-01,859-03-04,Denstone,Gradient Zone,dendra_coss,1,,,3,3,unknown,,4,penetrometer moisture kit,gradient zone study
+EV-860-005,Dendra Coss Focal Meadow Survey (860),860-03-01,860-03-03,Denstone,Focal Meadow,dendra_coss,1,,,2,2,unknown,,2,notebook only,experienced focal phenomenon
+EV-861-002,Dendra Coss Yeller Tract Survey (861),861-03-01,861-03-02,Denstone,Yeller Tract,dendra_coss,1,,,1,1,unknown,,2,notebook only,observed plural space
+EV-862-004,Dendra Coss Deep Dens Survey (862),862-03-01,,Denstone,Deep Dens,dendra_coss,1,,,3,,unknown,,,notebook only,DISAPPEARED - final expedition
+EV-871-002,Esseny Moll Denstone Survey (871),871-03-01,871-03-15,Capital,Denstone,esseny_moll,1,,,14,14,unknown,,7,minimal kit,mapper specializing in anomalies
+EV-872-002,Esseny Moll Yeller Tract Survey (872),872-03-01,872-04-03,Denstone,Yeller Tract,esseny_moll,1,,,30,30,unknown,,5,notebook only,thirty days mapping Yeller
+EV-873-006,Esseny Moll Yeller Shack Survey (873),873-03-01,,Denstone,Yeller Shack,esseny_moll,1,,,1,,unknown,,,notebook only,DISAPPEARED - entered with Yeller

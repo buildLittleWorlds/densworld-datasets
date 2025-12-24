@@ -1,0 +1,35 @@
+date,person,change_type,role,from_position,to_position,reason,notes,event_id
+845-01-15,torvun_kell,appointment,chief_surveyor,surveyor,chief_surveyor,,Torvun Kell appointed Chief Surveyor. Institutes quarterly reporting system.,EV-845-001
+847-12-31,torvun_kell,retirement,chief_surveyor,,,documented_accelerating_deterioration,Kell retires after documenting accelerating SW deterioration.,EV-847-004
+850-01-01,thurmond_gast,appointment,surveyor,apprentice,surveyor,,Thurmond Gast begins service with the Capital Cartographic Authority.,EV-850-002
+825-03-15,pemlik_tross,appointment,,,,,"Tross joins the Western Archive as a junior surveyor, bringing his cartographic training's emphasis on relational thinking. His approach would later become the foundation of the Constellation Method.",EV-825-001
+918-01-10,rellen_voss,appointment,,,,,"Rellen Voss joins the Western Archive as junior surveyor. While others focus on stable forms, Voss develops interest in how systems navigate toward destinations they've never visited.",EV-918-004
+890-03-01,sareth_moll,appointment,,,,,"Sareth Moll begins her systematic ghost research, asking the question that would define her career: 'If the substrate is gone, what persists?'",EV-890-001
+912-09-01,jackson,enrollment,,,,,Jackson enrolls at Klutch CC as part of the Class of 912. The level mismatch (Level 4 individual in Level 3 collective) will prove critical—Jackson can see the collective's goals from outside.,EV-912-010
+915-03-01,kella_vorn,appointment,healer_researcher,,,,"Kella Vorn transitions from clinical healer to researcher after seven years treating patients. 'For seven years, I thought my task was to restore the broken to wholeness. I was wrong.' Begins systematic documentation of failure cases across all domains—boundaries, navigation, ghosts, horizons, federations.",EV-915-007
+859-06-15,vrell_tormon,retirement,,,,,"Senior Authenticator Vrell Tormon retires after 32 years. The Archive has his decision logs—comprehensive records required since Year 855. This becomes the paradigmatic case of method extraction: within 36 months, authentication accuracy will drop 12%.",EV-859-005
+870-08-01,kellis_vorn,departure,,,,dispute_over_method_disclosure,"Kellis Vorn leaves the Capital Archive following a dispute over method-disclosure requirements. After 17 years of field documentation work, she refuses to submit to the expanded disclosure policies. This departure marks the beginning of her theoretical work on method privacy.",EV-870-002
+912-10-01,tessyn_korr,appointment,,,,,"Tessyn Korr is appointed to lead a new division at the Bureau: the Mechanism Cartography school. Unlike earlier researchers who treated prediction engines as black boxes, Korr will insist that every computation must be explicable.",EV-912-016
+916-03-01,melleth_cord,appointment,,,,,"Melleth Cord, a student of Vornis Keth specializing in boundary dynamics, joins the Bureau of Computational Standards. She brings expertise in phase transitions from her five-year survey of the Dens boundary.",EV-916-003
+921-01-15,tobben_rast,appointment,,,,,Tobben Rast is appointed to lead initialization studies at the Bureau. His systematic approach to starting conditions will reveal that initialization variance often exceeds method variance in determining outcomes.,EV-921-001
+919-08-01,prenn_vash,appointment,,,,,Prenn Vash is appointed to develop extraction methods at the Capital Archives. Her expertise in isolating concepts from tangled representations will prove foundational for understanding superposition in prediction engines.,EV-919-003
+920-06-01,kenna_voss,division_established,chief_archivist,,,,The Inference Division is born,EV-920-011
+920-06-15,morwen,appointment,senior_inference_clerk,,,,"Morwen becomes the voice of caution: 'Trust, but verify. Always verify.'",EV-920-012
+921-07-01,olis,workshop_established,master_cartographer,,,,Distinct from Archives — focus on mapping rather than classification,EV-921-010
+923-02-01,vastos,workshop_revival,chief_engineer,,,,Vastos: 'The user should never need to see our code',EV-923-007
+924-03-01,krenn,appointment,forgemaster,,,,Krenn: 'The Boss taught us that ugly things can be effective. Generic traps catch nothing in this quarry.',EV-924-009
+924-07-15,ox,appointment,gradient_keeper,,,,Ox teaches the overfitting trap,EV-924-011
+925-09-15,mivros,appointment,senior_oracle_keeper,,,,Mivros: 'An oracle that speaks falsehood is worse than silence.',EV-925-009
+926-10-15,nomis,organization_established,elder,,,,Nomis: 'A model that scored well yesterday may score poorly tomorrow',EV-926-005
+927-04-01,eryn,appointment,scout,,,,"Young evaluator, eager to try every new release",EV-927-003
+927-04-01,keth_archivist,appointment,benchmark_archivist,,,,Not to be confused with Vornis Keth the surveyor,EV-927-004
+919-06-01,dren,appointment,archivist_questioner,,,,"Dren demands principled decisions, not ad-hoc cleaning",EV-919-006
+920-02-01,validation_guild,guild_established,validators,,,,Separate from extraction — focuses on authenticity testing,EV-920-014
+912-03-15,vivian_hammond,establishment,tutor,,,,"Vivian's methods involve deliberately leaving puzzles incomplete, teaching through absence. Students discover patterns while she appears to sleep.",EV-912-018
+920-02-10,cassie,enrollment,tutoring_student,,,,Cassie arrives for algebra tutoring. Vivian leaves her alone with an incomplete ice-fishing puzzle - one piece deliberately missing.,EV-920-017
+916-04-08,quonxy,establishment,tutor,,,,Quonxy is an older woman who uses puzzles to teach addiction resistance. Her methods differ from Vivian's.,EV-916-006
+687-01-15,venn_tessik,,,,,,Creation of the Archivist of Visual Methods position recognized the need for systematic preservation of visual traditions.,EV-687-001
+773-09-18,oracle_tessyn_grell,,Chief Oracle,,,,"Grell becomes first Chief Oracle, elevating the role from archival function to institutional position. The Oracle Chamber formalized as a distinct wing.",EV-773-001
+847-03-15,surveyor_pell,,,,,,Imported from SIM-009,EV-847-018
+847-12-31,torvun_kell,,,,,,Imported from SIM-010,EV-847-019
+848-06-30,surveyor_orvun,,,,,,Imported from SIM-011,EV-848-002

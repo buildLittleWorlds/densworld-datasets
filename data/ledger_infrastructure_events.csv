@@ -1,0 +1,4 @@
+date,event_type,responders,sector,severity,cause,impact,location,notes,event_id
+777-08-17,infrastructure_failure,,,,,,denstone.third_mill,"The Third Mill burned after 39 years of continuous operation. The structure collapsed, workers died, the grinding stopped. Yet the pattern persisted—workers passing the site still 'feel the grinding' 130+ years later. This becomes the foundational case for ghost persistence studies.",EV-777-001
+849-03-12,infrastructure_failure,unna_krehl,,,,,denstone_sectors.SW,SW moat failure. Beginning of SW collapse. Eight meters of channel filled overnight.,EV-849-001
+849-03-12,infrastructure_failure,unna_krehl,,,,,perimeter_moat,Imported from SIM-013,EV-849-004

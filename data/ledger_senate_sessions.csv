@@ -1,0 +1,151 @@
+date,session_id,intensity,dominant_faction,attendance,duration_hours,special_topic,tension_score,outcome_summary,triggered_by,event_id
+840-01-15,SS-001,routine,traditionalist,18,3,,0.2,Standard business completed,,EV-840-002
+840-02-12,SS-002,routine,traditionalist,17,3,,0.1,Survey protocol discussed,,EV-840-003
+840-03-15,SS-003,heightened,traditionalist,20,4,Boundary Survey Protocol,0.3,Protocol approved,,EV-840-004
+840-04-10,SS-004,routine,traditionalist,16,3,,0.2,Budget review,,EV-840-005
+840-05-18,SS-005,routine,interventionist,18,3,,0.2,Moat proposal introduced,,EV-840-006
+840-06-22,SS-006,heightened,interventionist,21,5,Moat Engineering Appropriation,0.4,First moat funding approved,,EV-840-007
+840-07-14,SS-007,routine,traditionalist,15,3,,0.1,Summer session,,EV-840-008
+840-08-20,SS-008,routine,traditionalist,17,3,,0.2,Surveyor reports reviewed,,EV-840-009
+840-09-10,SS-009,routine,traditionalist,19,4,Survey Office Funding,0.2,Survey Office established,,EV-840-010
+840-10-15,SS-010,routine,traditionalist,16,3,,0.2,Fall business,,EV-840-011
+840-11-12,SS-011,routine,traditionalist,18,3,,0.1,Year-end planning,,EV-840-012
+840-12-18,SS-012,routine,traditionalist,14,2,,0.1,Recess preparation,,EV-840-013
+841-01-20,SS-013,routine,traditionalist,17,3,,0.2,New year opening,,EV-841-001
+841-02-18,SS-014,heightened,interventionist,20,4,Moat Extension,0.3,Extension authorized,,EV-841-002
+841-03-15,SS-015,routine,traditionalist,18,3,,0.2,Survey results presented,,EV-841-003
+841-04-22,SS-016,routine,traditionalist,16,3,,0.2,Spring business,,EV-841-004
+841-05-25,SS-017,routine,traditionalist,19,3,Surveyor Training,0.2,Training standards set,,EV-841-005
+841-06-18,SS-018,routine,interventionist,17,3,,0.2,Construction updates,,EV-841-006
+841-07-20,SS-019,routine,traditionalist,14,2,,0.1,Summer recess,,EV-841-007
+841-08-30,SS-020,heightened,interventionist,20,4,Emergency Response Protocol,0.3,Protocol established,,EV-841-008
+841-09-15,SS-021,routine,traditionalist,18,3,,0.2,Fall session,,EV-841-009
+841-10-22,SS-022,routine,traditionalist,17,3,,0.2,Budget planning,,EV-841-010
+841-11-18,SS-023,routine,traditionalist,16,3,,0.1,Year-end review,,EV-841-011
+841-12-20,SS-024,routine,traditionalist,13,2,,0.1,Recess,,EV-841-012
+842-01-12,SS-025,heightened,interventionist,19,4,Second Moat Appropriation,0.4,Funding continued,,EV-842-003
+842-02-18,SS-026,routine,traditionalist,17,3,,0.2,Winter session,,EV-842-004
+842-03-22,SS-027,routine,reformist,18,3,,0.3,Research proposal introduced,,EV-842-005
+842-04-20,SS-028,heightened,reformist,20,4,Boundary Research Initiative,0.4,Research funding approved,,EV-842-006
+842-05-25,SS-029,routine,traditionalist,16,3,,0.2,Spring business,,EV-842-007
+842-06-18,SS-030,routine,interventionist,17,3,,0.2,Construction progress,,EV-842-008
+842-07-15,SS-031,routine,traditionalist,19,3,Equipment Upgrade,0.2,Equipment approved,,EV-842-009
+842-08-22,SS-032,routine,traditionalist,15,3,,0.2,Summer session,,EV-842-010
+842-09-18,SS-033,routine,traditionalist,18,3,,0.2,Fall opening,,EV-842-011
+842-10-28,SS-034,heightened,interventionist,20,4,Moat Maintenance Authority,0.3,Authority created,,EV-842-012
+842-11-20,SS-035,routine,traditionalist,17,3,,0.2,Year-end planning,,EV-842-013
+842-12-15,SS-036,routine,traditionalist,14,2,,0.1,Recess,,EV-842-014
+843-02-05,SS-037,routine,traditionalist,18,3,Annual Survey Requirement,0.2,Requirement established,,EV-843-010
+843-03-15,SS-038,routine,traditionalist,17,3,,0.2,Survey reports,,EV-843-011
+843-04-22,SS-039,routine,interventionist,18,3,,0.3,Moat update,,EV-843-012
+843-05-18,SS-040,heightened,interventionist,21,5,Third Moat Appropriation,0.4,Major funding approved,,EV-843-013
+843-06-20,SS-041,routine,traditionalist,16,3,,0.2,Summer session,,EV-843-014
+843-07-18,SS-042,routine,traditionalist,14,2,,0.1,Recess,,EV-843-015
+843-08-22,SS-043,routine,traditionalist,19,3,Incident Classification,0.2,System approved,,EV-843-016
+843-09-20,SS-044,routine,interventionist,18,3,,0.3,SW concerns raised,,EV-843-017
+843-10-25,SS-045,routine,interventionist,17,3,,0.3,SW discussion,,EV-843-018
+843-11-30,SS-046,heightened,interventionist,20,4,SW Sector Priority,0.4,Priority declared,,EV-843-019
+843-12-18,SS-047,routine,traditionalist,15,2,,0.2,Year-end,,EV-843-020
+844-01-22,SS-048,routine,interventionist,18,3,,0.3,New year opening,,EV-844-001
+844-02-20,SS-049,routine,reformist,17,3,,0.3,Surveyor health discussed,,EV-844-002
+844-03-10,SS-050,heightened,reformist,19,4,Surveyor Mental Health,0.4,Support approved,,EV-844-003
+844-04-18,SS-051,routine,traditionalist,16,3,,0.2,Spring session,,EV-844-004
+844-05-22,SS-052,routine,interventionist,18,3,,0.3,Construction update,,EV-844-005
+844-06-25,SS-053,heightened,interventionist,20,4,Fourth Moat Appropriation,0.4,Funding approved,,EV-844-006
+844-07-20,SS-054,routine,traditionalist,14,2,,0.2,Summer recess,,EV-844-007
+844-08-25,SS-055,routine,traditionalist,17,3,,0.2,Fall preparation,,EV-844-008
+844-09-15,SS-056,heightened,reformist,19,4,Research Methodology Review,0.5,Review defeated,,EV-844-009
+844-10-22,SS-057,routine,interventionist,18,3,,0.3,Moat progress,,EV-844-010
+844-11-18,SS-058,routine,traditionalist,16,3,,0.2,Year-end planning,,EV-844-011
+844-12-20,SS-059,heightened,interventionist,20,4,Emergency Reserve Fund,0.3,Reserve established,,EV-844-012
+845-01-15,SS-060,routine,interventionist,18,3,,0.3,New year,,EV-845-005
+845-02-28,SS-061,heightened,interventionist,21,5,Moat Depth Increase,0.4,Depth increase approved,,EV-845-006
+845-03-22,SS-062,routine,traditionalist,17,3,,0.2,Spring session,,EV-845-007
+845-04-25,SS-063,routine,traditionalist,16,3,,0.3,Survey concerns,,EV-845-008
+845-05-12,SS-064,routine,traditionalist,19,3,Surveyor Rotation,0.3,Policy approved,,EV-845-009
+845-06-18,SS-065,routine,interventionist,18,3,,0.3,Construction status,,EV-845-010
+845-07-22,SS-066,routine,traditionalist,14,2,,0.2,Summer recess,,EV-845-011
+845-08-20,SS-067,heightened,interventionist,20,4,Fifth Moat Appropriation,0.4,Funding continued,,EV-845-012
+845-09-18,SS-068,routine,interventionist,18,3,,0.4,SW deterioration noted,,EV-845-013
+845-10-25,SS-069,routine,interventionist,17,3,,0.4,Concerns intensify,,EV-845-014
+845-11-05,SS-070,heightened,reformist,19,4,Alternative Research,0.5,Proposal defeated,,EV-845-015
+845-12-18,SS-071,routine,interventionist,16,3,,0.3,Year-end,,EV-845-016
+846-01-15,SS-072,heightened,interventionist,21,5,Moat Authority Expansion,0.5,Powers expanded,,EV-846-003
+846-02-22,SS-073,routine,interventionist,18,3,,0.4,Crisis atmosphere,,EV-846-004
+846-03-20,SS-074,elevated,interventionist,22,6,SW Sector Crisis,0.6,Extended discussion,,EV-846-005
+846-04-22,SS-075,elevated,interventionist,21,6,SW Emergency Declaration,0.6,Emergency declared,,EV-846-006
+846-05-25,SS-076,routine,interventionist,19,3,,0.5,Implementation,,EV-846-007
+846-06-18,SS-077,elevated,interventionist,22,6,Resource mobilization,0.5,Full mobilization,,EV-846-008
+846-07-30,SS-078,heightened,interventionist,20,5,Sixth Moat Appropriation,0.5,Peak funding,,EV-846-009
+846-08-25,SS-079,routine,interventionist,18,3,,0.5,Construction surge,,EV-846-010
+846-09-22,SS-080,elevated,interventionist,21,6,Progress review,0.6,Concerns voiced,,EV-846-011
+846-10-18,SS-081,heightened,traditionalist,20,4,Surveyor Danger Pay,0.5,Pay increase,,EV-846-012
+846-11-20,SS-082,elevated,interventionist,22,7,Winter preparation,0.6,Crisis planning,,EV-846-013
+846-12-18,SS-083,routine,interventionist,17,3,,0.5,Year-end crisis,,EV-846-014
+847-01-25,SS-084,emergency,interventionist,23,8,Emergency Reinforcement,0.7,Urgent action,,EV-847-022
+847-02-22,SS-085,elevated,interventionist,21,6,Reinforcement progress,0.7,Desperate measures,,EV-847-023
+847-03-20,SS-086,elevated,interventionist,22,7,SW deterioration,0.7,Situation worsening,,EV-847-024
+847-04-10,SS-087,emergency,interventionist,23,9,Evacuation Preparation,0.8,Evacuation authorized,,EV-847-025
+847-05-18,SS-088,elevated,interventionist,21,6,Refugee planning,0.7,Contingencies,,EV-847-026
+847-06-25,SS-089,elevated,interventionist,22,7,Resource review,0.7,All resources committed,,EV-847-027
+847-07-22,SS-090,emergency,interventionist,24,10,Seventh Appropriation,0.8,Crisis funding,,EV-847-028
+847-08-20,SS-091,elevated,interventionist,21,6,Construction status,0.7,Falling behind,,EV-847-029
+847-09-18,SS-092,elevated,interventionist,22,7,Alternative review,0.8,Options considered,,EV-847-030
+847-10-05,SS-093,emergency,interventionist,23,9,Research Suspension,0.8,All to containment,,EV-847-031
+847-11-15,SS-094,elevated,interventionist,21,6,Winter crisis,0.8,Situation critical,,EV-847-032
+847-12-20,SS-095,elevated,interventionist,22,7,Year-end emergency,0.8,Grim assessment,,EV-847-033
+848-01-15,SS-096,emergency,interventionist,24,10,Emergency Powers Act,0.9,Extraordinary powers,,EV-848-006
+848-02-20,SS-097,elevated,interventionist,22,7,Powers implementation,0.8,Crisis governance,,EV-848-007
+848-03-22,SS-098,elevated,interventionist,21,6,SW assessment,0.8,Dire reports,,EV-848-008
+848-04-28,SS-099,emergency,interventionist,24,11,Eighth Appropriation,0.9,Desperation funding,,EV-848-009
+848-05-25,SS-100,elevated,interventionist,22,7,Deployment status,0.8,Maximum effort,,EV-848-010
+848-06-20,SS-101,elevated,interventionist,21,6,Summer crisis,0.8,No improvement,,EV-848-011
+848-07-20,SS-102,emergency,interventionist,24,10,Mandatory Evacuation,0.9,Forced evacuation,,EV-848-012
+848-08-22,SS-103,elevated,interventionist,22,7,Evacuation progress,0.8,Refugees moving,,EV-848-013
+848-09-18,SS-104,elevated,interventionist,21,6,Fall assessment,0.8,Moat failing,,EV-848-014
+848-10-12,SS-105,emergency,interventionist,23,9,Defeatist Reports,0.9,Information control,,EV-848-015
+848-11-20,SS-106,elevated,interventionist,22,7,Winter preparation,0.8,Bracing for worst,,EV-848-016
+848-12-18,SS-107,elevated,interventionist,21,6,Year-end crisis,0.9,Imminent collapse,,EV-848-017
+849-01-08,SS-108,emergency,interventionist,24,12,Final Reinforcement,1.0,Last desperate effort,,EV-849-005
+849-02-15,SS-109,emergency,interventionist,24,11,Collapse imminent,1.0,Breakdown beginning,,EV-849-006
+849-03-22,SS-110,emergency,unanimous,25,14,SW Collapse Declaration,1.0,Official collapse,,EV-849-007
+849-04-20,SS-111,emergency,traditionalist,24,12,Emergency response,0.9,Crisis management,,EV-849-008
+849-05-15,SS-112,emergency,traditionalist,24,11,Refugee Settlement,0.8,Humanitarian crisis,,EV-849-009
+849-06-22,SS-113,elevated,traditionalist,22,7,Settlement progress,0.7,Relief efforts,,EV-849-010
+849-07-28,SS-114,heightened,reformist,21,5,Moat Authority Dissolution,0.7,Authority ended,,EV-849-011
+849-08-25,SS-115,elevated,traditionalist,20,6,Continued relief,0.6,Ongoing crisis,,EV-849-012
+849-09-18,SS-116,elevated,traditionalist,21,6,Fall assessment,0.6,Situation stabilizing,,EV-849-013
+849-10-10,SS-117,heightened,traditionalist,20,5,Emergency Housing,0.5,Housing program,,EV-849-014
+849-11-22,SS-118,heightened,reformist,19,4,Inquiry discussion,0.5,Accountability sought,,EV-849-015
+849-12-20,SS-119,heightened,reformist,20,5,Commission Establishment,0.5,Commission created,,EV-849-016
+850-01-18,SS-120,routine,reformist,18,3,,0.4,New paradigm beginning,,EV-850-003
+850-02-18,SS-121,heightened,minimalist,19,4,Alternative Methodology,0.4,New approach funded,,EV-850-004
+850-03-22,SS-122,routine,traditionalist,17,3,,0.3,Refugee update,,EV-850-005
+850-04-20,SS-123,routine,reformist,18,3,,0.3,Research progress,,EV-850-006
+850-05-25,SS-124,heightened,traditionalist,20,4,Refugee Integration,0.3,Long-term planning,,EV-850-007
+850-06-18,SS-125,routine,reformist,17,3,,0.3,Policy review,,EV-850-008
+850-07-22,SS-126,routine,minimalist,16,3,,0.2,Summer session,,EV-850-009
+850-08-30,SS-127,heightened,reformist,19,4,Moat Demolition,0.4,Demolition approved,,EV-850-010
+850-09-20,SS-128,routine,traditionalist,18,3,,0.3,Fall session,,EV-850-011
+850-10-25,SS-129,routine,reformist,17,3,,0.3,Commission update,,EV-850-012
+850-11-15,SS-130,heightened,traditionalist,20,4,Survey Reorganization,0.3,Office reformed,,EV-850-013
+850-12-18,SS-131,routine,reformist,16,3,,0.2,Year-end,,EV-850-014
+851-01-22,SS-132,routine,minimalist,18,3,,0.2,New approach,,EV-851-008
+851-02-10,SS-133,heightened,minimalist,20,4,Prebel Methodology,0.3,Trial approved,,EV-851-009
+851-03-18,SS-134,routine,reformist,17,3,,0.2,Research progress,,EV-851-010
+851-04-22,SS-135,routine,traditionalist,18,3,,0.2,Spring session,,EV-851-011
+851-05-22,SS-136,heightened,traditionalist,19,4,Refugee Employment,0.2,Program approved,,EV-851-012
+851-06-20,SS-137,routine,minimalist,16,3,,0.2,Summer session,,EV-851-013
+851-07-25,SS-138,routine,reformist,17,3,,0.2,Progress review,,EV-851-014
+851-08-15,SS-139,heightened,reformist,19,4,Coexistence Research,0.3,Research funded,,EV-851-015
+851-09-22,SS-140,routine,minimalist,17,3,,0.2,Fall session,,EV-851-016
+851-10-25,SS-141,routine,reformist,18,3,,0.2,Policy review,,EV-851-017
+851-11-28,SS-142,heightened,minimalist,19,4,Minimalist Policy,0.3,Policy shift,,EV-851-018
+851-12-18,SS-143,routine,reformist,16,3,,0.2,Year-end,,EV-851-019
+852-01-20,SS-144,routine,minimalist,17,3,,0.2,New paradigm,,EV-852-002
+852-02-22,SS-145,routine,reformist,18,3,,0.2,Research update,,EV-852-003
+852-03-05,SS-146,heightened,reformist,20,4,Prebel Acknowledgment,0.2,Success recognized,,EV-852-004
+852-04-18,SS-147,routine,minimalist,17,3,,0.2,Spring session,,EV-852-005
+852-05-25,SS-148,routine,traditionalist,16,3,,0.1,Regular business,,EV-852-006
+852-06-20,SS-149,heightened,minimalist,19,4,Comprehensive Review,0.2,Review completed,,EV-852-007
+852-07-22,SS-150,routine,reformist,15,3,,0.1,Summer session,,EV-852-008

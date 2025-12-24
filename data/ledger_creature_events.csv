@@ -1,0 +1,3 @@
+date,event_type,observers,creature_type,creature_name,behavior,outcome,location,notes,event_id
+735-09-18,creature_encounter,"hesta_vorn, survey_team",Grimslew,,,Team member fatality confirmed grimslew presence; no direct observation possible,dens_boundary.SW-8,Encounter that confirmed the need for Protocol D-1. The grimslew remains the most dangerous creature in taxonomic records.,EV-735-001
+855-03-20,creature_capture,"harrow, ketch",maw_beast,,,,central_quarry,"Harrow's Deep Tunnel Syndicate recovers a Maw Beast carcass at 55 meters depth - an unprecedented find. The specimen is sold to the Capital Archives for a record sum. This recovery occurs just two days after the Redmane disaster, possibly the same creature or a related one.",EV-855-003

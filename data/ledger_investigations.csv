@@ -1,0 +1,20 @@
+date,investigators,investigation_type,trigger_event,priority,scope,assigned_team,location,notes,event_id
+847-01-21,,,EV-847-002,,,,denstone_sectors.SW-6,,EV-847-005
+873-11-03,,,EV-873-001,,,,yeller_tract,,EV-873-002
+859-06-04,,,EV-859-002,,,,unknown,,EV-859-003
+912-09-23,,,EV-912-002,,,,capital,,EV-912-003
+855-03-19,,,EV-855-002,,,,yeller_quarry_cave,,EV-855-007
+855-03-26,,,EV-855-005,,,,northern_edge,,EV-855-009
+855-03-13,,,EV-855-006,,,,grimslew_shore,,EV-855-011
+912-01-15,,forgery_analysis,,,,,capital,The Twenty-Ten Technical Assessment Group - skeptics who meet at a coffee shop to evaluate claims - launches a formal investigation into the suspected Grigsu forgeries. Their reputation for neutrality gives the eventual verdict weight.,EV-912-005
+912-09-20,bureau_chief_analyst,delayed_clarity_phenomenon,,immediate,systematic_study,pattern_recognition_committee,bureau_of_computational_standards,The Bureau's Chief Analyst formally opens an investigation into Delayed Clarity. The Committee on Pattern Recognition is assigned to study the phenomenon systematically.,EV-912-014
+918-09-01,detective_cousins,statistical_anomaly,,,,,hilly_dale,Cousins asks: 'It's not just that the kids are smart. It's that they're too smart. Statistically impossible.',EV-918-012
+771-05-03,"archivist_kellum_voss, chief_archivist_menn_drell",reconstruction_attack,,,,,capital_archives,First documented concern about 'reconstruction attacks'—seekers who ask enough questions to rebuild the protected text. Led to query pattern monitoring.,EV-771-001
+925-01-15,,,,,,,capital.archives,Jackson is the edge case that breaks all classification. Both retrieval-based and geometry-based approaches fail. Central case study for thesis synthesis.,EV-925-013
+855-03-16,,,EV-855-015,,,,yeller_quarry.deep_tunnels,,EV-855-016
+843-09-16,,,EV-843-007,,,,focal_meadow,,EV-843-008
+845-11-07,,,EV-845-003,,,,plural_site_south,,EV-845-004
+847-02-05,,,EV-847-016,,,,denstone_sectors.SE-8,,EV-847-021
+848-11-05,,,EV-848-003,,,,dens_proper,,EV-848-004
+860-02-20,,,EV-860-003,,,,focal_meadow,,EV-860-004
+847-02-13,,,EV-847-017,,,,denstone_sectors.NW-7,,EV-847-034
