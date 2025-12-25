@@ -1,0 +1,41 @@
+observation_id,expression_name,lambda_notation,behavior,reduction_length,pattern_detected,dens_proximity,year_observed,observer,risk_assessment,notes
+FPO-001,Omega,((λx.(x x)) (λx.(x x))),diverges,-1,reduces_to_self,dens_adjacent,752,Kelleth Mund,high,The fundamental non-terminating passage - reduces to itself indefinitely
+FPO-002,Triple Omega,((λx.(x x x)) (λx.(x x x))),diverges,-1,exponential_growth,dens_adjacent,755,Kelleth Mund,catastrophic,Diverges faster than Omega - each step triples applications
+FPO-003,Y Combinator,λf.((λx.(f (x x))) (λx.(f (x x)))),cycles,-1,controlled_recursion,stable_region,752,Kelleth Mund,moderate,Fixed point combinator - enables useful recursion when applied
+FPO-004,Z Combinator,λf.((λx.(f (λv.((x x) v)))) (λx.(f (λv.((x x) v))))),cycles,-1,delayed_recursion,stable_region,753,Kelleth Mund,low,Call-by-value fixed point - safer than Y
+FPO-005,Theta,((λx.λy.(y ((x x) y))) (λx.λy.(y ((x x) y)))),cycles,-1,turing_fixpoint,stable_region,758,Kelleth Mund,moderate,Turing's fixed point combinator
+FPO-006,Weak Omega,λx.(x (x x)),terminates,3,stable_on_I,boundary,755,Kelleth Mund,moderate,Terminates on identity but diverges on self
+FPO-007,Divergent Self,λx.((x x) (x x)),diverges,-1,double_self_app,dens_adjacent,755,Kelleth Mund,high,Double self-application - chaotic divergence
+FPO-008,K on Omega,((λx.λy.x) a Omega),terminates,2,discards_divergent,stable_region,752,Kelleth Mund,low,K discards Omega - laziness saves computation
+FPO-009,Constant Omega,(λx.Omega),diverges,-1,always_diverges,dens_adjacent,752,Kelleth Mund,catastrophic,Returns Omega regardless of input
+FPO-010,Delayed Omega,λx.(λy.((y y) (y y))) x,terminates,1,delays_chaos,boundary,765,Marden Krey,moderate,Returns an abstraction containing Omega pattern
+FPO-011,Factorial via Y,(Y (λf.λn.(IF (ISZERO n) 1 (MULT n (f (PRED n)))))),terminates,variable,useful_recursion,stable_region,754,Kelleth Mund,low,Factorial - productive use of fixed points
+FPO-012,Fibonacci via Y,(Y (λf.λn.(IF (LEQ n 1) n (PLUS (f (SUB n 1)) (f (SUB n 2)))))),terminates,variable,double_recursion,stable_region,754,Kelleth Mund,low,Fibonacci - branching recursion
+FPO-013,GCD via Y,(Y (λf.λm.λn.(IF (ISZERO n) m (f n (MOD m n))))),terminates,variable,euclidean_loop,stable_region,756,Kelleth Mund,low,Greatest common divisor
+FPO-014,Infinite List,(Y (λf.(CONS 1 f))),diverges,-1,productive_stream,boundary,759,Brennis Mund,moderate,Infinite list of ones - productive but infinite
+FPO-015,Self-Applying K,((λx.λy.x) (λx.λy.x)),terminates,1,idempotent,stable_region,745,Kelleth Mund,low,K applied to K terminates immediately
+FPO-016,M on M,((λf.(f f)) (λf.(f f))),diverges,-1,M_is_omega,dens_adjacent,746,Jorell Vance,high,Mockingbird on itself equals Omega
+FPO-017,M on I,((λf.(f f)) (λx.x)),terminates,2,M_safe_on_I,stable_region,746,Jorell Vance,low,Mockingbird on identity terminates
+FPO-018,M on K,((λf.(f f)) (λx.λy.x)),terminates,2,M_safe_on_K,stable_region,746,Jorell Vance,low,Mockingbird on K terminates
+FPO-019,Unstable Core,λx.((x x) x),diverges,-1,triple_instability,dens_adjacent,757,Kelleth Mund,catastrophic,More unstable than basic self-application
+FPO-020,Boundary Pattern,λf.λx.((f x) (f f)),cycles,-1,oscillating,boundary,756,Kelleth Mund,high,Oscillates between states near boundary
+FPO-021,Safe Recursion,λf.λg.λx.((g (f f g)) x),terminates,variable,controlled_fix,stable_region,768,Marden Krey,low,Safer recursion pattern
+FPO-022,W on W,((λx.λy.((x y) y)) (λx.λy.((x y) y))),diverges,-1,W_self_diverges,dens_adjacent,746,Jorell Vance,high,Warbler on itself diverges
+FPO-023,W on I,((λx.λy.((x y) y)) (λx.x)),terminates,3,W_safe_on_I,stable_region,746,Jorell Vance,low,Warbler on identity terminates
+FPO-024,U Combinator,(λx.λy.((y (x x)) y)),cycles,-1,turing_U,stable_region,758,Kelleth Mund,moderate,Turing's U combinator - basis for Theta
+FPO-025,U U,((λx.λy.((y (x x)) y)) (λx.λy.((y (x x)) y))),cycles,-1,U_self_cycles,boundary,758,Kelleth Mund,high,U applied to itself cycles
+FPO-026,Collapse Pattern 1,λx.((x x) (x x)),diverges,-1,collapse_signature,dens_adjacent,720,Archive Record,catastrophic,Pattern observed during Great Collapse
+FPO-027,Collapse Pattern 2,((λx.λy.(x y)) (λx.λy.(x y))),terminates,3,false_alarm,stable_region,720,Archive Record,low,Suspected but actually terminates
+FPO-028,Index Loop Base,λx.(x x x x),terminates,5,quartic_on_I,boundary,720,Archive Record,moderate,Terminates on I but dangerous on self
+FPO-029,Circular Cite,λd.(d d),terminates,0,already_normal,stable_region,720,Archive Record,low,Already in normal form - abstraction
+FPO-030,Applied Circular,((λd.(d d)) (λx.x)),terminates,2,safe_application,stable_region,720,Archive Record,low,Safe when applied to identity
+FPO-031,Marginal Pattern,λm.(m (λx.m)),terminates,2,marginal_safe,boundary,760,Marden Krey,low,Pattern from archive margins - terminates
+FPO-032,Fixity Attempt,λf.(f (Fixity f)),diverges,-1,infinite_regress,dens_adjacent,760,Marden Krey,high,Direct recursion without combinator fails
+FPO-033,Elong on Elong,((λf.λg.λx.(f x (g x))) (λf.λg.λx.(f x (g x)))),terminates,3,elong_safe,stable_region,759,Marden Krey,low,Elongation combinator self-application safe
+FPO-034,Omega Variant 1,((λx.(x x)) (λy.(y y))),diverges,-1,alpha_omega,dens_adjacent,752,Kelleth Mund,high,Alpha-renamed omega still diverges
+FPO-035,Omega Variant 2,((λa.(a a)) (λb.(b b))),diverges,-1,alpha_omega_2,dens_adjacent,752,Kelleth Mund,high,Another alpha variant of omega
+FPO-036,Near-Omega,((λx.(x x)) (λy.y)),terminates,2,near_miss,stable_region,752,Kelleth Mund,low,One side identity prevents divergence
+FPO-037,Dens Adjacent Safe,λx.(x (λy.y)),terminates,1,dens_partial_safe,boundary,755,Kelleth Mund,low,Returns I when applied - stable
+FPO-038,Dens Adjacent Risky,((λx.(x (λy.y))) (λz.(z z))),terminates,3,dens_boundary_test,boundary,755,Kelleth Mund,moderate,Tests boundary stability
+FPO-039,Terminal Pattern,λx.λy.x,terminates,0,always_safe,stable_region,775,Kelleth Mund,low,K combinator - always terminates immediately
+FPO-040,Mund Final,λf.λx.(f (λy.((f y) x))),terminates,4,complex_but_safe,stable_region,792,Kelleth Mund,low,Mund's final catalogued expression - terminates

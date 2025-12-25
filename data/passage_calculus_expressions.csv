@@ -1,0 +1,151 @@
+expression_id,expression_name,lambda_notation,mund_notation,expression_type,bound_variables,free_variables,complexity_depth,year_documented,documented_by,source_manuscript,notes
+PCE-001,Identity,λx.x,passage(x).x,identity,x,none,1,722,Kelleth Mund,On the Reduction of Structure,The simplest passage - returns what it receives unchanged
+PCE-002,Self-Application,λx.(x x),passage(x).(x x),combinator,x,none,2,724,Kelleth Mund,On the Reduction of Structure,A passage that applies its input to itself
+PCE-003,Constant True,λx.λy.x,passage(x).passage(y).x,boolean,x;y,none,2,738,Kelleth Mund,On Church Numerals,Returns the first of two arguments - the TRUE passage
+PCE-004,Constant False,λx.λy.y,passage(x).passage(y).y,boolean,x;y,none,2,738,Kelleth Mund,On Church Numerals,Returns the second of two arguments - the FALSE passage
+PCE-005,Church Zero,λf.λx.x,passage(f).passage(x).x,numeral,f;x,none,2,738,Kelleth Mund,On Church Numerals,Zero applications of f to x
+PCE-006,Church One,λf.λx.(f x),passage(f).passage(x).(f x),numeral,f;x,none,2,738,Kelleth Mund,On Church Numerals,One application of f to x
+PCE-007,Church Two,λf.λx.(f (f x)),passage(f).passage(x).(f (f x)),numeral,f;x,none,3,738,Kelleth Mund,On Church Numerals,Two applications of f to x
+PCE-008,Church Three,λf.λx.(f (f (f x))),passage(f).passage(x).(f (f (f x))),numeral,f;x,none,4,738,Kelleth Mund,On Church Numerals,Three applications of f to x
+PCE-009,Church Four,λf.λx.(f (f (f (f x)))),passage(f).passage(x).(f (f (f (f x)))),numeral,f;x,none,5,739,Kelleth Mund,The Passage Calculus,Four applications of f to x
+PCE-010,Church Five,λf.λx.(f (f (f (f (f x))))),passage(f).passage(x).(f (f (f (f (f x))))),numeral,f;x,none,6,739,Kelleth Mund,The Passage Calculus,Five applications of f to x
+PCE-011,Successor,λn.λf.λx.(f ((n f) x)),passage(n).passage(f).passage(x).(f ((n f) x)),arithmetic,n;f;x,none,3,739,Kelleth Mund,The Passage Calculus,Adds one to a Church numeral
+PCE-012,Addition,λm.λn.λf.λx.((m f) ((n f) x)),passage(m).passage(n).passage(f).passage(x).((m f) ((n f) x)),arithmetic,m;n;f;x,none,4,740,Kelleth Mund,The Passage Calculus,Adds two Church numerals
+PCE-013,Multiplication,λm.λn.λf.(m (n f)),passage(m).passage(n).passage(f).(m (n f)),arithmetic,m;n;f,none,3,740,Kelleth Mund,The Passage Calculus,Multiplies two Church numerals
+PCE-014,Exponentiation,λm.λn.(n m),passage(m).passage(n).(n m),arithmetic,m;n,none,2,741,Kelleth Mund,The Passage Calculus,Raises m to power n
+PCE-015,AND,λp.λq.((p q) p),passage(p).passage(q).((p q) p),boolean,p;q,none,2,741,Kelleth Mund,On Boolean Passages,Logical AND using Church booleans
+PCE-016,OR,λp.λq.((p p) q),passage(p).passage(q).((p p) q),boolean,p;q,none,2,741,Kelleth Mund,On Boolean Passages,Logical OR using Church booleans
+PCE-017,NOT,λp.λa.λb.((p b) a),passage(p).passage(a).passage(b).((p b) a),boolean,p;a;b,none,3,741,Kelleth Mund,On Boolean Passages,Logical NOT - swaps arguments
+PCE-018,IF-THEN-ELSE,λp.λa.λb.((p a) b),passage(p).passage(a).passage(b).((p a) b),boolean,p;a;b,none,3,741,Kelleth Mund,On Boolean Passages,Conditional selection
+PCE-019,Pair Constructor,λx.λy.λf.((f x) y),passage(x).passage(y).passage(f).((f x) y),pair,x;y;f,none,3,742,Kelleth Mund,On Passage Pairs,Creates a pair from two values
+PCE-020,First Projection,λp.(p (λx.λy.x)),passage(p).(p passage(x).passage(y).x),pair,p;x;y,none,3,742,Kelleth Mund,On Passage Pairs,Extracts first element of pair
+PCE-021,Second Projection,λp.(p (λx.λy.y)),passage(p).(p passage(x).passage(y).y),pair,p;x;y,none,3,742,Kelleth Mund,On Passage Pairs,Extracts second element of pair
+PCE-022,Omega,((λx.(x x)) (λx.(x x))),((passage(x).(x x)) (passage(x).(x x))),combinator,x,none,3,752,Kelleth Mund,On Self-Reference,The simplest non-terminating passage - reduces to itself
+PCE-023,Y Combinator,λf.((λx.(f (x x))) (λx.(f (x x)))),passage(f).((passage(x).(f (x x))) (passage(x).(f (x x)))),combinator,f;x,none,4,752,Kelleth Mund,On Self-Reference,Fixed point combinator - enables recursion
+PCE-024,Z Combinator,λf.((λx.(f (λv.((x x) v)))) (λx.(f (λv.((x x) v))))),passage(f).((passage(x).(f (passage(v).((x x) v)))) (passage(x).(f (passage(v).((x x) v))))),combinator,f;x;v,none,5,753,Kelleth Mund,On Self-Reference,Call-by-value fixed point combinator
+PCE-025,Kestrel (K),λx.λy.x,passage(x).passage(y).x,combinator,x;y,none,2,745,Jorell Vance,On Combinatorial Reduction,Constant combinator - discards second argument
+PCE-026,Starling (S),λx.λy.λz.((x z) (y z)),passage(x).passage(y).passage(z).((x z) (y z)),combinator,x;y;z,none,3,745,Jorell Vance,On Combinatorial Reduction,Distribution combinator
+PCE-027,Identity (I),λx.x,passage(x).x,combinator,x,none,1,745,Jorell Vance,On Combinatorial Reduction,Identity combinator - equivalent to ((S K) K)
+PCE-028,Mockingbird (M),λf.(f f),passage(f).(f f),combinator,f,none,2,746,Jorell Vance,On Combinatorial Reduction,Self-application combinator
+PCE-029,Thrush (T),λx.λy.(y x),passage(x).passage(y).(y x),combinator,x;y,none,2,746,Jorell Vance,On Combinatorial Reduction,Cardinal once removed - flips arguments
+PCE-030,Warbler (W),λx.λy.((x y) y),passage(x).passage(y).((x y) y),combinator,x;y,none,3,746,Jorell Vance,On Combinatorial Reduction,Doubles the second argument
+PCE-031,Cardinal (C),λf.λx.λy.((f y) x),passage(f).passage(x).passage(y).((f y) x),combinator,f;x;y,none,3,746,Jorell Vance,On Combinatorial Reduction,Flip combinator - reverses two arguments
+PCE-032,Bluebird (B),λf.λg.λx.(f (g x)),passage(f).passage(g).passage(x).(f (g x)),combinator,f;g;x,none,3,746,Jorell Vance,On Combinatorial Reduction,Composition combinator
+PCE-033,Predecessor Zero Case,λn.λf.λx.(((n (λg.λh.(h (g f)))) (λu.x)) (λu.u)),passage(n).passage(f).passage(x).(((n (passage(g).passage(h).(h (g f)))) (passage(u).x)) (passage(u).u)),arithmetic,n;f;x;g;h;u,none,6,743,Kelleth Mund,The Passage Calculus,Predecessor function using pairs
+PCE-034,Is Zero,λn.((n (λx.FALSE)) TRUE),passage(n).((n (passage(x).FALSE)) TRUE),boolean,n;x,none,3,743,Kelleth Mund,The Passage Calculus,Tests if Church numeral is zero
+PCE-035,Less Than Or Equal,λm.λn.(IsZero ((Subtract m) n)),passage(m).passage(n).(IsZero ((Subtract m) n)),boolean,m;n,none,4,744,Kelleth Mund,The Passage Calculus,Compares two Church numerals
+PCE-036,Equal,λm.λn.((AND ((LEQ m) n)) ((LEQ n) m)),passage(m).passage(n).((AND ((LEQ m) n)) ((LEQ n) m)),boolean,m;n,none,5,744,Kelleth Mund,The Passage Calculus,Tests equality of Church numerals
+PCE-037,Empty List,λc.λn.n,passage(c).passage(n).n,list,c;n,none,2,748,Brennis Mund,On Passage Lists,Empty list - returns nil argument
+PCE-038,Cons,λh.λt.λc.λn.((c h) ((t c) n)),passage(h).passage(t).passage(c).passage(n).((c h) ((t c) n)),list,h;t;c;n,none,4,748,Brennis Mund,On Passage Lists,Prepends element to list
+PCE-039,Head,λl.((l (λh.λt.h)) NIL),passage(l).((l (passage(h).passage(t).h)) NIL),list,l;h;t,none,4,748,Brennis Mund,On Passage Lists,Extracts first element
+PCE-040,Tail,λl.((l (λh.λt.t)) NIL),passage(l).((l (passage(h).passage(t).t)) NIL),list,l;h;t,none,4,748,Brennis Mund,On Passage Lists,Returns list without first element
+PCE-041,Is Nil,λl.((l (λh.λt.FALSE)) TRUE),passage(l).((l (passage(h).passage(t).FALSE)) TRUE),list,l;h;t,none,4,749,Brennis Mund,On Passage Lists,Tests if list is empty
+PCE-042,Length,λl.((l (λh.λt.(Succ t))) Zero),passage(l).((l (passage(h).passage(t).(Succ t))) Zero),list,l;h;t,none,5,749,Brennis Mund,On Passage Lists,Counts elements in list
+PCE-043,Map,λf.λl.((l (λh.λt.((Cons (f h)) t))) Nil),passage(f).passage(l).((l (passage(h).passage(t).((Cons (f h)) t))) Nil),list,f;l;h;t,none,5,750,Brennis Mund,On Passage Lists,Applies function to each element
+PCE-044,Fold,λf.λa.λl.((l (λh.λt.((f h) t))) a),passage(f).passage(a).passage(l).((l (passage(h).passage(t).((f h) t))) a),list,f;a;l;h;t,none,5,750,Brennis Mund,On Passage Lists,Reduces list with function
+PCE-045,Divergent Self,λx.((x x) (x x)),passage(x).((x x) (x x)),other,x,none,3,755,Kelleth Mund,Paradoxes of Self-Application,Diverges immediately upon application
+PCE-046,Conditional Divergence,λx.((IsZero x) I) Omega,passage(x).((IsZero x) I) Omega,other,x,none,4,756,Kelleth Mund,Paradoxes of Self-Application,Terminates only for zero
+PCE-047,Theta,((λx.λy.(y ((x x) y))) (λx.λy.(y ((x x) y)))),((passage(x).passage(y).(y ((x x) y))) (passage(x).passage(y).(y ((x x) y)))),combinator,x;y,none,4,757,Kelleth Mund,Paradoxes of Self-Application,Alternative fixed point combinator
+PCE-048,Subtraction,λm.λn.((n Pred) m),passage(m).passage(n).((n Pred) m),arithmetic,m;n,none,3,743,Kelleth Mund,The Passage Calculus,Subtracts n from m (floors at zero)
+PCE-049,Factorial Seed,λf.λn.(((IsZero n) One) ((Mult n) (f (Pred n)))),passage(f).passage(n).(((IsZero n) One) ((Mult n) (f (Pred n)))),arithmetic,f;n,none,5,754,Kelleth Mund,On Self-Reference,Factorial definition needing Y combinator
+PCE-050,Fibonacci Seed,λf.λn.(((LEQ n) One) n) (((Plus (f ((Sub n) One))) (f ((Sub n) Two)))),passage(f).passage(n).(((LEQ n) One) n) (((Plus (f ((Sub n) One))) (f ((Sub n) Two)))),arithmetic,f;n,none,6,754,Kelleth Mund,On Self-Reference,Fibonacci definition needing Y combinator
+PCE-051,Church Six,λf.λx.(f (f (f (f (f (f x)))))),passage(f).passage(x).(f (f (f (f (f (f x)))))),numeral,f;x,none,7,739,Kelleth Mund,The Passage Calculus,Six applications of f to x
+PCE-052,Church Seven,λf.λx.(f (f (f (f (f (f (f x))))))),passage(f).passage(x).(f (f (f (f (f (f (f x))))))),numeral,f;x,none,8,739,Kelleth Mund,The Passage Calculus,Seven applications of f to x
+PCE-053,Church Eight,λf.λx.(f (f (f (f (f (f (f (f x)))))))),passage(f).passage(x).(f (f (f (f (f (f (f (f x)))))))),numeral,f;x,none,9,739,Kelleth Mund,The Passage Calculus,Eight applications of f to x
+PCE-054,Church Nine,λf.λx.(f (f (f (f (f (f (f (f (f x))))))))),passage(f).passage(x).(f (f (f (f (f (f (f (f (f x))))))))),numeral,f;x,none,10,739,Kelleth Mund,The Passage Calculus,Nine applications of f to x
+PCE-055,Double,λn.((Plus n) n),passage(n).((Plus n) n),arithmetic,n,none,2,740,Kelleth Mund,The Passage Calculus,Doubles a Church numeral
+PCE-056,Square,λn.((Mult n) n),passage(n).((Mult n) n),arithmetic,n,none,2,740,Kelleth Mund,The Passage Calculus,Squares a Church numeral
+PCE-057,Greater Than,λm.λn.((NOT ((LEQ m) n))),passage(m).passage(n).((NOT ((LEQ m) n))),boolean,m;n,none,4,744,Kelleth Mund,The Passage Calculus,Tests if m greater than n
+PCE-058,XOR,λp.λq.((p (NOT q)) q),passage(p).passage(q).((p (NOT q)) q),boolean,p;q,none,3,742,Kelleth Mund,On Boolean Passages,Exclusive OR
+PCE-059,NAND,λp.λq.(NOT ((AND p) q)),passage(p).passage(q).(NOT ((AND p) q)),boolean,p;q,none,3,742,Kelleth Mund,On Boolean Passages,NOT AND
+PCE-060,NOR,λp.λq.(NOT ((OR p) q)),passage(p).passage(q).(NOT ((OR p) q)),boolean,p;q,none,3,742,Kelleth Mund,On Boolean Passages,NOT OR
+PCE-061,Append,λl1.λl2.((l1 Cons) l2),passage(l1).passage(l2).((l1 Cons) l2),list,l1;l2,none,3,749,Brennis Mund,On Passage Lists,Concatenates two lists
+PCE-062,Reverse Helper,λf.λl.λa.((IsNil l) a) (f (Tail l) ((Cons (Head l)) a)),passage(f).passage(l).passage(a).((IsNil l) a) (f (Tail l) ((Cons (Head l)) a)),list,f;l;a,none,6,750,Brennis Mund,On Passage Lists,Helper for reverse using accumulator
+PCE-063,Index,λn.λl.((IsZero n) (Head l)) ((Index (Pred n)) (Tail l)),passage(n).passage(l).((IsZero n) (Head l)) ((Index (Pred n)) (Tail l)),list,n;l,none,5,751,Brennis Mund,On Passage Lists,Gets nth element of list
+PCE-064,Filter Helper,λf.λp.λl.λa.((IsNil l) a) (f p (Tail l) (((p (Head l)) ((Cons (Head l)) a)) a)),passage(f).passage(p).passage(l).passage(a).((IsNil l) a) (f p (Tail l) (((p (Head l)) ((Cons (Head l)) a)) a)),list,f;p;l;a,none,7,751,Brennis Mund,On Passage Lists,Helper for filtering list
+PCE-065,Church Ten,λf.λx.((Succ Nine) f x),passage(f).passage(x).((Succ Nine) f x),numeral,f;x,none,11,740,Kelleth Mund,The Passage Calculus,Ten applications of f to x
+PCE-066,Power of Two,λn.((Exp Two) n),passage(n).((Exp Two) n),arithmetic,n,none,3,741,Kelleth Mund,The Passage Calculus,Computes 2^n
+PCE-067,Modulo,λm.λn.(((IsZero ((Sub m) n)) m) ((Mod ((Sub m) n)) n)),passage(m).passage(n).(((IsZero ((Sub m) n)) m) ((Mod ((Sub m) n)) n)),arithmetic,m;n,none,5,744,Kelleth Mund,The Passage Calculus,Remainder after division
+PCE-068,Division,λm.λn.((((LEQ n) m) (Succ ((Div ((Sub m) n)) n))) Zero),passage(m).passage(n).((((LEQ n) m) (Succ ((Div ((Sub m) n)) n))) Zero),arithmetic,m;n,none,6,744,Kelleth Mund,The Passage Calculus,Integer division
+PCE-069,Lark (L),λf.λg.(f (g g)),passage(f).passage(g).(f (g g)),combinator,f;g,none,3,747,Jorell Vance,On Combinatorial Reduction,Lark combinator
+PCE-070,Vireo (V),λa.λb.λf.((f a) b),passage(a).passage(b).passage(f).((f a) b),combinator,a;b;f,none,3,747,Jorell Vance,On Combinatorial Reduction,Pairing combinator - Vireo
+PCE-071,Blackbird (B1),λf.λg.λh.λx.(f ((g h) x)),passage(f).passage(g).passage(h).passage(x).(f ((g h) x)),combinator,f;g;h;x,none,4,747,Jorell Vance,On Combinatorial Reduction,Composed composition
+PCE-072,Bunting (B2),λf.λg.λh.λx.λy.(f ((g h) (x y))),passage(f).passage(g).passage(h).passage(x).passage(y).(f ((g h) (x y))),combinator,f;g;h;x;y,none,5,747,Jorell Vance,On Combinatorial Reduction,Double composition
+PCE-073,Robin (R),λa.λb.λc.((b c) a),passage(a).passage(b).passage(c).((b c) a),combinator,a;b;c,none,3,747,Jorell Vance,On Combinatorial Reduction,Robin combinator
+PCE-074,Dove (D),λf.λg.λx.λy.((f x) ((g x) y)),passage(f).passage(g).passage(x).passage(y).((f x) ((g x) y)),combinator,f;g;x;y,none,4,747,Jorell Vance,On Combinatorial Reduction,Dove combinator
+PCE-075,Queer (Q),λf.λg.λx.(g (f x)),passage(f).passage(g).passage(x).(g (f x)),combinator,f;g;x,none,3,747,Jorell Vance,On Combinatorial Reduction,Reverse composition
+PCE-076,Eagle (E),λf.λg.λx.λy.λz.((f x) ((g y) z)),passage(f).passage(g).passage(x).passage(y).passage(z).((f x) ((g y) z)),combinator,f;g;x;y;z,none,5,747,Jorell Vance,On Combinatorial Reduction,Eagle combinator
+PCE-077,Phoenix (Ph),λf.λg.λh.λx.(f (g x) (h x)),passage(f).passage(g).passage(h).passage(x).(f (g x) (h x)),combinator,f;g;h;x,none,4,748,Jorell Vance,On Combinatorial Reduction,Phoenix combinator
+PCE-078,Psi,λf.λg.λx.λy.(f (g x) (g y)),passage(f).passage(g).passage(x).passage(y).(f (g x) (g y)),combinator,f;g;x;y,none,4,748,Jorell Vance,On Combinatorial Reduction,Psi combinator - on combinator
+PCE-079,Owl (O),λa.λb.(b (a b)),passage(a).passage(b).(b (a b)),combinator,a;b,none,3,748,Jorell Vance,On Combinatorial Reduction,Owl combinator
+PCE-080,Goldfinch (G),λf.λg.λx.λy.((f y) (g x)),passage(f).passage(g).passage(x).passage(y).((f y) (g x)),combinator,f;g;x;y,none,4,748,Jorell Vance,On Combinatorial Reduction,Goldfinch combinator
+PCE-081,Free Variable x,(x),passage.x,other,none,x,0,722,Kelleth Mund,On the Reduction of Structure,A free variable - unbound
+PCE-082,Free Variable y,(y),passage.y,other,none,y,0,722,Kelleth Mund,On the Reduction of Structure,A free variable - unbound
+PCE-083,Free in Body,λx.y,passage(x).y,other,x,y,1,722,Kelleth Mund,On the Reduction of Structure,Bound x but free y
+PCE-084,Mixed Free Bound,λx.(x y),passage(x).(x y),other,x,y,2,723,Kelleth Mund,On the Reduction of Structure,Application with free variable
+PCE-085,Nested Free,λx.(λy.(x z)),passage(x).(passage(y).(x z)),other,x;y,z,2,723,Kelleth Mund,On the Reduction of Structure,Free z in nested abstraction
+PCE-086,Apply Free,λf.(f x),passage(f).(f x),other,f,x,2,723,Kelleth Mund,On the Reduction of Structure,Application to free variable
+PCE-087,Alpha Variant I1,λa.a,passage(a).a,identity,a,none,1,724,Kelleth Mund,On the Reduction of Structure,Alpha variant of identity
+PCE-088,Alpha Variant I2,λz.z,passage(z).z,identity,z,none,1,724,Kelleth Mund,On the Reduction of Structure,Alpha variant of identity
+PCE-089,Shadowing Outer,λx.λx.x,passage(x).passage(x).x,other,x,none,2,725,Kelleth Mund,Against Objects,Variable shadowing case
+PCE-090,Shadowing Inner,λx.(λx.x x),passage(x).(passage(x).x x),other,x,none,3,725,Kelleth Mund,Against Objects,Shadowing with outer reference
+PCE-091,Deep Nesting,λa.λb.λc.λd.λe.(((a b) c) d),passage(a).passage(b).passage(c).passage(d).passage(e).(((a b) c) d),other,a;b;c;d;e,none,5,726,Kelleth Mund,Against Objects,Deeply nested passage
+PCE-092,Multiple Application,(((f x) y) z),(((f x) y) z),other,none,f;x;y;z,0,726,Kelleth Mund,Against Objects,Curried application
+PCE-093,Right Association,(f (g (h x))),(f (g (h x))),other,none,f;g;h;x,0,726,Kelleth Mund,Against Objects,Right-associated applications
+PCE-094,SKI Identity,((S K) K),((S K) K),combinator,none,none,0,746,Jorell Vance,On Combinatorial Reduction,I derived from S and K
+PCE-095,SKK Application,(((S K) K) x),(((S K) K) x),combinator,none,x,0,746,Jorell Vance,On Combinatorial Reduction,SKK applied to x
+PCE-096,SK Partial,((S K)),((S K)),combinator,none,none,0,746,Jorell Vance,On Combinatorial Reduction,Partial application of S to K
+PCE-097,Boolean Pair,(Pair TRUE FALSE),(Pair TRUE FALSE),pair,none,none,0,742,Kelleth Mund,On Boolean Passages,Pair containing both booleans
+PCE-098,Numeral Pair,(Pair Zero One),(Pair Zero One),pair,none,none,0,742,Kelleth Mund,On Passage Pairs,Pair of Church numerals
+PCE-099,Nested Pair,(Pair (Pair a b) c),(Pair (Pair a b) c),pair,none,a;b;c,0,743,Kelleth Mund,On Passage Pairs,Nested pair structure
+PCE-100,Left Triple,λa.λb.λc.(Pair (Pair a b) c),passage(a).passage(b).passage(c).(Pair (Pair a b) c),pair,a;b;c,none,4,743,Kelleth Mund,On Passage Pairs,Triple using pairs
+PCE-101,Simple List,(Cons a (Cons b Nil)),(Cons a (Cons b Nil)),list,none,a;b,0,748,Brennis Mund,On Passage Lists,Two-element list
+PCE-102,Singleton,(Cons x Nil),(Cons x Nil),list,none,x,0,748,Brennis Mund,On Passage Lists,Single-element list
+PCE-103,Church Hundred,λf.λx.((Mult Ten) Ten),passage(f).passage(x).((Mult Ten) Ten),numeral,f;x,none,4,745,Kelleth Mund,On Church Numerals,One hundred encoded
+PCE-104,Is Even,λn.((n NOT) TRUE),passage(n).((n NOT) TRUE),boolean,n,none,2,743,Kelleth Mund,The Passage Calculus,Tests if Church numeral is even
+PCE-105,Is Odd,λn.((n NOT) FALSE),passage(n).((n NOT) FALSE),boolean,n,none,2,743,Kelleth Mund,The Passage Calculus,Tests if Church numeral is odd
+PCE-106,Min,λm.λn.(((LEQ m) n) m n),passage(m).passage(n).(((LEQ m) n) m n),arithmetic,m;n,none,4,744,Kelleth Mund,The Passage Calculus,Minimum of two Church numerals
+PCE-107,Max,λm.λn.(((LEQ m) n) n m),passage(m).passage(n).(((LEQ m) n) n m),arithmetic,m;n,none,4,744,Kelleth Mund,The Passage Calculus,Maximum of two Church numerals
+PCE-108,Sign,λn.(((IsZero n) Zero) One),passage(n).(((IsZero n) Zero) One),arithmetic,n,none,3,744,Kelleth Mund,The Passage Calculus,Returns 0 for 0 else 1
+PCE-109,GCD Seed,λf.λm.λn.(((IsZero n) m) (f n ((Mod m) n))),passage(f).passage(m).passage(n).(((IsZero n) m) (f n ((Mod m) n))),arithmetic,f;m;n,none,5,756,Kelleth Mund,Paradoxes of Self-Application,GCD needing Y combinator
+PCE-110,Sum List,λl.((Fold Plus) Zero l),passage(l).((Fold Plus) Zero l),list,l,none,3,751,Brennis Mund,On Passage Lists,Sum of list elements
+PCE-111,Product List,λl.((Fold Mult) One l),passage(l).((Fold Mult) One l),list,l,none,3,751,Brennis Mund,On Passage Lists,Product of list elements
+PCE-112,All True,λl.((Fold AND) TRUE l),passage(l).((Fold AND) TRUE l),list,l,none,3,751,Brennis Mund,On Passage Lists,Checks if all elements true
+PCE-113,Any True,λl.((Fold OR) FALSE l),passage(l).((Fold OR) FALSE l),list,l,none,3,751,Brennis Mund,On Passage Lists,Checks if any element true
+PCE-114,Count Positives,λl.((Fold (λx.λn.(((IsZero x) n) (Succ n)))) Zero l),passage(l).((Fold (passage(x).passage(n).(((IsZero x) n) (Succ n)))) Zero l),list,l;x;n,none,5,752,Brennis Mund,On Passage Lists,Counts non-zero elements
+PCE-115,Take,λn.λl.(((IsZero n) Nil) ((Cons (Head l)) ((Take (Pred n)) (Tail l)))),passage(n).passage(l).(((IsZero n) Nil) ((Cons (Head l)) ((Take (Pred n)) (Tail l)))),list,n;l,none,6,752,Brennis Mund,On Passage Lists,Takes first n elements
+PCE-116,Drop,λn.λl.(((IsZero n) l) ((Drop (Pred n)) (Tail l))),passage(n).passage(l).(((IsZero n) l) ((Drop (Pred n)) (Tail l))),list,n;l,none,5,752,Brennis Mund,On Passage Lists,Drops first n elements
+PCE-117,Range Seed,λf.λm.λn.(((GT m) n) Nil) ((Cons m) (f (Succ m) n)),passage(f).passage(m).passage(n).(((GT m) n) Nil) ((Cons m) (f (Succ m) n)),list,f;m;n,none,5,753,Brennis Mund,On Passage Lists,Generates range needing Y
+PCE-118,Turing's U,λx.λy.((y (x x)) y),passage(x).passage(y).((y (x x)) y),combinator,x;y,none,4,758,Kelleth Mund,Paradoxes of Self-Application,Turing's U combinator
+PCE-119,U Fixed Point,(U U),(U U),combinator,none,none,0,758,Kelleth Mund,Paradoxes of Self-Application,Turing fixed point
+PCE-120,Weak Omega,λx.(x (x x)),passage(x).(x (x x)),combinator,x,none,3,755,Kelleth Mund,Paradoxes of Self-Application,Weaker form of self-application
+PCE-121,Triple Omega,((λx.(x x x)) (λx.(x x x))),((passage(x).(x x x)) (passage(x).(x x x))),combinator,x,none,4,755,Kelleth Mund,Paradoxes of Self-Application,Faster divergence than Omega
+PCE-122,K Star,λx.λy.(x (y x)),passage(x).passage(y).(x (y x)),combinator,x;y,none,3,758,Marden Krey,On Consistency,Variant of K combinator
+PCE-123,Elong,λf.λg.λx.(f x (g x)),passage(f).passage(g).passage(x).(f x (g x)),combinator,f;g;x,none,3,759,Marden Krey,On Consistency,Elongation combinator
+PCE-124,Fixity,λf.(f (Fixity f)),passage(f).(f (Fixity f)),combinator,f,none,2,760,Marden Krey,On Consistency,Direct recursive definition attempt
+PCE-125,Maybe Nothing,λj.λn.n,passage(j).passage(n).n,other,j;n,none,2,761,Brennis Mund,On Safe Passages,Nothing case of Maybe type
+PCE-126,Maybe Just,λx.λj.λn.(j x),passage(x).passage(j).passage(n).(j x),other,x;j;n,none,3,761,Brennis Mund,On Safe Passages,Just case of Maybe type
+PCE-127,Either Left,λx.λl.λr.(l x),passage(x).passage(l).passage(r).(l x),other,x;l;r,none,3,761,Brennis Mund,On Safe Passages,Left case of Either type
+PCE-128,Either Right,λx.λl.λr.(r x),passage(x).passage(l).passage(r).(r x),other,x;l;r,none,3,761,Brennis Mund,On Safe Passages,Right case of Either type
+PCE-129,Unit,λx.x,passage(x).x,other,x,none,1,762,Brennis Mund,On Safe Passages,The unit type - single value
+PCE-130,Absurd,λx.x,passage(x).x,other,x,none,1,762,Brennis Mund,On Safe Passages,The empty type - no values
+PCE-131,Continuation,λk.λf.(k (λx.(f x k))),passage(k).passage(f).(k (passage(x).(f x k))),other,k;f;x,none,4,763,Brennis Mund,On Safe Passages,Continuation monad
+PCE-132,Call/CC Seed,λf.λk.(f (λa.λk2.(k a)) k),passage(f).passage(k).(f (passage(a).passage(k2).(k a)) k),other,f;k;a;k2,none,5,763,Brennis Mund,On Safe Passages,Call with current continuation
+PCE-133,Church Encoding True Alt,λt.λf.t,passage(t).passage(f).t,boolean,t;f,none,2,738,Kelleth Mund,On Church Numerals,Alternative TRUE notation
+PCE-134,Church Encoding False Alt,λt.λf.f,passage(t).passage(f).f,boolean,t;f,none,2,738,Kelleth Mund,On Church Numerals,Alternative FALSE notation
+PCE-135,Collapse Pattern 1,λx.((x x) (x x)),passage(x).((x x) (x x)),other,x,none,3,720,Archive Record,Great Collapse Records,Pattern observed during collapse
+PCE-136,Collapse Pattern 2,((λx.λy.(x y)) (λx.λy.(x y))),((passage(x).passage(y).(x y)) (passage(x).passage(y).(x y))),other,x;y,none,4,720,Archive Record,Great Collapse Records,Second collapse pattern
+PCE-137,Index Loop,(λx.(x x x x)),passage(x).(x x x x),other,x,none,4,720,Archive Record,Great Collapse Records,Pattern causing index loops
+PCE-138,Circular Cite,λd.(d d),passage(d).(d d),other,d,none,2,720,Archive Record,Great Collapse Records,Self-citation passage
+PCE-139,Inversion,λa.λb.λc.(c b a),passage(a).passage(b).passage(c).(c b a),other,a;b;c,none,3,720,Archive Record,Great Collapse Records,Hierarchy inversion pattern
+PCE-140,Pre-Collapse Normal,λx.λy.λz.((x y) z),passage(x).passage(y).passage(z).((x y) z),other,x;y;z,none,3,719,Archive Record,Archive Standards,Normal classification passage before collapse
+PCE-141,Dens Adjacent,λx.(x (λy.y)),passage(x).(x (passage(y).y)),other,x;y,none,3,755,Kelleth Mund,Paradoxes of Self-Application,Passage observed near Dens boundary
+PCE-142,Boundary Variant,λf.λx.((f x) (f f)),passage(f).passage(x).((f x) (f f)),other,f;x,none,3,756,Kelleth Mund,Paradoxes of Self-Application,Unstable near Dens
+PCE-143,Stable Core,λx.(x x),passage(x).(x x),other,x,none,2,757,Kelleth Mund,Paradoxes of Self-Application,Stable self-reference base
+PCE-144,Unstable Core,λx.((x x) x),passage(x).((x x) x),other,x,none,3,757,Kelleth Mund,Paradoxes of Self-Application,Unstable self-reference
+PCE-145,Marginal Pattern,λm.(m (λx.m)),passage(m).(m (passage(x).m)),other,m;x,none,3,760,Marden Krey,On Consistency,Observed at archive margins
+PCE-146,Delayed Omega,λx.(λy.((y y) (y y))) x,passage(x).(passage(y).((y y) (y y))) x,other,x;y,none,4,765,Marden Krey,On Consistency,Omega with delayed trigger
+PCE-147,Safe Recursion,λf.λg.λx.((g (f f g)) x),passage(f).passage(g).passage(x).((g (f f g)) x),combinator,f;g;x,none,4,768,Marden Krey,On Consistency,Recursion without immediate divergence
+PCE-148,Terminal Pattern,λx.λy.x,passage(x).passage(y).x,other,x;y,none,2,775,Kelleth Mund,Passages and Their Limits,Always terminates
+PCE-149,Limit Approach,λn.((Exp Two) ((Exp Two) n)),passage(n).((Exp Two) ((Exp Two) n)),arithmetic,n,none,4,776,Kelleth Mund,Passages and Their Limits,Approaches limits quickly
+PCE-150,Mund Final,λf.λx.(f (λy.((f y) x))),passage(f).passage(x).(f (passage(y).((f y) x))),other,f;x;y,none,4,792,Kelleth Mund,Retirement Notes,Last passage catalogued by Mund

@@ -1,0 +1,51 @@
+encoding_id,encoded_value,encoding_type,lambda_notation,mund_notation,verification_expression,year_discovered,discovered_by,notes
+CE-001,0,numeral,λf.λx.x,passage(f).passage(x).x,((Zero f) x) = x,738,Kelleth Mund,Zero applications of f - the base numeral
+CE-002,1,numeral,λf.λx.(f x),passage(f).passage(x).(f x),((One f) x) = (f x),738,Kelleth Mund,One application of f to x
+CE-003,2,numeral,λf.λx.(f (f x)),passage(f).passage(x).(f (f x)),((Two f) x) = (f (f x)),738,Kelleth Mund,Two applications of f to x
+CE-004,3,numeral,λf.λx.(f (f (f x))),passage(f).passage(x).(f (f (f x))),((Three f) x) = (f (f (f x))),738,Kelleth Mund,Three applications of f
+CE-005,4,numeral,λf.λx.(f (f (f (f x)))),passage(f).passage(x).(f (f (f (f x)))),((Four f) x) = (f (f (f (f x)))),739,Kelleth Mund,Four applications of f
+CE-006,5,numeral,λf.λx.(f (f (f (f (f x))))),passage(f).passage(x).(f (f (f (f (f x))))),((Five f) x) = (f (f (f (f (f x))))),739,Kelleth Mund,Five applications of f
+CE-007,6,numeral,λf.λx.(f (f (f (f (f (f x)))))),passage(f).passage(x).(f (f (f (f (f (f x)))))),((Six f) x) uses 6 applications,739,Kelleth Mund,Six applications of f
+CE-008,7,numeral,λf.λx.(f (f (f (f (f (f (f x))))))),passage(f).passage(x).(f (f (f (f (f (f (f x))))))),((Seven f) x) uses 7 applications,739,Kelleth Mund,Seven applications of f
+CE-009,8,numeral,λf.λx.(f (f (f (f (f (f (f (f x)))))))),passage(f).passage(x).(f (f (f (f (f (f (f (f x)))))))),((Eight f) x) uses 8 applications,739,Kelleth Mund,Eight applications of f
+CE-010,9,numeral,λf.λx.(f (f (f (f (f (f (f (f (f x))))))))),passage(f).passage(x).(f (f (f (f (f (f (f (f (f x))))))))),((Nine f) x) uses 9 applications,739,Kelleth Mund,Nine applications of f
+CE-011,10,numeral,λf.λx.(f (f (f (f (f (f (f (f (f (f x)))))))))),passage(f).passage(x).(f (f (f (f (f (f (f (f (f (f x)))))))))),((Ten f) x) uses 10 applications,740,Kelleth Mund,Ten applications of f
+CE-012,TRUE,boolean,λx.λy.x,passage(x).passage(y).x,((TRUE a) b) = a,738,Kelleth Mund,Returns first argument - truth
+CE-013,FALSE,boolean,λx.λy.y,passage(x).passage(y).y,((FALSE a) b) = b,738,Kelleth Mund,Returns second argument - falsity
+CE-014,AND,boolean,λp.λq.((p q) p),passage(p).passage(q).((p q) p),((AND TRUE) FALSE) = FALSE,741,Kelleth Mund,Logical conjunction
+CE-015,OR,boolean,λp.λq.((p p) q),passage(p).passage(q).((p p) q),((OR FALSE) TRUE) = TRUE,741,Kelleth Mund,Logical disjunction
+CE-016,NOT,boolean,λp.λa.λb.((p b) a),passage(p).passage(a).passage(b).((p b) a),(NOT TRUE) = FALSE,741,Kelleth Mund,Logical negation - swaps arguments
+CE-017,XOR,boolean,λp.λq.((p (NOT q)) q),passage(p).passage(q).((p (NOT q)) q),((XOR TRUE) TRUE) = FALSE,742,Kelleth Mund,Exclusive or
+CE-018,NAND,boolean,λp.λq.(NOT ((AND p) q)),passage(p).passage(q).(NOT ((AND p) q)),((NAND TRUE) TRUE) = FALSE,742,Kelleth Mund,Not and - universal gate
+CE-019,NOR,boolean,λp.λq.(NOT ((OR p) q)),passage(p).passage(q).(NOT ((OR p) q)),((NOR FALSE) FALSE) = TRUE,742,Kelleth Mund,Not or
+CE-020,IF,boolean,λp.λa.λb.((p a) b),passage(p).passage(a).passage(b).((p a) b),(((IF TRUE) then) else) = then,741,Kelleth Mund,Conditional selection
+CE-021,SUCC,arithmetic,λn.λf.λx.(f ((n f) x)),passage(n).passage(f).passage(x).(f ((n f) x)),(SUCC Zero) = One,739,Kelleth Mund,Successor function - adds one
+CE-022,PLUS,arithmetic,λm.λn.λf.λx.((m f) ((n f) x)),passage(m).passage(n).passage(f).passage(x).((m f) ((n f) x)),((PLUS One) One) = Two,740,Kelleth Mund,Addition of Church numerals
+CE-023,MULT,arithmetic,λm.λn.λf.(m (n f)),passage(m).passage(n).passage(f).(m (n f)),((MULT Two) Three) = Six,740,Kelleth Mund,Multiplication of Church numerals
+CE-024,EXP,arithmetic,λm.λn.(n m),passage(m).passage(n).(n m),((EXP Two) Three) = Eight,741,Kelleth Mund,Exponentiation m^n
+CE-025,PRED,arithmetic,λn.λf.λx.(((n (λg.λh.(h (g f)))) (λu.x)) (λu.u)),passage(n).passage(f).passage(x).(((n (passage(g).passage(h).(h (g f)))) (passage(u).x)) (passage(u).u)),(PRED One) = Zero,743,Kelleth Mund,Predecessor - complex but foundational
+CE-026,SUB,arithmetic,λm.λn.((n PRED) m),passage(m).passage(n).((n PRED) m),((SUB Three) One) = Two,743,Kelleth Mund,Subtraction via repeated predecessor
+CE-027,ISZERO,boolean,λn.((n (λx.FALSE)) TRUE),passage(n).((n (passage(x).FALSE)) TRUE),(ISZERO Zero) = TRUE,743,Kelleth Mund,Tests if numeral is zero
+CE-028,LEQ,boolean,λm.λn.(ISZERO ((SUB m) n)),passage(m).passage(n).(ISZERO ((SUB m) n)),((LEQ Two) Three) = TRUE,744,Kelleth Mund,Less than or equal comparison
+CE-029,EQ,boolean,λm.λn.((AND ((LEQ m) n)) ((LEQ n) m)),passage(m).passage(n).((AND ((LEQ m) n)) ((LEQ n) m)),((EQ Two) Two) = TRUE,744,Kelleth Mund,Equality test for numerals
+CE-030,GT,boolean,λm.λn.(NOT ((LEQ m) n)),passage(m).passage(n).(NOT ((LEQ m) n)),((GT Three) Two) = TRUE,744,Kelleth Mund,Greater than comparison
+CE-031,PAIR,pair,λx.λy.λf.((f x) y),passage(x).passage(y).passage(f).((f x) y),((PAIR a) b) creates a pair,742,Kelleth Mund,Pair constructor
+CE-032,FST,pair,λp.(p TRUE),passage(p).(p TRUE),(FST ((PAIR a) b)) = a,742,Kelleth Mund,First projection from pair
+CE-033,SND,pair,λp.(p FALSE),passage(p).(p FALSE),(SND ((PAIR a) b)) = b,742,Kelleth Mund,Second projection from pair
+CE-034,NIL,list,λc.λn.n,passage(c).passage(n).n,((NIL c) n) = n,748,Brennis Mund,Empty list - returns nil case
+CE-035,CONS,list,λh.λt.λc.λn.((c h) ((t c) n)),passage(h).passage(t).passage(c).passage(n).((c h) ((t c) n)),((CONS a) NIL) = singleton a,748,Brennis Mund,List constructor - prepends element
+CE-036,HEAD,list,λl.((l (λh.λt.h)) NIL),passage(l).((l (passage(h).passage(t).h)) NIL),(HEAD ((CONS a) NIL)) = a,748,Brennis Mund,First element of list
+CE-037,TAIL,list,λl.((l (λh.λt.t)) NIL),passage(l).((l (passage(h).passage(t).t)) NIL),(TAIL ((CONS a) ((CONS b) NIL))) = ((CONS b) NIL),748,Brennis Mund,List without first element
+CE-038,ISNIL,list,λl.((l (λh.λt.FALSE)) TRUE),passage(l).((l (passage(h).passage(t).FALSE)) TRUE),(ISNIL NIL) = TRUE,749,Brennis Mund,Tests if list is empty
+CE-039,LENGTH,list,λl.((l (λh.λt.(SUCC t))) Zero),passage(l).((l (passage(h).passage(t).(SUCC t))) Zero),(LENGTH ((CONS a) ((CONS b) NIL))) = Two,749,Brennis Mund,Counts elements in list
+CE-040,MAP,list,λf.λl.((l (λh.λt.((CONS (f h)) t))) NIL),passage(f).passage(l).((l (passage(h).passage(t).((CONS (f h)) t))) NIL),((MAP SUCC) ones) increments all,750,Brennis Mund,Apply function to each element
+CE-041,FOLD,list,λf.λa.λl.((l (λh.λt.((f h) t))) a),passage(f).passage(a).passage(l).((l (passage(h).passage(t).((f h) t))) a),(((FOLD PLUS) Zero) nums) = sum,750,Brennis Mund,Reduce list with binary function
+CE-042,APPEND,list,λl1.λl2.((l1 CONS) l2),passage(l1).passage(l2).((l1 CONS) l2),((APPEND listA) listB) concatenates,749,Brennis Mund,Concatenate two lists
+CE-043,ISEVEN,boolean,λn.((n NOT) TRUE),passage(n).((n NOT) TRUE),(ISEVEN Two) = TRUE,743,Kelleth Mund,Tests if numeral is even
+CE-044,ISODD,boolean,λn.((n NOT) FALSE),passage(n).((n NOT) FALSE),(ISODD Three) = TRUE,743,Kelleth Mund,Tests if numeral is odd
+CE-045,MIN,arithmetic,λm.λn.(((LEQ m) n) m n),passage(m).passage(n).(((LEQ m) n) m n),((MIN Two) Five) = Two,744,Kelleth Mund,Minimum of two numerals
+CE-046,MAX,arithmetic,λm.λn.(((LEQ m) n) n m),passage(m).passage(n).(((LEQ m) n) n m),((MAX Two) Five) = Five,744,Kelleth Mund,Maximum of two numerals
+CE-047,DOUBLE,arithmetic,λn.((PLUS n) n),passage(n).((PLUS n) n),(DOUBLE Three) = Six,740,Kelleth Mund,Doubles a numeral
+CE-048,SQUARE,arithmetic,λn.((MULT n) n),passage(n).((MULT n) n),(SQUARE Three) = Nine,740,Kelleth Mund,Squares a numeral
+CE-049,NOTHING,other,λj.λn.n,passage(j).passage(n).n,((NOTHING just) nothing) = nothing,761,Brennis Mund,Maybe nothing case
+CE-050,JUST,other,λx.λj.λn.(j x),passage(x).passage(j).passage(n).(j x),(((JUST a) f) n) = (f a),761,Brennis Mund,Maybe just case with value

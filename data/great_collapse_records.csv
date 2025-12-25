@@ -1,0 +1,76 @@
+record_id,timestamp,incident_type,affected_document,original_classification,collapse_classification,restored_classification,archive_section,witness,severity,notes
+GCR-001,720-03-14 08:12,circular_citation,MS-0501,expedition_report,expedition_report citing itself,expedition_report,Section A-7,Archivist Torrel Goss,moderate,First recorded incident - manuscript began citing its own appendix
+GCR-002,720-03-14 08:34,reclassification,MS-0502,legal_document,treatise on itself,irrecoverable,Section A-7,Archivist Torrel Goss,severe,Document transformed its genre while being read
+GCR-003,720-03-14 09:01,index_loop,INDEX-A7,alphabetical_order,recursive_order,alphabetical_order,Section A-7,Archivist Torrel Goss,moderate,Index began referencing its own entries
+GCR-004,720-03-14 09:15,hierarchy_inversion,CATALOG-A,standard_hierarchy,inverted_hierarchy,standard_hierarchy,Central Catalog,Archivist Menna Krey,severe,Parent categories became children of their children
+GCR-005,720-03-14 09:42,reclassification,MS-0503,memoir,document_about_documents,memoir,Section B-2,Archivist Vell Horth,moderate,Self-referential transformation
+GCR-006,720-03-14 10:08,circular_citation,MS-0504,treatise,treatise_on_treatises,irrecoverable,Section B-2,Archivist Vell Horth,catastrophic,Complete semantic collapse
+GCR-007,720-03-14 10:33,index_loop,INDEX-B2,subject_order,loop_order,subject_order,Section B-2,Archivist Vell Horth,minor,Brief loop quickly corrected
+GCR-008,720-03-14 11:15,reclassification,MS-0505,history,history_of_classifications,history,Section C-1,Archivist Pell Strand,moderate,Document about classification became self-aware
+GCR-009,720-03-14 11:47,hierarchy_inversion,CATALOG-B,nested_structure,flat_structure,nested_structure,Central Catalog,Archivist Menna Krey,severe,All nesting collapsed temporarily
+GCR-010,720-03-14 12:22,circular_citation,MS-0506,expedition_report,report_citing_future_report,irrecoverable,Section A-7,Archivist Torrel Goss,catastrophic,Temporal citation paradox
+GCR-011,720-03-14 13:05,reclassification,MS-0507,poetry,prose_about_poetry,poetry,Section D-4,Archivist Kern Losh,minor,Quick self-correction observed
+GCR-012,720-03-14 13:38,index_loop,INDEX-C1,chronological,self_chronological,chronological,Section C-1,Archivist Pell Strand,moderate,Index dated its own creation
+GCR-013,720-03-14 14:12,hierarchy_inversion,CATALOG-C,three_level,single_level,three_level,Central Catalog,Archivist Menna Krey,moderate,Hierarchy flattened then restored
+GCR-014,720-03-14 14:45,reclassification,MS-0508,legal_document,law_about_laws,legal_document,Section E-1,Archivist Denn Valt,moderate,Meta-legal transformation
+GCR-015,720-03-14 15:20,circular_citation,MS-0509,map_notes,notes_about_these_notes,map_notes,Section F-3,Archivist Wen Torval,minor,Self-referential but stable
+GCR-016,720-03-14 16:01,index_loop,INDEX-D4,poetic_order,recursive_meter,poetic_order,Section D-4,Archivist Kern Losh,minor,Index began following its own meter
+GCR-017,720-03-14 16:33,reclassification,MS-0510,taxonomy,taxonomy_of_taxonomies,irrecoverable,Section A-7,Archivist Torrel Goss,catastrophic,Complete classification breakdown
+GCR-018,720-03-14 17:08,hierarchy_inversion,CATALOG-D,standard,inverse,standard,Central Catalog,Archivist Menna Krey,severe,Fourth major inversion of day
+GCR-019,720-03-14 17:45,circular_citation,MS-0511,memoir,memoir_of_reading_this_memoir,memoir,Section B-2,Archivist Vell Horth,moderate,Recursive reading loop
+GCR-020,720-03-14 18:22,reclassification,MS-0512,expedition_report,report_about_reports,expedition_report,Section A-7,Archivist Torrel Goss,moderate,Meta-reporting phenomenon
+GCR-021,720-03-15 06:03,index_loop,INDEX-MAIN,master_order,self_ordering,master_order,Central Index,Archivist Menna Krey,catastrophic,Main index began indexing itself
+GCR-022,720-03-15 06:45,reclassification,MS-0513,treatise,void,irrecoverable,Section A-7,Archivist Torrel Goss,catastrophic,Document classified itself as nothing
+GCR-023,720-03-15 07:18,circular_citation,MS-0514,legal_document,infinitely_nested_citation,irrecoverable,Section E-1,Archivist Denn Valt,catastrophic,Citation depth exceeded archive limits
+GCR-024,720-03-15 07:52,hierarchy_inversion,ALL_CATALOGS,normal,completely_inverted,partial,All Sections,Committee Record,catastrophic,Total systemic inversion
+GCR-025,720-03-15 08:30,reclassification,MS-0515,correspondence,letter_to_itself,correspondence,Section G-2,Archivist Lorn Fell,severe,Self-addressed letter paradox
+GCR-026,720-03-15 09:08,index_loop,INDEX-E1,legal_order,paradox_order,legal_order,Section E-1,Archivist Denn Valt,severe,Legal precedent began citing future cases
+GCR-027,720-03-15 09:45,reclassification,MS-0516,history,history_of_this_moment,history,Section C-1,Archivist Pell Strand,moderate,Present-tense history
+GCR-028,720-03-15 10:22,circular_citation,MS-0517,taxonomy,classifying_this_taxonomy,irrecoverable,Section A-7,Archivist Torrel Goss,catastrophic,Classification recursion
+GCR-029,720-03-15 11:01,hierarchy_inversion,CATALOG-E,legal_hierarchy,anarchic_flat,legal_hierarchy,Central Catalog,Archivist Menna Krey,severe,Legal precedence destroyed briefly
+GCR-030,720-03-15 11:38,reclassification,MS-0518,poetry,anti_poetry,irrecoverable,Section D-4,Archivist Kern Losh,moderate,Negation paradox
+GCR-031,720-03-15 12:15,index_loop,INDEX-F3,geographic_order,nowhere_order,geographic_order,Section F-3,Archivist Wen Torval,moderate,Maps to nowhere
+GCR-032,720-03-15 12:52,reclassification,MS-0519,field_notes,notes_observing_notes,field_notes,Section F-3,Archivist Wen Torval,minor,Observational recursion
+GCR-033,720-03-15 13:30,circular_citation,MS-0520,debate_transcript,debate_about_this_debate,debate_transcript,Section H-1,Archivist Rella Vorn,moderate,Self-referential debate
+GCR-034,720-03-15 14:08,hierarchy_inversion,CATALOG-F,map_hierarchy,infinite_zoom,map_hierarchy,Central Catalog,Archivist Menna Krey,severe,Maps contained maps of themselves
+GCR-035,720-03-15 14:45,reclassification,MS-0521,marginalia,margin_of_margin,marginalia,Section I-2,Archivist Kell Mund,minor,Recursive annotation
+GCR-036,720-03-15 15:22,index_loop,INDEX-G2,correspondence_order,self_corresponding,correspondence_order,Section G-2,Archivist Lorn Fell,moderate,Letters to index
+GCR-037,720-03-15 16:00,reclassification,MS-0522,expedition_report,lost_expedition,irrecoverable,Section A-7,Archivist Torrel Goss,catastrophic,Report lost itself
+GCR-038,720-03-15 16:38,circular_citation,MS-0523,memoir,memoir_of_forgetting,memoir,Section B-2,Archivist Vell Horth,moderate,Paradox of memory
+GCR-039,720-03-15 17:15,hierarchy_inversion,CATALOG-G,letter_hierarchy,alphabetic_chaos,letter_hierarchy,Central Catalog,Archivist Menna Krey,moderate,Alphabet inverted
+GCR-040,720-03-15 17:52,reclassification,MS-0524,legal_document,illegal_legal,legal_document,Section E-1,Archivist Denn Valt,severe,Self-contradicting law
+GCR-041,720-03-16 05:30,index_loop,MASTER_INDEX,complete,recursively_complete,complete,Archive Core,Committee Record,catastrophic,Heart of archive affected
+GCR-042,720-03-16 06:08,reclassification,MS-0525,treatise,anti_treatise,irrecoverable,Section A-7,Archivist Torrel Goss,catastrophic,Negation destroyed content
+GCR-043,720-03-16 06:45,circular_citation,MS-0526,map_notes,map_of_this_map,irrecoverable,Section F-3,Archivist Wen Torval,severe,Infinite cartographic regress
+GCR-044,720-03-16 07:22,hierarchy_inversion,ALL_SECTIONS,organized,chaotic,organized,All Sections,Committee Record,catastrophic,Second total inversion
+GCR-045,720-03-16 08:00,reclassification,MS-0527,poetry,prose,poetry,Section D-4,Archivist Kern Losh,minor,Brief genre confusion
+GCR-046,720-03-16 08:38,index_loop,INDEX-H1,debate_order,debating_order,debate_order,Section H-1,Archivist Rella Vorn,moderate,Index debated its structure
+GCR-047,720-03-16 09:15,reclassification,MS-0528,correspondence,self_correspondence,irrecoverable,Section G-2,Archivist Lorn Fell,severe,Letter wrote back to itself
+GCR-048,720-03-16 09:52,circular_citation,MS-0529,taxonomy,all_citing_all,irrecoverable,Section A-7,Archivist Torrel Goss,catastrophic,Total citation collapse
+GCR-049,720-03-16 10:30,hierarchy_inversion,CATALOG-H,debate_order,agreeing_order,debate_order,Central Catalog,Archivist Menna Krey,minor,Debates agreed on structure
+GCR-050,720-03-16 11:08,reclassification,MS-0530,field_notes,field_of_fields,field_notes,Section F-3,Archivist Wen Torval,moderate,Meta-field expansion
+GCR-051,720-03-16 11:45,index_loop,INDEX-I2,marginal_order,central_order,marginal_order,Section I-2,Archivist Kell Mund,minor,Margins became central
+GCR-052,720-03-16 12:22,reclassification,MS-0531,history,future_history,irrecoverable,Section C-1,Archivist Pell Strand,severe,Temporal classification error
+GCR-053,720-03-16 13:00,circular_citation,MS-0532,legal_document,law_citing_repeal,legal_document,Section E-1,Archivist Denn Valt,moderate,Self-repealing then reinstating
+GCR-054,720-03-16 13:38,hierarchy_inversion,CATALOG-I,marginal_structure,core_structure,marginal_structure,Central Catalog,Archivist Menna Krey,moderate,Margins and core swapped
+GCR-055,720-03-16 14:15,reclassification,MS-0533,memoir,collective_memoir,memoir,Section B-2,Archivist Vell Horth,minor,Individual became collective
+GCR-056,720-03-16 14:52,index_loop,ALL_INDICES,separate,unified_recursive,separate,All Sections,Committee Record,catastrophic,All indices merged temporarily
+GCR-057,720-03-16 15:30,reclassification,MS-0534,expedition_report,expedition_to_archive,expedition_report,Section A-7,Archivist Torrel Goss,moderate,Expedition to retrieve itself
+GCR-058,720-03-16 16:08,circular_citation,MS-0535,poetry,poem_quoting_poem,poetry,Section D-4,Archivist Kern Losh,minor,Poetic self-reference
+GCR-059,720-03-16 16:45,hierarchy_inversion,CATALOG-MAIN,master_order,servant_order,master_order,Central Catalog,Archivist Menna Krey,severe,Main catalog inverted
+GCR-060,720-03-16 17:22,reclassification,MS-0536,treatise,synthesis_of_all,irrecoverable,Section A-7,Archivist Torrel Goss,catastrophic,Claimed to contain all documents
+GCR-061,720-03-17 05:00,index_loop,EMERGENCY_INDEX,temporary,permanent_temporary,temporary,Emergency Section,Committee Record,severe,Emergency measures recursive
+GCR-062,720-03-17 05:38,reclassification,MS-0537,marginalia,text,marginalia,Section I-2,Archivist Kell Mund,minor,Margins became main text briefly
+GCR-063,720-03-17 06:15,circular_citation,MS-0538,history,history_creating_history,history,Section C-1,Archivist Pell Strand,moderate,Historical bootstrap
+GCR-064,720-03-17 06:52,hierarchy_inversion,CATALOG-TEMP,emergency,normal,emergency,Emergency Section,Archivist Menna Krey,moderate,Emergency became normal
+GCR-065,720-03-17 07:30,reclassification,MS-0539,field_notes,lab_notes,field_notes,Section F-3,Archivist Wen Torval,minor,Location confusion
+GCR-066,720-03-17 08:08,index_loop,INDEX-RECOVERY,recovery_order,recursive_recovery,recovery_order,Emergency Section,Committee Record,severe,Recovery process looped
+GCR-067,720-03-17 08:45,reclassification,MS-0540,correspondence,proclamation,correspondence,Section G-2,Archivist Lorn Fell,minor,Private became public briefly
+GCR-068,720-03-17 09:22,circular_citation,MS-0541,debate_transcript,debate_concluding_debate,debate_transcript,Section H-1,Archivist Rella Vorn,minor,Self-concluding debate
+GCR-069,720-03-17 10:00,hierarchy_inversion,FINAL_CATALOG,collapsed,restored,restored,All Sections,Committee Record,severe,Final major inversion before recovery
+GCR-070,720-03-17 10:38,reclassification,MS-0542,taxonomy,stable_taxonomy,taxonomy,Section A-7,Archivist Torrel Goss,minor,First stable reclassification
+GCR-071,720-03-17 11:15,index_loop,RESTORED_INDEX,looping,stable,stable,All Sections,Committee Record,minor,Loops began stopping
+GCR-072,720-03-17 11:52,reclassification,MS-0543,memoir,verified_memoir,memoir,Section B-2,Archivist Vell Horth,minor,Classification holding
+GCR-073,720-03-17 12:30,circular_citation,MS-0544,expedition_report,normal_citations,expedition_report,Section A-7,Archivist Torrel Goss,minor,Citations normalized
+GCR-074,720-03-17 13:08,hierarchy_inversion,NONE,stable,stable,stable,All Sections,Committee Record,minor,No inversions detected
+GCR-075,720-03-17 14:00,reclassification,MS-0545,legal_document,verified_legal,legal_document,Section E-1,Archivist Denn Valt,minor,Collapse officially ended

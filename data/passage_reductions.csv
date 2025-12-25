@@ -1,0 +1,268 @@
+reduction_id,initial_expression,step_number,rule_applied,expression_after,redex_location,is_normal_form,terminates,total_steps,year_traced,traced_by,notes
+PR-001,(λx.x a),1,beta,a,root,True,True,1,722,Kelleth Mund,Identity applied to a
+PR-002,((λx.x) (λy.y)),1,beta,(λy.y),left,True,True,1,722,Kelleth Mund,Identity applied to identity
+PR-003,((λx.λy.x) a b),1,beta,((λy.a) b),outer,False,True,2,723,Kelleth Mund,K combinator first step
+PR-003,((λy.a) b),2,beta,a,root,True,True,2,723,Kelleth Mund,K combinator second step
+PR-004,((λx.λy.y) a b),1,beta,((λy.y) b),outer,False,True,2,723,Kelleth Mund,FALSE first step
+PR-004,((λy.y) b),2,beta,b,root,True,True,2,723,Kelleth Mund,FALSE second step
+PR-005,((λf.λx.(f x)) g a),1,beta,((λx.(g x)) a),outer,False,True,2,724,Kelleth Mund,Church one first step
+PR-005,((λx.(g x)) a),2,beta,(g a),root,True,True,2,724,Kelleth Mund,Church one second step
+PR-006,((λf.λx.(f (f x))) g a),1,beta,((λx.(g (g x))) a),outer,False,True,2,724,Kelleth Mund,Church two first step
+PR-006,((λx.(g (g x))) a),2,beta,(g (g a)),root,True,True,2,724,Kelleth Mund,Church two second step
+PR-007,(λx.(x a)),1,none,(λx.(x a)),root,True,True,0,722,Kelleth Mund,Already in normal form - abstraction with free variable
+PR-008,((λx.(x x)) (λy.y)),1,beta,((λy.y) (λy.y)),root,False,True,2,725,Kelleth Mund,Self-application to identity step 1
+PR-008,((λy.y) (λy.y)),2,beta,(λy.y),root,True,True,2,725,Kelleth Mund,Self-application to identity step 2
+PR-009,((λx.(x x)) (λx.(x x))),1,beta,((λx.(x x)) (λx.(x x))),root,False,False,-1,752,Kelleth Mund,Omega - reduces to itself - non-terminating
+PR-010,(((λp.λa.λb.((p a) b)) (λx.λy.x)) t f),1,beta,(((λa.λb.(((λx.λy.x) a) b))) t f),outer,False,True,4,738,Kelleth Mund,IF TRUE first step
+PR-010,(((λa.λb.(((λx.λy.x) a) b))) t f),2,beta,((λb.(((λx.λy.x) t) b)) f),inner,False,True,4,738,Kelleth Mund,IF TRUE second step
+PR-010,((λb.(((λx.λy.x) t) b)) f),3,beta,(((λx.λy.x) t) f),inner,False,True,4,738,Kelleth Mund,IF TRUE third step
+PR-010,(((λx.λy.x) t) f),4,beta,t,root,True,True,4,738,Kelleth Mund,IF TRUE final - returns t
+PR-011,(((λp.λa.λb.((p a) b)) (λx.λy.y)) t f),1,beta,(((λa.λb.(((λx.λy.y) a) b))) t f),outer,False,True,4,738,Kelleth Mund,IF FALSE first step
+PR-011,(((λa.λb.(((λx.λy.y) a) b))) t f),2,beta,((λb.(((λx.λy.y) t) b)) f),inner,False,True,4,738,Kelleth Mund,IF FALSE second step
+PR-011,((λb.(((λx.λy.y) t) b)) f),3,beta,(((λx.λy.y) t) f),inner,False,True,4,738,Kelleth Mund,IF FALSE third step
+PR-011,(((λx.λy.y) t) f),4,beta,f,root,True,True,4,738,Kelleth Mund,IF FALSE final - returns f
+PR-012,((λn.λf.λx.(f ((n f) x))) (λf.λx.x)),1,beta,(λf.λx.(f (((λf.λx.x) f) x))),outer,False,True,3,739,Kelleth Mund,Successor of zero step 1
+PR-012,(λf.λx.(f (((λf.λx.x) f) x))),2,beta,(λf.λx.(f ((λx.x) x))),inner,False,True,3,739,Kelleth Mund,Successor of zero step 2
+PR-012,(λf.λx.(f ((λx.x) x))),3,beta,(λf.λx.(f x)),inner,True,True,3,739,Kelleth Mund,Successor of zero final - equals Church one
+PR-013,((λm.λn.λf.λx.((m f) ((n f) x))) (λf.λx.(f x)) (λf.λx.(f x))),1,beta,((λn.λf.λx.(((λf.λx.(f x)) f) ((n f) x))) (λf.λx.(f x))),outer,False,True,5,740,Kelleth Mund,Addition 1+1 step 1
+PR-013,((λn.λf.λx.(((λf.λx.(f x)) f) ((n f) x))) (λf.λx.(f x))),2,beta,(λf.λx.(((λf.λx.(f x)) f) (((λf.λx.(f x)) f) x))),outer,False,True,5,740,Kelleth Mund,Addition 1+1 step 2
+PR-013,(λf.λx.(((λf.λx.(f x)) f) (((λf.λx.(f x)) f) x))),3,beta,(λf.λx.((λx.(f x)) (((λf.λx.(f x)) f) x))),inner,False,True,5,740,Kelleth Mund,Addition 1+1 step 3
+PR-013,(λf.λx.((λx.(f x)) (((λf.λx.(f x)) f) x))),4,beta,(λf.λx.(f (((λf.λx.(f x)) f) x))),inner,False,True,5,740,Kelleth Mund,Addition 1+1 step 4
+PR-013,(λf.λx.(f (((λf.λx.(f x)) f) x))),5,beta,(λf.λx.(f (f x))),inner,True,True,5,740,Kelleth Mund,Addition 1+1 final - equals Church two
+PR-014,((λp.λq.((p q) p)) (λx.λy.x) (λx.λy.x)),1,beta,(((λx.λy.x) (λx.λy.x)) (λx.λy.x)),outer,False,True,2,741,Kelleth Mund,AND TRUE TRUE step 1
+PR-014,(((λx.λy.x) (λx.λy.x)) (λx.λy.x)),2,beta,(λx.λy.x),root,True,True,2,741,Kelleth Mund,AND TRUE TRUE final - returns TRUE
+PR-015,((λp.λq.((p q) p)) (λx.λy.x) (λx.λy.y)),1,beta,(((λx.λy.x) (λx.λy.y)) (λx.λy.x)),outer,False,True,2,741,Kelleth Mund,AND TRUE FALSE step 1
+PR-015,(((λx.λy.x) (λx.λy.y)) (λx.λy.x)),2,beta,(λx.λy.y),root,True,True,2,741,Kelleth Mund,AND TRUE FALSE final - returns FALSE
+PR-016,((λp.λq.((p p) q)) (λx.λy.y) (λx.λy.y)),1,beta,(((λx.λy.y) (λx.λy.y)) (λx.λy.y)),outer,False,True,2,741,Kelleth Mund,OR FALSE FALSE step 1
+PR-016,(((λx.λy.y) (λx.λy.y)) (λx.λy.y)),2,beta,(λx.λy.y),root,True,True,2,741,Kelleth Mund,OR FALSE FALSE final - returns FALSE
+PR-017,((λp.λq.((p p) q)) (λx.λy.x) (λx.λy.y)),1,beta,(((λx.λy.x) (λx.λy.x)) (λx.λy.y)),outer,False,True,2,741,Kelleth Mund,OR TRUE FALSE step 1
+PR-017,(((λx.λy.x) (λx.λy.x)) (λx.λy.y)),2,beta,(λx.λy.x),root,True,True,2,741,Kelleth Mund,OR TRUE FALSE final - returns TRUE
+PR-018,((λp.λa.λb.((p b) a)) (λx.λy.x)),1,beta,(λa.λb.(((λx.λy.x) b) a)),outer,False,True,2,741,Kelleth Mund,NOT TRUE step 1
+PR-018,(λa.λb.(((λx.λy.x) b) a)),2,beta,(λa.λb.b),inner,True,True,2,741,Kelleth Mund,NOT TRUE final - returns FALSE form
+PR-019,((λx.λy.λf.((f x) y)) a b),1,beta,((λy.λf.((f a) y)) b),outer,False,True,2,742,Kelleth Mund,Pair construction step 1
+PR-019,((λy.λf.((f a) y)) b),2,beta,(λf.((f a) b)),root,True,True,2,742,Kelleth Mund,Pair construction final
+PR-020,((λp.(p (λx.λy.x))) (λf.((f a) b))),1,beta,((λf.((f a) b)) (λx.λy.x)),outer,False,True,2,742,Kelleth Mund,First projection step 1
+PR-020,((λf.((f a) b)) (λx.λy.x)),2,beta,a,root,True,True,2,742,Kelleth Mund,First projection final - returns a
+PR-021,((λp.(p (λx.λy.y))) (λf.((f a) b))),1,beta,((λf.((f a) b)) (λx.λy.y)),outer,False,True,2,742,Kelleth Mund,Second projection step 1
+PR-021,((λf.((f a) b)) (λx.λy.y)),2,beta,b,root,True,True,2,742,Kelleth Mund,Second projection final - returns b
+PR-022,(λa.a),1,none,(λa.a),root,True,True,0,724,Kelleth Mund,Alpha variant of identity - already normal
+PR-023,((λa.a) (λb.b)),1,beta,(λb.b),root,True,True,1,724,Kelleth Mund,Alpha variants applied
+PR-024,((λx.λx.x) a),1,beta,(λx.x),root,True,True,1,725,Kelleth Mund,Shadowing - outer x bound to a discarded
+PR-025,((λx.(λx.x x)) a),1,beta,((λx.x) a),outer,False,True,2,725,Kelleth Mund,Shadowing with outer reference step 1
+PR-025,((λx.x) a),2,beta,a,root,True,True,2,725,Kelleth Mund,Shadowing step 2 final
+PR-026,(((λx.λy.λz.((x z) (y z))) (λa.λb.a)) (λc.λd.d)),1,beta,(((λy.λz.(((λa.λb.a) z) (y z)))) (λc.λd.d)),outer,False,True,5,745,Jorell Vance,S K K step 1
+PR-026,(((λy.λz.(((λa.λb.a) z) (y z)))) (λc.λd.d)),2,beta,(λz.(((λa.λb.a) z) ((λc.λd.d) z))),outer,False,True,5,745,Jorell Vance,S K K step 2
+PR-026,(λz.(((λa.λb.a) z) ((λc.λd.d) z))),3,beta,(λz.((λb.z) ((λc.λd.d) z))),inner,False,True,5,745,Jorell Vance,S K K step 3
+PR-026,(λz.((λb.z) ((λc.λd.d) z))),4,beta,(λz.z),inner,True,True,5,745,Jorell Vance,S K K final - equals I
+PR-027,((λf.(f f)) (λx.x)),1,beta,((λx.x) (λx.x)),root,False,True,2,746,Jorell Vance,M combinator on I step 1
+PR-027,((λx.x) (λx.x)),2,beta,(λx.x),root,True,True,2,746,Jorell Vance,M combinator on I final
+PR-028,((λx.λy.(y x)) a (λz.z)),1,beta,((λy.(y a)) (λz.z)),outer,False,True,2,746,Jorell Vance,Thrush step 1
+PR-028,((λy.(y a)) (λz.z)),2,beta,((λz.z) a),outer,False,True,3,746,Jorell Vance,Thrush step 2
+PR-028,((λz.z) a),3,beta,a,root,True,True,3,746,Jorell Vance,Thrush final
+PR-029,((λf.λg.λx.(f (g x))) (λa.a) (λb.b)),1,beta,((λg.λx.((λa.a) (g x))) (λb.b)),outer,False,True,3,746,Jorell Vance,B combinator on I I step 1
+PR-029,((λg.λx.((λa.a) (g x))) (λb.b)),2,beta,(λx.((λa.a) ((λb.b) x))),outer,False,True,3,746,Jorell Vance,B combinator step 2
+PR-029,(λx.((λa.a) ((λb.b) x))),3,beta,(λx.x),inner,True,True,3,746,Jorell Vance,B combinator final - reduces to I
+PR-030,((λf.λx.λy.((f y) x)) (λa.λb.a)),1,beta,(λx.λy.(((λa.λb.a) y) x)),outer,False,True,3,746,Jorell Vance,C combinator on K step 1
+PR-030,(λx.λy.(((λa.λb.a) y) x)),2,beta,(λx.λy.((λb.y) x)),inner,False,True,3,746,Jorell Vance,C combinator step 2
+PR-030,(λx.λy.((λb.y) x)),3,beta,(λx.λy.y),inner,True,True,3,746,Jorell Vance,C combinator final - K flipped gives FALSE
+PR-031,((λf.((λx.(f (x x))) (λx.(f (x x))))) (λn.n)),1,beta,((λx.((λn.n) (x x))) (λx.((λn.n) (x x)))),outer,False,True,4,752,Kelleth Mund,Y on identity step 1
+PR-031,((λx.((λn.n) (x x))) (λx.((λn.n) (x x)))),2,beta,((λn.n) ((λx.((λn.n) (x x))) (λx.((λn.n) (x x))))),root,False,True,4,752,Kelleth Mund,Y on identity step 2
+PR-031,((λn.n) ((λx.((λn.n) (x x))) (λx.((λn.n) (x x))))),3,beta,((λx.((λn.n) (x x))) (λx.((λn.n) (x x)))),root,False,False,-1,752,Kelleth Mund,Y on identity diverges - infinite loop
+PR-032,((λn.((n (λx.(λx.λy.y))) (λx.λy.x))) (λf.λx.x)),1,beta,(((λf.λx.x) (λx.(λx.λy.y))) (λx.λy.x)),outer,False,True,3,743,Kelleth Mund,IsZero on zero step 1
+PR-032,(((λf.λx.x) (λx.(λx.λy.y))) (λx.λy.x)),2,beta,((λx.x) (λx.λy.x)),inner,False,True,3,743,Kelleth Mund,IsZero on zero step 2
+PR-032,((λx.x) (λx.λy.x)),3,beta,(λx.λy.x),root,True,True,3,743,Kelleth Mund,IsZero on zero final - returns TRUE
+PR-033,((λn.((n (λx.(λx.λy.y))) (λx.λy.x))) (λf.λx.(f x))),1,beta,(((λf.λx.(f x)) (λx.(λx.λy.y))) (λx.λy.x)),outer,False,True,4,743,Kelleth Mund,IsZero on one step 1
+PR-033,(((λf.λx.(f x)) (λx.(λx.λy.y))) (λx.λy.x)),2,beta,((λx.((λx.(λx.λy.y)) x)) (λx.λy.x)),inner,False,True,4,743,Kelleth Mund,IsZero on one step 2
+PR-033,((λx.((λx.(λx.λy.y)) x)) (λx.λy.x)),3,beta,((λx.(λx.λy.y)) (λx.λy.x)),inner,False,True,4,743,Kelleth Mund,IsZero on one step 3
+PR-033,((λx.(λx.λy.y)) (λx.λy.x)),4,beta,(λx.λy.y),root,True,True,4,743,Kelleth Mund,IsZero on one final - returns FALSE
+PR-034,((λx.(x x x)) (λx.(x x x))),1,beta,(((λx.(x x x)) (λx.(x x x))) (λx.(x x x))),root,False,False,-1,755,Kelleth Mund,Triple omega - diverges faster than omega
+PR-035,((λx.((x x) (x x))) (λy.y)),1,beta,(((λy.y) (λy.y)) ((λy.y) (λy.y))),root,False,True,4,755,Kelleth Mund,Divergent self on I step 1
+PR-035,(((λy.y) (λy.y)) ((λy.y) (λy.y))),2,beta,((λy.y) ((λy.y) (λy.y))),left,False,True,4,755,Kelleth Mund,Divergent self on I step 2
+PR-035,((λy.y) ((λy.y) (λy.y))),3,beta,((λy.y) (λy.y)),root,False,True,4,755,Kelleth Mund,Divergent self on I step 3
+PR-035,((λy.y) (λy.y)),4,beta,(λy.y),root,True,True,4,755,Kelleth Mund,Divergent self on I final - terminates
+PR-036,((λm.λn.(n m)) (λf.λx.(f (f x))) (λf.λx.(f (f x)))),1,beta,((λn.(n (λf.λx.(f (f x))))) (λf.λx.(f (f x)))),outer,False,True,6,741,Kelleth Mund,Exponentiation 2^2 step 1
+PR-036,((λn.(n (λf.λx.(f (f x))))) (λf.λx.(f (f x)))),2,beta,((λf.λx.(f (f x))) (λf.λx.(f (f x)))),root,False,True,6,741,Kelleth Mund,Exponentiation 2^2 step 2
+PR-037,((λm.λn.λf.(m (n f))) (λf.λx.(f (f x))) (λf.λx.(f (f x)))),1,beta,((λn.λf.((λf.λx.(f (f x))) (n f))) (λf.λx.(f (f x)))),outer,False,True,5,740,Kelleth Mund,Multiplication 2*2 step 1
+PR-037,((λn.λf.((λf.λx.(f (f x))) (n f))) (λf.λx.(f (f x)))),2,beta,(λf.((λf.λx.(f (f x))) ((λf.λx.(f (f x))) f))),outer,False,True,5,740,Kelleth Mund,Multiplication 2*2 step 2
+PR-038,((λx.λy.(y x)) a),1,none,((λx.λy.(y x)) a),root,False,True,1,746,Jorell Vance,Thrush partial - needs second arg
+PR-038,((λx.λy.(y x)) a),1,beta,(λy.(y a)),root,True,True,1,746,Jorell Vance,Thrush partial applied
+PR-039,((λx.λy.((x y) y)) (λa.λb.a) c),1,beta,((λy.(((λa.λb.a) y) y)) c),outer,False,True,3,746,Jorell Vance,W combinator step 1
+PR-039,((λy.(((λa.λb.a) y) y)) c),2,beta,(((λa.λb.a) c) c),root,False,True,3,746,Jorell Vance,W combinator step 2
+PR-039,(((λa.λb.a) c) c),3,beta,c,root,True,True,3,746,Jorell Vance,W combinator final
+PR-040,((λf.λg.(f (g g))) (λx.x) (λx.x)),1,beta,((λg.((λx.x) (g g))) (λx.x)),outer,False,True,3,747,Jorell Vance,L combinator on I step 1
+PR-040,((λg.((λx.x) (g g))) (λx.x)),2,beta,((λx.x) ((λx.x) (λx.x))),root,False,True,3,747,Jorell Vance,L combinator step 2
+PR-040,((λx.x) ((λx.x) (λx.x))),3,beta,(λx.x),root,True,True,3,747,Jorell Vance,L combinator final
+PR-041,((λa.λb.λf.((f a) b)) (λx.λy.x) (λx.λy.y)),1,beta,((λb.λf.((f (λx.λy.x)) b)) (λx.λy.y)),outer,False,True,2,747,Jorell Vance,V combinator creates pair step 1
+PR-041,((λb.λf.((f (λx.λy.x)) b)) (λx.λy.y)),2,beta,(λf.((f (λx.λy.x)) (λx.λy.y))),root,True,True,2,747,Jorell Vance,V combinator final
+PR-042,((λa.λb.λc.((b c) a)) x (λy.y)),1,beta,((λb.λc.((b c) x)) (λy.y)),outer,False,True,2,747,Jorell Vance,R combinator step 1
+PR-042,((λb.λc.((b c) x)) (λy.y)),2,beta,(λc.(((λy.y) c) x)),root,True,True,2,747,Jorell Vance,R combinator final
+PR-043,((λh.λt.λc.λn.((c h) ((t c) n))) a (λc.λn.n)),1,beta,((λt.λc.λn.((c a) ((t c) n))) (λc.λn.n)),outer,False,True,2,748,Brennis Mund,Cons a to empty list step 1
+PR-043,((λt.λc.λn.((c a) ((t c) n))) (λc.λn.n)),2,beta,(λc.λn.((c a) (((λc.λn.n) c) n))),root,True,True,2,748,Brennis Mund,Cons a to empty list final
+PR-044,((λl.((l (λh.λt.h)) NIL)) (λc.λn.((c a) (((λc.λn.n) c) n)))),1,beta,(((λc.λn.((c a) (((λc.λn.n) c) n))) (λh.λt.h)) NIL),outer,False,True,4,748,Brennis Mund,Head of singleton list step 1
+PR-044,(((λc.λn.((c a) (((λc.λn.n) c) n))) (λh.λt.h)) NIL),2,beta,((λn.(((λh.λt.h) a) (((λc.λn.n) (λh.λt.h)) n))) NIL),inner,False,True,4,748,Brennis Mund,Head step 2
+PR-044,((λn.(((λh.λt.h) a) (((λc.λn.n) (λh.λt.h)) n))) NIL),3,beta,(((λh.λt.h) a) (((λc.λn.n) (λh.λt.h)) NIL)),inner,False,True,4,748,Brennis Mund,Head step 3
+PR-044,(((λh.λt.h) a) (((λc.λn.n) (λh.λt.h)) NIL)),4,beta,a,root,True,True,4,748,Brennis Mund,Head final - returns a
+PR-045,(λx.[y/x](λy.x)),1,alpha,(λx.(λz.x)),body,False,True,2,724,Kelleth Mund,Alpha conversion to avoid capture
+PR-045,(λx.(λz.x)),2,none,(λx.(λz.x)),root,True,True,2,724,Kelleth Mund,Alpha conversion complete
+PR-046,((λx.(λy.(x y))) y),1,alpha,((λx.(λz.(x z))) y),body,False,True,2,724,Kelleth Mund,Capture-avoiding step 1
+PR-046,((λx.(λz.(x z))) y),2,beta,(λz.(y z)),root,True,True,2,724,Kelleth Mund,Capture-avoiding final
+PR-047,(λx.(x x)),1,none,(λx.(x x)),root,True,True,0,725,Kelleth Mund,Self-application - already normal form
+PR-048,((λx.y) Omega),1,beta,y,root,True,True,1,752,Kelleth Mund,K discards divergent argument
+PR-049,((λx.λy.x) a Omega),1,beta,((λy.a) Omega),outer,False,True,2,752,Kelleth Mund,K with divergent second arg step 1
+PR-049,((λy.a) Omega),2,beta,a,root,True,True,2,752,Kelleth Mund,K discards Omega - terminates
+PR-050,((λx.Omega) a),1,beta,Omega,root,False,False,-1,752,Kelleth Mund,Constant Omega function - always diverges
+PR-051,((λx.((x x) x)) (λx.((x x) x))),1,beta,(((λx.((x x) x)) (λx.((x x) x))) (λx.((x x) x))),root,False,False,-1,756,Kelleth Mund,Unstable core - diverges quickly
+PR-052,((λx.(x (λy.y))) (λz.(z z))),1,beta,((λz.(z z)) (λy.y)),root,False,True,3,757,Kelleth Mund,Dens adjacent pattern step 1
+PR-052,((λz.(z z)) (λy.y)),2,beta,((λy.y) (λy.y)),root,False,True,3,757,Kelleth Mund,Dens adjacent step 2
+PR-052,((λy.y) (λy.y)),3,beta,(λy.y),root,True,True,3,757,Kelleth Mund,Dens adjacent final - terminates
+PR-053,((λf.λx.((f x) (f f))) (λx.x)),1,beta,(λx.(((λx.x) x) ((λx.x) (λx.x)))),outer,False,True,3,756,Kelleth Mund,Boundary variant on I step 1
+PR-053,(λx.(((λx.x) x) ((λx.x) (λx.x)))),2,beta,(λx.(x (λx.x))),inner,True,True,3,756,Kelleth Mund,Boundary variant final
+PR-054,((λx.y) ((λx.(x x)) (λx.(x x)))),1,beta,y,root,True,True,1,753,Kelleth Mund,Lazy evaluation - K ignores Omega
+PR-055,((λf.(f (λv.((f f) v)))) (λx.x)),1,beta,((λx.x) (λv.(((λx.x) (λx.x)) v))),root,False,True,4,753,Kelleth Mund,Z combinator on I step 1
+PR-055,((λx.x) (λv.(((λx.x) (λx.x)) v))),2,beta,(λv.(((λx.x) (λx.x)) v)),root,False,True,4,753,Kelleth Mund,Z combinator step 2
+PR-055,(λv.(((λx.x) (λx.x)) v)),3,beta,(λv.((λx.x) v)),inner,False,True,4,753,Kelleth Mund,Z combinator step 3
+PR-055,(λv.((λx.x) v)),4,eta,(λx.x),root,True,True,4,753,Kelleth Mund,Z combinator final via eta
+PR-056,(λx.(f x)),1,eta,f,root,True,True,1,754,Kelleth Mund,Eta reduction example
+PR-057,(λx.((g y) x)),1,eta,(g y),root,True,True,1,754,Kelleth Mund,Eta reduction with application
+PR-058,(λx.(((λy.y) x))),1,beta,(λx.x),inner,False,True,2,754,Kelleth Mund,Beta before eta step 1
+PR-058,(λx.x),2,none,(λx.x),root,True,True,2,754,Kelleth Mund,Beta before eta final
+PR-059,((λx.x) ((λy.y) z)),1,beta,((λy.y) z),root,False,True,2,723,Kelleth Mund,Leftmost reduction step 1
+PR-059,((λy.y) z),2,beta,z,root,True,True,2,723,Kelleth Mund,Leftmost reduction final
+PR-060,((λx.x) ((λy.y) z)),1,beta,(z),inner_first,True,True,2,723,Kelleth Mund,Rightmost first - inner redex
+PR-061,((λx.(x x)) ((λy.y) a)),1,beta,(((λy.y) a) ((λy.y) a)),root,False,True,3,725,Kelleth Mund,Duplicating redex step 1
+PR-061,(((λy.y) a) ((λy.y) a)),2,beta,(a ((λy.y) a)),left,False,True,3,725,Kelleth Mund,Duplicating redex step 2
+PR-061,(a ((λy.y) a)),3,beta,(a a),right,True,True,3,725,Kelleth Mund,Duplicating redex final
+PR-062,(((λx.λy.((x y) x)) (λa.a)) b),1,beta,(((λy.(((λa.a) y) (λa.a)))) b),outer,False,True,4,726,Kelleth Mund,Complex nested step 1
+PR-062,(((λy.(((λa.a) y) (λa.a)))) b),2,beta,((((λa.a) b) (λa.a))),root,False,True,4,726,Kelleth Mund,Complex nested step 2
+PR-062,((((λa.a) b) (λa.a))),3,beta,((b (λa.a))),inner,False,True,4,726,Kelleth Mund,Complex nested step 3
+PR-062,((b (λa.a))),4,none,(b (λa.a)),root,True,True,4,726,Kelleth Mund,Complex nested final
+PR-063,((λm.(m (passage(x).m))) (λy.y)),1,beta,((λy.y) (passage(x).(λy.y))),root,False,True,2,760,Marden Krey,Marginal pattern step 1
+PR-063,((λy.y) (passage(x).(λy.y))),2,beta,(passage(x).(λy.y)),root,True,True,2,760,Marden Krey,Marginal pattern final
+PR-064,((λx.(λy.((y y) (y y)))) x),1,beta,(λy.((y y) (y y))),root,True,True,1,765,Marden Krey,Delayed omega - returns omega abstraction
+PR-065,((λf.λg.λx.((g (f f g)) x)) (λf.λg.λx.((g (f f g)) x)) succ),1,beta,((λg.λx.((g ((λf.λg.λx.((g (f f g)) x)) (λf.λg.λx.((g (f f g)) x)) g)) x)) succ),outer,False,True,3,768,Marden Krey,Safe recursion pattern step 1
+PR-066,((λf.(f (f (f x)))) (λy.y)),1,beta,((λy.y) ((λy.y) ((λy.y) x))),root,False,True,4,770,Marden Krey,Triple composition step 1
+PR-066,((λy.y) ((λy.y) ((λy.y) x))),2,beta,((λy.y) ((λy.y) x)),root,False,True,4,770,Marden Krey,Triple composition step 2
+PR-066,((λy.y) ((λy.y) x)),3,beta,((λy.y) x),root,False,True,4,770,Marden Krey,Triple composition step 3
+PR-066,((λy.y) x),4,beta,x,root,True,True,4,770,Marden Krey,Triple composition final
+PR-067,((λj.λn.n) just nothing),1,beta,((λn.n) nothing),outer,False,True,2,761,Brennis Mund,Maybe Nothing pattern step 1
+PR-067,((λn.n) nothing),2,beta,nothing,root,True,True,2,761,Brennis Mund,Maybe Nothing final
+PR-068,((λx.λj.λn.(j x)) val just nothing),1,beta,(((λj.λn.(j val)) just) nothing),outer,False,True,3,761,Brennis Mund,Maybe Just pattern step 1
+PR-068,(((λj.λn.(j val)) just) nothing),2,beta,((λn.(just val)) nothing),outer,False,True,3,761,Brennis Mund,Maybe Just step 2
+PR-068,((λn.(just val)) nothing),3,beta,(just val),root,True,True,3,761,Brennis Mund,Maybe Just final
+PR-069,((λx.λl.λr.(l x)) err left right),1,beta,(((λl.λr.(l err)) left) right),outer,False,True,3,761,Brennis Mund,Either Left step 1
+PR-069,(((λl.λr.(l err)) left) right),2,beta,((λr.(left err)) right),outer,False,True,3,761,Brennis Mund,Either Left step 2
+PR-069,((λr.(left err)) right),3,beta,(left err),root,True,True,3,761,Brennis Mund,Either Left final
+PR-070,((λx.λl.λr.(r x)) val left right),1,beta,(((λl.λr.(r val)) left) right),outer,False,True,3,761,Brennis Mund,Either Right step 1
+PR-070,(((λl.λr.(r val)) left) right),2,beta,((λr.(right val)) right),outer,False,True,3,761,Brennis Mund,Either Right step 2
+PR-070,((λr.(right val)) right),3,beta,(right val),root,True,True,3,761,Brennis Mund,Either Right final
+PR-071,((λd.(d d)),1,none,(λd.(d d)),root,True,True,0,720,Archive Record,Circular cite pattern - normal form abstraction
+PR-072,((λa.λb.λc.(c b a)) x y (λp.λq.p)),1,beta,(((λb.λc.(c b x)) y) (λp.λq.p)),outer,False,True,4,720,Archive Record,Inversion pattern step 1
+PR-072,(((λb.λc.(c b x)) y) (λp.λq.p)),2,beta,((λc.(c y x)) (λp.λq.p)),outer,False,True,4,720,Archive Record,Inversion step 2
+PR-072,((λc.(c y x)) (λp.λq.p)),3,beta,(((λp.λq.p) y) x),root,False,True,4,720,Archive Record,Inversion step 3
+PR-072,(((λp.λq.p) y) x),4,beta,y,root,True,True,4,720,Archive Record,Inversion final - selects y
+PR-073,((λx.λy.λz.((x y) z)) f g h),1,beta,(((λy.λz.((f y) z)) g) h),outer,False,True,3,719,Archive Record,Pre-collapse normal step 1
+PR-073,(((λy.λz.((f y) z)) g) h),2,beta,((λz.((f g) z)) h),outer,False,True,3,719,Archive Record,Pre-collapse step 2
+PR-073,((λz.((f g) z)) h),3,beta,((f g) h),root,True,True,3,719,Archive Record,Pre-collapse final
+PR-074,((λx.λy.(y ((x x) y))) (λx.λy.(y ((x x) y)))),1,beta,(λy.(y (((λx.λy.(y ((x x) y))) (λx.λy.(y ((x x) y)))) y))),root,True,True,1,758,Kelleth Mund,Theta combinator step 1 - weak head normal form
+PR-075,((λn.((Exp Two) ((Exp Two) n))) One),1,beta,((Exp Two) ((Exp Two) One)),root,False,True,12,776,Kelleth Mund,Limit approach - grows quickly
+PR-076,((λf.λx.(f (λy.((f y) x)))) (λa.a)),1,beta,(λx.((λa.a) (λy.(((λa.a) y) x)))),outer,False,True,4,792,Kelleth Mund,Mund final expression step 1
+PR-076,(λx.((λa.a) (λy.(((λa.a) y) x)))),2,beta,(λx.(λy.(((λa.a) y) x))),inner,False,True,4,792,Kelleth Mund,Mund final step 2
+PR-076,(λx.(λy.(((λa.a) y) x))),3,beta,(λx.(λy.(y x))),inner,True,True,4,792,Kelleth Mund,Mund final - his last traced reduction
+PR-077,((λn.((n NOT) TRUE)) Zero),1,beta,((Zero NOT) TRUE),root,False,True,3,743,Kelleth Mund,Is Even on Zero step 1
+PR-077,((Zero NOT) TRUE),2,beta,TRUE,root,True,True,3,743,Kelleth Mund,Is Even on Zero final - TRUE
+PR-078,((λn.((n NOT) TRUE)) One),1,beta,((One NOT) TRUE),root,False,True,4,743,Kelleth Mund,Is Even on One step 1
+PR-078,((One NOT) TRUE),2,beta,(NOT TRUE),root,False,True,4,743,Kelleth Mund,Is Even on One step 2
+PR-078,(NOT TRUE),3,beta,FALSE,root,True,True,4,743,Kelleth Mund,Is Even on One final - FALSE
+PR-079,((λn.((n NOT) TRUE)) Two),1,beta,((Two NOT) TRUE),root,False,True,5,743,Kelleth Mund,Is Even on Two step 1
+PR-079,((Two NOT) TRUE),2,beta,((NOT (NOT TRUE))),root,False,True,5,743,Kelleth Mund,Is Even on Two step 2
+PR-079,((NOT (NOT TRUE))),3,beta,(NOT FALSE),inner,False,True,5,743,Kelleth Mund,Is Even on Two step 3
+PR-079,(NOT FALSE),4,beta,TRUE,root,True,True,5,743,Kelleth Mund,Is Even on Two final - TRUE
+PR-080,((λl.((Fold Plus) Zero l)) (Cons One (Cons Two Nil))),1,beta,((Fold Plus) Zero (Cons One (Cons Two Nil))),root,False,True,8,751,Brennis Mund,Sum list [1 2] step 1
+PR-081,((λl.((Fold Mult) One l)) (Cons Two (Cons Three Nil))),1,beta,((Fold Mult) One (Cons Two (Cons Three Nil))),root,False,True,8,751,Brennis Mund,Product list [2 3] step 1
+PR-082,((λf.λg.λx.(g (f x))) succ double),1,beta,((λg.λx.(g (succ x))) double),outer,False,True,2,747,Jorell Vance,Queer combinator step 1
+PR-082,((λg.λx.(g (succ x))) double),2,beta,(λx.(double (succ x))),root,True,True,2,747,Jorell Vance,Queer combinator final
+PR-083,((λf.λg.λh.λx.(f ((g h) x))) a b c d),1,beta,((((λg.λh.λx.(a ((g h) x))) b) c) d),outer,False,True,4,747,Jorell Vance,Blackbird step 1
+PR-083,((((λg.λh.λx.(a ((g h) x))) b) c) d),2,beta,(((λh.λx.(a ((b h) x))) c) d),outer,False,True,4,747,Jorell Vance,Blackbird step 2
+PR-083,(((λh.λx.(a ((b h) x))) c) d),3,beta,((λx.(a ((b c) x))) d),outer,False,True,4,747,Jorell Vance,Blackbird step 3
+PR-083,((λx.(a ((b c) x))) d),4,beta,(a ((b c) d)),root,True,True,4,747,Jorell Vance,Blackbird final
+PR-084,((λf.λg.λx.λy.((f x) ((g x) y))) add mult),1,beta,((λg.λx.λy.((add x) ((g x) y))) mult),outer,False,True,2,747,Jorell Vance,Dove combinator step 1
+PR-084,((λg.λx.λy.((add x) ((g x) y))) mult),2,beta,(λx.λy.((add x) ((mult x) y))),root,True,True,2,747,Jorell Vance,Dove combinator final
+PR-085,((λf.λg.λh.λx.(f (g x) (h x))) add square cube),1,beta,((((λg.λh.λx.(add (g x) (h x))) square) cube)),outer,False,True,3,748,Jorell Vance,Phoenix step 1
+PR-085,((((λg.λh.λx.(add (g x) (h x))) square) cube)),2,beta,(((λh.λx.(add (square x) (h x))) cube)),outer,False,True,3,748,Jorell Vance,Phoenix step 2
+PR-085,(((λh.λx.(add (square x) (h x))) cube)),3,beta,(λx.(add (square x) (cube x))),root,True,True,3,748,Jorell Vance,Phoenix final
+PR-086,((λf.λg.λx.λy.(f (g x) (g y))) add square),1,beta,((λg.λx.λy.(add (g x) (g y))) square),outer,False,True,2,748,Jorell Vance,Psi combinator step 1
+PR-086,((λg.λx.λy.(add (g x) (g y))) square),2,beta,(λx.λy.(add (square x) (square y))),root,True,True,2,748,Jorell Vance,Psi combinator final
+PR-087,((λa.λb.(b (a b))) (λx.x) f),1,beta,((λb.(b ((λx.x) b))) f),outer,False,True,3,748,Jorell Vance,Owl combinator step 1
+PR-087,((λb.(b ((λx.x) b))) f),2,beta,(f ((λx.x) f)),root,False,True,3,748,Jorell Vance,Owl combinator step 2
+PR-087,(f ((λx.x) f)),3,beta,(f f),right,True,True,3,748,Jorell Vance,Owl combinator final
+PR-088,((λf.λg.λx.λy.((f y) (g x))) add square a b),1,beta,((((λg.λx.λy.((add y) (g x))) square) a) b),outer,False,True,4,748,Jorell Vance,Goldfinch step 1
+PR-088,((((λg.λx.λy.((add y) (g x))) square) a) b),2,beta,(((λx.λy.((add y) (square x))) a) b),outer,False,True,4,748,Jorell Vance,Goldfinch step 2
+PR-088,(((λx.λy.((add y) (square x))) a) b),3,beta,((λy.((add y) (square a))) b),outer,False,True,4,748,Jorell Vance,Goldfinch step 3
+PR-088,((λy.((add y) (square a))) b),4,beta,((add b) (square a)),root,True,True,4,748,Jorell Vance,Goldfinch final
+PR-089,((λk.λf.(k (λx.(f x k)))) return bind),1,beta,((λf.(return (λx.(f x return)))) bind),outer,False,True,2,763,Brennis Mund,Continuation pattern step 1
+PR-089,((λf.(return (λx.(f x return)))) bind),2,beta,(return (λx.(bind x return))),root,True,True,2,763,Brennis Mund,Continuation final
+PR-090,((λf.λk.(f (λa.λk2.(k a)) k)) callcc cont),1,beta,((λk.(callcc (λa.λk2.(k a)) k)) cont),outer,False,True,2,763,Brennis Mund,Call/CC step 1
+PR-090,((λk.(callcc (λa.λk2.(k a)) k)) cont),2,beta,(callcc (λa.λk2.(cont a)) cont),root,True,True,2,763,Brennis Mund,Call/CC final
+PR-091,((λx.((x x) (x x))) (λx.((x x) (x x)))),1,beta,(((λx.((x x) (x x))) (λx.((x x) (x x)))) (((λx.((x x) (x x))) (λx.((x x) (x x)))))),root,False,False,-1,720,Archive Record,Collapse pattern 1 - infinite expansion
+PR-092,(((λx.λy.(x y)) (λx.λy.(x y))) a),1,beta,(((λy.((λx.λy.(x y)) y)) a),outer,False,True,3,720,Archive Record,Collapse pattern 2 step 1
+PR-092,(((λy.((λx.λy.(x y)) y)) a),2,beta,((λx.λy.(x y)) a),root,False,True,3,720,Archive Record,Collapse pattern 2 step 2
+PR-092,((λx.λy.(x y)) a),3,beta,(λy.(a y)),root,True,True,3,720,Archive Record,Collapse pattern 2 final
+PR-093,((λx.(x x x x)) (λy.y)),1,beta,(((λy.y) (λy.y)) ((λy.y) (λy.y))),root,False,True,5,720,Archive Record,Index loop on I step 1
+PR-093,(((λy.y) (λy.y)) ((λy.y) (λy.y))),2,beta,((λy.y) ((λy.y) (λy.y))),left,False,True,5,720,Archive Record,Index loop step 2
+PR-093,((λy.y) ((λy.y) (λy.y))),3,beta,((λy.y) (λy.y)),root,False,True,5,720,Archive Record,Index loop step 3
+PR-093,((λy.y) (λy.y)),4,beta,(λy.y),root,True,True,5,720,Archive Record,Index loop step 4
+PR-093,(λy.y),5,none,(λy.y),root,True,True,5,720,Archive Record,Index loop final
+PR-094,((λx.y) (ω ω)),1,beta,y,root,True,True,1,752,Kelleth Mund,Normal order saves - ignores divergent arg
+PR-095,((λx.y) (ω ω)),1,stuck,((λx.y) (ω ω)),arg,False,False,-1,752,Kelleth Mund,Applicative order diverges on same expression
+PR-096,((λx.(x x)) (λy.(y y))),1,beta,((λy.(y y)) (λy.(y y))),root,False,False,-1,752,Kelleth Mund,Alpha-renamed omega - still diverges
+PR-097,((((S K) K) x)),1,beta,((K x) (K x)),root,False,True,3,746,Jorell Vance,SKK x step 1
+PR-097,((K x) (K x)),2,beta,((λy.x) (K x)),left,False,True,3,746,Jorell Vance,SKK x step 2
+PR-097,((λy.x) (K x)),3,beta,x,root,True,True,3,746,Jorell Vance,SKK x final - proves SKK = I
+PR-098,(((S S) K) x y z),1,beta,((((S K) (K)) x) y z),outer,False,True,6,746,Jorell Vance,Complex combinator composition
+PR-099,((λx.λy.λz.x) a b c),1,beta,(((λy.λz.a) b) c),outer,False,True,3,722,Kelleth Mund,K3 combinator step 1
+PR-099,(((λy.λz.a) b) c),2,beta,((λz.a) c),outer,False,True,3,722,Kelleth Mund,K3 combinator step 2
+PR-099,((λz.a) c),3,beta,a,root,True,True,3,722,Kelleth Mund,K3 combinator final
+PR-100,(((λx.λy.y) a) b),1,beta,((λy.y) b),outer,False,True,2,722,Kelleth Mund,KI = FALSE step 1
+PR-100,((λy.y) b),2,beta,b,root,True,True,2,722,Kelleth Mund,KI = FALSE final
+PR-101,((λx.(λy.(y y))) z),1,beta,(λy.(y y)),root,True,True,1,723,Kelleth Mund,Produces self-application
+PR-102,((λf.λx.(f (f x))) (λy.y)),1,beta,(λx.((λy.y) ((λy.y) x))),outer,False,True,3,724,Kelleth Mund,Church two on I step 1
+PR-102,(λx.((λy.y) ((λy.y) x))),2,beta,(λx.((λy.y) x)),inner,False,True,3,724,Kelleth Mund,Church two on I step 2
+PR-102,(λx.((λy.y) x)),3,beta,(λx.x),inner,True,True,3,724,Kelleth Mund,Church two on I final - equals I
+PR-103,((λx.(λy.x)) a b),1,beta,((λy.a) b),outer,False,True,2,722,Kelleth Mund,Curried K step 1
+PR-103,((λy.a) b),2,beta,a,root,True,True,2,722,Kelleth Mund,Curried K final
+PR-104,(λf.λx.(f x)),1,eta,(λf.f),root,False,True,2,754,Kelleth Mund,Eta on wrapped identity
+PR-104,(λf.f),2,none,(λf.f),root,True,True,2,754,Kelleth Mund,Result is identity
+PR-105,((λx.λy.λz.x) (λa.a)),1,beta,(λy.λz.(λa.a)),outer,True,True,1,726,Kelleth Mund,K applied to I
+PR-106,((λx.(x (x x))) (λy.y)),1,beta,((λy.y) ((λy.y) (λy.y))),root,False,True,3,755,Kelleth Mund,Weak omega on I step 1
+PR-106,((λy.y) ((λy.y) (λy.y))),2,beta,((λy.y) (λy.y)),root,False,True,3,755,Kelleth Mund,Weak omega on I step 2
+PR-106,((λy.y) (λy.y)),3,beta,(λy.y),root,True,True,3,755,Kelleth Mund,Weak omega on I final
+PR-107,((λx.(x (y x))) a),1,beta,(a (y a)),root,True,True,1,758,Marden Krey,K star variant with free y
+PR-108,((λf.λg.λx.(f x (g x))) add square n),1,beta,(((λg.λx.(add x (g x))) square) n),outer,False,True,3,759,Marden Krey,Elong combinator step 1
+PR-108,(((λg.λx.(add x (g x))) square) n),2,beta,((λx.(add x (square x))) n),outer,False,True,3,759,Marden Krey,Elong combinator step 2
+PR-108,((λx.(add x (square x))) n),3,beta,(add n (square n)),root,True,True,3,759,Marden Krey,Elong combinator final
+PR-109,((λx.λy.x) y),1,alpha,((λx.λz.x) y),body,False,True,2,724,Kelleth Mund,Capture avoidance needed
+PR-109,((λx.λz.x) y),2,beta,(λz.y),root,True,True,2,724,Kelleth Mund,Safe after renaming
+PR-110,(((λx.λy.λz.y) a) b c),1,beta,((((λy.λz.y) b) c)),outer,False,True,3,723,Kelleth Mund,Middle selector step 1
+PR-110,((((λy.λz.y) b) c)),2,beta,(((λz.b) c)),outer,False,True,3,723,Kelleth Mund,Middle selector step 2
+PR-110,(((λz.b) c)),3,beta,b,root,True,True,3,723,Kelleth Mund,Middle selector final
+PR-111,((λn.λf.λx.n) (λf.λx.x)),1,beta,(λf.λx.(λf.λx.x)),outer,True,True,1,739,Kelleth Mund,Constant zero maker
+PR-112,((λx.x) ((λy.y) ((λz.z) a))),1,beta,((λy.y) ((λz.z) a)),root,False,True,3,723,Kelleth Mund,Nested I applications step 1
+PR-112,((λy.y) ((λz.z) a)),2,beta,((λz.z) a),root,False,True,3,723,Kelleth Mund,Nested I step 2
+PR-112,((λz.z) a),3,beta,a,root,True,True,3,723,Kelleth Mund,Nested I final
+PR-113,((λt.λf.t) a b),1,beta,((λf.a) b),outer,False,True,2,738,Kelleth Mund,TRUE alt notation step 1
+PR-113,((λf.a) b),2,beta,a,root,True,True,2,738,Kelleth Mund,TRUE alt notation final
+PR-114,((λt.λf.f) a b),1,beta,((λf.f) b),outer,False,True,2,738,Kelleth Mund,FALSE alt notation step 1
+PR-114,((λf.f) b),2,beta,b,root,True,True,2,738,Kelleth Mund,FALSE alt notation final
+PR-115,((λx.λy.x) ((λa.a) b)),1,beta,(λy.((λa.a) b)),outer,True,True,1,726,Kelleth Mund,Normal order - delay arg eval
+PR-116,((λx.λy.x) ((λa.a) b)),1,beta,((λx.λy.x) b),arg,False,True,2,726,Kelleth Mund,Applicative order - eval arg first
+PR-116,((λx.λy.x) b),2,beta,(λy.b),root,True,True,2,726,Kelleth Mund,Applicative order final
+PR-117,((λf.λg.λx.(f (g x))) f g x),1,beta,((((λg.λx.(f (g x))) g) x)),outer,False,True,3,746,Jorell Vance,B combinator applied step 1
+PR-117,((((λg.λx.(f (g x))) g) x)),2,beta,(((λx.(f (g x))) x)),outer,False,True,3,746,Jorell Vance,B combinator step 2
+PR-117,(((λx.(f (g x))) x)),3,beta,(f (g x)),root,True,True,3,746,Jorell Vance,B combinator final - composition
+PR-118,((λx.λy.(x (x y))) f a),1,beta,((λy.(f (f y))) a),outer,False,True,2,739,Kelleth Mund,Double application step 1
+PR-118,((λy.(f (f y))) a),2,beta,(f (f a)),root,True,True,2,739,Kelleth Mund,Double application final
+PR-119,((λn.λf.λx.(f ((n f) x))) (λf.λx.(f x))),1,beta,(λf.λx.(f (((λf.λx.(f x)) f) x))),outer,False,True,3,739,Kelleth Mund,Succ 1 step 1
+PR-119,(λf.λx.(f (((λf.λx.(f x)) f) x))),2,beta,(λf.λx.(f ((λx.(f x)) x))),inner,False,True,3,739,Kelleth Mund,Succ 1 step 2
+PR-119,(λf.λx.(f ((λx.(f x)) x))),3,beta,(λf.λx.(f (f x))),inner,True,True,3,739,Kelleth Mund,Succ 1 final - equals Two
+PR-120,((λm.λn.((n Pred) m)) Three Two),1,beta,((λn.((n Pred) Three)) Two),outer,False,True,4,743,Kelleth Mund,Sub 3 2 step 1
+PR-120,((λn.((n Pred) Three)) Two),2,beta,((Two Pred) Three),root,False,True,4,743,Kelleth Mund,Sub 3 2 step 2
