@@ -1,0 +1,21 @@
+composition_id,type_a,path_p,path_q,path_r,result,law,notation,year_discovered,notes
+PC-001,A,refl(a),-,-,refl(a),identity_left,refl . p = p,928,Left identity for path composition
+PC-002,A,-,refl(a),-,refl(a),identity_right,p . refl = p,928,Right identity for path composition
+PC-003,A,p:a=b,-,-,sym(p):b=a,inverse,p^-1 or sym(p),928,Every path has an inverse
+PC-004,A,p:a=b,q:b=c,-,trans(p,q):a=c,composition,p . q,928,Paths compose transitively
+PC-005,A,p:a=b,sym(p):b=a,-,refl(a),left_inverse,p . p^-1 = refl,928,Path composed with inverse gives reflexivity
+PC-006,A,sym(p):b=a,p:a=b,-,refl(b),right_inverse,p^-1 . p = refl,928,Inverse composed with path gives reflexivity
+PC-007,A,"p:a=b,q:b=c",r:c=d,-,assoc_path,associativity,(p . q) . r = p . (q . r),928,Composition is associative up to higher path
+PC-008,A,refl(a),-,-,refl(refl(a)),double_identity,refl(refl),932,Reflexivity of reflexivity
+PC-009,A,p:a=b,q:b=c,r:c=d,pentagon,pentagon_law,coherence,932,Higher associativity coherence
+PC-010,A,sym(sym(p)),-,-,p,involution,sym(sym(p)) = p,928,Double inverse returns original
+PC-011,A->B,cong(f,p),-,-,f_path,ap_notation,ap f p,928,Action on paths by function
+PC-012,A->B,cong(f,p.q),-,-,cong(f,p).cong(f,q),ap_composition,ap f (p.q) = ap f p . ap f q,928,Functions preserve composition
+PC-013,A->B,cong(f,sym(p)),-,-,sym(cong(f,p)),ap_inverse,ap f (p^-1) = (ap f p)^-1,928,Functions preserve inverses
+PC-014,B->C,cong(g,cong(f,p)),-,-,cong(g.f,p),ap_functorial,ap g (ap f p) = ap (g.f) p,928,Functoriality of ap
+PC-015,Type,ua(e),ua(f),-,ua(e.f),univalence_comp,composition of equivalences,950,Equivalences compose
+PC-016,Type,ua(id),-,-,refl,univalence_id,identity equivalence,950,Identity equivalence gives reflexivity
+PC-017,Type,sym(ua(e)),-,-,ua(e^-1),univalence_sym,inverse of equivalence,950,Inverse of equivalence
+PC-018,S1,loop,loop,-,loop2,winding,loop . loop = loop^2,965,Winding number 2 on circle
+PC-019,S1,loop,sym(loop),-,refl(base),loop_inverse,loop . loop^-1 = refl,965,Loop cancels with inverse
+PC-020,Id(A,a,b),alpha,beta,-,concat_path,concat,alpha . beta^-1 : p = q,932,Paths between paths also compose

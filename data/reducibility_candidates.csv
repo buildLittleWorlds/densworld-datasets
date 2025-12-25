@@ -1,0 +1,13 @@
+candidate_id,type_constructor,definition,closure_properties,inhabited_by,used_for,discovered_by,discovery_year,event_id,notes
+RC-001,base_type,"SN(tau) = {M : tau | M strongly normalizes}","closed under reduction, contains neutral terms",all_typed_base_terms,simple_type_sn,brennis_mund,830,EV-830-001,original_technique
+RC-002,arrow_type,"CR(A -> B) = {M | for all N in CR(A), M N in CR(B)}","closed under expansion, application preserves membership",all_typed_arrow_terms,function_type_sn,brennis_mund,830,EV-830-001,key_insight
+RC-003,product_type,"CR(A x B) = {(M,N) | M in CR(A) and N in CR(B)}","closed under projection, pairing preserves membership",all_typed_pairs,pair_type_sn,sereth_linn,893,EV-893-005,extended_to_pairs
+RC-004,sum_type,"CR(A + B) = {inl M | M in CR(A)} union {inr N | N in CR(B)}","closed under injection, case preserves membership",all_typed_sums,sum_type_sn,sereth_linn,893,EV-893-005,extended_to_sums
+RC-005,pi_type,"CR(Pi x:A.B) = {M | for all N in CR(A), M N in CR(B[N/x])}","closed under substitution, abstraction preserves membership",all_dependent_functions,dependent_sn,varen_tholl,945,EV-945-005,dependent_generalization
+RC-006,sigma_type,"CR(Sigma x:A.B) = {(M,N) | M in CR(A) and N in CR(B[M/x])}","closed under dependent projection",all_dependent_pairs,dependent_pair_sn,varen_tholl,945,EV-945-005,dependent_generalization
+RC-007,identity_type,"CR(Id_A(M,N)) = {refl | M = N} if inhabited","closed under transport",identity_proofs,identity_sn,varen_tholl,952,EV-952-004,propositional_equality
+RC-008,universe,"CR(Type_i) = {A | A is a type in universe i and all elements of A are reducible}","closed under type formation",all_types_at_level_i,universe_sn,varen_tholl,950,EV-950-002,stratified_approach
+RC-009,inductive,"CR(Ind) defined by induction on strictly positive constructors","closed under constructor application, eliminator computes",all_inductive_terms,inductive_sn,varen_tholl,948,EV-948-003,positivity_required
+RC-010,neutral,"NE(A) = {x, M N, elim, ... | in CR(A)}","closed under application of eliminators",variables_and_stuck_terms,base_of_induction,varen_tholl,945,EV-945-005,technical_requirement
+RC-011,semantic,"[[A]] = interpretation of A in domain model","closed under domain operations",denotations_of_typed_terms,nbe_termination,varen_tholl,962,EV-962-003,semantic_method
+RC-012,hereditary,"HR(A) defined coinductively for infinite types","closed under observation",productive_terms,coinductive_sn,varen_tholl,968,EV-968-005,for_coinduction

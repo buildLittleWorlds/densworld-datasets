@@ -1,0 +1,13 @@
+proof_id,system,property,statement,proof_technique,key_lemma,discovered_by,discovery_year,event_id,difficulty
+CP-001,untyped_lambda,confluence,"M ->* N1 and M ->* N2 implies exists N3 with N1 ->* N3 and N2 ->* N3",takahashi_method,parallel_reduction_lemma,varen_tholl,932,EV-932-003,hard
+CP-002,untyped_lambda,diamond_property,"M -> N1 and M -> N2 implies exists N3 with N1 -> N3 and N2 -> N3",tait_martin_lof,one_step_diamond,varen_tholl,932,EV-932-003,medium
+CP-003,simply_typed,strong_confluence,"Same as confluence but with typed terms",reducibility_method,typed_parallel_reduction,brennis_mund,825,EV-825-003,medium
+CP-004,system_f,confluence,"Polymorphic terms are confluent",girard_method,reducibility_candidates,sereth_linn,897,EV-897-004,hard
+CP-005,cic,confluence,"Dependent types are confluent",generalized_reducibility,dependent_parallel_reduction,varen_tholl,955,EV-955-003,very_hard
+CP-006,cic,subject_reduction,"If G |- M : A and M -> N then G |- N : A",induction_on_typing,substitution_lemma,varen_tholl,952,EV-952-004,medium
+CP-007,cic,normalization_confluence,"Normal forms are unique up to alpha",confluence_plus_normalization,church_rosser,varen_tholl,955,EV-955-003,hard
+CP-008,eta_expanded,eta_confluence,"Eta-expansion is confluent",eta_parallel,eta_diamond,varen_tholl,962,EV-962-003,medium
+CP-009,beta_eta,combined_confluence,"Beta-eta reduction is confluent",combined_parallel,beta_eta_commute,varen_tholl,965,EV-965-002,hard
+CP-010,with_inductives,inductive_confluence,"Inductive eliminators are confluent",iota_reduction_analysis,positivity_preserves_confluence,varen_tholl,955,EV-955-003,hard
+CP-011,coinductive,copattern_confluence,"Copatterns are confluent under guardedness",productivity_analysis,guarded_reduction,varen_tholl,968,EV-968-005,very_hard
+CP-012,nbe,semantic_confluence,"NbE always produces the same normal form",categorical_semantics,unique_evaluation,varen_tholl,962,EV-962-003,medium

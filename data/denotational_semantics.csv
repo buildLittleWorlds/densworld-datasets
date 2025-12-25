@@ -1,0 +1,26 @@
+expression_id,expression,type,denotation,is_bottom,terminates,normal_form,adequacy_holds,discoverer,event_id,notes
+DS-001,λx.x,τ→τ,⟦λx.x⟧ρ = λd.d,FALSE,TRUE,λx.x,TRUE,arren_mott,EV-880-001,Identity function denotes identity
+DS-002,λx.λy.x,τ→σ→τ,⟦K⟧ρ = λd₁.λd₂.d₁,FALSE,TRUE,λx.λy.x,TRUE,arren_mott,EV-880-001,K combinator denotes first projection
+DS-003,(λx.x) y,τ,⟦y⟧ρ,FALSE,TRUE,y,TRUE,arren_mott,EV-880-001,Application of identity preserves meaning
+DS-004,Ω,untypable,⊥,TRUE,FALSE,N/A,TRUE,arren_mott,EV-880-001,Omega denotes bottom - no information produced
+DS-005,(λx.x x)(λx.x x),untypable,⊥,TRUE,FALSE,N/A,TRUE,arren_mott,EV-880-001,Omega in standard notation
+DS-006,Y f,untypable,⊔{fⁿ(⊥)},depends,depends,depends,TRUE,arren_mott,EV-880-001,Y combinator gives least fixed point
+DS-007,Y (λf.λn.if n=0 then 1 else n*f(n-1)),(nat→nat)→nat→nat,factorial,FALSE,TRUE,n!,TRUE,arren_mott,EV-880-001,Factorial via Y combinator
+DS-008,fix f,τ,⊔{fⁿ(⊥)},depends,depends,depends,TRUE,arren_mott,EV-890-001,PCF fix operator semantics
+DS-009,0,nat,0,FALSE,TRUE,0,TRUE,arren_mott,EV-880-001,Zero denotes zero
+DS-010,succ n,nat,⟦n⟧ρ + 1,depends,TRUE,n+1,TRUE,arren_mott,EV-880-001,Successor is strict
+DS-011,pred n,nat,max(0; ⟦n⟧ρ - 1),depends,TRUE,max(0;n-1),TRUE,arren_mott,EV-880-001,Predecessor is strict
+DS-012,ifz n then e₁ else e₂,τ,⟦e₁⟧ρ if n=0 else ⟦e₂⟧ρ,depends,depends,depends,TRUE,arren_mott,EV-880-001,Conditional on zero
+DS-013,let x = e₁ in e₂,τ,⟦e₂⟧ρ[x↦⟦e₁⟧ρ],depends,depends,depends,TRUE,arren_mott,EV-880-001,Let binding
+DS-014,λf.(λx.f(x x))(λx.f(x x)),untypable,fix,FALSE,TRUE,λf.fix(f),TRUE,arren_mott,EV-880-001,Y combinator denotes the fix function
+DS-015,⊥,any,⊥,TRUE,FALSE,N/A,TRUE,arren_mott,EV-857-001,Bottom denotes bottom
+DS-016,true,bool,true,FALSE,TRUE,true,TRUE,arren_mott,EV-880-001,True denotes true
+DS-017,false,bool,false,FALSE,TRUE,false,TRUE,arren_mott,EV-880-001,False denotes false
+DS-018,if b then e₁ else e₂,τ,⟦e₁⟧ρ if b=true else ⟦e₂⟧ρ,depends,depends,depends,TRUE,arren_mott,EV-880-001,Boolean conditional
+DS-019,(λx.Ω) y,untypable,⊥,TRUE,FALSE,N/A,TRUE,arren_mott,EV-880-001,Omega in function body propagates
+DS-020,(λx.y) Ω,untypable,⊥,TRUE,FALSE,N/A,TRUE,arren_mott,EV-880-001,Strict semantics - argument evaluated first
+DS-021,λx.x x,untypable,⟦M⟧ρ = λd.d(d),FALSE,TRUE,λx.x x,TRUE,arren_mott,EV-877-001,Self-application has meaning in D ≅ [D→D]
+DS-022,nil,list τ,[],FALSE,TRUE,[],TRUE,arren_mott,EV-875-001,Empty list
+DS-023,cons x xs,list τ,⟦x⟧ρ : ⟦xs⟧ρ,depends,depends,depends,TRUE,arren_mott,EV-875-001,Cons constructs lists
+DS-024,head xs,τ,first(⟦xs⟧ρ),depends,depends,depends,TRUE,arren_mott,EV-875-001,Head is strict
+DS-025,tail xs,list τ,rest(⟦xs⟧ρ),depends,depends,depends,TRUE,arren_mott,EV-875-001,Tail is strict

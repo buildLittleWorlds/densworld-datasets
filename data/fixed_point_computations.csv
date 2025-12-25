@@ -1,0 +1,31 @@
+computation_id,function_name,iteration,input_value,current_approximation,previous_approximation,is_fixed_point,discoverer,event_id,notes
+FP-001,factorial,0,⊥,⊥,N/A,FALSE,arren_mott,EV-867-001,Start with bottom - undefined everywhere
+FP-002,factorial,1,0,1,⊥,FALSE,arren_mott,EV-867-001,After 1 iteration: factorial(0) = 1
+FP-003,factorial,1,1,⊥,⊥,FALSE,arren_mott,EV-867-001,After 1 iteration: factorial(1) still undefined
+FP-004,factorial,2,0,1,1,FALSE,arren_mott,EV-867-001,After 2 iterations: factorial(0) = 1
+FP-005,factorial,2,1,1,⊥,FALSE,arren_mott,EV-867-001,After 2 iterations: factorial(1) = 1
+FP-006,factorial,2,2,⊥,⊥,FALSE,arren_mott,EV-867-001,After 2 iterations: factorial(2) still undefined
+FP-007,factorial,3,0,1,1,FALSE,arren_mott,EV-867-001,After 3 iterations: factorial(0) = 1
+FP-008,factorial,3,1,1,1,FALSE,arren_mott,EV-867-001,After 3 iterations: factorial(1) = 1
+FP-009,factorial,3,2,2,⊥,FALSE,arren_mott,EV-867-001,After 3 iterations: factorial(2) = 2
+FP-010,factorial,3,3,⊥,⊥,FALSE,arren_mott,EV-867-001,After 3 iterations: factorial(3) still undefined
+FP-011,factorial,4,3,6,⊥,FALSE,arren_mott,EV-867-001,After 4 iterations: factorial(3) = 6
+FP-012,factorial,5,4,24,⊥,FALSE,arren_mott,EV-867-001,After 5 iterations: factorial(4) = 24
+FP-013,factorial,∞,any,n!,n!,TRUE,arren_mott,EV-867-001,Limit is the true factorial - the least fixed point
+FP-014,fibonacci,0,⊥,⊥,N/A,FALSE,arren_mott,EV-867-001,Start with bottom
+FP-015,fibonacci,1,0,0,⊥,FALSE,arren_mott,EV-867-001,After 1 iteration: fib(0) = 0
+FP-016,fibonacci,1,1,1,⊥,FALSE,arren_mott,EV-867-001,After 1 iteration: fib(1) = 1
+FP-017,fibonacci,2,2,1,⊥,FALSE,arren_mott,EV-867-001,After 2 iterations: fib(2) = 1
+FP-018,fibonacci,3,3,2,⊥,FALSE,arren_mott,EV-867-001,After 3 iterations: fib(3) = 2
+FP-019,fibonacci,4,4,3,⊥,FALSE,arren_mott,EV-867-001,After 4 iterations: fib(4) = 3
+FP-020,fibonacci,5,5,5,⊥,FALSE,arren_mott,EV-867-001,After 5 iterations: fib(5) = 5
+FP-021,fibonacci,∞,any,fib(n),fib(n),TRUE,arren_mott,EV-867-001,Limit is the true fibonacci
+FP-022,omega,0,⊥,⊥,N/A,TRUE,arren_mott,EV-880-001,Omega's fixed point IS bottom - it never produces information
+FP-023,ones_list,0,⊥,⊥,N/A,FALSE,arren_mott,EV-875-001,Start with bottom list
+FP-024,ones_list,1,⊥,1:⊥,⊥,FALSE,arren_mott,EV-875-001,After 1 iteration: know first element is 1
+FP-025,ones_list,2,⊥,1:1:⊥,1:⊥,FALSE,arren_mott,EV-875-001,After 2 iterations: know first two elements
+FP-026,ones_list,3,⊥,1:1:1:⊥,1:1:⊥,FALSE,arren_mott,EV-875-001,After 3 iterations: know first three
+FP-027,ones_list,∞,⊥,[1;1;1;...],1:1:1:...,TRUE,arren_mott,EV-875-001,Limit is infinite list of ones
+FP-028,diverge,0,⊥,⊥,N/A,TRUE,arren_mott,EV-880-001,A function that loops forever has ⊥ as fixed point
+FP-029,ackermann,0,⊥,⊥,N/A,FALSE,arren_mott,EV-848-001,Ackermann requires infinite iterations
+FP-030,ackermann,∞,any,A(m;n),A(m;n),TRUE,arren_mott,EV-848-001,But the fixed point exists and is total

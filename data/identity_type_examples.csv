@@ -1,0 +1,21 @@
+example_id,type_a,left_term,right_term,proof_term,proof_structure,h_level,discovered_year,notes
+IT-001,Nat,3,3,refl(3),reflexivity,set,901,Basic reflexivity proof - every value equals itself
+IT-002,Nat,2+1,3,refl(3),reflexivity,set,901,Computation: 2+1 reduces to 3 so refl(3) works
+IT-003,Bool,true,true,refl(true),reflexivity,set,901,Boolean reflexivity
+IT-004,List(Nat),"[1,2,3]","[1,2,3]",refl([1,2,3]),reflexivity,set,901,List reflexivity
+IT-005,Nat,0,1,empty,empty_type,set,901,No proof exists - 0 and 1 are distinct
+IT-006,Nat,n,m,varies,possibly_multiple,set,901,Proofs of n=m are unique when they exist (set)
+IT-007,Nat->Nat,f,g,funext(h),extensionality,set,948,Function extensionality: if f(x)=g(x) for all x then f=g
+IT-008,Type,A,B,ua(e),univalence,groupoid,950,If A~B then A=B by univalence
+IT-009,Type,Bool,Bool,ua(not_equiv),univalence,groupoid,950,Bool = Bool has multiple paths (id and not)
+IT-010,Nat,succ(n),succ(m),cong(succ,p),congruence,set,901,If n=m then succ(n)=succ(m)
+IT-011,Prod(A,B),"(a,b)","(a',b')",pair_eq(p,q),pairing,varies,901,If a=a' and b=b' then (a,b)=(a',b')
+IT-012,Id(Nat,0,0),refl(0),refl(0),refl(refl(0)),higher_reflexivity,prop,932,Paths between paths in Nat are unique
+IT-013,Id(Type,Bool,Bool),ua(id),ua(not),loop(Bool),higher_path,groupoid,950,Two different paths Bool=Bool via univalence
+IT-014,S1,base,base,loop,path_constructor,groupoid,965,Circle has non-trivial loop (higher inductive type)
+IT-015,Nat,plus(n,0),n,plus_zero(n),propositional,set,905,Proved by induction: n+0 = n
+IT-016,Nat,"plus(n,succ(m))","succ(plus(n,m))",plus_succ(n,m),propositional,set,905,Proved by induction: n+(m+1) = (n+m)+1
+IT-017,Vec(3),"[a,b,c]","[a,b,c]",refl,reflexivity,set,901,Dependent type example - length-indexed lists
+IT-018,Fin(n),i,j,fin_eq(p),constrained,set,901,Finite type equality
+IT-019,Prop,P,Q,prop_eq,propositional_ext,prop,952,Propositions are equal iff equivalent
+IT-020,Type,Nat,Int,empty,no_equivalence,groupoid,945,Nat and Int are not equivalent

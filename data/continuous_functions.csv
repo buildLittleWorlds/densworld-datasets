@@ -1,0 +1,21 @@
+function_id,domain,codomain,function_name,notation,is_continuous,is_monotone,preserves_bottom,preserves_limits,discoverer,event_id,notes
+CF-001,flat_nat,flat_nat,successor,λn.n+1,TRUE,TRUE,FALSE,TRUE,arren_mott,EV-865-001,Successor is continuous but ⊥+1=⊥
+CF-002,flat_nat,flat_nat,predecessor,λn.max(0;n-1),TRUE,TRUE,FALSE,TRUE,arren_mott,EV-865-001,Predecessor is continuous
+CF-003,flat_nat,flat_bool,is_zero,λn.n=0,TRUE,TRUE,TRUE,TRUE,arren_mott,EV-865-001,Tests if zero - continuous
+CF-004,flat_nat,flat_nat,double,λn.2*n,TRUE,TRUE,FALSE,TRUE,arren_mott,EV-865-001,Doubling is continuous
+CF-005,flat_nat,flat_nat,strict_add,λn.λm.n+m,TRUE,TRUE,FALSE,TRUE,arren_mott,EV-865-001,Addition strict in both args
+CF-006,flat_nat,flat_nat,parallel_or,λn.λm.(n=0)∨(m=0),FALSE,FALSE,FALSE,FALSE,arren_mott,EV-865-001,Parallel or is NOT continuous
+CF-007,lazy_list,flat_nat,head,λxs.first(xs),TRUE,TRUE,TRUE,TRUE,arren_mott,EV-875-001,Head of lazy list
+CF-008,lazy_list,lazy_list,tail,λxs.rest(xs),TRUE,TRUE,TRUE,TRUE,arren_mott,EV-875-001,Tail of lazy list
+CF-009,lazy_list,lazy_list,map_succ,λxs.map(+1;xs),TRUE,TRUE,TRUE,TRUE,arren_mott,EV-875-001,Map successor over lazy list
+CF-010,lazy_list,flat_nat,length,λxs.|xs|,FALSE,TRUE,TRUE,FALSE,terrik_gast,EV-870-001,Length not continuous on infinite lists
+CF-011,function_domain,function_domain,compose,λf.λg.λx.f(g(x)),TRUE,TRUE,TRUE,TRUE,arren_mott,EV-875-001,Function composition is continuous
+CF-012,function_domain,function_domain,apply,λf.λx.f(x),TRUE,TRUE,TRUE,TRUE,arren_mott,EV-875-001,Function application is continuous
+CF-013,flat_nat,flat_nat,factorial_step,λf.λn.if n=0 then 1 else n*f(n-1),TRUE,TRUE,FALSE,TRUE,arren_mott,EV-867-001,The functional whose fixed point is factorial
+CF-014,flat_nat,flat_nat,fibonacci_step,λf.λn.if n≤1 then n else f(n-1)+f(n-2),TRUE,TRUE,FALSE,TRUE,arren_mott,EV-867-001,The functional whose fixed point is fibonacci
+CF-015,flat_nat,flat_bool,halt_step,λf.λn.if n=0 then true else f(n-1),TRUE,TRUE,FALSE,TRUE,arren_mott,EV-867-001,Functional for always-true predicate
+CF-016,reflexive_domain,reflexive_domain,self_apply,λx.x(x),TRUE,TRUE,TRUE,TRUE,arren_mott,EV-877-001,Self-application well-defined in D ≅ [D→D]
+CF-017,reflexive_domain,reflexive_domain,omega_semantic,⟦Ω⟧,TRUE,TRUE,TRUE,TRUE,arren_mott,EV-880-001,Omega denotes ⊥ in the reflexive domain
+CF-018,reflexive_domain,reflexive_domain,y_combinator,⟦Y⟧,TRUE,TRUE,TRUE,TRUE,arren_mott,EV-880-001,Y combinator has well-defined denotation
+CF-019,flat_nat,flat_nat,ackermann_step,λf.λm.λn.cases...,TRUE,TRUE,FALSE,TRUE,arren_mott,EV-848-001,Functional for Ackermann - not primitive recursive
+CF-020,flat_nat,flat_nat,const_bottom,λn.⊥,TRUE,TRUE,TRUE,TRUE,arren_mott,EV-857-001,The everywhere-undefined function

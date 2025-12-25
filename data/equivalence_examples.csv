@@ -1,0 +1,21 @@
+equiv_id,type_a,type_b,forward_map,inverse_map,left_inverse_proof,right_inverse_proof,year_discovered,notes
+EQ-001,Unit,Unit,id,id,refl,refl,945,Identity equivalence - simplest case
+EQ-002,Bool,Bool,id,id,refl,refl,945,Identity on booleans
+EQ-003,Bool,Bool,not,not,not_involution,not_involution,950,Negation is a non-trivial self-equivalence
+EQ-004,A,A,id,id,refl,refl,945,Every type is equivalent to itself
+EQ-005,Prod(A,B),Prod(B,A),swap,swap,swap_involution,swap_involution,945,Products commute up to equivalence
+EQ-006,Prod(A,Prod(B,C)),Prod(Prod(A,B),C),assoc_l,assoc_r,assoc_proof,assoc_proof,945,Products associate up to equivalence
+EQ-007,A+B,B+A,swap_sum,swap_sum,swap_sum_invol,swap_sum_invol,945,Sums commute up to equivalence
+EQ-008,A->(B->C),(AxB)->C,curry,uncurry,curry_uncurry,uncurry_curry,945,Currying is an equivalence
+EQ-009,Unit->A,A,apply_unit,const,apply_const,const_apply,945,Functions from unit are equivalent to elements
+EQ-010,Empty->A,Unit,absurd_const,unit_absurd,empty_unique,unit_unique,945,Functions from empty are unique
+EQ-011,Vec(n),Fin(n)->A,vec_to_fun,fun_to_vec,v2f_f2v,f2v_v2f,945,Vectors are functions from finite types
+EQ-012,Nat,Nat+Nat,nat_to_sum,sum_to_nat,fold_unfold,unfold_fold,945,Natural numbers biject with evens and odds
+EQ-013,List(A),Sigma(n:Nat).Vec(n,A),to_sigma,from_sigma,to_from,from_to,945,Lists are dependent pairs
+EQ-014,Sigma(x:A).B(x),Sigma(x:A).C(x),sigma_map(f),sigma_map(g),fiberwise_inv,fiberwise_inv,945,Fiberwise equivalence induces sigma equivalence
+EQ-015,Pi(x:A).B(x),Pi(x:A).C(x),pi_map(f),pi_map(g),fiberwise_pi,fiberwise_pi,945,Fiberwise equivalence on pi types
+EQ-016,Id(A,a,b),Id(A,b,a),sym,sym,sym_sym,sym_sym,928,Symmetry is a self-equivalence
+EQ-017,A,B,f,g,eta,epsilon,general,General definition of type equivalence
+EQ-018,Prop,Prop,id,id,refl,refl,952,Propositions form a set (unique equiv proofs)
+EQ-019,Fin(n+m),Fin(n)+Fin(m),split,join,split_join,join_split,945,Finite type decomposition
+EQ-020,Circle,Circle,id,id,refl,refl,965,Higher inductive type self-equivalence

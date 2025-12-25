@@ -1,0 +1,26 @@
+hlevel_id,type_name,h_level,h_level_name,identity_structure,truncation,year_classified,examples,notes
+HL-001,Empty,-2,contractible_if_inhabited,no_elements,trunc(-2),935,Empty has no elements so vacuously satisfies all properties
+HL-002,Unit,-2,contractible,all_equal,trunc(-2),935,Unit type has exactly one element and one identity proof
+HL-003,Prop,-1,mere_proposition,at_most_one,trunc(-1),935,"Truth values: True, False, any proof is unique"
+HL-004,Bool,0,set,paths_unique,trunc(0),935,Two elements with unique identity proofs between them
+HL-005,Nat,0,set,decidable_eq,trunc(0),935,Natural numbers - any two proofs of n=m are equal
+HL-006,Int,0,set,decidable_eq,trunc(0),935,Integers form a set
+HL-007,String,0,set,decidable_eq,trunc(0),935,Strings form a set
+HL-008,List(A),0,set,if_A_is_set,trunc(0),935,Lists of a set form a set
+HL-009,Vec(n,A),0,set,if_A_is_set,trunc(0),935,Vectors of a set form a set
+HL-010,Fin(n),0,set,decidable_eq,trunc(0),935,Finite types form sets
+HL-011,Prod(A,B),max(a,b),inherited,pointwise,trunc(max),935,Product h-level is max of components
+HL-012,Sum(A,B),max(a,b),inherited,coproduct,trunc(max),935,Sum h-level is max of components
+HL-013,A->B,b,inherited,pointwise,trunc(b),935,Function h-level determined by codomain
+HL-014,Pi(x:A).B(x),sup,inherited,fiberwise,trunc(sup),935,Pi type h-level is sup of fibers
+HL-015,Sigma(x:A).B(x),varies,inherited,fiberwise,trunc(varies),935,Sigma type h-level depends on structure
+HL-016,Type,1,groupoid,multiple_paths,no_truncation,950,Universe has paths (equivalences) with structure
+HL-017,Type_0,1,groupoid,univalence,no_truncation,950,Type of sets is a groupoid
+HL-018,Type_1,2,2-groupoid,higher_structure,no_truncation,950,Type of groupoids is a 2-groupoid
+HL-019,S1,1,groupoid,loop_structure,no_truncation,965,Circle has non-trivial fundamental group
+HL-020,S2,2,2-groupoid,sphere_structure,no_truncation,965,Sphere has higher homotopy
+HL-021,Torus,1,groupoid,two_loops,no_truncation,965,Torus has fundamental group Z x Z
+HL-022,Id(A,a,b),a-1,one_lower,shifted,trunc(a-1),935,Identity types have h-level one less than base
+HL-023,isContr(A),-1,prop,contractible_is_prop,trunc(-1),935,Being contractible is a proposition
+HL-024,isProp(A),-1,prop,prop_is_prop,trunc(-1),935,Being a proposition is a proposition
+HL-025,isSet(A),-1,prop,set_is_prop,trunc(-1),935,Being a set is a proposition

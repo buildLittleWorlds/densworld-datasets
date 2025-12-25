@@ -1,0 +1,16 @@
+argument_id,type_system,terminates,proof_technique,key_requirement,why_terminates,why_fails,discovered_by,discovery_year,event_id,reference
+TA-001,simply_typed_lambda,true,reducibility_candidates,simple_types,every_beta_reduction_decreases_type_complexity,n_a,brennis_mund,830,EV-830-001,MND-B-003
+TA-002,untyped_lambda,false,n_a,n_a,n_a,omega_and_y_combinator_loop_forever,kelleth_mund,752,EV-755-001,MND-001
+TA-003,system_f,true,reducibility_candidates,parametric_polymorphism,type_instantiation_is_finite,n_a,sereth_linn,895,EV-895-008,LIN-002
+TA-004,system_f_omega,true,reducibility_candidates,type_operators,type_level_computation_is_simple_typed,n_a,sereth_linn,912,EV-912-020,LIN-004
+TA-005,calculus_of_constructions,true,reducibility_candidates,predicative_universes,universe_levels_decrease,impredicative_prop_requires_care,sereth_linn,920,EV-920-025,LIN-005
+TA-006,cic_with_inductives,true,reducibility_with_inductives,strict_positivity,inductive_types_decrease_structurally,negative_occurrences_encode_omega,varen_tholl,948,EV-948-003,THL-002
+TA-007,cic_with_coinductives,conditional,productivity_checking,guardedness,corecursive_calls_guarded,unguarded_corecursion_diverges,varen_tholl,968,EV-968-005,THL-004
+TA-008,type_type,false,n_a,n_a,n_a,russells_paradox_encodes_omega,varen_tholl,950,EV-950-002,THL-002
+TA-009,general_recursion,false,n_a,n_a,n_a,can_encode_any_computation,brennis_mund,835,EV-835-001,MND-B-003
+TA-010,structural_recursion,true,structural_induction,decreasing_argument,recursive_calls_on_subterms,n_a,varen_tholl,968,EV-968-005,THL-004
+TA-011,well_founded_recursion,true,accessibility_predicate,well_founded_relation,accessible_elements_terminate,n_a,varen_tholl,968,EV-968-005,THL-004
+TA-012,sized_types,true,size_annotations,size_decreases,explicit_size_tracking,n_a,dora_keth,965,EV-960-004,correspondence
+TA-013,domain_with_fix,semantic,fixed_point_existence,continuous_domains,least_fixed_point_exists,termination_not_guaranteed,arren_mott,880,EV-880-001,MOT-003
+TA-014,pcf,semantic,domain_semantics,continuous_functions,meaning_exists_even_if_non_terminating,programs_may_diverge,arren_mott,890,EV-890-001,MOT-004
+TA-015,primitive_recursion,true,structural_induction,nat_eliminator,recursor_decreases_on_nat,n_a,brennis_mund,838,EV-838-007,MND-B-004

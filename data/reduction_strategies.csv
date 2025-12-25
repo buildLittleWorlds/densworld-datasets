@@ -1,0 +1,13 @@
+strategy_id,strategy_name,description,reduces_which,reduces_when,normalizing_behavior,deterministic,used_for,discovered_by,discovery_year,event_id
+RS-001,call_by_name,Reduce outermost-leftmost redex first,outermost_redex,always,weak_normalizing,true,lazy_languages,varen_tholl,935,EV-935-005
+RS-002,call_by_value,Reduce arguments to values before applying function,arguments_first,before_application,not_normalizing,true,strict_languages,varen_tholl,935,EV-935-005
+RS-003,call_by_need,Reduce only when needed and share results,outermost_redex,when_demanded,weak_normalizing,true,lazy_with_memoization,varen_tholl,935,EV-935-005
+RS-004,normal_order,Leftmost-outermost reduction always,leftmost_outermost,always,weak_normalizing,true,theoretical_analysis,brennis_mund,830,EV-830-001
+RS-005,applicative_order,Leftmost-innermost reduction always,leftmost_innermost,always,not_normalizing,true,eager_languages,brennis_mund,830,EV-830-001
+RS-006,full_beta,Any redex can be reduced,any_redex,non_deterministic,strong_normalizing_if_typed,false,confluence_proofs,varen_tholl,932,EV-932-003
+RS-007,parallel_reduction,Reduce multiple independent redexes simultaneously,multiple_redexes,parallel,strong_normalizing_if_typed,false,church_rosser_proof,varen_tholl,932,EV-932-003
+RS-008,head_reduction,Reduce only head redexes,head_redex,until_head_normal,reaches_hnf,true,weak_head_normal_form,varen_tholl,938,EV-938-002
+RS-009,spine_reduction,Reduce along the spine (leftmost path),spine_redexes,until_blocked,reaches_spine_normal,true,type_inference,varen_tholl,938,EV-938-002
+RS-010,strong_reduction,Reduce everywhere including under binders,all_redexes,everywhere,full_normalization,true,proof_assistants,varen_tholl,955,EV-955-003
+RS-011,eta_expansion,Expand eta-redexes to canonical form,eta_redexes,for_extensionality,eta_long_form,true,canonical_forms,varen_tholl,962,EV-962-003
+RS-012,nbe_strategy,Evaluate semantically then quote back,semantic_eval,via_model,always_normalizing_for_typed,true,normalization_by_eval,varen_tholl,962,EV-962-003

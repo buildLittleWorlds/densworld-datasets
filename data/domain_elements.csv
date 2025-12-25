@@ -1,0 +1,26 @@
+element_id,domain,element,information_level,is_bottom,approximates,is_maximal,discoverer,event_id,notes
+DE-001,flat_nat,⊥,0,TRUE,,FALSE,arren_mott,EV-857-001,The bottom element - no information about which natural number
+DE-002,flat_nat,0,1,FALSE,⊥,TRUE,arren_mott,EV-857-001,The natural number zero - maximal element
+DE-003,flat_nat,1,1,FALSE,⊥,TRUE,arren_mott,EV-857-001,The natural number one - maximal element
+DE-004,flat_nat,2,1,FALSE,⊥,TRUE,arren_mott,EV-857-001,The natural number two - maximal element
+DE-005,flat_nat,3,1,FALSE,⊥,TRUE,arren_mott,EV-857-001,The natural number three - maximal element
+DE-006,flat_bool,⊥,0,TRUE,,FALSE,arren_mott,EV-857-001,Bottom - no information about which boolean
+DE-007,flat_bool,true,1,FALSE,⊥,TRUE,arren_mott,EV-857-001,The boolean true - maximal element
+DE-008,flat_bool,false,1,FALSE,⊥,TRUE,arren_mott,EV-857-001,The boolean false - maximal element
+DE-009,lazy_list,⊥,0,TRUE,,FALSE,arren_mott,EV-875-001,Bottom - no information about the list
+DE-010,lazy_list,[],1,FALSE,⊥,TRUE,arren_mott,EV-875-001,Empty list - a maximal element
+DE-011,lazy_list,⊥:⊥,1,FALSE,⊥,FALSE,arren_mott,EV-875-001,Partial list - head and tail undefined
+DE-012,lazy_list,1:⊥,2,FALSE,⊥:⊥,FALSE,arren_mott,EV-875-001,Partial list - head is 1 but tail undefined
+DE-013,lazy_list,1:[],3,FALSE,1:⊥,TRUE,arren_mott,EV-875-001,Complete list [1] - maximal element
+DE-014,lazy_list,1:2:⊥,3,FALSE,1:⊥,FALSE,arren_mott,EV-875-001,Partial list - first two elements known
+DE-015,lazy_list,1:2:[],4,FALSE,1:2:⊥,TRUE,arren_mott,EV-875-001,Complete list [1,2] - maximal element
+DE-016,interval_domain,[0;1],0,TRUE,,FALSE,arren_mott,EV-862-002,Interval containing any value between 0 and 1
+DE-017,interval_domain,[0.4;0.6],1,FALSE,[0;1],FALSE,arren_mott,EV-862-002,Interval narrowed - more information
+DE-018,interval_domain,[0.49;0.51],2,FALSE,[0.4;0.6],FALSE,arren_mott,EV-862-002,Even narrower interval
+DE-019,interval_domain,0.5,3,FALSE,[0.49;0.51],TRUE,arren_mott,EV-862-002,Exact value - maximal element
+DE-020,function_domain,[⊥→⊥],0,TRUE,,FALSE,arren_mott,EV-875-001,Bottom function - undefined everywhere
+DE-021,function_domain,[0→0;else→⊥],1,FALSE,[⊥→⊥],FALSE,arren_mott,EV-875-001,Partial function - defined only at 0
+DE-022,function_domain,[0→0;1→1;else→⊥],2,FALSE,[0→0;else→⊥],FALSE,arren_mott,EV-875-001,Partial function - defined at 0 and 1
+DE-023,function_domain,id,3,FALSE,[0→0;1→1;else→⊥],TRUE,arren_mott,EV-875-001,Identity function - maximal element
+DE-024,reflexive_domain,D∞_element_0,0,TRUE,,FALSE,arren_mott,EV-877-001,Bottom in reflexive domain D ≅ [D→D]
+DE-025,reflexive_domain,D∞_element_1,1,FALSE,D∞_element_0,FALSE,arren_mott,EV-877-001,Partial element in reflexive domain
