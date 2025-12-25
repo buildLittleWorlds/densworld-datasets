@@ -1,0 +1,22 @@
+letter_id,date,from,to,subject,key_passage,tone,response_to,archive_ref,source_event
+MC-001,725-03-12,jorell_vance,kelleth_mund,On your passage calculus,"I have studied your reduction rules with great interest. Might there be a simpler foundation?",respectful_inquiry,,MC-001,EV-725-001
+MC-002,725-04-08,kelleth_mund,jorell_vance,Re: On your passage calculus,"The three forms (variable/abstraction/application) are minimal. What would you remove?",curious,,MC-002,EV-725-001
+MC-003,725-05-22,jorell_vance,kelleth_mund,The burden of names,"Names require bookkeeping - alpha conversion/capture avoidance. What if we eliminated them entirely?",provocative,MC-002,MC-003,EV-725-001
+MC-010,731-11-15,kelleth_mund,jorell_vance,On your combinatory proposal,"Your S/K primitives intrigue me but seem to obscure meaning. How would you express SUCC?",skeptical,MC-009,MC-010,EV-731-003
+MC-015,745-09-01,jorell_vance,kelleth_mund,Three primitives suffice,"I can now prove: any λ-term has an equivalent SKI form. The algorithm is mechanical.",triumphant,,MC-015,EV-745-001
+MC-016,745-10-12,kelleth_mund,jorell_vance,Re: Three primitives,"Mechanical translation is not understanding. Your S(S(KS)K)(S(KS)K) for TWICE conveys nothing.",firm,MC-015,MC-016,EV-745-001
+MC-020,747-03-01,kelleth_mund,jorell_vance,On the necessity of names,"For the debate: I maintain that names track identity. Your combinators lose the thread of meaning.",formal,MC-019,MC-020,EV-747-003
+MC-021,747-03-15,jorell_vance,kelleth_mund,Re: On the necessity of names,"Identity is preserved in structure not symbols. The same reduction occurs with or without labels.",formal,MC-020,MC-021,EV-747-003
+MC-025,750-08-01,jorell_vance,kelleth_mund,The S combinator fully characterized,"S distributes/duplicates. It is the source of all computational power in my system.",explanatory,,MC-025,EV-750-001
+MC-030,755-04-15,kelleth_mund,jorell_vance,On Three Primitives Suffice,"I have read your treatise. The mathematics is sound. But you have built a desert and called it paradise.",respectful_critique,MC-029,MC-030,EV-755-003
+MC-035,762-07-01,kelleth_mund,jorell_vance,On your appointment,"Welcome to the Archives officially. Our disagreements have sharpened both our thinking.",warm,,MC-035,EV-762-003
+MC-040,768-10-20,jorell_vance,kelleth_mund,On the Legibility Critique,"Gast misunderstands. Legibility is learned not inherent. Once trained combinators become clear.",defensive,MC-039,MC-040,EV-768-003
+MC-041,768-11-05,kelleth_mund,jorell_vance,Re: On the Legibility Critique,"Gast has a point. But I think you also have one. Perhaps there are contexts for each notation.",mediating,MC-040,MC-041,EV-768-003
+MC-045,775-07-15,jorell_vance,kelleth_mund,New combinators B and C,"I concede something to the critics: B and C improve readability without losing purity.",conciliatory,,MC-045,EV-775-001
+MC-050,782-09-15,jorell_vance,kelleth_mund,The bird taxonomy,"I have given them names after all - Mockingbird/Kestrel/Starling. Perhaps you were right about labels.",playful,,MC-050,EV-782-001
+MC-051,782-10-01,kelleth_mund,jorell_vance,Re: The bird taxonomy,"Ha! Names return through the back door. But I see your point - these are mnemonic not semantic.",amused,MC-050,MC-051,EV-782-001
+MC-055,790-06-15,jorell_vance,kelleth_mund,Y in pure combinators,"I have derived your fixed point in my notation. We arrive at the same place by different paths.",unifying,,MC-055,EV-790-001
+MC-056,790-07-01,kelleth_mund,jorell_vance,Re: Y in pure combinators,"A beautiful result. The Y combinator cares not whether it wears names or not.",appreciative,MC-055,MC-056,EV-790-001
+MC-058,792-12-31,jorell_vance,kelleth_mund,On your retirement,"After 72 years you leave the formal work. But the work leaves no one. It continues in us.",warm,,MC-058,EV-792-001
+MC-059,793-01-15,kelleth_mund,jorell_vance,Re: On your retirement,"The work continues indeed. I watch it from a distance now. You carry it forward.",reflective,MC-058,MC-059,EV-792-001
+MC-060,798-07-01,jorell_vance,archive_committee,On the passing of Kelleth Mund,"We disagreed on everything except what mattered: that structure underlies transformation and understanding requires precision.",eulogy,,MC-060,EV-798-002

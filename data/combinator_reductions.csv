@@ -1,0 +1,26 @@
+reduction_id,expression,step,result,combinator_used,rule_applied,source_event,recorded_by,year,notes
+CR-001,S K K x,1,K x (K x),S,S x y z = x z (y z),EV-751-001,jorell_vance,751,Demonstrating I = S K K
+CR-001,K x (K x),2,x,K,K x y = x,EV-751-001,jorell_vance,751,K discards second argument
+CR-002,S (K S) K x y,1,K S x (K x) y,S,S x y z = x z (y z),EV-778-001,jorell_vance,778,Deriving B from SKI
+CR-002,K S x (K x) y,2,S (K x) y,K,K x y = x,EV-778-001,jorell_vance,778,K discards x
+CR-002,S (K x) y,3,K x (y),error,incomplete reduction,EV-778-001,jorell_vance,778,Need third argument
+CR-003,S (K S) K f g x,1,K S f (K f) g x,S,S x y z = x z (y z),EV-778-001,jorell_vance,778,Full B reduction
+CR-003,K S f (K f) g x,2,S (K f) g x,K,K x y = x,EV-778-001,jorell_vance,778,K discards f
+CR-003,S (K f) g x,3,K f x (g x),S,S x y z = x z (y z),EV-778-001,jorell_vance,778,Applying S
+CR-003,K f x (g x),4,f (g x),K,K x y = x,EV-778-001,jorell_vance,778,Final: B f g x = f (g x)
+CR-004,S I I x,1,I x (I x),S,S x y z = x z (y z),EV-746-001,jorell_vance,746,Mockingbird M = S I I
+CR-004,I x (I x),2,x (I x),I,I x = x,EV-746-001,jorell_vance,746,First I applied
+CR-004,x (I x),3,x x,I,I x = x,EV-746-001,jorell_vance,746,M x = x x (self-application)
+CR-005,S I I (S I I),1,I (S I I) (I (S I I)),S,S x y z = x z (y z),EV-746-001,jorell_vance,746,Omega in combinators
+CR-005,I (S I I) (I (S I I)),2,(S I I) (I (S I I)),I,I x = x,EV-746-001,jorell_vance,746,First I applied
+CR-005,(S I I) (I (S I I)),3,(S I I) (S I I),I,I x = x,EV-746-001,jorell_vance,746,Second I applied - loops forever
+CR-006,K I x y,1,I y,K,K x y = x,EV-750-002,jorell_vance,750,K I is FALSE equivalent
+CR-006,I y,2,y,I,I x = x,EV-750-002,jorell_vance,750,Returns second argument
+CR-007,K x y,1,x,K,K x y = x,EV-750-002,jorell_vance,750,K is TRUE equivalent
+CR-008,S (S (K S) K) (K I) f g x,1,complex,S,multi-step,EV-778-001,jorell_vance,778,Deriving C combinator
+CR-008,... final ...,8,f x g,C,C f g x = f x g,EV-778-001,jorell_vance,778,C flips arguments
+CR-009,S S K x y,1,S x (K x) y,S,S x y z = x z (y z),EV-775-001,jorell_vance,775,Alternative W derivation
+CR-009,S x (K x) y,2,x y (K x y),S,S x y z = x z (y z),EV-775-001,jorell_vance,775,Applying S again
+CR-009,x y (K x y),3,x y x,K,K x y = x,EV-775-001,jorell_vance,775,W x y = x y y (duplication)
+CR-010,Y f,1,f (Y f),Y,Y f = f (Y f),EV-790-001,jorell_vance,790,Fixed point property
+CR-010,f (Y f),2,f (f (Y f)),Y,Y f = f (Y f),EV-790-001,jorell_vance,790,Infinite unfolding

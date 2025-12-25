@@ -1,0 +1,31 @@
+expression_id,expression,type,typable,terminates,normal_form,reduction_steps,discoverer,discovery_event,notes
+TPE-001,"λx.x","τ→τ",TRUE,TRUE,"λx.x",0,kelleth_mund,EV-722-008,Identity function - typable for any type τ
+TPE-002,"λx.λy.x","τ₁→τ₂→τ₁",TRUE,TRUE,"λx.λy.x",0,kelleth_mund,EV-738-002,TRUE (Church boolean) - konstant combinator
+TPE-003,"λx.λy.y","τ₁→τ₂→τ₂",TRUE,TRUE,"λx.λy.y",0,kelleth_mund,EV-738-002,FALSE (Church boolean)
+TPE-004,"λf.λx.x","(τ→τ)→τ→τ",TRUE,TRUE,"λf.λx.x",0,kelleth_mund,EV-738-001,ZERO (Church numeral)
+TPE-005,"λf.λx.(f x)","(τ→τ)→τ→τ",TRUE,TRUE,"λf.λx.(f x)",0,kelleth_mund,EV-738-001,ONE (Church numeral)
+TPE-006,"λf.λx.(f (f x))","(τ→τ)→τ→τ",TRUE,TRUE,"λf.λx.(f (f x))",0,kelleth_mund,EV-738-001,TWO (Church numeral)
+TPE-007,"λn.λf.λx.(f ((n f) x))","((τ→τ)→τ→τ)→(τ→τ)→τ→τ",TRUE,TRUE,"λn.λf.λx.(f ((n f) x))",0,brennis_mund,EV-842-020,SUCC - successor function typed
+TPE-008,"(λx.x x)","untypable",FALSE,TRUE,"(λx.x x)",0,brennis_mund,EV-812-004,Self-application requires infinite type
+TPE-009,"(λx.x x)(λx.x x)","untypable",FALSE,FALSE,,∞,kelleth_mund,EV-752-002,OMEGA - the fundamental non-terminating expression
+TPE-010,"(λx.x x x)(λx.x x x)","untypable",FALSE,FALSE,,∞,kelleth_mund,EV-755-001,TRIPLE OMEGA - exponential divergence
+TPE-011,"λf.(λx.(f (x x)))(λx.(f (x x)))","untypable",FALSE,FALSE,,∞,kelleth_mund,EV-752-001,Y combinator - untypable due to (x x)
+TPE-012,"λx.λy.(x y)","(τ₁→τ₂)→τ₁→τ₂",TRUE,TRUE,"λx.λy.(x y)",0,brennis_mund,EV-810-002,Application function - typed
+TPE-013,"λf.λg.λx.(f (g x))","(τ₂→τ₃)→(τ₁→τ₂)→τ₁→τ₃",TRUE,TRUE,"λf.λg.λx.(f (g x))",0,brennis_mund,EV-818-001,Composition - typed as B combinator
+TPE-014,"λx.λy.λz.((x z)(y z))","(τ₁→τ₂→τ₃)→(τ₁→τ₂)→τ₁→τ₃",TRUE,TRUE,"λx.λy.λz.((x z)(y z))",0,brennis_mund,EV-818-001,S combinator pattern - typed
+TPE-015,"(λx.x)(λy.y)","τ→τ",TRUE,TRUE,"λy.y",1,brennis_mund,EV-825-003,Example of preservation - type preserved after reduction
+TPE-016,"((λf.λx.(f x)) (λy.y)) z","τ",TRUE,TRUE,"z",2,brennis_mund,EV-825-003,Multi-step reduction preserving type
+TPE-017,"λp.λa.λb.((p a) b)","(τ₁→τ₂→τ₃)→τ₁→τ₂→τ₃",TRUE,TRUE,"λp.λa.λb.((p a) b)",0,brennis_mund,EV-842-020,IF-THEN-ELSE pattern typed
+TPE-018,"λm.λn.λf.λx.((m f)((n f) x))","((τ→τ)→τ→τ)→((τ→τ)→τ→τ)→(τ→τ)→τ→τ",TRUE,TRUE,"λm.λn.λf.λx.((m f)((n f) x))",0,brennis_mund,EV-842-020,PLUS typed for Church numerals
+TPE-019,"λm.λn.λf.(m (n f))","((τ→τ)→τ→τ)→((τ→τ)→τ→τ)→(τ→τ)→τ→τ",TRUE,TRUE,"λm.λn.λf.(m (n f))",0,brennis_mund,EV-842-020,MULT typed for Church numerals
+TPE-020,"λn.((n (λx.(λx.λy.y))) (λx.λy.x))","((τ→τ)→τ→τ)→(τ₁→τ₂→τ₂)",TRUE,TRUE,"λn.((n (λx.(λx.λy.y))) (λx.λy.x))",0,brennis_mund,EV-842-020,ISZERO typed
+TPE-021,"λa.λb.((a (λx.(λx.λy.x))) b)","(τ→τ)→τ→τ",TRUE,TRUE,"λa.λb.((a (λx.(λx.λy.x))) b)",0,brennis_mund,EV-842-020,AND typed for booleans
+TPE-022,"λa.λb.((a a) b)","untypable",FALSE,TRUE,,0,brennis_mund,EV-812-004,OR requires self-application of a - untypable
+TPE-023,"λx:(nat→nat).λy:nat.(x y)","(nat→nat)→nat→nat",TRUE,TRUE,"λx.λy.(x y)",0,brennis_mund,EV-810-001,Explicitly annotated typing
+TPE-024,"λf:((nat→nat)→nat→nat).λx:nat.(f (λy:nat.y) x)","((nat→nat)→nat→nat)→nat→nat",TRUE,TRUE,"λf.λx.(f (λy.y) x)",0,brennis_mund,EV-810-001,Numeral evaluator typed
+TPE-025,"λrec.λn.((ISZERO n) ONE (MULT n (rec (PRED n))))","untypable",FALSE,FALSE,,∞,brennis_mund,EV-835-002,Factorial - requires Y for recursion - untypable
+TPE-026,"REC nat (λn.λr.(MULT (SUCC n) r)) ONE","nat→nat",TRUE,TRUE,,varies,brennis_mund,EV-838-007,Factorial via primitive recursion - typed and terminating
+TPE-027,"λx.x","nat→nat",TRUE,TRUE,"λx.x",0,brennis_mund,EV-858-006,Brennis's final catalogued expression - identity on nat
+TPE-028,"(λx.x)((λy.y)(λz.z))","τ→τ",TRUE,TRUE,"λz.z",2,brennis_mund,EV-825-004,Progress example - can always reduce
+TPE-029,"λf.λg.λh.λx.((f g) ((f h) x))","(τ₁→τ₂→τ₃)→τ₁→τ₂→τ₃→τ₃",TRUE,TRUE,"λf.λg.λh.λx.((f g) ((f h) x))",0,brennis_mund,EV-818-001,Complex typed expression
+TPE-030,"λx.λy.λz.(x (y z))","(τ₂→τ₃)→(τ₁→τ₂)→τ₁→τ₃",TRUE,TRUE,"λx.λy.λz.(x (y z))",0,brennis_mund,EV-818-001,B combinator in passage form

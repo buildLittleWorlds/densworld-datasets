@@ -1,0 +1,24 @@
+elimination_id,lambda_expression,step,current_form,rule_applied,explanation,source_event,recorded_by,year
+AE-001,λx.x,1,I,rule_1,Variable matches abstraction - use I,EV-752-003,jorell_vance,752
+AE-002,λx.y,1,K y,rule_2,Variable not free - use K,EV-752-003,jorell_vance,752
+AE-003,λx.(f x),1,S (λx.f) (λx.x),rule_3,Application - split with S,EV-752-003,jorell_vance,752
+AE-003,λx.(f x),2,S (K f) I,recurse,Apply rules to subexpressions,EV-752-003,jorell_vance,752
+AE-003,λx.(f x),3,f,eta_reduce,S (K f) I = f (eta reduction),EV-752-003,jorell_vance,752
+AE-004,λx.λy.x,1,λx.(K x),inner_first,Eliminate innermost λ first,EV-752-003,jorell_vance,752
+AE-004,λx.λy.x,2,K,rule_2,λx.(K x) = K,EV-752-003,jorell_vance,752
+AE-005,λx.λy.y,1,λx.I,inner_first,Inner λy.y = I,EV-752-003,jorell_vance,752
+AE-005,λx.λy.y,2,K I,rule_2,x not free in I,EV-752-003,jorell_vance,752
+AE-006,λx.λy.(x y),1,λx.x,inner_first,λy.(x y) = x (eta),EV-755-003,jorell_vance,755
+AE-006,λx.λy.(x y),2,I,rule_1,λx.x = I,EV-755-003,jorell_vance,755
+AE-007,λx.λy.(y x),1,λx.S (λy.y) (λy.x),rule_3,Application split,EV-755-003,jorell_vance,755
+AE-007,λx.λy.(y x),2,λx.S I (K x),recurse,Subexpression elimination,EV-755-003,jorell_vance,755
+AE-007,λx.λy.(y x),3,S (K (S I)) K,rule_3,Final outer elimination,EV-755-003,jorell_vance,755
+AE-008,λf.λx.(f (f x)),1,λf.S (λx.f) (λx.(f x)),rule_3,TWICE function,EV-755-003,jorell_vance,755
+AE-008,λf.λx.(f (f x)),2,λf.S (K f) f,recurse,Inner subexpressions,EV-755-003,jorell_vance,755
+AE-008,λf.λx.(f (f x)),3,S (S (K S) K) (S (K S) K),full,Complete elimination,EV-755-003,jorell_vance,755
+AE-009,λn.λf.λx.(f (n f x)),1,complex,succ,SUCC function - Church numeral successor,EV-765-005,jorell_vance,765
+AE-009,λn.λf.λx.(f (n f x)),final,S (S (K S) K),full,Successor in combinators,EV-765-005,jorell_vance,765
+AE-010,λm.λn.λf.λx.(m f (n f x)),1,complex,plus,PLUS function,EV-765-005,jorell_vance,765
+AE-010,λm.λn.λf.λx.(m f (n f x)),final,S (K (S (K S))) (S (K (S (K (S I)))) S),full,Addition in combinators,EV-765-005,jorell_vance,765
+AE-011,λf.((λx.(f (x x))) (λx.(f (x x)))),1,complex,y_comb,Y combinator translation,EV-790-001,jorell_vance,790
+AE-011,λf.((λx.(f (x x))) (λx.(f (x x)))),final,S (K (S I I)) (S (S (K S) K) (K (S I I))),full,Y in pure SKI,EV-790-001,jorell_vance,790

@@ -1,0 +1,21 @@
+comparison_id,expression_name,untyped_form,typed_form,typable,type_if_typable,terminates_untyped,terminates_typed,expressiveness_note,scholar,event_id
+TSC-001,Identity,"λx.x","λx:τ.x",TRUE,"τ→τ",TRUE,TRUE,Must be monomorphic in simply typed system,brennis_mund,EV-815-002
+TSC-002,Konstant,"λx.λy.x","λx:τ₁.λy:τ₂.x",TRUE,"τ₁→τ₂→τ₁",TRUE,TRUE,TRUE in Church booleans,brennis_mund,EV-842-020
+TSC-003,Self-application,"λx.(x x)",,FALSE,,TRUE,N/A,Cannot be typed - requires x:τ=τ→σ,brennis_mund,EV-812-004
+TSC-004,Omega,"(λx.x x)(λx.x x)",,FALSE,,FALSE,N/A,Untypable AND non-terminating - types prevent this,brennis_mund,EV-812-004
+TSC-005,Y combinator,"λf.(λx.f(x x))(λx.f(x x))",,FALSE,,FALSE,N/A,Fixed point - untypable due to (x x) pattern,brennis_mund,EV-835-002
+TSC-006,S combinator,"λx.λy.λz.(x z)(y z)","λx:τ₁→τ₂→τ₃.λy:τ₁→τ₂.λz:τ₁.(x z)(y z)",TRUE,"(τ₁→τ₂→τ₃)→(τ₁→τ₂)→τ₁→τ₃",TRUE,TRUE,Starling - fully typable,brennis_mund,EV-818-001
+TSC-007,K combinator,"λx.λy.x","λx:τ₁.λy:τ₂.x",TRUE,"τ₁→τ₂→τ₁",TRUE,TRUE,Kestrel - fully typable,brennis_mund,EV-818-001
+TSC-008,B combinator,"λf.λg.λx.f(g x)","λf:τ₂→τ₃.λg:τ₁→τ₂.λx:τ₁.f(g x)",TRUE,"(τ₂→τ₃)→(τ₁→τ₂)→τ₁→τ₃",TRUE,TRUE,Bluebird/composition - fully typable,brennis_mund,EV-818-001
+TSC-009,Church numeral zero,"λf.λx.x","λf:τ→τ.λx:τ.x",TRUE,"(τ→τ)→τ→τ",TRUE,TRUE,All Church numerals typable with this scheme,brennis_mund,EV-842-020
+TSC-010,Successor,"λn.λf.λx.f((n f)x)","λn:Nat.λf:τ→τ.λx:τ.f((n f)x)",TRUE,"Nat→Nat",TRUE,TRUE,Nat = (τ→τ)→τ→τ,brennis_mund,EV-842-020
+TSC-011,Factorial (with Y),"Y(λf.λn.if (iszero n) 1 (mult n (f (pred n))))",,FALSE,,FALSE,N/A,Requires Y - untypable in simply typed system,brennis_mund,EV-835-002
+TSC-012,Factorial (primitive rec),"REC τ (λn.λr.mult (succ n) r) 1",,TRUE,"Nat→Nat",N/A,TRUE,Primitive recursion recovers terminating recursion,brennis_mund,EV-838-007
+TSC-013,Mockingbird,"λx.(x x)",,FALSE,,TRUE,N/A,M = λx.(x x) - self-application untypable,jorell_vance,EV-746-001
+TSC-014,M M = Omega,"(λx.x x)(λx.x x)",,FALSE,,FALSE,N/A,Mockingbird applied to itself = Omega,jorell_vance,EV-746-001
+TSC-015,Universal polymorphic id,"λx.x (polymorphic)","λx:τ.x (monomorphic)",PARTIAL,"τ→τ for fixed τ",TRUE,TRUE,Simply typed requires choosing τ - loses universality,brennis_mund,EV-815-002
+TSC-016,Church boolean AND,"λa.λb.a a b","λa:Bool.λb:Bool.a a b",FALSE,,TRUE,N/A,Requires a:Bool and a:Bool→Bool→Bool simultaneously,brennis_mund,EV-812-004
+TSC-017,Church boolean AND (fixed),"λa.λb.a (λx.a) b","λa:Bool.λb:Bool.a (λx:τ.a) b",TRUE,"Bool→Bool→Bool",TRUE,TRUE,Rewritten to avoid self-application,brennis_mund,EV-842-020
+TSC-018,Theta combinator,"(λxy.y(xxy))(λxy.y(xxy))",,FALSE,,FALSE,N/A,Alternative fixed point - also untypable,kelleth_mund,EV-758-001
+TSC-019,Triple Omega,"(λx.x x x)(λx.x x x)",,FALSE,,FALSE,N/A,Exponential divergence - untypable,kelleth_mund,EV-755-001
+TSC-020,PRED (predecessor),"λn.λf.λx.n(λgh.h(gf))(λu.x)(λu.u)",,TRUE,"Nat→Nat",TRUE,TRUE,Complex but typable - shows expressiveness of typed system,brennis_mund,EV-842-020

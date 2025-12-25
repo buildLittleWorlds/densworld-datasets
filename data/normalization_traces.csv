@@ -1,0 +1,43 @@
+trace_id,expression,type,step_number,current_term,redex,is_value,reduction_type,event_id
+NT-001,"(λx.x)(λy.y)","τ→τ",0,"(λx.x)(λy.y)","(λx.x)(λy.y)",FALSE,beta,EV-825-003
+NT-001,"(λx.x)(λy.y)","τ→τ",1,"λy.y",,TRUE,value,EV-825-003
+NT-002,"(λx.λy.x) a b","τ",0,"(λx.λy.x) a b","(λx.λy.x) a",FALSE,beta,EV-825-003
+NT-002,"(λx.λy.x) a b","τ",1,"(λy.a) b","(λy.a) b",FALSE,beta,EV-825-003
+NT-002,"(λx.λy.x) a b","τ",2,"a",,TRUE,value,EV-825-003
+NT-003,"(λf.λx.(f x))(λy.y) z","τ",0,"(λf.λx.(f x))(λy.y) z","(λf.λx.(f x))(λy.y)",FALSE,beta,EV-830-001
+NT-003,"(λf.λx.(f x))(λy.y) z","τ",1,"(λx.((λy.y) x)) z","(λx.((λy.y) x)) z",FALSE,beta,EV-830-001
+NT-003,"(λf.λx.(f x))(λy.y) z","τ",2,"(λy.y) z","(λy.y) z",FALSE,beta,EV-830-001
+NT-003,"(λf.λx.(f x))(λy.y) z","τ",3,"z",,TRUE,value,EV-830-001
+NT-004,"SUCC ZERO","(τ→τ)→τ→τ",0,"(λn.λf.λx.(f ((n f) x)))(λf.λx.x)","redex",FALSE,beta,EV-842-020
+NT-004,"SUCC ZERO","(τ→τ)→τ→τ",1,"λf.λx.(f (((λf.λx.x) f) x))",,FALSE,beta,EV-842-020
+NT-004,"SUCC ZERO","(τ→τ)→τ→τ",2,"λf.λx.(f ((λx.x) x))",,FALSE,beta,EV-842-020
+NT-004,"SUCC ZERO","(τ→τ)→τ→τ",3,"λf.λx.(f x)",,TRUE,value,EV-842-020
+NT-005,"PLUS ONE TWO f x","τ",0,"((λm.λn.λf.λx.((m f)((n f) x))) ONE TWO) f x",,FALSE,beta,EV-842-020
+NT-005,"PLUS ONE TWO f x","τ",1,"(λn.λf.λx.((ONE f)((n f) x))) TWO f x",,FALSE,beta,EV-842-020
+NT-005,"PLUS ONE TWO f x","τ",2,"(λf.λx.((ONE f)((TWO f) x))) f x",,FALSE,beta,EV-842-020
+NT-005,"PLUS ONE TWO f x","τ",3,"(λx.((ONE f)((TWO f) x))) x",,FALSE,beta,EV-842-020
+NT-005,"PLUS ONE TWO f x","τ",4,"(ONE f)((TWO f) x)",,FALSE,beta,EV-842-020
+NT-005,"PLUS ONE TWO f x","τ",5,"(λx.(f x))((TWO f) x)",,FALSE,beta,EV-842-020
+NT-005,"PLUS ONE TWO f x","τ",6,"f ((TWO f) x)",,FALSE,beta,EV-842-020
+NT-005,"PLUS ONE TWO f x","τ",7,"f ((λx.(f (f x))) x)",,FALSE,beta,EV-842-020
+NT-005,"PLUS ONE TWO f x","τ",8,"f (f (f x))",,TRUE,value,EV-842-020
+NT-006,"AND TRUE TRUE","bool",0,"(λa.λb.((a (λx.TRUE)) b)) TRUE TRUE",,FALSE,beta,EV-842-020
+NT-006,"AND TRUE TRUE","bool",1,"(λb.((TRUE (λx.TRUE)) b)) TRUE",,FALSE,beta,EV-842-020
+NT-006,"AND TRUE TRUE","bool",2,"(TRUE (λx.TRUE)) TRUE",,FALSE,beta,EV-842-020
+NT-006,"AND TRUE TRUE","bool",3,"(λx.TRUE) TRUE",,FALSE,beta,EV-842-020
+NT-006,"AND TRUE TRUE","bool",4,"TRUE",,TRUE,value,EV-842-020
+NT-007,"(λx.x)((λy.y)((λz.z) w))","τ",0,"(λx.x)((λy.y)((λz.z) w))",,FALSE,beta,EV-830-001
+NT-007,"(λx.x)((λy.y)((λz.z) w))","τ",1,"(λy.y)((λz.z) w)",,FALSE,beta,EV-830-001
+NT-007,"(λx.x)((λy.y)((λz.z) w))","τ",2,"(λz.z) w",,FALSE,beta,EV-830-001
+NT-007,"(λx.x)((λy.y)((λz.z) w))","τ",3,"w",,TRUE,value,EV-830-001
+NT-008,"ISZERO ZERO","bool",0,"(λn.((n (λx.FALSE)) TRUE)) ZERO",,FALSE,beta,EV-842-020
+NT-008,"ISZERO ZERO","bool",1,"(ZERO (λx.FALSE)) TRUE",,FALSE,beta,EV-842-020
+NT-008,"ISZERO ZERO","bool",2,"((λf.λx.x) (λx.FALSE)) TRUE",,FALSE,beta,EV-842-020
+NT-008,"ISZERO ZERO","bool",3,"(λx.x) TRUE",,FALSE,beta,EV-842-020
+NT-008,"ISZERO ZERO","bool",4,"TRUE",,TRUE,value,EV-842-020
+NT-009,"ISZERO ONE","bool",0,"(λn.((n (λx.FALSE)) TRUE)) ONE",,FALSE,beta,EV-842-020
+NT-009,"ISZERO ONE","bool",1,"(ONE (λx.FALSE)) TRUE",,FALSE,beta,EV-842-020
+NT-009,"ISZERO ONE","bool",2,"((λf.λx.(f x)) (λx.FALSE)) TRUE",,FALSE,beta,EV-842-020
+NT-009,"ISZERO ONE","bool",3,"(λx.((λx.FALSE) x)) TRUE",,FALSE,beta,EV-842-020
+NT-009,"ISZERO ONE","bool",4,"(λx.FALSE) TRUE",,FALSE,beta,EV-842-020
+NT-009,"ISZERO ONE","bool",5,"FALSE",,TRUE,value,EV-842-020

@@ -1,0 +1,16 @@
+example_id,lambda_form,combinator_form,function_name,lambda_readable,combinator_readable,size_ratio,critique_by,year,source_event,notes
+LE-001,λx.x,I,identity,5,5,1.0,torren_gast,768,EV-768-003,Trivially equivalent
+LE-002,λx.λy.x,K,true,5,5,1.0,torren_gast,768,EV-768-003,Both minimal
+LE-003,λx.λy.y,K I,false,5,7,1.4,torren_gast,768,EV-768-003,Slight expansion
+LE-004,λf.λx.(f x),I,apply,9,5,0.6,torren_gast,768,EV-768-003,Combinators can be shorter
+LE-005,λf.λx.(f (f x)),S (S (K S) K) (S (K S) K),twice,11,31,2.8,torren_gast,768,EV-768-003,Significant expansion
+LE-006,λn.λf.λx.(f (n f x)),S (S (K S) K),succ,17,15,0.9,torren_gast,768,EV-768-003,Nearly equivalent
+LE-007,λm.λn.λf.λx.(m f (n f x)),S (K (S (K S))) (S (K (S (K (S I)))) S),plus,25,45,1.8,torren_gast,768,EV-768-003,Expansion with complexity
+LE-008,λm.λn.(m (λx.λy.y) n),S (K (S I (K (K I)))) K,iszero,21,27,1.3,torren_gast,768,EV-768-003,Moderate expansion
+LE-009,λn.λf.λx.(n (λg.λh.(h (g f))) (λu.x) (λu.u)),S (K (S I)) (S (K K) I),pred,43,23,0.5,jorell_vance,772,EV-772-001,Vance's counterexample
+LE-010,λf.((λx.(f (x x))) (λx.(f (x x)))),S (K (S I I)) (S (S (K S) K) (K (S I I))),y_comb,31,41,1.3,torren_gast,768,EV-768-003,Fixed point combinator
+LE-011,λp.λa.λb.((p a) b),I,if_then_else,15,5,0.3,jorell_vance,772,EV-772-001,Church booleans simplify
+LE-012,λx.λy.λf.((f x) y),V,pair,15,5,0.3,jorell_vance,772,EV-772-001,Pairing simplifies
+LE-013,λp.(p (λx.λy.x)),K,first,13,5,0.4,jorell_vance,772,EV-772-001,Projection simplifies
+LE-014,λp.(p (λx.λy.y)),K (K I),second,13,9,0.7,jorell_vance,772,EV-772-001,Slight expansion
+LE-015,λf.λg.λx.(f (g x)),B,compose,15,5,0.3,jorell_vance,775,EV-775-001,B combinator exactly

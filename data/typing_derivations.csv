@@ -1,0 +1,36 @@
+derivation_id,expression,context,step_number,rule_applied,subexpression,type_assigned,justification,event_id
+TD-001,"λx.x","∅",1,VAR,"x","τ","Assumption: x:τ in context {x:τ}",EV-810-002
+TD-001,"λx.x","∅",2,ABS,"λx.x","τ→τ","Since {x:τ} ⊢ x : τ, we have ∅ ⊢ λx.x : τ→τ",EV-810-002
+TD-002,"λx.λy.x","∅",1,VAR,"x","τ₁","Assumption: x:τ₁ in context {x:τ₁, y:τ₂}",EV-810-002
+TD-002,"λx.λy.x","∅",2,ABS,"λy.x","τ₂→τ₁","Since {x:τ₁, y:τ₂} ⊢ x : τ₁, we have {x:τ₁} ⊢ λy.x : τ₂→τ₁",EV-810-002
+TD-002,"λx.λy.x","∅",3,ABS,"λx.λy.x","τ₁→τ₂→τ₁","Since {x:τ₁} ⊢ λy.x : τ₂→τ₁, we have ∅ ⊢ λx.λy.x : τ₁→τ₂→τ₁",EV-810-002
+TD-003,"(λx.x) y","{y:τ}",1,VAR,"y","τ","From context: y:τ ∈ {y:τ}",EV-810-002
+TD-003,"(λx.x) y","{y:τ}",2,VAR,"x","τ","Assumption: x:τ in context {x:τ}",EV-810-002
+TD-003,"(λx.x) y","{y:τ}",3,ABS,"λx.x","τ→τ","Since {x:τ} ⊢ x : τ",EV-810-002
+TD-003,"(λx.x) y","{y:τ}",4,APP,"(λx.x) y","τ","Since ⊢ λx.x : τ→τ and ⊢ y : τ",EV-810-002
+TD-004,"λf.λx.(f x)","∅",1,VAR,"x","τ₁","Assumption: x:τ₁",EV-810-002
+TD-004,"λf.λx.(f x)","∅",2,VAR,"f","τ₁→τ₂","Assumption: f:τ₁→τ₂",EV-810-002
+TD-004,"λf.λx.(f x)","∅",3,APP,"(f x)","τ₂","Since f:τ₁→τ₂ and x:τ₁",EV-810-002
+TD-004,"λf.λx.(f x)","∅",4,ABS,"λx.(f x)","τ₁→τ₂","Abstracting over x",EV-810-002
+TD-004,"λf.λx.(f x)","∅",5,ABS,"λf.λx.(f x)","(τ₁→τ₂)→τ₁→τ₂","Abstracting over f",EV-810-002
+TD-005,"(λx.x x)","∅",1,VAR,"x","τ","Assume x:τ",EV-812-004
+TD-005,"(λx.x x)","∅",2,APP,"(x x)","?","Requires x:τ and x:τ→σ - contradiction!",EV-812-004
+TD-005,"(λx.x x)","∅",3,FAIL,"(λx.x x)","untypable","No finite τ satisfies τ = τ→σ",EV-812-004
+TD-006,"λn.λf.λx.(f ((n f) x))","∅",1,VAR,"x","α","Base assumption",EV-842-020
+TD-006,"λn.λf.λx.(f ((n f) x))","∅",2,VAR,"f","α→α","Function type",EV-842-020
+TD-006,"λn.λf.λx.(f ((n f) x))","∅",3,VAR,"n","(α→α)→α→α","Church numeral type",EV-842-020
+TD-006,"λn.λf.λx.(f ((n f) x))","∅",4,APP,"(n f)","α→α","Applying numeral to function",EV-842-020
+TD-006,"λn.λf.λx.(f ((n f) x))","∅",5,APP,"((n f) x)","α","Applying to base",EV-842-020
+TD-006,"λn.λf.λx.(f ((n f) x))","∅",6,APP,"(f ((n f) x))","α","Applying f once more",EV-842-020
+TD-006,"λn.λf.λx.(f ((n f) x))","∅",7,ABS,"λx.(f ((n f) x))","α→α","Abstract over x",EV-842-020
+TD-006,"λn.λf.λx.(f ((n f) x))","∅",8,ABS,"λf.λx.(f ((n f) x))","(α→α)→α→α","Abstract over f",EV-842-020
+TD-006,"λn.λf.λx.(f ((n f) x))","∅",9,ABS,"SUCC","Nat→Nat","SUCC : Church Nat → Church Nat",EV-842-020
+TD-007,"λf.(λx.(f (x x)))(λx.(f (x x)))","∅",1,VAR,"x","τ","Assume x:τ",EV-835-002
+TD-007,"λf.(λx.(f (x x)))(λx.(f (x x)))","∅",2,APP,"(x x)","?","Requires x:τ→σ and x:τ simultaneously",EV-835-002
+TD-007,"λf.(λx.(f (x x)))(λx.(f (x x)))","∅",3,FAIL,"Y","untypable","Y combinator requires infinite type for x",EV-835-002
+TD-008,"λf.λg.λx.(f (g x))","∅",1,VAR,"x","τ₁","Input type",EV-818-001
+TD-008,"λf.λg.λx.(f (g x))","∅",2,VAR,"g","τ₁→τ₂","First function",EV-818-001
+TD-008,"λf.λg.λx.(f (g x))","∅",3,VAR,"f","τ₂→τ₃","Second function",EV-818-001
+TD-008,"λf.λg.λx.(f (g x))","∅",4,APP,"(g x)","τ₂","Apply g to x",EV-818-001
+TD-008,"λf.λg.λx.(f (g x))","∅",5,APP,"(f (g x))","τ₃","Apply f to result",EV-818-001
+TD-008,"λf.λg.λx.(f (g x))","∅",6,ABS,"B","(τ₂→τ₃)→(τ₁→τ₂)→τ₁→τ₃","Composition combinator",EV-818-001
