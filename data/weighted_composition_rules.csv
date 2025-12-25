@@ -1,0 +1,31 @@
+rule_id,composition_type,passage_f,passage_g,weight_f,weight_g,composite_passage,composite_weight,operation,monoid,domain,example_context,recorded_by,year,notes
+WCR-001,multiplicative,A_to_B,B_to_C,0.80,0.75,A_to_C,0.60,multiply,positive_reals,creature_movement,stakdur_migration_chain,merrit_vance,925,Standard multiplicative composition
+WCR-002,multiplicative,B_to_C,C_to_D,0.90,0.60,B_to_D,0.54,multiply,positive_reals,creature_movement,extended_migration,merrit_vance,925,Chain continues with decay
+WCR-003,multiplicative,A_to_B,B_to_C,0.50,0.50,A_to_C,0.25,multiply,positive_reals,information_flow,archive_transfer,lorren_dray,950,Information degrades through transfers
+WCR-004,additive,A_parallel_1,A_parallel_2,0.40,0.35,A_combined,0.75,add,positive_reals,trade_routes,parallel_trade_paths,archive_record,920,Parallel paths combine additively
+WCR-005,maximum,A_choice_1,A_choice_2,0.65,0.40,A_best,0.65,max,positive_reals,decision_making,optimal_path_selection,merrit_vance,932,Take maximum when choosing
+WCR-006,minimum,A_constraint_1,A_constraint_2,0.70,0.55,A_bottleneck,0.55,min,positive_reals,resource_flow,capacity_bottleneck,archive_record,920,Minimum determines throughput
+WCR-007,normalized_mult,Q_to_K1,K1_to_V1,0.45,1.00,Q_to_V1,0.45,mult_normalized,unit_interval,attention,query_value_extraction,merrit_vance,946,QKV composition (K-V is identity weight)
+WCR-008,softmax_renorm,raw_1,raw_2,2.30,1.80,norm_1,0.56,softmax,unit_interval,attention,attention_normalization,merrit_vance,940,Softmax normalizes raw scores
+WCR-009,softmax_renorm,raw_3,raw_4,1.20,0.90,norm_3,0.27,softmax,unit_interval,attention,attention_normalization,merrit_vance,940,Lower raw scores get less weight
+WCR-010,tensor_product,f_dim1,g_dim2,0.70,0.80,f_tensor_g,0.56,tensor,matrix_space,multihead_attention,head_combination,brennet_kell,975,Tensor product for multihead
+WCR-011,convex_combo,path_1,path_2,0.60,0.40,blended_path,0.60,convex,probability_simplex,trajectory,path_interpolation,merrit_vance,930,Convex combination preserves simplex
+WCR-012,log_add,log_p1,log_p2,-0.51,-0.92,log_sum,-0.35,log_add,log_probs,probability,joint_probability,merrit_vance,942,Log-space addition for stability
+WCR-013,fuzzy_and,degree_1,degree_2,0.80,0.65,fuzzy_conj,0.65,min,unit_interval,fuzzy_logic,concept_intersection,tessery_vold,893,Fuzzy AND is minimum
+WCR-014,fuzzy_or,degree_1,degree_2,0.80,0.65,fuzzy_disj,0.80,max,unit_interval,fuzzy_logic,concept_union,tessery_vold,893,Fuzzy OR is maximum
+WCR-015,tropical_mult,distance_1,distance_2,5.00,3.00,total_distance,8.00,tropical_add,tropical,shortest_path,path_length,merrit_vance,932,Tropical: multiply is add
+WCR-016,tropical_add,path_a,path_b,8.00,6.00,shortest,6.00,tropical_mult,tropical,shortest_path,path_choice,merrit_vance,932,Tropical: add is min
+WCR-017,boolean_mult,present_1,present_2,1,1,both_present,1,and,boolean,presence,feature_conjunction,tessery_vold,892,Boolean: 1*1=1
+WCR-018,boolean_mult,present_1,absent_2,1,0,neither_path,0,and,boolean,presence,blocked_path,tessery_vold,892,Boolean: 1*0=0
+WCR-019,weighted_avg,weight_1,weight_2,0.70,0.30,avg_weight,0.58,weighted_mean,positive_reals,aggregation,expert_consensus,merrit_vance,948,Weighted average (0.7*0.7+0.3*0.4)
+WCR-020,geometric_mean,weight_1,weight_2,0.64,0.81,geom_mean,0.72,sqrt_product,positive_reals,rating,balanced_score,lorren_dray,952,Geometric mean: sqrt(0.64*0.81)
+WCR-021,harmonic_mean,rate_1,rate_2,0.80,0.40,harmonic,0.53,harmonic,positive_reals,rate_averaging,throughput,archive_record,920,Harmonic mean for rates
+WCR-022,identity_comp,f_passage,identity,0.75,1.00,f_passage,0.75,multiply,positive_reals,category_theory,identity_preservation,merrit_vance,928,Identity morphism has weight 1
+WCR-023,zero_absorb,f_passage,zero_path,0.75,0.00,blocked,0.00,multiply,nonneg_reals,resource_flow,complete_blockage,merrit_vance,928,Zero weight absorbs everything
+WCR-024,associative_3,f_to_g,g_to_h,0.80,0.70,f_to_h,0.56,multiply,positive_reals,chain_rule,three_hop_path,merrit_vance,925,First two morphisms composed
+WCR-025,associative_3,f_to_g_to_h,h_to_i,0.56,0.90,f_to_i,0.50,multiply,positive_reals,chain_rule,four_hop_path,merrit_vance,925,Associativity verified
+WCR-026,parallel_sum,parallel_a,parallel_b,0.30,0.45,combined_flow,0.75,add_bounded,unit_interval,network_flow,parallel_capacity,archive_record,920,Parallel paths sum (capped at 1)
+WCR-027,series_mult,series_a,series_b,0.90,0.85,chain_flow,0.765,multiply,unit_interval,network_flow,series_capacity,archive_record,920,Series paths multiply
+WCR-028,attention_head,head_1_weight,head_2_weight,0.60,0.40,multi_head,0.52,weighted_sum,unit_interval,multihead_attention,head_averaging,brennet_kell,975,Multi-head attention combination
+WCR-029,residual_conn,main_path,skip_path,0.70,0.30,residual_out,1.00,add_normalized,unit_interval,residual_network,skip_connection,brennet_kell,975,Residual adds and renormalizes
+WCR-030,layer_norm,pre_norm_1,pre_norm_2,0.80,0.20,post_norm_1,0.80,layer_norm,unit_interval,normalization,layer_normalization,brennet_kell,975,Layer norm preserves ratios

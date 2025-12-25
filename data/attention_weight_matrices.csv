@@ -1,0 +1,45 @@
+matrix_id,context,source_1,source_2,source_3,source_4,target_1,target_2,target_3,target_4,observer,year,notes
+ATT-001,stakdur_observation,observer_north,observer_east,observer_south,observer_west,prey_rabbit,prey_bird,prey_insect,prey_fish,merrit_vance,940,Multi-observer attention distribution
+ATT-001-R1,stakdur_observation,observer_north,,,prey_rabbit,0.45,0.30,0.20,0.05,merrit_vance,940,North observer focuses on mammals
+ATT-001-R2,stakdur_observation,observer_east,,,prey_rabbit,0.25,0.55,0.15,0.05,merrit_vance,940,East observer focuses on birds
+ATT-001-R3,stakdur_observation,observer_south,,,prey_rabbit,0.20,0.25,0.45,0.10,merrit_vance,940,South observer focuses on insects
+ATT-001-R4,stakdur_observation,observer_west,,,prey_rabbit,0.10,0.15,0.20,0.55,merrit_vance,940,West observer focuses on fish (near water)
+ATT-002,archive_search,query_passage,query_form,query_relation,query_scholar,doc_treatise,doc_letter,doc_record,doc_diagram,lorren_dray,952,Archive retrieval attention
+ATT-002-R1,archive_search,query_passage,,,doc_treatise,0.65,0.15,0.12,0.08,lorren_dray,952,Passage queries favor treatises
+ATT-002-R2,archive_search,query_form,,,doc_treatise,0.40,0.10,0.35,0.15,lorren_dray,952,Form queries favor records
+ATT-002-R3,archive_search,query_relation,,,doc_treatise,0.25,0.45,0.20,0.10,lorren_dray,952,Relation queries favor letters
+ATT-002-R4,archive_search,query_scholar,,,doc_treatise,0.30,0.50,0.10,0.10,lorren_dray,952,Scholar queries favor letters
+ATT-003,creature_hunt,predator_a,predator_b,predator_c,,target_large,target_medium,target_small,,merrit_vance,935,Predator attention allocation
+ATT-003-R1,creature_hunt,predator_a,,,target_large,0.70,0.20,0.10,,merrit_vance,935,Large predator focuses on large prey
+ATT-003-R2,creature_hunt,predator_b,,,target_large,0.30,0.50,0.20,,merrit_vance,935,Medium predator balanced focus
+ATT-003-R3,creature_hunt,predator_c,,,target_large,0.15,0.25,0.60,,merrit_vance,935,Small predator focuses on small prey
+ATT-004,scholarly_debate,vold_position,pol_position,krell_position,,form_argument,relation_argument,empirical_argument,,merrit_vance,895,Attention in three-way debate
+ATT-004-R1,scholarly_debate,vold_position,,,form_argument,0.20,0.65,0.15,,merrit_vance,895,Vold attends to relations
+ATT-004-R2,scholarly_debate,pol_position,,,form_argument,0.60,0.25,0.15,,merrit_vance,895,Pol attends to forms
+ATT-004-R3,scholarly_debate,krell_position,,,form_argument,0.25,0.25,0.50,,merrit_vance,895,Krell attends to evidence
+ATT-005,boundary_monitoring,sensor_inner,sensor_middle,sensor_outer,,dens_activity,normal_activity,anomaly_signal,,torvun_kell,847,Monitoring attention by sensor depth
+ATT-005-R1,boundary_monitoring,sensor_inner,,,dens_activity,0.75,0.15,0.10,,torvun_kell,847,Inner sensors attend to dens
+ATT-005-R2,boundary_monitoring,sensor_middle,,,dens_activity,0.45,0.40,0.15,,torvun_kell,847,Middle sensors balanced
+ATT-005-R3,boundary_monitoring,sensor_outer,,,dens_activity,0.20,0.60,0.20,,torvun_kell,847,Outer sensors attend to normal
+ATT-006,memory_retrieval,cue_visual,cue_auditory,cue_semantic,cue_emotional,memory_episodic,memory_semantic,memory_procedural,memory_emotional,merrit_vance,942,Cue-type attention to memory types
+ATT-006-R1,memory_retrieval,cue_visual,,,memory_episodic,0.60,0.20,0.10,0.10,merrit_vance,942,Visual cues retrieve episodes
+ATT-006-R2,memory_retrieval,cue_auditory,,,memory_episodic,0.45,0.25,0.15,0.15,merrit_vance,942,Auditory cues more balanced
+ATT-006-R3,memory_retrieval,cue_semantic,,,memory_episodic,0.15,0.65,0.15,0.05,merrit_vance,942,Semantic cues retrieve concepts
+ATT-006-R4,memory_retrieval,cue_emotional,,,memory_episodic,0.20,0.10,0.05,0.65,merrit_vance,942,Emotional cues retrieve feelings
+ATT-007,trade_negotiation,buyer_need,buyer_budget,seller_offer,,quality_high,quality_medium,quality_low,quality_bulk,archive_record,920,Attention in trade decisions
+ATT-007-R1,trade_negotiation,buyer_need,,,quality_high,0.55,0.30,0.10,0.05,archive_record,920,Need-focused buyers want quality
+ATT-007-R2,trade_negotiation,buyer_budget,,,quality_high,0.20,0.35,0.35,0.10,archive_record,920,Budget-focused buyers balanced mid-low
+ATT-008,sentence_parsing,word_subject,word_verb,word_object,word_modifier,role_agent,role_action,role_patient,role_manner,corren_moll,958,Attention in linguistic analysis
+ATT-008-R1,sentence_parsing,word_subject,,,role_agent,0.75,0.10,0.10,0.05,corren_moll,958,Subjects map to agents
+ATT-008-R2,sentence_parsing,word_verb,,,role_agent,0.10,0.75,0.10,0.05,corren_moll,958,Verbs map to actions
+ATT-008-R3,sentence_parsing,word_object,,,role_agent,0.10,0.10,0.75,0.05,corren_moll,958,Objects map to patients
+ATT-008-R4,sentence_parsing,word_modifier,,,role_agent,0.05,0.15,0.10,0.70,corren_moll,958,Modifiers map to manner
+ATT-009,self_attention,token_1,token_2,token_3,token_4,token_1,token_2,token_3,token_4,brennet_kell,975,Self-attention pattern (proto-transformer)
+ATT-009-R1,self_attention,token_1,,,token_1,0.40,0.25,0.20,0.15,brennet_kell,975,Token 1 attends mostly to self
+ATT-009-R2,self_attention,token_2,,,token_1,0.25,0.35,0.25,0.15,brennet_kell,975,Token 2 self-attends and neighbors
+ATT-009-R3,self_attention,token_3,,,token_1,0.20,0.25,0.35,0.20,brennet_kell,975,Token 3 similar pattern
+ATT-009-R4,self_attention,token_4,,,token_1,0.15,0.15,0.25,0.45,brennet_kell,975,Token 4 attends mostly to self
+ATT-010,cross_attention,query_seq_1,query_seq_2,query_seq_3,,key_seq_a,key_seq_b,key_seq_c,,brennet_kell,975,Cross-sequence attention
+ATT-010-R1,cross_attention,query_seq_1,,,key_seq_a,0.50,0.30,0.20,,brennet_kell,975,Query 1 focuses on key A
+ATT-010-R2,cross_attention,query_seq_2,,,key_seq_a,0.25,0.50,0.25,,brennet_kell,975,Query 2 focuses on key B
+ATT-010-R3,cross_attention,query_seq_3,,,key_seq_a,0.20,0.30,0.50,,brennet_kell,975,Query 3 focuses on key C

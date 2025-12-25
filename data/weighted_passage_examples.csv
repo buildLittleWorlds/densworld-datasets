@@ -1,0 +1,51 @@
+passage_id,source,target,morphism_name,weight,weight_type,domain,recorded_by,year,notes
+WP-001,stakdur_territory,northern_woods,seasonal_migration,0.85,frequency,creature_movement,merrit_vance,908,High-frequency passage observed during autumn
+WP-002,stakdur_territory,southern_marsh,emergency_flight,0.12,frequency,creature_movement,merrit_vance,908,Rare passage only during predator encounters
+WP-003,stakdur_territory,central_clearing,daily_forage,0.95,frequency,creature_movement,merrit_vance,908,Nearly constant passage for feeding
+WP-004,northern_woods,stakdur_territory,return_migration,0.83,frequency,creature_movement,merrit_vance,909,Slightly lower than outbound due to predation
+WP-005,archive_section_a,archive_section_b,document_transfer,0.42,frequency,archive_operation,tessery_vold,892,Routine transfer between sections
+WP-006,archive_section_b,archive_section_c,classification_flow,0.78,frequency,archive_operation,tessery_vold,893,High-volume classification pipeline
+WP-007,capital,western_archive,scholarly_correspondence,0.31,frequency,communication,merrit_vance,910,Regular but not dominant channel
+WP-008,western_archive,capital,theory_submission,0.15,frequency,communication,merrit_vance,912,Occasional formal submissions
+WP-009,dens_border,inner_dens,creature_crossing,0.07,intensity,boundary_dynamics,merrit_vance,935,Low frequency but extremely high consequence
+WP-010,inner_dens,dens_border,creature_return,0.03,intensity,boundary_dynamics,merrit_vance,935,Even rarer return passages
+WP-011,observer_a,target_x,attention_focus,0.45,attention,cognitive,merrit_vance,940,Primary attention allocation
+WP-012,observer_a,target_y,attention_focus,0.35,attention,cognitive,merrit_vance,940,Secondary attention allocation
+WP-013,observer_a,target_z,attention_focus,0.20,attention,cognitive,merrit_vance,940,Residual attention (sum = 1.0)
+WP-014,query_node,key_node_1,similarity_match,0.62,attention,qkv_structure,merrit_vance,946,Strong query-key alignment
+WP-015,query_node,key_node_2,similarity_match,0.28,attention,qkv_structure,merrit_vance,946,Moderate alignment
+WP-016,query_node,key_node_3,similarity_match,0.10,attention,qkv_structure,merrit_vance,946,Weak alignment (sum = 1.0)
+WP-017,document_a,document_b,citation,0.55,importance,archive_structure,lorren_dray,950,Heavily cited foundational work
+WP-018,document_b,document_c,citation,0.23,importance,archive_structure,lorren_dray,950,Moderate citation
+WP-019,document_c,document_a,citation,0.12,importance,archive_structure,lorren_dray,950,Backreference creates weighted cycle
+WP-020,concept_form,concept_instance,instantiation,0.91,semantic,philosophy,erris_pol,893,Strong form-instance relationship
+WP-021,concept_instance,concept_form,abstraction,0.67,semantic,philosophy,erris_pol,893,Weaker reverse mapping
+WP-022,moat_sector_nw,moat_sector_ne,patrol_route,0.88,operational,infrastructure,torvun_kell,847,Primary patrol passage
+WP-023,moat_sector_ne,moat_sector_se,patrol_route,0.76,operational,infrastructure,torvun_kell,847,Secondary patrol route
+WP-024,moat_sector_se,moat_sector_sw,patrol_route,0.65,operational,infrastructure,torvun_kell,847,Less frequent patrol
+WP-025,moat_sector_sw,moat_sector_nw,patrol_route,0.82,operational,infrastructure,torvun_kell,847,Return loop completion
+WP-026,student_mind,teacher_mind,knowledge_transfer,0.73,pedagogical,education,merrit_vance,905,Strong mentorship passage
+WP-027,teacher_mind,student_mind,feedback,0.45,pedagogical,education,merrit_vance,905,Moderate feedback channel
+WP-028,trade_post_a,trade_post_b,goods_flow,0.58,economic,commerce,archive_record,920,Regular trade route
+WP-029,trade_post_b,trade_post_c,goods_flow,0.34,economic,commerce,archive_record,920,Secondary route
+WP-030,trade_post_c,trade_post_a,goods_flow,0.41,economic,commerce,archive_record,920,Triangular trade completion
+WP-031,sensory_input,attention_filter,raw_signal,1.00,cognitive,perception,merrit_vance,942,Unfiltered input (pre-normalization)
+WP-032,attention_filter,conscious_awareness,filtered_signal,0.25,cognitive,perception,merrit_vance,942,Only fraction reaches awareness
+WP-033,conscious_awareness,memory_store,encoding,0.18,cognitive,memory,merrit_vance,942,Even less encoded to memory
+WP-034,memory_store,conscious_awareness,retrieval,0.42,cognitive,memory,merrit_vance,942,Retrieval more reliable than encoding
+WP-035,creature_nest,feeding_ground_1,primary_forage,0.52,behavioral,ethology,merrit_vance,908,Main feeding passage
+WP-036,creature_nest,feeding_ground_2,secondary_forage,0.31,behavioral,ethology,merrit_vance,908,Backup feeding passage
+WP-037,creature_nest,feeding_ground_3,emergency_forage,0.09,behavioral,ethology,merrit_vance,908,Only when others depleted
+WP-038,creature_nest,water_source,hydration,0.08,behavioral,ethology,merrit_vance,908,Essential but brief passage (sum = 1.0)
+WP-039,archive_query,result_1,relevance_score,0.41,retrieval,information,lorren_dray,952,Top result
+WP-040,archive_query,result_2,relevance_score,0.29,retrieval,information,lorren_dray,952,Second result
+WP-041,archive_query,result_3,relevance_score,0.18,retrieval,information,lorren_dray,952,Third result
+WP-042,archive_query,result_4,relevance_score,0.12,retrieval,information,lorren_dray,952,Fourth result (sum = 1.0)
+WP-043,premise_1,conclusion,logical_support,0.65,inferential,logic,brennis_mund,830,Primary support
+WP-044,premise_2,conclusion,logical_support,0.35,inferential,logic,brennis_mund,830,Secondary support (sum = 1.0)
+WP-045,observation_a,hypothesis,evidence_weight,0.72,scientific,methodology,merrit_vance,925,Strong evidential support
+WP-046,observation_b,hypothesis,evidence_weight,0.28,scientific,methodology,merrit_vance,925,Weaker but confirming evidence
+WP-047,territory_core,territory_edge,influence_gradient,0.95,spatial,geography,merrit_vance,930,Strong core influence
+WP-048,territory_edge,neighboring_territory,influence_gradient,0.32,spatial,geography,merrit_vance,930,Diminished at boundaries
+WP-049,word_a,word_b,co_occurrence,0.67,linguistic,language,corren_moll,958,Frequent co-occurrence
+WP-050,word_b,word_c,co_occurrence,0.23,linguistic,language,corren_moll,958,Less frequent pairing
