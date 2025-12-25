@@ -1,0 +1,33 @@
+example_id,object_type,object_name,probe_method,probe_value,expected_behavior,observed_behavior,matches,year_tested,tester,context,notes
+PB-001,document,boundary_survey_847,author_index,torvun_kell,author attribution,torvun_kell,TRUE,948,pelleth_strand,archive_classification,Simple probe: what does author_index return for this document?
+PB-002,document,boundary_survey_847,subject_catalog,boundary_anomalies,topic classification,boundary_anomalies,TRUE,948,pelleth_strand,archive_classification,Subject probe for same document
+PB-003,document,boundary_survey_847,date_index,847-01-19,temporal placement,847-01-19,TRUE,948,pelleth_strand,archive_classification,Date probe for same document
+PB-004,document,keth_memorandum,author_index,vornis_keth,author attribution,vornis_keth,TRUE,949,pelleth_strand,archive_classification,Testing different document with same probes
+PB-005,document,keth_memorandum,subject_catalog,moat_failure_prediction,topic classification,moat_failure_prediction,TRUE,949,pelleth_strand,archive_classification,Subject probe on Keth's memorandum
+PB-006,document,keth_memorandum,date_index,847-12-15,temporal placement,847-12-15,TRUE,949,pelleth_strand,archive_classification,Date probe on Keth's memorandum
+PB-007,archive_method,author_index,document_A,kell_report,method behavior,set of author names,TRUE,950,pelleth_strand,representable_testing,Probing the probe: what does this method do?
+PB-008,archive_method,subject_catalog,document_A,kell_report,method behavior,set of subject terms,TRUE,950,pelleth_strand,representable_testing,Testing method behavior
+PB-009,vector,embedding_v1,similarity_to_A,query_vector,cosine similarity,0.87,TRUE,955,pelleth_strand,numerical_embedding,First numerical probe test
+PB-010,vector,embedding_v1,similarity_to_B,query_vector,cosine similarity,0.23,TRUE,955,pelleth_strand,numerical_embedding,Testing different probe direction
+PB-011,vector,embedding_v1,projection_onto_subspace,topic_subspace,coordinate values,[0.4 0.7 -0.2],TRUE,956,pelleth_strand,numerical_embedding,Subspace projection as probe
+PB-012,vector,embedding_v2,similarity_to_A,query_vector,cosine similarity,0.89,TRUE,957,pelleth_strand,numerical_embedding,Same object different embedding
+PB-013,concept,representable_functor,from_object_A,hom(A -),functor behavior,set of morphisms,TRUE,958,pelleth_strand,yoneda_context,Testing Hom-functor as probe
+PB-014,concept,representable_functor,from_object_B,hom(B -),functor behavior,set of morphisms,TRUE,958,pelleth_strand,yoneda_context,Different representable
+PB-015,morphism,composition_test,f_then_g,A->B->C,composition result,A->C,TRUE,959,pelleth_strand,categorical_structure,Probing morphism structure
+PB-016,morphism,identity_test,id_A,A->A,identity behavior,unchanged,TRUE,959,pelleth_strand,categorical_structure,Identity morphism probe
+PB-017,document,dray_treatise_938,author_index,lorren_dray,author attribution,lorren_dray,TRUE,960,pelleth_strand,dray_collaboration,Testing Dray's own work
+PB-018,document,dray_treatise_938,subject_catalog,representable_functors,topic classification,representable_functors,TRUE,960,pelleth_strand,dray_collaboration,Subject of Dray's representable perspective
+PB-019,vector,word_embedding_cat,similarity_to_dog,query_vector,semantic similarity,0.62,TRUE,962,pelleth_strand,word_vectors,Testing word embeddings
+PB-020,vector,word_embedding_cat,similarity_to_furniture,query_vector,semantic similarity,0.15,TRUE,962,pelleth_strand,word_vectors,Testing distant concepts
+PB-021,vector,word_embedding_cat,similarity_to_kitten,query_vector,semantic similarity,0.85,TRUE,962,pelleth_strand,word_vectors,Testing close concepts
+PB-022,object,archive_A,morphisms_from_B,hom(B A),morphism set,{f1 f2 f3},TRUE,965,pelleth_strand,yoneda_embedding,Complete probe from object B
+PB-023,object,archive_A,morphisms_from_C,hom(C A),morphism set,{g1 g2},TRUE,965,pelleth_strand,yoneda_embedding,Complete probe from object C
+PB-024,object,archive_A,morphisms_from_D,hom(D A),morphism set,{h1},TRUE,965,pelleth_strand,yoneda_embedding,Complete probe from object D
+PB-025,functor,F_embedding,natural_transformation,eta: F -> G,component family,{eta_A eta_B eta_C},TRUE,968,pelleth_strand,transformation_context,Probe of functor structure
+PB-026,functor,G_embedding,natural_transformation,eta: F -> G,component family,{eta_A eta_B eta_C},TRUE,968,pelleth_strand,transformation_context,Target functor probe
+PB-027,sentence,the cat sat,embedding_dimension_1,positive_axis,coordinate value,0.34,TRUE,972,pelleth_strand,sentence_embedding,Sentence embedding probe
+PB-028,sentence,the cat sat,embedding_dimension_2,negative_axis,coordinate value,-0.56,TRUE,972,pelleth_strand,sentence_embedding,Second dimension probe
+PB-029,sentence,the cat sat,embedding_dimension_3,neutral_axis,coordinate value,0.12,TRUE,972,pelleth_strand,sentence_embedding,Third dimension probe
+PB-030,sentence,the dog ran,embedding_dimension_1,positive_axis,coordinate value,0.31,TRUE,972,pelleth_strand,sentence_embedding,Similar sentence comparison
+PB-031,document,strand_proof_978,completeness_check,all_probes,full characterization,object determined,TRUE,978,pelleth_strand,theorem_verification,Final verification: probes determine object
+PB-032,document,strand_proof_978,uniqueness_check,identity_criterion,same probes same object,verified,TRUE,978,pelleth_strand,theorem_verification,Uniqueness verification: identical probes imply identical objects
